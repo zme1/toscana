@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lega Toscana di Protezione Meeting Minutes</title>
+         </titleStmt>
+         <extent>153 pg.</extent>
+         <publicationStmt>
+            <authority><orgName>Heinz History Center</orgName></authority>
+            <address>
+               <addrLine>1212 Smallman st.</addrLine>
+               <addrLine>Pittsburgh, PA 15222</addrLine>
+               <addrLine>U.S.A.</addrLine>
+            </address>
+            <idno type="URI">http://heinzhistorycenter.org</idno>
+            <availability>
+               <p>The materials transcribed below are available for public use in the Detre Library &amp; Archives
+               located in the Heinz History Center WITH ADDITIONAL INFORMATION ON TEXT AVAILABILITY.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <institution>Heinz History Center</institution>
+                  <repository>Detre Library &amp; Archives</repository>
+                  <idno>MANUSCRIPT CALL NUMBER, IF AVAILABLE</idno>
+                  <msName>LEGA Minutes: 1-21-19 - 12-17-25</msName>
+               </msIdentifier>
+               <physDesc>
+                  <handDesc>
+                     <p>This volume of minutes was written by an **indistinct number of contributors**</p>
+                  </handDesc>
+                  <accMat>
+                     <p>The meeting minutes contain, in addition to written record of meetings, expense sheets that
+                        describe account balances and any spending or receipt of money by the organization.</p>
+                  </accMat>
+               </physDesc>
+               <history>
+                  <origin><p>The manuscript containing meeting minutes was compiled by Lega members during
+               the monthly meetings that took place in Pittsburgh, PA. This volume contains meeting minutes
+               that span from January of 1919 to December of 1925, and were written by the designated secratary
+               at the point of the meeting - a position that changed hands a number of times throughout
+               the compilation of meeting notes.</p></origin>
+                  <acquisition>
+                     <p>INFORMATION ON ACQUISITION OF THE MANUSCRIPT</p>
+                  </acquisition>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <profileDesc>
+        <settingDesc>
+        <p>INFORMATION ON MEETING SETTING</p>
+     </settingDesc>
+        <textDesc>
+           <channel mode="w"/>
+           <constitution type="composite"/>
+           <derivation type="transcription"/>
+           <domain type="valueNeeded"></domain>
+           <!-- In which domain do these meetings fall? Public? Domestic? Business? -->
+           <factuality type="fact">The meeting minutes were handwritten accounts of discussions held, decisions, or money allocated made during the meetings.</factuality>
+           <interaction type="partial" active="plural" passive="group"/>
+           <preparedness type="formulaic"/>
+           <purpose></purpose>
+        </textDesc>
+     </profileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <ab>[15]
+            Lega Toscana di Protezione
+            Seduta Regolare Ordinaria 15 Aprile 1919
+            
+            Alle Ore 9 – Precise <persName ref="#fredianiM"><roleName>il Presidente</roleName> Muzio <surname>Frediani</surname></persName>
+            dichiarava aperta la Seduta.
+            Ordinò l’appello Nominale Risultò Mancante
+            il Vice Presidente Stefano Maffei
+            quindi vi fu Lettere Precesso Verbale e fu
+            approvato Come è Scritto da tutta la Assem-
+            blea Generale
+            vi furono Cinque (5) Nuove Aplicazione
+            le quali Sono i seguenti Nomi-
+            Matteo Lunardini- Luigi Buchignani-
+            Michele Paterni- Enrico DiRicco- Alberto
+            Lucchese Tutti Toscani e il fratello
+            <seg type="proposal"><persName ref="#silvioneC" role="agent">Carlo <surname>Silvione</surname></persName> fece la Proposta che le
+            (5) Cinque Nuove Aplicazione fossero
+            messe all’aprovazione all’arsata di mano
+            la Proposta fu assecondata dal fratello
+            <persName ref="#pellegriniE">Emilio <surname>Pellegrini</surname></persName>.</seg>
+            Cosi il Presidente Muzio Frediani
+            Li Messe all’aprovazione all’arsata
+            di Mano       	Furono aprovati con
+            tutti Favorevole. Nessun Contrario
+            la Loggia Cittadini Italo americani #31
+            ordine Figli d’italia ci inviò una lettera
+            nelle quale ci Invitava al Gran Ballo del
+            23 Aprile 1919 – e Nella Medesimia ci Inviò
+            3. ticket per L’ingresso all Ballo una
+            Per il Presidente e 2 per formare una
+            Comitato di Rapresentanza.-
+            [16]
+            Il Presidente Muzio Frediani dichiarò
+            Che non Poteva andarci a rapresentare
+            La Lega Toscana e allora Offri le Tickets
+            alla Samblea. le quali furono Consegnate
+            ai fratelli A. Marsili C. Roberta L. Lunardini
+            Con Promessa di aderire a Rapresentare
+            la Lega Toscana in quella Sera
+            Si Passo a Raporto Ufficiali Sanitari
+            Del fratello Pietro Baranti che certificano
+            amalato dal 1st Aprile 1919 fino al 14 Aprile 1919
+            Con Certificato Medico del Dr. G.T. Ribetti
+            Il Raporto degli Ufli. Sanitari Eugenio Merciadri
+            e Carlo Giometti e’ Giustificato a quello del
+            Dr. Rebetti non vi fu nessuna oposizione a
+            riguardo il Presidente lo messe all’approvazione
+            per Lassegno di Sussidio di $1.00 al giorno questo
+            Nostro Regolamento fu aprovato di pagarci
+            Al flo Pietro Baranti la Somma di $14.00
+            Il fratello Luigi Del Magro fu certificato
+            amalato dal 1o Aprile 1919 all 14 Aprile Con e 
+            Certificato dal Dr Cav Francesco Sunseri
+            dice che Si Trova amalato di Emiplegia paralizi
+            dal lato sinistro del Corpo e il fratello
+            Luigi Del Magro Trovarsi atualmente amalato
+            Raporto degli Ufli Sanitari Fu giustificato
+            Eugenio Merciadri Carlo Giometti a quelle
+            del Dr Cav. F. Sunseri
+            Non vi fu Nessuna oposizione a riguardo
+            Il Presidente lo messe allaprovazione di
+            Pagarci Lassegno di Sussidio e fu
+            Aprovato di Pagarci dal 1 Aprile al 14
+            Aprile la Somma di $14.00
+            [17]
+            quisto Nostro Regolamento e che i Pagamenti
+            Fossero Fatti con Check di Banca
+            il Presidente Muzio Frediani Presento
+            Per La Seconda Volta il Modo di affamig-
+            liare al Fondo Unico Mortuaro –
+            Madre e Sorelle Figli e Fratelli dei Soci
+            purche questi non Abiano Oltrapassato
+            Leta che Verà Stabilta d’allassemblea generale
+            Il Presidente Fece una Comissione per
+            riguardare i regolamenti per chi Vera
+            a Far Parte al Fondo Unico Mortuario
+            e poi Portarlo alla Assemblea Generale
+            per Laaprovazione  Per la Comizione Sono
+            Seguenti [illeggibile] Serafino DeSiecco Gueseppe Fredianelli
+            Carlo Silvione M Simonetti
+            
+            Non Avendo Altro da Fare il
+            Presidente Muzio Frediani alle Ore
+            11 Precise dichiarava sciolta
+            La Seduta
+            
+            Il Presidente                   	        	   	Il Segretario
+            [signed] M Frediani                        	[signed]  M Simonetti</ab>
+      </body>
+  </text>
+</teiCorpus>
