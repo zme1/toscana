@@ -18,11 +18,11 @@
   </teiHeader>
   <text>
       <body>
-         <p>[15]
+         <ab>[15]
             Lega Toscana di Protezione
             Seduta Regolare Ordinaria 15 Aprile 1919
             
-            Alle Ore 9 – Precise il Presidente Muzio Frediani
+            Alle Ore 9 – Precise <persName ref="#fredianiM"><roleName>il Presidente</roleName> Muzio <surname>Frediani</surname></persName>
             dichiarava aperta la Seduta.
             Ordinò l’appello Nominale Risultò Mancante
             il Vice Presidente Stefano Maffei
@@ -34,11 +34,11 @@
             Matteo Lunardini- Luigi Buchignani-
             Michele Paterni- Enrico DiRicco- Alberto
             Lucchese Tutti Toscani e il fratello
-            Carlo Silvione fece la Proposta che le
+            <seg type="proposal"><persName ref="#silvioneC" role="agent">Carlo <surname>Silvione</surname></persName> fece la Proposta che le
             (5) Cinque Nuove Aplicazione fossero
-            messe all’aprovazione all’arsata (all’arsatta -- all’alzata -- buona traduzione) di mano
+            messe all’aprovazione all’arsata di mano
             la Proposta fu assecondata dal fratello
-            Emilio Pellegrini.
+            <persName ref="#pellegriniE">Emilio <surname>Pellegrini</surname></persName>.</seg>
             Cosi il Presidente Muzio Frediani
             Li Messe all’aprovazione all’arsata
             di Mano       	Furono aprovati con
@@ -49,7 +49,7 @@
             23 Aprile 1919 – e Nella Medesimia ci Inviò
             3. ticket per L’ingresso all Ballo una
             Per il Presidente e 2 per formare una
-            Comitato di Rapresentanza.
+            Comitato di Rapresentanza.-
             [16]
             Il Presidente Muzio Frediani dichiarò
             Che non Poteva andarci a rapresentare
@@ -106,7 +106,7 @@
             La Seduta
             
             Il Presidente                   	        	   	Il Segretario
-            [signed] M Frediani                        	[signed]  M Simonetti</p>
+            [signed] M Frediani                        	[signed]  M Simonetti</ab>
       </body>
   </text>
 </TEI>
