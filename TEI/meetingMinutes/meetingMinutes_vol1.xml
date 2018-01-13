@@ -10,7 +10,9 @@
          </titleStmt>
          <extent>153 pg.</extent>
          <publicationStmt>
-            <authority><orgName>Heinz History Center</orgName></authority>
+            <authority>
+               <orgName>Heinz History Center</orgName>
+            </authority>
             <address>
                <addrLine>1212 Smallman st.</addrLine>
                <addrLine>Pittsburgh, PA 15222</addrLine>
@@ -18,8 +20,10 @@
             </address>
             <idno type="URI">http://heinzhistorycenter.org</idno>
             <availability>
-               <p>The materials transcribed below are available for public use in the Detre Library &amp; Archives
-               located in the Heinz History Center WITH ADDITIONAL INFORMATION ON TEXT AVAILABILITY.</p>
+               <p>
+                  The materials transcribed below are available for public use in the Detre Library &amp; Archives
+                  located in the Heinz History Center WITH ADDITIONAL INFORMATION ON TEXT AVAILABILITY.
+               </p>
             </availability>
          </publicationStmt>
          <sourceDesc>
@@ -32,21 +36,31 @@
                </msIdentifier>
                <physDesc>
                   <handDesc>
-                     <p>This volume of minutes was written by an **indistinct number of contributors**</p>
+                     <p>
+                        This volume of minutes was written by an **indistinct number of contributors**
+                     </p>
                   </handDesc>
                   <accMat>
-                     <p>The meeting minutes contain, in addition to written record of meetings, expense sheets that
-                        describe account balances and any spending or receipt of money by the organization.</p>
+                     <p>
+                        The meeting minutes contain, in addition to written record of meetings, expense sheets that
+                        describe account balances and any spending or receipt of money by the organization.
+                     </p>
                   </accMat>
                </physDesc>
                <history>
-                  <origin><p>The manuscript containing meeting minutes was compiled by Lega members during
-               the monthly meetings that took place in Pittsburgh, PA. This volume contains meeting minutes
-               that span from January of 1919 to December of 1925, and were written by the designated secratary
-               at the point of the meeting - a position that changed hands a number of times throughout
-               the compilation of meeting notes.</p></origin>
+                  <origin>
+                     <p>
+                        The manuscript was compiled by Lega members during the monthly meetings that took 
+                        place in Pittsburgh, PA. This volume contains meeting minutes that span from January
+                        of 1919 to December of 1925, and were written by the designated secratary at the 
+                        point of the meeting - a position that changed hands a number of times throughout 
+                        the compilation of meeting notes.
+                     </p>
+                  </origin>
                   <acquisition>
-                     <p>INFORMATION ON ACQUISITION OF THE MANUSCRIPT</p>
+                     <p>
+                        INFORMATION ON ACQUISITION OF THE MANUSCRIPT
+                     </p>
                   </acquisition>
                </history>
             </msDesc>
@@ -54,7 +68,9 @@
       </fileDesc>
      <profileDesc>
         <settingDesc>
-        <p>INFORMATION ON MEETING SETTING</p>
+        <p>
+           INFORMATION ON MEETING SETTING
+        </p>
      </settingDesc>
         <textDesc>
            <channel mode="w"/>
@@ -62,20 +78,28 @@
            <derivation type="transcription"/>
            <domain type="valueNeeded"/>
            <!-- In which domain do these meetings fall? Public? Domestic? Business? -->
-           <factuality type="fact">The meeting minutes were handwritten accounts of discussions held, decisions, or money allocated made during the meetings.</factuality>
+           <factuality type="fact">The meeting minutes were handwritten accounts of 
+              discussions held, decisions, or money allocated made during the meetings.</factuality>
            <interaction type="partial" active="plural" passive="group"/>
            <preparedness type="formulaic"/>
            <purpose type="valueNeeded" degree="unknown"/>
            <!-- What was the purpose of these meetings? Inform? Plan? Collaborate? -->
         </textDesc>
         <abstract resp="#enickZ">
-           <p>This research study is a collaborative effort between four undergraduate students and one faculty member at the University
-           of Pittsburgh in Pittsburgh, PA to explore geographical, linguistic, and anthropological information regarding members and
-           affiliates of the Lega Toscana di Protezione, a Pittsburgh-based fraternal group of Tuscan Italian immigrants. The primary 
-           purpose of this specific file is to contain specially marked-up renditionsof the transcribed minutes in order to create a 
-           social network mapping that will illuminate relationships and dynamics between both members of the Lega and those in the 
-           greater community based on varied types of interactions represented within the minutes log.</p>
+           <p>
+              This research study is a collaborative effort between four undergraduate students
+              and one faculty member at the University of Pittsburgh in Pittsburgh, PA to explore 
+              geographical, linguistic, and anthropological information regarding members and affiliates
+              of the Lega Toscana di Protezione, a Pittsburgh-based fraternal group of Tuscan Italian 
+              immigrants. The primary purpose of this specific file is to contain specially marked-up
+              renditionsof the transcribed minutes in order to create a social network mapping that will
+              illuminate relationships and dynamics between both members of the Lega and those in the greater 
+              community based on varied types of interactions represented within the minutes log.
+           </p>
         </abstract>
+        <langUsage>
+           <language ident="it">Tuscan Italian, with some anglicisms</language>
+        </langUsage>
      </profileDesc>
   </teiHeader>
   <text>
