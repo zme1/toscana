@@ -125,10 +125,9 @@
       <text>
          <body>
             <ab>
-               <pb n="15"/> Alle Ore 9 – Precise <persName ref="#mf"><roleName>il
-                     Presidente</roleName> Muzio <surname>Frediani</surname></persName><lb/>
-               dichiarava aperta la Seduta.<lb/> Ordinò l’appello Nominale Risultò Mancante<lb/> il
-                  <persName ref="#sm"><roleName>Vice Presidente</roleName> Stefano
+               <pb n="15"/> Alle Ore 9 – Precise <persName ref="#mf">il<roleName>Presidente</roleName> Muzio <surname>Frediani</surname></persName><lb/>
+               dichiarava aperta la Seduta.<lb/> Ordinò l’appello Nominale Risultò Mancante<lb/> 
+                  <persName ref="#sm">il<roleName>Vice Presidente</roleName> Stefano
                      <surname>Maffei</surname></persName><lb/> quindi vi fu Lettere Precesso Verbale
                e fu<lb/> approvato Come è Scritto da tutta la Assem-<lb/> blea Generale<lb/> vi
                furono Cinque (5) Nuove Aplicazione<lb/> le quali Sono i seguenti Nomi-<lb/>
@@ -143,7 +142,7 @@
                   mano<lb/> la Proposta fu assecondata dal fratello<lb/>
                   <persName ref="#ep" role="supporter">Emilio
                      <surname>Pellegrini</surname></persName>.</seg><lb/> Cosi <persName ref="#mf"
-                     ><roleName>il Presidente</roleName> Muzio
+                     >il<roleName>Presidente</roleName> Muzio
                   <surname>Frediani</surname></persName><lb/> Li Messe all’aprovazione
                all’arsata<lb/> di Mano Furono aprovati con<lb/> tutti Favorevole. Nessun
                Contrario<lb/> la Loggia Cittadini Italo americani #31<lb/> ordine <seg type="invite"
@@ -152,7 +151,7 @@
                   Nella Medesimia ci Inviò<lb/> 3. ticket per L’ingresso all Ballo una<lb/> Per il
                   Presidente e 2 per formare una<lb/> Comitato di Rapresentanza.</seg>-<lb/>
                <pb n="16"/>
-               <persName ref="#mf"><roleName>Il Presidente</roleName> Muzio
+               <persName ref="#mf">Il<roleName>Presidente</roleName> Muzio
                      <surname>Frediani</surname></persName> dichiarò<lb/> Che non Poteva andarci a rapresentare<lb/>
                <orgName ref="#legaT">La Lega Toscana</orgName> e allora Offri le Tickets<lb/> alla
                Samblea. le quali furono Consegnate<lb/> ai fratelli <persName ref="#am">A.
@@ -210,5 +209,89 @@
          </body>
       </text>
    </TEI>
-
+<TEI>
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">La Lega Toscana di Protezione</title>
+            <title type="sub">Seduta Ordinaria maggio 20 - 1919</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>La Lega Toscana di Protezione</authority>
+            <date when="1919-05-20"/>
+            <idno>pg. 19-20</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Source Description.</p>
+            <!-- Is there aditional important information that should be put here? -->
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab><pb n="19"/>
+            Alle ore 930 P.M. <persName ref="#mf"><roleName>Presidente</roleName> M <surname>Frediani</surname></persName><lb/>
+            dichiarò la Seduta Aperta<lb/>
+            <seg type="delegation" subtype="task"><rs ref="#mf" role="delegator">Ordinò</rs>  L’apello Nominate il Curatore<lb/>
+            <persName ref="#sp">Sam <surname>Paganucci</surname></persName><lb/></seg>
+            quindi Si Passò Alla Lettura Precessa<lb/>
+            Verbale il quale Fui aprovato Come e<lb/>
+            Scritto.<lb/>
+            Vi Furono Presentate 3 -- Aplicazini<lb/>
+            i quali Sono Vincenzo Batistini Jeapo<lb/>
+            Sodini Modesto Zini<lb/>
+            tutti furore aprovati di far Parte<lb/>
+            Alla Nostra Famiglia 	Lega Toscana<lb/>
+            Pagamenti Sussidi<lb/>
+            F. Giangranedi Nove giorni di Malatea $9.00<lb/>
+            Luigi Del Magro il Settimane      	  28.00<lb/>
+            Si Passo alla Lettura del Nuovo Regolame-<lb/>
+            Nto Unico Fondo Mortuario per la prima<lb/>
+            Volta e Fuì aprovato tutti gli art<lb/>
+            Da tutta l’assemblea Generale<lb/>
+            <seg type="proposal"><persName ref="#cs" role="proposer">Il <roleName>Frt</roleName> C. <surname>Silvione</surname></persName> Fece una Proposta di<lb/>
+            dare un Ballo Nel Mese di Ottobre 1919<lb/>
+            a Beneficio da Meta a Fondi Sussidio<lb/>
+            e lartra Metà a Fondo Unico Morturaro<lb/>
+            la Proposta Fu Assecondata dal<lb/>
+            <persName ref="#am" role="supporter">Frat A Marsili</persName> e fu aprovato dalla<lb/>
+            Samblea<lb/></seg>
+            <seg type="proposal"><persName ref="#ep" role="proposer">Il <roleName>Frat</roleName> E Pellegrini</persName> Fece la Proposta<lb/>
+            di dare una Festa Campestre e<lb/>
+            
+            <pb n="20"/> 
+            Famigliare Nel Mese di Luglio<lb/>
+            Entrante la Proposta fu Assecondata<lb/>
+            <persName ref="#ll" role="supporter">dal <roleName>Frat</roleName> L. Lundardini</persName>  e da tutta<lb/>
+            L’assemblea Generale<lb/></seg>
+            <!-- The whole general assembly was attributed with having "seconded the motion" in addition to Lunardini; should we consider the
+               whole assembly to be a single supportive entity in the network in moments like this??? -->
+            <!-- What can be considered a person's "name"? Should we include member roles, as in <roleName>? If so, should articles
+            be included or excluded? Should articulated articles (like the one above) be treated differently still? -->
+            <seg type="delegation" subtype="committee"><rs ref="#mf" role="delegator">Il <roleName>Presidente</roleName></rs> Scelse un Comitato<lb/>
+               <!-- When a person is referenced using their role name, would <rs> suffice, as with verbs who represent an implicitly mentioned subject? -->
+            di Ivesticazione per dare la Festa<lb/>
+            Campestre<lb/>
+            
+            <persName ref="#am" role="delegated">Abramo <surname>Marsili</surname></persName><lb/>
+            
+            <persName ref="#ll" role="delegated">Lorenzo <surname>Lunardici</surname></persName><lb/>
+            
+            <persName ref="#sp" role="delegated">Santino Pasquinelli</persName><lb/>
+            
+            <persName ref="#sm" role="delegated">Stefano <surname>Maffei</surname></persName><lb/>
+            
+            E di Raportare alla Prossima Seduta<lb/>
+            il Loro Operato<lb/></seg>
+            
+            Non Avendo altro da Fare Il Prest<lb/>
+            Muzio Frediani alle ore 11 pm<lb/>
+            dichiarava la Seduta Sciolta<lb/>
+            
+            Il Preste                 	Il Segno
+            [signed]   M. Frediani	[signed] M. Simonetti
+         </ab>
+      </body>
+   </text>
+</TEI>
 </teiCorpus>
