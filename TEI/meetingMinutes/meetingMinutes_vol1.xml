@@ -234,7 +234,7 @@
             <ab><pb n="19"/> Alle ore 930 P.M. <persName ref="#mf"><roleName>Presidente</roleName> M
                      <surname>Frediani</surname></persName><lb/> dichiarò la Seduta Aperta<lb/>
                <seg type="delegation" subtype="task"><rs ref="#mf" role="delegator">Ordinò</rs>
-                  L’apello Nominale il Curatore<lb/>
+                  L’apello Nominato il Curatore<lb/>
                   <persName ref="#sp">Sam <surname>Paganucci</surname></persName><lb/></seg> quindi
                Si Passò Alla Lettura Precessa<lb/> Verbale il quale Fui aprovato Come e<lb/>
                Scritto.<lb/> Vi Furono Presentate 3 -- Aplicazini<lb/> i quali Sono Vincenzo
@@ -271,6 +271,76 @@
                   il Loro Operato<lb/></seg> Non Avendo altro da Fare Il Prest<lb/> Muzio Frediani
                alle ore 11 pm<lb/> dichiarava la Seduta Sciolta<lb/> Il Preste Il Segno [signed] M.
                Frediani [signed] M. Simonetti </ab>
+         </body>
+      </text>
+   </TEI>
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title type="main">Lega Toscana di Protezione</title>
+               <title type="sub">Seduta Generale Ordinario 17 giugno 1919</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>La Lega Toscana di Protezione</authority>
+               <date when="1919-06-17"/>
+               <idno>pg. 19-20</idno>
+            </publicationStmt>
+            <sourceDesc>               <p>Source Description.</p>
+               <!-- Is there aditional important information that should be put here? --></sourceDesc>
+         </fileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <ab>
+               <pb n="21"/>
+               Alle Ore 930 P.M. <persName ref="#mf">Il <roleName>presidente</roleName> Muzio <surname>Frediani</surname></persName><lb/>
+               Dichiarava aperta la Seduta<lb/>
+               Apello Nominale ufle<lb/>
+               Risultarono Mancanti i Seguenti<lb/>
+               (Curre) Sam Paganucci Abramo Marsili ufle Sanri<lb/>
+               Carlo Giometti Guadia Sala - Angelo Fontana<lb/>
+               (Fu) Lettura Processo Verbale il quale Venne<lb/>
+               aprovato Come e Scritto<lb/>
+               (anza) la Societa M. S. Gugliermo Marconi ci Invio’<lb/>
+               una Lettera di Invito al loro gran ballo<lb/>
+               25 giugno 1919 - Nella Sala da Ballo<lb/>
+               6023 - Penn ava city Nella Medesima<lb/>
+               vi era Incluso 5 Tickette d’amissione Gratuite<lb/>
+               Linvito della Societa M. S. G. M. Fu’ acetta<lb/>
+               Per La Seconda volta Fu dato Lettura dello<lb/>
+               Statuto Unica Fondo Mortuario e Fu<lb/>
+               aprovato da tutti per la Seconda Volta<lb/>
+               Il Fratello M. Simonetti Fece una Proposta<lb/>
+               Famigliare<lb/>
+               di dare una Festa Campestre Nel Mese<lb/>
+               di Agosto 1919 Essendo stato imPossibile<lb/>
+               a darla Nel Mese di Luglio la Proposta<lb/>
+               Fu’ assecondata dal Flo Cappellini<lb/>
+               e Fu aprovato da tutta l’assemblea<lb/>
+               Il Presidente Scelse il Comitoto per<lb/>
+               Trovare il Posto da dare la festa<lb/>
+               Commitato<lb/>
+               Stefano Maffei Santino Pasquinelli<lb/>
+               Casimiro Pellegrini Lorenzo Lunardini<lb/>
+               Serafino DeSiecco M Simonetti A Marsili<lb/>
+               
+               <pb n="22"/>
+               Il Fratello Stefano Maffei Fece una proposta<lb/>
+               da dare al comitato incaricato al trovare il<lb/>
+               il Posto Pieno Potere di Fissarlo Sibito e<lb/>
+               di Chiamare una Seduta Straordinaria<lb/>
+               Se la Credessero che gli Fosse Necessario<lb/>
+               la Proposta Fu assecondata dal Fratello<lb/>
+               Cappellini e da tutta la Samblea<lb/>
+               Non avendo altro da Fare<lb/>
+               Alle ore 1120 P.M. Il Presidente<lb/>
+               Muzio Frediani<lb/>
+               dichiarava la Seduta Sciolta<lb/>
+               Il Preste                    	Il Segrio
+               M. Frediani              	M. Simonetti
+               
+            </ab>
          </body>
       </text>
    </TEI>
