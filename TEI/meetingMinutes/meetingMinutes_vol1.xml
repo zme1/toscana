@@ -162,7 +162,7 @@
                <persName ref="#ll">L. Lunardini</persName><lb/> Con Promessa di aderire a Rapresentare<lb/>
                <orgName ref="#legaT">la Lega Toscana</orgName> in quella Sera<lb/> Si Passo a
                Raporto Ufficiali Sanitari<lb/>
-               <persName ref="#pb">Del fratello Pietro Baranti</persName> che certificano<lb/>
+               <persName ref="#pb">Del <roleName>fratello</roleName> Pietro <surname>Baranti</surname></persName> che certificano<lb/>
                amalato dal 1st Aprile 1919 fino al 14 Aprile 1919<lb/> Con Certificato Medico
                   <persName ref="#gr">Del <roleName>Dr.</roleName> G.T.
                   <surname>Ribetti</surname></persName><lb/> Il Raporto degli Ufli. Sanitari
@@ -284,7 +284,7 @@
             <publicationStmt>
                <authority>La Lega Toscana di Protezione</authority>
                <date when="1919-06-17"/>
-               <idno>pg. 19-20</idno>
+               <idno>pg. 21-22</idno>
             </publicationStmt>
             <sourceDesc>               <p>Source Description.</p>
                <!-- Is there aditional important information that should be put here? --></sourceDesc>
@@ -302,37 +302,37 @@
                Carlo Giometti Guadia Sala - Angelo Fontana<lb/>
                (Fu) Lettura Processo Verbale il quale Venne<lb/>
                aprovato Come e Scritto<lb/>
-               (anza) la Societa M. S. Gugliermo Marconi ci Invio’<lb/>
-               una Lettera di Invito al loro gran ballo<lb/>
-               25 giugno 1919 - Nella Sala da Ballo<lb/>
+               (anza) <seg type="invite"><orgName ref="#msgm" role="source">la Societa M. S. Gugliermo Marconi</orgName> <rs ref="#legaT" role="target">ci</rs> Invio’
+               una Lettera di Invito al loro gran ballo
+               25 giugno 1919 - Nella Sala da Ballo</seg>
                6023 - Penn ava city Nella Medesima<lb/>
                vi era Incluso 5 Tickette d’amissione Gratuite<lb/>
-               Linvito della Societa M. S. G. M. Fu’ acetta<lb/>
+               Linvito <orgName ref="#msgm">della Societa M. S. G. M</orgName>. Fu’ acetta<lb/>
                Per La Seconda volta Fu dato Lettura dello<lb/>
                Statuto Unica Fondo Mortuario e Fu<lb/>
                aprovato da tutti per la Seconda Volta<lb/>
-               Il Fratello M. Simonetti Fece una Proposta<lb/>
+               <seg type="proposal"><persName ref="#ms" role="proposer">Il <roleName>Fratello</roleName> M. <surname>Simonetti</surname></persName> Fece una Proposta<lb/>
                Famigliare<lb/>
                di dare una Festa Campestre Nel Mese<lb/>
                di Agosto 1919 Essendo stato imPossibile<lb/>
                a darla Nel Mese di Luglio la Proposta<lb/>
-               Fu’ assecondata dal Flo Cappellini<lb/>
-               e Fu aprovato da tutta l’assemblea<lb/>
-               Il Presidente Scelse il Comitoto per<lb/>
+               Fu’ assecondata <persName ref="#capellini">dal <roleName>Flo</roleName> <surname>Cappellini</surname></persName><lb/>
+               e Fu aprovato da tutta l’assemblea<lb/></seg>
+               <seg type="delegation" subtype="committee"><rs ref="#mf" role="source">Il <roleName>Presidente</roleName></rs> Scelse il Comitoto per<lb/>
                Trovare il Posto da dare la festa<lb/>
                Commitato<lb/>
-               Stefano Maffei Santino Pasquinelli<lb/>
-               Casimiro Pellegrini Lorenzo Lunardini<lb/>
-               Serafino DeSiecco M Simonetti A Marsili<lb/>
+               <persName ref="#sm" role="target">Stefano Maffei</persName> <persName ref="#sp" role="target">Santino Pasquinelli</persName><lb/>
+               <persName ref="cp" role="target">Casimiro Pellegrini</persName> <persName ref="#ll" role="target">Lorenzo Lunardini</persName><lb/>
+               <persName ref="#sd" role="target">Serafino <surname>DeSiecco</surname></persName> <persName ref="#ms" role="target">M <surname>Simonett</surname>i</persName> <persName ref="#am" role="target">A <surname>Marsili</surname></persName><lb/></seg>
                
                <pb n="22"/>
-               Il Fratello Stefano Maffei Fece una proposta<lb/>
+               <seg type="proposal"><persName ref="#sm" role="proposer">Il <roleName>Fratello</roleName> Stefano <surname>Maffei</surname></persName> Fece una proposta<lb/>
                da dare al comitato incaricato al trovare il<lb/>
                il Posto Pieno Potere di Fissarlo Sibito e<lb/>
                di Chiamare una Seduta Straordinaria<lb/>
                Se la Credessero che gli Fosse Necessario<lb/>
                la Proposta Fu assecondata dal Fratello<lb/>
-               Cappellini e da tutta la Samblea<lb/>
+               Cappellini e da tutta la Samblea<lb/></seg>
                Non avendo altro da Fare<lb/>
                Alle ore 1120 P.M. Il Presidente<lb/>
                Muzio Frediani<lb/>
@@ -341,6 +341,94 @@
                M. Frediani              	M. Simonetti
                
             </ab>
+         </body>
+      </text>
+   </TEI>
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title type="main">Lega Toscana di Protezione</title>
+               <title type="sub">Seduta generale Ordinaria 15 Luglio 1919 - </title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Lega Toscana di Protezione</authority>
+               <date when="1919-07-15"/>
+               <idno>pg. 23-25</idno>
+            </publicationStmt>
+            <sourceDesc><p>Source description.</p></sourceDesc>
+         </fileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <ab><pb n="23"/>
+               alle Ore 930 Minuti P.M. <persName ref="#mf">Il Presidente<lb/>
+               Muzio <surname>Frediani</surname></persName> dichiarava la Seduta<lb/>
+               aperta. quindi Ordino’ L’apello<lb/>
+               Nominale. Risultarono Mancanti i Seguenti<lb/>
+               Ufli. <persName ref="#ap"><roleName>Tesoriere</roleName> A. <surname>Pasquinelli</surname></persName> a <persName ref="#am"><roleName>curatore</roleName><lb/>
+               a <surname>Marsili</surname></persName> <persName ref="#cg"><roleName>ufli Sanitario</roleName> Carlo <surname>Giometti</surname></persName> <persName ref="#af"><roleName>Guardia<lb/>
+               Sala</roleName> a <surname>Fontana</surname><lb/></persName>
+               E. Si passo alla Lettura Processo Verbale il<lb/>
+               quale Fu aprovato come e’ scritto. Fu’ Lettura  dato<lb/>
+               Lettura per la terza vorta Regolamento dell’unico Fondo<lb/>
+               Mortuario e Fu aprovato da tutta la<lb/>
+               assemblea generale come Legge<lb/>
+               <seg type="proposal"><persName ref="#cp" role="proposer">Il <roleName>Fratello</roleName> C. <surname>Pellegrin</surname></persName> fece Come pro-<lb/>
+               poste che il Regolamento unico fondo <lb/>
+               Mortuario fosse fatto andare in Vigore <lb/>
+               alla Prossima Seduta Ossia il 19 <lb/>
+               agosto 1919. La Proposta del Frlo<lb/>
+               Pelligrini fu assecondata <persName ref="lv" role="supporter">dal <roleName>Frlo</roleName><lb/>
+               L <surname>Vigano’</surname></persName>.</seg> Non Essendovi altre <lb/>
+               proposte il Presidente la Messe all’ap-<lb/>
+               rovazione all’assemblea tutti favore-<lb/>
+               voli Nessuno Contrari--<lb/>
+               Cosi Resulta che il 19 agosto 1919<lb/>
+               il Regolamento Unico fondo Mortuario<lb/>
+               Andra’ in Vigore per le Moglie<lb/>
+               Madre fratelli Sorelle dei Soci<lb/>
+               Apartenenti Alla Lega Toscana<lb/>
+               
+               <pb n="24"/>
+               <persName ref="#mf">Il <roleName>Presidente</roleName> M <surname>Frediani</surname></persName> Chiese<lb/>
+               il Raporto del Comto Scelto per<lb/>
+               trovare la farm per darci la festa<lb/>
+               Campestre e Famigliare<lb/>
+               <persName ref="#sm">Il <roleName type="committee">Capo Comto</roleName> S <surname>Maffei</surname></persName> Raporto<lb/>
+               che avevano trovato e ingaggiato<lb/>
+               la Ross Farm Aspinwall Pa<lb/>
+               per $20 e avremmo potuto<lb/>
+               farci la festa qualunque domenica<lb/>
+               che Si avesse piaciuto a Noi<lb/>
+               Cosi fu’ accetta da tutta la<lb/>
+               Assemblea Generale di dare la<lb/>
+               Festa Campestre e Famigliare<lb/>
+               a Ross Farm Aspinwall Pa<lb/>
+               la 1a domenica di agosto<lb/>
+               Aministrazione della Festa Campestre<lb/>
+               <!--<persName>Muzio Frediani Presidente<lb/></persName>
+               Modesto Zini Vice<lb/>
+               Casimiro Pelligrini Segro di Finanza<lb/>
+               Mike Simonetti ^ Cor.<lb/>
+               Santino Pasquinelli Tesoriere<lb/>
+               Lorenzo Vigano’ Capo <unclear reason="illegible">Chia</unclear> d’arangiomento<lb/>
+               Eugenio Merciadri<lb/>
+               Vergilio danesi Assistenti<lb/>
+               Sam Paganucci<lb/>
+               Mike Paterni<lb/>-->
+               <!-- HOW TO FORMAT THIS IN TEI??? -->
+               Fu dato Pieno Potere all’aministrazione<lb/>
+               di agire e di fare tutto il<lb/>
+               Necessario per la festa<lb/>
+               <pb n="25"/>
+               Non Avendo Altro da Fare<lb/>
+               Il Presidente<lb/>
+               Muzio Frediani Alle Ore 1115<lb/>
+               Minuti<lb/>
+               Dichiarava la Seduta Sciolta<lb/>
+               [firmato] Il Presidente 		[firmato] Il Segretario
+               Muzio Frediani		M G Simonetti</ab>
          </body>
       </text>
    </TEI>
