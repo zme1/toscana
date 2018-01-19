@@ -3,93 +3,97 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <teiCorpus xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Lega Toscana di Protezione Meeting Minutes: Volume 1</title>
-            <respStmt>
-               <resp>Transcribed from scanned immages</resp>
-               <persName ref="#enickz">Zachary Enick</persName>
-               <persName ref="#insanal">Lina Insana</persName>
-               <persName ref="#jermyne">Eliza Jermyn</persName>
-               <persName ref="#keilr">Rita Keil</persName>
-               <persName ref="#millarj">John "Archie" Millar</persName>
-            </respStmt>
-            <respStmt>
-               <resp>TEI file created from transcribed minute log for academic use</resp>
-               <persName ref="#enickZ">Zachary Enick</persName>
-            </respStmt>
-         </titleStmt>
-         <extent>153 pg.</extent>
-         <publicationStmt>
-            <authority>
-               <orgName>Heinz History Center</orgName>
-            </authority>
-            <address>
-               <addrLine>1212 Smallman st.</addrLine>
-               <addrLine>Pittsburgh, PA 15222</addrLine>
-               <addrLine>U.S.A.</addrLine>
-            </address>
-            <idno type="URI">http://heinzhistorycenter.org</idno>
-            <availability>
-               <p> The materials transcribed below are available for public use in the Detre Library
-                  &amp; Archives located in the Heinz History Center. Materials cannot be removed from the library and archives, but
-              sharing of the documents digitally for educational purposes is encouraged, with full and proper citation.</p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <msDesc>
-               <msIdentifier>
-                  <institution>Heinz History Center</institution>
-                  <repository>Detre Library &amp; Archives, Italian American Collection</repository>
-                  <idno>2015.0079 and 2017.0123</idno>
-                  <msName>LEGA Minutes: 1-21-19 - 12-17-25</msName>
-               </msIdentifier>
-               <physDesc>
-                  <handDesc>
-                     <p> This volume of minutes was written by an **indistinct number of
-                        contributors** </p>
-                  </handDesc>
-                  <accMat>
-                     <p> The meeting minutes contain, in addition to written record of meetings,
+  <teiHeader>
+     <fileDesc>
+        <titleStmt>
+           <title>Lega Toscana di Protezione Meeting Minutes: Volume 1</title>
+           <respStmt>
+              <resp>Transcribed from scanned immages</resp>
+              <persName ref="#enickz">Zachary Enick</persName>
+              <persName ref="#insanal">Lina Insana</persName>
+              <persName ref="#jermyne">Eliza Jermyn</persName>
+              <persName ref="#keilr">Rita Keil</persName>
+              <persName ref="#millarj">John "Archie" Millar</persName>
+           </respStmt>
+           <respStmt>
+              <resp>TEI file created from transcribed minute log for academic use</resp>
+              <persName ref="#enickZ">Zachary Enick</persName>
+           </respStmt>
+        </titleStmt>
+        <extent>153 pg.</extent>
+        <publicationStmt>
+           <authority>
+              <orgName>Heinz History Center</orgName>
+           </authority>
+           <address>
+              <addrLine>1212 Smallman st.</addrLine>
+              <addrLine>Pittsburgh, PA 15222</addrLine>
+              <addrLine>U.S.A.</addrLine>
+           </address>
+           <idno type="URI">http://heinzhistorycenter.org</idno>
+           <availability>
+              <p>The materials transcribed below are available for public use in the Detre Library
+                  &amp; Archives located in the Heinz History Center. Materials cannot be removed
+                  from the library and archives, but sharing of the documents digitally for
+                  educational purposes is encouraged, with full and proper citation.</p>
+           </availability>
+        </publicationStmt>
+        <sourceDesc>
+           <msDesc>
+              <msIdentifier>
+                 <institution>Heinz History Center</institution>
+                 <repository>Detre Library &amp; Archives, Italian American Collection</repository>
+                 <idno>2015.0079 and 2017.0123</idno>
+                 <msName>LEGA Minutes: 1-21-19 - 12-17-25</msName>
+              </msIdentifier>
+              <physDesc>
+                 <handDesc>
+                    <p>This volume of minutes was written by an **indistinct number of
+                        contributors**</p>
+                 </handDesc>
+                 <accMat>
+                    <p>The meeting minutes contain, in addition to written record of meetings,
                         expense sheets that describe account balances and any spending or receipt of
-                        money by the organization. </p>
-                  </accMat>
-               </physDesc>
-               <history>
-                  <origin>
-                     <p> The manuscript was compiled by Lega members during the monthly meetings
+                        money by the organization.</p>
+                 </accMat>
+              </physDesc>
+              <history>
+                 <origin>
+                    <p>The manuscript was compiled by Lega members during the monthly meetings
                         that took place in Pittsburgh, PA. This volume contains meeting minutes that
                         span from January of 1919 to December of 1925, and were written by the
                         designated secratary at the point of the meeting - a position that changed
-                        hands a number of times throughout the compilation of meeting notes. </p>
-                  </origin>
-                  <acquisition>
-                     <p>The manuscript documents were donated to the <orgName ref="#hhc">Heinz History Center</orgName> by <persName ref="#vondasl">Laura Bocelli-Vondas</persName> in two portions - the first in 2015 and the second in 2017.</p>
-                  </acquisition>
-               </history>
-            </msDesc>
-         </sourceDesc>
-      </fileDesc>
-      <profileDesc>
-         <settingDesc>
-            <p> INFORMATION ON MEETING SETTING </p>
-         </settingDesc>
-         <textDesc>
-            <channel mode="w"/>
-            <constitution type="composite"/>
-            <derivation type="transcription"/>
-            <domain type="valueNeeded"/>
-            <!-- In which domain do these meetings fall? Public? Domestic? Business? -->
-            <factuality type="fact">The meeting minutes were handwritten accounts of discussions
+                        hands a number of times throughout the compilation of meeting notes.</p>
+                 </origin>
+                 <acquisition>
+                    <p>The manuscript documents were donated to the<orgName ref="#hhc">Heinz
+                           History Center</orgName>by<persName ref="#vondasl">Laura
+                           Bocelli-Vondas</persName>in two portions - the first in 2015 and the
+                        second in 2017.</p>
+                 </acquisition>
+              </history>
+           </msDesc>
+        </sourceDesc>
+     </fileDesc>
+     <profileDesc>
+        <settingDesc>
+           <p>INFORMATION ON MEETING SETTING</p>
+        </settingDesc>
+        <textDesc>
+           <channel mode="w"/>
+           <constitution type="composite"/>
+           <derivation type="transcription"/>
+           <domain type="valueNeeded"/>
+           <!-- In which domain do these meetings fall? Public? Domestic? Business? -->
+           <factuality type="fact">The meeting minutes were handwritten accounts of discussions
                held, decisions, or money allocated made during the meetings.</factuality>
-            <interaction type="partial" active="plural" passive="group"/>
-            <preparedness type="formulaic"/>
-            <purpose type="valueNeeded" degree="unknown"/>
-            <!-- What was the purpose of these meetings? Inform? Plan? Collaborate? -->
-         </textDesc>
-         <abstract resp="#enickz">
-            <p> This research study is a collaborative effort between four undergraduate students
+           <interaction type="partial" active="plural" passive="group"/>
+           <preparedness type="formulaic"/>
+           <purpose type="valueNeeded" degree="unknown"/>
+           <!-- What was the purpose of these meetings? Inform? Plan? Collaborate? -->
+        </textDesc>
+        <abstract resp="#enickz">
+           <p>This research study is a collaborative effort between four undergraduate students
                and one faculty member at the University of Pittsburgh in Pittsburgh, PA to explore
                geographical, linguistic, and anthropological information regarding members and
                affiliates of the Lega Toscana di Protezione, a Pittsburgh-based fraternal group of
@@ -97,339 +101,481 @@
                specially marked-up renditionsof the transcribed minutes in order to create a social
                network mapping that will illuminate relationships and dynamics between both members
                of the Lega and those in the greater community based on varied types of interactions
-               represented within the minutes log. </p>
-         </abstract>
-         <langUsage>
-            <language ident="it">Tuscan Italian, with some anglicisms</language>
-         </langUsage>
-      </profileDesc>
-   </teiHeader>
-   <TEI>
-      <teiHeader>
-         <fileDesc>
-            <titleStmt>
-               <title type="main">Lega Toscana di Protezione</title>
-               <title type="sub">Seduta Regolare Ordinaria 15 Aprile 1919</title>
-            </titleStmt>
-            <publicationStmt>
-               <authority>La Lega Toscana di Protezione</authority>
-               <date when="1919-04-15"/>
-               <idno>pg. 15-17</idno>
-            </publicationStmt>
-            <sourceDesc>
-               <p>Source Description.</p>
-               <!-- Is there aditional important information that should be put here? -->
-            </sourceDesc>
-         </fileDesc>
-      </teiHeader>
-      <text>
-         <body>
-            <ab>
-               <pb n="15"/> Alle Ore 9 – Precise <persName ref="#mf"
-                     >il<roleName>Presidente</roleName> Muzio
-               <surname>Frediani</surname></persName><lb/> dichiarava aperta la Seduta.<lb/> Ordinò
+               represented within the minutes log.</p>
+        </abstract>
+        <langUsage>
+           <language ident="it">Tuscan Italian, with some anglicisms</language>
+        </langUsage>
+     </profileDesc>
+  </teiHeader>
+  <TEI>
+     <teiHeader>
+        <fileDesc>
+           <titleStmt>
+              <title type="main">Lega Toscana di Protezione</title>
+              <title type="sub">Seduta Regolare Ordinaria 15 Aprile 1919</title>
+           </titleStmt>
+           <publicationStmt>
+              <authority>La Lega Toscana di Protezione</authority>
+              <date when="1919-04-15"/>
+              <idno>pg. 15-17</idno>
+           </publicationStmt>
+           <sourceDesc>
+              <p>Source Description.</p>
+              <!-- Is there aditional important information that should be put here? -->
+           </sourceDesc>
+        </fileDesc>
+     </teiHeader>
+     <text>
+        <body>
+           <ab>
+              <pb n="15"/>Alle Ore 9 – Precise<persName ref="#mf"
+                     >il<roleName>Presidente</roleName>Muzio
+              <surname>Frediani</surname></persName><lb/>dichiarava aperta la Seduta.<lb/>Ordinò
                l’appello Nominale Risultò Mancante<lb/>
-               <persName ref="#sm">il<roleName>Vice Presidente</roleName> Stefano
-                     <surname>Maffei</surname></persName><lb/> quindi vi fu Lettere Precesso Verbale
-               e fu<lb/> approvato Come è Scritto da tutta la Asse<hi rend="underline">m</hi><lb/> blea Generale<lb/> vi
-               furono Cinque (5) Nuove Aplicazione<lb/> le quali Sono i seguenti Nomi-<lb/>
-               <persName ref="#ml">Matteo <surname>Lunardini</surname></persName>- <persName
-                  ref="#lb">Luigi <surname>Buchignani</surname></persName>-<lb/>
-               <persName ref="#mp">Michele <surname>Paterni</surname></persName>- <persName
-                  ref="#ed">Enrico DiRicco</persName>- <persName ref="#al">Alberto<lb/>
-                  Lucchese</persName> Tutti Toscani e il fratello<lb/>
-               <seg type="proposal"><persName ref="#cs" role="proposer">Carlo
-                        <surname>Silvione</surname></persName> fece la Proposta che le<lb/> (5)
-                  Cinque Nuove Aplicazione fossero<lb/> messe all’aprovazione all’arsata di
-                  mano<lb/> la Proposta fu assecondata dal fratello<lb/>
-                  <persName ref="#ep" role="supporter">Emilio
-                     <surname>Pellegrini</surname></persName>.</seg><lb/> Cosi <persName ref="#mf"
-                     >il<roleName>Presidente</roleName> Muzio
-               <surname>Frediani</surname></persName><lb/> Li Messe all’aprovazione all’arsata<lb/>
-               di Mano Furono aprovati con<lb/> tutti Favorevole. Nessun Contrario<lb/> la Loggia
-               Cittadini Italo americani #31<lb/> ordine <seg type="invite"><orgName ref="#figli"
-                     role="inviter">'Figli d’italia</orgName> ci inviò una lettera<lb/> nelle quale
-                  ci Invitava al Gran Ballo del<lb/> 23 Aprile 1919 – e Nella Medesimia ci
-                  Inviò<lb/> 3. ticket per L’ingresso all Ballo una<lb/> Per il Presidente e 2 per
-                  formare una<lb/> Comitato di Rapresentanza.</seg>-<lb/>
-               <pb n="16"/>
-               <persName ref="#mf">Il<roleName>Presidente</roleName> Muzio
-                     <surname>Frediani</surname></persName> dichiarò<lb/> Che <del rend="strike">ch</del> non Poteva andarci a rapresentare<lb/>
-               <orgName ref="#legaT">La Lega Toscana</orgName> e allora Offri le Tickets<lb/> alla
-               Samblea. le quali furono Consegnate<lb/> ai fratelli <persName ref="#am">A.
+              <persName ref="#sm">il<roleName>Vice Presidente</roleName>Stefano
+                    <surname>Maffei</surname></persName><lb/>quindi vi fu Lettere Precesso Verbale
+               e fu<lb/>approvato Come è Scritto da tutta la Asse<hi rend="underline">m</hi><lb/>
+               blea Generale<lb/>vi furono Cinque (5) Nuove Aplicazione<lb/>le quali Sono i
+               seguenti Nomi-<lb/>
+              <persName ref="#ml">Matteo<surname>Lunardini</surname></persName>-<persName
+                  ref="#lb">Luigi<surname>Buchignani</surname></persName>-<lb/>
+              <persName ref="#mp">Michele<surname>Paterni</surname></persName>-<persName
+                  ref="#ed">Enrico DiRicco</persName>-<persName ref="#al">Alberto<lb/>
+                  Lucchese</persName>Tutti Toscani e il fratello<lb/>
+              <seg type="proposal"><persName ref="#cs" role="proposer">Carlo
+                       <surname>Silvione</surname></persName>fece la Proposta che le<lb/>(5)
+                  Cinque Nuove Aplicazione fossero<lb/>messe all’aprovazione all’arsata di
+                  mano<lb/>la Proposta fu assecondata dal fratello<lb/>
+                 <persName ref="#ep" role="supporter">Emilio
+                    <surname>Pellegrini</surname></persName>.</seg><lb/>Cosi<persName ref="#mf"
+                     >il<roleName>Presidente</roleName>Muzio
+              <surname>Frediani</surname></persName><lb/>Li Messe all’aprovazione all’arsata<lb/>
+               di Mano Furono aprovati con<lb/>tutti Favorevole. Nessun Contrario<lb/>la Loggia
+               Cittadini Italo americani #31<lb/>ordine<seg type="invite"><orgName ref="#figli"
+                     role="source">'Figli d’italia</orgName>
+                 <rs ref="#legaT" role="target">ci</rs>inviò una lettera<lb/>nelle quale ci
+                  Invitava al Gran Ballo del<lb/>23 Aprile 1919 – e Nella Medesimia ci Inviò<lb/>
+                  3. ticket per L’ingresso all Ballo una<lb/>Per il Presidente e 2 per formare
+                  una<lb/>Comitato di Rapresentanza.</seg>-<lb/>
+              <pb n="16"/>
+              <persName ref="#mf">Il<roleName>Presidente</roleName>Muzio
+                    <surname>Frediani</surname></persName>dichiarò<lb/>Che<del rend="strike"
+                  >ch</del>non Poteva andarci a rapresentare<lb/>
+              <orgName ref="#legaT">La Lega Toscana</orgName>e allora Offri le Tickets<lb/>alla
+               Samblea. le quali furono Consegnate<lb/>ai fratelli<persName ref="#am">A.
                   Marsili</persName>
-               <persName ref="#cr">C. Roberta</persName>
-               <persName ref="#ll">L. Lunardini</persName><lb/> Con Promessa di aderire a Rapresentare<lb/>
-               <orgName ref="#legaT">la Lega Toscana</orgName> in quella Sera<lb/> Si Passo a
+              <persName ref="#cr">C. Roberta</persName>
+              <persName ref="#ll">L. Lunardini</persName><lb/>Con Promessa di aderire a Rapresentare<lb/>
+              <orgName ref="#legaT">la Lega Toscana</orgName>in quella Sera<lb/>Si Passo a
                Raporto Ufficiali Sanitari<lb/>
-               <persName ref="#pb">Del <roleName>fratello</roleName> Pietro <surname>Baranti</surname></persName> che certificano<lb/>
-               amalato dal 1<hi rend="supraline">o</hi> Aprile 1919 fino al 14 Aprile 1919<lb/> Con Certificato Medico
-                  <persName ref="#gr">Del <roleName>Dr.</roleName> G.T.
-                  <surname>Ribetti</surname></persName><lb/> Il Raporto degli Ufli. Sanitari
-                  <persName ref="#em">Eugenio <surname>Merciadri</surname></persName><lb/> e
-                  <persName ref="#cg">Carlo <surname>Giometti</surname></persName> e’ Giustificato a
-               quello <lb/>
-               <persName ref="#gr">del <roleName>Dr.</roleName>
-                  <surname>Ribetti</surname></persName> non vi fu nessuna oposizione a<lb/> riguardo
-               il <roleName ref="#mf">Presidente</roleName> lo messe all’approvazione<lb/> per
-               Lassegno di Sussidio di $1.<hi rend="supraline">00</hi> al giorno questo<lb/> Nostro Regolamento fu aprovato di pagarci<lb/>
-               <persName ref="#pb">Al <roleName>flo</roleName> Pietro
-                  <surname>Baranti</surname></persName> la Somma di $14.<hi rend="supraline">00</hi><lb/>
-               <persName ref="#ld">Il <roleName>fratello</roleName> Luigi <surname>Del
-                     Magro</surname></persName> fu certificato<lb/> amalato dal 1<hi rend="supraline">o</hi> Aprile 1919 
-               <del rend="strike"> all 14 Aprile Con</del> e <lb/> Certificato <persName ref="#cs">dal <roleName>Dr</roleName> Cav
-                  Francesco <surname>Sunseri</surname></persName><lb/> dice che Si Trova amalato di
-               Emiplegia paralizi<lb/> dal lato sinistro del Corpo e <persName ref="#ld">il
-                     <roleName>fratello</roleName><lb/> Luigi <surname>Del
-                  Magro</surname></persName> Trovarsi atualmente amalato<lb/> Raporto degli Ufli
+              <persName ref="#pb">Del<roleName>fratello</roleName>Pietro
+                    <surname>Baranti</surname></persName>che certificano<lb/>amalato dal 1<hi
+                  rend="supraline">o</hi>Aprile 1919 fino al 14 Aprile 1919<lb/>Con Certificato
+               Medico<persName ref="#gr">Del<roleName>Dr.</roleName>G.T.
+                    <surname>Ribetti</surname></persName><lb/>Il Raporto degli Ufli. Sanitari
+                 <persName ref="#em">Eugenio<surname>Merciadri</surname></persName><lb/>e
+                 <persName ref="#cg">Carlo<surname>Giometti</surname></persName>e’ Giustificato a
+               quello<lb/>
+              <persName ref="#gr">del<roleName>Dr.</roleName>
+                 <surname>Ribetti</surname></persName>non vi fu nessuna oposizione a<lb/>riguardo
+               il<roleName ref="#mf">Presidente</roleName>lo messe all’approvazione<lb/>per
+               Lassegno di Sussidio di $1.<hi rend="supraline">00</hi>al giorno questo<lb/>Nostro
+               Regolamento fu aprovato di pagarci<lb/>
+              <persName ref="#pb">Al<roleName>flo</roleName>Pietro
+                 <surname>Baranti</surname></persName>la Somma di $14.<hi rend="supraline">00</hi><lb/>
+              <persName ref="#ld">Il<roleName>fratello</roleName>Luigi<surname>Del
+                     Magro</surname></persName>fu certificato<lb/>amalato dal 1<hi
+                  rend="supraline">o</hi>Aprile 1919<del rend="strike">all 14 Aprile Con</del>e
+            <lb/>Certificato<persName ref="#cs">dal<roleName>Dr</roleName>Cav Francesco
+                    <surname>Sunseri</surname></persName><lb/>dice che Si Trova amalato di
+               Emiplegia paralizi<lb/>dal lato sinistro del Corpo e<persName ref="#ld">il
+                    <roleName>fratello</roleName><lb/>Luigi<surname>Del
+                  Magro</surname></persName>Trovarsi atualmente amalato<lb/>Raporto degli Ufli
                Sanitari Fu giustificato<lb/>
-               <persName ref="#em">Eugenio <surname>Merciadri</surname></persName>
-               <persName ref="#cg">Carlo <surname>Giometti</surname></persName> a quelle<lb/>
-               <persName ref="#cs">del <roleName>Dr</roleName> Cav. F.
-                  <surname>Sunseri</surname></persName><lb/> Non vi fu Nessuna oposizione a
-               riguardo<lb/> Il <roleName ref="#mf">Presidente</roleName> lo messe allaprovazione
-               di<lb/> Pagarci Lassegno di Sussidio e fu<lb/> Aprovato di Pagarci dal 1<hi rend="supraline">o</hi> Aprile al
-               14<lb/> Aprile la Somma di $14<hi rend="supraline">00</hi><lb/>
-               <pb n="17"/> quisto Nostro Regolamento e che i Pagamenti<lb/> Fossero Fatti con Check
+              <persName ref="#em">Eugenio<surname>Merciadri</surname></persName>
+              <persName ref="#cg">Carlo<surname>Giometti</surname></persName>a quelle<lb/>
+              <persName ref="#cs">del<roleName>Dr</roleName>Cav. F.
+                 <surname>Sunseri</surname></persName><lb/>Non vi fu Nessuna oposizione a
+               riguardo<lb/>Il<roleName ref="#mf">Presidente</roleName>lo messe allaprovazione
+               di<lb/>Pagarci Lassegno di Sussidio e fu<lb/>Aprovato di Pagarci dal 1<hi
+                  rend="supraline">o</hi>Aprile al 14<lb/>Aprile la Somma di $14<hi
+                  rend="supraline">00</hi><lb/>
+              <pb n="17"/>quisto Nostro Regolamento e che i Pagamenti<lb/>Fossero Fatti con Check
                di Banca<lb/>
-               <persName ref="#mf">il <roleName>Presidente</roleName> Muzio Frediani</persName>
-               Presento<lb/> Per La Seconda Volta il Modo di affami<hi rend="underline">g</hi><lb/> liare al Fondo Unico
-               Mortuaro –<lb/> Madre e Sorelle Figli e Fratelli dei Soci<lb/> purche questi non
-               Abiano Oltrapassato<lb/> Leta che Verà Stabilta d’allassemblea generale<lb/> Il
-                  <roleName ref="#mf">Presidente</roleName> Fece una Comissione per<lb/> riguardare
-               i regolamenti per chi Vera<lb/> a Far Parte al Fondo Unico Mortuario<lb/> e poi
-               Portarlo alla Assemblea Generale<lb/> per Laaprovazione Per la Comizione Sono<lb/>
-               Seguenti <unclear reason="illegible"/> <persName ref="#sd">Serafino
-                  <surname>DeSiecco</surname></persName>
-               <persName ref="#gf">Gueseppe <surname>Fredianelli</surname></persName><lb/>
-               <persName ref="#cs">Carlo <surname>Silvione</surname></persName>
-               <persName ref="#ms">M Simonetti</persName><lb/> Non Avendo Altro da Fare <persName
-                  ref="#mf">il<roleName><lb/> Presidente</roleName> Muzio
-                     <surname>Frediani</surname></persName> alle Ore<lb/> 11 Precise dichiarava
-               sciolta<lb/> La Seduta<lb/> Il Presidente Il Segretario<lb/> [firmato] M Frediani
-               [firmato] M Simonetti </ab>
-         </body>
-      </text>
-   </TEI>
-   <TEI>
-      <teiHeader>
-         <fileDesc>
-            <titleStmt>
-               <title type="main">La Lega Toscana di Protezione</title>
-               <title type="sub">Seduta Ordinaria maggio 20 - 1919</title>
-            </titleStmt>
-            <publicationStmt>
-               <authority>La Lega Toscana di Protezione</authority>
-               <date when="1919-05-20"/>
-               <idno>pg. 19-20</idno>
-            </publicationStmt>
-            <sourceDesc>
-               <p>Source Description.</p>
-               <!-- Is there aditional important information that should be put here? -->
-            </sourceDesc>
-         </fileDesc>
-      </teiHeader>
-      <text>
-         <body>
-            <ab><pb n="19"/> Alle ore 930 P.M. <persName ref="#mf"><roleName>Presidente</roleName> M
-                     <surname>Frediani</surname></persName><lb/> dichiarò la Seduta Aperta<lb/>
-               <seg type="delegation" subtype="task"><rs ref="#mf" role="delegator">Ordinò</rs>
+              <persName ref="#mf">il<roleName>Presidente</roleName>Muzio Frediani</persName>
+               Presento<lb/>Per La Seconda Volta il Modo di affami<hi rend="underline">g</hi><lb/>
+               liare al Fondo Unico Mortuaro –<lb/>Madre e Sorelle Figli e Fratelli dei Soci<lb/>
+               purche questi non Abiano Oltrapassato<lb/>Leta che Verà Stabilta d’allassemblea
+               generale<lb/>Il<roleName ref="#mf">Presidente</roleName>Fece una Comissione
+               per<lb/>riguardare i regolamenti per chi Vera<lb/>a Far Parte al Fondo Unico
+               Mortuario<lb/>e poi Portarlo alla Assemblea Generale<lb/>per Laaprovazione Per la
+               Comizione Sono<lb/>Seguenti<unclear reason="illegible"/>
+              <persName ref="#sd">Serafino<surname>DeSiecco</surname></persName>
+              <persName ref="#gf">Gueseppe<surname>Fredianelli</surname></persName><lb/>
+              <persName ref="#cs">Carlo<surname>Silvione</surname></persName>
+              <persName ref="#ms">M Simonetti</persName><lb/><!--<closer>Non Avendo Altro da Fare<persName
+                  ref="#mf">il<roleName><lb/>Presidente</roleName>Muzio
+                    <surname>Frediani</surname></persName>alle Ore<lb/>11 Precise dichiarava
+               sciolta<lb/>La Seduta<lb/>Il Presidente Il Segretario<lb/><signed>M Frediani</signed>
+               [firmato] M Simonetti</closer>-->
+              <!-- TO BE AN EXAMPLE ONCE ODD IS DRAFTED. TAG CLOSING THIS WAY --></ab>
+        </body>
+     </text>
+  </TEI>
+  <TEI>
+     <teiHeader>
+        <fileDesc>
+           <titleStmt>
+              <title type="main">La Lega Toscana di Protezione</title>
+              <title type="sub">Seduta Ordinaria maggio 20 - 1919</title>
+           </titleStmt>
+           <publicationStmt>
+              <authority>La Lega Toscana di Protezione</authority>
+              <date when="1919-05-20"/>
+              <idno>pg. 19-20</idno>
+           </publicationStmt>
+           <sourceDesc>
+              <p>Source Description.</p>
+              <!-- Is there aditional important information that should be put here? -->
+           </sourceDesc>
+        </fileDesc>
+     </teiHeader>
+     <text>
+        <body>
+           <ab><pb n="19"/>Alle ore 930 P.M.<persName ref="#mf"><roleName>Presidente</roleName>M
+                    <surname>Frediani</surname></persName><lb/>dichiarò la Seduta Aperta<lb/>
+              <seg type="delegation" subtype="task"><rs ref="#mf" role="delegator">Ordinò</rs>
                   L’apello Nominato il Curatore<lb/>
-                  <persName ref="#sp">Sam <surname>Paganucci</surname></persName></seg><lb/> quindi
-               Si Passò Alla Lettura Precessa<lb/> Verbale il quale Fui aprovato Come e<lb/>
-               Scritto.<lb/> Vi Furono Presentate 3 -- Aplicazini<lb/> i quali Sono Vincenzo
-               Batistini Jeapo<lb/> Sodini Modesto Zini<lb/> tutti furore aprovati di far Parte<lb/>
-               Alla Nostra Famiglia Lega Toscana<lb/> Pagamenti Sussidi<lb/> F. Giangranedi Nove
-               giorni di Malatea $9<hi rend="supraline">00</hi><lb/> Luigi Del Magro il Settimane 28<hi rend="supraline">00</hi><lb/> Si Passo alla
-               Lettura del Nuovo Regolam<hi rend="underline">e</hi><lb/> Nto Unico Fondo Mortuario per la prima<lb/> Volta e
-               Fuì aprovato tutti gli art<lb/> Da tutta l’assemblea Generale<lb/>
-               <seg type="proposal"><persName ref="#cs" role="proposer">Il <roleName>Frt</roleName>
-                     C. <surname>Silvione</surname></persName> Fece una Proposta di<lb/> dare un
-                  Ballo Nel Mese di Ottobre 1919<lb/> a Beneficio da Meta a Fondi Sussidio<lb/> e
-                  lartra Metà a Fondo Unico Morturaro<lb/> la Proposta Fu Assecondata dal<lb/>
-                  <persName ref="#am" role="supporter">Frat A Marsili</persName> e fu aprovato
-                  dalla<lb/> Samblea</seg><lb/>
-               <seg type="proposal"><persName ref="#ep" role="proposer">Il <roleName>Frat</roleName>
-                     E Pellegrini</persName> Fece la Proposta<lb/> di dare una Festa Campestre e<lb/>
-                  <pb n="20"/> Famigliare Nel Mese di Luglio<lb/> Entrante la Proposta fu Assecondata<lb/>
-                  <persName ref="#ll" role="supporter">dal <roleName>Frat</roleName> L.
-                     Lundardini</persName> e da tutta<lb/> L’assemblea Generale</seg><lb/>
-               <!-- The whole general assembly was attributed with having "seconded the motion" in addition to Lunardini; should we consider the
+                 <persName ref="#sp">Sam<surname>Paganucci</surname></persName></seg><lb/>quindi
+               Si Passò Alla Lettura Precessa<lb/>Verbale il quale Fui aprovato Come e<lb/>
+               Scritto.<lb/>Vi Furono Presentate 3 -- Aplicazini<lb/>i quali Sono Vincenzo
+               Batistini Jeapo<lb/>Sodini Modesto Zini<lb/>tutti furore aprovati di far Parte<lb/>
+               Alla Nostra Famiglia Lega Toscana<lb/>Pagamenti Sussidi<lb/>F. Giangranedi Nove
+               giorni di Malatea $9<hi rend="supraline">00</hi><lb/>Luigi Del Magro il Settimane
+                  28<hi rend="supraline">00</hi><lb/>Si Passo alla Lettura del Nuovo Regolam<hi
+                  rend="underline">e</hi><lb/>Nto Unico Fondo Mortuario per la prima<lb/>Volta e
+               Fuì aprovato tutti gli art<lb/>Da tutta l’assemblea Generale<lb/>
+              <seg type="proposal"><persName ref="#cs" role="proposer">Il<roleName>Frt</roleName>
+                     C.<surname>Silvione</surname></persName>Fece una Proposta di<lb/>dare un
+                  Ballo Nel Mese di Ottobre 1919<lb/>a Beneficio da Meta a Fondi Sussidio<lb/>e
+                  lartra Metà a Fondo Unico Morturaro<lb/>la Proposta Fu Assecondata dal<lb/>
+                 <persName ref="#am" role="supporter">Frat A Marsili</persName>e fu aprovato
+                  dalla<lb/>Samblea</seg><lb/>
+              <seg type="proposal"><persName ref="#ep" role="proposer">Il<roleName>Frat</roleName>
+                     E Pellegrini</persName>Fece la Proposta<lb/>di dare una Festa Campestre e<lb/>
+                 <pb n="20"/>Famigliare Nel Mese di Luglio<lb/>Entrante la Proposta fu Assecondata<lb/>
+                 <persName ref="#ll" role="supporter">dal<roleName>Frat</roleName>L.
+                     Lundardini</persName>e da tutta<lb/>L’assemblea Generale</seg><lb/>
+              <!-- The whole general assembly was attributed with having "seconded the motion" in addition to Lunardini; should we consider the
                whole assembly to be a single supportive entity in the network in moments like this??? -->
-               <!-- What can be considered a person's "name"? Should we include member roles, as in <roleName>? If so, should articles
+              <!-- What can be considered a person's "name"? Should we include member roles, as in<roleName>? If so, should articles
             be included or excluded? Should articulated articles (like the one above) be treated differently still? -->
-               <seg type="delegation" subtype="committee"><rs ref="#mf" role="delegator">Il
-                        <roleName>Presidente</roleName></rs> Scelse un Comitato<lb/>
-                  <!-- When a person is referenced using their role name, would <rs> suffice, as with verbs who represent an implicitly mentioned subject? -->
-                  di Ivesticazione per dare la Festa<lb/> Campestre<lb/>
-                  <persName ref="#am" role="delegated">Abramo <surname>Marsili</surname></persName><lb/>
-                  <persName ref="#ll" role="delegated">Lorenzo
-                     <surname>Lunardici</surname></persName><lb/>
-                  <persName ref="#sp" role="delegated">Santino Pasquinelli</persName><lb/>
-                  <persName ref="#sm" role="delegated">Stefano
-                  <surname>Maffei</surname></persName><lb/> E di Raportare alla Prossima Seduta<lb/>
-                  il Loro Operato</seg><lb/> Non Avendo altro da Fare Il Prest<lb/> Muzio Frediani
-               alle ore 11 pm<lb/> dichiarava la Seduta Sciolta<lb/> Il Preste Il Segno [signed] M.
-               Frediani [signed] M. Simonetti </ab>
-         </body>
-      </text>
-   </TEI>
-   <TEI>
-      <teiHeader>
-         <fileDesc>
-            <titleStmt>
-               <title type="main">Lega Toscana di Protezione</title>
-               <title type="sub">Seduta Generale Ordinario 17 giugno 1919</title>
-            </titleStmt>
-            <publicationStmt>
-               <authority>La Lega Toscana di Protezione</authority>
-               <date when="1919-06-17"/>
-               <idno>pg. 21-22</idno>
-            </publicationStmt>
-            <sourceDesc>               <p>Source Description.</p>
-               <!-- Is there aditional important information that should be put here? --></sourceDesc>
-         </fileDesc>
-      </teiHeader>
-      <text>
-         <body>
-            <ab>
-               <pb n="21"/>
-               Alle Ore 930 P.M. <persName ref="#mf">Il <roleName>presidente</roleName> Muzio <surname>Frediani</surname></persName><lb/>
-               Dichiarava aperta la Seduta<lb/>
-               Apello Nominale ufle<lb/>
-               Risultarono Mancanti i Seguenti<lb/>
-               <add place="margin">Cur<hi rend="supraline">re</hi></add> Sam Paganucci Abramo Marsili uf<hi rend="supraline">le</hi> San<hi rend="supraline">ro</hi><lb/>
-               Carlo Giometti Guadia Sala - Angelo Fontana<lb/>
-               <add place="margin">Fu</add> Lettura Processo Verbale il quale Venne<lb/>
-               aprovato Come e Scritto<lb/>
-               <add place="margin">anza</add><seg type="invite"><orgName ref="#msgm" role="source">la Societa M. S. Gugliermo Marconi</orgName> <rs ref="#legaT" role="target">ci</rs> Invio’
-               una Lettera di Invito al loro gran ballo
-               25 giugno 1919 - Nella Sala da Ballo</seg>
-               6023 - Penn ava city Nella Medesima<lb/>
-               vi era Incluso 5 Tickette d’amissione Gratuite<lb/>
-               Linvito <orgName ref="#msgm">della Societa M. S. G. M</orgName>. Fu’ acetta<lb/>
-               Per La Seconda volta Fu dato Lettura dello<lb/>
-               Statuto Unica Fondo Mortuario e Fu<lb/>
-               aprovato da tutti per la Seconda Volta<lb/>
-               <seg type="proposal"><persName ref="#ms" role="proposer">Il <roleName>Fratello</roleName> M. <surname>Simonetti</surname></persName> Fece una Proposta<lb/>
-               Famigliare<lb/>
-               di dare una Festa Campestre <hi rend="superscript">Famigliare</hi> Nel Mese<lb/>
-               di Agosto 1919 Essendo stato inPossibile<lb/>
-               a darla Nel Mese di Luglio la Proposta<lb/>
-               Fu’ assecondata <persName ref="#capellini">dal <roleName>F<hi rend="supraline">lo</hi></roleName> <surname>Cappellini</surname></persName><lb/>
-               e Fu aprovato da tutta l’assemblea</seg><lb/>
-               <seg type="delegation" subtype="committee"><rs ref="#mf" role="source">Il <roleName>Presidente</roleName></rs> Scelse il Comitoto per<lb/>
-               Trovare il Posto da dare la festa<lb/>
-               Commitato<lb/>
-               <persName ref="#sm" role="target">Stefano Maffei</persName> <persName ref="#sp" role="target">Santino Pasquinelli</persName><lb/>
-               <persName ref="cp" role="target">Casimiro Pellegrini</persName> <persName ref="#ll" role="target">Lorenzo Lunardini</persName><lb/>
-               <persName ref="#sd" role="target">Serafino <surname>DeSiecco</surname></persName> <persName ref="#ms" role="target">M <surname>Simonett</surname>i</persName> <persName ref="#am" role="target">A <surname>Marsili</surname></persName></seg><lb/>
-               
-               <pb n="22"/>
-               <seg type="proposal"><persName ref="#sm" role="proposer">Il <roleName>Fratello</roleName> Stefano <surname>Maffei</surname></persName> Fece una proposta<lb/>
-               da dare al comitato incaricato al trovare il<lb/>
-               il Posto Pieno Potere di Fissarlo Sibito e<lb/>
-               di Chiamare una Seduta Straordinaria<lb/>
-               Se la Credessero che gli Fosse Necessario<lb/>
-               la Proposta Fu assecondata dal Fratello<lb/>
-               Cappellini e da tutta la Samblea</seg><lb/>
-               Non avendo altro da Fare<lb/>
-               Alle ore 1120 P.M. Il Presidente<lb/>
-               Muzio Frediani<lb/>
-               dichiarava la Seduta Sciolta<lb/>
-               Il Pres<hi rend="supraline">te</hi> Il Segr<hi rend="supraline">io</hi>
-               M. Frediani              	M. Simonetti
-               
-            </ab>
-         </body>
-      </text>
-   </TEI>
-   <TEI>
-      <teiHeader>
-         <fileDesc>
-            <titleStmt>
-               <title type="main">Lega Toscana di Protezione</title>
-               <title type="sub">Seduta generale Ordinaria 15 Luglio 1919 - </title>
-            </titleStmt>
-            <publicationStmt>
-               <authority>Lega Toscana di Protezione</authority>
-               <date when="1919-07-15"/>
-               <idno>pg. 23-25</idno>
-            </publicationStmt>
-            <sourceDesc><p>Source description.</p></sourceDesc>
-         </fileDesc>
-      </teiHeader>
-      <text>
-         <body>
-            <ab><pb n="23"/>
-               alle Ore 930 Minuti P.M. <persName ref="#mf">Il Presidente<lb/>
-               Muzio <surname>Frediani</surname></persName> dichiarava la Seduta<lb/>
-               aperta. quindi Ordino’ L’apello<lb/>
-               Nominale. Risultarono Mancanti i Seguenti<lb/>
-               Uf<hi rend="supraline">li</hi> <persName ref="#ap"><roleName>Tesoriere</roleName> A. <surname>Pasquinelli</surname></persName> a <persName ref="#am"><roleName>curatore</roleName><lb/>
-               a <surname>Marsili</surname></persName> <persName ref="#cg"><roleName>uf<hi rend="supraline">le</hi> Sanitario</roleName> Carlo <surname>Giometti</surname></persName> <persName ref="#af"><roleName>Guardia<lb/>
-               Sala</roleName> a <surname>Fontana</surname></persName><lb/>
-               E. Si passo alla Lettura Processo Verbale il<lb/>
-               quale Fu aprovato come e’ scritto. Fu’ <del rend="strike">Lettetto</del> dato<lb/>
-               Lettura per la terza vorta Regolamento dell’unico Fondo<lb/>
-               Mortuario e Fu aprovato da tutta la<lb/>
-               assemblea generale come Legge<lb/>
-               <seg type="proposal"><persName ref="#cp" role="proposer">Il <roleName>Fratello</roleName> C. <surname>Pellegrin</surname></persName> fece Come pro-<lb/>
-               poste che il Regolamento unico fondo <lb/>
-               Mortuario fosse fatto andare in Vigore <lb/>
-               alla Prossima Seduta Ossia il 19 <lb/>
-               agosto 1919. La Proposta del Fr<hi rend="supraline">lo</hi><lb/>
-               Pelligrini fu assecondata <persName ref="lv" role="supporter">dal <roleName>Fr<hi rend="supraline">lo</hi></roleName><lb/>
-               L <surname>Vigano’</surname></persName>.</seg> Non Essendovi altre <lb/>
-               proposte il Presidente la Messe all’a<hi rend="underline">p</hi><lb/>
-               rovazione all’assemblea tutti favore-<lb/>
-               voli Nessuno Contrari--<lb/>
-               Cosi Resulta che il 19 agosto 1919<lb/>
-               il Regolamento Unico fondo Mortuario<lb/>
-               Andra’ in Vigore per le Moglie<lb/>
-               Madre fratelli Sorelle dei Soci<lb/>
-               Apartenenti Alla Lega Toscana<lb/>
-               
-               <pb n="24"/>
-               <persName ref="#mf">Il <roleName>Presidente</roleName> M <surname>Frediani</surname></persName> Chiese<lb/>
-               il Raporto del Comto Scelto per<lb/>
-               trovare la farm per darci la festa<lb/>
-               Campestre e Famigliare<lb/>
-               <persName ref="#sm">Il <roleName type="committee">Capo Com<hi rend="supraline">to</hi></roleName> S <surname>Maffei</surname></persName> Raporto<lb/>
-               che avevano trovato e ingaggiato<lb/>
-               la Ross Farm Aspinwall Pa<lb/>
-               per $20<hi rend="supraline">00</hi> e avremmo potuto<lb/>
-               farci la festa qualunque domenica<lb/>
-               che Si avesse piaciuto a Noi<lb/>
-               Cosi fu’ accetta da tutta la<lb/>
-               Assemblea Generale di dare la<lb/>
-               Festa Campestre e Famigliare<lb/>
-               a Ross Farm Aspinwall Pa<lb/>
-               la 1a domenica di agosto<lb/>
-               Aministrazione della Festa Campestre<lb/>
-               <!--<persName>Muzio Frediani Presidente</persName><lb/>
-               Modesto Zini Vice<lb/>
-               Casimiro Pelligrini Seg<hi rend="supraline">ro</hi> di Finanza<lb/>
-               Mike Simonetti ^ Cor.<lb/>
-               Santino Pasquinelli Tesoriere<lb/>
-               Lorenzo Vigano’ Capo <unclear reason="illegible">Chia</unclear> d’arangiomento<lb/>
-               Eugenio Merciadri<lb/>
-               Vergilio danesi Assistenti<lb/>
-               Sam Paganucci<lb/>
-               Mike Paterni<lb/>-->
-               <!-- HOW TO FORMAT THIS IN TEI??? -->
-               Fu dato Pieno Potere all’aministrazione<lb/>
-               di agire e di fare tutto il<lb/>
-               Necessario per la festa<lb/>
-               <pb n="25"/>
-               Non Avendo Altro da Fare<lb/>
-               Il Presidente<lb/>
-               Muzio Frediani Alle Ore 11<hi rend="supraline">15</hi><lb/>
-               Minuti<lb/>
-               Dichiarava la Seduta Sciolta<lb/>
-               Il Presidente 		Il Segretario
-               Muzio Frediani		M G Simonetti</ab>
-         </body>
-      </text>
-   </TEI>
+              <seg type="delegation" subtype="committee"><rs ref="#mf" role="delegator">Il
+                       <roleName>Presidente</roleName></rs>Scelse un Comitato<lb/>
+                 <!-- When a person is referenced using their role name, would<rs>suffice, as with verbs who represent an implicitly mentioned subject? -->
+                  di Ivesticazione per dare la Festa<lb/>Campestre<lb/>
+                 <persName ref="#am" role="delegated">Abramo<surname>Marsili</surname></persName><lb/>
+                 <persName ref="#ll" role="delegated">Lorenzo
+                    <surname>Lunardici</surname></persName><lb/>
+                 <persName ref="#sp" role="delegated">Santino Pasquinelli</persName><lb/>
+                 <persName ref="#sm" role="delegated">Stefano
+                 <surname>Maffei</surname></persName><lb/>E di Raportare alla Prossima Seduta<lb/>
+                  il Loro Operato</seg><lb/>Non Avendo altro da Fare Il Prest<lb/>Muzio Frediani
+               alle ore 11 pm<lb/>dichiarava la Seduta Sciolta<lb/>Il Preste Il Segno [signed] M.
+               Frediani [signed] M. Simonetti</ab>
+        </body>
+     </text>
+  </TEI>
+  <TEI>
+     <teiHeader>
+        <fileDesc>
+           <titleStmt>
+              <title type="main">Lega Toscana di Protezione</title>
+              <title type="sub">Seduta Generale Ordinario 17 giugno 1919</title>
+           </titleStmt>
+           <publicationStmt>
+              <authority>La Lega Toscana di Protezione</authority>
+              <date when="1919-06-17"/>
+              <idno>pg. 21-22</idno>
+           </publicationStmt>
+           <sourceDesc>
+              <p>Source Description.</p>
+              <!-- Is there aditional important information that should be put here? -->
+           </sourceDesc>
+        </fileDesc>
+     </teiHeader>
+     <text>
+        <body>
+           <ab>
+              <pb n="21"/>Alle Ore 930 P.M.<persName ref="#mf">Il<roleName>presidente</roleName>
+                  Muzio<surname>Frediani</surname></persName><lb/>Dichiarava aperta la Seduta<lb/>
+               Apello Nominale ufle<lb/>Risultarono Mancanti i Seguenti<lb/>
+              <add place="margin">Cur<hi rend="supraline">re</hi></add>Sam Paganucci Abramo
+               Marsili uf<hi rend="supraline">le</hi>San<hi rend="supraline">ro</hi><lb/>Carlo
+               Giometti Guadia Sala - Angelo Fontana<lb/>
+              <add place="margin">Fu</add>Lettura Processo Verbale il quale Venne<lb/>aprovato
+               Come e Scritto<lb/>
+              <add place="margin">anza</add><seg type="invite"><orgName ref="#msgm" role="source"
+                     >la Societa M. S. Gugliermo Marconi</orgName>
+                 <rs ref="#legaT" role="target">ci</rs>Invio’ una Lettera di Invito al loro gran
+                  ballo 25 giugno 1919 - Nella Sala da Ballo</seg>6023 - Penn ava city Nella
+               Medesima<lb/>vi era Incluso 5 Tickette d’amissione Gratuite<lb/>Linvito<orgName
+                  ref="#msgm">della Societa M. S. G. M</orgName>. Fu’ acetta<lb/>Per La Seconda
+               volta Fu dato Lettura dello<lb/>Statuto Unica Fondo Mortuario e Fu<lb/>aprovato da
+               tutti per la Seconda Volta<lb/>
+              <seg type="proposal"><persName ref="#ms" role="proposer">Il
+                       <roleName>Fratello</roleName>M.<surname>Simonetti</surname></persName>
+                  Fece una Proposta<lb/>di dare una Festa Campestre<hi rend="superscript"
+                     >Famigliare</hi>Nel Mese<lb/>di Agosto 1919 Essendo stato inPossibile<lb/>a
+                  darla Nel Mese di Luglio la Proposta<lb/>Fu’ assecondata<persName ref="unknown"
+                     >dal<roleName>F<hi rend="supraline">lo</hi></roleName>
+                    <surname>Cappellini</surname></persName><lb/>e Fu aprovato da tutta
+                  l’assemblea</seg><lb/>
+              <seg type="delegation" subtype="committee"><rs ref="#mf" role="source">Il
+                       <roleName>Presidente</roleName></rs>Scelse il Comitoto per<lb/>Trovare il
+                  Posto da dare la festa<lb/>Commitato<lb/>
+                 <list type="committee" subtype="postoFesta">
+                    <item><persName ref="#sm" role="target">Stefano Maffei</persName></item>
+                    <item><persName ref="#sp" role="target">Santino Pasquinelli</persName></item>
+                  <lb/>
+                    <item><persName ref="cp" role="target">Casimiro Pellegrini</persName></item>
+                    <item><persName ref="#ll" role="target">Lorenzo Lunardini</persName></item>
+                  <lb/>
+                    <item><persName ref="#sd" role="target">Serafino
+                          <surname>DeSiecco</surname></persName></item>
+                    <item><persName ref="#ms" role="target">M
+                          <surname>Simonetti</surname></persName></item>
+                    <item><persName ref="#am" role="target">A
+                       <surname>Marsili</surname></persName></item>
+                 </list></seg><lb/>
+              <pb n="22"/>
+              <seg type="proposal"><persName ref="#sm" role="proposer">Il
+                       <roleName>Fratello</roleName>Stefano<surname>Maffei</surname></persName>
+                  Fece una proposta<lb/>da dare al comitato incaricato al trovare il<lb/>il Posto
+                  Pieno Potere di Fissarlo Sibito e<lb/>di Chiamare una Seduta Straordinaria<lb/>
+                  Se la Credessero che gli Fosse Necessario<lb/>la Proposta Fu assecondata dal
+                  Fratello<lb/>Cappellini e da tutta la Samblea</seg><lb/>Non avendo altro da
+               Fare<lb/>Alle ore 1120 P.M. Il Presidente<lb/>Muzio Frediani<lb/>dichiarava la
+               Seduta Sciolta<lb/>Il Pres<hi rend="supraline">te</hi>Il Segr<hi rend="supraline"
+                  >io</hi>M. Frediani M. Simonetti</ab>
+        </body>
+     </text>
+  </TEI>
+  <TEI>
+     <teiHeader>
+        <fileDesc>
+           <titleStmt>
+              <title type="main">Lega Toscana di Protezione</title>
+              <title type="sub">Seduta generale Ordinaria 15 Luglio 1919 -</title>
+           </titleStmt>
+           <publicationStmt>
+              <authority>Lega Toscana di Protezione</authority>
+              <date when="1919-07-15"/>
+              <idno>pg. 23-25</idno>
+           </publicationStmt>
+           <sourceDesc>
+              <p>Source description.</p>
+           </sourceDesc>
+        </fileDesc>
+     </teiHeader>
+     <text>
+        <body>
+           <ab><pb n="23"/>alle Ore 930 Minuti P.M.<persName ref="#mf">Il Presidente<lb/>Muzio
+                    <surname>Frediani</surname></persName>dichiarava la Seduta<lb/>aperta. quindi
+               Ordino’ L’apello<lb/>Nominale. Risultarono Mancanti i Seguenti<lb/>Uf<hi
+                  rend="supraline">li</hi>
+              <persName ref="#ap"><roleName>Tesoriere</roleName>A.
+                 <surname>Pasquinelli</surname></persName>a<persName ref="#am"
+                     ><roleName>curatore</roleName><lb/>a<surname>Marsili</surname></persName>
+              <persName ref="#cg"><roleName>uf<hi rend="supraline">le</hi>Sanitario</roleName>
+                  Carlo<surname>Giometti</surname></persName>
+              <persName ref="#af"><roleName>Guardia<lb/>Sala</roleName>a
+                    <surname>Fontana</surname></persName><lb/>E. Si passo alla Lettura Processo
+               Verbale il<lb/>quale Fu aprovato come e’ scritto. Fu’<del rend="strike"
+                  >Lettetto</del>dato<lb/>Lettura per la terza vorta Regolamento dell’unico
+               Fondo<lb/>Mortuario e Fu aprovato da tutta la<lb/>assemblea generale come Legge<lb/>
+              <seg type="proposal"><persName ref="#cp" role="proposer">Il
+                       <roleName>Fratello</roleName>C.<surname>Pellegrin</surname></persName>
+                  fece Come pr<hi rend="underline">o</hi><lb/>poste che il Regolamento unico fondo
+               <lb/>Mortuario fosse fatto andare in Vigore<lb/>alla Prossima Seduta Ossia il
+                  19<lb/>agosto 1919. La Proposta del Fr<hi rend="supraline">lo</hi><lb/>
+                  Pelligrini fu assecondata<persName ref="lv" role="supporter">dal<roleName>Fr<hi
+                           rend="supraline">lo</hi></roleName><lb/>L
+                    <surname>Vigano’</surname></persName>.</seg>Non Essendovi altre<lb/>proposte
+               il Presidente la Messe all’a<hi rend="underline">p</hi><lb/>rovazione all’assemblea
+               tutti favo<hi rend="underline">re</hi><lb/>voli Nessuno Contrari--<lb/>Cosi Resulta
+               che il 19 agosto 1919<lb/>il Regolamento Unico fondo Mortuario<lb/>Andra’ in Vigore
+               per le Moglie<lb/>Madre fratelli Sorelle dei Soci<lb/>Apartenenti Alla Lega Toscana<lb/>
+              <pb n="24"/>
+              <persName ref="#mf">Il<roleName>Presidente</roleName>M
+                 <surname>Frediani</surname></persName>Chiese<lb/>il Raporto del Comto Scelto
+               per<lb/>trovare la farm per darci la festa<lb/>Campestre e Famigliare<lb/>
+              <persName ref="#sm">Il<roleName type="committee">Capo Com<hi rend="supraline"
+                        >to</hi></roleName>S<surname>Maffei</surname></persName>Raporto<lb/>che
+               avevano trovato e ingaggiato<lb/>la Ross Farm Aspinwall Pa<lb/>per $20<hi
+                  rend="supraline">00</hi>e avremmo potuto<lb/>farci la festa qualunque
+               domenica<lb/>che Si avesse piaciuto a Noi<lb/>Cosi fu’ accetta da tutta la<lb/>
+               Assemblea Generale di dare la<lb/>Festa Campestre e Famigliare<lb/>a Ross Farm
+               Aspinwall Pa<lb/>la 1a domenica di agosto<lb/>Aministrazione della Festa Campestre<lb/>
+              <list type="committee" subtype="festaCampestre">
+                 <item><persName ref="#mf">Muzio Frediani
+                       <roleName>Presidente</roleName></persName></item>
+               <lb/>
+                 <item><persName ref="#mz">Modesto Zini<roleName type="committee"
+                        >Vice</roleName></persName></item>
+               <lb/>
+                 <item><persName ref="#cp">Casimiro Pelligrini<roleName type="committee">Seg<hi
+                              rend="supraline">ro</hi>di Finanza</roleName></persName></item>
+               <lb/>
+                 <item><persName ref="#ms">Mike Simonetti<roleName type="committee">^
+                           Cor.</roleName></persName></item>
+               <lb/>
+                 <item><persName ref="#sp">Santino Pasquinelli<roleName type="committee"
+                           >Tesoriere</roleName></persName></item>
+               <lb/>
+                 <item><persName ref="#lv">Lorenzo Vigano’<roleName type="committee">Capo<unclear
+                              reason="illegible">Chia</unclear>
+                     d’arangiomento</roleName></persName></item>
+               <lb/>
+                 <item><persName ref="#em">Eugenio Merciadri</persName></item>
+               <lb/>
+                 <item><persName ref="#vd">Vergilio danesi<roleName type="committee"
+                           >Assistenti</roleName></persName></item>
+               <lb/>
+                 <item><persName ref="#sp">Sam Paganucci</persName></item>
+               <lb/>
+                 <item><persName ref="#mp">Mike Paterni</persName></item>
+               <lb/>
+              </list>
+              <!-- HOW TO FORMAT THIS IN TEI??? -->Fu dato Pieno Potere all’aministrazione<lb/>di
+               agire e di fare tutto il<lb/>Necessario per la festa<lb/>
+              <pb n="25"/>Non Avendo Altro da Fare<lb/>Il Presidente<lb/>Muzio Frediani Alle Ore
+                  11<hi rend="supraline">15</hi><lb/>Minuti<lb/>Dichiarava la Seduta Sciolta<lb/>
+               Il Presidente Il Segretario Muzio Frediani M G Simonetti</ab>
+        </body>
+     </text>
+  </TEI>
+  <TEI>
+     <teiHeader>
+        <fileDesc>
+           <titleStmt>
+              <title type="main">Lega Toscana di Protezione</title>
+              <title type="sub">Seduta generale Ordinaria</title>
+           </titleStmt>
+           <publicationStmt>
+              <authority>Lega Toscana di Protezione</authority>
+              <date when="1919-08-18"/>
+           </publicationStmt>
+           <sourceDesc><p>Source description here.</p></sourceDesc>
+        </fileDesc>
+     </teiHeader>
+     <text>
+        <body>
+           <ab><pb n="26"/>
+               Alle Ore 930 PM<persName ref="#mf"><roleName>Presidente</roleName>Muzio<lb/>
+              <surname>Frediani</surname></persName>dichiarava la Seduta Aperta<lb/>
+               quindi Ordinò l’appello Nominale risulta<lb/>
+               sono Mancanti I Seguenti Uff<hi rend="supraline">li</hi>Sanitari<lb/>
+              <persName ref="#cg">Carlo Giometti</persName><lb/>
+               Si Passo’ all’alettura Processo Verbale e<lb/>
+               il quale fù aprovato Come e Scritto<lb/>
+               Vi furono Sei (6) Nuvi Aplicazione<lb/>
+               i quali Sono i Seguenti<persName ref="#am">Antonio<surname>Mancini</surname></persName><lb/>
+              <persName ref="#ap">Alfredo<surname>Pardini</surname></persName><persName ref="#er">Edualda Simi</persName><persName ref="#rr">Roberti<lb/>
+              <surname>Rossi</surname></persName><persName ref="#lt">Leo<surname>Tambellin</surname></persName><persName ref="#op">Olinto Pacini</persName><lb/>
+               tutti furono acettati dalla’Assemblea<lb/>
+               Generale Purchè Presentino un Certificato<lb/>
+               Medico di Sana Cotituzione<lb/>
+              <persName>Il<roleName>Pr<hi rend="supraline">te</hi></roleName>Muzio<surname>Frediani</surname></persName>parlo’ in Riguardo alla<lb/>
+               Nistia come l’assemblea avesse intenzio<lb/>
+               ne di fare.<seg type="proposal"><persName ref="#sm" role="proposer">Il<roleName>fratello</roleName>Stefano<surname>Maffei</surname></persName>fece<lb/>
+               la Proposta che la Nistia fosse stata in<lb/>
+               Vigore fino alla prossima seduta e poi<lb/>
+               Fosse stata tolta la Proposta del Fratello<lb/>
+               Maffei Fu Asecondata<persName ref="#cs" role="supporter">dal<roleName>Fratello</roleName><surname>Silvione</surname></persName><lb/></seg>
+               È fu aprovata da tutta L’’assemblea Generale<lb/>
+               Fu risolta una grande disculzione in<lb/>
+               riguardo dei fratelli che si Trovano Aretrati<lb/>
+               Coi Pagamenti tasse Mensili dopo lunga<lb/>
+               Disculzione<seg type="proposal"><persName ref="#ms" role="proposer">Il<roleName>Fratello</roleName>M.<surname>Simonetti</surname></persName><lb/>
+               Fece la Proposta che tutti Coloro che<lb/>
+               Si trovano aretrati piu’ di un<lb/>
+              <pb n="27"/>
+               Anno Aretrati Coi Pagamenti tasse Mensili<lb/>
+               di Farli Avisati che Sarano Rimessi in Regola<lb/>
+               Con la Lega Toscana quando avanno Pagato<lb/>
+               Un anno di aretrato e la Meta’ della<lb/>
+               Somma dell’aretrato piu di un anno<lb/>
+               Valledire che questo abonamento della Meta<lb/>
+               e semplicemente per le Tasse Mensili per<lb/>
+               quelli che si trovano Aretrati piu’ di un Anno<lb/>
+               la Proposta del Fratello Simonetti fu<lb/>
+               asecondata<persName ref="#sm" role="supporter">dal<roleName>Fratello</roleName><surname>Maffei</surname></persName>e fu aprovata da<lb/>
+               tutta la Assemblea generale<lb/></seg>
+              <seg type="proposal"><persName ref="#sm" role="proposer">Il<roleName>Fratello</roleName>Stefano<surname>Maffei</surname></persName>fece la Proposta<lb/>
+               che alla Prossima Seduta tutti gli aretrati<lb/>
+               che Sono Stati Avisati e che si sono rif<hi rend="underline">iu</hi><lb/>
+               tati a pagare laretrato che Siano Cancellati<lb/>
+               dai ruoli della Lega Toscana la Proposta<lb/>
+               del fratello Maffei fu Assecondata da<lb/>
+              <persName ref="#cs" role="supporter">Carlo Silvione</persName>è fu aprovata da tutta<lb/>
+               l’assemblea generale<lb/></seg>
+              <seg type="proposal"><persName ref="#sm">Il<roleName>fratello</roleName>Stefano<surname>Maffei</surname></persName>fece Come<lb/>
+               Proposta a dare un Ballo a Beneficio<lb/>
+               del Sodalizio della Lega Toscana<lb/>
+               la Proposta del Fratello Maffei fu asecondata<lb/>
+              <persName ref="#ms" role="supporter">dal Fratello Simonetti</persName>e fu aprovata<lb/>
+               da tutta la l’assemblea generale<lb/></seg>
+               Il Presidente apri la Nomina del<lb/>
+               Comitato Ballo e Resultarono i<lb/>
+               Seguenti<lb/>
+              <list type="committee" subtype="ballo"><item><persName ref="#fb"><roleName type="committee">A Presidente<lb/>
+               Francesco W<surname>Bonini</surname></roleName></persName><lb/></item>
+              <item><persName ref="#cs"><roleName type="committee">Vice Presidente</roleName>Carlo<surname>Silvione</surname></persName></item><lb/>
+              <pb n="28"/>
+              <item><persName ref="#ss"><roleName type="committee">Secondo Vice Presidente</roleName>Scopo<surname>Sodini</surname></persName></item><lb/>
+              <item><persName ref="#mf"><roleName type="committee">Segretario di Cor</roleName>Muzio Frediani</persName></item><lb/>
+              <item><persName ref="#cp"><roleName type="committee">Asistente Segretario</roleName>Casimiro<surname>Pellegrini</surname></persName></item><lb/>
+              <item><persName ref="#sd"><roleName type="committee">Tesoriere</roleName>Serafino<surname>DeSimo</surname></persName></item><lb/>
+              <item><roleName type="subcommittee">Comitato di Ricevimento</roleName><lb/>
+             <list><item><persName ref="#eb">Eugenio<surname>Bertoni</surname></persName></item><lb/>
+              <item><persName ref="#cc">Castruccio<surname>Cappellini</surname></persName></item><lb/>
+              <item><persName ref="#gt">Giuseppe<surname>Tambellini</surname></persName></item><lb/>
+              <item><persName ref="#os">Orlando<surname>Serafini</surname></persName></item><lb/>
+             <item><persName ref="#am">Abramo <surname>Marsili</surname></persName></item></list></item><lb/>
+              <item><roleName type="subcommittee">Manegere della Sala da Balli</roleName><lb/>
+             <list><item><persName ref="#ms">Michele <surname>Simonetti</surname></persName></item><lb/>
+              <item><persName ref="#ll">Lorenzo <surname>Lunardini</surname></persName></item><lb/>
+              <item><persName ref="#lv">Lorenzo <surname>Vigano</surname></persName></item><lb/>
+              <item><persName ref="#up">Ugo <surname>Pistelli</surname></persName></item></list></item><lb/>
+              <item><roleName type="subcommittee">Chiarma d’arangiomento</roleName><lb/>
+              <list><item><persName ref="#sm">Stefano <surname>Maffei</surname></persName></item><lb/>
+              <item><persName ref="#gf">Giuseppe Fredianelli</persName></item><lb/>
+              <item><persName ref="#sm">Sam Paganucci</persName></item><lb/>
+              <item><persName ref="#mz">Modesto Zini</persName></item><lb/>
+              <item><persName ref="#em">Eugenio Merciadri</persName></item><lb/>
+              <item><persName ref="#ed">Enrico DeRisco</persName></item><lb/>
+              <item><persName ref="#cg">Carlo Giometti</persName></item><lb/>
+              <item><persName ref="#ap">Americo Pasquinelli</persName></item><lb/>
+              <item><persName ref="#fg">Francesco Giangranedi</persName></item><lb/>
+              <item><persName ref="#sp">Santino Pasquinelli</persName></item></list></item><lb/></list>
+               <seg type="proposal"><persName ref="#sm" role="proposer">Il <roleName>Fratello</roleName> Stefano <surname>Maffei</surname></persName> fece<lb/>
+               Come Proposta di dare Pieno Potere<lb/>
+               al Comitato di Agire per il Ballo<lb/>
+              <pb n="29"/>
+               la Proposta del Fratello Maffei fu<lb/>
+               Assecondata <persName ref="#sp">dal Fratello Pasquinelli<lb/>
+                  Santini</persName> e fu aprovata da tutti l’a<lb/>
+               ssemblea Generale</seg><lb/>
+               Non avendo altro da Fare alle<lb/>
+               1115 Minuti il Presidente<lb/>
+               Muzio Frediani dichiarava la<lb/>
+               Seduta Sciolta<lb/>
+               Il Presidente         Il Segretario
+               [firmato] Muzio Frediani    [firmato]  M. S. Simonetti
+           </ab>
+        </body>
+     </text>
+  </TEI>
 </teiCorpus>
