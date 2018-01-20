@@ -18,12 +18,12 @@
   </teiHeader>
   <text>
     <body>
-      <schemaSpec ident="oddex1" start="TEI">
+      <schemaSpec ident="oddex1" start="teiCorpus">
         <moduleRef key="header"/>
-        <moduleRef key="core" include="address author bibl date del hi item lb list pb resp respStmt rs teiCorpus unclear"/>
+        <moduleRef key="core" include="add address addrLine author bibl date del hi item lb list p pb resp respStmt rs teiCorpus title unclear"/>
         <moduleRef key="tei"/>
-        <moduleRef key="textstructure" include="TEI body closer signed"/>
-        <moduleRef key="corpus" except="activity channel locale particDesc"/>
+        <moduleRef key="textstructure" include="TEI body closer signed text"/>
+        <moduleRef key="corpus" except="activity locale particDesc"/>
         <moduleRef key="linking" include="ab seg"/>
         <moduleRef key="msdescription" include="accMat acquisition handDesc history institution msDesc msIdentifier msName origin physDesc repository"/>
         <moduleRef key="namesdates" include="orgName persName roleName surname"/>
@@ -47,7 +47,7 @@
       </elementSpec>
       <elementSpec ident="persName" mode="change" module="namesdates">
         <attList>
-          <attDef ident="role" mode="replace" usage="req">
+          <attDef ident="role" mode="replace" usage="rec">
             <valList type="closed">
               <valItem ident="source"/>
               <valItem ident="target"/>

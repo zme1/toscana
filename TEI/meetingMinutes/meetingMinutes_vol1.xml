@@ -212,11 +212,11 @@
                <persName ref="#sd">Serafino<surname>DeSiecco</surname></persName>
                <persName ref="#gf">Gueseppe<surname>Fredianelli</surname></persName><lb/>
                <persName ref="#cs">Carlo<surname>Silvione</surname></persName>
-               <persName ref="#ms">M Simonetti</persName><lb/><!--<closer>Non Avendo Altro da Fare<persName
+               <persName ref="#ms">M Simonetti</persName><lb/><closer>Non Avendo Altro da Fare<persName
                   ref="#mf">il<roleName><lb/>Presidente</roleName>Muzio
                     <surname>Frediani</surname></persName>alle Ore<lb/>11 Precise dichiarava
                sciolta<lb/>La Seduta<lb/>Il Presidente Il Segretario<lb/><signed>M Frediani</signed>
-               M Simonetti</closer>-->
+               M Simonetti</closer>
                <!-- TO BE AN EXAMPLE ONCE ODD IS DRAFTED. TAG CLOSING THIS WAY --></ab>
          </body>
       </text>
