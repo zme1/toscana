@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg"
+  xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lega Toscana di Protezione ODD File</title>
+        <author>Zachary Enick</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>Prepared in TEI 5 by Zachary Enick for the Italian research assistantship at the University of Pittsburgh. Github repository <ref target="http://github.com/zme1/toscana"/>. Date last worked on: <date when="2018-01-20"/></authority>
+        <availability><licence><!-- licence to go here --></licence></availability>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Born digital.</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <schemaSpec ident="oddex1" start="TEI">
+        <moduleRef key="header"/>
+        <moduleRef key="core" include="address author bibl date del hi item lb list pb resp respStmt rs teiCorpus unclear"/>
+        <moduleRef key="tei"/>
+        <moduleRef key="textstructure" include="TEI body closer signed"/>
+        <moduleRef key="corpus" except="activity channel locale particDesc"/>
+        <moduleRef key="linking" include="ab seg"/>
+        <moduleRef key="msdescription" include="accMat acquisition handDesc history institution msDesc msIdentifier msName origin physDesc repository"/>
+        <moduleRef key="namesdates" include="orgName persName roleName surname"/>
+      </schemaSpec>
+      <elementSpec ident="seg" mode="change" module="linking">
+        <attList>
+          <attDef ident="type" mode="replace" usage="req">
+            <valList type="closed">
+              <valItem ident="proposal"/>
+              <valItem ident="invite"/>
+              <valItem ident="delegation"/>
+            </valList>
+          </attDef>
+          <attDef ident="subtype" mode="replace" usage="opt">
+            <valList type="closed">
+              <valItem ident="task"/>
+              <valItem ident="committee"/>
+            </valList>
+          </attDef>
+        </attList>
+      </elementSpec>
+      <elementSpec ident="persName" mode="change" module="namesdates">
+        <attList>
+          <attDef ident="role" mode="replace" usage="req">
+            <valList type="closed">
+              <valItem ident="source"/>
+              <valItem ident="target"/>
+              <valItem ident="proposer"/>
+              <valItem ident="supporter"/>
+            </valList>
+          </attDef>
+        </attList>
+      </elementSpec>
+      <elementSpec ident="rs" mode="change" module="core">
+        <attList>
+          <attDef ident="role" mode="replace" usage="req">
+            <valList type="closed">
+              <valItem ident="source"/>
+              <valItem ident="target"/>
+              <valItem ident="proposer"/>
+              <valItem ident="supporter"/>
+            </valList>
+          </attDef>
+        </attList>
+      </elementSpec>
+      <elementSpec ident="ab" module="linking">
+        <content>
+          <elementRef key="closer"/>
+        </content>
+      </elementSpec>
+    </body> 
+  </text>
+</TEI>
