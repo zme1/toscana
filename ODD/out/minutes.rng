@@ -5,7 +5,7 @@
          xmlns:teix="http://www.tei-c.org/ns/Examples"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2018-01-20T19:10:40Z. .
+Schema generated from ODD source 2018-01-21T20:08:23Z. .
 TEI Edition: Version 3.1.0. Last updated on
 	15th December 2016, revision d3f5e70
 TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.1.0/
@@ -4713,7 +4713,23 @@ Suggested values include: 1] persuade; 2] express; 3] inform; 4] entertain</a:do
    <define name="ab">
       <element name="ab">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(anonymous block) contains any arbitrary component-level unit of text, acting as an anonymous container for phrase or inter level elements analogous to, but without the semantic baggage of, a paragraph. [16.3. Blocks, Segments, and Anchors]</a:documentation>
-         <ref name="macro.paraContent"/>
+         <zeroOrMore>
+            <choice>
+               <text/>
+               <ref name="closer"/>
+               <ref name="persName"/>
+               <ref name="lb"/>
+               <ref name="pb"/>
+               <ref name="seg"/>
+               <ref name="del"/>
+               <ref name="hi"/>
+               <ref name="add"/>
+               <ref name="orgName"/>
+               <ref name="roleName"/>
+               <ref name="unclear"/>
+               <ref name="list"/>
+            </choice>
+         </zeroOrMore>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   id="oddex1-ab-abstractModel-structure-p-constraint-report-7">
             <rule context="tei:ab">

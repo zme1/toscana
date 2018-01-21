@@ -69,9 +69,23 @@
           </attDef>
         </attList>
       </elementSpec>
-      <elementSpec ident="ab" module="linking">
+      <elementSpec ident="ab" mode="change" module="linking">
         <content>
-          <elementRef key="closer"/>
+          <alternate maxOccurs="unbounded" minOccurs="0">
+            <textNode></textNode>
+            <elementRef key="closer"/>
+            <elementRef key="persName"/>
+            <elementRef key="lb"/>
+            <elementRef key="pb"/>
+            <elementRef key="seg"/>
+            <elementRef key="del"/>
+            <elementRef key="hi"/>
+            <elementRef key="add"/>
+            <elementRef key="orgName"/>
+            <elementRef key="roleName"/>
+            <elementRef key="unclear"/>
+            <elementRef key="list"/>
+          </alternate>
         </content>
       </elementSpec>
     </body> 

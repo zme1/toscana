@@ -8,7 +8,7 @@
          <titleStmt>
             <title>Lega Toscana di Protezione Meeting Minutes: Volume 1</title>
             <respStmt>
-               <resp>Transcribed from scanned immages</resp>
+               <resp>Meeting minutes transcribed from scanned immages</resp>
                <persName ref="#enickz">Zachary Enick</persName>
                <persName ref="#insanal">Lina Insana</persName>
                <persName ref="#jermyne">Eliza Jermyn</persName>
@@ -18,6 +18,10 @@
             <respStmt>
                <resp>TEI file created from transcribed minute log for academic use</resp>
                <persName ref="#enickZ">Zachary Enick</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Head contributor for project development on behalf of the DH Advanced Praxis Group, sponsored by Pitt-Greensburg's Center for the Digital Text</resp>
+               <persName ref="#bondarE">Elisa Beshero-Bondar</persName>
             </respStmt>
          </titleStmt>
          <extent>153 pg.</extent>
