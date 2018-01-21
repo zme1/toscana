@@ -20,8 +20,11 @@
                <persName ref="#enickZ">Zachary Enick</persName>
             </respStmt>
             <respStmt>
-               <resp>Head contributor for project development on behalf of the DH Advanced Praxis Group, sponsored by Pitt-Greensburg's Center for the Digital Text</resp>
+               <!--ebb: Here's how I'd handle this: we're pretty much consultants on your project! -->
+               <resp>Consultants on project development: </resp>
                <persName ref="#bondarE">Elisa Beshero-Bondar</persName>
+              <orgName>Spring 2018 DH Advanced Praxis Group</orgName>
+               <orgName>Center for the Digital Text at the University of Pittsburgh, Greensburg</orgName>
             </respStmt>
          </titleStmt>
          <extent>153 pg.</extent>
@@ -47,7 +50,8 @@
                <msIdentifier>
                   <institution>Heinz History Center</institution>
                   <repository>Detre Library &amp; Archives, Italian American Collection</repository>
-                  <idno>2015.0079 and 2017.0123</idno>
+                  <!--2018-01-21 ebb: This is just a suggestion if it makes sense to isolate the specific catalog numbers: -->
+                  <idno><idno>2015.0079</idno> and <idno>2017.0123</idno></idno>
                   <msName>LEGA Minutes: 1-21-19 - 12-17-25</msName>
                </msIdentifier>
                <physDesc>
