@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg"
-  xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+  xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0"
+  xmlns:sch="http://purl.oclc.org/dsdl/schematron">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -47,6 +48,60 @@
       </elementSpec>
       <elementSpec ident="persName" mode="change" module="namesdates">
         <attList>
+          <attDef ident="ref" mode="replace" usage="req">
+            <valList type="closed">
+              <valItem ident="#enickz"/>
+              <valItem ident="#insanal"/>
+              <valItem ident="#jermyne"/>
+              <valItem ident="#keilr"/>
+              <valItem ident="#millarj"/>
+              <valItem ident="#bondare"/>
+              <valItem ident="#vondasl"/>
+              <valItem ident="#ms"/>
+              <valItem ident="#ap"/>
+              <valItem ident="#mf"/>
+              <valItem ident="#sm"/>
+              <valItem ident="#ml"/>
+              <valItem ident="#lb"/>
+              <valItem ident="#mp"/>
+              <valItem ident="#ed"/>
+              <valItem ident="#al"/>
+              <valItem ident="#cs"/>
+              <valItem ident="#ep"/>
+              <valItem ident="#am"/>
+              <valItem ident="#cr"/>
+              <valItem ident="#ll"/>
+              <valItem ident="#pb"/>
+              <valItem ident="#gr"/>
+              <valItem ident="#em"/>
+              <valItem ident="#cg"/>
+              <valItem ident="#ld"/>
+              <valItem ident="#sd"/>
+              <valItem ident="#gf"/>
+              <valItem ident="#sp"/>
+              <valItem ident="unknown"/>
+              <!-- I am yet to figure out one @ref value for a brother with a shared last name -->
+              <valItem ident="#cp"/>
+              <valItem ident="#af"/>
+              <valItem ident="#cp"/>
+              <valItem ident="#lv"/>
+              <valItem ident="#mz"/>
+              <valItem ident="#lv"/>
+              <valItem ident="#vd"/>
+              <valItem ident="#er"/>
+              <valItem ident="#rr"/>
+              <valItem ident="#lt"/>
+              <valItem ident="#op"/>
+              <valItem ident="#fb"/>
+              <valItem ident="#ss"/>
+              <valItem ident="#eb"/>
+              <valItem ident="#cc"/>
+              <valItem ident="#gt"/>
+              <valItem ident="#os"/>
+              <valItem ident="#up"/>
+              <valItem ident="#fg"/>
+            </valList>
+          </attDef>
           <attDef ident="role" mode="replace" usage="rec">
             <valList type="closed">
               <valItem ident="source"/>
@@ -59,7 +114,7 @@
       </elementSpec>
       <elementSpec ident="rs" mode="change" module="core">
         <attList>
-          <attDef ident="role" mode="replace" usage="req">
+          <attDef ident="role" mode="replace" usage="rec">
             <valList type="closed">
               <valItem ident="source"/>
               <valItem ident="target"/>
@@ -79,7 +134,7 @@
             <elementRef key="pb"/>
             <elementRef key="seg"/>
             <elementRef key="del"/>
-            <elementRef key="hi"/>
+            <elementRef key="rs"/>
             <elementRef key="add"/>
             <elementRef key="orgName"/>
             <elementRef key="roleName"/>
@@ -93,6 +148,7 @@
           <attDef ident="type" mode="replace" usage="rec">
             <valList type="closed">
               <valItem ident="committee"/>
+              <valItem ident="officers"/>
             </valList>
           </attDef>
           <attDef ident="subtype" mode="replace" usage="rec">
@@ -104,6 +160,33 @@
           </attDef>
         </attList>
       </elementSpec>
+      <constraintSpec scheme="isoschematron" ident="persName-id">
+        <constraint>
+          <sch:pattern>
+            <sch:rule context="tei:persName['@ref']">
+              <sch:assert test="./starts-with(., '#')">All @ref values must begin with a hashtag.</sch:assert>
+            </sch:rule>
+          </sch:pattern>
+        </constraint>
+      </constraintSpec>
+      <constraintSpec scheme="isoschematron" ident="rs-id">
+        <constraint>
+          <sch:pattern>
+            <sch:rule context="tei:rs['@ref']">
+              <sch:assert test="./starts-with(., '#')">All @ref values must begin with a hashtag.</sch:assert>
+            </sch:rule>
+          </sch:pattern>
+        </constraint>
+      </constraintSpec>
+      <constraintSpec scheme="isoschematron" ident="orgName-id">
+        <constraint>
+          <sch:pattern>
+            <sch:rule context="tei:orgName['@ref']">
+              <sch:assert test="./starts-with(., '#')">All @ref values must begin with a hashtag.</sch:assert>
+            </sch:rule>
+          </sch:pattern>
+        </constraint>
+      </constraintSpec>
     </body> 
   </text>
 </TEI>
