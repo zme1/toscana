@@ -20,7 +20,7 @@
     <body>
       <schemaSpec ident="oddex1" start="teiCorpus">
         <moduleRef key="header"/>
-        <moduleRef key="core" include="add address addrLine author bibl date del hi item lb list p pb resp respStmt rs teiCorpus title unclear"/>
+        <moduleRef key="core" include="add address addrLine author bibl date del item lb list p pb resp respStmt rs teiCorpus title unclear"/>
         <moduleRef key="tei"/>
         <moduleRef key="textstructure" include="TEI body closer signed text"/>
         <moduleRef key="corpus" except="activity locale particDesc"/>
