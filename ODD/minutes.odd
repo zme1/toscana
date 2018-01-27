@@ -118,6 +118,8 @@
               <valItem ident="#fg"/>
               <valItem ident="#vb"/>
               <valItem ident="#js"/>
+              <valItem ident="#gs"/>
+              <valItem ident="#gm"/>
             </valList>
           </attDef>
           <attDef ident="role" mode="replace" usage="rec">
@@ -176,6 +178,8 @@
             <valList type="closed">
               <valItem ident="committee"/>
               <valItem ident="officers"/>
+              <valItem ident="absent"/>
+              <valItem ident="applicants"/>
             </valList>
           </attDef>
           <attDef ident="subtype" mode="replace" usage="rec">

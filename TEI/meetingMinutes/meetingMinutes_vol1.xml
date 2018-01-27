@@ -237,6 +237,93 @@
          <fileDesc>
             <titleStmt>
                <title type="main">Lega Toscana di Protezione</title>
+               <title type="sub">Seduta regolare Ordinaria 18 Febbraio 1919</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Lega Toscana di Protezione</authority>
+               <date when="1919-02-18"/>
+            </publicationStmt>
+            <sourceDesc>
+               <p>Source Description.</p>
+            </sourceDesc>
+         </fileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <ab><pb n="4"/>
+               Alle Ore 930 P.M. <persName ref="#mf">Il Presidente M. <surname>Frediani</surname></persName><lb/>
+               dichiarava la Seduta aperta.<lb/>
+               quindi <rs ref="#mf">Ordinò</rs> L’Appello Nominale dell’aministra-<lb/>
+               -zione e Risultavano Assenti i Seguenti ufficiali<lb/>
+               <list type="absent">
+                  <item>
+                     <roleName type="officer">a Curatori</roleName> 
+                     <list>
+                        <item><persName ref="#cs">Carlo <surname>Silvione</surname></persName></item>
+                        <item><persName ref="#eb">Eugenio <surname>Bertoni</surname></persName></item>
+                     </list>
+                  </item> 
+                  <item><persName ref="#em">ufficiale<lb/>
+               Sanitari Eugenio <surname>Merciadri</surname></persName></item> <item><persName ref="#af">guardia Sala A <surname>Fontana</surname></persName></item></list><lb/>
+               Si venne alla Lettura Precesso Verbale il<lb/>
+               quale Venne aprovato Come e Scritto<lb/>
+               Il Risultato <persName ref="#sm">del Fratello <surname>Maffei</surname></persName> e <persName ref="#ms">il fratello <surname>Simonetti</surname></persName><lb/>
+               Icaricati di fare il Conto Con <persName ref="unknown">il fratello<lb/>
+               <surname>Serafini</surname></persName> in riguardo ai Piatti <persName ref="#gs">il fratello<lb/>
+               G <surname>Serafini</surname></persName> Pagò la Soma di $5.00 i quali<lb/>
+               Anderanno a fondo del Sodalizio<lb/>               
+               Billi che furano Pagati in Seduta Stante<lb/>
+               Stampa $4.50 un Libro Per Precessi Verbal<lb/>
+               $2.15	Totale  $6.65/100<lb/>
+               quindi Si Passo alla disculzione in riguardo<lb/>
+               A una Nuova Amistia <seg type="proposal">dopo una Lunga<lb/>
+               disculzione <persName ref="#sm" role="proposer">Il Fratello S <surname>Maffei</surname></persName> fece la<lb/>
+               proposta di fare una Mistia la proposta <persName ref="#sm">del<lb/>
+               Fratello S <surname>Maffei</surname></persName> fu asecondata <persName ref="#eb" role="supporter">dal Fratello E Benedetto</persName></seg><lb/>
+               <seg type="proposal"><persName ref="#am">Il Fratello Abramo <surname>Marsili</surname></persName> fece una Proposta che<lb/>
+               in questa Mistia non fossero amessi i Foreoni<lb/>
+               <del rend="strike">più</del> che Oltrapassano 35 anni di Età e non<lb/>
+               più giovani di 18 anni di Età<lb/>
+               e che tutti fossero Messi a Pagamento di $1.00<lb/>
+               la Proposta <persName ref="#am">del Fratello abramo <surname>Marsili</surname></persName><lb/>
+               fu assecondata <persName ref="#gm" role="supporter">dal Fratello Giovacchino <surname>Maffei</surname></persName></seg><lb/>
+               <seg type="proposal"><persName ref="#sm" role="proposer">Il Fratello Stefano <surname>Maffei</surname></persName> Fece la Proposta<lb/>
+               <pb n="5"/>
+               che fosse Stampata una gunta all’articolo 11<lb/>
+               perche il detto art non permette di acettare<lb/>
+               aplicazione Se non anno 21 anni di Età e<lb/>
+               non più di 50 anni di Eta<lb/>
+               la proposta fu assecondata <persName ref="#lv" role="supporter">dal Fratello<lb/>
+               Lorenzo <surname>Viganò</surname></persName></seg><lb/>
+               le tre proposte ed asecondate <rs ref="#mf">il<lb/>
+               Presidente</rs> le Messe all’aprovazione<lb/>
+               e furone aprovate da tutta la Samblea<lb/>
+               Generale –<lb/>
+               <persName ref="#mf">Il Presidente Muzio <surname>Frediani</surname></persName><lb/>
+               diceva che alla Prossima Seduta Avrebbe<lb/>
+               portato un Schema per guardare Se noi<lb/>
+               Volessimo asociare anche Signore o Signorine<lb/>
+               Fanciulli al Nostro Sodalizio Sempre<lb/>
+               però alla Sottoscrizione del Fondo Mortuario<lb/>
+               non alla Lega fu acettato da tutta la<lb/>
+               Assemblea<lb/>
+               Incasso Tasse Mensili $22.00<lb/>
+               <add place="margin">Incasso</add> Tasso Mortuaria $8.00<lb/>
+               Bilancio $499.42<lb/>
+               Spese Totale $8.00<lb/>
+               <closer>Non Avendo altro da Fare alle ore 11:15<lb/>
+               <persName ref="#mf">Il Presidente Muzio <surname>Frediani</surname></persName> dichiarava<lb/>
+               Sciolta la Seduta<lb/>
+               Il Segretario Il Presidente
+               <signed>M.G. Simonetti</signed> <signed>Muzio Frediani</signed></closer></ab>
+         </body>
+      </text>
+   </TEI>
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title type="main">Lega Toscana di Protezione</title>
                <title type="sub">Seduta Regolare Ordinaria 15 Aprile 1919</title>
             </titleStmt>
             <publicationStmt>
@@ -729,26 +816,6 @@
                   Seduta Sciolta<lb/>Il Presidente Il Segretario <signed>Muzio Frediani</signed> 
                   <signed>M. S. Simonetti</signed></closer>
             </ab>
-         </body>
-      </text>
-   </TEI>
-   <TEI>
-      <teiHeader>
-         <fileDesc>
-            <titleStmt>
-               <title/>
-            </titleStmt>
-            <publicationStmt>
-               <p/>
-            </publicationStmt>
-            <sourceDesc>
-               <p/>
-            </sourceDesc>
-         </fileDesc>
-      </teiHeader>
-      <text>
-         <body>
-            <ab/>
          </body>
       </text>
    </TEI>
