@@ -9,8 +9,12 @@
         <author>Zachary Enick</author>
       </titleStmt>
       <publicationStmt>
-        <authority>Prepared in TEI 5 by Zachary Enick for the Italian research assistantship at the University of Pittsburgh. Github repository <ref target="http://github.com/zme1/toscana"/>. Date last worked on: <date when="2018-01-27"/></authority>
-        <availability><licence><!-- licence to go here --></licence></availability>
+        <authority>Prepared in TEI 5 by Zachary Enick for the Italian research assistantship at the
+          University of Pittsburgh. Github repository <ref target="http://github.com/zme1/toscana"
+          />. Date last worked on: <date when="2018-01-27"/></authority>
+        <availability>
+          <licence><!-- licence to go here --></licence>
+        </availability>
       </publicationStmt>
       <sourceDesc>
         <p>Born digital.</p>
@@ -21,12 +25,14 @@
     <body>
       <schemaSpec ident="oddex1" start="teiCorpus">
         <moduleRef key="header"/>
-        <moduleRef key="core" include="add address addrLine author bibl date del item lb list p pb resp respStmt rs teiCorpus title unclear"/>
+        <moduleRef key="core"
+          include="add address addrLine author bibl date del item lb list num p pb resp respStmt rs teiCorpus title unclear"/>
         <moduleRef key="tei"/>
         <moduleRef key="textstructure" include="TEI body closer signed text"/>
         <moduleRef key="corpus" except="activity locale particDesc"/>
         <moduleRef key="linking" include="ab seg"/>
-        <moduleRef key="msdescription" include="accMat acquisition handDesc history institution msDesc msIdentifier msName origin physDesc repository"/>
+        <moduleRef key="msdescription"
+          include="accMat acquisition handDesc history institution msDesc msIdentifier msName origin physDesc repository"/>
         <moduleRef key="namesdates" include="orgName persName roleName surname"/>
       </schemaSpec>
       <elementSpec ident="seg" mode="change" module="linking">
@@ -36,6 +42,7 @@
               <valItem ident="proposal"/>
               <valItem ident="invite"/>
               <valItem ident="delegation"/>
+              <valItem ident="comp"/>
             </valList>
           </attDef>
           <attDef ident="subtype" mode="replace" usage="opt">
@@ -50,7 +57,8 @@
         <constraintSpec ident="persName_surname" scheme="isoschematron">
           <constraint>
             <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron" context="tei:persName">
-              <sch:assert test="./child::tei:surname">Every persName element must have a child surname element</sch:assert>
+              <sch:assert test="./child::tei:surname">Every persName element must have a child
+                surname element</sch:assert>
             </sch:rule>
           </constraint>
         </constraintSpec>
@@ -96,7 +104,7 @@
               <valItem ident="#mz"/>
               <valItem ident="#lv"/>
               <valItem ident="#vd"/>
-              <valItem ident="#er"/>
+              <valItem ident="#es"/>
               <valItem ident="#rr"/>
               <valItem ident="#lt"/>
               <valItem ident="#op"/>
@@ -108,6 +116,8 @@
               <valItem ident="#os"/>
               <valItem ident="#up"/>
               <valItem ident="#fg"/>
+              <valItem ident="#vb"/>
+              <valItem ident="#js"/>
             </valList>
           </attDef>
           <attDef ident="role" mode="replace" usage="rec">
@@ -116,6 +126,15 @@
               <valItem ident="target"/>
               <valItem ident="proposer"/>
               <valItem ident="supporter"/>
+            </valList>
+          </attDef>
+        </attList>
+      </elementSpec>
+      <elementSpec ident="num" mode="change" module="core">
+        <attList>
+          <attDef ident="type" mode="replace" usage="req">
+            <valList type="closed">
+              <valItem ident="monetary"/>
             </valList>
           </attDef>
         </attList>
@@ -135,7 +154,7 @@
       <elementSpec ident="ab" mode="change" module="linking">
         <content>
           <alternate maxOccurs="unbounded" minOccurs="0">
-            <textNode></textNode>
+            <textNode/>
             <elementRef key="closer"/>
             <elementRef key="persName"/>
             <elementRef key="lb"/>
@@ -161,29 +180,33 @@
           </attDef>
           <attDef ident="subtype" mode="replace" usage="rec">
             <valList type="closed">
-              <valItem ident="postoFesta"/>
               <valItem ident="festaCampestre"/>
               <valItem ident="ballo"/>
+              <valItem ident="fondoM"/>
             </valList>
           </attDef>
         </attList>
       </elementSpec>
-      <constraintSpec ident="surname" scheme="isoschematron">
-        <constraint>
-          <sch:pattern>
-            <sch:rule context="tei:seg">
-              <sch:report test="./not(child::tei:surname)">Each persName element must contain a surname child element.</sch:report>
-            </sch:rule>
-          </sch:pattern>
-        </constraint>
-      </constraintSpec>
-      
+      <elementSpec ident="orgName" mode="change" module="namesdates">
+        <attList>
+          <attDef ident="ref" mode="replace" usage="req">
+            <valList type="closed">
+              <valItem ident="#pittText"/>
+              <valItem ident="#praxis"/>
+              <valItem ident="#hhc"/>
+              <valItem ident="#legaT"/>
+              <valItem ident="#figli"/>
+              <valItem ident="#msgm"/>
+            </valList>
+          </attDef>
+        </attList>
+      </elementSpec>
+
       <!-- I need schematron rules to ensure that every persName element has a child surname element, and that every seg element with the
-       @type proposal has children persName elements with @role supporter/proposer, and that every other seg element with @type value has
-      a @role value of either source or target. None of the schematron rules i've created thus far are functional.-->
-      
+       @type proposal has at least one child persName element with a @role attribute.-->
+
       <!-- Have not determined proper Schematron documentation as of yet. -->
-      
-    </body> 
+
+    </body>
   </text>
 </TEI>
