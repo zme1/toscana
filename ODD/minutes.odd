@@ -9,7 +9,7 @@
         <author>Zachary Enick</author>
       </titleStmt>
       <publicationStmt>
-        <authority>Prepared in TEI 5 by Zachary Enick for the Italian research assistantship at the University of Pittsburgh. Github repository <ref target="http://github.com/zme1/toscana"/>. Date last worked on: <date when="2018-01-20"/></authority>
+        <authority>Prepared in TEI 5 by Zachary Enick for the Italian research assistantship at the University of Pittsburgh. Github repository <ref target="http://github.com/zme1/toscana"/>. Date last worked on: <date when="2018-01-27"/></authority>
         <availability><licence><!-- licence to go here --></licence></availability>
       </publicationStmt>
       <sourceDesc>
@@ -47,6 +47,14 @@
         </attList>
       </elementSpec>
       <elementSpec ident="persName" mode="change" module="namesdates">
+        <constraintSpec ident="persName_surname" scheme="isoschematron">
+          <constraint>
+            <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron" context="tei:persName">
+              <sch:assert test="./child::tei:surname">Every persName element must have a child surname element</sch:assert>
+            </sch:rule>
+          </constraint>
+        </constraintSpec>
+        <!-- I can't figure out how to write correct schematron rules... -->
         <attList>
           <attDef ident="ref" mode="replace" usage="req">
             <valList type="closed">
@@ -160,33 +168,22 @@
           </attDef>
         </attList>
       </elementSpec>
-      <constraintSpec scheme="isoschematron" ident="persName-id">
+      <constraintSpec ident="surname" scheme="isoschematron">
         <constraint>
           <sch:pattern>
-            <sch:rule context="tei:persName['@ref']">
-              <sch:assert test="./starts-with(., '#')">All @ref values must begin with a hashtag.</sch:assert>
+            <sch:rule context="tei:seg">
+              <sch:report test="./not(child::tei:surname)">Each persName element must contain a surname child element.</sch:report>
             </sch:rule>
           </sch:pattern>
         </constraint>
       </constraintSpec>
-      <constraintSpec scheme="isoschematron" ident="rs-id">
-        <constraint>
-          <sch:pattern>
-            <sch:rule context="tei:rs['@ref']">
-              <sch:assert test="./starts-with(., '#')">All @ref values must begin with a hashtag.</sch:assert>
-            </sch:rule>
-          </sch:pattern>
-        </constraint>
-      </constraintSpec>
-      <constraintSpec scheme="isoschematron" ident="orgName-id">
-        <constraint>
-          <sch:pattern>
-            <sch:rule context="tei:orgName['@ref']">
-              <sch:assert test="./starts-with(., '#')">All @ref values must begin with a hashtag.</sch:assert>
-            </sch:rule>
-          </sch:pattern>
-        </constraint>
-      </constraintSpec>
+      
+      <!-- I need schematron rules to ensure that every persName element has a child surname element, and that every seg element with the
+       @type proposal has children persName elements with @role supporter/proposer, and that every other seg element with @type value has
+      a @role value of either source or target. None of the schematron rules i've created thus far are functional.-->
+      
+      <!-- Have not determined proper Schematron documentation as of yet. -->
+      
     </body> 
   </text>
 </TEI>
