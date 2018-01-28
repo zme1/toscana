@@ -43,6 +43,7 @@
               <valItem ident="invite"/>
               <valItem ident="delegation"/>
               <valItem ident="comp"/>
+              <valItem ident="nomination"/>
             </valList>
           </attDef>
           <attDef ident="subtype" mode="replace" usage="opt">
@@ -106,6 +107,7 @@
               <valItem ident="#vd"/>
               <valItem ident="#es"/>
               <valItem ident="#rr"/>
+              <valItem ident="#rm"/>
               <valItem ident="#lt"/>
               <valItem ident="#op"/>
               <valItem ident="#fb"/>
@@ -172,7 +174,26 @@
           </alternate>
         </content>
       </elementSpec>
+      <elementSpec ident="roleName" mode="change" module="namesdates">
+        <attList>
+          <attDef ident="type" mode="replace" usage="req">
+            <valList type="closed">
+              <valItem ident="committee"/>
+              <valItem ident="subcommittee"/>
+              <valItem ident="officer"/>
+            </valList>
+          </attDef>
+        </attList>
+      </elementSpec>
       <elementSpec ident="list" mode="change" module="core">
+        <content>
+          <alternate maxOccurs="unbounded" minOccurs="0">
+            <textNode/>
+            <elementRef key="item"/>
+            <elementRef key="lb"/>
+            <elementRef key="pb"/>
+          </alternate>
+        </content>
         <attList>
           <attDef ident="type" mode="replace" usage="rec">
             <valList type="closed">

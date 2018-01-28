@@ -206,9 +206,9 @@
                Parere all’assemble-<lb/> a in riguardo quando Fosse Stato Necessario di<lb/> Mettere
                in Vigore il Sussidio della Lega Toscana e<lb/> dopo Fatta una Lunga disculzione <seg
                   type="proposal"><persName ref="#ms" role="proposer">il Fratello<lb/> M.
-                     Simonetti</persName> Faceva la Proposta che il Sussidio<lb/> Fosse Andato in
+                     <surname>Simonetti</surname></persName> Faceva la Proposta che il Sussidio<lb/> Fosse Andato in
                   Vigore il 1° aprile 1919<lb/> la Proposta Vene Assecondata <persName ref="#sm"
-                     role="supporter">dal Fratello Stefano<lb/> Maffei</persName>
+                     role="supporter">dal Fratello Stefano<lb/> <surname>Maffe</surname>i</persName>
                   <persName ref="#mf">Il Presidente Muzio <surname>Frediani</surname></persName>
                   non<lb/> avendo Altre Proposte la messe all’approvazione<lb/> All’assemblea
                   Generale la Proposta viene<lb/> Approvata Ad una Animita.</seg><lb/>
@@ -317,6 +317,110 @@
                Il Segretario Il Presidente
                <signed>M.G. Simonetti</signed> <signed>Muzio Frediani</signed></closer></ab>
          </body>
+      </text>
+   </TEI>
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title type="main">Lega Toscana di Protezione</title>
+               <title type="sub">Seduta Regolare Ordinaria 18 Marzo 1919</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Lega Toscana di Protezione</authority>
+               <date when="1919-03-18"/>
+            </publicationStmt>
+            <sourceDesc><p>Source Description</p></sourceDesc>
+         </fileDesc>
+      </teiHeader>
+      <text>
+         <body><ab>
+            <pb n="11"/>
+            Alle Ore 930 P.M. <persName ref="#mf">Il Presidente Muzio <surname>Frediani</surname></persName><lb/>
+            dichiarava la Seduta Aperta.<lb/>
+            quindi vi fu L’appello Nominale dell’amini-<lb/>
+            Strazione Risultavano Mancanti i Segue-<lb/>
+            nti Uffli <list type="absent"><item><roleName type="officer">a Curatori</roleName><list> <item><persName ref="#cs">Carlo <surname>Silvione</surname></persName></item><lb/>
+               <item><persName ref="#eb">Eugenio <surname>Bertoni</surname></persName></item> <item><persName ref="#am">Abramo <surname>Marsili</surname></persName></item></list></item></list> quindi<lb/>
+            <persName ref="#cs">Carlo <surname>Silvione</surname></persName> e <persName ref="#eb">Eugenio <surname>Bertoni</surname></persName> Risultavano<lb/>
+            Mancanti alle Sedute per tre Volte Consegu-<lb/>
+            tive E Stando al Nostro Regolamento il<lb/>
+            quale dice che chi Manca per tre volte<lb/>
+            Consegutive alle Sedute e non gustifica<lb/>
+            ta lassenza viene Cancellato<lb/>
+            Cosi il Curatori <persName ref="#cs">Carlo <surname>Silvione</surname></persName> e <persName ref="#eb">Eugenio<lb/>
+               <surname>Bertoni</surname></persName> furono Cancellati della Loro Carica<lb/>
+            <rs ref="#mf">Il Presidente</rs> Ordino la lettura Processo<lb/>
+            Verbale e venne aprovato Come e Scritto<lb/>
+            Vennero Presentate due Nuove Aplicazione<lb/>
+            i quali Sono <list type="applicants"><item><persName ref="#rm">Romeo Maffei</persName></item> e <item><persName ref="#vd">Vergilio<lb/>
+               Danesi</persName></item></list> tutti e due <rs ref="#mf">il Presidente</rs><lb/>
+            gli Messe al Ballottaggio Risultarono<lb/>
+            tutti Favorevoli nessono Contrari<lb/>
+            vi fu’ una discursione al riguardo<lb/>
+            al Fondo Unico Mortuario <seg type="proposal">dopo che<lb/>
+            Fu Parlato da diversi Fratelli <persName ref="#sm">il<lb/>
+            Fratello Stefano <surname>Maffei</surname></persName> fece la <lb/>
+            Proposta che tutti coloro che Pageravan-<lb/>
+            o la tassa di $2.00 giusto Nostro<lb/>
+            regolamento Unico Fondo Mortuario<lb/>
+            <pb n="12"/>
+            non più tardi del 1o Aprile 1919 godera-<lb/>
+            nno Subito il beneficio del Sussidio<lb/>
+            tanto per Malattia che per L’assegno agli<lb/>
+            eredi in Caso di Morte di un Socio<lb/>
+            Coloro che faranno il Pagamento d’ammiss-<lb/>
+            ione al Fondo Unico Mortuario dopo il 1o<lb/>
+            Aprile 1919- prenderanno il diritto dell’asse-<lb/>
+            gno funerario Passati i Sassanta (60)<lb/>
+            Giorni della data del Fatto Pagamento<lb/>
+            la Proposta fu assecondata <persName ref="#sp" role="supporter">dl Socio<lb/>
+            Santino <surname>Pasquinelli</surname></persName>.<lb/>
+            <rs ref="#sm">Il Presidente</rs> la Messe all’aprovazione<lb/>
+            e fu Aprovata con tutti Favorevoli e Nessun-<lb/>
+            o Contrari</seg><lb/>
+            <seg type="proposal"><persName ref="#ms" role="proposer">Il Fratello Michele <surname>Simonett</surname>i</persName> Fece la<lb/>
+            Proposta che Fosse Mandato a tutti<lb/>
+            i Soci una Circolare e Fargli Sapere<lb/>
+            che il primo 1o Aprile 1919 danno in<lb/>
+            vigore il Sussidio in Caso di Malatia<lb/>
+            e L’assegno agli Eredi in Caso di<lb/>
+            Morte di un Socio giusto Nostro<lb/>
+            Regolamento<lb/>
+            e di Notificarli in tutti Riguardi della<lb/>
+            Proposta <persName ref="#sm">Stefano Maffei</persName> assecondata da<lb/>
+            <persName ref="#sp">Santino Pasquinelli</persName> ed approvata all’assemblea<lb/>
+            la Proposta fu assecondata <persName ref="#cg" role="supporter">dal Fratello<lb/>
+            Carlo <surname>Giometti</surname></persName> e <persName ref="#sm" role="supporter">Stefano <surname>Maffei</surname></persName><lb/>
+            <rs ref="#mf">Il Presidente</rs> la Messe all’aprovazione e fu<lb/>
+            aprovato con tutti favorevoli nessuno<lb/>
+            Contrari.</seg><lb/>
+            <persName ref="#mf">Il Presidente Muzio <surname>Frediani</surname></persName> aprì<lb/>
+            la Nomina dei due Curatori<lb/>
+            <pb n="13"/>
+            <seg type="nomination"><persName ref="#ms" role="source">Il Fratello M <surname>Simonetti</surname></persName> Nomino a Cura-<lb/>
+            tore <persName ref="#ll" role="target">Lorenzo <surname>Lunardini</surname></persName> fu assecondato<lb/>
+            da <persName ref="#sp" role="supporter">Santino <surname>Pasquinelli</surname></persName></seg><lb/>
+            <seg type="nomination"><persName ref="#sm" role="source">Il Fratello Stefano <surname>Maffei</surname></persName> Nomino a Curatore<lb/>
+            <persName ref="#sp" role="target">Sam <surname>Paganucci</surname></persName> fu assecondata da <persName ref="#ms" role="supporter">M.<lb/>
+            Simonetti</persName></seg> non Essendo altre Nomine<lb/>
+            <rs ref="#mf">il Presidente</rs> gli Messe all’aprovazione<lb/>
+            All’arsata di Mano tutti Favorevoli<lb/>
+            Contrari Nessuno<lb/>
+            Reso Conto Seduta 18 Marzo 1919<lb/>
+            Bilancio Generale $499.42<lb/>
+            Incasso Marzo 18-1919 $12.00<lb/>
+            Totale $511.42<lb/>
+            Bilancio Generale Mortuario $8.00<lb/>
+            Incasso Marzo 18-1919 $10.00<lb/>
+            Totale $18.00<lb/>
+            <closer>non Essendo altro da Fare <persName ref="#mf">il Presidente Muzio <surname>Frediani</surname></persName><lb/>
+            alle Ore 11:20 PM. dichiarava Sciolta la<lb/>
+            Seduta<lb/>
+            Il Presidente Il Segretario<lb/>
+            <signed>M Frediani</signed> <signed>M Simonetti</signed></closer>
+            
+         </ab></body>
       </text>
    </TEI>
    <TEI>
@@ -461,7 +565,7 @@
                <persName ref="#js">Jeapo<lb/><surname>Sodini</surname></persName>
                <persName ref="#mz">Modesto <surname>Zini</surname></persName><lb/>tutti furore
                aprovati di far Parte<lb/>Alla Nostra Famiglia Lega Toscana<lb/>Pagamenti
-                  Sussidi<lb/><seg type="comp"><persName ref="#fg">F.
+                  Sussidi<lb/><seg type="comp"><persName ref="#fg" role="source">F.
                      <surname>Giangranedi</surname></persName> Nove giorni di Malatea <num
                      type="monetary" value="9">$9.00</num></seg><lb/><seg type="comp"><persName
                      ref="#ld" role="target">Luigi Del Magro</persName> il Settimane <num
