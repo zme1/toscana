@@ -9,19 +9,19 @@
             <title>Lega Toscana di Protezione Meeting Minutes: Volume 1</title>
             <respStmt>
                <resp>Meeting minutes transcribed from scanned immages</resp>
-               <persName ref="#enickz">Zachary Enick</persName>
-               <persName ref="#insanal">Lina Insana</persName>
-               <persName ref="#jermyne">Eliza Jermyn</persName>
-               <persName ref="#keilr">Rita Keil</persName>
-               <persName ref="#millarj">John "Archie" Millar</persName>
+               <persName ref="#enickz">Zachary <surname>Enick</surname></persName>
+               <persName ref="#insanal">Lina <surname>Insana</surname></persName>
+               <persName ref="#jermyne">Eliza <surname>Jermyn</surname></persName>
+               <persName ref="#keilr">Rita <surname>Keil</surname></persName>
+               <persName ref="#millarj">John "Archie" <surname>Millar</surname></persName>
             </respStmt>
             <respStmt>
                <resp>TEI file created from transcribed minute log for academic use</resp>
-               <persName ref="#enickz">Zachary Enick</persName>
+               <persName ref="#enickz">Zachary <surname>Enick</surname></persName>
             </respStmt>
             <respStmt>
                <resp>Consultants on project development: </resp>
-               <persName ref="#bondare">Elisa Beshero-Bondar</persName>
+               <persName ref="#bondare">Elisa <surname>Beshero-Bondar</surname></persName>
                <orgName ref="#praxis">Spring 2018 DH Advanced Praxis Group</orgName>
                <orgName ref="#pittText">Center for the Digital Text at the University of Pittsburgh,
                   Greensburg</orgName>
@@ -75,7 +75,7 @@
                   <acquisition>
                      <p>The manuscript documents were donated to the<orgName ref="#hhc">Heinz
                            History Center</orgName>by<persName ref="#vondasl">Laura
-                           Bocelli-Vondas</persName>in two portions - the first in 2015 and the
+                           <surname>Bocelli-Vondas</surname></persName>in two portions - the first in 2015 and the
                         second in 2017.</p>
                   </acquisition>
                </history>
@@ -281,7 +281,7 @@
                A una Nuova Amistia <seg type="proposal">dopo una Lunga<lb/>
                disculzione <persName ref="#sm" role="proposer">Il Fratello S <surname>Maffei</surname></persName> fece la<lb/>
                proposta di fare una Mistia la proposta <persName ref="#sm">del<lb/>
-               Fratello S <surname>Maffei</surname></persName> fu asecondata <persName ref="#eb" role="supporter">dal Fratello E Benedetto</persName></seg><lb/>
+               Fratello S <surname>Maffei</surname></persName> fu asecondata <persName ref="#eb" role="supporter">dal Fratello E <surname>Benedetto</surname></persName></seg><lb/>
                <seg type="proposal"><persName ref="#am">Il Fratello Abramo <surname>Marsili</surname></persName> fece una Proposta che<lb/>
                in questa Mistia non fossero amessi i Foreoni<lb/>
                <del rend="strike">più</del> che Oltrapassano 35 anni di Età e non<lb/>
@@ -355,8 +355,8 @@
             <rs ref="#mf">Il Presidente</rs> Ordino la lettura Processo<lb/>
             Verbale e venne aprovato Come e Scritto<lb/>
             Vennero Presentate due Nuove Aplicazione<lb/>
-            i quali Sono <list type="applicants"><item><persName ref="#rm">Romeo Maffei</persName></item> e <item><persName ref="#vd">Vergilio<lb/>
-               Danesi</persName></item></list> tutti e due <rs ref="#mf">il Presidente</rs><lb/>
+            i quali Sono <list type="applicants"><item><persName ref="#rm">Romeo <surname>Maffei</surname></persName></item> e <item><persName ref="#vd">Vergilio<lb/>
+               <surname>Danesi</surname></persName></item></list> tutti e due <rs ref="#mf">il Presidente</rs><lb/>
             gli Messe al Ballottaggio Risultarono<lb/>
             tutti Favorevoli nessono Contrari<lb/>
             vi fu’ una discursione al riguardo<lb/>
@@ -390,8 +390,8 @@
             Morte di un Socio giusto Nostro<lb/>
             Regolamento<lb/>
             e di Notificarli in tutti Riguardi della<lb/>
-            Proposta <persName ref="#sm">Stefano Maffei</persName> assecondata da<lb/>
-            <persName ref="#sp">Santino Pasquinelli</persName> ed approvata all’assemblea<lb/>
+            Proposta <persName ref="#sm">Stefano <surname>Maffei</surname></persName> assecondata da<lb/>
+            <persName ref="#sp">Santino <surname>Pasquinelli</surname></persName> ed approvata all’assemblea<lb/>
             la Proposta fu assecondata <persName ref="#cg" role="supporter">dal Fratello<lb/>
             Carlo <surname>Giometti</surname></persName> e <persName ref="#sm" role="supporter">Stefano <surname>Maffei</surname></persName><lb/>
             <rs ref="#mf">Il Presidente</rs> la Messe all’aprovazione e fu<lb/>
@@ -405,7 +405,7 @@
             da <persName ref="#sp" role="supporter">Santino <surname>Pasquinelli</surname></persName></seg><lb/>
             <seg type="nomination"><persName ref="#sm" role="source">Il Fratello Stefano <surname>Maffei</surname></persName> Nomino a Curatore<lb/>
             <persName ref="#sp" role="target">Sam <surname>Paganucci</surname></persName> fu assecondata da <persName ref="#ms" role="supporter">M.<lb/>
-            Simonetti</persName></seg> non Essendo altre Nomine<lb/>
+            <surname>Simonetti</surname></persName></seg> non Essendo altre Nomine<lb/>
             <rs ref="#mf">il Presidente</rs> gli Messe all’aprovazione<lb/>
             All’arsata di Mano tutti Favorevoli<lb/>
             Contrari Nessuno<lb/>
@@ -570,7 +570,7 @@
                   Sussidi<lb/><seg type="comp"><persName ref="#fg" role="source">F.
                      <surname>Giangranedi</surname></persName> Nove giorni di Malatea <num
                      type="monetary" value="9">$9.00</num></seg><lb/><seg type="comp"><persName
-                     ref="#ld" role="target">Luigi Del Magro</persName> il Settimane <num
+                     ref="#ld" role="target">Luigi <surname>Del Magro</surname></persName> il Settimane <num
                      type="monetary" value="28">28.00</num></seg><lb/>Si Passo alla Lettura del
                Nuovo Regolame<lb/>Nto Unico Fondo Mortuario per la prima<lb/>Volta e Fuì aprovato
                tutti gli art<lb/>Da tutta l’assemblea Generale<lb/>
@@ -596,7 +596,7 @@
                      <item><persName ref="#ll" role="target">Lorenzo
                            <surname>Lunardici</surname></persName></item>
                      <lb/>
-                     <item><persName ref="#sp" role="target">Santino Pasquinelli</persName></item>
+                     <item><persName ref="#sp" role="target">Santino <surname>Pasquinelli</surname></persName></item>
                      <lb/>
                      <item><persName ref="#sm" role="target">Stefano
                            <surname>Maffei</surname></persName></item>
@@ -632,7 +632,7 @@
                <pb n="21"/>Alle Ore 930 P.M.<persName ref="#mf">Il presidente
                      Muzio<surname>Frediani</surname></persName><lb/>Dichiarava aperta la
                Seduta<lb/>Apello Nominale ufle<lb/>Risultarono Mancanti i Seguenti<lb/>
-               <add place="margin">Curre</add><persName ref="#sp">Sam Paganucci</persName> <persName ref="#am">Abramo Marsili</persName> <persName ref="#cg">ufle Sanro<lb/>Carlo
+               <add place="margin">Curre</add><persName ref="#sp">Sam <surname>Paganucci</surname></persName> <persName ref="#am">Abramo <surname>Marsili</surname></persName> <persName ref="#cg">ufle Sanro<lb/>Carlo
                <surname>Giometti</surname></persName> <persName ref="#af">Guadia Sala - Angelo <surname>Fontana</surname></persName><lb/>
                <add place="margin">Fu</add>Lettura Processo Verbale il quale Venne<lb/>aprovato Come
                e Scritto<lb/>
@@ -654,11 +654,11 @@
                <seg type="delegation" subtype="committee"><rs ref="#mf" role="source">Il
                      Presidente</rs>Scelse il Comitoto per<lb/>Trovare il Posto da dare la festa<lb/>Commitato<lb/>
                   <list type="committee" subtype="festaCampestre">
-                     <item><persName ref="#sm" role="target">Stefano Maffei</persName></item>
-                     <item><persName ref="#sp" role="target">Santino Pasquinelli</persName></item>
+                     <item><persName ref="#sm" role="target">Stefano <surname>Maffei</surname></persName></item>
+                     <item><persName ref="#sp" role="target">Santino <surname>Pasquinelli</surname></persName></item>
                      <lb/>
-                     <item><persName ref="#cp" role="target">Casimiro Pellegrini</persName></item>
-                     <item><persName ref="#ll" role="target">Lorenzo Lunardini</persName></item>
+                     <item><persName ref="#cp" role="target">Casimiro <surname>Pellegrini</surname></persName></item>
+                     <item><persName ref="#ll" role="target">Lorenzo <surname>Lunardini</surname></persName></item>
                      <lb/>
                      <item><persName ref="#sd" role="target">Serafino
                            <surname>DeSiecco</surname></persName></item>
@@ -796,10 +796,10 @@
                Aplicazione<lb/>i quali Sono i Seguenti<persName ref="#am"
                      >Antonio<surname>Mancini</surname></persName><lb/>
                <persName ref="#ap">Alfredo<surname>Pardini</surname></persName><persName ref="#es"
-                  >Edualda Simi</persName><persName ref="#rr">Roberti<lb/>
+                  >Edualda <surname>Simi</surname></persName><persName ref="#rr">Roberti<lb/>
                   <surname>Rossi</surname></persName><persName ref="#lt"
                      >Leo<surname>Tambellin</surname></persName><persName ref="#op">Olindo
-                  Pacini</persName><lb/>tutti furono acettati dalla’Assemblea<lb/>Generale Purchè
+                  <surname>Pacini</surname></persName><lb/>tutti furono acettati dalla’Assemblea<lb/>Generale Purchè
                Presentino un Certificato<lb/>Medico di Sana Cotituzione<lb/>
                <persName ref="#mf"> Il Prte Muzio <surname>Frediani</surname></persName>parlo’ in
                Riguardo alla<lb/> Nistia come l’assemblea avesse intenzio<lb/>ne di fare.<seg
@@ -825,28 +825,28 @@
                         <surname>Maffei</surname></persName>fece la Proposta<lb/> che alla Prossima
                   Seduta tutti gli aretrati<lb/>che Sono Stati Avisati e che si sono rifiu<lb/>tati
                   a pagare laretrato che Siano Cancellati<lb/>dai ruoli <orgName ref="#legaT">della Lega Toscana</orgName> la
-                  Proposta<lb/><persName ref="#sm">del fratello Maffei</persName> fu Assecondata da<lb/>
-                  <persName ref="#cs" role="supporter">Carlo Silvione</persName>è fu aprovata da
+                  Proposta<lb/><persName ref="#sm">del fratello <surname>Maffei</surname></persName> fu Assecondata da<lb/>
+                  <persName ref="#cs" role="supporter">Carlo <surname>Silvione</surname></persName>è fu aprovata da
                   tutta<lb/>l’assemblea generale<lb/></seg>
                <seg type="proposal"><persName ref="#sm" role="proposer">Il fratello Stefano
                         <surname>Maffei</surname></persName>fece Come<lb/>Proposta a dare un Ballo a
                   Beneficio<lb/>del Sodalizio della Lega Toscana<lb/>la Proposta del Fratello Maffei
                   fu asecondata<lb/>
-                  <persName ref="#ms" role="supporter">dal Fratello Simonetti</persName>e fu
+                  <persName ref="#ms" role="supporter">dal Fratello <surname>Simonetti</surname></persName>e fu
                   aprovata<lb/>da tutta la l’assemblea generale<lb/></seg> Il Presidente apri la
                Nomina del<lb/>Comitato Ballo e Resultarono i<lb/>Seguenti<lb/>
                <list type="committee" subtype="ballo">
                   <item><persName ref="#fb"><roleName type="committee">A Presidente<lb/>Francesco
                               W<surname>Bonini</surname></roleName></persName><lb/></item>
                   <item><persName ref="#cs"><roleName type="committee">Vice
-                           Presidente</roleName>Carlo<surname>Silvione</surname></persName></item>
+                           Presidente</roleName>Carlo <surname>Silvione</surname></persName></item>
                   <lb/>
                   <pb n="28"/>
                   <item><persName ref="#ss"><roleName type="committee">Secondo Vice
                            Presidente</roleName>Scopo<surname>Sodini</surname></persName></item>
                   <lb/>
                   <item><persName ref="#mf"><roleName type="committee">Segretario di
-                        Cor</roleName>Muzio Frediani</persName></item>
+                        Cor</roleName>Muzio <surname>Frediani</surname></persName></item>
                   <lb/>
                   <item><persName ref="#cp"><roleName type="committee">Asistente
                            Segretario</roleName>Casimiro<surname>Pellegrini</surname></persName></item>
