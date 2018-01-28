@@ -55,15 +55,6 @@
         </attList>
       </elementSpec>
       <elementSpec ident="persName" mode="change" module="namesdates">
-        <constraintSpec ident="persName_surname" scheme="isoschematron">
-          <constraint>
-            <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron" context="tei:persName">
-              <sch:assert test="./child::tei:surname">Every persName element must have a child
-                surname element</sch:assert>
-            </sch:rule>
-          </constraint>
-        </constraintSpec>
-        <!-- I can't figure out how to write correct schematron rules... -->
         <attList>
           <attDef ident="ref" mode="replace" usage="req">
             <valList type="closed">
@@ -226,6 +217,16 @@
           </attDef>
         </attList>
       </elementSpec>
+      
+      <!-- SCHEMATRON RULES OUTSIDE ELEMENTSPEC -->
+      
+      <constraintSpec ident="persName_surname" scheme="isoschematron">
+        <constraint>
+          <sch:rule context="tei:persName">
+            <sch:assert test="child::tei:surname">Every persName element must have a child surname element!</sch:assert>
+          </sch:rule>
+        </constraint>
+      </constraintSpec>
 
       <!-- I need schematron rules to ensure that every persName element has a child surname element, and that every seg element with the
        @type proposal has at least one child persName element with a @role attribute.-->
