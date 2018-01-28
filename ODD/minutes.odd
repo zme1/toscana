@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg"
-  xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0"
-  xmlns:sch="http://purl.oclc.org/dsdl/schematron">
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_odds.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_odds.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+  xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+  xmlns:rng="http://relaxng.org/ns/structure/1.0"
+  version="2.9.1"
+  xml:lang="en">
   <teiHeader>
+    <!--2018-01-28 ebb: I left some comments below (headed with this date and my initials) further on about how to embed Schematron in TEI ODD. Hope this helps! This ODD should work for generating Schematron rules. You'll need to update the association lines in your XML files to be validated to make sure they're reading Schematron rules, too. -->
     <fileDesc>
       <titleStmt>
         <title>Lega Toscana di Protezione ODD File</title>
@@ -23,7 +29,7 @@
   </teiHeader>
   <text>
     <body>
-      <schemaSpec ident="oddex1" start="teiCorpus">
+      <schemaSpec ident="oddex1" source="tei:current" start="teiCorpus">
         <moduleRef key="header"/>
         <moduleRef key="core"
           include="add address addrLine author bibl date del item lb list num p pb resp respStmt rs teiCorpus title unclear"/>
@@ -57,10 +63,18 @@
       <elementSpec ident="persName" mode="change" module="namesdates">
         <constraintSpec ident="persName_surname" scheme="isoschematron">
           <constraint>
-            <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron" context="tei:persName">
-              <sch:assert test="./child::tei:surname">Every persName element must have a child
+            <!--2018-01-28 ebb: You don't want this sch:rule element when you're working on Schematron in an elementSpec <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron" context=".">. The reason is because you don't need or want to define a context for a schematron rule when it is defined inside an <elementSpec>. In TEI ODD, when you set an <elementSpec>, it controls the context of everything within its content. So here, you set things up like so::
+               <constraintSpec>
+                        <constraint>
+                            <sch:assert test="whatever-is-supposed-to-go-on-inside-persName">Message to your team</sch:assert>
+                            <sch:report test="stuff-you-don't-want-to-happen-inside-persName">Message to your team</sch:report>
+                      </constraint>
+                </constraintSpec>
+            
+            -->
+              <sch:assert test="tei:surname">Every persName element must have a child
                 surname element</sch:assert>
-            </sch:rule>
+            <!--</sch:rule>-->
           </constraint>
         </constraintSpec>
         <!-- I can't figure out how to write correct schematron rules... -->
@@ -226,7 +240,16 @@
           </attDef>
         </attList>
       </elementSpec>
-
+     <!--2018-01-28 ebb: Here's an alternative way to define the SAME rule we wrote in the elementSpec for persName above. If you write a constraintSpec as a sibling of the elementSpec elements you need to define its context with sch:rule this time: See how this works?
+       
+       <constraintSpec ident="persName_surname" scheme="isoschematron">
+        <constraint>
+          <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron" context="tei:persName">
+          <sch:assert test="tei:surname">Every persName element must have a child
+            surname element</sch:assert>
+          </sch:rule>
+        </constraint>
+      </constraintSpec>-->
       <!-- I need schematron rules to ensure that every persName element has a child surname element, and that every seg element with the
        @type proposal has at least one child persName element with a @role attribute.-->
 
