@@ -5,7 +5,7 @@
          xmlns:teix="http://www.tei-c.org/ns/Examples"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2018-01-28T19:47:04Z. .
+Schema generated from ODD source 2018-01-28T22:16:42Z. .
 TEI Edition: Version 3.2.0. Last updated on
 	10th July 2017, revision 0fcf651
 TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.2.0/
@@ -5408,4 +5408,53 @@ Suggested values include: 1] persuade; 2] express; 3] inform; 4] entertain</a:do
          <ref name="teiCorpus"/>
       </choice>
    </start>
+   <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
+            id="oddex1-persName_surname-constraint-rule-10">
+      <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
+                xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                context="tei:persName">
+              <sch:assert test="descendant::tei:surname">Every persName element must have a
+                descendant surname element.</sch:assert>
+            </sch:rule>
+   </pattern>
+   <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
+            id="oddex1-seg_proposal-constraint-rule-11">
+      <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
+                xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                context="tei:seg[@type='proposal']">
+              <sch:assert test="descendant::tei:persName[@role='proposer']">Every seg of @type
+                "proposal" must have a persName with a @role value of "proposer."</sch:assert>
+              <sch:assert test="descendant::tei:persName[@role='supporter']">Every seg of @type
+                "proposal" must have a persName with a @role value of "supporter."</sch:assert>
+            </sch:rule>
+   </pattern>
+   <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
+            id="oddex1-seg_comp-constraint-rule-12">
+      <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
+                xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                context="tei:seg[@type='comp']">
+              <sch:assert test="descendant::tei:persName[@role='target']">Every seg of @type "comp"
+                must have a persName with a @role value of "target." </sch:assert>
+              <sch:assert test="descendant::tei:num[@type='monetary']">Every seg of @type "comp"
+                must have a num with a @type value of "monetary."</sch:assert>
+              <sch:assert test="descendant::tei:num[@value]">Every seg of @type "comp" must have a
+                num with a @value value equivalent to the amount of money being
+                transferred.</sch:assert>
+            </sch:rule>
+   </pattern>
+   <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
+            id="oddex1-seg_delegation-constraint-rule-13">
+      <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
+                xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                context="tei:seg[@type='delegation']">
+              <sch:assert test="descendant::tei:persName[@role='source'] or descendant::tei:rs[@role='source']">Every seg of @type
+                "delegation" must have a persName or rs with a @role value of "source."</sch:assert>
+              <sch:assert test="descendant::tei:persName[@role='target']">Every seg of @type
+                "delegation" must have a persName with a @role value of "target."</sch:assert>
+            </sch:rule>
+   </pattern>
 </grammar>

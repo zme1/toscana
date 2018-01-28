@@ -2,7 +2,7 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_odds.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_odds.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<!-- Thanks to Dr. Elisa Beshero-Bondar for her consultation in creating this ODD file, especially those parts concerned with drafting Schematron rules -->
+<!-- Thanks to Dr. Elisa Beshero-Bondar for her consultation in creating this ODD file, especially those parts concerned with drafting Schematron rules. -->
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron"
   xmlns:rng="http://relaxng.org/ns/structure/1.0" version="2.9.1" xml:lang="en">
   <teiHeader>
@@ -13,8 +13,8 @@
       </titleStmt>
       <publicationStmt>
         <authority>Prepared in TEI 5 by Zachary Enick for the Italian research assistantship at the
-          University of Pittsburgh. Github repository <ref target="http://github.com/zme1/toscana"
-          />. Date last worked on: <date when="2018-01-27"/></authority>
+          University of Pittsburgh. Github repository: <ref target="http://github.com/zme1/toscana"
+          />. Date last worked on: <date when="2018-01-28"/></authority>
         <availability>
           <licence><!-- licence to go here --></licence>
         </availability>
@@ -37,207 +37,246 @@
         <moduleRef key="msdescription"
           include="accMat acquisition handDesc history institution msDesc msIdentifier msName origin physDesc repository"/>
         <moduleRef key="namesdates" include="orgName persName roleName surname"/>
-      </schemaSpec>
-      <elementSpec ident="seg" mode="change" module="linking">
-        <attList>
-          <attDef ident="type" mode="replace" usage="req">
-            <valList type="closed">
-              <valItem ident="proposal"/>
-              <valItem ident="invite"/>
-              <valItem ident="delegation"/>
-              <valItem ident="comp"/>
-              <valItem ident="nomination"/>
-            </valList>
-          </attDef>
-          <attDef ident="subtype" mode="replace" usage="opt">
-            <valList type="closed">
-              <valItem ident="task"/>
-              <valItem ident="committee"/>
-            </valList>
-          </attDef>
-        </attList>
-      </elementSpec>
-      <elementSpec ident="persName" mode="change" module="namesdates">
-        <!-- Schematron rule obliging every persName element to have a surname descendant element -->
-        <!-- <constraintSpec ident="persName_surname" scheme="isoschematron">
+        <elementSpec ident="seg" mode="change" module="linking">
+          <attList>
+            <attDef ident="type" mode="replace" usage="req">
+              <valList type="closed">
+                <valItem ident="proposal"/>
+                <valItem ident="invite"/>
+                <valItem ident="delegation"/>
+                <valItem ident="comp"/>
+                <valItem ident="nomination"/>
+              </valList>
+            </attDef>
+            <attDef ident="subtype" mode="replace" usage="opt">
+              <valList type="closed">
+                <valItem ident="task"/>
+                <valItem ident="committee"/>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+        <elementSpec ident="persName" mode="change" module="namesdates">
+
+          <!-- Schematron rule obliging every persName element to have a surname descendant element in a format nested within the <elementSpec> element directly. -->
+
+          <!-- <constraintSpec ident="persName_surname" scheme="isoschematron">
           <constraint>
-            <sch:assert test="descendant::tei:surname">Every persName element must have a descendant
-              surname element</sch:assert>
+            <sch:assert test="descendant::tei:surname">Every persName element must have a
+              surname element on the child or descendant axis</sch:assert>
           </constraint>
         </constraintSpec> -->
-        <attList>
-          <attDef ident="ref" mode="replace" usage="req">
-            <valList type="closed">
-              <valItem ident="#enickz"/>
-              <valItem ident="#insanal"/>
-              <valItem ident="#jermyne"/>
-              <valItem ident="#keilr"/>
-              <valItem ident="#millarj"/>
-              <valItem ident="#bondare"/>
-              <valItem ident="#vondasl"/>
-              <valItem ident="#ms"/>
-              <valItem ident="#ap"/>
-              <valItem ident="#mf"/>
-              <valItem ident="#sm"/>
-              <valItem ident="#ml"/>
-              <valItem ident="#lb"/>
-              <valItem ident="#mp"/>
-              <valItem ident="#ed"/>
-              <valItem ident="#al"/>
-              <valItem ident="#cs"/>
-              <valItem ident="#ep"/>
-              <valItem ident="#am"/>
-              <valItem ident="#cr"/>
-              <valItem ident="#ll"/>
-              <valItem ident="#pb"/>
-              <valItem ident="#gr"/>
-              <valItem ident="#em"/>
-              <valItem ident="#cg"/>
-              <valItem ident="#ld"/>
-              <valItem ident="#sd"/>
-              <valItem ident="#gf"/>
-              <valItem ident="#sp"/>
-              <valItem ident="unknown"/>
-              <!-- I am yet to figure out one @ref value for a brother with a shared last name -->
-              <valItem ident="#cp"/>
-              <valItem ident="#af"/>
-              <valItem ident="#cp"/>
-              <valItem ident="#lv"/>
-              <valItem ident="#mz"/>
-              <valItem ident="#lv"/>
-              <valItem ident="#vd"/>
-              <valItem ident="#es"/>
-              <valItem ident="#rr"/>
-              <valItem ident="#rm"/>
-              <valItem ident="#lt"/>
-              <valItem ident="#op"/>
-              <valItem ident="#fb"/>
-              <valItem ident="#ss"/>
-              <valItem ident="#eb"/>
-              <valItem ident="#cc"/>
-              <valItem ident="#gt"/>
-              <valItem ident="#os"/>
-              <valItem ident="#up"/>
-              <valItem ident="#fg"/>
-              <valItem ident="#vb"/>
-              <valItem ident="#js"/>
-              <valItem ident="#gs"/>
-              <valItem ident="#gm"/>
-            </valList>
-          </attDef>
-          <attDef ident="role" mode="replace" usage="rec">
-            <valList type="closed">
-              <valItem ident="source"/>
-              <valItem ident="target"/>
-              <valItem ident="proposer"/>
-              <valItem ident="supporter"/>
-            </valList>
-          </attDef>
-        </attList>
-      </elementSpec>
-      <elementSpec ident="num" mode="change" module="core">
-        <attList>
-          <attDef ident="type" mode="replace" usage="req">
-            <valList type="closed">
-              <valItem ident="monetary"/>
-            </valList>
-          </attDef>
-        </attList>
-      </elementSpec>
-      <elementSpec ident="rs" mode="change" module="core">
-        <attList>
-          <attDef ident="role" mode="replace" usage="rec">
-            <valList type="closed">
-              <valItem ident="source"/>
-              <valItem ident="target"/>
-              <valItem ident="proposer"/>
-              <valItem ident="supporter"/>
-            </valList>
-          </attDef>
-        </attList>
-      </elementSpec>
-      <elementSpec ident="ab" mode="change" module="linking">
-        <content>
-          <alternate maxOccurs="unbounded" minOccurs="0">
-            <textNode/>
-            <elementRef key="closer"/>
-            <elementRef key="persName"/>
-            <elementRef key="lb"/>
-            <elementRef key="pb"/>
-            <elementRef key="seg"/>
-            <elementRef key="del"/>
-            <elementRef key="rs"/>
-            <elementRef key="add"/>
-            <elementRef key="orgName"/>
-            <elementRef key="roleName"/>
-            <elementRef key="unclear"/>
-            <elementRef key="list"/>
-          </alternate>
-        </content>
-      </elementSpec>
-      <elementSpec ident="roleName" mode="change" module="namesdates">
-        <attList>
-          <attDef ident="type" mode="replace" usage="req">
-            <valList type="closed">
-              <valItem ident="committee"/>
-              <valItem ident="subcommittee"/>
-              <valItem ident="officer"/>
-            </valList>
-          </attDef>
-        </attList>
-      </elementSpec>
-      <elementSpec ident="list" mode="change" module="core">
-        <content>
-          <alternate maxOccurs="unbounded" minOccurs="0">
-            <textNode/>
-            <elementRef key="item"/>
-            <elementRef key="lb"/>
-            <elementRef key="pb"/>
-          </alternate>
-        </content>
-        <attList>
-          <attDef ident="type" mode="replace" usage="rec">
-            <valList type="closed">
-              <valItem ident="committee"/>
-              <valItem ident="officers"/>
-              <valItem ident="absent"/>
-              <valItem ident="applicants"/>
-            </valList>
-          </attDef>
-          <attDef ident="subtype" mode="replace" usage="rec">
-            <valList type="closed">
-              <valItem ident="festaCampestre"/>
-              <valItem ident="ballo"/>
-              <valItem ident="fondoM"/>
-            </valList>
-          </attDef>
-        </attList>
-      </elementSpec>
-      <elementSpec ident="orgName" mode="change" module="namesdates">
-        <attList>
-          <attDef ident="ref" mode="replace" usage="req">
-            <valList type="closed">
-              <valItem ident="#pittText"/>
-              <valItem ident="#praxis"/>
-              <valItem ident="#hhc"/>
-              <valItem ident="#legaT"/>
-              <valItem ident="#figli"/>
-              <valItem ident="#msgm"/>
-            </valList>
-          </attDef>
-        </attList>
-      </elementSpec>
-       <constraintSpec ident="persName_surname" scheme="isoschematron"> 
-        <constraint>
-          <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron" context="tei:persName">
-          <sch:assert test="tei:surname">Every persName element must have a child
-            surname element.</sch:assert>
-          </sch:rule>
-        </constraint>
-      </constraintSpec>
-      <!--2018-01-28 ebb: Here's an alternative way to define the SAME rule we wrote in the elementSpec 
+
+          <attList>
+            <attDef ident="ref" mode="replace" usage="req">
+              <valList type="closed">
+                <valItem ident="#enickz"/>
+                <valItem ident="#insanal"/>
+                <valItem ident="#jermyne"/>
+                <valItem ident="#keilr"/>
+                <valItem ident="#millarj"/>
+                <valItem ident="#bondare"/>
+                <valItem ident="#vondasl"/>
+                <valItem ident="#ms"/>
+                <valItem ident="#ap"/>
+                <valItem ident="#mf"/>
+                <valItem ident="#sm"/>
+                <valItem ident="#ml"/>
+                <valItem ident="#lb"/>
+                <valItem ident="#mp"/>
+                <valItem ident="#ed"/>
+                <valItem ident="#al"/>
+                <valItem ident="#cs"/>
+                <valItem ident="#ep"/>
+                <valItem ident="#am"/>
+                <valItem ident="#cr"/>
+                <valItem ident="#ll"/>
+                <valItem ident="#pb"/>
+                <valItem ident="#gr"/>
+                <valItem ident="#em"/>
+                <valItem ident="#cg"/>
+                <valItem ident="#ld"/>
+                <valItem ident="#sd"/>
+                <valItem ident="#gf"/>
+                <valItem ident="#sp"/>
+                <valItem ident="unknown"/>
+                <!-- I am yet to figure out one @ref value for a brother with a shared last name -->
+                <valItem ident="#cp"/>
+                <valItem ident="#af"/>
+                <valItem ident="#cp"/>
+                <valItem ident="#lv"/>
+                <valItem ident="#mz"/>
+                <valItem ident="#lv"/>
+                <valItem ident="#vd"/>
+                <valItem ident="#es"/>
+                <valItem ident="#rr"/>
+                <valItem ident="#rm"/>
+                <valItem ident="#lt"/>
+                <valItem ident="#op"/>
+                <valItem ident="#fb"/>
+                <valItem ident="#ss"/>
+                <valItem ident="#eb"/>
+                <valItem ident="#cc"/>
+                <valItem ident="#gt"/>
+                <valItem ident="#os"/>
+                <valItem ident="#up"/>
+                <valItem ident="#fg"/>
+                <valItem ident="#vb"/>
+                <valItem ident="#js"/>
+                <valItem ident="#gs"/>
+                <valItem ident="#gm"/>
+              </valList>
+            </attDef>
+            <attDef ident="role" mode="replace" usage="rec">
+              <valList type="closed">
+                <valItem ident="source"/>
+                <valItem ident="target"/>
+                <valItem ident="proposer"/>
+                <valItem ident="supporter"/>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+        <elementSpec ident="num" mode="change" module="core">
+          <attList>
+            <attDef ident="type" mode="replace" usage="req">
+              <valList type="closed">
+                <valItem ident="monetary"/>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+        <elementSpec ident="rs" mode="change" module="core">
+          <attList>
+            <attDef ident="role" mode="replace" usage="rec">
+              <valList type="closed">
+                <valItem ident="source"/>
+                <valItem ident="target"/>
+                <valItem ident="proposer"/>
+                <valItem ident="supporter"/>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+        <elementSpec ident="ab" mode="change" module="linking">
+          <content>
+            <alternate maxOccurs="unbounded" minOccurs="0">
+              <textNode/>
+              <elementRef key="closer"/>
+              <elementRef key="persName"/>
+              <elementRef key="lb"/>
+              <elementRef key="pb"/>
+              <elementRef key="seg"/>
+              <elementRef key="del"/>
+              <elementRef key="rs"/>
+              <elementRef key="add"/>
+              <elementRef key="orgName"/>
+              <elementRef key="roleName"/>
+              <elementRef key="unclear"/>
+              <elementRef key="list"/>
+            </alternate>
+          </content>
+        </elementSpec>
+        <elementSpec ident="roleName" mode="change" module="namesdates">
+          <attList>
+            <attDef ident="type" mode="replace" usage="req">
+              <valList type="closed">
+                <valItem ident="committee"/>
+                <valItem ident="subcommittee"/>
+                <valItem ident="officer"/>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+        <elementSpec ident="list" mode="change" module="core">
+          <content>
+            <alternate maxOccurs="unbounded" minOccurs="0">
+              <textNode/>
+              <elementRef key="item"/>
+              <elementRef key="lb"/>
+              <elementRef key="pb"/>
+            </alternate>
+          </content>
+          <attList>
+            <attDef ident="type" mode="replace" usage="rec">
+              <valList type="closed">
+                <valItem ident="committee"/>
+                <valItem ident="officers"/>
+                <valItem ident="absent"/>
+                <valItem ident="applicants"/>
+              </valList>
+            </attDef>
+            <attDef ident="subtype" mode="replace" usage="rec">
+              <valList type="closed">
+                <valItem ident="festaCampestre"/>
+                <valItem ident="ballo"/>
+                <valItem ident="fondoM"/>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+        <elementSpec ident="orgName" mode="change" module="namesdates">
+          <attList>
+            <attDef ident="ref" mode="replace" usage="req">
+              <valList type="closed">
+                <valItem ident="#pittText"/>
+                <valItem ident="#praxis"/>
+                <valItem ident="#hhc"/>
+                <valItem ident="#legaT"/>
+                <valItem ident="#figli"/>
+                <valItem ident="#msgm"/>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+        <constraintSpec ident="persName_surname" scheme="isoschematron">
+          <constraint>
+            <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron" context="tei:persName">
+              <sch:assert test="descendant::tei:surname">Every persName element must have a
+                descendant surname element.</sch:assert>
+            </sch:rule>
+          </constraint>
+        </constraintSpec>
+        <constraintSpec ident="seg_proposal" scheme="isoschematron">
+          <constraint>
+            <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+              context="tei:seg[@type='proposal']">
+              <sch:assert test="descendant::tei:persName[@role='proposer']">Every seg of @type
+                "proposal" must have a persName with a @role value of "proposer."</sch:assert>
+              <sch:assert test="descendant::tei:persName[@role='supporter']">Every seg of @type
+                "proposal" must have a persName with a @role value of "supporter."</sch:assert>
+            </sch:rule>
+          </constraint>
+        </constraintSpec>
+        <constraintSpec ident="seg_comp" scheme="isoschematron">
+          <constraint>
+            <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+              context="tei:seg[@type='comp']">
+              <sch:assert test="descendant::tei:persName[@role='target']">Every seg of @type "comp"
+                must have a persName with a @role value of "target." </sch:assert>
+              <sch:assert test="descendant::tei:num[@type='monetary']">Every seg of @type "comp"
+                must have a num with a @type value of "monetary."</sch:assert>
+              <sch:assert test="descendant::tei:num[@value]">Every seg of @type "comp" must have a
+                num with a @value value equivalent to the amount of money being
+                transferred.</sch:assert>
+            </sch:rule>
+          </constraint>
+        </constraintSpec>
+        <constraintSpec ident="seg_delegation" scheme="isoschematron">
+          <constraint>
+            <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+              context="tei:seg[@type='delegation']">
+              <sch:assert test="descendant::tei:persName[@role='source'] or descendant::tei:rs[@role='source']">Every seg of @type
+                "delegation" must have a persName or rs with a @role value of "source."</sch:assert>
+              <sch:assert test="descendant::tei:persName[@role='target']">Every seg of @type
+                "delegation" must have a persName with a @role value of "target."</sch:assert>
+            </sch:rule>
+          </constraint>
+        </constraintSpec>
+        <!--2018-01-28 ebb: Here's an alternative way to define the SAME rule we wrote in the elementSpec 
        for persName above. If you write a constraintSpec as a sibling of the elementSpec elements you need to 
        define its context with sch:rule this time: See how this works? -->
+      </schemaSpec>
     </body>
   </text>
 </TEI>

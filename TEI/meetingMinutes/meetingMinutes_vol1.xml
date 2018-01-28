@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <?xml-model href="../../ODD/out/minutes.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="../../ODD/out/minutes.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <teiCorpus xmlns="http://www.tei-c.org/ns/1.0">
@@ -217,11 +216,11 @@
                <pb n="3"/> Veniva aperta la disculzione a riguardo al<lb/> fondo Mortuario che il
                quale tutti i Soci sono<lb/> sotto a Pagamento di $200 --- che i quali<lb/> vanno a
                fondo Mortuario--<lb/>
-               <seg type="proposal">dopo una Grande Disculzione <persName ref="#sm">il fratello<lb/>
-                     Stefano <surname>Maffe</surname>i</persName> faceva la Proposta che i<lb/> $200
+               <seg type="proposal">dopo una Grande Disculzione <persName ref="#sm" role="proposer">il fratello<lb/>
+                     Stefano <surname>Maffei</surname></persName> faceva la Proposta che i<lb/> $200
                   fossero Pagati da tutti i fratelli non<lb/> piu' tardi del 1 Aprile 1919. la
                   Proposta <persName ref="#sm">del Fratello <surname>Maffei</surname></persName>
-                  veniva assecondata <persName ref="#ms">dal<lb/> Fratello
+                  veniva assecondata <persName ref="#ms" role="supporter">dal<lb/> Fratello
                         <surname>Simonetti</surname></persName>. Il presidente non avendo altre
                   Proposte lo messe all'aprovazione<lb/> all'assemblea Veniva aprovato da
                   tutte</seg><lb/>
@@ -282,7 +281,7 @@
                disculzione <persName ref="#sm" role="proposer">Il Fratello S <surname>Maffei</surname></persName> fece la<lb/>
                proposta di fare una Mistia la proposta <persName ref="#sm">del<lb/>
                Fratello S <surname>Maffei</surname></persName> fu asecondata <persName ref="#eb" role="supporter">dal Fratello E <surname>Benedetto</surname></persName></seg><lb/>
-               <seg type="proposal"><persName ref="#am">Il Fratello Abramo <surname>Marsili</surname></persName> fece una Proposta che<lb/>
+               <seg type="proposal"><persName ref="#am" role="proposer">Il Fratello Abramo <surname>Marsili</surname></persName> fece una Proposta che<lb/>
                in questa Mistia non fossero amessi i Foreoni<lb/>
                <del rend="strike">più</del> che Oltrapassano 35 anni di Età e non<lb/>
                più giovani di 18 anni di Età<lb/>
@@ -361,7 +360,7 @@
             tutti Favorevoli nessono Contrari<lb/>
             vi fu’ una discursione al riguardo<lb/>
             al Fondo Unico Mortuario <seg type="proposal">dopo che<lb/>
-            Fu Parlato da diversi Fratelli <persName ref="#sm">il<lb/>
+            Fu Parlato da diversi Fratelli <persName ref="#sm" role="proposer">il<lb/>
             Fratello Stefano <surname>Maffei</surname></persName> fece la <lb/>
             Proposta che tutti coloro che Pageravan-<lb/>
             o la tassa di $2.00 giusto Nostro<lb/>
@@ -560,14 +559,14 @@
                      <surname>Frediani</surname></persName><lb/>dichiarò la Seduta Aperta<lb/>
                <seg type="delegation" subtype="task"><rs ref="#mf" role="source">Ordinò</rs>
                   L’apello Nominato il Curatore<lb/>
-                  <persName ref="#sp">Sam<surname>Paganucci</surname></persName></seg><lb/>quindi Si
+                  <persName ref="#sp" role="target">Sam<surname>Paganucci</surname></persName></seg><lb/>quindi Si
                Passò Alla Lettura Precessa<lb/>Verbale il quale Fui aprovato Come e<lb/>
                Scritto.<lb/>Vi Furono Presentate 3 -- Aplicazini<lb/>i quali Sono <persName
                   ref="#vb">Vincenzo <surname>Batistini</surname></persName>
                <persName ref="#js">Jeapo<lb/><surname>Sodini</surname></persName>
                <persName ref="#mz">Modesto <surname>Zini</surname></persName><lb/>tutti furore
                aprovati di far Parte<lb/>Alla Nostra Famiglia Lega Toscana<lb/>Pagamenti
-                  Sussidi<lb/><seg type="comp"><persName ref="#fg" role="source">F.
+                  Sussidi<lb/><seg type="comp"><persName ref="#fg" role="target">F.
                      <surname>Giangranedi</surname></persName> Nove giorni di Malatea <num
                      type="monetary" value="9">$9.00</num></seg><lb/><seg type="comp"><persName
                      ref="#ld" role="target">Luigi <surname>Del Magro</surname></persName> il Settimane <num
@@ -648,7 +647,7 @@
                         M.<surname>Simonetti</surname></persName> Fece una Proposta<lb/>di dare una
                   Festa Campestre Famigliare Nel Mese<lb/>di Agosto 1919 Essendo stato
                   inPossibile<lb/>a darla Nel Mese di Luglio la Proposta<lb/>Fu’
-                     assecondata<persName ref="unknown">dal Flo
+                     assecondata<persName ref="unknown" role="supporter">dal Flo
                      <surname>Cappellini</surname></persName><lb/>e Fu aprovato da tutta
                   l’assemblea</seg><lb/>
                <seg type="delegation" subtype="committee"><rs ref="#mf" role="source">Il
@@ -672,7 +671,7 @@
                         Stefano<surname>Maffei</surname></persName> Fece una proposta<lb/>da dare al
                   comitato incaricato al trovare il<lb/>il Posto Pieno Potere di Fissarlo Sibito
                   e<lb/>di Chiamare una Seduta Straordinaria<lb/>Se la Credessero che gli Fosse
-                  Necessario<lb/>la Proposta Fu assecondata dal Fratello<lb/>Cappellini e da tutta
+                  Necessario<lb/>la Proposta Fu assecondata <persName ref="unknown" role="supporter">dal Fratello<lb/><surname>Cappellini</surname></persName> e da tutta
                   la Samblea</seg><lb/><closer>Non avendo altro da Fare<lb/>Alle ore 1120 P.M. <persName ref="#mf">Il
                   Presidente<lb/>Muzio <surname>Frediani</surname></persName><lb/>dichiarava la Seduta Sciolta<lb/>Il PresteIl
                      Segrio<signed>M. Frediani</signed>
@@ -915,7 +914,7 @@
                         <surname>Maffei</surname></persName> fece<lb/>Come Proposta di dare Pieno
                   Potere<lb/>al Comitato di Agire per il Ballo<lb/>
                   <pb n="29"/> la Proposta del Fratello Maffei fu<lb/>Assecondata <persName
-                     ref="#sp">dal Fratello <surname>Pasquinelli</surname><lb/>Santini</persName> e fu aprovata da
+                     ref="#sp" role="supporter">dal Fratello <surname>Pasquinelli</surname><lb/>Santini</persName> e fu aprovata da
                   tutti l’a<lb/>ssemblea Generale</seg><lb/>
                <closer>Non avendo altro da Fare alle<lb/>1115 Minuti <persName ref="#mf">il
                      Presidente<lb/>Muzio <surname>Frediani</surname></persName> dichiarava la<lb/>
