@@ -68,7 +68,7 @@
         </constraintSpec> -->
 
           <attList>
-            <attDef ident="ref" mode="replace" usage="req">
+            <!--<attDef ident="ref" mode="replace" usage="req">
               <valList type="closed">
                 <valItem ident="#enickz"/>
                 <valItem ident="#insanal"/>
@@ -100,7 +100,7 @@
                 <valItem ident="#gf"/>
                 <valItem ident="#sp"/>
                 <valItem ident="unknown"/>
-                <!-- I am yet to figure out one @ref value for a brother with a shared last name -->
+                 I am yet to figure out one @ref value for a brother with a shared last name 
                 <valItem ident="#cp"/>
                 <valItem ident="#af"/>
                 <valItem ident="#cp"/>
@@ -125,8 +125,8 @@
                 <valItem ident="#js"/>
                 <valItem ident="#gs"/>
                 <valItem ident="#gm"/>
-              </valList>
-            </attDef>
+              </valList> 
+            </attDef> -->
             <attDef ident="role" mode="replace" usage="rec">
               <valList type="closed">
                 <valItem ident="source"/>
