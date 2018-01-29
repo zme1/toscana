@@ -3,6 +3,8 @@
     xpath-default-namespace="http://www.tei-c.org/ns/1.0"
     xmlns="http://www.tei-c.org/ns/1.0"
     version="3.0">
+    <xsl:output method="xml" indent="yes"/>
+    <xsl:variable name="distinctId" select="distinct-values(//persName/@ref)"/>
     <xsl:template match="/">
         <TEI>
             <teiHeader>
@@ -27,16 +29,27 @@
             <text>
                 <body>
                     <listPerson>
-                        <person xml:id="">
-                            <persName>
-                                <surname></surname>
-                                <forename></forename>
-                            </persName>
-                        </person>
+                        <xsl:apply-templates select="//persName">
+                            <xsl:sort/>
+                        </xsl:apply-templates>
                     </listPerson>
                 </body>
             </text>
         </TEI>
     </xsl:template>
-    <xsl:template match="persName"></xsl:template>
+    <xsl:template match="persName">
+        <xsl:variable name="id" select="@ref"/>
+        <xsl:variable name="idNoHash" select="$id/tokenize(string(), '#')"/>
+        <xsl:variable name="ID" select="distinct-values($idNoHash)"/>
+        <person>
+            <persName xml:id="{$ID}">
+                <surname><xsl:value-of select="surame"/></surname>
+                <forename></forename>
+            </persName>
+            <roleName>
+                <roleName></roleName>
+                <date from="" to=""/>
+            </roleName>
+        </person>
+    </xsl:template>
 </xsl:stylesheet>

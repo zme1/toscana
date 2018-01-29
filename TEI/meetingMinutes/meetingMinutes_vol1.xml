@@ -835,8 +835,8 @@
                   aprovata<lb/>da tutta la l’assemblea generale<lb/></seg> Il Presidente apri la
                Nomina del<lb/>Comitato Ballo e Resultarono i<lb/>Seguenti<lb/>
                <list type="committee" subtype="ballo">
-                  <item><persName ref="#boninif"><roleName type="committee">A Presidente<lb/>Francesco
-                              W<surname>Bonini</surname></roleName></persName><lb/></item>
+                  <item><persName ref="#boninif"><roleName type="committee">A Presidente</roleName><lb/>Francesco
+                              W<surname>Bonini</surname></persName><lb/></item>
                   <item><persName ref="#silvionec"><roleName type="committee">Vice
                            Presidente</roleName>Carlo <surname>Silvione</surname></persName></item>
                   <lb/>

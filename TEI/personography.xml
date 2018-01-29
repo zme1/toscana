@@ -1,0 +1,2118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lega Toscana di Protezione XSLT Generated Personography File</title>
+            <author>Zachary Enick</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Prepared in TEI 5 by Zachary Enick for the Italian research assistantship at the
+                            University of Pittsburgh. Github repository: <ref target="http://github.com/zme1/toscana"/>. Date last worked on: <date when="2018-01-28"/>
+            </authority>
+            <availability>
+               <licence/>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person>
+               <persName xml:id="fredianim">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="fredianim">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="viganol">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="marsilia">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="boninif">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="marsilia">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="marsilia">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="marsilia">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="marsilia">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="marsilia">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="marsilia">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="barantip">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="lucchesea">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="pardinia">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="pasquinelliam">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="pasquinelliam">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="fontanaan">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="mancinia">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="pellegrinic">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="robertac">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="silvionec">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="giomettic">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="silvionec">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="giomettic">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="giomettic">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="silvionec">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="silvionec">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="silvionec">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="silvionec">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="silvionec">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="giomettic">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="giomettic">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="silvionec">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="pellegrinic">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="pellegrinic">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="cappellinic">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="ribettig">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="barantip">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="simie">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="bondare">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="jermyne">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="diriccoe">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="diriccoe">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="bertonie">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="merciadrie">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="bertonie">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="bertonie">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="bertonie">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="bertonie">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="merciadrie">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="merciadrie">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="bertonie">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="merciadrie">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="merciadrie">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="giangranedif">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="giangranedif">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="marsilia">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="fredianellig">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="tambellinig">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="fontanaan">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="fontanaan">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="fredianellig">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="simonettim">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="fredianim">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="maffeis">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="pellegrinie">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="pellegrinic">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="simonettim">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="maffeis">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="marsilia">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="simonettim">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="simonettim">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="maffeis">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="maffeis">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="maffeis">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="maffeis">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="maffeis">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="silvionec">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="fredianim">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="simonettim">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="fredianim">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="simonettim">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="fredianim">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="fredianim">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="fredianim">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="fredianim">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="fredianim">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="fredianim">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="fredianim">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="fredianim">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="fredianim">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="delmagrol">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="maffeis">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="maffeis">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="fredianim">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="sodinij">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="millarj">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="lunardinil">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="vondasl">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="tambellinil">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="insanal">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="lunardinil">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="lunardinil">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="viganol">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="lunardinil">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="lunardinil">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="viganol">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="delmagrol">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="buchignanil">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="simonettim">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="simonettim">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="simonettim">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="lunardinim">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="simonettim">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="paternim">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="paternim">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="simonettim">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="zinim">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="zinim">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="zinim">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="fredianim">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="pacinio">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="serafinio">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="fredianim">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="fredianim">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="fredianim">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="keilr">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="rossir">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="maffeir">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="paganuccis">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="paganuccis">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="paganuccis">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="paganuccis">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="paganuccis">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="paganuccis">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="pasquinellis">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="pasquinellis">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="pasquinellis">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="pasquinellis">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="pasquinellis">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="pasquinellis">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="sodinis">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="simonettim">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="pasquinellis">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="fredianim">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="desimos">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="desimos">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="maffeis">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="maffeis">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="maffeis">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="maffeis">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="maffeis">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="pasquinelliam">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="pasquinelliam">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="desimos">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="pistelliu">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="danesiv">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="danesiv">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="silvionec">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="maffeis">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="batistiniv">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="enickz">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="enickz">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="marsilia">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="sunseric">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="maffeis">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="cappellinic">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="lunardinil">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="simonettim">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="giomettic">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="viganol">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="bertonie">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="maffeig">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="pasquinellis">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="simonettim">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="maffeis">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="cappelinic">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="silvionec">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="pellegrinie">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="maffeis">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="sunseric">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="ribettig">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="maffeis">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="maffeis">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="marsilia">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="maffeis">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="pasquinellis">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="fontanaan">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="fredianim">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="fredianim">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="maffeis">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="simonettim">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="fredianim">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="fredianim">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="fredianim">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="fredianim">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="fredianim">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="fredianim">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="fredianim">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="maffeis">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="maffeis">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="serafinig">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="serafinig">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="simonettim">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="delmagrol">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="fredianim">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="merciadrie">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="giomettic">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+            <person>
+               <persName xml:id="giomettic">
+                  <surname/>
+                  <forename/>
+               </persName>
+               <roleName>
+                  <roleName/>
+                  <date from="" to=""/>
+               </roleName>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
