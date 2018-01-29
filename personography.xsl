@@ -26,6 +26,14 @@
             </teiHeader>
             <text>
                 <body>
+                    <listPerson>
+                        <person xml:id="">
+                            <persName>
+                                <surname></surname>
+                                <forename></forename>
+                            </persName>
+                        </person>
+                    </listPerson>
                 </body>
             </text>
         </TEI>
