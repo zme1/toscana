@@ -14,7 +14,7 @@
       <publicationStmt>
         <authority>Prepared in TEI 5 by Zachary Enick for the Italian research assistantship at the
           University of Pittsburgh. Github repository: <ref target="http://github.com/zme1/toscana"
-          />. Date last worked on: <date when="2018-01-28"/></authority>
+          />. Date last worked on: <date when="2018-02-01"/></authority>
         <availability>
           <licence><!-- licence to go here --></licence>
         </availability>
@@ -68,7 +68,7 @@
         </constraintSpec> -->
 
           <attList>
-            <!--<attDef ident="ref" mode="replace" usage="req">
+            <attDef ident="ref" mode="replace" usage="req">
               <valList type="closed">
                 <valItem ident="#enickz"/>
                 <valItem ident="#insanal"/>
@@ -77,56 +77,71 @@
                 <valItem ident="#millarj"/>
                 <valItem ident="#bondare"/>
                 <valItem ident="#vondasl"/>
-                <valItem ident="#ms"/>
-                <valItem ident="#ap"/>
-                <valItem ident="#mf"/>
-                <valItem ident="#sm"/>
-                <valItem ident="#ml"/>
-                <valItem ident="#lb"/>
-                <valItem ident="#mp"/>
-                <valItem ident="#ed"/>
-                <valItem ident="#al"/>
-                <valItem ident="#cs"/>
-                <valItem ident="#ep"/>
-                <valItem ident="#am"/>
-                <valItem ident="#cr"/>
-                <valItem ident="#ll"/>
-                <valItem ident="#pb"/>
-                <valItem ident="#gr"/>
-                <valItem ident="#em"/>
-                <valItem ident="#cg"/>
-                <valItem ident="#ld"/>
-                <valItem ident="#sd"/>
-                <valItem ident="#gf"/>
-                <valItem ident="#sp"/>
+                <valItem ident="#simonettim"/>
+                <valItem ident="#fredianim"/>
+                <valItem ident="#maffeis"/>
+                <valItem ident="#pasquinellis"/>
+                <valItem ident="#silvionec"/>
+                <valItem ident="#paganuccis"/>
+                <valItem ident="#bertonie"/>
+                <valItem ident="#marsilia"/>
+                <valItem ident="#giomettic"/>
+                <valItem ident="#merciadrie"/>
+                <valItem ident="#serafinig"/>
+                <valItem ident="#maffeig"/>
+                <valItem ident="#viganol"/>
+                <valItem ident="#maffeir"/>
+                <valItem ident="#danesiv"/>
+                <valItem ident="#lunardinil"/>
+                <valItem ident="#lunardinim"/>
+                <valItem ident="#buchignanil"/>
+                <valItem ident="#paternim"/>
+                <valItem ident="#diriccoe"/>
                 <valItem ident="unknown"/>
-                 I am yet to figure out one @ref value for a brother with a shared last name 
-                <valItem ident="#cp"/>
-                <valItem ident="#af"/>
-                <valItem ident="#cp"/>
-                <valItem ident="#lv"/>
-                <valItem ident="#mz"/>
-                <valItem ident="#lv"/>
-                <valItem ident="#vd"/>
-                <valItem ident="#es"/>
-                <valItem ident="#rr"/>
-                <valItem ident="#rm"/>
-                <valItem ident="#lt"/>
-                <valItem ident="#op"/>
-                <valItem ident="#fb"/>
-                <valItem ident="#ss"/>
-                <valItem ident="#eb"/>
-                <valItem ident="#cc"/>
-                <valItem ident="#gt"/>
-                <valItem ident="#os"/>
-                <valItem ident="#up"/>
-                <valItem ident="#fg"/>
-                <valItem ident="#vb"/>
-                <valItem ident="#js"/>
-                <valItem ident="#gs"/>
-                <valItem ident="#gm"/>
+        <!--    I am yet to figure out one @ref value for a brother with a shared last name -->
+                <valItem ident="#lucchesea"/>
+                <valItem ident="#pellegrinie"/>
+                <valItem ident="#robertac"/>
+                <valItem ident="#barantip"/>
+                <valItem ident="#ribettig"/>
+                <valItem ident="#delmagrol"/>
+                <valItem ident="#sunseric"/>
+                <valItem ident="#desimos"/>
+                <valItem ident="#fredianellig"/>
+                <valItem ident="#batistiniv"/>
+                <valItem ident="#sodinij"/>
+                <valItem ident="#zinim"/>
+                <valItem ident="#giangranedif"/>
+                <valItem ident="#cappellinic"/>
+                <valItem ident="#pellegrinic"/>
+                <valItem ident="#mancinia"/>
+                <valItem ident="#pardinia"/>
+                <valItem ident="#simie"/>
+                <valItem ident="#rossir"/>
+                <valItem ident="#tambellinil"/>
+                <valItem ident="#pacinio"/>
+                <valItem ident="#boninif"/>
+                <valItem ident="#sodinis"/>
+                <valItem ident="#tambellinig"/>
+                <valItem ident="#serafinio"/>
+                <valItem ident="#pistelliu"/>
+                <valItem ident="#lombardia"/>
+                <valItem ident="#cappellinim"/>
+                <valItem ident="#baldaccia"/>
+                <valItem ident="#cinellio"/>
+                <!-- People with special @ref id tags -->
+                <valItem ident="#fontanaf"/>
+                <valItem ident="#fontanaan"/>
+                <valItem ident="#bianchinigio"/>
+                <valItem ident="#bianchinigiu"/>
+                <valItem ident="#giuntoligi"/>
+                <valItem ident="#giuntoligu"/>
+                <valItem ident="#luchesial"/>
+                <valItem ident="#luchesiam"/>
+                <valItem ident="#pasquinellian"/>
+                <valItem ident="#pasquinelliam"/>
               </valList> 
-            </attDef> -->
+            </attDef>
             <attDef ident="role" mode="replace" usage="rec">
               <valList type="closed">
                 <valItem ident="source"/>
