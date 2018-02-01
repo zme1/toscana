@@ -924,4 +924,80 @@
          </body>
       </text>
    </TEI>
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title type="main">Lega Toscana di Protezione</title>
+               <title type="sub">Seduta Regolare Ordinaria</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Lega Toscana di Protezione</authority>
+               <date when="1919-11-06"/>
+            </publicationStmt>
+            <sourceDesc><p>Information on setting.</p></sourceDesc>
+         </fileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <ab>
+               <pb n="30"/>
+               Alle Ore 9:15 Minuti <persName ref="#fredianim">il Presidente
+               Muzio <surname>Frediani</surname></persName> dichiarava la Seduta
+               aperta. 
+               Appello Nominale Risultavano Mancanti
+               i Seguenti Uffli <persName ref="#pasquinelliam">Americo <surname>Pasquinelli</surname></persName>
+               <persName ref="#giomettic">Carlo <surname>Giometti</surname></persName>. quindi si passo alle
+               lettura Processo Verbale il quale fu aprovato
+               Come era Scritto
+               Si passo’  alle Proposte dei Nuovi
+               Membri le quali furono Sei
+               <list><item><persName ref="#lombardia">Aladino <surname>Lombardi</surname></persName></item> <item><persName ref="#cappellinim">Morello <surname>Cappellini</surname></persName>
+               di Anni 23-</item> <item><persName ref="#fontanaf">Francesco <surname>Fontana</surname></persName> di anni 27</item>
+               <item><persName ref="#pacinio">Olindo <surname>Pacini</surname></persName> di anni 30-</item> <item><persName ref="#baldaccia">Angelo
+               <surname>Baldacci</surname></persName> di anni 32-</item> <item><persName ref="#cinellio">Olinto <surname>Cinelli</surname></persName></item></list>
+               tutti furono Passati a unanimita altro
+               che il Sig. Olinto Cinelli fu Rincesso  
+               Alla prossima Seduta per non avre
+               Spacificato leta’
+               dopo Una Lunga disculzione in rigua
+               rdo all’anistia il fratello Santino Pasquinelli
+               fece la Proposta che l’anistia fosse prolungata
+               ancora per due Mesi Ossia fino alla Seduta
+               Ordinaria di Novembre la Proposta del
+               Pasquinelli fu asecondata dal fratello
+               A Marsili e fu aprovata da tutta
+               L’assemblea generale
+               
+               <pb n="31"/>
+               Raporto del fratello Stefano Maffei e Serafino
+               DeSimo Commitato per Comprare un Mobile
+               per Mettere gli Utensili del Sodalizio Toscano.
+               Risulto’ che avevano Trovato una guardaroba
+               al prezzo di $18.00 dietro al raporto del
+               Comitato il Fratello Abramo Marsili Ofri
+               lui al Sodalizio Toscano una guardaroba
+               gratuita Ossia diceva che io ce la regalo
+               alla Lega Toscana Cosi tutto li fece
+               un Ringraziamento Con stiocate di Mano
+               per il Buon Cuore del Fratello Marsili
+               per la Lega Toscana.
+               Il Fratello C. Pellegrini Offri alla
+               Lega che Lui avrebbe guardato di
+               trovare una furmola di Bergia per
+               poi farne fare una per ogni Socio
+               e avrebbe guardato anche di trovare
+               la forma giusta del fiore Toscano
+               Ossia il giglio
+               Non avendo Avuto Altro da Fare
+               alle Ore 1015 Minuti il Presidente
+               Muzio Frediani dichiarava la
+               Seduta Sciolta
+               
+               Il Presidente 			Il Segretario
+               [firmato]M. Frediani		[firmato] M. Simonetti
+            </ab>
+         </body>
+      </text>
+   </TEI>
 </teiCorpus>
