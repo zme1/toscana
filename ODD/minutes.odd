@@ -14,7 +14,7 @@
       <publicationStmt>
         <authority>Prepared in TEI 5 by Zachary Enick for the Italian research assistantship at the
           University of Pittsburgh. Github repository: <ref target="http://github.com/zme1/toscana"
-          />. Date last worked on: <date when="2018-02-01"/></authority>
+          />. Date last worked on: <date when="2018-02-03"/></authority>
         <availability>
           <licence><!-- licence to go here --></licence>
         </availability>
@@ -29,7 +29,7 @@
       <schemaSpec ident="oddex1" source="tei:current" start="teiCorpus">
         <moduleRef key="header"/>
         <moduleRef key="core"
-          include="add address addrLine author bibl date del item lb list num p pb resp respStmt rs teiCorpus title unclear"/>
+          include="add address addrLine author bibl date del item lb list note num p pb resp respStmt rs teiCorpus title unclear"/>
         <moduleRef key="tei"/>
         <moduleRef key="textstructure" include="TEI body closer signed text"/>
         <moduleRef key="corpus" except="activity locale particDesc"/>
@@ -52,6 +52,7 @@
               <valList type="closed">
                 <valItem ident="task"/>
                 <valItem ident="committee"/>
+                <valItem ident="rejected"/>
               </valList>
             </attDef>
           </attList>
@@ -129,8 +130,22 @@
                 <valItem ident="#cappellinim"/>
                 <valItem ident="#baldaccia"/>
                 <valItem ident="#cinellio"/>
+                <valItem ident="#barsottig"/>
+                <valItem ident="#zinib"/>
+                <valItem ident="#bartolettif"/>
+                <valItem ident="#carmassil"/>
+                <valItem ident="#davinie"/>
+                <valItem ident="#santorinif"/>
+                <valItem ident="#barontinid"/>
+                <valItem ident="#pasquinellia"/>
+                <valItem ident="#serafinia"/>
+                <valItem ident="#diodatia"/>
+                <valItem ident="#marconif"/>
+                <valItem ident="#marconic"/>
+                <valItem ident="#benedettie"/>
                 <!-- People with special @ref id tags -->
                 <valItem ident="#fontanaf"/>
+                <valItem ident="#fontanaal"/>
                 <valItem ident="#fontanaan"/>
                 <valItem ident="#bianchinigio"/>
                 <valItem ident="#bianchinigiu"/>
@@ -210,6 +225,8 @@
               <elementRef key="item"/>
               <elementRef key="lb"/>
               <elementRef key="pb"/>
+              <elementRef key="note"/>
+              <elementRef key="del"/>
             </alternate>
           </content>
           <attList>
@@ -219,6 +236,7 @@
                 <valItem ident="officers"/>
                 <valItem ident="absent"/>
                 <valItem ident="applicants"/>
+                <valItem ident="cancellati"/>
               </valList>
             </attDef>
             <attDef ident="subtype" mode="replace" usage="rec">
@@ -240,6 +258,7 @@
                 <valItem ident="#legaT"/>
                 <valItem ident="#figli"/>
                 <valItem ident="#msgm"/>
+                <valItem ident="#sodalizio"/>
               </valList>
             </attDef>
           </attList>
