@@ -86,6 +86,7 @@
                 <valItem ident="#paganuccis"/>
                 <valItem ident="#bertonie"/>
                 <valItem ident="#marsilia"/>
+                <valItem ident="#marsilis"/>
                 <valItem ident="#giomettic"/>
                 <valItem ident="#merciadrie"/>
                 <valItem ident="#serafinig"/>
@@ -95,7 +96,9 @@
                 <valItem ident="#danesiv"/>
                 <valItem ident="#lunardinil"/>
                 <valItem ident="#lunardinim"/>
+                <valItem ident="#lunardinia"/>
                 <valItem ident="#buchignanil"/>
+                <valItem ident="#piaggesia"/>
                 <valItem ident="#paternim"/>
                 <valItem ident="#diriccoe"/>
                 <valItem ident="unknown"/>
@@ -140,6 +143,7 @@
                 <valItem ident="#pasquinellia"/>
                 <valItem ident="#serafinia"/>
                 <valItem ident="#diodatia"/>
+                <valItem ident="#diodativ"/>
                 <valItem ident="#marconif"/>
                 <valItem ident="#marconic"/>
                 <valItem ident="#benedettie"/>
