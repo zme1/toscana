@@ -14,7 +14,7 @@
       <publicationStmt>
         <authority>Prepared in TEI 5 by Zachary Enick for the Italian research assistantship at the
           University of Pittsburgh. Github repository: <ref target="http://github.com/zme1/toscana"
-          />. Date last worked on: <date when="2018-02-03"/></authority>
+          />. Date last worked on: <date when="2018-02-06"/></authority>
         <availability>
           <licence><!-- licence to go here --></licence>
         </availability>
@@ -37,6 +37,11 @@
         <moduleRef key="msdescription"
           include="accMat acquisition handDesc history institution msDesc msIdentifier msName origin physDesc repository"/>
         <moduleRef key="namesdates" include="orgName persName roleName surname"/>
+        <!-- This is the central element in respect to the document analysis being performed on the Lega Toscana corpus. Each seg element
+        indicates a moment in the text in which individuals or groups interact in some way. The different type of interactions being studied
+        include member proposals, an interaction which involves both a proposer and a supporter (i.e. he who "seconds" the proposal); delegations
+        among members of the Lega recorded in the minutes; nominations of members to positions or committees; monetary compensations to individuals
+        or other groups or organizations.-->
         <elementSpec ident="seg" mode="change" module="linking">
           <attList>
             <attDef ident="type" mode="replace" usage="req">
@@ -48,18 +53,22 @@
                 <valItem ident="nomination"/>
               </valList>
             </attDef>
+            <!-- The @subtype element is used with the seg of @type delegation and comp. The former uses the @subtype attribute to distinguish
+            delegations or nominations to specific tasks from delegations or nominations of committee membership. The latter uses this attribute to
+            distinguish between compensation for an ill member and charitable donations to groups or causes.-->
             <attDef ident="subtype" mode="replace" usage="opt">
               <valList type="closed">
                 <valItem ident="task"/>
                 <valItem ident="committee"/>
                 <valItem ident="rejected"/>
+                <valItem ident="sick"/>
               </valList>
             </attDef>
           </attList>
         </elementSpec>
         <elementSpec ident="persName" mode="change" module="namesdates">
 
-          <!-- Schematron rule obliging every persName element to have a surname descendant element in a format nested within the <elementSpec> element directly. -->
+          <!-- Example of a Schematron rule obliging every persName element to have a surname descendant element in a format nested within the <elementSpec> element directly. -->
 
           <!-- <constraintSpec ident="persName_surname" scheme="isoschematron">
           <constraint>
@@ -71,96 +80,129 @@
           <attList>
             <attDef ident="ref" mode="replace" usage="req">
               <valList type="closed">
-                <valItem ident="#enickz"/>
-                <valItem ident="#insanal"/>
-                <valItem ident="#jermyne"/>
-                <valItem ident="#keilr"/>
-                <valItem ident="#millarj"/>
-                <valItem ident="#bondare"/>
-                <valItem ident="#vondasl"/>
-                <valItem ident="#simonettim"/>
-                <valItem ident="#fredianim"/>
-                <valItem ident="#maffeis"/>
-                <valItem ident="#pasquinellis"/>
-                <valItem ident="#silvionec"/>
-                <valItem ident="#paganuccis"/>
-                <valItem ident="#bertonie"/>
-                <valItem ident="#marsilia"/>
-                <valItem ident="#marsilis"/>
-                <valItem ident="#giomettic"/>
-                <valItem ident="#merciadrie"/>
-                <valItem ident="#serafinig"/>
-                <valItem ident="#maffeig"/>
-                <valItem ident="#viganol"/>
-                <valItem ident="#maffeir"/>
-                <valItem ident="#danesiv"/>
-                <valItem ident="#lunardinil"/>
-                <valItem ident="#lunardinim"/>
-                <valItem ident="#lunardinia"/>
-                <valItem ident="#buchignanil"/>
-                <valItem ident="#piaggesia"/>
-                <valItem ident="#paternim"/>
-                <valItem ident="#diriccoe"/>
-                <valItem ident="unknown"/>
-        <!--    I am yet to figure out one @ref value for a brother with a shared last name -->
-                <valItem ident="#lucchesea"/>
-                <valItem ident="#pellegrinie"/>
-                <valItem ident="#robertac"/>
-                <valItem ident="#barantip"/>
-                <valItem ident="#ribettig"/>
-                <valItem ident="#delmagrol"/>
-                <valItem ident="#sunseric"/>
-                <valItem ident="#desimos"/>
-                <valItem ident="#fredianellig"/>
-                <valItem ident="#batistiniv"/>
-                <valItem ident="#sodinij"/>
-                <valItem ident="#zinim"/>
-                <valItem ident="#giangranedif"/>
-                <valItem ident="#cappellinic"/>
-                <valItem ident="#pellegrinic"/>
-                <valItem ident="#mancinia"/>
-                <valItem ident="#pardinia"/>
-                <valItem ident="#simie"/>
-                <valItem ident="#rossir"/>
-                <valItem ident="#tambellinil"/>
-                <valItem ident="#pacinio"/>
-                <valItem ident="#boninif"/>
-                <valItem ident="#sodinis"/>
-                <valItem ident="#tambellinig"/>
-                <valItem ident="#serafinio"/>
-                <valItem ident="#pistelliu"/>
-                <valItem ident="#lombardia"/>
-                <valItem ident="#cappellinim"/>
+                <!-- Until a personography can be made, this is a running manifest of all members included in the minutes,
+                added as they continually appear throughout the volume. After a first pass of the minutes is made, the 
+                personography will likely use this list as a means to include each member as an item in the file. The
+                list also includes contributors, collaborators, and other individuals affiliated with the project in any
+                direct way. -->
+                <!-- Last name B -->
                 <valItem ident="#baldaccia"/>
-                <valItem ident="#cinellio"/>
-                <valItem ident="#barsottig"/>
-                <valItem ident="#zinib"/>
-                <valItem ident="#bartolettif"/>
-                <valItem ident="#carmassil"/>
-                <valItem ident="#davinie"/>
-                <valItem ident="#santorinif"/>
+                <valItem ident="#barantip"/>
                 <valItem ident="#barontinid"/>
-                <valItem ident="#pasquinellia"/>
-                <valItem ident="#serafinia"/>
-                <valItem ident="#diodatia"/>
-                <valItem ident="#diodativ"/>
-                <valItem ident="#marconif"/>
-                <valItem ident="#marconic"/>
+                <valItem ident="#barsottig"/>
+                <valItem ident="#bartolettif"/>
+                <valItem ident="#batistiniv"/>
                 <valItem ident="#benedettie"/>
-                <!-- People with special @ref id tags -->
-                <valItem ident="#fontanaf"/>
-                <valItem ident="#fontanaal"/>
-                <valItem ident="#fontanaan"/>
+                <valItem ident="#bertonie"/>
+                <valItem ident="#bevilacquas"/>
                 <valItem ident="#bianchinigio"/>
                 <valItem ident="#bianchinigiu"/>
+                <valItem ident="#boninif"/>
+                <valItem ident="#bondare"/>
+                <valItem ident="#buchignanil"/>
+                <!-- Last name C -->
+                <valItem ident="#cappellinic"/>
+                <valItem ident="#cappellinim"/>
+                <valItem ident="#carmassil"/>
+                <valItem ident="#cinellio"/>
+                <!-- Last name D -->
+                <valItem ident="#danesiv"/>
+                <valItem ident="#davinie"/>
+                <valItem ident="#delmagrol"/>
+                <valItem ident="#desimos"/>
+                <valItem ident="#diodatia"/>
+                <valItem ident="#diodativ"/>
+                <valItem ident="#diriccoe"/>
+                <!-- Last name E -->
+                <valItem ident="#enickz"/>
+                <!-- Last name F -->
+                <valItem ident="#fontanaal"/>
+                <valItem ident="#fontanaan"/>
+                <valItem ident="#fontanaf"/>
+                <valItem ident="#fredianellig"/>
+                <valItem ident="#fredianim"/>
+                <!-- Last name G -->
+                <valItem ident="#giangranedif"/>
+                <valItem ident="#giomettic"/>
                 <valItem ident="#giuntoligi"/>
                 <valItem ident="#giuntoligu"/>
+                <!-- Last name I -->
+                <valItem ident="#insanal"/>
+                <!-- Last name J -->
+                <valItem ident="#jermyne"/>
+                <!-- Last name K -->
+                <valItem ident="#keilr"/>
+                <!-- Last name L -->
+                <valItem ident="#lombardia"/>
+                <valItem ident="#lucchesea"/>
                 <valItem ident="#luchesial"/>
                 <valItem ident="#luchesiam"/>
-                <valItem ident="#pasquinellian"/>
+                <valItem ident="#lunardinia"/>
+                <valItem ident="#lunardinil"/>
+                <valItem ident="#lunardinim"/>
+                <!-- Last name M -->
+                <valItem ident="#maffeig"/>
+                <valItem ident="#maffeir"/>
+                <valItem ident="#maffeis"/>
+                <valItem ident="#mancinia"/>
+                <valItem ident="#marchettie"/>
+                <valItem ident="#marconic"/>
+                <valItem ident="#marconif"/>
+                <valItem ident="#marsilia"/>
+                <valItem ident="#marsilis"/>
+                <valItem ident="#martinellir"/>
+                <valItem ident="#merciadrie"/>
+                <valItem ident="#millarj"/>
+                <!-- Last name P -->
+                <valItem ident="#pacinio"/>
+                <valItem ident="#paganuccis"/>
+                <valItem ident="#pardinia"/>
+                <valItem ident="#pardinib"/>
                 <valItem ident="#pasquinelliam"/>
+                <valItem ident="#pasquinellian"/>
+                <valItem ident="#pasquinellis"/>
+                <valItem ident="#paternim"/>
+                <valItem ident="#pellegrinic"/>
+                <valItem ident="#pellegrinie"/>
+                <valItem ident="#piaggesia"/>
+                <valItem ident="#pistelliu"/>
+                <!-- Last name R -->
+                <valItem ident="#ribettig"/>
+                <valItem ident="#robertac"/>
+                <valItem ident="#rossir"/>
+                <!-- Last name S -->
+                <valItem ident="#santorinif"/>
+                <valItem ident="#serafinia"/>
+                <valItem ident="#serafinig"/>
+                <valItem ident="#serafinin"/>
+                <valItem ident="#serafinio"/> 
+                <valItem ident="#silvionec"/>   
+                <valItem ident="#simie"/>
+                <valItem ident="#simonettim"/>
+                <valItem ident="#sodinij"/>
+                <valItem ident="#sodinis"/>
+                <valItem ident="#sunseric"/>
+                <!-- Last name T -->
+                <valItem ident="#tambellinig"/>
+                <valItem ident="#tambellinil"/>
+                <!-- Last name V -->
+                <valItem ident="#vammuccia"/>
+                <valItem ident="#vammuccie"/>
+                <valItem ident="#viganol"/>
+                <valItem ident="#vondasl"/>
+                <!-- Last name Z -->
+                <valItem ident="#zambellinic"/>
+                <valItem ident="#zinib"/>
+                <valItem ident="#zinim"/>
+                <!-- Unknown valItem -->
+                <valItem ident="unknown"/>
               </valList> 
             </attDef>
+            <!-- The mandatory attribute @role is attached to participants in an interaction, nested in the seg element.
+            Depending on their specific role in the specific interaction, the value for the attribute will label them
+            accordingly. Source and target are two values used in strictly directional inteactions, like monetary compensations,
+            delegations, or invitations. The values proposer and supporter are used strictly with proposal seg elements, for, while
+            the two participants have fundamentally different and complementary roles, there is no distinct "source" and "target." -->
             <attDef ident="role" mode="replace" usage="rec">
               <valList type="closed">
                 <valItem ident="source"/>
@@ -172,6 +214,8 @@
           </attList>
         </elementSpec>
         <elementSpec ident="num" mode="change" module="core">
+          <!-- The only type of number of interest in direct regard to this research is that which denotes a sum of money. That
+        being the case, the only accepted value for @type here is monetary.-->
           <attList>
             <attDef ident="type" mode="replace" usage="req">
               <valList type="closed">
@@ -181,6 +225,9 @@
           </attList>
         </elementSpec>
         <elementSpec ident="rs" mode="change" module="core">
+          <!-- Sometimes, a reference is made to a Lega member without explicitly listing his name.
+          In cases like these, rs elements are used to point to the agent in question. The rs element
+          is subject to the same rule system as the persName element.-->
           <attList>
             <attDef ident="role" mode="replace" usage="rec">
               <valList type="closed">
@@ -193,6 +240,11 @@
           </attList>
         </elementSpec>
         <elementSpec ident="ab" mode="change" module="linking">
+          <!-- <ab> is the higher-level structural element that contains meeting minute logs in their entirety
+          immediately within the <body> element. In my document analysis, I am isolating the closing portion of 
+          the meeting minutes, and to do that I needed to customize the content model for the <ab> element to
+          include the element <closer>. There were no other elements added to the seg content model that did not
+          originally appear in it in the TEI All schema. -->
           <content>
             <alternate maxOccurs="unbounded" minOccurs="0">
               <textNode/>
@@ -223,6 +275,11 @@
           </attList>
         </elementSpec>
         <elementSpec ident="list" mode="change" module="core">
+          <!-- I decided to customize the <list> content model to include a <note> element that could
+          be used to include a contextual phrase from the meeting minute logs to be contained within the
+          <list> element itself. This way, any time a <list> element is selected, the purpose of the list
+          of names will be made readily apparent upon reading the <note>. There were no other elements 
+          added to the <list> content model that did not originally appear in it in the TEI All schema. -->
           <content>
             <alternate maxOccurs="unbounded" minOccurs="0">
               <textNode/>
@@ -248,6 +305,7 @@
                 <valItem ident="festaCampestre"/>
                 <valItem ident="ballo"/>
                 <valItem ident="fondoM"/>
+                <valItem ident="picnic"/>
               </valList>
             </attDef>
           </attList>
@@ -263,6 +321,7 @@
                 <valItem ident="#figli"/>
                 <valItem ident="#msgm"/>
                 <valItem ident="#sodalizio"/>
+                <valItem ident="#presito"/>
               </valList>
             </attDef>
           </attList>
@@ -281,8 +340,8 @@
               context="tei:seg[@type='proposal']">
               <sch:assert test="descendant::tei:persName[@role='proposer']">Every seg of @type
                 "proposal" must have a persName with a @role value of "proposer."</sch:assert>
-              <sch:assert test="descendant::tei:persName[@role='supporter']">Every seg of @type
-                "proposal" must have a persName with a @role value of "supporter."</sch:assert>
+              <sch:assert test="descendant::tei:persName[@role='supporter'] or descendant::tei:rs[@role='supporter']">Every seg of @type
+                "proposal" must have a persName or an rs with a @role value of "supporter."</sch:assert>
             </sch:rule>
           </constraint>
         </constraintSpec>

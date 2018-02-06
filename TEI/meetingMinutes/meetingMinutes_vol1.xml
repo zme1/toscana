@@ -578,8 +578,8 @@
                   Festa Campestre e<lb/>
                   <pb n="20"/>Famigliare Nel Mese di Luglio<lb/>Entrante la Proposta fu Assecondata<lb/>
                   <persName ref="#lunardinil" role="supporter">dal Frat L.
-                        <surname>Lundardini</surname></persName>e da tutta<lb/>L’assemblea
-                  Generale</seg><lb/>
+                        <surname>Lundardini</surname></persName>e <rs ref="#legaT" role="supporter"
+                     >da tutta<lb/>L’assemblea Generale</rs></seg><lb/>
                <seg type="delegation" subtype="committee"><rs ref="#mf" role="source">Il
                      Presidente</rs>Scelse un Comitato<lb/> di Ivesticazione per dare la Festa<lb/>Campestre<lb/>
                   <list type="committee" subtype="festaCampestre">
@@ -976,21 +976,16 @@
                Appello Nominale Risultavano Mancanti<lb/> i Seguenti Uffli <persName
                   ref="#pasquinelliam">Americo <surname>Pasquinelli</surname></persName><lb/>
                <persName ref="#giomettic">Carlo <surname>Giometti</surname></persName>. quindi si
-               passo alle<lb/> lettura Processo Verbale il quale fu aprovato<lb/> Come era Scritto<lb/>
-               Si passo’ alle Proposte dei Nuovi<lb/> Membri le quali
-                     furono Sei<lb/>
-                  <persName ref="#lombardia">Aladino
-                     <surname>Lombardi</surname></persName>
-                  <persName ref="#cappellinim">Morello
-                        <surname>Cappellini</surname></persName><lb/> di Anni 23-
-                  <persName ref="#fontanaf">Francesco <surname>Fontana</surname></persName> di
-                     anni 27<lb/>
-                  <persName ref="#pacinio">Olindo <surname>Pacini</surname></persName> di anni
-                     30-
+               passo alle<lb/> lettura Processo Verbale il quale fu aprovato<lb/> Come era
+               Scritto<lb/> Si passo’ alle Proposte dei Nuovi<lb/> Membri le quali furono Sei<lb/>
+               <persName ref="#lombardia">Aladino <surname>Lombardi</surname></persName>
+               <persName ref="#cappellinim">Morello <surname>Cappellini</surname></persName><lb/> di
+               Anni 23- <persName ref="#fontanaf">Francesco <surname>Fontana</surname></persName> di
+               anni 27<lb/>
+               <persName ref="#pacinio">Olindo <surname>Pacini</surname></persName> di anni 30-
                   <persName ref="#baldaccia">Angelo<lb/>
-                        <surname>Baldacci</surname></persName> di anni 32-
-                  <persName ref="#cinellio">Olinto
-                     <surname>Cinelli</surname></persName><lb/> tutti furono Passati a
+                  <surname>Baldacci</surname></persName> di anni 32- <persName ref="#cinellio"
+                  >Olinto <surname>Cinelli</surname></persName><lb/> tutti furono Passati a
                unanimita altro<lb/> che <persName ref="#cinellio">il Sig. Olinto
                      <surname>Cinelli</surname></persName> fu Rincesso<lb/> Alla prossima Seduta per
                non avre<lb/> Spacificato leta’<lb/>
@@ -1045,41 +1040,32 @@
          <body>
             <ab>
                <pb n="32"/> Alle Ore 9:30 P.M. <persName ref="#fredianim">Il Presidente<lb/> Muzio
-                     <surname>Frediani</surname></persName> dichiarava la Seduta<lb/>
-               Aperta Ordino l’appello Nominale<lb/> per l’aministrazione
-                     Resulto Mancante<lb/>
-                  <persName ref="#giomettic">ufle Sanitario Carlo
-                        <surname>Giometti</surname></persName><lb/> quindi si Passo’
-               alla Lettura Processo<lb/> verbale il quale fu aprovato Come’<lb/> Scritto<lb/>
+                     <surname>Frediani</surname></persName> dichiarava la Seduta<lb/> Aperta Ordino
+               l’appello Nominale<lb/> per l’aministrazione Resulto Mancante<lb/>
+               <persName ref="#giomettic">ufle Sanitario Carlo
+                  <surname>Giometti</surname></persName><lb/> quindi si Passo’ alla Lettura
+               Processo<lb/> verbale il quale fu aprovato Come’<lb/> Scritto<lb/>
                <seg type="invite"><orgName ref="#sodalizio" role="source">Il
                   Sodalizio</orgName><lb/> Invio’ una lettura <orgName ref="#legaT" role="target"
                      >alla Lega Toscana</orgName><lb/> Nella quale vi incluse 5 Biglietti di<lb/>
-                  Invito al Loro Balla dato 11 Novembre<lb/></seg>
-               i 5 biglietti furono acettati e <rs ref="#fredianim">il
-                     Presidente</rs><lb/> li distribrui’ ai Seguenta Soci<lb/>
-                  <persName ref="#pellegrinic">Casimiro
-                        <surname>Pelligrini</surname></persName>
-                  <persName ref="#lunardinil">Lorenzo
-                     <surname>Lunardini</surname></persName><lb/>
-                  
-                     <persName ref="#zinim">Modesto <surname>Zini</surname></persName>
-                  <persName ref="#maffeir">Romeo <surname>Maffei</surname></persName>
-                  <persName ref="#paternim">Mike
-                  <surname>Paterni</surname></persName><lb/> i quali promessero di
-               andare in quella sera<lb/> a Rapresentare <orgName ref="#legaT">la Lega
+                  Invito al Loro Balla dato 11 Novembre<lb/></seg> i 5 biglietti furono acettati e
+                  <rs ref="#fredianim">il Presidente</rs><lb/> li distribrui’ ai Seguenta Soci<lb/>
+               <persName ref="#pellegrinic">Casimiro <surname>Pelligrini</surname></persName>
+               <persName ref="#lunardinil">Lorenzo <surname>Lunardini</surname></persName><lb/>
+               <persName ref="#zinim">Modesto <surname>Zini</surname></persName>
+               <persName ref="#maffeir">Romeo <surname>Maffei</surname></persName>
+               <persName ref="#paternim">Mike <surname>Paterni</surname></persName><lb/> i quali
+               promessero di andare in quella sera<lb/> a Rapresentare <orgName ref="#legaT">la Lega
                   Toscana</orgName><lb/>
                <persName ref="#fredianim">Il Presidente M <surname>Frediani</surname></persName>
                dimando’<lb/> Allassemblea Se vi fossero Stati dei<lb/> Membri che avessero voluto
                ascrivere<lb/> le loro Moglie figli Sorelle ec al<lb/> fondo Unico Mortuario che si
                fossero<lb/> fatti avanti a Scriverle Subito le loro<lb/> Mogli Subito si Preucipio
                la Scrizione<lb/> fino a 15 furono Pronti a dare<lb/> i Nomi delle Loro Mogli<lb/>
-               <pb n="33"/>
-               vi Furone due Nuove aplicazione i<lb/> quali sono
-                  <persName ref="#zinib">Battista <surname>Zini</surname></persName>
-                     di anni 32-<lb/>
-                  <persName ref="#barsottig">Giorgo <surname>Barsotti</surname></persName>
-                     di anni 31- tutti e due<lb/> Furono aprovati di
-               apartenere alla Lega<lb/>
+               <pb n="33"/> vi Furone due Nuove aplicazione i<lb/> quali sono <persName ref="#zinib"
+                  >Battista <surname>Zini</surname></persName> di anni 32-<lb/>
+               <persName ref="#barsottig">Giorgo <surname>Barsotti</surname></persName> di anni 31-
+               tutti e due<lb/> Furono aprovati di apartenere alla Lega<lb/>
                <closer>Non avendo altro da fare <persName ref="#fredianim">il Presidente<lb/> Muzio
                         <surname>Frediani</surname></persName> alle ore<lb/> 1115 Minuti dichiarava
                   la Seduta<lb/> Sciolta<lb/> Il Presidente Il Segretario<lb/>
@@ -1088,7 +1074,7 @@
          </body>
       </text>
    </TEI>
-   <!-- Formatting this meeting is a nightmare, with no viable data points. Will revisit if i have sufficient time. -->
+   <!-- Formatting this meeting is a nightmare, with few viable data points. Will revisit if i have sufficient time. -->
    <!-- <TEI>
       <teiHeader>
          <fileDesc>
@@ -1216,7 +1202,7 @@
                la gestione<lb/> del 1920 dalle quali risultarono eletti<lb/>
                <persName ref="#sodinij">Jacopo <surname>Sodini</surname></persName>, 11 contro 8, a
                vice Presidente:<lb/>
-               <persName ref="#pellegrinic">Casimiro <surname>Pellegrini</surname></persName>, II
+               <persName ref="#pellegrinic">Casimiro <surname>Pellegrini</surname></persName>, 11
                contro 6, a Seg<lb/> di corrispondenza; a curatori <persName ref="#lunardinil"
                   >Lorenzo <surname>Lu-<lb/> nardini</surname></persName>, 13 voti; <persName
                   ref="#silvionec">Carlo <surname>Silvioni</surname></persName>, 13 voti,<lb/> e si
@@ -1326,6 +1312,205 @@
                <closer>Non essendoci altro da discu-<lb/> tere il Presidente ordina chiusa la<lb/>
                   seduta<lb/> Il Segretario Il Presidente<lb/>
                   <signed>G. Maffei</signed></closer><lb/>
+            </ab>
+         </body>
+      </text>
+   </TEI>
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title/>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Lega Toscana di Protezione</authority>
+               <date when="1920-02-22"/>
+            </publicationStmt>
+            <sourceDesc>
+               <p>Source description.</p>
+            </sourceDesc>
+         </fileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <ab>
+               <pb n="40"/> Domenica 22 Febbraio a ore 3:30 p.m.<lb/> nella solita sala sociale si
+               tenne la ordi-<lb/> naria seduta presieduta <persName ref="#maffeis">dal
+                  Presidente<lb/> Stefano <surname>Maffei</surname></persName>. Dall’appello degli
+               ufficia-<lb/> li risultavano assenti <persName ref="#silvionec">Carlo
+                     <surname>Silvioni</surname></persName>,<lb/>
+               <persName ref="#viganol">Lorenzo <surname>Viganò</surname></persName> e furano
+               giustificati<lb/> perche ammalati <persName ref="#sodinij">Jacopo
+                     <surname>Sodini</surname></persName>, <persName ref="#pasquinellis">S.
+                     <surname>Pa-<lb/> squinelli</surname></persName> e <persName
+                  ref="#fredianellig"><surname>Fredianelli</surname> Giuseppe</persName>. Il
+               processo<lb/> verbale venne approvato come letto.<lb/> Vennero presentate domande di
+               am-<lb/> missioni dei seguenti asperanti: <persName ref="#vammuccie">Ernesto<lb/>
+                  <surname>Vammucci</surname></persName>, <persName ref="#serafinin"
+                     ><surname>Serafini</surname> Nicolai</persName>, <persName ref="#vammuccia">Alfredo<lb/>
+                  <surname>Vammucci</surname></persName> e <persName ref="#zambellinic">Cesare
+                     <surname>Zambellini</surname></persName>. I primi<lb/> furano ammessi per
+               acclamazione<lb/> una il quarto, avendo certini fatte<lb/> delle osservazioni si
+               procedette a rego-<lb/> la di legga e cioe’ si messe a voti<lb/> e risulto rigettato
+               con 9 voti contra-<lb/> ri e quindi non ammesso.<lb/> Viene rimandata alla
+               prossima<lb/> seduta la discussione sul da farsi<lb/> in riguardo allo stipendio
+               percepi-<lb/> to <rs ref="unknown">dall’ex Seg. di Finanza</rs>.<lb/> Non avendo il
+               comitato regali esple-<lb/> tati i suoi doveri, perche scusabili,<lb/> viene
+               rimandata la consegna alla<lb/> prossima seduta.<lb/>
+               <seg type="proposal">Proposto da <persName ref="#simonettim" role="proposer">Michele
+                        <surname>Simonetti</surname></persName> ed<lb/> ass. <rs ref="#legaT"
+                     role="supporter">ad unanimita</rs> che gli asperanti<lb/> che presentarano
+                  Domande di ammissio-<lb/> ne antecedente a questa seduta, non<lb/>
+                  <pb n="41"/> presentandosi alla prossima seduta ver-<lb/> ranno annullate le loro
+                  domande e<lb/> gil ascritti perderanno il diretto di<lb/> rimbarso della moneta
+                  versato, giusto<lb/> nostre leggi</seg><lb/> Fondo cassa a tutt’oggi $<lb/>
+               <closer> Non avendoci altro da discutere<lb/>
+                  <rs ref="#maffeis">il Presidente</rs> ordine chiusa la seduta<lb/> Il Seg Il Presidente<lb/>
+                  <signed>Muzio Frediani</signed></closer><lb/>
+            </ab>
+         </body>
+      </text>
+   </TEI>
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title/>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Lega Toscana di Protezione</authority>
+               <date when="1920-03-28"/>
+            </publicationStmt>
+            <sourceDesc>
+               <p>Source description.</p>
+            </sourceDesc>
+         </fileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <ab>
+               <!-- Although this is not the actual 41st page beginning, this meeting begins
+               on the 41st page. I added this for future use to reference specific page scans.-->
+               <pb n="41"/> Domenica 28 Marzo 1920 alle ore<lb/> 4 p.m. alla solita sala sociale e
+               sotto<lb/> la presidenza di <persName ref="#maffeis">Stefano
+                     <surname>Maffei</surname></persName> si tenne<lb/> la seduta ordinaria. gli
+               ufficiali assenti era-<lb/> no <persName ref="#lunardinil">Lorenzo
+                     <surname>Lunardini</surname></persName>, <persName ref="#silvionec">Carlo
+                     <surname>Silvioni</surname></persName>, <persName ref="#paganuccis">Sam<lb/>
+                  <surname>Paganucci</surname></persName> e <persName ref="#viganol">Lorenzo
+                     <surname>Viganò</surname></persName>. Il Processo verba-<lb/> le venne
+               approvato come letto.<lb/> Vennero ammessi al ruolo sociale<lb/> come nuovi membri
+                  <persName ref="#marchettie"><surname>Marchetti</surname> Emilio</persName><lb/> e
+                  <persName ref="#martinellir">Renato <surname>Martinelli</surname></persName> e
+               presentate la<lb/> domanda di ammissione dell’asperante <persName ref="#bevilacquas">Sam<lb/>
+                  <surname>Bevilacqua</surname></persName> venne accettato.<lb/> Fu definita la
+               questione del percen-<lb/> tuale <persName ref="#pasquinellis">al segretario di
+                  finanza Santino<lb/>
+                  <surname>Pasquinelli</surname></persName> pagando esso la differenze in<lb/> piu ricevuta.<lb/>
+               <seg type="proposal">Proposto da <persName ref="#simonettim" role="proposer">M.
+                        <surname>Simonetti</surname></persName> ass.<lb/> da <persName
+                     ref="#bertonie" role="supporter">E. <surname>Bertoni</surname></persName> di
+                  fare un<unclear reason="illegible">bottone</unclear> a giglio<lb/> e che questi
+                  venghino pagati da singoli soci<lb/>
+                  <pb n="42"/> Come pure si decise far fare 20 badges<lb/> che dovranno servire ai
+                  rappresentanti <orgName ref="#legaT">la Lega</orgName><lb/> nelle diversi
+                  occasioni.</seg> Per tali fabbisogni<lb/> fu scielto un comitato per la ricerca
+               dei<lb/> prezzi migliori. Gli incaricati sono <persName ref="#fredianim">Muzio
+                     <surname>Fre-<lb/> diani</surname></persName> e <persName ref="#simonettim"
+                  >Michele <surname>Simonetti</surname></persName><lb/> Fu pagata per sussidio ai seguenti:<lb/>
+               <seg type="comp"><persName ref="#fredianellig" role="target">Giuseppe
+                        <surname>Fredianelli</surname></persName>
+                  <num type="monetary" value="36">$ 36.00</num><lb/></seg>
+               <seg type="comp"><persName ref="#sodinij" role="target">Jacopo
+                        <surname>Sodini</surname></persName> - <num type="monetary" value="31"
+                     >31.00</num></seg><lb/>
+               <seg type="comp"><persName ref="#pardinib" role="target">Benedetto
+                        <surname>Pardini</surname></persName> - <num type="monetary" value="11"
+                     >11.00</num></seg><lb/>
+               <seg type="proposal"><persName ref="#bertonie" role="proposer">Eugenio
+                        <surname>Bertoni</surname></persName>, ass. da <persName ref="#zinim"
+                     role="supporter">Modesto <surname>Zini</surname></persName>,<lb/> propone sio
+                  prelevato dal fondo cassa<lb/> $500.00 per investirli al <orgName ref="#presito"
+                     >Prestito Italiano</orgName><lb/> in dollari.</seg><lb/>
+               <seg type="proposal">
+                  <persName ref="#simonettim" role="proposer">M.
+                     <surname>Simonetti</surname></persName> ass. <rs ref="#legaT" role="supporter"
+                     >ad unanimita</rs><lb/> propone dare un pic-nic e tal uopo<lb/> viene fatto un
+                  comitato con piene potere<lb/> di fissare il posto se fosse possibile<lb/> per il
+                  mese di Luglio.</seg><lb/>
+               <list type="committee" subtype="picnic"><note>Il Comitato fu cosi composto</note><lb/>
+                  <item><persName ref="#maffeis">S. <surname>Maffei</surname></persName></item><lb/>
+                  <item><persName ref="#simonettim">M.
+                     <surname>Simonetti</surname></persName></item><lb/>
+                  <item><persName ref="#lunardinil">L.
+                     <surname>Lunardini</surname></persName></item><lb/>
+                  <item><persName ref="#sodinij">Jacopo <surname>Sodini</surname></persName></item><lb/>
+                  <item><persName ref="#pellegrinic">C.
+                     <surname>Pellegrini</surname></persName></item></list><lb/> Fu dato ordine
+               spedire ai soci<lb/> due applicazioni per il F.U.M per<lb/> famigliarsi.<lb/>
+               <closer><rs ref="#maffeis">Il Presidente</rs> ordine chiusa la seduta<lb/> Il Seg. Il Presidente<lb/>
+                  <signed>Muzio Frediani</signed>
+                  <signed>Stefano Maffei</signed></closer><lb/>
+            </ab>
+         </body>
+      </text>
+   </TEI>
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title/>
+            </titleStmt>
+            <publicationStmt><authority>Lega Toscana di Protezione</authority>
+            <date when="1920-04-25"/></publicationStmt>
+            <sourceDesc><p>Source description.</p></sourceDesc>
+         </fileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <ab>
+               <pb n="43"/>
+               Domenica 25 Aprile 1920 alle ore 4 pm<lb/>
+               nella solita sala si ebbe la seduta rego-<lb/>
+               lare ordinaria presiedute <persName ref="#maffeis">dal Presidente<lb/>
+               Stefano <surname>Maffei</surname></persName>. Gli ufficiale assenti fu-<lb/>
+               rono <persName ref="#silvionec">Carlo <surname>Silvioni</surname></persName> <persName ref="#paganuccis">Sam <surname>Paganucci</surname></persName><lb/>
+               <persName ref="#piaggesia">Aladino <surname>Piaggesi</surname></persName> e <persName ref="#viganol">Lorenzo <surname>Vigano'</surname></persName>. Il<lb/>
+               Processo verbale venna approvato come<lb/>
+               letto.<lb/>
+               <seg type="proposal"><persName ref="#fredianellig" role="proposer"><surname>Fredianelli</surname> Giuseppe</persName> ass. da <persName ref="#sodinij" role="supporter">Jacopo<lb/>
+               <surname>Sodini</surname></persName> propone di dare $35.00 agli<lb/>
+               orfani di guerra italiani di Padre [unclear]se-<lb/>
+               meria[unclear]. Tale proposta fu approvata ad<lb/>
+               acclamazione.</seg> Viene definitivamente<lb/>
+               approvato di sottoscrivere al Prestito<lb/>
+               Italiano in Dollari $500.00.<lb/>
+               I fratelli E. Bertoni, M. Simonetti,<lb/>
+               Ugo Pistelli, C. Pellegrini e Santino<lb/>
+               Pasquinelli presentano una proposta in<lb/>
+               scritto desiderando che i soci aspiranti<lb/>
+               [unclear]venghino fatti visitare[unclear] da un medi-<lb/>
+               co scelto dalla Lega. Tale proposta<lb/>
+               venne rigettato facendo valida la<lb/>
+               legge in vigore.<lb/>
+               Si da facolta al comitato Pic-<lb/>
+               nic di fissare il campo e di non<lb/>
+               oltrepassare la somma di $100.00.<lb/>
+               Proposto da Lunardini Lorenzo<lb/>
+               ed ass. da C. Pellegrini di mandare<lb/>
+               5 biglietti ad ogni membro del valore<lb/>
+               di $5.00 per la serata artistica del<lb/>
+               Club Mascagni.<lb/>
+               volta<lb/>
+               
+               <pb n="44"/>
+               Fondo di cassa a tutt'oggi $1252.24<lb/>
+               Non essendoci altro da trattare il<lb/>
+               Presidente toglie la seduta.<lb/>
+               
+               Il Seg.				Il Presidente<lb/>
+               Muzio Frediani		(S. Maffei)<lb/>
+               
             </ab>
          </body>
       </text>
