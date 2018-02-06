@@ -1520,4 +1520,65 @@
          </body>
       </text>
    </TEI>
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title/>
+            </titleStmt>
+            <publicationStmt><authority>Lega Toscana di Protezione</authority>
+            <date when="1920-05-20"/></publicationStmt>
+            <sourceDesc><p>Source description.</p></sourceDesc>
+         </fileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <ab>
+               Giovedi 20 Maggio 1920 a ore 9 p.m.<lb/>
+               (...) nel solito locale venne tenuta la<lb/>
+               consueta seduta ordinaria presiedute<lb/>
+               dal Presidente Stefano Maffei. Dall'ap-<lb/>
+               pello nominale degli ufficiali risultarono<lb/>
+               assenti i seguenti: Casimiro Pelle-<lb/>
+               grini, Fredianelli Giuseppe e Lorenzo<lb/>
+               Vigano'; quest'ultimo veine dichiarato<lb/>
+               scaduto dal suo ufficio. Il processo<lb/>
+               verbale venne approvato senza osservazio-<lb/>
+               ni.<lb/>
+               Viene messo al registro il nuovo<lb/>
+               fratello Samuele Bevilacque dietro<lb/>
+               formale presentazione del certificato<lb/>
+               medico. Dopo di certi affari ammini-<lb/>
+               strativi si passa alla discussione<lb/>
+               del prossimo Pic-nic che fisso'<lb/>
+               il comitato per la prima Domen[under]i[under]<lb/>
+               ca di Agosto. Venne nominato il<lb/>
+               comitato ed e' cosi composto:<lb/>
+               Lorenzo Lunardini, presidente; Ade[under]l[under]<lb/>
+               mo Dati vice presidente; Mufio Fr[under]e[under]<lb/>
+               diani, seg. corr; C. Pellegrini, seg.<lb/>
+               Fin.; Americo Lucchesi, tesoriere;<lb/>
+               
+               [45]
+               Santino Pasquinelli, capo comitato<lb/>
+               di preparazione, Jacopo Sodini, vice<lb/>
+               capo; Gli assistenti scelti furono<lb/>
+               Modesto Zini, Carlo Silvioni, Cesare<lb/>
+               Roberti; Sam Bevilacqua, E. Me[under]r[under]<lb/>
+               ciadri, Angelo Fontana, Virgilio<lb/>
+               Danesi e Curico D'Enrico.<lb/>
+               Il pic-nic fu deciso di farlo<lb/>
+               libero a tutti e di fare un biglietto<lb/>
+               unico del costo di 25¢ escludendo<lb/>
+               dal pagamento i bambini al disotto<lb/>
+               di 10 anni.<lb/>
+               Non essendoci altro da discutere<lb/>
+               il Presidente toglie la seduta<lb/>
+               Fondo cassa a tutt'oggi $<lb/>
+               Il Seg.				Il Presidente<lb/>
+               [firmato]Muzio Frediani	[firmato]S. Maffei<lb/>
+            </ab>
+         </body>
+      </text>
+   </TEI>
 </teiCorpus>
