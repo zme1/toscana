@@ -1461,56 +1461,61 @@
             <titleStmt>
                <title/>
             </titleStmt>
-            <publicationStmt><authority>Lega Toscana di Protezione</authority>
-            <date when="1920-04-25"/></publicationStmt>
-            <sourceDesc><p>Source description.</p></sourceDesc>
+            <publicationStmt>
+               <authority>Lega Toscana di Protezione</authority>
+               <date when="1920-04-25"/>
+            </publicationStmt>
+            <sourceDesc>
+               <p>Source description.</p>
+            </sourceDesc>
          </fileDesc>
       </teiHeader>
       <text>
          <body>
             <ab>
-               <pb n="43"/>
-               Domenica 25 Aprile 1920 alle ore 4 pm<lb/>
-               nella solita sala si ebbe la seduta rego-<lb/>
-               lare ordinaria presiedute <persName ref="#maffeis">dal Presidente<lb/>
-               Stefano <surname>Maffei</surname></persName>. Gli ufficiale assenti fu-<lb/>
-               rono <persName ref="#silvionec">Carlo <surname>Silvioni</surname></persName> <persName ref="#paganuccis">Sam <surname>Paganucci</surname></persName><lb/>
-               <persName ref="#piaggesia">Aladino <surname>Piaggesi</surname></persName> e <persName ref="#viganol">Lorenzo <surname>Vigano'</surname></persName>. Il<lb/>
-               Processo verbale venna approvato come<lb/>
-               letto.<lb/>
-               <seg type="proposal"><persName ref="#fredianellig" role="proposer"><surname>Fredianelli</surname> Giuseppe</persName> ass. da <persName ref="#sodinij" role="supporter">Jacopo<lb/>
-               <surname>Sodini</surname></persName> propone di dare $35.00 agli<lb/>
-               orfani di guerra italiani di Padre [unclear]se-<lb/>
-               meria[unclear]. Tale proposta fu approvata ad<lb/>
-               acclamazione.</seg> Viene definitivamente<lb/>
-               approvato di sottoscrivere al Prestito<lb/>
-               Italiano in Dollari $500.00.<lb/>
-               I fratelli E. Bertoni, M. Simonetti,<lb/>
-               Ugo Pistelli, C. Pellegrini e Santino<lb/>
-               Pasquinelli presentano una proposta in<lb/>
-               scritto desiderando che i soci aspiranti<lb/>
-               [unclear]venghino fatti visitare[unclear] da un medi-<lb/>
-               co scelto dalla Lega. Tale proposta<lb/>
-               venne rigettato facendo valida la<lb/>
-               legge in vigore.<lb/>
-               Si da facolta al comitato Pic-<lb/>
-               nic di fissare il campo e di non<lb/>
-               oltrepassare la somma di $100.00.<lb/>
-               Proposto da Lunardini Lorenzo<lb/>
-               ed ass. da C. Pellegrini di mandare<lb/>
-               5 biglietti ad ogni membro del valore<lb/>
-               di $5.00 per la serata artistica del<lb/>
-               Club Mascagni.<lb/>
-               volta<lb/>
-               
-               <pb n="44"/>
-               Fondo di cassa a tutt'oggi $1252.24<lb/>
-               Non essendoci altro da trattare il<lb/>
-               Presidente toglie la seduta.<lb/>
-               
-               Il Seg.				Il Presidente<lb/>
-               Muzio Frediani		(S. Maffei)<lb/>
-               
+               <pb n="43"/> Domenica 25 Aprile 1920 alle ore 4 pm<lb/> nella solita sala si ebbe la
+               seduta rego-<lb/> lare ordinaria presiedute <persName ref="#maffeis">dal
+                  Presidente<lb/> Stefano <surname>Maffei</surname></persName>. Gli ufficiale
+               assenti fu-<lb/> rono <persName ref="#silvionec">Carlo
+                  <surname>Silvioni</surname></persName>
+               <persName ref="#paganuccis">Sam <surname>Paganucci</surname></persName><lb/>
+               <persName ref="#piaggesia">Aladino <surname>Piaggesi</surname></persName> e <persName
+                  ref="#viganol">Lorenzo <surname>Vigano'</surname></persName>. Il<lb/> Processo
+               verbale venna approvato come<lb/> letto.<lb/>
+               <seg type="proposal"><seg type="comp"><persName ref="#fredianellig" role="proposer"
+                           ><surname>Fredianelli</surname> Giuseppe</persName> ass. da <persName
+                        ref="#sodinij" role="supporter">Jacopo<lb/>
+                        <surname>Sodini</surname></persName> propone di dare <num type="monetary"
+                        value="35">$35.00</num> agli<lb/> orfani di guerra italiani di <persName
+                        ref="#padre" role="target">Padre <surname><unclear reason="illegible"
+                              >se-<lb/> meria</unclear></surname></persName>. Tale proposta fu
+                     approvata ad<lb/> acclamazione.</seg></seg>
+               <seg type="comp">Viene definitivamente<lb/> approvato di sottoscrivere al <orgName
+                     ref="#presito" role="target">Prestito<lb/> Italiano</orgName> in Dollari <num
+                     type="monetary" value="500">$500.00</num>.</seg><lb/>
+               <seg type="proposalReject">I fratelli <persName ref="#bertonie" role="proposer">E.
+                        <surname>Bertoni</surname></persName>, <persName ref="#simonettim"
+                     role="proposer">M. <surname>Simonetti</surname></persName>,<lb/>
+                  <persName ref="#pistelliu" role="proposer">Ugo
+                     <surname>Pistelli</surname></persName>, <persName ref="#pellegrinic"
+                     role="proposer">C. <surname>Pellegrini</surname></persName> e <persName
+                     ref="#pasquinellis" role="proposer">Santino<lb/>
+                     <surname>Pasquinelli</surname></persName> presentano una proposta in<lb/>
+                  scritto desiderando che i soci aspiranti<lb/>
+                  <unclear reason="illegible">venghino fatti visitare</unclear> da un medi-<lb/> co
+                  scelto <orgName ref="#legaT">dalla Lega</orgName>. Tale proposta<lb/> venne
+                  rigettato facendo valida la<lb/> legge in vigore.</seg><lb/> Si da facolta al
+               comitato Pic-<lb/> nic di fissare il campo e di non<lb/> oltrepassare la somma di $100.00.<lb/>
+               <seg type="proposal">Proposto da <persName ref="#lunardinil" role="proposer"
+                        ><surname>Lunardini</surname> Lorenzo</persName><lb/> ed ass. da <persName
+                     ref="#pellegrinic" role="supporter">C. <surname>Pellegrini</surname></persName>
+                  di mandare<lb/> 5 biglietti ad ogni membro del valore<lb/> di $5.00 per la serata
+                  artistica del<lb/>
+                  <orgName ref="#clubM">Club Mascagni</orgName>.</seg><lb/> volta<lb/>
+               <pb n="44"/> Fondo di cassa a tutt'oggi $1252.24<lb/>
+               <closer>Non essendoci altro da trattare il<lb/> Presidente toglie la seduta.<lb/> Il
+                  Seg. Il Presidente<lb/>
+                  <signed>Muzio Fredian</signed>i <signed>S. Maffei</signed></closer><lb/>
             </ab>
          </body>
       </text>

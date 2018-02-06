@@ -47,6 +47,7 @@
             <attDef ident="type" mode="replace" usage="req">
               <valList type="closed">
                 <valItem ident="proposal"/>
+                <valItem ident="proposalReject"/>
                 <valItem ident="invite"/>
                 <valItem ident="delegation"/>
                 <valItem ident="comp"/>
@@ -60,7 +61,6 @@
               <valList type="closed">
                 <valItem ident="task"/>
                 <valItem ident="committee"/>
-                <valItem ident="rejected"/>
                 <valItem ident="sick"/>
               </valList>
             </attDef>
@@ -155,6 +155,7 @@
                 <valItem ident="#millarj"/>
                 <!-- Last name P -->
                 <valItem ident="#pacinio"/>
+                <valItem ident="#padre"/>
                 <valItem ident="#paganuccis"/>
                 <valItem ident="#pardinia"/>
                 <valItem ident="#pardinib"/>
@@ -322,6 +323,7 @@
                 <valItem ident="#msgm"/>
                 <valItem ident="#sodalizio"/>
                 <valItem ident="#presito"/>
+                <valItem ident="#clubM"/>
               </valList>
             </attDef>
           </attList>
@@ -345,12 +347,19 @@
             </sch:rule>
           </constraint>
         </constraintSpec>
+        <constraintSpec ident="seg_proposal_rejected" scheme="isoschematron">
+          <constraint>
+            <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron" context="tei:seg[@type='proposalReject']">
+              <sch:assert test="descendant::tei:persName[@role='proposer']">Every seg of @type "proposalReject" must have a persName descendant with a @role value of "proposer."</sch:assert>
+            </sch:rule>
+          </constraint>
+        </constraintSpec>
         <constraintSpec ident="seg_comp" scheme="isoschematron">
           <constraint>
             <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
               context="tei:seg[@type='comp']">
-              <sch:assert test="descendant::tei:persName[@role='target']">Every seg of @type "comp"
-                must have a persName with a @role value of "target." </sch:assert>
+              <sch:assert test="descendant::tei:persName[@role='target'] or descendant::tei:orgName[@role='target']">Every seg of @type "comp"
+                must have a persName or an orgName with a @role value of "target." </sch:assert>
               <sch:assert test="descendant::tei:num[@type='monetary']">Every seg of @type "comp"
                 must have a num with a @type value of "monetary."</sch:assert>
               <sch:assert test="descendant::tei:num[@value]">Every seg of @type "comp" must have a

@@ -5,7 +5,7 @@
          xmlns:teix="http://www.tei-c.org/ns/Examples"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2018-02-06T20:33:10Z. .
+Schema generated from ODD source 2018-02-06T22:10:00Z. .
 TEI Edition: Version 3.3.0. Last updated on
 	31st January 2018, revision f4d8439
 TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.3.0/
@@ -4765,6 +4765,8 @@ Suggested values include: 1] persuade; 2] express; 3] inform; 4] entertain</a:do
             <choice>
                <value>proposal</value>
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               <value>proposalReject</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                <value>invite</value>
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                <value>delegation</value>
@@ -4783,7 +4785,7 @@ Suggested values include: 1] persuade; 2] express; 3] inform; 4] entertain</a:do
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                   <value>committee</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-                  <value>rejected</value>
+                  <value>sick</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                </choice>
             </attribute>
@@ -5291,6 +5293,8 @@ Suggested values include: 1] persuade; 2] express; 3] inform; 4] entertain</a:do
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                <value>#presito</value>
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               <value>#clubM</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
             </choice>
          </attribute>
          <empty/>
@@ -5442,6 +5446,8 @@ Suggested values include: 1] persuade; 2] express; 3] inform; 4] entertain</a:do
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                <value>#pacinio</value>
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               <value>#padre</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                <value>#paganuccis</value>
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                <value>#pardinia</value>
@@ -5576,13 +5582,22 @@ Suggested values include: 1] persuade; 2] express; 3] inform; 4] entertain</a:do
             </sch:rule>
    </pattern>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-            id="oddex1-seg_comp-constraint-rule-12">
+            id="oddex1-seg_proposal_rejected-constraint-rule-12">
+      <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
+                xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                context="tei:seg[@type='proposalReject']">
+              <sch:assert test="descendant::tei:persName[@role='proposer']">Every seg of @type "proposalReject" must have a persName descendant with a @role value of "proposer."</sch:assert>
+            </sch:rule>
+   </pattern>
+   <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
+            id="oddex1-seg_comp-constraint-rule-13">
       <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
                 context="tei:seg[@type='comp']">
-              <sch:assert test="descendant::tei:persName[@role='target']">Every seg of @type "comp"
-                must have a persName with a @role value of "target." </sch:assert>
+              <sch:assert test="descendant::tei:persName[@role='target'] or descendant::tei:orgName[@role='target']">Every seg of @type "comp"
+                must have a persName or an orgName with a @role value of "target." </sch:assert>
               <sch:assert test="descendant::tei:num[@type='monetary']">Every seg of @type "comp"
                 must have a num with a @type value of "monetary."</sch:assert>
               <sch:assert test="descendant::tei:num[@value]">Every seg of @type "comp" must have a
@@ -5591,7 +5606,7 @@ Suggested values include: 1] persuade; 2] express; 3] inform; 4] entertain</a:do
             </sch:rule>
    </pattern>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-            id="oddex1-seg_delegation-constraint-rule-13">
+            id="oddex1-seg_delegation-constraint-rule-14">
       <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
