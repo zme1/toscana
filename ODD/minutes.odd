@@ -107,8 +107,10 @@
                 <valItem ident="#cinellio"/>
                 <!-- Last name D -->
                 <valItem ident="#danesiv"/>
+                <valItem ident="#datia"/>
                 <valItem ident="#davinie"/>
                 <valItem ident="#delmagrol"/>
+                <valItem ident="#denricoc"/>
                 <valItem ident="#desimos"/>
                 <valItem ident="#diodatia"/>
                 <valItem ident="#diodativ"/>
@@ -169,7 +171,7 @@
                 <valItem ident="#pistelliu"/>
                 <!-- Last name R -->
                 <valItem ident="#ribettig"/>
-                <valItem ident="#robertac"/>
+                <valItem ident="#robertic"/>
                 <valItem ident="#rossir"/>
                 <!-- Last name S -->
                 <valItem ident="#santorinif"/>
@@ -271,6 +273,14 @@
                 <valItem ident="committee"/>
                 <valItem ident="subcommittee"/>
                 <valItem ident="officer"/>
+              </valList>
+            </attDef>
+            <attDef ident="subtype" mode="replace" usage="rec">
+              <valList type="closed">
+                <valItem ident="festaCampestre"/>
+                <valItem ident="ballo"/>
+                <valItem ident="fondoM"/>
+                <valItem ident="picnic"/>
               </valList>
             </attDef>
           </attList>
