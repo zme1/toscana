@@ -36,36 +36,7 @@
         <moduleRef key="linking" include="ab seg"/>
         <moduleRef key="msdescription"
           include="accMat acquisition handDesc history institution msDesc msIdentifier msName origin physDesc repository"/>
-        <moduleRef key="namesdates" include="orgName persName roleName surname"/>
-        <!-- This is the central element in respect to the document analysis being performed on the Lega Toscana corpus. Each seg element
-        indicates a moment in the text in which individuals or groups interact in some way. The different type of interactions being studied
-        include member proposals, an interaction which involves both a proposer and a supporter (i.e. he who "seconds" the proposal); delegations
-        among members of the Lega recorded in the minutes; nominations of members to positions or committees; monetary compensations to individuals
-        or other groups or organizations.-->
-        <elementSpec ident="seg" mode="change" module="linking">
-          <attList>
-            <attDef ident="type" mode="replace" usage="req">
-              <valList type="closed">
-                <valItem ident="proposal"/>
-                <valItem ident="proposalReject"/>
-                <valItem ident="invite"/>
-                <valItem ident="delegation"/>
-                <valItem ident="comp"/>
-                <valItem ident="nomination"/>
-              </valList>
-            </attDef>
-            <!-- The @subtype element is used with the seg of @type delegation and comp. The former uses the @subtype attribute to distinguish
-            delegations or nominations to specific tasks from delegations or nominations of committee membership. The latter uses this attribute to
-            distinguish between compensation for an ill member and charitable donations to groups or causes.-->
-            <attDef ident="subtype" mode="replace" usage="opt">
-              <valList type="closed">
-                <valItem ident="task"/>
-                <valItem ident="committee"/>
-                <valItem ident="sick"/>
-              </valList>
-            </attDef>
-          </attList>
-        </elementSpec>
+        <moduleRef key="namesdates" include="orgName persName roleName"/>
         <elementSpec ident="persName" mode="change" module="namesdates">
 
           <!-- Example of a Schematron rule obliging every persName element to have a surname descendant element in a format nested within the <elementSpec> element directly. -->
@@ -87,6 +58,7 @@
                 direct way. -->
                 <!-- Last name B -->
                 <valItem ident="#baldaccia"/>
+                <valItem ident="#banchieris"/>
                 <valItem ident="#barantip"/>
                 <valItem ident="#barontinid"/>
                 <valItem ident="#barsottig"/>
@@ -107,10 +79,12 @@
                 <valItem ident="#cinellio"/>
                 <!-- Last name D -->
                 <valItem ident="#danesiv"/>
+                <valItem ident="#darrigop"/>
                 <valItem ident="#datia"/>
                 <valItem ident="#davinie"/>
                 <valItem ident="#delmagrol"/>
                 <valItem ident="#denricoc"/>
+                <valItem ident="#denricop"/>
                 <valItem ident="#desimos"/>
                 <valItem ident="#diodatia"/>
                 <valItem ident="#diodativ"/>
@@ -124,6 +98,7 @@
                 <valItem ident="#fredianellig"/>
                 <valItem ident="#fredianim"/>
                 <!-- Last name G -->
+                <valItem ident="#gambogis"/>
                 <valItem ident="#giangranedif"/>
                 <valItem ident="#giomettic"/>
                 <valItem ident="#giuntoligi"/>
@@ -145,6 +120,7 @@
                 <!-- Last name M -->
                 <valItem ident="#maffeig"/>
                 <valItem ident="#maffeir"/>
+                <valItem ident="#maffeip"/>
                 <valItem ident="#maffeis"/>
                 <valItem ident="#mancinia"/>
                 <valItem ident="#marchettie"/>
@@ -159,11 +135,13 @@
                 <valItem ident="#pacinio"/>
                 <valItem ident="#padre"/>
                 <valItem ident="#paganuccis"/>
+                <valItem ident="#palig"/>
                 <valItem ident="#pardinia"/>
                 <valItem ident="#pardinib"/>
                 <valItem ident="#pasquinelliam"/>
                 <valItem ident="#pasquinellian"/>
                 <valItem ident="#pasquinellis"/>
+                <valItem ident="#paternic"/>
                 <valItem ident="#paternim"/>
                 <valItem ident="#pellegrinic"/>
                 <valItem ident="#pellegrinie"/>
@@ -196,6 +174,7 @@
                 <!-- Last name Z -->
                 <valItem ident="#zambellinic"/>
                 <valItem ident="#zinib"/>
+                <valItem ident="#zinif"/>
                 <valItem ident="#zinim"/>
                 <!-- Unknown valItem -->
                 <valItem ident="unknown"/>
@@ -212,6 +191,38 @@
                 <valItem ident="target"/>
                 <valItem ident="proposer"/>
                 <valItem ident="supporter"/>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+        <!-- This is the central element in respect to the document analysis being performed on the Lega Toscana corpus. Each seg element
+        indicates a moment in the text in which individuals or groups interact in some way. The different type of interactions being studied
+        include member proposals, an interaction which involves both a proposer and a supporter (i.e. he who "seconds" the proposal); delegations
+        among members of the Lega recorded in the minutes; nominations of members to positions or committees; monetary compensations to individuals
+        or other groups or organizations.-->
+        <elementSpec ident="seg" mode="change" module="linking">
+          <attList>
+            <attDef ident="type" mode="replace" usage="req">
+              <valList type="closed">
+                <valItem ident="proposal"/>
+                <valItem ident="proposalReject"/>
+                <valItem ident="invite"/>
+                <valItem ident="delegation"/>
+                <valItem ident="comp"/>
+                <valItem ident="nomination"/>
+              </valList>
+            </attDef>
+            <!-- The @subtype element is used with the seg of @type delegation and comp. The former uses the @subtype attribute to distinguish
+            delegations or nominations to specific tasks from delegations or nominations of committee membership. The latter uses this attribute to
+            distinguish between compensation for an ill member and charitable donations to groups or causes.-->
+            <attDef ident="subtype" mode="replace" usage="opt">
+              <valList type="closed">
+                <valItem ident="task"/>
+                <valItem ident="committee"/>
+                <valItem ident="sick"/>
+                <valItem ident="charity"/>
+                <valItem ident="donation"/>
+                <valItem ident="regale"/>
               </valList>
             </attDef>
           </attList>
@@ -281,6 +292,7 @@
                 <valItem ident="ballo"/>
                 <valItem ident="fondoM"/>
                 <valItem ident="picnic"/>
+                <valItem ident="stendardo"/>
               </valList>
             </attDef>
           </attList>
@@ -317,6 +329,7 @@
                 <valItem ident="ballo"/>
                 <valItem ident="fondoM"/>
                 <valItem ident="picnic"/>
+                <valItem ident="stendardo"/>
               </valList>
             </attDef>
           </attList>
@@ -338,14 +351,6 @@
             </attDef>
           </attList>
         </elementSpec>
-        <constraintSpec ident="persName_surname" scheme="isoschematron">
-          <constraint>
-            <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron" context="tei:persName">
-              <sch:assert test="descendant::tei:surname">Every persName element must have a
-                descendant surname element.</sch:assert>
-            </sch:rule>
-          </constraint>
-        </constraintSpec>
         <constraintSpec ident="seg_proposal" scheme="isoschematron">
           <constraint>
             <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
@@ -364,17 +369,32 @@
             </sch:rule>
           </constraint>
         </constraintSpec>
-        <constraintSpec ident="seg_comp" scheme="isoschematron">
+        <constraintSpec ident="seg_comp_sick" scheme="isoschematron">
           <constraint>
             <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-              context="tei:seg[@type='comp']">
-              <sch:assert test="descendant::tei:persName[@role='target'] or descendant::tei:orgName[@role='target']">Every seg of @type "comp"
-                must have a persName or an orgName with a @role value of "target." </sch:assert>
+              context="tei:seg[@subtype='sick']">
+              <sch:assert test="descendant::tei:persName[@role='target']">Every seg element of @subtypetype "sick" must have persName element with @role value of "target.".</sch:assert>
               <sch:assert test="descendant::tei:num[@type='monetary']">Every seg of @type "comp"
                 must have a num with a @type value of "monetary."</sch:assert>
               <sch:assert test="descendant::tei:num[@value]">Every seg of @type "comp" must have a
                 num with a @value value equivalent to the amount of money being
                 transferred.</sch:assert>
+            </sch:rule>
+          </constraint>
+        </constraintSpec>
+        <constraintSpec ident="seg_comp_charity" scheme="isoschematron">
+          <constraint>
+            <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+              context="tei:seg[@subtype='charity']">
+              <sch:assert test="descendant::tei:persName[@role='target'] or descendant::tei:orgName[@role='target']">Every seg of @type "comp"
+                must have a persName or an orgName with a @role value of "target." </sch:assert>
+            </sch:rule>
+          </constraint>
+        </constraintSpec>
+        <constraintSpec ident="seg_donation" scheme="isoschematron">
+          <constraint>
+            <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron" context="tei:seg[@subtype='donation']">
+              <sch:assert test="descendant::tei:persName[@role='source']">Every seg element of @subtype "donation" must have a descendant persName element with @role value of "source."</sch:assert>
             </sch:rule>
           </constraint>
         </constraintSpec>
