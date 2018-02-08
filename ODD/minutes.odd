@@ -14,7 +14,7 @@
       <publicationStmt>
         <authority>Prepared in TEI 5 by Zachary Enick for the Italian research assistantship at the
           University of Pittsburgh. Github repository: <ref target="http://github.com/zme1/toscana"
-          />. Date last worked on: <date when="2018-02-07"/></authority>
+          />. Date last worked on: <date when="2018-02-08"/></authority>
         <availability>
           <licence><!-- licence to go here --></licence>
         </availability>
@@ -82,7 +82,7 @@
                 <!-- Last name C -->
                 <valItem ident="#cappellinic"/>
                 <valItem ident="#cappellinim"/>
-                <valItem ident="#carlie"/>
+                <valItem ident="#carloe"/>
                 <valItem ident="#carmassil"/>
                 <valItem ident="#cinellio"/>
                 <valItem ident="#colombinin"/>
@@ -126,6 +126,7 @@
                 <!-- Last name K -->
                 <valItem ident="#keilr"/>
                 <!-- Last name L -->
+                <valItem ident="#lasalio"/>
                 <valItem ident="#lombardia"/>
                 <valItem ident="#lucchesial"/>
                 <valItem ident="#lucchesiam"/>
@@ -396,6 +397,7 @@
                 <valItem ident="#sodalizio"/>
                 <valItem ident="#presito"/>
                 <valItem ident="#clubM"/>
+                <valItem ident="#terremoto"/>
               </valList>
             </attDef>
           </attList>
@@ -418,6 +420,13 @@
             </sch:rule>
           </constraint>
         </constraintSpec>
+        <constraintSpec ident="seg_comp_subtype" scheme="isoschematron">
+          <constraint>
+            <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron" context="tei:seg[@type='comp']">
+              <sch:assert test="@subtype">Every seg element of @type "comp" must have a @subtype value of either "sick," "charity," or "donation."</sch:assert>
+            </sch:rule>
+          </constraint>
+        </constraintSpec>
         <constraintSpec ident="seg_comp_sick" scheme="isoschematron">
           <constraint>
             <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
@@ -435,8 +444,8 @@
           <constraint>
             <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
               context="tei:seg[@subtype='charity']">
-              <sch:assert test="descendant::tei:persName[@role='target'] or descendant::tei:orgName[@role='target']">Every seg of @type "comp"
-                must have a persName or an orgName with a @role value of "target." </sch:assert>
+              <sch:assert test="descendant::tei:persName[@role='target'] or descendant::tei:orgName[@role='target'] or descendant::tei:rs[@role='target']">Every seg of @type "comp"
+                must have a persName, an orgName, or an rs element with a @role value of "target." </sch:assert>
             </sch:rule>
           </constraint>
         </constraintSpec>
@@ -455,6 +464,20 @@
                 "delegation" must have a persName or rs with a @role value of "source."</sch:assert>
               <sch:assert test="descendant::tei:persName[@role='target']">Every seg of @type
                 "delegation" must have a persName with a @role value of "target."</sch:assert>
+            </sch:rule>
+          </constraint>
+        </constraintSpec>
+        <constraintSpec ident="rs_ref" scheme="isoschematron">
+          <constraint>
+            <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron" context="tei:rs">
+              <sch:assert test="@ref">Every rs element must have a @ref attribute.</sch:assert>
+            </sch:rule>
+          </constraint>
+        </constraintSpec>
+        <constraintSpec ident="del_rend" scheme="isoschematron">
+          <constraint>
+            <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron" context="tei:del">
+              <sch:assert test="@rend">Every strike element must have a @rend attribute of value "strike."</sch:assert>
             </sch:rule>
           </constraint>
         </constraintSpec>
