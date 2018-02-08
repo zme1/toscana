@@ -792,8 +792,8 @@
                            Presidente</roleName>Carlo Silvione</persName></item>
                   <lb/>
                   <pb n="28"/>
-                  <item><persName ref="#sodinis"><roleName type="committee">Secondo Vice
-                           Presidente</roleName>ScopoSodini</persName></item>
+                  <item><persName ref="#sodinij"><roleName type="committee">Secondo Vice
+                           Presidente</roleName>Jeapo Sodini</persName></item>
                   <lb/>
                   <item><persName ref="#fredianim"><roleName type="committee">Segretario di
                            Cor</roleName>Muzio Frediani</persName></item>
@@ -806,13 +806,13 @@
                   <lb/>
                   <item><roleName type="subcommittee">Comitato di Ricevimento</roleName><lb/>
                      <list>
-                        <item><persName ref="#bertonie">EugenioBertoni</persName></item>
+                        <item><persName ref="#bertonie">Eugenio Bertoni</persName></item>
                         <lb/>
-                        <item><persName ref="#cappellinic">CastruccioCappellini</persName></item>
+                        <item><persName ref="#cappellinic">Castruccio Cappellini</persName></item>
                         <lb/>
-                        <item><persName ref="#tambellinig">GiuseppeTambellini</persName></item>
+                        <item><persName ref="#tambellinig">Giuseppe Tambellini</persName></item>
                         <lb/>
-                        <item><persName ref="#serafinio">OrlandoSerafini</persName></item>
+                        <item><persName ref="#serafinio">Orlando Serafini</persName></item>
                         <lb/>
                         <item><persName ref="#marsilia">Abramo Marsili</persName></item>
                      </list></item>
@@ -1526,6 +1526,7 @@
       </teiHeader>
       <text>
          <body>
+            <pb n="46"/>
             <ab> Il giorno 15 Luglio 1920 alle ore<lb/> 8.30 venne tenuta la consueta seduta
                or-<lb/> dinaria presieduta <persName ref="#maffeis">dal Presidente Stefano<lb/>
                   Maffei</persName>. Dall’appello nominale degli uffi-<lb/> ciali risultarono

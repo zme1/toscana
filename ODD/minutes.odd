@@ -14,7 +14,7 @@
       <publicationStmt>
         <authority>Prepared in TEI 5 by Zachary Enick for the Italian research assistantship at the
           University of Pittsburgh. Github repository: <ref target="http://github.com/zme1/toscana"
-          />. Date last worked on: <date when="2018-02-06"/></authority>
+          />. Date last worked on: <date when="2018-02-07"/></authority>
         <availability>
           <licence><!-- licence to go here --></licence>
         </availability>
@@ -56,32 +56,44 @@
                 personography will likely use this list as a means to include each member as an item in the file. The
                 list also includes contributors, collaborators, and other individuals affiliated with the project in any
                 direct way. -->
+                <!-- Last name A -->
+                <valItem ident="#andreinia"/>
+                <valItem ident="#anselmif"/>
                 <!-- Last name B -->
                 <valItem ident="#baldaccia"/>
                 <valItem ident="#banchieris"/>
                 <valItem ident="#barantip"/>
                 <valItem ident="#barontinid"/>
+                <valItem ident="#bartolis"/>
                 <valItem ident="#barsottig"/>
                 <valItem ident="#bartolettif"/>
                 <valItem ident="#batistiniv"/>
                 <valItem ident="#benedettie"/>
                 <valItem ident="#bertonie"/>
                 <valItem ident="#bevilacquas"/>
+                <valItem ident="#bianchinif"/>
                 <valItem ident="#bianchinigio"/>
                 <valItem ident="#bianchinigiu"/>
                 <valItem ident="#boninif"/>
                 <valItem ident="#bondare"/>
+                <valItem ident="#borellie"/>
+                <valItem ident="#brigidinia"/>
                 <valItem ident="#buchignanil"/>
                 <!-- Last name C -->
                 <valItem ident="#cappellinic"/>
                 <valItem ident="#cappellinim"/>
+                <valItem ident="#carlie"/>
                 <valItem ident="#carmassil"/>
                 <valItem ident="#cinellio"/>
+                <valItem ident="#colombinin"/>
+                <valItem ident="#coltellig"/>
+                <valItem ident="#cristofania"/>
                 <!-- Last name D -->
                 <valItem ident="#danesiv"/>
                 <valItem ident="#darrigop"/>
                 <valItem ident="#datia"/>
                 <valItem ident="#davinie"/>
+                <valItem ident="#deldebbioe"/>
                 <valItem ident="#delmagrol"/>
                 <valItem ident="#denricoc"/>
                 <valItem ident="#denricop"/>
@@ -94,12 +106,16 @@
                 <!-- Last name F -->
                 <valItem ident="#fontanaal"/>
                 <valItem ident="#fontanaan"/>
+                <valItem ident="#fontanae"/>
                 <valItem ident="#fontanaf"/>
+                <valItem ident="#francesconio"/>
                 <valItem ident="#fredianellig"/>
                 <valItem ident="#fredianim"/>
+                <valItem ident="#fugassij"/>
                 <!-- Last name G -->
                 <valItem ident="#gambogis"/>
                 <valItem ident="#giangranedif"/>
+                <valItem ident="#giannig"/>
                 <valItem ident="#giomettic"/>
                 <valItem ident="#giuntoligi"/>
                 <valItem ident="#giuntoligu"/>
@@ -111,49 +127,81 @@
                 <valItem ident="#keilr"/>
                 <!-- Last name L -->
                 <valItem ident="#lombardia"/>
-                <valItem ident="#lucchesea"/>
-                <valItem ident="#luchesial"/>
-                <valItem ident="#luchesiam"/>
+                <valItem ident="#lucchesial"/>
+                <valItem ident="#lucchesiam"/>
+                <valItem ident="#luccic"/>
+                <valItem ident="#lundardia"/>
                 <valItem ident="#lunardinia"/>
                 <valItem ident="#lunardinil"/>
                 <valItem ident="#lunardinim"/>
+                <valItem ident="#lunardinip"/>
                 <!-- Last name M -->
-                <valItem ident="#maffeig"/>
-                <valItem ident="#maffeir"/>
+                <valItem ident="#maffeib"/>
+                <valItem ident="#maffeid"/>
+                <valItem ident="#maffeigia"/>
+                <valItem ident="#maffeigio"/>
                 <valItem ident="#maffeip"/>
+                <valItem ident="#maffeir"/>
                 <valItem ident="#maffeis"/>
+                <valItem ident="#maffeiv"/>
+                <valItem ident="#malfattip"/>
                 <valItem ident="#mancinia"/>
                 <valItem ident="#marchettie"/>
                 <valItem ident="#marconic"/>
                 <valItem ident="#marconif"/>
                 <valItem ident="#marsilia"/>
                 <valItem ident="#marsilis"/>
+                <valItem ident="#martinellia"/>
                 <valItem ident="#martinellir"/>
+                <valItem ident="#meconim"/>
                 <valItem ident="#merciadrie"/>
+                <valItem ident="#micheluccis"/>
                 <valItem ident="#millarj"/>
+                <valItem ident="#mungaia"/>
+                <!-- Last name N -->
+                <valItem ident="#nicolais"/>
+                <!-- Last name O -->
+                <valItem ident="#olivieria"/>
                 <!-- Last name P -->
+                <valItem ident="#pacinic"/>
+                <valItem ident="#pacinig"/>
                 <valItem ident="#pacinio"/>
                 <valItem ident="#padre"/>
                 <valItem ident="#paganuccis"/>
                 <valItem ident="#palig"/>
+                <valItem ident="#papid"/>
                 <valItem ident="#pardinia"/>
                 <valItem ident="#pardinib"/>
+                <valItem ident="#pascuzzia"/>
+                <valItem ident="#pasqualig"/>
                 <valItem ident="#pasquinelliam"/>
                 <valItem ident="#pasquinellian"/>
+                <valItem ident="#pasquinellig"/>
+                <valItem ident="#pasquinellim"/>
                 <valItem ident="#pasquinellis"/>
                 <valItem ident="#paternic"/>
                 <valItem ident="#paternim"/>
                 <valItem ident="#pellegrinic"/>
                 <valItem ident="#pellegrinie"/>
                 <valItem ident="#piaggesia"/>
+                <valItem ident="#piccininig"/>
                 <valItem ident="#pistelliu"/>
+                <valItem ident="#polif"/>
+                <valItem ident="#ponzionip"/>
+                <valItem ident="#puccettia"/>
+                <valItem ident="#puccettil"/>
                 <!-- Last name R -->
+                <valItem ident="#ragghiantir"/>
                 <valItem ident="#ribettig"/>
                 <valItem ident="#robertic"/>
+                <valItem ident="#robertig"/>
                 <valItem ident="#rossir"/>
                 <!-- Last name S -->
+                <valItem ident="#sandronee"/>
+                <valItem ident="#santarlascia"/>
                 <valItem ident="#santorinif"/>
                 <valItem ident="#serafinia"/>
+                <valItem ident="#serafinie"/>
                 <valItem ident="#serafinig"/>
                 <valItem ident="#serafinin"/>
                 <valItem ident="#serafinio"/> 
@@ -161,15 +209,16 @@
                 <valItem ident="#simie"/>
                 <valItem ident="#simonettim"/>
                 <valItem ident="#sodinij"/>
-                <valItem ident="#sodinis"/>
                 <valItem ident="#sunseric"/>
                 <!-- Last name T -->
+                <valItem ident="#tambellinia"/>
                 <valItem ident="#tambellinig"/>
                 <valItem ident="#tambellinil"/>
                 <!-- Last name V -->
                 <valItem ident="#vammuccia"/>
                 <valItem ident="#vammuccie"/>
                 <valItem ident="#viganol"/>
+                <valItem ident="#viganor"/>
                 <valItem ident="#vondasl"/>
                 <!-- Last name Z -->
                 <valItem ident="#zambellinic"/>

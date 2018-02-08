@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg"
+  xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lega Toscana di Protezione Personography ODD File</title>
+        <author>Zachary Enick</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>Prepared in TEI 5 by Zachary Enick for the Italian research assistantship at the
+          University of Pittsburgh. Github repository: <ref target="http://github.com/zme1/toscana"
+          />. Date last worked on: <date when="2018-02-07"/></authority>
+        <availability>
+          <licence><!-- licence to go here --></licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Born digital.</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <schemaSpec ident="oddex1" start="TEI">
+        <moduleRef key="header"/>
+        <moduleRef key="core"/>
+        <moduleRef key="tei"/>
+        <moduleRef key="textstructure"/>
+        <moduleRef key="namesdates"/>
+        <elementSpec ident="person" mode="change" module="namesdates">
+          <content>
+            <alternate maxOccurs="unbounded" minOccurs="0">
+              <textNode/>
+              <elementRef key="persName"/>
+              <elementRef key="roleName"/>
+              <elementRef key="note"/>
+            </alternate>
+          </content>
+        </elementSpec>
+        <elementSpec ident="roleName" module="namesdates" mode="change">
+          <attList>
+            <attDef ident="from" mode="add" usage="req">
+                <datatype>
+                  <dataRef key="teidata.temporal.iso"/>
+                </datatype>
+            </attDef>
+          </attList>
+        </elementSpec>
+      </schemaSpec>
+    </body>
+  </text>
+</TEI>

@@ -29,7 +29,7 @@
             <text>
                 <body>
                     <listPerson>
-                        <xsl:apply-templates select="//persName">
+                        <xsl:apply-templates select="//elementSpec[@ident='persName']//attDef[@ident='ref']//valItem">
                             <xsl:sort/>
                         </xsl:apply-templates>
                     </listPerson>
@@ -37,19 +37,16 @@
             </text>
         </TEI>
     </xsl:template>
-    <xsl:template match="persName">
-        <xsl:variable name="id" select="@ref"/>
+    <xsl:template match="elementSpec[@ident='persName']//attDef[@ident='ref']//valItem">
+        <xsl:variable name="id" select="@ident"/>
         <xsl:variable name="idNoHash" select="$id/tokenize(string(), '#')"/>
-        <xsl:variable name="ID" select="distinct-values($idNoHash)"/>
         <person>
-            <persName xml:id="{$ID}">
+            <persName xml:id="{$idNoHash}">
                 <surname><xsl:value-of select="surame"/></surname>
                 <forename></forename>
             </persName>
-            <roleName>
-                <roleName></roleName>
-                <date from="" to=""/>
-            </roleName>
+            <roleName from="" to=""></roleName>
+            <note></note>
         </person>
     </xsl:template>
 </xsl:stylesheet>
