@@ -89,7 +89,6 @@
             <p><address>
                   <addrLine>607 Webster Avenue</addrLine>
                   <addrLine>Pittsburgh, PA 15219</addrLine>
-                  <addrLine/>
                </address></p>
          </settingDesc>
          <textDesc>
@@ -520,7 +519,7 @@
                   <persName ref="#paganuccis" role="target">SamPaganucci</persName></seg><lb/>quindi
                Si Passò Alla Lettura Precessa<lb/>Verbale il quale Fui aprovato Come e<lb/>
                Scritto.<lb/>Vi Furono Presentate 3 -- Aplicazini<lb/>i quali Sono <persName
-                  ref="#batistiniv">Vincenzo Batistini</persName>
+                  ref="#battistiniv">Vincenzo Battistini</persName>
                <persName ref="#sodinij">Jeapo<lb/>Sodini</persName>
                <persName ref="#zinim">Modesto Zini</persName><lb/>tutti furore aprovati di far
                Parte<lb/>Alla Nostra Famiglia Lega Toscana<lb/>Pagamenti Sussidi<lb/><seg
@@ -1278,7 +1277,7 @@
                   Silvioni</persName>, <persName ref="#paganuccis">Sam<lb/> Paganucci</persName> e
                   <persName ref="#viganol">Lorenzo Viganò</persName>. Il Processo verba-<lb/> le
                venne approvato come letto.<lb/> Vennero ammessi al ruolo sociale<lb/> come nuovi
-               membri <persName ref="#marchettie">Marchetti Emilio</persName><lb/> e <persName
+               membri <persName ref="#marchettiem">Marchetti Emilio</persName><lb/> e <persName
                   ref="#martinellir">Renato Martinelli</persName> e presentate la<lb/> domanda di
                ammissione dell’asperante <persName ref="#bevilacquas">Sam<lb/> Bevilacqua</persName>
                venne accettato.<lb/> Fu definita la questione del percen-<lb/> tuale <persName
@@ -1579,7 +1578,7 @@
                <persName ref="#silvionec">Carlo Silvioni</persName>, 1 box di candy; <persName
                   ref="#palig">Giuseppe<lb/> Pali</persName>, una box di candy; <persName
                   ref="#vammuccie">Ernesto Vam-<lb/> mucci</persName> 10 pezzi artistici; <persName
-                  ref="#marchettie">Emilio Mar-<lb/> chetti</persName>, un baby; <persName
+                  ref="#marchettiem">Emilio Mar-<lb/> chetti</persName>, un baby; <persName
                   ref="#piaggesia">Aladino Piaggesi</persName>,<lb/> ½ doz. di retine per capelli;
                Sodini<lb/> e Piaggesi 5 casse di pops; <persName ref="#lucchesiam">Americo<lb/>
                   Lucchesi</persName>, 1 box di sigari De Nobili;<lb/>
@@ -1667,83 +1666,440 @@
             <titleStmt>
                <title/>
             </titleStmt>
+            <publicationStmt>
+               <authority>Lega Toscana di Protezione</authority>
+               <date when="1920-09-16"/>
+            </publicationStmt>
+            <sourceDesc>
+               <p>Source description.</p>
+            </sourceDesc>
+         </fileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <ab>
+               <pb n="50"/> Giovedi 16 Settembre 1920 alle ore 9:30 li<lb/> ebbe la nostra seduta
+               ordinaria presieduta<lb/> da <persName ref="#maffeis">presidente Stefano
+                  Maffei</persName>.<lb/> Mediante la mancanza <rs ref="#fredianim">del segre-<lb/>
+                  tario di Corrispondenza</rs>
+               <rs ref="#maffeis">il presidente</rs><lb/> chiede il parere di <unclear
+                  reason="illegible"/> dire alla apertura<lb/> della seduta il chi fu deciso de
+               te-<lb/> nerla ugualmente.<lb/>
+               <persName ref="#carloe">Il fratello Ezio Carlo</persName>, dietro<lb/> presentazione
+               del regolare certificato me-<lb/> dico viene messo al ruolo sociale.<lb/>
+               <pb n="51"/> Il rapporto del Comitato Stendardo<lb/>
+               <persName ref="#pellegrinic">il fratello Pellegrini</persName> capo Comitato,
+               disse<lb/> di per fare lo Stendardo e bandiere si anderebbe in<lb/> centro al costo
+               dai $500 ai 700 e<lb/>
+               <rs ref="#pellegrinic">dichiarò</rs> di non avere dato ordinazioni<lb/> poiché il
+               costo gli sembrò esagerato<lb/>
+               <seg type="proposal">E così li venne a conclusione su<lb/> proposta <persName
+                     ref="#lasalio" role="proposer">del fratello Omero lasali</persName><lb/> ass.
+                     <persName ref="#zinim" role="supporter">dal fratello Zini</persName>, di far
+                  fare<lb/> solo lo standardo e di sospendere per<lb/> il momento le bandiere con un
+                  limite<lb/> di prezzo di $300 e non più</seg><lb/>
+               <seg type="comp" subtype="charity">Venne deliberato il pagamento<lb/> di <num
+                     type="monetary" value="11">$11.00</num> di sussidio <persName
+                     ref="#pasquinelliam" role="source">al fratello Ame-<lb/> rico
+                     Pasquinelli</persName> e questi con atto fi-<lb/> lantropico devolse la<lb/>
+                  beneficio <rs ref="#terremoto" role="target">dei derelitti del
+                  terremoto</rs></seg><lb/>
+               <seg type="proposal"><seg type="comp" subtype="charity"><rs ref="#maffeis">Il
+                        presidente</rs> accenna alle catestr-<lb/> ofe avvenute in Toscana con
+                     parole<lb/> commoventi de dopo di avere lasciato<lb/> la sedia <rs
+                        ref="#sodinij">al Vice Presidente</rs>
+                     <persName ref="#sodinij" role="proposer">Jacopo<lb/> Sodini</persName> propose
+                     di prelevare dal fondo<lb/> casse <num type="monetary" value="100"
+                        >$100.00</num> e prop di spedi<lb/> la somma immediatamente <rs
+                        ref="#terremoto" role="target">in Italia</rs><lb/> Questa proposta vienne
+                     approvata <rs ref="#legaT" role="supporter">ad<lb/> unanimità dai
+                        presenti.</rs></seg></seg><lb/> A questo momento venne<lb/> fatto voto che i
+               fratelli S. Maffei,<lb/> S. Pasquinelli, A. Lucchese e M.<lb/> Simonetti avevano già
+               – e accettati già –<lb/> la cospicua somma di $300.00.<lb/> Il Presidente scelse
+               subito un co-<lb/>
+               <pb n="52"/> mitato per le spedizioni di detto<lb/> somma.<lb/> In conformità di una
+               proposta<lb/> fatta nello sedute scorse di dare<lb/> un ballo nel mese di Novembre p. V:<lb/>
+               <rs ref="#maffeis">Il Presidente</rs> apre le nomine di un<lb/> comitato Ballo e
+               risulto cosi com-<lb/> posto: <persName ref="#sodinij">Jacopo Sodini</persName>,
+               presidente <persName ref="#marchettiem">Emi-<lb/> lio Marchetti</persName>, Vice
+               Presidente; <persName ref="#zinim">Modesto<lb/> Zini </persName>tesoriere; <persName
+                  ref="#pellegrinic">Casimiro Pellegrini</persName>:<lb/> segretario Chairman di ricevimento<lb/>
+               <persName ref="#maffeis">S. Maffei</persName>, floor manager <persName
+                  ref="#simonettim">M Simonetti</persName>,<lb/> Chairman di Arrangiamento <persName
+                  ref="#fredianellig">G. Fredianelli</persName><lb/> Gli assistenti verranno scelti
+               nella<lb/> prossimo seduto.<lb/>
+               <closer>Non avendo altro da fare<lb/>
+                  <rs ref="#maffeis">il presidente</rs> chiuse la seduta alle<lb/> 11.15.<lb/> Fondo
+                  costa <unclear reason="illegible"/>
+                  <signed>S. Maffei</signed></closer><lb/>
+            </ab>
+         </body>
+      </text>
+   </TEI>
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title/>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Lega Toscana di Protezione</authority>
+               <date when="1920-10-21"/>
+            </publicationStmt>
+            <sourceDesc>
+               <p>Source description.</p>
+            </sourceDesc>
+         </fileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <ab><pb n="53"/> Giovedi alle 8.40 del 21 Ottobre 1920<lb/> si ebbe la consueta seduta
+               ordinaria presie-<lb/> duta <persName ref="#maffeis">dal presidente Stefano
+                  Maffei</persName>: Non si<lb/> tenne conto della assenza degli ufficiali
+               perche<lb/> nella seduta prossima ci sarà la nomina<lb/> degli ufficiali.<lb/>
+               <seg type="proposal">Proposto da <persName ref="#fredianim" role="proposer">M.
+                     Fredianni</persName> ed ass. da<lb/>
+                  <persName ref="#sodinij" role="supporter">Jacopo Sodini</persName> di concedere il
+                  privilegio<lb/> a tutti i toscani di poter appartenere <orgName ref="#legaT"
+                     >alla<lb/> Lega</orgName> a condizioni vantaggiosissimo, condi<lb/> zioni e
+                  cioè: L’ammissione costa solo $1.00<lb/> a coloro che hanno non meno di 18
+                  anni<lb/> e non più di 36 e questa concessione<lb/> durerà dalla prossima seduta
+                  di Novembre<lb/> fino alle sedute di Febbraio.</seg><lb/>
+               <seg type="proposal"><persName ref="#pellegrinic" role="proposer">Il fratelo Casimiro
+                     Pellegrini</persName> ass.<lb/> da <persName ref="#zinim" role="supporter"
+                     >Modesto Zini</persName> di sospendere, per giuste<lb/> Ragioni, il proposto
+                  Ballo ed in conse-<lb/> guenza di cio – venga prosciolto il comitato<lb/> per il
+                  medesimo.</seg><lb/>
+               <persName ref="#pellegrinic">Casimiro Pellegrini</persName> ha presentato<lb/> le sue
+               dimissioni da capo Comitato<lb/> per le Bandiere e queste accettate ed<lb/> in sua
+               vece venne nominato <persName ref="#marchettiem">il fra-<lb/> tello Emilio
+                  Marchetti</persName><lb/>
+               <seg type="proposal"><persName ref="#pellegrinic" role="proposer">Casimiro
+                     Pellegrini</persName> ass. da<lb/>
+                  <persName ref="#zinim" role="supporter">Modesto Zini</persName> che nella prossima
+                  seduta<lb/> sia dato un rinfresco in onore dei soldati<lb/> toscani in
+                  congedo.</seg> Per tale feste<lb/> vennero nominati al comitato <persName
+                  ref="#maffeis">Maffei</persName>,<lb/>
+               <persName ref="#fredianellig">Fredianelli</persName> e <persName ref="#pasquinelliam"
+                  >A. Pasquinelli</persName>.<lb/>
+               <closer>Non essendoci altro di discutere il<lb/>
+                  <pb n="54"/>
+                  <rs ref="#maffeis">Presidente</rs> tagliò la seduta<lb/> Il segretario Il Presidente<lb/>
+                  <signed>A. Fredianni</signed>
+                  <signed>S. Maffei</signed></closer><lb/></ab>
+         </body>
+      </text>
+   </TEI>
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title/>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Lega Toscana di Protezione</authority>
+            </publicationStmt>
+            <sourceDesc>
+               <p>Source description.</p>
+            </sourceDesc>
+         </fileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <ab>
+               <pb n="54"/> Il 2 Novembre 1920 alle ore 8 p.m. ed<lb/> al solito locale al No 607
+               Webster Ave. Si<lb/> tenne la consueta seduta ordinaria presieduto<lb/>
+               <persName ref="#maffeis">dal Presidente Stefano Maffei</persName>. All’appello<lb/>
+               nominale degli ufficiali risposero quasi tutti<lb/> presenti eccezione di <persName
+                  ref="#paganuccis">Sam Paganucci</persName> e <persName ref="#buchignanil"
+                  >Luigi<lb/> Buchignani</persName> il quale ultimo trovasi ammalato.<lb/> Il
+               processo verbale venne approvato come<lb/> letto.<lb/>
+               <seg type="proposal">Dopo di avere splitato affari am-<lb/> ministrati il
+                     fratello<persName ref="#fredianim" role="proposer"> M. Frediani</persName>
+                  ass.<lb/> Da Lui <persName ref="#zinim" role="supporter">Modesto</persName> di
+                  dare un Ballo masche-<lb/> rato per il prossimo periodo di carnevale</seg><lb/>
+               <seg type="delegation" subtype="committee"><rs ref="#maffeis" role="source">Il
+                     Presidente</rs> ha scelto un comitato per<lb/> investigare ore sia per propizio
+                  il posto<lb/> per darlo e del comitato sono: <persName ref="#pellegrinic"
+                     role="target">Casimiro<lb/> Pellegrini</persName>, <persName ref="#sodinij"
+                     role="target">Jacopo Sodini</persName> e <persName ref="#lucchesiam">Americo
+                     Luc<lb/> chesi</persName>.</seg><lb/> Turano presentato le domande di<lb/>
+               nuovi aspiranti ed accettati: <persName ref="#maffeiv">Verghino<lb/>
+                  Maffei</persName>; <persName ref="#serafinia">Alberto Serafini</persName>;
+                  <persName ref="#maffeigia">Giacamo Maffei</persName>,<lb/>
+               <persName ref="#maffeid">Dante Maffei</persName>; <persName ref="#cristofania"
+                  >Armando Cristofani</persName>; <persName ref="#francesconia">Adolfo<lb/>
+                  Francesconi</persName>; <persName ref="#donatol">L. Donato</persName>, <persName
+                  ref="#ragghiantir">Raffaele Ragglianti</persName>;<lb/>
+               <persName ref="#ragghiantie">Enrico Ragglianti</persName>; <persName
+                  ref="#zambellinig">Guglielimo Zambellini</persName><lb/>
+               <persName ref="#marchettie">E Marchetti</persName>.<lb/>
+               <pb n="55"/>
+               <list><note>Terminato tutto il lavoro sociale <rs ref="#maffeis">il<lb/>
+                        Presidente</rs> dichiare aperte da nomina dei<lb/> candidati per le nuove
+                     gestioni 1924 i<lb/> viene cosi compilate:</note><lb/>
+                  <item><list><note>A Presidente</note><lb/>
+                        <item><persName ref="#zinim">Modesto Zini</persName></item><lb/>
+                        <item><persName ref="#marsilis">Sam Marsili</persName></item><lb/>
+                        <item><persName ref="#tambellinig">Giuseppe Tambellini
+                        S.</persName></item></list></item><lb/>
+                  <item><list><note>A V. Presidente:</note><lb/>
+                        <item><persName ref="#datia">Dati Adelino</persName></item><lb/>
+                        <item><persName ref="#sodinij">Jacopo Sodini</persName></item><lb/>
+                        <item><persName ref="#lunardinil">Lorenzo
+                     Lunardini</persName></item></list></item><lb/>
+                  <item>
+                     <list><note>A Secretario</note><lb/>
+                        <item><persName ref="#marchettiem">Emilio Marchetti</persName>, per
+                           acclamazione</item></list></item><lb/>
+                  <item><list><note>A Seg. di Finanza</note><lb/>
+                        <item><persName ref="#piaggesia">Aladino Piaggisi</persName>, per
+                           acclamazione</item></list></item><lb/>
+                  <item><list><note>A Curatori:</note><lb/>
+                        <item><persName ref="#maffeis">Stefano Maffei</persName></item><lb/>
+                        <item><persName ref="#fredianellig">Giuseppe Fredianelli</persName></item><lb/>
+                        <item><persName ref="#lucchesiam">Americo Lucchesi</persName></item><lb/>
+                        <item><persName ref="#viganol">Lorenzo Vigano’</persName></item><lb/>
+                        <item><persName ref="#pasquinelliam">Americo
+                        Pasquinelli</persName></item></list></item><lb/>
+                  <item><list><note>A Uff. Sanitari:</note><lb/>
+                        <item><persName ref="#battistiniv">Battistini Vincenzo</persName></item><lb/>
+                        <item><persName ref="#carloe">Ezio Carlo</persName></item><lb/>
+                        <item><persName ref="#merciadrie">Eugenio
+                     Merciadri</persName></item></list></item><lb/>
+                  <item><list><note>A guardo Sale</note><lb/>
+                        <item><persName ref="#merciadrie">E. Merciadri</persName>, per
+                           acclamazione</item></list></item></list><lb/> Quindi veniva dato il
+               promesso rui<lb/> fresco ai soldati toscani reduce della<lb/> guerra che regno’ il
+               massimo entu-<lb/> siasmo per tutta la serata<lb/>
+               <pb n="56"/> Fondo cassa a tutt’oggi $1549.76<lb/>
+               <closer><rs ref="#maffeis">Il Presidente</rs> dichiaro’ chiuso la seduta<lb/> Il Presidente<lb/>
+                  <signed>Muzio Frediani</signed><lb/> seg.</closer><lb/>
+            </ab>
+         </body>
+      </text>
+   </TEI>
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title/>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Lega Toscana di Protezione</authority>
+               <date when="1920-12-16"/>
+            </publicationStmt>
+            <sourceDesc>
+               <p>Source description.</p>
+            </sourceDesc>
+         </fileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <ab>
+               <pb n="56"/> Seduta regolare 16 Decembre 1920 alle<lb/> ore 8.40 p.m. nelle sala
+               sociale. Presiedeva<lb/>
+               <persName ref="#maffeis">il Presidente Stefano Maffei</persName>. Fra gli
+               ufficiali<lb/> assenti si notarono <persName ref="#paganuccis">Sam
+                  Paganucci</persName> e <persName ref="#merciadrie">Euge-<lb/> nio
+                  Merciadri</persName>.<lb/> Fu presentata la domanda del nuovo<lb/> aspirante
+                  <persName ref="#robertog">Gino Roberto</persName> e venne accettata.<lb/>
+               <seg type="comp" subtype="sick">Vennero concessi sussidi per ma-<lb/> lattia <num
+                     type="monetary" value="30">$30</num>
+                  <persName ref="#pellegrinie" role="target">al fratello Emilio
+                     Pellegrini</persName></seg><lb/>
+               <seg type="comp" subtype="sick">ed a <persName ref="#santarlascia" role="target"
+                     >Angelo Santarlasci</persName>
+                  <num type="monetary" value="10">$10.00</num></seg>, <seg type="proposal">ma<lb/>
+                  trovandosi agli arretrato coi pagamenti<lb/> verso la Lega fu fatta da <persName
+                     ref="#fredianellig" role="proposer">Giuseppe<lb/> Fredianelli</persName>
+                  assecondato da <persName ref="#zinim" role="supporter">Zini
+                  Modesto</persName><lb/> Se i dieci dollari gli siano concessi co-<lb/> me
+                  Beneficenza e non come diritto.</seg><lb/> L’inizio il disbrigo su da fare<lb/>
+               sul nostro ballo e venne deciso che sia<lb/> dato la sera del 27 Gennaio
+               prossimo<lb/> al Montefiore Hall e furono nominati<lb/> i componenti il Comitato che
+               i cosi<lb/> composto:<lb/>
+               <persName ref="#maffeis">Stefano Maffei</persName>, Presidente<lb/>
+               <persName ref="#lucchesiam">Americo Lucchesi</persName>, Vice<lb/>
+               <persName ref="#marchettiem">Emilio Marchetti</persName>, Segretario<lb/>
+               <persName ref="#pasquinellis">Santino Pasquinelli</persName>, Tesoriero<lb/>
+               <persName ref="#viganol">Lorenzo Vigano’</persName>, Chairman of<lb/> Floor Managers
+               ed i suoi assistenti:<lb/>
+               <pb n="57"/>
+               <persName ref="#viganor">Ronnaldo Vigano’</persName>, <persName ref="#pellegrinic"
+                  >Casimiro Pellegri-<lb/> ni</persName>
+               <persName ref="#maffeid">Dante Maffei</persName><lb/>
+               <persName ref="#silvionec">Carlo Silvioni</persName> Chairman of Reception<lb/>
+               Committee ed i suoi assistenti: <persName ref="#sodinij">Jacopo<lb/>
+                  Sodini</persName>, <persName ref="#zinim">Modesto Zini</persName>, <persName
+                  ref="#santarlascia">Angelo Santarlasci</persName><lb/>
+               <persName ref="#marsilis">Sam Marsili</persName> Chairman of Arrange-<lb/> ment
+               Committee ed i suoi assistenti:<lb/>
+               <persName ref="#quintigliog">Quintiglio Gino</persName>, <persName ref="#giomettic"
+                  >Giometti Carlo</persName>, <persName ref="#maffeigia">Giacamo<lb/>
+                  Maffei</persName>, <persName ref="#cristofania">Armando Cristafami</persName>,
+                  <persName ref="#battistiniv">Battistini Vin-<lb/> cenzo</persName>, <persName
+                  ref="#merciadrie">Eugenio Merciadri</persName>, <persName ref="#carloe">Ezio
+                  Carlo</persName> e<lb/>
+               <persName ref="#zinif">Fiarananti Zini</persName>.<lb/>
+               <seg type="proposal">Il fratello <persName ref="#santarlascia" role="proposer">Angelo
+                     Santarlasci</persName> ass.<lb/> da <persName ref="#marchettiem"
+                     role="supporter">Emilio Marchetti</persName>
+                  <del rend="strike">che</del> propone che<lb/> sia il Ballo in Farma civile e
+                  un<lb/> mascherato. Tale proposto viene ap-<lb/> provato per
+               acclamazione.</seg><lb/> Terminati tutti gli affari sociali<lb/> viene distribuito le
+               schede per l’ele-<lb/> zioni amministrative e risultavano eletti:<lb/>
+               <persName ref="#marsilis">Presidente Sam Marsili</persName>, <persName ref="#sodinij"
+                  >Vice President<lb/> Jacopo Sodini</persName>, Curatori <persName
+                  ref="#pasquinelliam">Pasquinelli<lb/> Americo</persName>, <persName
+                  ref="#lucchesiam">Americo Lucchesi</persName> e <persName ref="#fredianellig"
+                  >Fredianelli<lb/> Giuseppe</persName> -- Ufficiali Sanitari: <persName
+                  ref="#merciadrie">Eugenio<lb/> Merciadri</persName>, <persName ref="#battistiniv"
+                  >Battistini Vincenzo</persName>. Restando<lb/> eletti per acclamazioni <persName
+                  ref="#marchettiem">Emilio Marchetti</persName><lb/> Seg. di carr., <persName
+                  ref="#piaggesia">Aladino Piaggesi</persName> Seg. di Fin.<lb/>
+               <persName ref="#pasquinellis">Santino Pasquinelli</persName>, Tesoriere e <persName
+                  ref="#merciadrie">Eugenio<lb/> Merciadri</persName>, guarda sala<lb/> Fondo cassa
+               e tutt’oggi $......<lb/>
+               <closer>Non essendovi altro da trattare <rs ref="#maffeis">il<lb/> Presidente</rs>
+                  chiuse le sedute<lb/>
+                  <signed>Muzio Frediani</signed>, Seg</closer><lb/>
+            </ab>
+         </body>
+      </text>
+   </TEI>
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title/>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Lega Toscana di Protezione</authority>
+               <date when="1920-12-30"/>
+            </publicationStmt>
+            <sourceDesc>
+               <p>Source description.</p>
+            </sourceDesc>
+         </fileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <ab>
+               <pb n="58"/> La sera di Giovedi 30 Dicembre 1920<lb/> Si tenne la seduta
+               straordinaria richiesta sola-<lb/> mente per discutere affari che riguardano<lb/> il
+               prossimo Ballo e si decise<lb/>
+               <unclear reason="illegible"/> la nomina dei Seguenti<lb/>
+               <persName ref="#pasquinellig">Giovanni Pasquinelli</persName> e Signora padroni<lb/>
+               delle bandiere italiane:<lb/>
+               <persName ref="#fogliav">Vito Foglia</persName> e Signora Padroni delle<lb/> bandiere americane-<lb/>
+               <persName ref="#pardinib">Benedetto Pardini</persName> e Signora Padroni<lb/> per lo
+               stendardo sociale<lb/>
+               <persName ref="#temfarlaseia">Angelo Temfarlasei</persName> porta stendardo;<lb/>
+               <persName ref="#silvionec">Carlo Silviani</persName> porta bandiere italiana;<lb/>
+               <persName ref="#pistelliu">Ugo Pistelli</persName> , porta bandiere Americana<lb/> Il
+               biglietto ad ogni socio obbligatorio<lb/> di $1.00<lb/> Dare un premio a chi vende
+               più<lb/> biglietti<lb/> fu nominato <persName ref="#bertonie">Eugenio
+                  Bertoni</persName><lb/> Cerimoniere del battesimo<lb/> Oratori: Aw. P. Bell, inglese<lb/>
+               <persName ref="#luccic">C. Lucci</persName>, italiano<lb/> Non essendo altro da fare
+                  <rs ref="#maffeis">il<lb/> Presidente</rs> ordine chiusa la Seduta<lb/> M Frediani
+               Seg. Presidente<lb/>
+            </ab>
+         </body>
+      </text>
+   </TEI>
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title type="main">Seduta Ordinaria del 20 Gennaio 1927</title>
+            </titleStmt>
             <publicationStmt><authority>Lega Toscana di Protezione</authority>
-            <date when="1920-09-16"/></publicationStmt>
+            <date when="1921-01-20"/></publicationStmt>
             <sourceDesc><p>Source description.</p></sourceDesc>
          </fileDesc>
       </teiHeader>
       <text>
-         <body><ab>
-            <pb n="50"/>
-            Giovedi 16 Settembre 1920 alle ore 9:30 li<lb/>
-            ebbe la nostra seduta ordinaria presieduta<lb/>
-            da <persName ref="#maffeis">presidente Stefano Maffei</persName>.<lb/>
-            Mediante la mancanza <rs ref="#fredianim">del segre-<lb/>
-               tario di Corrispondenza</rs> <rs ref="#maffeis">il presidente</rs><lb/>
-            chiede il parere di <unclear reason="illegible"/> dire alla apertura<lb/>
-            della seduta il chi fu deciso de te-<lb/>
-            nerla ugualmente.<lb/>
-            <persName ref="#carloe">Il fratello Ezio Carlo</persName>, dietro<lb/>
-            presentazione del regolare certificato me-<lb/>
-            dico viene messo al ruolo sociale.<lb/>
-            
-            
-            
-            <pb n="51"/>
-            
-            Il rapporto del Comitato Stendardo<lb/>
-            <persName ref="#pellegrinic">il fratello Pellegrini</persName> capo Comitato, disse<lb/>
-            di per fare lo Stendardo e bandiere si anderebbe in<lb/>
-            centro al costo dai $500 ai 700 e<lb/>
-            <rs ref="#pellegrinic">dichiarò</rs> di non avere dato ordinazioni<lb/>
-            poiché il costo gli sembrò esagerato<lb/>
-            <seg type="proposal">E così li venne a conclusione su<lb/>
-            proposta <persName ref="#lasalio" role="proposer">del fratello Omero lasali</persName><lb/>
-            ass. <persName ref="#zinim" role="supporter">dal fratello Zini</persName>, di far fare<lb/>
-            solo lo standardo e di sospendere per<lb/>
-            il momento le bandiere con un limite<lb/>
-            di prezzo di $300 e non più</seg><lb/>
-            <seg type="comp" subtype="charity">Venne deliberato il pagamento<lb/>
-            di <num type="monetary" value="11">$11.00</num> di sussidio <persName ref="#pasquinelliam" role="source">al fratello Ame-<lb/>
-            rico Pasquinelli</persName> e questi con atto fi-<lb/>
-            lantropico devolse la<lb/>
-            beneficio <rs ref="#terremoto" role="target">dei derelitti del terremoto</rs></seg><lb/>
-            <seg type="proposal"><seg type="comp" subtype="charity"><rs ref="#maffeis">Il presidente</rs> accenna alle catestr-<lb/>
-            ofe avvenute in Toscana con parole<lb/>
-            commoventi de dopo di avere lasciato<lb/>
-            la sedia <rs ref="#sodinij">al Vice Presidente</rs> <persName ref="#sodinij" role="proposer">Jacopo<lb/>
-            Sodini</persName> propose di prelevare dal fondo<lb/>
-            casse <num type="monetary" value="100">$100.00</num> e prop di spedi<lb/>
-            la somma immediatamente <rs ref="#terremoto" role="target">in Italia</rs><lb/>
-            Questa proposta vienne approvata <rs ref="#legaT" role="supporter">ad<lb/>
-            unanimità  dai presenti.</rs></seg></seg><lb/>
-            A questo momento venne<lb/>
-            fatto voto che i fratelli S. Maffei,<lb/>
-            S. Pasquinelli, A. Lucchese e M.<lb/>
-            Simonetti avevano già – e accettati già –<lb/>
-            la cospicua somma di $300.00.<lb/>
-            Il Presidente scelse subito un co-<lb/>
-            <pb n="52"/>
-            mitato per le spedizioni di detto<lb/>
-            somma.<lb/>
-            In conformità di una proposta<lb/>
-            fatta nello sedute scorse di dare<lb/>
-            un ballo nel mese di Novembre p. V:<lb/>
-            Il Presidente apre le nomine di un<lb/>
-            comitato Ballo e risulto cosi com-<lb/>
-            posto: Jacopo Sodini, presidente Bun-<lb/>
-            tio Marchetti, Vice Presidente; Modesto<lb/>
-            Zini tesoriere; Casimiro Pellegrini:<lb/>
-            segretario Chairman di ricevimento<lb/>
-            S. Maffei, floor manager M Simonetti,<lb/>
-            Chairman di Arrangiamento G. Fredianelli<lb/>
-            Gli assistenti verranno scelti nella<lb/>
-            prossimo seduto.<lb/>
-            Non avendo altro da fare<lb/>
-            il presidente chiuse la seduta alle<lb/>
-            11.15.<lb/>
-            Fondo costa [illegibile]        S. Maffei<lb/>
-         </ab></body>
+         <body>
+            <ab><pb n="59"/>
+               Alle ore 830 P.M. <persName ref="#maffeis">il Presidente Stefano Maffei</persName><lb/>
+               dichiara aperta la seduta e dopo lettura<lb/>
+               del processo verbale <rs ref="#maffeis">il Presidente</rs> lo messe<lb/>
+               all’aprovazione all’assemblea e venne<lb/>
+               approvato come erà schritto.<lb/>
+               Si passo ai reso canti generali dopo che<lb/>
+               furono Pagati tutti i billi in pieno rimane<lb/>
+               in cassa al tesoriere Bilancio netto $1524.48.<lb/>
+               <persName ref="#maffeis">Il Presidente Stefano Maffei</persName> essendo<lb/>
+               lultima seduta che precedeva del’anno 1920<lb/>
+               fece lestallazione della nuova amministrazione<lb/>
+               il quale chiamo <persName ref="#marsilis">il nuovo presidente<lb/>
+               Sam Marsili</persName>, e tutta l’amministrazione<lb/>
+               nuova e can parole augurava un buon<lb/>
+               successo durante la loro occupazione<lb/>
+               anno 1921<lb/>
+               <list type="officers"><note>Amministrazione per l’anno 1921</note><lb/>
+               <item>Presidente   	        	<persName ref="#marsilis">Sam Marsili</persName></item><lb/>
+               <item>Vice Presidente       	<persName ref="#sodinij">Jacopo Sodini</persName></item><lb/>
+               <item>Segretario C	        	<persName ref="#marchettiem">Emilio Marchetti</persName></item><lb/>
+               <item>Segretario H	        	<persName ref="#piaggesia">Aladino Piaggesi</persName></item><lb/>
+               <item>Tesoriere     	        	<persName ref="#pasquinellis">Santino Pasquinelli</persName></item><lb/>
+               <item><list><note>Curatori</note>       	        	<item><persName ref="#pasquinelliam">Americo Pasquinelli</persName></item><lb/>
+               <item><persName ref="#lucchesiam">Americo Lucchesi</persName></item><lb/>
+               <item><persName ref="#fredianellig">Giuseppe Fredianelli</persName></item></list></item><lb/>
+               <item><list><note>Ufficiali Sanitari</note>     	<item><persName ref="#merciadrie">Eugenio Merciadri</persName></item><lb/>
+               <item><persName ref="#battistiniv">Vincenzo Battistini</persName></item></list></item><lb/>
+               <item>Guarda Sala 		<persName ref="#merciadrie">Eugenio Merciadri</persName></item><lb/>
+               <item>Collettore    		<persName ref="#silvionec">Carlo Silvioni</persName></item></list><lb/>
+               
+               <pb n="60"/>
+               Dopo che fu fatto tutto questo il<lb/>
+               Nuovo Presidente disse due parole ma non<lb/>
+               sapendo tanto che dire, non la face tanto<lb/>
+               lunga, e allora il nostro vecchio segretario<lb/>
+               M. Frediani chiese la parola per dire due parole in<lb/>
+               riguardo alla Lega, e che cosa e la Lega<lb/>
+               E si raccomando che si stesse tutti uniti e non<lb/>
+               essere gelosi fra un socio e lo’altro e che<lb/>
+               tutti si lavorasse per farla più grande di<lb/>
+               quello che e oggi giorno e che nessuno dicesse<lb/>
+               male della Lega Toscana. E quando si approva<lb/>
+               una cosa che si mandasse avanti e di non<lb/>
+               fare come si e fatto sempre in seguito<lb/>
+               di vole fare queste e quello e poi lascarle<lb/>
+               abbandonari.<lb/>
+               Poi furono ammessi come nuovi membri e<lb/>
+               di fare parte a questa Lega, i seguenti<lb/>
+               sono Giuseppe Bianchini 1311 Seitz it City<lb/>
+               di anni 30 e Francesco Poli il quale mando anche<lb/>
+               il artificato medico.<lb/>
+               Si delibera a fragare al fratello Olindo Pacini<lb/>
+               $8.00 di sussidio come regola di regolamento il<lb/>
+               qui era nato? ammalato [strike]di influenza[strike] 8 giorni<lb/>
+               di influenza, e al fratello Luigi Buchignari<lb/>
+               $55.00 il qui era stato Ammalato 55 giorni<lb/>
+               con desiperá.<lb/>
+               Venne fatta una proposta da Michele<lb/>
+               Simonetti e assecondata da Modesto Zini<lb/>
+               di dare una festa campestre ossia un picnic<lb/>
+               Nel Estate e di nominare un comitato di<lb/>
+               andare ingaggiare il Campo per lultima<lb/>
+               La<lb/>
+               
+               <pb n="61"/>
+               Domenica di Luglio à la prima<lb/>
+               [illeggibile]<lb/>
+               Domenica di Agosto, il comitato e cosi<lb/>
+               Comporto Michele Simonetti Santino<lb/>
+               Pasquinelli, Casimiro Pellegrini,<lb/>
+               Non potendo più andare avanti colla<lb/>
+               seduta a motive che si andava troppo al tardi.<lb/>
+               ---------------- il presidente<lb/>
+               Sana Marsili alle 10.30 P.M. dichiava<lb/>
+               chiusa la Seduta. Fondo in cassa tutto oggi $1553.48<lb/>
+               il Segretario            	il Presidente<lb/>
+               E. Marchetti            	Sam Marsili<lb/></ab>
+         </body>
       </text>
    </TEI>
 </teiCorpus>

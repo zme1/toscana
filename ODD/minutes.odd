@@ -67,7 +67,7 @@
                 <valItem ident="#bartolis"/>
                 <valItem ident="#barsottig"/>
                 <valItem ident="#bartolettif"/>
-                <valItem ident="#batistiniv"/>
+                <valItem ident="#battistiniv"/>
                 <valItem ident="#benedettie"/>
                 <valItem ident="#bertonie"/>
                 <valItem ident="#bevilacquas"/>
@@ -101,13 +101,16 @@
                 <valItem ident="#diodatia"/>
                 <valItem ident="#diodativ"/>
                 <valItem ident="#diriccoe"/>
+                <valItem ident="#donatol"/>
                 <!-- Last name E -->
                 <valItem ident="#enickz"/>
                 <!-- Last name F -->
+                <valItem ident="#fogliav"/>
                 <valItem ident="#fontanaal"/>
                 <valItem ident="#fontanaan"/>
                 <valItem ident="#fontanae"/>
                 <valItem ident="#fontanaf"/>
+                <valItem ident="#francesconia"/>
                 <valItem ident="#francesconio"/>
                 <valItem ident="#fredianellig"/>
                 <valItem ident="#fredianim"/>
@@ -148,6 +151,7 @@
                 <valItem ident="#malfattip"/>
                 <valItem ident="#mancinia"/>
                 <valItem ident="#marchettie"/>
+                <valItem ident="#marchettiem"/>
                 <valItem ident="#marconic"/>
                 <valItem ident="#marconif"/>
                 <valItem ident="#marsilia"/>
@@ -191,11 +195,14 @@
                 <valItem ident="#ponzionip"/>
                 <valItem ident="#puccettia"/>
                 <valItem ident="#puccettil"/>
+                <!-- Last name Q -->
+                <valItem ident="#quintigliog"/>
                 <!-- Last name R -->
+                <valItem ident="#ragghiantie"/>
                 <valItem ident="#ragghiantir"/>
                 <valItem ident="#ribettig"/>
                 <valItem ident="#robertic"/>
-                <valItem ident="#robertig"/>
+                <valItem ident="#robertog"/>
                 <valItem ident="#rossir"/>
                 <!-- Last name S -->
                 <valItem ident="#sandronee"/>
@@ -215,6 +222,7 @@
                 <valItem ident="#tambellinia"/>
                 <valItem ident="#tambellinig"/>
                 <valItem ident="#tambellinil"/>
+                <valItem ident="#temfarlaseia"/>
                 <!-- Last name V -->
                 <valItem ident="#vammuccia"/>
                 <valItem ident="#vammuccie"/>
@@ -223,6 +231,7 @@
                 <valItem ident="#vondasl"/>
                 <!-- Last name Z -->
                 <valItem ident="#zambellinic"/>
+                <valItem ident="#zambellinig"/>
                 <valItem ident="#zinib"/>
                 <valItem ident="#zinif"/>
                 <valItem ident="#zinim"/>
@@ -355,7 +364,6 @@
           added to the <list> content model that did not originally appear in it in the TEI All schema. -->
           <content>
             <alternate maxOccurs="unbounded" minOccurs="0">
-              <textNode/>
               <elementRef key="item"/>
               <elementRef key="lb"/>
               <elementRef key="pb"/>
