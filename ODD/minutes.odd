@@ -14,7 +14,7 @@
       <publicationStmt>
         <authority>Prepared in TEI 5 by Zachary Enick for the Italian research assistantship at the
           University of Pittsburgh. Github repository: <ref target="http://github.com/zme1/toscana"
-          />. Date last worked on: <date when="2018-02-08"/></authority>
+          />. Date last worked on: <date when="2018-02-10"/></authority>
         <availability>
           <licence><!-- licence to go here --></licence>
         </availability>
@@ -388,6 +388,7 @@
                 <valItem ident="fondoM"/>
                 <valItem ident="picnic"/>
                 <valItem ident="stendardo"/>
+                <valItem ident="intrattenimento"/>
               </valList>
             </attDef>
           </attList>
