@@ -151,7 +151,7 @@
                   Muzio Frediani</persName><lb/> in Sieme Con il Seguito di tutta la
                aministrazione<lb/> e Con Parole Augurandoci un buon successo<lb/> durante la Loro
                Ocupazione Anno 1919.<lb/>
-               <list type="officers">
+               <list rend="list" type="officers">
                   <note>Aministrazione Anno 1919</note>
                   <lb/>
                   <item><persName ref="#fredianim">Presidente Muzio Frediani</persName></item>
@@ -169,7 +169,7 @@
                      Pasquinelli</persName></item>
                   <lb/>
                   <item> Curatori <unclear reason="illegible"/>
-                     <list>
+                     <list rend="list">
                         <item><del rend="strike"><persName ref="#silvionic">Carlo
                                  Silvione</persName></del></item>
                         <lb/>
@@ -180,7 +180,7 @@
                         <item><persName ref="#marsilia">Abramo Marsili</persName></item>
                      </list></item>
                   <lb/>
-                  <item> Ufficiali Sanitari <list>
+                  <item> Ufficiali Sanitari <list rend="list">
                         <item><persName ref="#giomettic">Carlo Giometti</persName></item>
                         <lb/>
                         <item>
@@ -252,13 +252,13 @@
       <text>
          <body>
             <ab><pb n="4"/> Alle Ore 930 P.M. <persName ref="#fredianim">Il Presidente M.
-                  Frediani</persName><lb/> dichiarava la Seduta aperta.<lb/> quindi <rs ref="#mf"
+                  Frediani</persName><lb/> dichiarava la Seduta aperta.<lb/> <list type="absent"><note>quindi <rs ref="#mf"
                   >Ordinò</rs> L’Appello Nominale dell’aministra-<lb/> -zione e Risultavano Assenti
-               i Seguenti ufficiali<lb/> a Curatori <persName ref="#silvionic">Carlo
-                  Silvione</persName>
-               <persName ref="#bertonie">Eugenio Bertoni</persName>
-               <persName ref="#merciadrie">ufficiale<lb/> Sanitari Eugenio Merciadri</persName>
-               <persName ref="#fontanaan">guardia Sala A Fontana</persName><lb/> Si venne alla
+               i Seguenti ufficiali</note><lb/><item><list><note> a Curatori </note><item><persName ref="#silvionic">Carlo
+                  Silvione</persName></item>
+               <item><persName ref="#bertonie">Eugenio Bertoni</persName></item></list></item>
+               <item><persName ref="#merciadrie">ufficiale<lb/> Sanitari Eugenio Merciadri</persName></item>
+               <item><persName ref="#fontanaan">guardia Sala A Fontana</persName></item></list><lb/> Si venne alla
                Lettura Precesso Verbale il<lb/> quale Venne aprovato Come e Scritto<lb/> Il
                Risultato <persName ref="#maffeis">del Fratello Maffei</persName> e <persName
                   ref="#simonettim">il fratello Simonetti</persName><lb/> Icaricati di fare il Conto
@@ -322,13 +322,13 @@
          <body>
             <ab>
                <pb n="11"/> Alle Ore 930 P.M. <persName ref="#fredianim">Il Presidente Muzio
-                  Frediani</persName><lb/> dichiarava la Seduta Aperta.<lb/> quindi vi fu L’appello
+                  Frediani</persName><lb/> dichiarava la Seduta Aperta.<lb/> <list type="absent"><note>quindi vi fu L’appello
                Nominale dell’amini-<lb/> Strazione Risultavano Mancanti i Segue-<lb/> nti Uffli a
-               Curatori <persName ref="#silvionic">Carlo Silvione</persName><lb/>
-               <persName ref="#bertonie">Eugenio Bertoni</persName>
-               <persName ref="#marsilia">Abramo Marsili</persName> quindi<lb/>
+               Curatori </note><item><persName ref="#silvionic">Carlo Silvione</persName></item><lb/>
+               <item><persName ref="#bertonie">Eugenio Bertoni</persName></item>
+               <item><persName ref="#marsilia">Abramo Marsili</persName></item></list> quindi<lb/>
                <persName ref="#silvionic">Carlo Silvione</persName> e <persName ref="#bertonie"
-                  >Eugenio Bertoni</persName> Risultavano<lb/> Mancanti alle Sedute per tre Volte
+                  >Eugenio Bertoni</persName>Risultavano<lb/> Mancanti alle Sedute per tre Volte
                Consegu-<lb/> tive E Stando al Nostro Regolamento il<lb/> quale dice che chi Manca
                per tre volte<lb/> Consegutive alle Sedute e non gustifica<lb/> ta lassenza viene
                Cancellato<lb/> Cosi il Curatori <persName ref="#silvionic">Carlo Silvione</persName>
@@ -413,16 +413,16 @@
          <body>
             <ab>
                <pb n="15"/>Alle Ore 9 – Precise<persName ref="#fredianim">il Presidente Muzio
-                  Frediani</persName><lb/>dichiarava aperta la Seduta.<lb/>Ordinò l’appello Nominale
-               Risultò Mancante<lb/>
-               <persName ref="#maffeis">il Vice Presidente Stefano Maffei</persName><lb/>quindi vi
+                  Frediani</persName><lb/>dichiarava aperta la Seduta.<lb/><list type="absent"><note>Ordinò l’appello Nominale
+               Risultò Mancante</note><lb/>
+               <item><persName ref="#maffeis">il Vice Presidente Stefano Maffei</persName></item></list><lb/>quindi vi
                fu Lettere Precesso Verbale e fu<lb/>approvato Come è Scritto da tutta la
                Assem<lb/>blea Generale<lb/>vi furono Cinque (5) Nuove Aplicazione<lb/>le quali Sono
                i seguenti Nomi-<lb/>
-               <persName ref="#lunardinim">MatteoLunardini</persName>-<persName ref="#buchignanil"
-                  >LuigiBuchignani</persName>-<lb/>
-               <persName ref="#paternim">MichelePaterni</persName>-<persName ref="#diriccoe">Enrico
-                  DiRicco</persName>-<persName ref="#lucchesial">Alberto<lb/>
+               <persName ref="#lunardinim">Matteo Lunardini</persName>-<persName ref="#buchignanil"
+                  >Luigi Buchignani</persName>-<lb/>
+               <persName ref="#paternim">Michele Paterni</persName>-<persName ref="#diriccoe">Enrico
+                   DiRicco</persName>-<persName ref="#lucchesial">Alberto<lb/> 
                Lucchese</persName>Tutti Toscani e <seg type="proposal">il fratello<lb/>
                   <persName ref="#silvionic" role="proposer">Carlo Silvione</persName>fece la
                   Proposta che le<lb/>(5) Cinque Nuove Aplicazione fossero<lb/>messe all’aprovazione
@@ -451,8 +451,8 @@
                      Pietro Baranti</persName>che certificano<lb/>amalato dal 1o Aprile 1919 fino al
                   14 Aprile 1919<lb/>Con Certificato Medico<persName ref="#ribettig">Del Dr. G.T.
                      Ribetti</persName><lb/>Il Raporto degli Ufli. Sanitari <persName
-                     ref="#merciadrie">EugenioMerciadri</persName><lb/>e <persName ref="#giomettic"
-                     >CarloGiometti</persName>e’ Giustificato a quello<lb/>
+                     ref="#merciadrie">Eugenio Merciadri</persName><lb/>e <persName ref="#giomettic"
+                     >Carlo Giometti</persName>e’ Giustificato a quello<lb/>
                   <persName ref="#ribettig">del Dr. Ribetti</persName>non vi fu nessuna oposizione
                   a<lb/>riguardo il<rs ref="#mf">Presidente</rs>lo messe all’approvazione<lb/>per
                   Lassegno di Sussidio di $1.00 al giorno questo<lb/>Nostro Regolamento fu aprovato
@@ -466,8 +466,8 @@
                   Emiplegia paralizi<lb/>dal lato sinistro del Corpo e<persName ref="#delmagrol">il
                      fratello<lb/>LuigiDel Magro</persName>Trovarsi atualmente amalato<lb/>Raporto
                   degli Ufli Sanitari Fu giustificato<lb/>
-                  <persName ref="#merciadrie">EugenioMerciadri</persName>
-                  <persName ref="#giomettic">CarloGiometti</persName>a quelle<lb/>
+                  <persName ref="#merciadrie">Eugenio Merciadri</persName>
+                  <persName ref="#giomettic">Carlo Giometti</persName>a quelle<lb/>
                   <persName ref="#sunseric">del Dr Cav. F. Sunseri</persName><lb/>Non vi fu Nessuna
                   oposizione a riguardo<lb/>Il<rs ref="#mf">Presidente</rs>lo messe allaprovazione
                   di<lb/>Pagarci Lassegno di Sussidio e fu<lb/>Aprovato di Pagarci dal 1oAprile al
@@ -481,10 +481,10 @@
                una Comissione per<lb/>riguardare i regolamenti per chi Vera<lb/>a Far Parte al Fondo
                Unico Mortuario<lb/>e poi Portarlo alla Assemblea Generale<lb/>per Laprovazione Per
                la Comizione Sono<lb/>Seguenti<unclear reason="illegible"/>
-               <persName ref="#desimos">SerafinoDeSimo</persName>
-               <persName ref="#fredianellig">GueseppeFredianelli</persName>
+               <persName ref="#desimos">Serafino DeSimo</persName>
+               <persName ref="#fredianellig">Gueseppe Fredianelli</persName>
                <lb/>
-               <persName ref="#silvionic">CarloSilvione</persName>
+               <persName ref="#silvionic">Carlo Silvione</persName>
                <persName ref="#simonettim">M Simonetti</persName>
                <lb/><closer>Non Avendo Altro da Fare<persName ref="#fredianim">il<lb/>Presidente
                      Muzio Frediani</persName>alle Ore<lb/>11 Precise dichiarava sciolta<lb/>La
@@ -518,11 +518,11 @@
                   Frediani</persName><lb/>dichiarò la Seduta Aperta<lb/>
                <seg type="delegation" subtype="task"><rs ref="#mf" role="source">Ordinò</rs>
                   L’apello Nominato il Curatore<lb/>
-                  <persName ref="#paganuccis" role="target">SamPaganucci</persName></seg><lb/>quindi
+                  <persName ref="#paganuccis" role="target">Sam Paganucci</persName></seg><lb/>quindi
                Si Passò Alla Lettura Precessa<lb/>Verbale il quale Fui aprovato Come e<lb/>
                Scritto.<lb/>Vi Furono Presentate 3 -- Aplicazini<lb/>i quali Sono <persName
                   ref="#battistiniv">Vincenzo Battistini</persName>
-               <persName ref="#sodinij">Jeapo<lb/>Sodini</persName>
+               <persName ref="#sodinij">Jeapo<lb/> Sodini</persName>
                <persName ref="#zinim">Modesto Zini</persName><lb/>tutti furore aprovati di far
                Parte<lb/>Alla Nostra Famiglia Lega Toscana<lb/>Pagamenti Sussidi<lb/><seg
                   type="comp" subtype="sick"><persName ref="#giangranedif" role="target">F.
@@ -545,8 +545,8 @@
                      <rs ref="#legaT" role="supporter">da tutta<lb/>L’assemblea Generale</rs></seg><lb/>
                <seg type="delegation" subtype="committee"><rs ref="#mf" role="source">Il
                      Presidente</rs>Scelse un Comitato<lb/> di Ivesticazione per dare la Festa<lb/>Campestre<lb/>
-                  <list type="committee" subtype="festaCampestre">
-                     <item><persName ref="#marsilia" role="target">AbramoMarsili</persName></item>
+                  <list rend="list" type="committee" subtype="festaCampestre">
+                     <item><persName ref="#marsilia" role="target">Abramo Marsili</persName></item>
                      <lb/>
                      <item><persName ref="#lunardinil" role="target">Lorenzo
                         Lunardini</persName></item>
@@ -585,12 +585,12 @@
          <body>
             <ab>
                <pb n="21"/>Alle Ore 930 P.M.<persName ref="#fredianim">Il presidente
-                  MuzioFrediani</persName><lb/>Dichiarava aperta la Seduta<lb/>Apello Nominale
-               ufle<lb/>Risultarono Mancanti i Seguenti<lb/>
-               <add place="margin">Curre</add><persName ref="#paganuccis">Sam Paganucci</persName>
-               <persName ref="#marsilia">Abramo Marsili</persName>
-               <persName ref="#giomettic">ufle Sanro<lb/>Carlo Giometti</persName>
-               <persName ref="#fontanaan">Guadia Sala - Angelo Fontana</persName><lb/>
+                  MuzioFrediani</persName><lb/>Dichiarava aperta la Seduta<lb/><list type="absent"><note>Apello Nominale
+               ufle<lb/>Risultarono Mancanti i Seguenti</note><lb/>
+               <item><add place="margin">Curre</add><persName ref="#paganuccis">Sam Paganucci</persName></item>
+               <item><persName ref="#marsilia">Abramo Marsili</persName></item>
+               <item><persName ref="#giomettic">ufle Sanro<lb/>Carlo Giometti</persName></item>
+               <item><persName ref="#fontanaan">Guadia Sala - Angelo Fontana</persName></item></list><lb/>
                <add place="margin">Fu</add>Lettura Processo Verbale il quale Venne<lb/>aprovato Come
                e Scritto<lb/>
                <add place="margin">anza</add><seg type="invite"><orgName ref="#msgm" role="source"
@@ -654,11 +654,11 @@
          <body>
             <ab><pb n="23"/>alle Ore 930 Minuti P.M.<persName ref="#fredianim">Il
                   Presidente<lb/>Muzio Frediani</persName>dichiarava la Seduta<lb/>aperta. quindi
-               Ordino’ L’apello<lb/>Nominale. Risultarono Mancanti i Seguenti<lb/>Ufli <persName
-                  ref="#pasquinelliam">Tesoriere A. Pasquinelli</persName> a <persName
-                  ref="#marsilia">curatore<lb/>aMarsili</persName>
-               <persName ref="#giomettic">ufle Sanitario Carlo Giometti</persName>
-               <persName ref="#fontanaan">Guardia<lb/>Sala Fontana</persName><lb/>E. Si passo alla
+               <list type="absent"><note>Ordino’ L’apello<lb/>Nominale. Risultarono Mancanti i Seguenti<lb/>Ufli</note> <item><persName
+                  ref="#pasquinelliam">Tesoriere A. Pasquinelli</persName></item> <item>a <persName
+                  ref="#marsilia">curatore<lb/>a Marsili</persName></item>
+              <item> <persName ref="#giomettic">ufle Sanitario Carlo Giometti</persName></item>
+               <item><persName ref="#fontanaan">Guardia<lb/>Sala Fontana</persName></item></list><lb/>E. Si passo alla
                Lettura Processo Verbale il<lb/>quale Fu aprovato come e’ scritto. Fu’<del
                   rend="strike">Lettetto</del>dato<lb/>Lettura per la terza vorta Regolamento
                dell’unico Fondo<lb/>Mortuario e Fu aprovato da tutta la<lb/>assemblea generale come Legge<lb/>
@@ -680,7 +680,7 @@
                ingaggiato<lb/>la Ross Farm Aspinwall Pa<lb/>per $20.00 e avremmo potuto<lb/>farci la
                festa qualunque domenica<lb/>che Si avesse piaciuto a Noi<lb/>Cosi fu’ accetta da
                tutta la<lb/>Assemblea Generale di dare la<lb/>Festa Campestre e Famigliare<lb/>a
-               Ross Farm Aspinwall Pa<lb/>la 1a domenica di agosto<lb/><list type="committee"
+               Ross Farm Aspinwall Pa<lb/>la 1a domenica di agosto<lb/><list rend="list" type="committee"
                   subtype="festaCampestre">
                   <note>Aministrazione della Festa Campestre</note>
                   <lb/>
@@ -742,16 +742,16 @@
       </teiHeader>
       <text>
          <body>
-            <ab><pb n="26"/> Alle Ore 930 PM<persName ref="#fredianim">PresidenteMuzio<lb/>
-                  Frediani</persName>dichiarava la Seduta Aperta<lb/>quindi Ordinò l’appello
-               Nominale risulta<lb/>sono Mancanti I Seguenti UffliSanitari<lb/>
-               <persName ref="#giomettic">Carlo Giometti</persName><lb/>Si Passo’ all’alettura
+            <ab><pb n="26"/> Alle Ore 930 PM<persName ref="#fredianim">Presidente Muzio<lb/>
+                  Frediani</persName>dichiarava la Seduta Aperta<lb/><list type="absent"><note>quindi Ordinò l’appello
+               Nominale risulta<lb/>sono Mancanti I Seguenti</note> <item>Uffli Sanitari<lb/>
+               <persName ref="#giomettic">Carlo Giometti</persName></item></list><lb/>Si Passo’ all’alettura
                Processo Verbale e<lb/>il quale fù aprovato Come e Scritto<lb/>Vi furono Sei (6) Nuvi
                Aplicazione<lb/>i quali Sono i Seguenti<persName ref="#mancinia"
-                  >AntonioMancini</persName><lb/>
-               <persName ref="#pardinia">AlfredoPardini</persName><persName ref="#simie">Edualda
+                  >Antonio Mancini</persName><lb/>
+               <persName ref="#pardinia">Alfredo Pardini</persName><persName ref="#simie">Edualda
                   Simi</persName><persName ref="#rossir">Roberti<lb/> Rossi</persName><persName
-                  ref="#tambellinil">LeoTambellin</persName><persName ref="#pacinio">Olindo
+                  ref="#tambellinil">Leo Tambellin</persName><persName ref="#pacinio">Olindo
                   Pacini</persName><lb/>tutti furono acettati dalla’Assemblea<lb/>Generale Purchè
                Presentino un Certificato<lb/>Medico di Sana Cotituzione<lb/>
                <persName ref="#fredianim"> Il Prte Muzio Frediani</persName>parlo’ in Riguardo
@@ -787,7 +787,7 @@
                   Sodalizio della Lega Toscana<lb/>la Proposta del Fratello Maffei fu asecondata<lb/>
                   <persName ref="#simonettim" role="supporter">dal Fratello Simonetti</persName>e fu
                   aprovata<lb/>da tutta la l’assemblea generale<lb/></seg>
-               <list type="committee" subtype="ballo">
+               <list rend="list" type="committee" subtype="ballo">
                   <note>Il Presidente apri la Nomina del<lb/>Comitato Ballo e Resultarono
                      i<lb/>Seguenti</note>
                   <lb/>
@@ -807,10 +807,10 @@
                            Segretario</roleName>CasimiroPellegrini</persName></item>
                   <lb/>
                   <item><persName ref="#desimos"><roleName type="committee"
-                        >Tesoriere</roleName>SerafinoDeSimo</persName></item>
+                        >Tesoriere</roleName>Serafino DeSimo</persName></item>
                   <lb/>
                   <item><roleName type="subcommittee">Comitato di Ricevimento</roleName><lb/>
-                     <list>
+                     <list rend="list">
                         <item><persName ref="#bertonie">Eugenio Bertoni</persName></item>
                         <lb/>
                         <item><persName ref="#cappellinic">Castruccio Cappellini</persName></item>
@@ -823,7 +823,7 @@
                      </list></item>
                   <lb/>
                   <item><roleName type="subcommittee">Manegere della Sala da Balli</roleName><lb/>
-                     <list>
+                     <list rend="list">
                         <item><persName ref="#simonettim">Michele Simonetti</persName></item>
                         <lb/>
                         <item><persName ref="#lunardinil">Lorenzo Lunardini</persName></item>
@@ -834,7 +834,7 @@
                      </list></item>
                   <lb/>
                   <item><roleName type="subcommittee">Chiarma d’arangiomento</roleName><lb/>
-                     <list>
+                     <list rend="list">
                         <item><persName ref="#maffeis">Stefano Maffei</persName></item>
                         <lb/>
                         <item><persName ref="#fredianellig">Giuseppe Fredianelli</persName></item>
@@ -892,10 +892,10 @@
          <body>
             <ab>
                <pb n="30"/> Alle Ore 9:15 Minuti <persName ref="#fredianim">il Presidente<lb/> Muzio
-                  Frediani</persName> dichiarava la Seduta<lb/> aperta. <lb/> Appello Nominale
-               Risultavano Mancanti<lb/> i Seguenti Uffli <persName ref="#pasquinelliam">Americo
-                  Pasquinelli</persName><lb/>
-               <persName ref="#giomettic">Carlo Giometti</persName>. quindi si passo alle<lb/>
+                  Frediani</persName> dichiarava la Seduta<lb/> aperta. <lb/> <list type="absent"><note>Appello Nominale
+               Risultavano Mancanti<lb/> i Seguenti Uffli </note><item><persName ref="#pasquinelliam">Americo
+                  Pasquinelli</persName></item><lb/>
+               <item><persName ref="#giomettic">Carlo Giometti</persName></item></list>. quindi si passo alle<lb/>
                lettura Processo Verbale il quale fu aprovato<lb/> Come era Scritto<lb/> Si passo’
                alle Proposte dei Nuovi<lb/> Membri le quali furono Sei<lb/>
                <persName ref="#lombardia">Aladino Lombardi</persName>
@@ -955,9 +955,9 @@
          <body>
             <ab>
                <pb n="32"/> Alle Ore 9:30 P.M. <persName ref="#fredianim">Il Presidente<lb/> Muzio
-                  Frediani</persName> dichiarava la Seduta<lb/> Aperta Ordino l’appello
-               Nominale<lb/> per l’aministrazione Resulto Mancante<lb/>
-               <persName ref="#giomettic">ufle Sanitario Carlo Giometti</persName><lb/> quindi si
+                  Frediani</persName> dichiarava la Seduta<lb/> Aperta <list><note>Ordino l’appello
+               Nominale<lb/> per l’aministrazione Resulto Mancante</note><lb/>
+               <item><persName ref="#giomettic">ufle Sanitario Carlo Giometti</persName></item></list><lb/> quindi si
                Passo’ alla Lettura Processo<lb/> verbale il quale fu aprovato Come’<lb/> Scritto<lb/>
                <seg type="invite"><orgName ref="#sodalizio" role="source">Il
                   Sodalizio</orgName><lb/> Invio’ una lettura <orgName ref="#legaT" role="target"
@@ -1097,8 +1097,8 @@
             <ab>
                <pb n="37"/> Martedi 16 Dicembre 1919 alle ore 8.40<lb/> ebbe principio la regolare
                seduta ordinaria<lb/> Presieduta <persName ref="#fredianim">dal Presidente Muzio
-                  Frediani</persName>:<lb/> il quale, in mancanza del segretario di cor-<lb/>
-               rispondenza della lettura del processo ver-<lb/> bale ed il medesimo venne
+                  Frediani</persName>:<lb/> il quale, <list type="absent"><note>in mancanza </note><item><rs ref="#simonettim">del segretario di cor-<lb/>
+               rispondenza</rs></item></list> della lettura del processo ver-<lb/> bale ed il medesimo venne
                approvato<lb/> senza ritocco.<lb/> Dopo di aver disbrigato affari am-<lb/>
                ministrativi si dichiaro aperta la vota-<lb/> zione dei nuovi ufficiali per la
                gestione<lb/> del 1920 dalle quali risultarono eletti<lb/>
@@ -1153,7 +1153,7 @@
                <!-- Although this is not the actual 38th page beginning, this meeting begins
                on the 38th page. I added this for future use to reference specific page scans.-->
                <pb n="38"/> Martedi 20 Gennaio alle ore 8 p.m.<lb/> si tenne la seduta regolare
-               ordinaria prosie-<lb/> duta <persName ref="#maffeis">dal Presidente S.
+               ordinaria presie-<lb/> duta <persName ref="#maffeis">dal Presidente S.
                   Maffei</persName><lb/> Dietro lettura dei rendiconti annua-<lb/> li <orgName
                   ref="#legaT">dalla Societa</orgName>
                <persName ref="#maffeis">Il fratello S. Maffei</persName> fece<lb/> osservare
@@ -1225,12 +1225,12 @@
             <ab>
                <pb n="40"/> Domenica 22 Febbraio a ore 3:30 p.m.<lb/> nella solita sala sociale si
                tenne la ordi-<lb/> naria seduta presieduta <persName ref="#maffeis">dal
-                  Presidente<lb/> Stefano Maffei</persName>. Dall’appello degli ufficia-<lb/> li
-               risultavano assenti <persName ref="#silvionic">Carlo Silvioni</persName>,<lb/>
-               <persName ref="#viganol">Lorenzo Viganò</persName> e furano giustificati<lb/> perche
-               ammalati <persName ref="#sodinij">Jacopo Sodini</persName>, <persName
-                  ref="#pasquinellis">S. Pa-<lb/> squinelli</persName> e <persName
-                  ref="#fredianellig">Fredianelli Giuseppe</persName>. Il processo<lb/> verbale
+                  Presidente<lb/> Stefano Maffei</persName>. <list type="absent"><note>Dall’appello degli ufficia-<lb/> li
+               risultavano assenti </note><item><persName ref="#silvionic">Carlo Silvioni</persName>,</item><lb/>
+               <item><persName ref="#viganol">Lorenzo Viganò</persName></item><note> e furano giustificati<lb/> perche
+               ammalati </note><item><persName ref="#sodinij">Jacopo Sodini</persName>,</item><item> <persName
+                  ref="#pasquinellis">S. Pa-<lb/> squinelli</persName></item> <item>e <persName
+                  ref="#fredianellig">Fredianelli Giuseppe</persName>.</item></list> Il processo<lb/> verbale
                venne approvato come letto.<lb/> Vennero presentate domande di am-<lb/> missioni dei
                seguenti asperanti: <persName ref="#vammuccie">Ernesto<lb/> Vammucci</persName>,
                   <persName ref="#serafinin">Serafini Nicolai</persName>, <persName ref="#vammuccia"
@@ -1278,10 +1278,10 @@
                on the 41st page. I added this for future use to reference specific page scans.-->
                <pb n="41"/> Domenica 28 Marzo 1920 alle ore<lb/> 4 p.m. alla solita sala sociale e
                sotto<lb/> la presidenza di <persName ref="#maffeis">Stefano Maffei</persName> si
-               tenne<lb/> la seduta ordinaria. gli ufficiali assenti era-<lb/> no <persName
-                  ref="#lunardinil">Lorenzo Lunardini</persName>, <persName ref="#silvionic">Carlo
-                  Silvioni</persName>, <persName ref="#paganuccis">Sam<lb/> Paganucci</persName> e
-                  <persName ref="#viganol">Lorenzo Viganò</persName>. Il Processo verba-<lb/> le
+               tenne<lb/> la seduta ordinaria. <list type="absent"><note>gli ufficiali assenti era-<lb/> no </note><item><persName
+                  ref="#lunardinil">Lorenzo Lunardini</persName>,</item> <item><persName ref="#silvionic">Carlo
+                  Silvioni</persName>,</item> <item><persName ref="#paganuccis">Sam<lb/> Paganucci</persName></item> <item>e
+                  <persName ref="#viganol">Lorenzo Viganò</persName>.</item></list> Il Processo verba-<lb/> le
                venne approvato come letto.<lb/> Vennero ammessi al ruolo sociale<lb/> come nuovi
                membri <persName ref="#marchettiem">Marchetti Emilio</persName><lb/> e <persName
                   ref="#martinellir">Renato Martinelli</persName> e presentate la<lb/> domanda di
@@ -1316,7 +1316,7 @@
                      ref="#legaT" role="supporter">ad unanimita</rs><lb/> propone dare un pic-nic e
                   tal uopo<lb/> viene fatto un comitato con piene potere<lb/> di fissare il posto se
                   fosse possibile<lb/> per il mese di Luglio.</seg><lb/>
-               <list type="committee" subtype="picnic">
+               <list rend="list" type="committee" subtype="picnic">
                   <note>Il Comitato fu cosi composto</note>
                   <lb/>
                   <item><persName ref="#maffeis">S. Maffei</persName></item>
@@ -1357,11 +1357,11 @@
             <ab>
                <pb n="43"/> Domenica 25 Aprile 1920 alle ore 4 pm<lb/> nella solita sala si ebbe la
                seduta rego-<lb/> lare ordinaria presiedute <persName ref="#maffeis">dal
-                  Presidente<lb/> Stefano Maffei</persName>. Gli ufficiale assenti fu-<lb/> rono
-                  <persName ref="#silvionic">Carlo Silvioni</persName>
-               <persName ref="#paganuccis">Sam Paganucci</persName><lb/>
-               <persName ref="#piaggesia">Aladino Piaggesi</persName> e <persName ref="#viganol"
-                  >Lorenzo Vigano'</persName>. Il<lb/> Processo verbale venna approvato come<lb/> letto.<lb/>
+                  Presidente<lb/> Stefano Maffei</persName>. <list><note>Gli ufficiale assenti fu-<lb/> rono</note>
+                  <item><persName ref="#silvionic">Carlo Silvioni</persName></item>
+               <item><persName ref="#paganuccis">Sam Paganucci</persName></item><lb/>
+               <item><persName ref="#piaggesia">Aladino Piaggesi</persName></item> <item>e <persName ref="#viganol"
+                  >Lorenzo Vigano'</persName>.</item></list> Il<lb/> Processo verbale venna approvato come<lb/> letto.<lb/>
                <seg type="proposal"><seg type="comp" subtype="charity"><persName ref="#fredianellig"
                         role="proposer">Fredianelli Giuseppe</persName> ass. da <persName
                         ref="#sodinij" role="supporter">Jacopo<lb/> Sodini</persName> propone di
@@ -1419,12 +1419,12 @@
                on the 44th page. I added this for future use to reference specific page scans.-->
                <pb n="44"/> Giovedi 20 Maggio 1920 a ore 9 p.m.<lb/> nel solito locale venne tenuta
                la<lb/> consueta seduta ordinaria presiedute<lb/>
-               <persName ref="#maffeis">dal Presidente Stefano Maffei</persName>. Dall'ap-<lb/>
-               pello nominale degli ufficiali risultarono<lb/> assenti i seguenti: <persName
-                  ref="#pellegrinic">Casimiro Pelle-<lb/> grini</persName>, <persName
-                  ref="#fredianellig">Fredianelli Giuseppe</persName> e <persName ref="#viganol"
-                  >Lorenzo<lb/> Vigano'</persName>; quest'ultimo veine dichiarato<lb/> scaduto dal
-               suo ufficio. Il processo<lb/> verbale venne approvato senza osservazio-<lb/> ni.<lb/>
+               <persName ref="#maffeis">dal Presidente Stefano Maffei</persName>. <list><note>Dall'ap-<lb/>
+               pello nominale degli ufficiali risultarono<lb/> assenti i seguenti: </note><item><persName
+                  ref="#pellegrinic">Casimiro Pelle-<lb/> grini</persName>,</item> <item><persName
+                  ref="#fredianellig">Fredianelli Giuseppe</persName></item> <item>e <persName ref="#viganol"
+                  >Lorenzo<lb/> Vigano'</persName>;</item> <note>quest'ultimo veine dichiarato<lb/> scaduto dal
+                  suo ufficio.</note></list> Il processo<lb/> verbale venne approvato senza osservazio-<lb/> ni.<lb/>
                Viene messo al registro <persName ref="#bevilacquas">il nuovo<lb/> fratello Samuele
                   Bevilacqua</persName> dietro<lb/> formale presentazione del certificato<lb/>
                medico. Dopo di certi affari ammini-<lb/> strativi si passa alla discussione<lb/> del
@@ -1484,9 +1484,9 @@
                on the 45th page. I added this for future use to reference specific page scans.-->
                <pb n="45"/> Seduta ordinaria 17 Giugno 1920.<lb/>
                <persName ref="#maffeis">Il Presidente S. Maffei</persName> alle 8.30 dichiara<lb/>
-               aperta la seduta. Dall’appello nominale<lb/> degli ufficiale risultarono assenti
-                  <persName ref="#silvionic">Carlo<lb/> Silvione</persName> e <persName
-                  ref="#paganuccis">Sam Paganucci</persName>. Il processo<lb/> verbale venne
+               aperta la seduta. <list><note>Dall’appello nominale<lb/> degli ufficiale risultarono assenti</note>
+                  <item><persName ref="#silvionic">Carlo<lb/> Silvione</persName></item> <item>e <persName
+                  ref="#paganuccis">Sam Paganucci</persName>.</item></list> Il processo<lb/> verbale venne
                approvato come letto. L’indice<lb/> le votazioni per il collettore al posto<lb/>
                dello scaduto <persName ref="#viganol">Lorenzo Viganò’</persName> e venne<lb/>
                nominato ad unanimità <persName ref="#buchignanil">Luigi Buchi-<lb/>
@@ -1530,17 +1530,17 @@
             <pb n="46"/>
             <ab> Il giorno 15 Luglio 1920 alle ore<lb/> 8.30 venne tenuta la consueta seduta
                or-<lb/> dinaria presieduta <persName ref="#maffeis">dal Presidente Stefano<lb/>
-                  Maffei</persName>. Dall’appello nominale degli uffi-<lb/> ciali risultarono
-               assenti <persName ref="#fredianellig">Fredianelli Gui-<lb/> seppe</persName>,
-                  <persName ref="#paganuccis">Sam Paganucci</persName> e <persName
-                  ref="#buchignanil">Luigi Buchigua-<lb/> ni</persName>. Il processo verbale venne
+                  Maffei</persName>. <list type="absent"><note>Dall’appello nominale degli uffi-<lb/> ciali risultarono
+               assenti </note><item><persName ref="#fredianellig">Fredianelli Gui-<lb/> seppe</persName>,</item>
+                  <item><persName ref="#paganuccis">Sam Paganucci</persName></item> <item>e <persName
+                  ref="#buchignanil">Luigi Buchigua-<lb/> ni</persName>.</item></list> Il processo verbale venne
                approvato<lb/> senza osservazioni.<lb/>
                <seg type="proposal">Proposta al <persName ref="#silvionic" role="proposer">Carlo
                      Silvioni</persName> ed<lb/> ass. da <persName ref="#sodinij" role="supporter"
                      >Sodini Jacopo</persName> di nominare<lb/> un comitato per fare lo stendardo
                   so-<lb/> ciale e che questo sia autorizzato di<lb/> non spendere piu di
                   $100.00.</seg>
-               <list type="committee" subtype="stendardo">
+               <list rend="list" type="committee" subtype="stendardo">
                   <note>Il co-<lb/> mitato e’ cosi composto:</note>
                   <lb/>
                   <item><persName ref="#pellegrinic">Casimiro Pellegrini</persName></item>
@@ -1633,12 +1633,12 @@
             <ab>
                <pb n="49"/> Giovedi – 19 Agosto 1920 venne tenuta<lb/> la ­­­consueta seduta
                ordinaria alla so-<lb/> lita ora e ­­­­locale e presieduta <persName ref="#maffeis"
-                  >dal Presi-<lb/> dente Stefano Maffei</persName>. Dall’appello no-<lb/> minale
-               degli ufficiali risultarono as-<lb/> senti <persName ref="#silvionic">Carlo
-                  Silviani</persName>, <persName ref="#fredianellig">Fredianelli Giusep-<lb/>
-                  pe</persName>, <persName ref="#paganuccis">Sam Paganucci</persName>, <persName
-                  ref="#piaggesia">Aladino Piaggesi</persName><lb/> e <persName ref="#buchignanil"
-                  >Luigi Buchiguani</persName>. Il processo verba-<lb/> le venne approvato dopo di
+                  >dal Presi-<lb/> dente Stefano Maffei</persName>. <list><note>Dall’appello no-<lb/> minale
+               degli ufficiali risultarono as-<lb/> senti </note><item><persName ref="#silvionic">Carlo
+                  Silviani</persName>,</item> <item><persName ref="#fredianellig">Fredianelli Giusep-<lb/>
+                  pe</persName>,</item> <item><persName ref="#paganuccis">Sam Paganucci</persName>,</item> <item><persName
+                  ref="#piaggesia">Aladino Piaggesi</persName></item><lb/> <item>e <persName ref="#buchignanil"
+                  >Luigi Buchiguani</persName>.</item></list> Il processo verba-<lb/> le venne approvato dopo di
                aver fatto<lb/> aggiungere la seguente osservazione:<lb/> “Invece di dare facoltà al
                Comitato<lb/> per lo stendardo di spendere solo $100.00<lb/> la proposta doveve
                esserci che il<lb/> Comitato ha piena facoltà di spendere<lb/> quello che realmente
@@ -1697,8 +1697,8 @@
             <ab>
                <pb n="50"/> Giovedi 16 Settembre 1920 alle ore 9:30 li<lb/> ebbe la nostra seduta
                ordinaria presieduta<lb/> da <persName ref="#maffeis">presidente Stefano
-                  Maffei</persName>.<lb/> Mediante la mancanza <rs ref="#fredianim">del segre-<lb/>
-                  tario di Corrispondenza</rs>
+                  Maffei</persName>.<lb/> <list><note>Mediante la mancanza </note><item><rs ref="#fredianim">del segre-<lb/>
+                  tario di Corrispondenza</rs></item></list>
                <rs ref="#maffeis">il presidente</rs><lb/> chiede il parere di <unclear
                   reason="illegible"/> dire alla apertura<lb/> della seduta il chi fu deciso de
                te-<lb/> nerla ugualmente.<lb/>
@@ -1826,10 +1826,10 @@
             <ab>
                <pb n="54"/> Il 2 Novembre 1920 alle ore 8 p.m. ed<lb/> al solito locale al No 607
                Webster Ave. Si<lb/> tenne la consueta seduta ordinaria presieduto<lb/>
-               <persName ref="#maffeis">dal Presidente Stefano Maffei</persName>. All’appello<lb/>
-               nominale degli ufficiali risposero quasi tutti<lb/> presenti eccezione di <persName
-                  ref="#paganuccis">Sam Paganucci</persName> e <persName ref="#buchignanil"
-                  >Luigi<lb/> Buchignani</persName> il quale ultimo trovasi ammalato.<lb/> Il
+               <persName ref="#maffeis">dal Presidente Stefano Maffei</persName>. <list type="absent"><note>All’appello<lb/>
+               nominale degli ufficiali risposero quasi tutti<lb/> presenti eccezione di </note><item><persName
+                  ref="#paganuccis">Sam Paganucci</persName> </item><item>e <persName ref="#buchignanil"
+                  >Luigi<lb/> Buchignani</persName></item><note> il quale ultimo trovasi ammalato.</note></list><lb/> Il
                processo verbale venne approvato come<lb/> letto.<lb/>
                <seg type="proposal">Dopo di avere splitato affari am-<lb/> ministrati il
                      fratello<persName ref="#fredianim" role="proposer"> M. Frediani</persName>
@@ -1852,12 +1852,12 @@
                   ref="#zambellinig">Guglielimo Zambellini</persName><lb/>
                <persName ref="#marchettie">E Marchetti</persName>.<lb/>
                <pb n="55"/>
-               <list>
+               <list rend="list">
                   <note>Terminato tutto il lavoro sociale <rs ref="#maffeis">il<lb/> Presidente</rs>
                      dichiare aperte da nomina dei<lb/> candidati per le nuove gestioni 1924 i<lb/>
                      viene cosi compilate:</note>
                   <lb/>
-                  <item><list>
+                  <item><list rend="list">
                         <note>A Presidente</note>
                         <lb/>
                         <item><persName ref="#zinim">Modesto Zini</persName></item>
@@ -1867,7 +1867,7 @@
                         <item><persName ref="#tambellinig">Giuseppe Tambellini S.</persName></item>
                      </list></item>
                   <lb/>
-                  <item><list>
+                  <item><list rend="list">
                         <note>A V. Presidente:</note>
                         <lb/>
                         <item><persName ref="#datia">Dati Adelino</persName></item>
@@ -1878,21 +1878,21 @@
                      </list></item>
                   <lb/>
                   <item>
-                     <list>
+                     <list rend="list">
                         <note>A Secretario</note>
                         <lb/>
                         <item><persName ref="#marchettiem">Emilio Marchetti</persName>, per
                            acclamazione</item>
                      </list></item>
                   <lb/>
-                  <item><list>
+                  <item><list rend="list">
                         <note>A Seg. di Finanza</note>
                         <lb/>
                         <item><persName ref="#piaggesia">Aladino Piaggisi</persName>, per
                            acclamazione</item>
                      </list></item>
                   <lb/>
-                  <item><list>
+                  <item><list rend="list">
                         <note>A Curatori:</note>
                         <lb/>
                         <item><persName ref="#maffeis">Stefano Maffei</persName></item>
@@ -1906,7 +1906,7 @@
                         <item><persName ref="#pasquinelliam">Americo Pasquinelli</persName></item>
                      </list></item>
                   <lb/>
-                  <item><list>
+                  <item><list rend="list">
                         <note>A Uff. Sanitari:</note>
                         <lb/>
                         <item><persName ref="#battistiniv">Battistini Vincenzo</persName></item>
@@ -1916,7 +1916,7 @@
                         <item><persName ref="#merciadrie">Eugenio Merciadri</persName></item>
                      </list></item>
                   <lb/>
-                  <item><list>
+                  <item><list rend="list">
                         <note>A guardo Sale</note>
                         <lb/>
                         <item><persName ref="#merciadrie">E. Merciadri</persName>, per
@@ -1951,10 +1951,10 @@
             <ab>
                <pb n="56"/> Seduta regolare 16 Decembre 1920 alle<lb/> ore 8.40 p.m. nelle sala
                sociale. Presiedeva<lb/>
-               <persName ref="#maffeis">il Presidente Stefano Maffei</persName>. Fra gli
-               ufficiali<lb/> assenti si notarono <persName ref="#paganuccis">Sam
-                  Paganucci</persName> e <persName ref="#merciadrie">Euge-<lb/> nio
-                  Merciadri</persName>.<lb/> Fu presentata la domanda del nuovo<lb/> aspirante
+               <persName ref="#maffeis">il Presidente Stefano Maffei</persName>. <list type="absent"><note>Fra gli
+               ufficiali<lb/> assenti si notavano </note><item><persName ref="#paganuccis">Sam
+                  Paganucci</persName> </item><item>e <persName ref="#merciadrie">Euge-<lb/> nio
+                  Merciadri</persName>.</item></list><lb/> Fu presentata la domanda del nuovo<lb/> aspirante
                   <persName ref="#robertog">Gino Roberto</persName> e venne accettata.<lb/>
                <seg type="comp" subtype="sick">Vennero concessi sussidi per ma-<lb/> lattia <num
                      type="monetary" value="30">$30</num>
@@ -2088,7 +2088,7 @@
                amministrazione<lb/> il quale chiamo <persName ref="#marsilis">il nuovo
                   presidente<lb/> Sam Marsili</persName>, e tutta l’amministrazione<lb/> nuova e can
                parole augurava un buon<lb/> successo durante la loro occupazione<lb/> anno 1921<lb/>
-               <list type="officers">
+               <list rend="list" type="officers">
                   <note>Amministrazione per l’anno 1921</note>
                   <lb/>
                   <item>Presidente <persName ref="#marsilis">Sam Marsili</persName></item>
@@ -2102,7 +2102,7 @@
                   <item>Tesoriere <persName ref="#pasquinellis">Santino
                      Pasquinelli</persName></item>
                   <lb/>
-                  <item><list>
+                  <item><list rend="list">
                         <note>Curatori</note>
                         <item><persName ref="#pasquinelliam">Americo Pasquinelli</persName></item>
                         <lb/>
@@ -2111,7 +2111,7 @@
                         <item><persName ref="#fredianellig">Giuseppe Fredianelli</persName></item>
                      </list></item>
                   <lb/>
-                  <item><list>
+                  <item><list rend="list">
                         <note>Ufficiali Sanitari</note>
                         <item><persName ref="#merciadrie">Eugenio Merciadri</persName></item>
                         <lb/>
@@ -2183,8 +2183,8 @@
          <body>
             <ab>
                <pb n="61"/> Alle ore 8.30 P.M. <persName ref="#marsilis">Il Presidente Sam
-                  Marsili</persName><lb/> dichiara aperta la seduta. Fra gli ufficiali<lb/> assenti
-               fu <persName ref="#lucchesiam">Americo Lucchesi</persName>, e dopo lettura<lb/> del
+                  Marsili</persName><lb/> dichiara aperta la seduta. <list><note>Fra gli ufficiali<lb/> assenti
+                     fu </note><item><persName ref="#lucchesiam">Americo Lucchesi</persName></item></list>, e dopo lettura<lb/> del
                processo verbale lo messe all’approvazione<lb/> e venne approvato come schritto.<lb/>
                Furono ammessi come nuovi membri di<lb/> fare parte a questa Lega;<lb/>
                <persName ref="#francesconio">Orlando Francesconi</persName> di anni 23<lb/>
@@ -2193,7 +2193,7 @@
                <persName ref="#marconic">Carlo Marconi</persName> di circa anni 38<lb/> E tutti
                furono passati all’alzata di mano.<lb/> (Segue)<lb/>
                <pb n="62"/>
-               <list>
+               <list rend="list">
                   <note>Si delibera’ di pagare ai fratelli come diritto.</note>
                   <lb/>
                   <item><seg type="comp" subtype="sick"><persName ref="#diodativ" role="target"
@@ -2242,7 +2242,7 @@
                   fare<lb/> come piace a lui, per quella sera, e di<lb/> Invitare <persName
                      ref="#pascuzzia">Angelo Pascuzzi</persName>, per quella sera,<lb/> e tutto
                   questo venne passato dalla semblea.</seg><lb/>
-               <list type="committee" subtype="intrattenimento">
+               <list rend="list" type="committee" subtype="intrattenimento">
                   <note>Il comitato e cosi composto</note>
                   <lb/>
                   <item><persName ref="#pasquinelliam">Americo Pasquinelli</persName></item>
@@ -2290,10 +2290,10 @@
             <ab>
                <pb n="64"/> Giovedi 17 Marzo alle ore 9:30 P.M.si ebbe la nostra seduta<lb/>
                Ordinaria preseduta <persName ref="#marsilis">dal nostro presidente<lb/> Sam
-                  Marsili</persName>. Allapello nominale degli<lb/> officiali risposero’ quasi tutti
-               presenti<lb/> eccezione che <persName ref="#fredianellig">Giuseppe
-                  Fredianelli</persName> e <persName ref="#silvionic">Carlo<lb/>
-               Silvioni</persName>. Il processo verbale venne approvato<lb/> come letto.<lb/> Furono
+                  Marsili</persName>. <list type="absent"><note>Allapello nominale degli<lb/> officiali risposero’ quasi tutti
+               presenti<lb/> eccezione che </note><item><persName ref="#fredianellig">Giuseppe
+                  Fredianelli</persName> </item><item>e <persName ref="#silvionic">Carlo<lb/>
+               Silvioni</persName>.</item></list> Il processo verbale venne approvato<lb/> come letto.<lb/> Furono
                ammessi come nuovi membri di<lb/> fare parte a questa Lega.<lb/>
                <persName ref="#tambellinia">Alberto Tambellini</persName>. <persName
                   ref="#giomettio">Ottavio Giometti</persName>.<lb/>
@@ -2356,17 +2356,17 @@
             <ab>
                <pb n="65"/> Giovedi 21 Aprile 1921 alle ore 9. P.M. venne<lb/> tenuta la consueta
                seduta ordinaria<lb/> preseduta <persName ref="#marsilis">dal nostro presidente
-                  Sam<lb/> Marsili</persName> dall’appello nominale degli<lb/> officiali
-               risulatarono assenti i fratelli<lb/>
-               <persName ref="#pasquinelliam">Americo Pasquinelli</persName>, <persName
-                  ref="#fredianellig">Giuseppe Fredianelli</persName><lb/> e <persName
-                  ref="#silvionic">Carlo Silvioni</persName>. Il processo verbale<lb/> venne
+                  Sam<lb/> Marsili</persName> <list type="absent"><note>dall’appello nominale degli<lb/> officiali
+               risulatarono assenti i fratelli</note><lb/>
+               <item><persName ref="#pasquinelliam">Americo Pasquinelli</persName>,</item> <item><persName
+                  ref="#fredianellig">Giuseppe Fredianelli</persName></item><lb/> <item>e <persName
+                  ref="#silvionic">Carlo Silvioni</persName>.</item></list> Il processo verbale<lb/> venne
                approvato senza osservazioni.<lb/> Fu messo come nuovo membro di fare<lb/> parte a
                questa Lega <persName ref="#piccininig">Guglielmo Piccinini</persName> di<lb/> anni
                44. Fu rigettato il diario del<lb/> fratello <persName ref="#cappellinic">Castruccio
                   Cappellini</persName> perche’ egli<lb/> all’epoca quando cadette ammalato<lb/>
                trovasi arretrato coi pagamenti mensili.<lb/>
-               <list type="committee" subtype="picnic">
+               <list rend="list" type="committee" subtype="picnic">
                   <note>Si passo alla discuzione del prossimo<lb/> Pic-Nic e il comitato e cosi
                      composto</note>
                   <lb/>
@@ -2381,7 +2381,7 @@
                   <item><persName ref="#viganol">Lorenzo Vigano’</persName> Capo Comitato di<lb/>
                      preparazione e i suoi assistenti</item>
                   <lb/>
-                  <item><list>
+                  <item><list rend="list">
                         <item><persName ref="#puccettia">Adriano Puccetti</persName></item>
                         <item><persName ref="#puccettil">Lorenzo Puccetti</persName></item>
                         <item><persName ref="#robertic">Gino<lb/> Roberti</persName></item>
@@ -2421,11 +2421,11 @@
             <ab>
                <pb n="66"/> Giovedi 19 Maggio alle ore 9.15. P.M.<lb/> venne tenuta la consueta
                seduta<lb/> ordinaria preseduta <persName ref="#marsilis">dal nostro<lb/> presidente
-                  Sam Marsili</persName> dall’appello<lb/> nominale degli officiali risultarono<lb/>
-               assenti i fratelli <persName ref="#pasquinellis">Santino Pasquinelli</persName>,<lb/>
-               <persName ref="#pasquinelliam">Americo Pasquinelli</persName>, <persName
-                  ref="#lucchesiam">Americo Lucchesi</persName>,<lb/> e <persName ref="#silvionic"
-                  >Carlo Silvioni</persName>. Il processo verbale<lb/> venne approvato come
+                  Sam Marsili</persName> <list type="absent"><note>dall’appello<lb/> nominale degli officiali risultarono<lb/>
+               assenti i fratelli </note><item><persName ref="#pasquinellis">Santino Pasquinelli</persName>,</item><lb/>
+               <item><persName ref="#pasquinelliam">Americo Pasquinelli</persName>,</item> <item><persName
+                  ref="#lucchesiam">Americo Lucchesi</persName>,</item><lb/> <item>e <persName ref="#silvionic"
+                  >Carlo Silvioni</persName>.</item></list> Il processo verbale<lb/> venne approvato come
                letto.<lb/> Fu presentata la domanda del nuovo<lb/> membro di fare parte a questa Lega<lb/>
                <persName ref="#olivieria">Amus Olivier</persName>i e venne passato.<lb/> Fu concesso
                sussidio per malatia ai<lb/> Fratelli. <seg type="comp" subtype="sick"><persName
@@ -2480,9 +2480,9 @@
             <ab>
                <pb n="68"/> Giovedi 16 Giugno alle ore 8.45 P.M.<lb/> Venne tenuta la nostra seduta
                Regolare<lb/> Ordinaria preseduta <persName ref="#marsilis">dal nostro
-                  Presidente<lb/> Sam Marsili</persName>. All’appello nominale<lb/> degli officiali
-               risultarono assenti i<lb/> fratelli <persName ref="#battistiniv">Vincenzo
-                  Battistini</persName>, <persName ref="#silvionic">Carlo Silvioni</persName>.<lb/>
+                  Presidente<lb/> Sam Marsili</persName>. <list type="absent"><note>All’appello nominale<lb/> degli officiali
+               risultarono assenti i<lb/> fratelli </note><item><persName ref="#battistiniv">Vincenzo
+                  Battistini</persName>,</item> <item><persName ref="#silvionic">Carlo Silvioni</persName>.</item></list><lb/>
                Quindi <persName ref="#silvionic">Carlo Silvioni</persName> risultava<lb/> mancante
                per quattro sedute consegu-<lb/> tive, e stando al nostro regolamento<lb/> quale dice
                che chi manca piu’ di<lb/> tre volte entro epoca di 6 mesi e non giustifi-<lb/> cata
@@ -2526,7 +2526,7 @@
                <del rend="strike">Muzio Frediani</del><lb/>
                <persName ref="#simonettim">Michele Simonetti</persName> nominati di compera-<lb/> re
                il premio.<lb/>
-               <list>
+               <list rend="list">
                   <note>Poi fu aperta la nomina del<lb/> Comitato Pic-Nic de 38 Agosto P.V.<lb/> Il
                      comitato e cosi Composto.</note>
                   <lb/>
@@ -2546,7 +2546,7 @@
                   <item>Floor Maneger<lb/>
                      <persName ref="#viganor">Rannialdo Vigano’</persName></item>
                   <lb/>
-                  <item><list>
+                  <item><list rend="list">
                         <note>Assistenti</note>
                         <item><persName ref="#fredianellig">Giuseppe Fredianelli</persName></item>
                         <lb/>
@@ -2602,9 +2602,9 @@
             <ab>
                <pb n="71"/> Giovedi 21 Luglio alle ore 9.30 P.M.<lb/> fu tenute la nostra seduta
                regolare<lb/> ordinaria, preseduta <persName ref="#marsilis">dal nostro<lb/>
-                  presidente Sam Marsili</persName>,<lb/> all’appello nominale degli officiali<lb/>
-               risultava assente il segretario di<lb/> finanza <persName ref="#piaggesia">Aladino
-                  Piaggesi</persName>, il processo<lb/> verbale venne approvato conme letto.<lb/>
+                  presidente Sam Marsili</persName>,<lb/> <list><note>all’appello nominale degli officiali<lb/>
+               risultava assente</note> <item>il segretario di<lb/> finanza <persName ref="#piaggesia">Aladino
+                  Piaggesi</persName></item></list>, il processo<lb/> verbale venne approvato conme letto.<lb/>
                Furono presentate due nuove doman-<lb/> de di ammissione di fare parte a questa<lb/>
                Lega. <persName ref="#micheluccis">Silvio Michelucci</persName> di anni 45<lb/>
                <persName ref="#marsilig">Giovanni Marsili</persName> di anni<lb/> non vi fu altre
@@ -2637,11 +2637,11 @@
             <ab>
                <pb n="71"/> Giovedi 18 agosto 1921 alle ore 9.30 P.M.<lb/> fu tenuta la nostra
                seduta ordinaria<lb/> preseduta <persName ref="#marsilis">dal nostro presidente
-                  Sam<lb/> Marsili</persName>. All’appello nominale degli<lb/> ufficiali risultavano
-               assenti i seguenti<lb/> Curatori <persName ref="#lucchesiam">Americo
-                  Lucchesi</persName>. <persName ref="#fredianellig">Giuseppe<lb/>
-                  Fredianelli</persName>
-               <persName ref="#sodinij">il vice presidente Jacopo<lb/> Sodini</persName>, il quale
+                  Sam<lb/> Marsili</persName>. <list type="absent"><note>All’appello nominale degli<lb/> ufficiali risultavano
+               assenti i seguenti<lb/> Curatori </note><item><persName ref="#lucchesiam">Americo
+                  Lucchesi</persName>.</item> <item><persName ref="#fredianellig">Giuseppe<lb/>
+                  Fredianelli</persName></item>
+                     <item><persName ref="#sodinij">il vice presidente Jacopo<lb/> Sodini</persName></item></list>, il quale
                ultimo trovasi un<lb/> po ammalato. Il processo verbale<lb/> venne approvato come letto.<lb/>
                <seg type="proposal">Proposto dal fratello <persName ref="#zinif" role="proposer"
                      >Fioravante Zini</persName><lb/> assecondato dal fratello <persName
@@ -2683,8 +2683,8 @@
             <ab>
                <pb n="72"/> Giovedi 15 Settembre 1921 alle ore 8.45 P.M.<lb/> fu tenuta la consueta
                seduta regolare ordinaria<lb/> preseduta <persName ref="#marsilis">dal nostro
-                  presidente<lb/> Sam Marsili</persName>. Fra gli ufficiali assenti<lb/> si notarono
-                  <persName ref="#sodinij">il vice Presidente Jacopo Sodini</persName><lb/> il quale
+                  presidente<lb/> Sam Marsili</persName>. <list type="absent"><note>Fra gli ufficiali assenti<lb/> si notarono</note>
+                  <item><persName ref="#sodinij">il vice Presidente Jacopo Sodini</persName></item></list><lb/> il quale
                trovasi ammalato il processo<lb/> verbale venne approvato come letto.<lb/> Per la
                prima volta fu presentato in<lb/> sala <persName ref="#pasquinellig">Giovanni
                   Pasquinelli</persName> come membro<lb/> onorario e gli fu fatto un grande<lb/>
@@ -2733,10 +2733,10 @@
             <ab>
                <pb n="73"/> Giovedi 20 Ottobre 1921 alle ore 9.00 P.M.<lb/> tenutasi la nostra
                seduta Regolare Ordina-<lb/> ria preseduta <persName ref="#marsilis">dal nostro
-                  Presidente Sam<lb/> Marsili</persName>. All’appello nominale degli<lb/> officiali
-               risultavano assenti i seguenti<lb/> coratori <persName ref="#lucchesiam">Americo
-                  Lucchesi</persName>, <persName ref="#fredianellig">Giuseppe Fredia-<lb/>
-                  nelli</persName>. Il processo verbale venne approva-<lb/> to come letto.<lb/>
+                  Presidente Sam<lb/> Marsili</persName>. <list type="absent"><note>All’appello nominale degli<lb/> officiali
+               risultavano assenti i seguenti<lb/> coratori </note><item><persName ref="#lucchesiam">Americo
+                  Lucchesi</persName>,</item> <item><persName ref="#fredianellig">Giuseppe Fredia-<lb/>
+                  nelli</persName>.</item></list> Il processo verbale venne approva-<lb/> to come letto.<lb/>
                <seg type="proposal">Proposto <persName ref="#maffeis" role="proposer">dal fratello
                      Stefano Maffei</persName><lb/> ass <persName ref="#pasquinellis"
                      role="supporter">dal fratello Santino Pasquinelli</persName><lb/> di dare il
@@ -2757,7 +2757,7 @@
                essere<lb/> Meglio per dare questo ballo, e il medesi-<lb/> mo tempo di mettere un
                deposito per<lb/> la <del rend="strike">meo</del> sala e di fissarla per il<lb/>
                giovedi grasso se fosse possible e<lb/> Di dare pieno potere al comitato.<lb/>
-               <list type="committee" subtype="ballo">
+               <list rend="list" type="committee" subtype="ballo">
                   <note>Il Comitato e cosi composto.</note>
                   <lb/>
                   <item><persName ref="#sodinij">Jacopo Sodini</persName>. </item>
