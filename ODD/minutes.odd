@@ -93,7 +93,7 @@
                 <valItem ident="#darrigop"/>
                 <valItem ident="#datia"/>
                 <valItem ident="#davinie"/>
-                <valItem ident="#deldebbioe"/>
+                <valItem ident="#deldebbiog"/>
                 <valItem ident="#delmagrol"/>
                 <valItem ident="#denricoc"/>
                 <valItem ident="#denricop"/>
@@ -120,6 +120,7 @@
                 <valItem ident="#giangranedif"/>
                 <valItem ident="#giannig"/>
                 <valItem ident="#giomettic"/>
+                <valItem ident="#giomettio"/>
                 <valItem ident="#giuntoligi"/>
                 <valItem ident="#giuntoligu"/>
                 <!-- Last name I -->
@@ -154,11 +155,13 @@
                 <valItem ident="#marchettiem"/>
                 <valItem ident="#marconic"/>
                 <valItem ident="#marconif"/>
+                <valItem ident="#marianir"/>
                 <valItem ident="#marsilia"/>
+                <valItem ident="#marsilig"/>
                 <valItem ident="#marsilis"/>
                 <valItem ident="#martinellia"/>
                 <valItem ident="#martinellir"/>
-                <valItem ident="#meconim"/>
+                <valItem ident="#meconin"/>
                 <valItem ident="#merciadrie"/>
                 <valItem ident="#micheluccis"/>
                 <valItem ident="#millarj"/>
@@ -202,6 +205,7 @@
                 <valItem ident="#ragghiantir"/>
                 <valItem ident="#ribettig"/>
                 <valItem ident="#robertic"/>
+                <valItem ident="#robertig"/>
                 <valItem ident="#robertog"/>
                 <valItem ident="#rossir"/>
                 <!-- Last name S -->
@@ -213,7 +217,7 @@
                 <valItem ident="#serafinig"/>
                 <valItem ident="#serafinin"/>
                 <valItem ident="#serafinio"/> 
-                <valItem ident="#silvionec"/>   
+                <valItem ident="#silvionic"/>   
                 <valItem ident="#simie"/>
                 <valItem ident="#simonettim"/>
                 <valItem ident="#sodinij"/>
@@ -407,6 +411,7 @@
                 <valItem ident="#presito"/>
                 <valItem ident="#clubM"/>
                 <valItem ident="#terremoto"/>
+                <valItem ident="#forest"/>
               </valList>
             </attDef>
           </attList>
