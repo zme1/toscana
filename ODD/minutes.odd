@@ -254,6 +254,8 @@
                 <valItem ident="target"/>
                 <valItem ident="proposer"/>
                 <valItem ident="supporter"/>
+                <valItem ident="rejected"/>
+                <valItem ident="scaduto"/>
               </valList>
             </attDef>
           </attList>

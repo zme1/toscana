@@ -327,7 +327,7 @@
                Curatori </note><item><persName ref="#silvionic">Carlo Silvione</persName></item><lb/>
                <item><persName ref="#bertonie">Eugenio Bertoni</persName></item>
                <item><persName ref="#marsilia">Abramo Marsili</persName></item></list> quindi<lb/>
-               <persName ref="#silvionic">Carlo Silvione</persName> e <persName ref="#bertonie"
+               <persName ref="#silvionic" role="scaduto">Carlo Silvione</persName> e <persName ref="#bertonie"
                   >Eugenio Bertoni</persName>Risultavano<lb/> Mancanti alle Sedute per tre Volte
                Consegu-<lb/> tive E Stando al Nostro Regolamento il<lb/> quale dice che chi Manca
                per tre volte<lb/> Consegutive alle Sedute e non gustifica<lb/> ta lassenza viene
@@ -335,10 +335,10 @@
                e <persName ref="#bertonie">Eugenio<lb/> Bertoni</persName> furono Cancellati della
                Loro Carica<lb/>
                <rs ref="#mf">Il Presidente</rs> Ordino la lettura Processo<lb/> Verbale e venne
-               aprovato Come e Scritto<lb/> Vennero Presentate due Nuove Aplicazione<lb/> i quali
-               Sono <persName ref="#maffeir">Romeo Maffei</persName> e <persName ref="#danesiv"
-                  >Vergilio<lb/> Danesi</persName> tutti e due <rs ref="#mf">il Presidente</rs><lb/>
-               gli Messe al Ballottaggio Risultarono<lb/> tutti Favorevoli nessono Contrari<lb/> vi
+               aprovato Come e Scritto<lb/> <list type="applicants"><note>Vennero Presentate due Nuove Aplicazione<lb/> i quali
+               Sono </note><item><persName ref="#maffeir">Romeo Maffei</persName> </item><item>e <persName ref="#danesiv"
+                  >Vergilio<lb/> Danesi</persName></item> <note>tutti e due <rs ref="#mf">il Presidente</rs><lb/>
+               gli Messe al Ballottaggio Risultarono<lb/> tutti Favorevoli nessono Contrari</note></list><lb/> vi
                fu’ una discursione al riguardo<lb/> al Fondo Unico Mortuario <seg type="proposal"
                   >dopo che<lb/> Fu Parlato da diversi Fratelli <persName ref="#maffeis"
                      role="proposer">il<lb/> Fratello Stefano Maffei</persName> fece la <lb/>
@@ -417,13 +417,13 @@
                Risultò Mancante</note><lb/>
                <item><persName ref="#maffeis">il Vice Presidente Stefano Maffei</persName></item></list><lb/>quindi vi
                fu Lettere Precesso Verbale e fu<lb/>approvato Come è Scritto da tutta la
-               Assem<lb/>blea Generale<lb/>vi furono Cinque (5) Nuove Aplicazione<lb/>le quali Sono
-               i seguenti Nomi-<lb/>
-               <persName ref="#lunardinim">Matteo Lunardini</persName>-<persName ref="#buchignanil"
-                  >Luigi Buchignani</persName>-<lb/>
-               <persName ref="#paternim">Michele Paterni</persName>-<persName ref="#diriccoe">Enrico
-                   DiRicco</persName>-<persName ref="#lucchesial">Alberto<lb/> 
-               Lucchese</persName>Tutti Toscani e <seg type="proposal">il fratello<lb/>
+               Assem<lb/>blea Generale<lb/><list type="applicants"><note>vi furono Cinque (5) Nuove Aplicazione<lb/>le quali Sono
+               i seguenti Nomi-</note><lb/>
+                  <item><persName ref="#lunardinim">Matteo Lunardini</persName>-</item><item><persName ref="#buchignanil"
+                  >Luigi Buchignani</persName>-</item><lb/>
+               <item><persName ref="#paternim">Michele Paterni</persName>-</item><item><persName ref="#diriccoe">Enrico
+                   DiRicco</persName>-</item><item><persName ref="#lucchesial">Alberto<lb/> 
+               Lucchese</persName></item></list>Tutti Toscani e <seg type="proposal">il fratello<lb/>
                   <persName ref="#silvionic" role="proposer">Carlo Silvione</persName>fece la
                   Proposta che le<lb/>(5) Cinque Nuove Aplicazione fossero<lb/>messe all’aprovazione
                   all’arsata di mano<lb/>la Proposta fu assecondata <lb/>
@@ -520,11 +520,11 @@
                   L’apello Nominato il Curatore<lb/>
                   <persName ref="#paganuccis" role="target">Sam Paganucci</persName></seg><lb/>quindi
                Si Passò Alla Lettura Precessa<lb/>Verbale il quale Fui aprovato Come e<lb/>
-               Scritto.<lb/>Vi Furono Presentate 3 -- Aplicazini<lb/>i quali Sono <persName
-                  ref="#battistiniv">Vincenzo Battistini</persName>
-               <persName ref="#sodinij">Jeapo<lb/> Sodini</persName>
-               <persName ref="#zinim">Modesto Zini</persName><lb/>tutti furore aprovati di far
-               Parte<lb/>Alla Nostra Famiglia Lega Toscana<lb/>Pagamenti Sussidi<lb/><seg
+               Scritto.<lb/><list type="applicants"><note>Vi Furono Presentate 3 -- Aplicazini<lb/>i quali Sono </note><item><persName
+                  ref="#battistiniv">Vincenzo Battistini</persName></item>
+               <item><persName ref="#sodinij">Jeapo<lb/> Sodini</persName></item>
+               <item><persName ref="#zinim">Modesto Zini</persName></item><lb/><note>tutti furore aprovati di far
+               Parte<lb/>Alla Nostra Famiglia Lega Toscana</note></list><lb/>Pagamenti Sussidi<lb/><seg
                   type="comp" subtype="sick"><persName ref="#giangranedif" role="target">F.
                      Giangranedi</persName> Nove giorni di Malatea <num type="monetary" value="9"
                      >$9.00</num></seg><lb/><seg type="comp" subtype="sick"><persName
@@ -713,7 +713,7 @@
                   <item><persName ref="#paternim">Mike Paterni</persName></item>
                   <lb/>
                </list>
-               <!-- Are these roleNames something that I can find useful down the road? Or are they unnecessary code??? -->Fu
+               Fu
                dato Pieno Potere all’aministrazione<lb/>di agire e di fare tutto il<lb/>Necessario
                per la festa<lb/>
                <pb n="25"/><closer>Non Avendo Altro da Fare<lb/><persName ref="#fredianim">Il
@@ -746,14 +746,14 @@
                   Frediani</persName>dichiarava la Seduta Aperta<lb/><list type="absent"><note>quindi Ordinò l’appello
                Nominale risulta<lb/>sono Mancanti I Seguenti</note> <item>Uffli Sanitari<lb/>
                <persName ref="#giomettic">Carlo Giometti</persName></item></list><lb/>Si Passo’ all’alettura
-               Processo Verbale e<lb/>il quale fù aprovato Come e Scritto<lb/>Vi furono Sei (6) Nuvi
-               Aplicazione<lb/>i quali Sono i Seguenti<persName ref="#mancinia"
-                  >Antonio Mancini</persName><lb/>
-               <persName ref="#pardinia">Alfredo Pardini</persName><persName ref="#simie">Edualda
-                  Simi</persName><persName ref="#rossir">Roberti<lb/> Rossi</persName><persName
-                  ref="#tambellinil">Leo Tambellin</persName><persName ref="#pacinio">Olindo
-                  Pacini</persName><lb/>tutti furono acettati dalla’Assemblea<lb/>Generale Purchè
-               Presentino un Certificato<lb/>Medico di Sana Cotituzione<lb/>
+               Processo Verbale e<lb/>il quale fù aprovato Come e Scritto<lb/><list><note>Vi furono Sei (6) Nuvi
+               Aplicazione<lb/>i quali Sono i Seguenti</note><item><persName ref="#mancinia"
+                  >Antonio Mancini</persName></item><lb/>
+               <item><persName ref="#pardinia">Alfredo Pardini</persName></item><item><persName ref="#simie">Edualda
+                  Simi</persName></item><item><persName ref="#rossir">Roberti<lb/> Rossi</persName></item><item><persName
+                  ref="#tambellinil">Leo Tambellin</persName></item><item><persName ref="#pacinio">Olindo
+                  Pacini</persName></item><lb/><note>tutti furono acettati dalla’Assemblea<lb/>Generale Purchè
+               Presentino un Certificato<lb/>Medico di Sana Cotituzione</note></list><lb/>
                <persName ref="#fredianim"> Il Prte Muzio Frediani</persName>parlo’ in Riguardo
                alla<lb/> Nistia come l’assemblea avesse intenzio<lb/>ne di fare.<seg type="proposal"
                      ><persName ref="#maffeis" role="proposer">Il fratello Stefano
@@ -896,16 +896,16 @@
                Risultavano Mancanti<lb/> i Seguenti Uffli </note><item><persName ref="#pasquinelliam">Americo
                   Pasquinelli</persName></item><lb/>
                <item><persName ref="#giomettic">Carlo Giometti</persName></item></list>. quindi si passo alle<lb/>
-               lettura Processo Verbale il quale fu aprovato<lb/> Come era Scritto<lb/> Si passo’
-               alle Proposte dei Nuovi<lb/> Membri le quali furono Sei<lb/>
-               <persName ref="#lombardia">Aladino Lombardi</persName>
-               <persName ref="#cappellinim">Morello Cappellini</persName><lb/> di Anni 23- <persName
-                  ref="#fontanaf">Francesco Fontana</persName> di anni 27<lb/>
-               <persName ref="#pacinio">Olindo Pacini</persName> di anni 30- <persName
-                  ref="#baldaccia">Angelo<lb/> Baldacci</persName> di anni 32- <persName
-                  ref="#cinellio">Olinto Cinelli</persName><lb/> tutti furono Passati a unanimita
+               lettura Processo Verbale il quale fu aprovato<lb/> Come era Scritto<lb/> <list><note>Si passo’
+               alle Proposte dei Nuovi<lb/> Membri le quali furono Sei</note><lb/>
+               <item><persName ref="#lombardia">Aladino Lombardi</persName></item>
+                  <item><persName ref="#cappellinim">Morello Cappellini</persName><lb/> di Anni 23-</item> <item><persName
+                  ref="#fontanaf">Francesco Fontana</persName> di anni 27</item><lb/>
+               <item><persName ref="#pacinio">Olindo Pacini</persName> di anni 30- </item><item><persName
+                  ref="#baldaccia">Angelo<lb/> Baldacci</persName> di anni 32- </item><item><persName
+                  ref="#cinellio">Olinto Cinelli</persName></item><lb/> <note>tutti furono Passati a unanimita
                altro<lb/> che <persName ref="#cinellio">il Sig. Olinto Cinelli</persName> fu
-               Rincesso<lb/> Alla prossima Seduta per non avre<lb/> Spacificato leta’<lb/>
+               Rincesso<lb/> Alla prossima Seduta per non avre<lb/> Spacificato leta’</note></list><lb/>
                <seg type="proposal">dopo Una Lunga disculzione in rigua<lb/> rdo all’anistia
                      <persName ref="#pasquinellis" role="proposer">il fratello Santino
                      Pasquinelli</persName><lb/> fece la Proposta che l’anistia fosse
