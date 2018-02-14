@@ -14,7 +14,7 @@
       <publicationStmt>
         <authority>Prepared in TEI 5 by Zachary Enick for the Italian research assistantship at the
           University of Pittsburgh. Github repository: <ref target="http://github.com/zme1/toscana"
-          />. Date last worked on: <date when="2018-02-10"/></authority>
+          />. Date last worked on: <date when="2018-02-13"/></authority>
         <availability>
           <licence><!-- licence to go here --></licence>
         </availability>
@@ -63,11 +63,13 @@
                 <valItem ident="#baldaccia"/>
                 <valItem ident="#banchieris"/>
                 <valItem ident="#barantip"/>
+                <valItem ident="#barduccia"/>
                 <valItem ident="#barontinid"/>
                 <valItem ident="#bartolis"/>
                 <valItem ident="#barsottig"/>
                 <valItem ident="#bartolettif"/>
                 <valItem ident="#battistiniv"/>
+                <valItem ident="#benedettia"/>
                 <valItem ident="#benedettie"/>
                 <valItem ident="#bertonie"/>
                 <valItem ident="#bevilacquas"/>
@@ -84,9 +86,11 @@
                 <valItem ident="#cappellinim"/>
                 <valItem ident="#carloe"/>
                 <valItem ident="#carmassil"/>
+                <valItem ident="#chioccac"/>
                 <valItem ident="#cinellio"/>
                 <valItem ident="#colombinin"/>
                 <valItem ident="#coltellig"/>
+                <valItem ident="#cortopassig"/>
                 <valItem ident="#cristofania"/>
                 <!-- Last name D -->
                 <valItem ident="#danesiv"/>
@@ -137,6 +141,7 @@
                 <valItem ident="#luccic"/>
                 <valItem ident="#lundardia"/>
                 <valItem ident="#lunardinia"/>
+                <valItem ident="#lunardinif"/>
                 <valItem ident="#lunardinil"/>
                 <valItem ident="#lunardinim"/>
                 <valItem ident="#lunardinip"/>
@@ -184,6 +189,7 @@
                 <valItem ident="#pasqualig"/>
                 <valItem ident="#pasquinelliam"/>
                 <valItem ident="#pasquinellian"/>
+                <valItem ident="#pasquinellie"/>
                 <valItem ident="#pasquinellig"/>
                 <valItem ident="#pasquinellim"/>
                 <valItem ident="#pasquinellis"/>
@@ -211,6 +217,7 @@
                 <!-- Last name S -->
                 <valItem ident="#sandronee"/>
                 <valItem ident="#santarlascia"/>
+                <valItem ident="#santonif"/>
                 <valItem ident="#santorinif"/>
                 <valItem ident="#serafinia"/>
                 <valItem ident="#serafinie"/>
@@ -288,6 +295,7 @@
                 <valItem ident="charity"/>
                 <valItem ident="donation"/>
                 <valItem ident="regale"/>
+                <valItem ident="compM"/>
               </valList>
             </attDef>
           </attList>
@@ -358,6 +366,7 @@
                 <valItem ident="fondoM"/>
                 <valItem ident="picnic"/>
                 <valItem ident="stendardo"/>
+                <valItem ident="sussidio"/>
               </valList>
             </attDef>
           </attList>
@@ -395,6 +404,7 @@
                 <valItem ident="picnic"/>
                 <valItem ident="stendardo"/>
                 <valItem ident="intrattenimento"/>
+                <valItem ident="sussidio"/>
               </valList>
             </attDef>
           </attList>
@@ -439,7 +449,7 @@
         <constraintSpec ident="seg_comp_subtype" scheme="isoschematron">
           <constraint>
             <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron" context="tei:seg[@type='comp']">
-              <sch:assert test="@subtype">Every seg element of @type "comp" must have a @subtype value of either "sick," "charity," or "donation."</sch:assert>
+              <sch:assert test="@subtype">Every seg element of @type "comp" must have a @subtype value of either "sick," "charity," "donation," or "fondom."</sch:assert>
             </sch:rule>
           </constraint>
         </constraintSpec>
@@ -448,6 +458,19 @@
             <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
               context="tei:seg[@subtype='sick']">
               <sch:assert test="descendant::tei:persName[@role='target']">Every seg element of @subtypetype "sick" must have persName element with @role value of "target.".</sch:assert>
+              <sch:assert test="descendant::tei:num[@type='monetary']">Every seg of @type "comp"
+                must have a num with a @type value of "monetary."</sch:assert>
+              <sch:assert test="descendant::tei:num[@value]">Every seg of @type "comp" must have a
+                num with a @value value equivalent to the amount of money being
+                transferred.</sch:assert>
+            </sch:rule>
+          </constraint>
+        </constraintSpec>
+        <constraintSpec ident="seg_comp_morte" scheme="isoschematron">
+          <constraint>
+            <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+              context="tei:seg[@subtype='fondom']">
+              <sch:assert test="descendant::tei:persName[@role='target']">Every seg element of @subtypetype "fondom" must have persName element with @role value of "target.".</sch:assert>
               <sch:assert test="descendant::tei:num[@type='monetary']">Every seg of @type "comp"
                 must have a num with a @type value of "monetary."</sch:assert>
               <sch:assert test="descendant::tei:num[@value]">Every seg of @type "comp" must have a
