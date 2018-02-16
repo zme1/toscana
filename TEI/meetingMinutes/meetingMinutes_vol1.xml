@@ -54,8 +54,7 @@
                </msIdentifier>
                <physDesc>
                   <handDesc>
-                     <p>This volume of minutes was written by an **indistinct number of
-                        contributors**</p>
+                     <p>This volume of minutes was written by each administration's secretary, which changed on a yearly basis.</p>
                   </handDesc>
                   <accMat>
                      <p>The meeting minutes contain, in addition to written record of meetings,
@@ -82,6 +81,13 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <persName ref="#fredianim"></persName>
+               </person>
+            </listPerson>
+         </particDesc>
          <settingDesc>
             <p>The first volume of these minutes begins in January of 1919. Lega meetings were held
                monthly (12 per year) and were typically always held in the same location near the
@@ -106,7 +112,7 @@
             <p>This research study is a collaborative effort between four undergraduate students and
                one faculty member at the University of Pittsburgh in Pittsburgh, PA to explore
                geographical, linguistic, and anthropological information regarding members and
-               affiliates of the Lega Toscana di Protezione, a Pittsburgh-based fraternal group of
+               affiliates of the Lega Toscana di Protezione, a Pittsburgh-based beneficial society of
                Tuscan Italian immigrants. The primary purpose of this specific file is to contain
                specially marked-up renditionsof the transcribed minutes in order to create a social
                network mapping that will illuminate relationships and dynamics between both members
@@ -143,8 +149,8 @@
                e viene aprovato Come e Scritto.<lb/> Si Passo ai Reso Conti generale dopo che
                furono<lb/> pagati tutti i billi in Pieno resto in Cassa al tesoriere<lb/> Bilancio
                Netto $484.07 Compreso Interesse $19.27<lb/> Il quale amontare del danaro fu
-               Consegnato al nuovo Tesoriere<lb/> (<persName ref="#pasquinelliam">Americo
-                  Pasquinelli</persName>)<lb/>
+               Consegnato <persName ref="#pasquinelliam">al nuovo Tesoriere<lb/> (Americo
+                  Pasquinelli)</persName><lb/>
                <persName ref="#simonettim">Il Presidente M. Simonetti</persName> Essendo l’urtima
                seduta che procedeva<lb/> dell’anno 1918 Fece L’istalazione della Nuova
                Aministrazione<lb/> il quale Chiamo <persName ref="#fredianim">il Nuovo Presidente
@@ -154,12 +160,12 @@
                <list rend="list" type="officers">
                   <note>Aministrazione Anno 1919</note>
                   <lb/>
-                  <item><persName ref="#fredianim">Presidente Muzio Frediani</persName></item>
+                  <item>Presidente <persName ref="#fredianim">Muzio Frediani</persName></item>
                   <lb/>
                   <item>
-                     <persName ref="#maffeis">Vice Presidente Stefano Maffei</persName></item>
+                     Vice Presidente <persName ref="#maffeis">Stefano Maffei</persName></item>
                   <lb/>
-                  <item><persName ref="#simonettim">Segretario Cor. Michele
+                  <item>Segretario Cor. <persName ref="#simonettim">Michele
                      Simonetti</persName></item>
                   <lb/>
                   <item><persName ref="#pasquinellis">Segretario Finanza Santino

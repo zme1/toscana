@@ -32,11 +32,11 @@
           include="add address addrLine author bibl date del item lb list note num p pb resp respStmt rs teiCorpus title unclear"/>
         <moduleRef key="tei"/>
         <moduleRef key="textstructure" include="TEI body closer signed text"/>
-        <moduleRef key="corpus" except="activity locale particDesc"/>
+        <moduleRef key="corpus" except="activity locale"/>
         <moduleRef key="linking" include="ab seg"/>
         <moduleRef key="msdescription"
           include="accMat acquisition handDesc history institution msDesc msIdentifier msName origin physDesc repository"/>
-        <moduleRef key="namesdates" include="orgName persName roleName"/>
+        <moduleRef key="namesdates" include="listPerson orgName persName person roleName"/>
         <elementSpec ident="persName" mode="change" module="namesdates">
 
           <!-- Example of a Schematron rule obliging every persName element to have a surname descendant element in a format nested within the <elementSpec> element directly. -->
@@ -352,7 +352,7 @@
         </elementSpec>
         <elementSpec ident="roleName" mode="change" module="namesdates">
           <attList>
-            <attDef ident="type" mode="replace" usage="req">
+            <attDef ident="type" mode="replace" usage="rec">
               <valList type="closed">
                 <valItem ident="committee"/>
                 <valItem ident="subcommittee"/>
@@ -428,6 +428,7 @@
             </attDef>
           </attList>
         </elementSpec>
+        <elementSpec ident="porticDesc" mode="change" module="corpus"></elementSpec>
         <constraintSpec ident="seg_proposal" scheme="isoschematron">
           <constraint>
             <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
