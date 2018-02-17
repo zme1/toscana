@@ -104,15 +104,19 @@
                   <roleName>Tesoriere</roleName>
                </person>
                <person>
-                  <persName ref="#silvionic">Carlo Silvioni</persName>
+                  <persName ref="#silvionic" role="scaduto">Carlo Silvioni</persName>
                   <roleName>Curatore</roleName>
                </person>
                <person>
-                  <persName ref="#paganuccis">Sam Paganucci</persName>
+                  <persName ref="#paganuccis" role="replacement">Sam Paganucci</persName>
                   <roleName>Curatore</roleName>
                </person>
                <person>
-                  <persName ref="#bertonie">Eugenio Bertoni</persName>
+                  <persName ref="#bertonie" role="scaduto">Eugenio Bertoni</persName>
+                  <roleName>Curatore</roleName>
+               </person>
+               <person>
+                  <persName ref="#lunardinil" role="replacement">Lorenzo Lunardini</persName>
                   <roleName>Curatore</roleName>
                </person>
                <person>
@@ -388,12 +392,12 @@
                   <item><persName ref="#marsilia">Abramo Marsili</persName></item>
                </list> quindi<lb/>
                <persName ref="#silvionic" role="scaduto">Carlo Silvione</persName> e <persName
-                  ref="#bertonie">Eugenio Bertoni</persName>Risultavano<lb/> Mancanti alle Sedute
-               per tre Volte Consegu-<lb/> tive E Stando al Nostro Regolamento il<lb/> quale dice
-               che chi Manca per tre volte<lb/> Consegutive alle Sedute e non gustifica<lb/> ta
-               lassenza viene Cancellato<lb/> Cosi il Curatori <persName ref="#silvionic">Carlo
-                  Silvione</persName> e <persName ref="#bertonie">Eugenio<lb/> Bertoni</persName>
-               furono Cancellati della Loro Carica<lb/>
+                  ref="#bertonie" role="scaduto">Eugenio Bertoni</persName>Risultavano<lb/> Mancanti
+               alle Sedute per tre Volte Consegu-<lb/> tive E Stando al Nostro Regolamento il<lb/>
+               quale dice che chi Manca per tre volte<lb/> Consegutive alle Sedute e non
+               gustifica<lb/> ta lassenza viene Cancellato<lb/> Cosi il Curatori <persName
+                  ref="#silvionic">Carlo Silvione</persName> e <persName ref="#bertonie"
+                  >Eugenio<lb/> Bertoni</persName> furono Cancellati della Loro Carica<lb/>
                <rs ref="#mf">Il Presidente</rs> Ordino la lettura Processo<lb/> Verbale e venne
                aprovato Come e Scritto<lb/>
                <list type="applicants">

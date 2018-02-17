@@ -55,7 +55,8 @@
                </msIdentifier>
                <physDesc>
                   <handDesc>
-                     <p>This volume of minutes was written by the correspondance secretary of the year 1921, <persName ref="#marchettie">Emilio Marchetti</persName>.</p>
+                     <p>This volume of minutes was written by the correspondance secretary of the
+                        year 1921, <persName ref="#marchettie">Emilio Marchetti</persName>.</p>
                   </handDesc>
                   <accMat>
                      <p>The meeting minutes contain, in addition to written record of meetings,
@@ -71,7 +72,7 @@
                   </origin>
                   <acquisition>
                      <p>The manuscript documents were donated to the<orgName ref="#hhc">Heinz
-                        History Center</orgName>by<persName ref="#vondasl">Laura
+                           History Center</orgName>by<persName ref="#vondasl">Laura
                            Bocelli-Vondas</persName>in two portions - the first in 2015 and the
                         second in 2017.</p>
                   </acquisition>
@@ -86,37 +87,62 @@
                   <persName ref="#marsilis">Sam Marsili</persName>
                   <roleName>Presidente</roleName>
                </person>
-               <person><persName ref="#sodinij">Jacopo Sodini</persName>
-                  <roleName>Vice Presidente</roleName></person>
-               <person><persName ref="#marchettie">Emilio Marchetti</persName>
-                  <roleName>Segretario di Corrispondenza</roleName></person>
-               <person><persName ref="#piaggesia">Aladino Piaggesi</persName>
-                  <roleName>Segretario Finanza</roleName></person>
-               <person><persName ref="#pasquinellis">Santino Pasquinelli</persName>
-                  <roleName>Tesoriere</roleName></person>
-               <person><persName ref="#pasquinelliam">Americo Pasquinelli</persName>
-                  <roleName>Curatore</roleName></person>
-               <person><persName ref="#lucchesiam">Americo Lucchesi</persName>
-                  <roleName>Curatore</roleName></person>
-               <person><persName ref="#fredianellig">Giuseppe Fredianelli</persName>
-                  <roleName>Curatore</roleName></person>
-               <person><persName ref="#merciadrie">Eugenio Merciadri</persName>
-                  <roleName>Ufficiale Sanitario</roleName></person>
-               <person><persName ref="#battistiniv">Vincenzo Battistini</persName>
-                  <roleName>Ufficiale Sanitario</roleName></person>
-               <person><persName ref="#silvionic">Carolo Silvioni</persName>
-               <roleName>Collettore</roleName></person>
-               <person><persName ref="#merciadrie">Eugenio Merciardri</persName>
-                  <roleName>Guardia Sala</roleName></person>
+               <person>
+                  <persName ref="#sodinij">Jacopo Sodini</persName>
+                  <roleName>Vice Presidente</roleName>
+               </person>
+               <person>
+                  <persName ref="#marchettie">Emilio Marchetti</persName>
+                  <roleName>Segretario di Corrispondenza</roleName>
+               </person>
+               <person>
+                  <persName ref="#piaggesia">Aladino Piaggesi</persName>
+                  <roleName>Segretario Finanza</roleName>
+               </person>
+               <person>
+                  <persName ref="#pasquinellis">Santino Pasquinelli</persName>
+                  <roleName>Tesoriere</roleName>
+               </person>
+               <person>
+                  <persName ref="#pasquinelliam">Americo Pasquinelli</persName>
+                  <roleName>Curatore</roleName>
+               </person>
+               <person>
+                  <persName ref="#lucchesiam">Americo Lucchesi</persName>
+                  <roleName>Curatore</roleName>
+               </person>
+               <person>
+                  <persName ref="#fredianellig">Giuseppe Fredianelli</persName>
+                  <roleName>Curatore</roleName>
+               </person>
+               <person>
+                  <persName ref="#merciadrie">Eugenio Merciadri</persName>
+                  <roleName>Ufficiale Sanitario</roleName>
+               </person>
+               <person>
+                  <persName ref="#battistiniv">Vincenzo Battistini</persName>
+                  <roleName>Ufficiale Sanitario</roleName>
+               </person>
+               <person>
+                  <persName ref="#silvionic" role="scaduto">Carolo Silvioni</persName>
+                  <roleName>Collettore</roleName>
+               </person>
+               <person><persName ref="#cappellinic" role="replacement">Castruccio Cappellini</persName>
+               <roleName>Colletore</roleName></person>
+               <person>
+                  <persName ref="#merciadrie">Eugenio Merciardri</persName>
+                  <roleName>Guardia Sala</roleName>
+               </person>
             </listPerson>
          </particDesc>
          <settingDesc>
-            <p>This file contains meeting minutes from the year 1921. Meetings were held monthly and were typically held in the
-               same location near the downtown area of Pittsburgh, Pennsylvania.</p>
+            <p>This file contains meeting minutes from the year 1921. Meetings were held monthly and
+               were typically held in the same location near the downtown area of Pittsburgh,
+               Pennsylvania.</p>
             <p><address>
-               <addrLine>607 Webster Avenue</addrLine>
-               <addrLine>Pittsburgh, PA 15219</addrLine>
-            </address></p>
+                  <addrLine>607 Webster Avenue</addrLine>
+                  <addrLine>Pittsburgh, PA 15219</addrLine>
+               </address></p>
          </settingDesc>
          <textDesc>
             <channel mode="w"/>
@@ -641,7 +667,7 @@
                   rimborso<lb/> della moneta versata, giusto nostre leggi.</seg><lb/>
                <persName ref="#marsilis" role="source">Il Presidente Sam Marsili</persName> apri
                la<lb/> nomina per un collettore, <seg type="proposal">fu proposto<lb/> il fratello
-                  Castruccio Cappellini.<lb/>
+                  <persName ref="#cappellinic">Castruccio Cappellini</persName><lb/>
                   <pb n="69"/> da <persName ref="#martinellia" role="proposer">Alfredo
                      Martinelli</persName> assecondato<lb/> dal fratello <persName ref="#viganol"
                      role="supporter">Lorenzo Vigano’</persName> e fu<lb/> passato ad una
