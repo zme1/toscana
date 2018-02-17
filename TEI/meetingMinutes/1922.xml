@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../ODD/out/minutes.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../ODD/out/minutes.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lega Toscana di Protezione Meeting Minutes: Volume 1</title>
+            <respStmt>
+               <resp>Meeting minutes transcribed from scanned immages</resp>
+               <persName ref="#enickz">Zachary Enick</persName>
+               <persName ref="#insanal">Lina Insana</persName>
+               <persName ref="#jermyne">Eliza Jermyn</persName>
+               <persName ref="#keilr">Rita Keil</persName>
+               <persName ref="#millarj">John "Archie" Millar</persName>
+            </respStmt>
+            <respStmt>
+               <resp>TEI file created from transcribed minute log for academic use</resp>
+               <persName ref="#enickz">Zachary Enick</persName>
+               <persName ref="#insanal">Lina Insana</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Consultants on project development: </resp>
+               <persName ref="#bondare">Elisa Beshero-Bondar</persName>
+               <orgName ref="#praxis">Spring 2018 DH Advanced Praxis Group</orgName>
+               <orgName ref="#pittText">Center for the Digital Text at the University of Pittsburgh,
+                  Greensburg</orgName>
+            </respStmt>
+         </titleStmt>
+         <extent>153 pg.</extent>
+         <publicationStmt>
+            <authority>
+               <orgName ref="#hhc">Heinz History Center</orgName>
+            </authority>
+            <address>
+               <addrLine>1212 Smallman st.</addrLine>
+               <addrLine>Pittsburgh, PA 15222</addrLine>
+               <addrLine>U.S.A.</addrLine>
+            </address>
+            <idno type="URI">http://heinzhistorycenter.org</idno>
+            <availability>
+               <p>The materials transcribed below are available for public use in the Detre Library
+                  &amp; Archives located in the Heinz History Center. Materials cannot be removed
+                  from the library and archives, but sharing of the documents digitally for
+                  educational purposes is encouraged, with full and proper citation.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <institution>Heinz History Center</institution>
+                  <repository>Detre Library &amp; Archives, Italian American Collection</repository>
+                  <idno><idno>2015.0079</idno> and <idno>2017.0123</idno></idno>
+                  <msName>LEGA Minutes: 1-21-19 - 12-17-25</msName>
+               </msIdentifier>
+               <physDesc>
+                  <handDesc>
+                     <p>This volume of minutes was written by the correspondance secretary of the year 1922, <persName ref="#marchettie">Emilio Marchetti</persName>.</p>
+                  </handDesc>
+                  <accMat>
+                     <p>The meeting minutes contain, in addition to written record of meetings,
+                        expense sheets that describe account balances and any spending or receipt of
+                        money by the organization.</p>
+                  </accMat>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>The manuscript was compiled by Lega members during the monthly meetings that
+                        took place in Pittsburgh, PA. This file contains meeting minutes that span
+                        from January to December of 1922.</p>
+                  </origin>
+                  <acquisition>
+                     <p>The manuscript documents were donated to the<orgName ref="#hhc">Heinz
+                        History Center</orgName>by<persName ref="#vondasl">Laura
+                           Bocelli-Vondas</persName>in two portions - the first in 2015 and the
+                        second in 2017.</p>
+                  </acquisition>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <persName ref="#marconic">Carlo Marconi</persName>
+                  <roleName>Presidente</roleName>
+               </person>
+               <person><persName ref="#cappellinic">Castruccio Cappellini</persName>
+                  <roleName>Vice Presidente</roleName></person>
+               <person><persName ref="#marchettie">Emilio Marchetti</persName>
+                  <roleName>Segretario di Corrispondenza</roleName></person>
+               <person><persName ref="#maffeigia">Giacomo Maffei</persName>
+                  <roleName>Segretario Finanza</roleName></person>
+               <person><persName ref="#pasquinellis">Santino Pasquinelli</persName>
+                  <roleName>Tesoriere</roleName></person>
+               <person><persName ref="#lunardinil">Lorenzo Lunardini</persName>
+                  <roleName>Curatore</roleName></person>
+               <person><persName ref="#sodinij">Jacopo Sodini</persName>
+                  <roleName>Curatore</roleName></person>
+               <person><persName ref="#marsilis">Sam Marsili</persName>
+                  <roleName>Curatore</roleName></person>
+               <person><persName ref="#merciadrie">Eugenio Merciadri</persName>
+                  <roleName>Ufficiale Sanitario</roleName></person>
+               <person><persName ref="#micheluccis">Silvio Michelucci</persName>
+                  <roleName>Ufficiale Sanitario</roleName></person>
+               <person><persName ref="#maffeir">Romeo Maffei</persName>
+                  <roleName>Collettore</roleName></person>
+               <person><persName ref="#merciadrie">Eugenio Merciardri</persName>
+                  <roleName>Guardia Sala</roleName></person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <p>This file contains meeting minutes from the year 1922. Meetings were held monthly and were typically held in the
+               same location near the downtown area of Pittsburgh, Pennsylvania.</p>
+            <p><address>
+               <addrLine>607 Webster Avenue</addrLine>
+               <addrLine>Pittsburgh, PA 15219</addrLine>
+            </address></p>
+         </settingDesc>
+         <textDesc>
+            <channel mode="w"/>
+            <constitution type="composite"/>
+            <derivation type="transcription"/>
+            <domain type="institutional"/>
+            <factuality type="fact">The meeting minutes were handwritten accounts of discussions
+               held, decisions, or money allocated made during the meetings.</factuality>
+            <interaction type="partial" active="plural" passive="group"/>
+            <preparedness type="formulaic"/>
+            <purpose type="documentation" degree="high"/>
+         </textDesc>
+         <abstract resp="#enickz">
+            <p>This research study is a collaborative effort between four undergraduate students and
+               one faculty member at the University of Pittsburgh in Pittsburgh, PA to explore
+               geographical, linguistic, and anthropological information regarding members and
+               affiliates of the Lega Toscana di Protezione, a Pittsburgh-based beneficial society
+               of Tuscan Italian immigrants. The primary purpose of this specific file is to contain
+               specially marked-up renditionsof the transcribed minutes in order to create a social
+               network mapping that will illuminate relationships and dynamics between both members
+               of the Lega and those in the greater community based on varied types of interactions
+               represented within the minutes log.</p>
+         </abstract>
+         <langUsage>
+            <language ident="it">Tuscan Italian, with some anglicisms</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title/>
+            </titleStmt>
+            <publicationStmt>
+               <authority>La Lega Toscana di Protezione</authority>
+               <date when="1922-01-19"/>
+            </publicationStmt>
+            <sourceDesc>
+               <p>Source description.</p>
+            </sourceDesc>
+         </fileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <ab>
+               <pb n="78"/> Giovedi 19 Gennaio 1922 alle ore 9.00 P.M.<lb/>
+               <persName ref="#marsilis">il Presidente Sam Marsili</persName> dichiara<lb/> aperta
+               la seduta, e dopo lettura de processo<lb/> verbale lo messe all’approvazione, e
+               non<lb/> venne approvato come letto, a motivo che<lb/> vi fu da ridire di sopra il
+               pagamento<lb/> dell’operazione <persName ref="#simonettim">del fratello Michele
+                  Simonetti</persName><lb/> allora fu rilasciato alla prossima seduta,<lb/>
+               <list type="committee" subtype="regolamento">
+                  <note>e fu scielto un comitato di investicare<lb/> se ai nostri regolamenti fosse
+                     stato giusto<lb/> di pagarli $50.00 per le spese avute per<lb/>
+                     l’operazione.</note>
+                  <item><persName ref="#maffeis">Stefano Maffei</persName>,</item>
+                  <item><persName ref="#pellegrinic">Casimirro Pellegrini</persName>,</item>
+                  <lb/>
+                  <item><persName ref="#bertonie">Eugenio Bertoni</persName>,</item>
+                  <item><persName ref="#cappellinic">castruccio Cappellini</persName></item>
+               </list>, Comitato.<lb/>
+               <seg type="comp" subtype="sick">Fu concesso sussidio di malatia di <num
+                  type="monetary" value="8">$8.00</num>
+                  <persName ref="#marsilis" role="target">al<lb/> ex Presidente Sam
+                     Marsili</persName>.</seg><lb/>
+               <list type="applicants">
+                  <note>Fu presentata la domanda di ammissione<lb/> di far parte a questa
+                     Lega</note>
+                  <item><persName ref="#barduccia">Angelo Barducci</persName><lb/> di anni 34</item>
+                  <note> e venne accettata.</note>
+               </list><lb/>
+               <list type="cancellati">
+                  <note>Poi si ando alla cancellazione dei soci che<lb/> si trovavano arritrati con
+                     pagamenti<lb/> mensili x piu’ di (12) mesi.</note>
+                  <item><persName ref="#benedettia">Arturo Benedetti</persName></item>
+                  <lb/>
+                  <pb n="79"/>
+                  <item><persName ref="#rossir">Roberto Bossi</persName>,</item>
+                  <item><persName ref="#santonif">Fortunato Santoni</persName>,</item>
+                  <item><persName ref="#chioccac">Carlo Chiocca</persName>,</item>
+                  <item><persName ref="#paganuccis">Sam Paganucci</persName></item>
+                  <lb/>
+                  <note>quale ultimi due fu detto di avvisarli per<lb/> l’ultima volta e se nella
+                     prossima seduta<lb/> non avrebbero pagato saranno cancellati<lb/> dalla
+                     Lega.</note>
+               </list><lb/> Essendo Lultima seduta che precedeva<lb/>
+               <persName ref="#marsilis">il Presidente Sam Marslii</persName>, chiamo la<lb/> nuova
+               amministrazione per l’anno 1922 e<lb/> con parole augurandogli un buon succes-<lb/>
+               so durante la loro occupazione.<lb/>
+               <list type="absent">
+                  <note>allappello nominale degli ufficiali dell’anno<lb/> 1922 risultavano assenti
+                     i seguenti fratelli</note>
+                  <lb/>
+                  <item><persName ref="#micheluccis">Silvio Michellucci</persName>,</item>
+                  <item><persName ref="#maffeir">Romo Maffei</persName>,</item>
+               </list><lb/>
+               <seg type="proposal">Proposto <persName ref="#simonettim" role="proposer">dal
+                  fratello Michele Simonetti</persName><lb/> ass <persName ref="#viganol"
+                     role="supporter">dal fratello Lorenzo Vigano’</persName> che sia<lb/> aperta
+                  l’arnestia gratis dall’eta dai 18-ai 25<lb/> anni di eta col portando un
+                  certificato<lb/> medico di sana costituzione, e pagando<lb/> tre mesi anticipati.
+                  ed altre tasse si<lb/> vene sono, questa arnestia sara per la durata<lb/> di tre
+                  mesi, ossia fino alla seduta di aprile.</seg><lb/>
+               <seg type="comp" subtype="compM">Vi fu una grande discuzzione di supra il<lb/> fondo
+                  mortuario del pagamento al fratello<lb/> decesso <persName ref="#lucchesial"
+                     role="target">Alberto Lucchesi</persName> il quale si trovava 9<lb/> mensili
+                  arretrato colla Lega, che alla fine<lb/>
+                  <del rend="strike">gli</del> fu detto di pagare la somma di <num type="monetary"
+                     value="100">$100.00</num><lb/> come prescive il nostro regolamento, ossia<lb/>
+                  fondo unico mortuario.</seg><lb/>
+               <closer>Non avendo altro da fare per quella sera<lb/> alle ore 11.30 P.M. <persName
+                  ref="#marconic">il Presidente Carlo<lb/> Marconi</persName> dischiara sciolta
+                  la seduta.<lb/> Il Segretario Il Presidente<lb/>
+                  <signed>E. Marchett</signed>i <signed>Chass Marconi</signed></closer><lb/>
+            </ab>
+         </body>
+      </text>
+   </TEI>
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title/>
+            </titleStmt>
+            <publicationStmt>
+               <authority>La Lega Toscana di Protezione</authority>
+               <date when="1922-02-16"/>
+            </publicationStmt>
+            <sourceDesc>
+               <p>Source Description.</p>
+            </sourceDesc>
+         </fileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <ab>
+               <pb n="80"/> Giovedi 16 Febbraio 1922 alle ore 9.00 P.M.<lb/> tenutasi la nostra
+               seduta Ordinaria<lb/> preseduta <persName ref="#marconic">dal nostro presidente
+                  Carlo<lb/> Marconi</persName>. <list type="absent">
+                     <note>all’appello nominale degli<lb/> ufficiali risultavano assenti,</note>
+                     <item><persName ref="#lunardinil">Lorenzo<lb/> Lunardini</persName>,</item>
+                     <item><persName ref="#micheluccis">Silvio Michellucci</persName>.</item>
+                  </list> il Processo<lb/> verbale venne approvato come letto.<lb/> Il comitato di
+               investigazione di sopra<lb/> l’Operazione si riuni la sera del 9<lb/> Febbraio 1922 e
+               dichiarono che nessuno<lb/> socio ha dirito non piu’ della quota<lb/> assegnata
+               annualmente di $56.00 pari<lb/> a otto (8) Settimane, e compreso qualsi-<lb/> sia
+               operazione che potesse andare<lb/> incontro. Fu messo al ballottaggio secreto<lb/> e
+               risutavano in favore 27 Palline Bianche<lb/> e 3 Palline nere contrarie.<lb/>
+               <seg type="comp" subtype="regale">Poi fu presentato il regalo <persName
+                  ref="#pasquinellis" role="target">del nostro<lb/> Tesoriere Santino
+                  Pasquinelli</persName>, e con parole<lb/> ringrazzio la Lega della ricordanza
+                  che<lb/> ad avuto verso di lui, il valore di esso e <num type="monetary"
+                     value="10">$10.00</num></seg><lb/>
+               <seg type="proposalWritten">Poi fu presentato una proposta in iscritto<lb/> firmata
+                  da 5 Soci i quali sono,<lb/>
+                  <persName ref="#cappellinic" role="proposer">Castruccio Cappellini</persName>,
+                  <persName ref="#marchettie" role="proposer">Emilio Marchetti</persName>,<lb/>
+                  <persName ref="#maffeis" role="proposer">Stefano Maffei</persName>, <persName
+                     ref="#zinim">Modesto Zini</persName>,<lb/> di <del rend="strike">she</del>
+                  sciegliere un comitato per la verifica<lb/> e correzione di presenti
+                  regolamenti<lb/> e questo vene approvato da tutta la<lb/> semblea generale,</seg>
+               <list type="committee" subtype="regolamento">
+                  <note>e fu scielto un comita-<lb/> to <del rend="strike">per il</del> che e cosi’
+                     composto,</note>
+                  <item><persName ref="#fredianim">Muzio Frediani</persName>,</item>
+                  <lb/>
+                  <item><persName ref="#cappellinic">Castruccio Cappellini</persName>,</item>
+                  <item><persName ref="#maffeis">Stefano Maffei</persName>,</item>
+                  <item>
+                     <persName ref="#zinim">Modesto<lb/> Zini</persName>,</item>
+                  <item><persName ref="#simonettim">Michele Simonetti</persName>,</item>
+                  <item><persName ref="#fredianellig">Giuseppe<lb/> (Segue)<lb/>
+                     <pb n="81"/> Fredianelli</persName>,</item>
+                  <item><persName ref="#sodinij">Jacopo Sodini</persName>,</item>
+                  <item>e <persName ref="#pasquinellis">Santino<lb/> Pasquinelli</persName>.</item>
+               </list><lb/>
+               <list type="committee" subtype="picnic">
+                  <note>Poi fu scielto un comitato per anda-<lb/> re a ingaggiare il Campo per
+                     fare<lb/> il nostro PicNic nel avvenire</note>
+                  <item><persName ref="#simonettim">Michele<lb/> Simonetti</persName></item>
+                  <item>e <persName ref="#pasquinellis">Santino Pasquinelli</persName></item>
+                  <lb/>
+                  <note>Comitato.</note>
+               </list><lb/> Fu fatta una colletta per quello<lb/> che mando la elevetta e fu
+               colletta-<lb/> to $5.00.<lb/>
+               <closer>Non avendo altro da fare per quella<lb/> sera alle ore 10.30 P.M. <rs
+                  ref="#marconic">il presidente</rs><lb/> dichiara sciolta la seduta, oggi
+                  in<lb/> Cassa $______<lb/> Il Segretario Il Presidente<lb/>
+                  <signed>Emilio Marchetti</signed>
+                  <signed>Carlo Marconi</signed></closer><lb/>
+            </ab>
+         </body>
+      </text>
+   </TEI>
+</teiCorpus>

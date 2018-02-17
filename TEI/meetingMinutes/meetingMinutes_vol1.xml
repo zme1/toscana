@@ -17,6 +17,7 @@
             <respStmt>
                <resp>TEI file created from transcribed minute log for academic use</resp>
                <persName ref="#enickz">Zachary Enick</persName>
+               <persName ref="#insanal">Lina Insana</persName>
             </respStmt>
             <respStmt>
                <resp>Consultants on project development: </resp>
@@ -54,7 +55,7 @@
                </msIdentifier>
                <physDesc>
                   <handDesc>
-                     <p>This volume of minutes was written by each administration's secretary, which changed on a yearly basis.</p>
+                     <p>This volume of minutes was written by the correspondance secretary of the year 1919, <persName ref="#simonettim">Michele Simonetti</persName>.</p>
                   </handDesc>
                   <accMat>
                      <p>The meeting minutes contain, in addition to written record of meetings,
@@ -84,14 +85,35 @@
          <particDesc>
             <listPerson>
                <person>
-                  <persName ref="#fredianim"></persName>
+                  <persName ref="#fredianim">Muzio Frediani</persName>
+                  <roleName>Presidente</roleName>
                </person>
+               <person><persName ref="#maffeis">Stefano Maffei</persName>
+               <roleName>Vice Presidente</roleName></person>
+               <person><persName ref="#simonettim">Michele Simonetti</persName>
+               <roleName>Segretario di Corrispondenza</roleName></person>
+               <person><persName ref="#pasquinellis">Santino Pasquinelli</persName>
+               <roleName>Segretario Finanza</roleName></person>
+               <person><persName ref="#pasquinelliam">Americo Pasquinelle</persName>
+               <roleName>Tesoriere</roleName></person>
+               <person><persName ref="#silvionic">Carlo Silvioni</persName>
+               <roleName>Curatore</roleName></person>
+               <person><persName ref="#paganuccis">Sam Paganucci</persName>
+               <roleName>Curatore</roleName></person>
+               <person><persName ref="#bertonie">Eugenio Bertoni</persName>
+               <roleName>Curatore</roleName></person>
+               <person><persName ref="#marsilia">Abramo Marsili</persName></person>
+               <person><persName ref="#giomettic">Carlo Giometti</persName>
+               <roleName>Ufficiale Sanitario</roleName></person>
+               <person><persName ref="#merciadrie">Eugenio Merciardi</persName>
+               <roleName>Ufficiale Sanitario</roleName></person>
+               <person><persName ref="#fontanaan">Angelo Fontana</persName>
+               <roleName>Guardia Sala</roleName></person>
             </listPerson>
          </particDesc>
          <settingDesc>
-            <p>The first volume of these minutes begins in January of 1919. Lega meetings were held
-               monthly (12 per year) and were typically always held in the same location near the
-               downtown area of Pittsburgh, Pennsylvania..</p>
+            <p>This file contains meeting minutes from the year 1919. Meetings were held monthly and were typically held in the
+            same location near the downtown area of Pittsburgh, Pennsylvania.</p>
             <p><address>
                   <addrLine>607 Webster Avenue</addrLine>
                   <addrLine>Pittsburgh, PA 15219</addrLine>
@@ -112,8 +134,8 @@
             <p>This research study is a collaborative effort between four undergraduate students and
                one faculty member at the University of Pittsburgh in Pittsburgh, PA to explore
                geographical, linguistic, and anthropological information regarding members and
-               affiliates of the Lega Toscana di Protezione, a Pittsburgh-based beneficial society of
-               Tuscan Italian immigrants. The primary purpose of this specific file is to contain
+               affiliates of the Lega Toscana di Protezione, a Pittsburgh-based beneficial society
+               of Tuscan Italian immigrants. The primary purpose of this specific file is to contain
                specially marked-up renditionsof the transcribed minutes in order to create a social
                network mapping that will illuminate relationships and dynamics between both members
                of the Lega and those in the greater community based on varied types of interactions
@@ -162,8 +184,7 @@
                   <lb/>
                   <item>Presidente <persName ref="#fredianim">Muzio Frediani</persName></item>
                   <lb/>
-                  <item>
-                     Vice Presidente <persName ref="#maffeis">Stefano Maffei</persName></item>
+                  <item> Vice Presidente <persName ref="#maffeis">Stefano Maffei</persName></item>
                   <lb/>
                   <item>Segretario Cor. <persName ref="#simonettim">Michele
                      Simonetti</persName></item>
@@ -3219,7 +3240,7 @@
                non<lb/> venne approvato come letto, a motivo che<lb/> vi fu da ridire di sopra il
                pagamento<lb/> dell’operazione <persName ref="#simonettim">del fratello Michele
                   Simonetti</persName><lb/> allora fu rilasciato alla prossima seduta,<lb/>
-               <list type="committee" subtype="sussidio">
+               <list type="committee" subtype="regolamento">
                   <note>e fu scielto un comitato di investicare<lb/> se ai nostri regolamenti fosse
                      stato giusto<lb/> di pagarli $50.00 per le spese avute per<lb/>
                      l’operazione.</note>
@@ -3282,6 +3303,82 @@
                      ref="#marconic">il Presidente Carlo<lb/> Marconi</persName> dischiara sciolta
                   la seduta.<lb/> Il Segretario Il Presidente<lb/>
                   <signed>E. Marchett</signed>i <signed>Chass Marconi</signed></closer><lb/>
+            </ab>
+         </body>
+      </text>
+   </TEI>
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title/>
+            </titleStmt>
+            <publicationStmt>
+               <authority>La Lega Toscana di Protezione</authority>
+               <date when="1922-02-16"/>
+            </publicationStmt>
+            <sourceDesc>
+               <p>Source Description.</p>
+            </sourceDesc>
+         </fileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <ab>
+               <pb n="80"/> Giovedi 16 Febbraio 1922 alle ore 9.00 P.M.<lb/> tenutasi la nostra
+               seduta Ordinaria<lb/> preseduta <persName ref="#marconic">dal nostro presidente
+                  Carlo<lb/> Marconi</persName>. <list type="absent">
+                  <note>all’appello nominale degli<lb/> ufficiali risultavano assenti,</note>
+                  <item><persName ref="#lunardinil">Lorenzo<lb/> Lunardini</persName>,</item>
+                  <item><persName ref="#micheluccis">Silvio Michellucci</persName>.</item>
+               </list> il Processo<lb/> verbale venne approvato come letto.<lb/> Il comitato di
+               investigazione di sopra<lb/> l’Operazione si riuni la sera del 9<lb/> Febbraio 1922 e
+               dichiarono che nessuno<lb/> socio ha dirito non piu’ della quota<lb/> assegnata
+               annualmente di $56.00 pari<lb/> a otto (8) Settimane, e compreso qualsi-<lb/> sia
+               operazione che potesse andare<lb/> incontro. Fu messo al ballottaggio secreto<lb/> e
+               risutavano in favore 27 Palline Bianche<lb/> e 3 Palline nere contrarie.<lb/>
+               <seg type="comp" subtype="regale">Poi fu presentato il regalo <persName
+                     ref="#pasquinellis" role="target">del nostro<lb/> Tesoriere Santino
+                     Pasquinelli</persName>, e con parole<lb/> ringrazzio la Lega della ricordanza
+                  che<lb/> ad avuto verso di lui, il valore di esso e <num type="monetary"
+                     value="10">$10.00</num></seg><lb/>
+               <seg type="proposalWritten">Poi fu presentato una proposta in iscritto<lb/> firmata
+                  da 5 Soci i quali sono,<lb/>
+                  <persName ref="#cappellinic" role="proposer">Castruccio Cappellini</persName>,
+                     <persName ref="#marchettie" role="proposer">Emilio Marchetti</persName>,<lb/>
+                  <persName ref="#maffeis" role="proposer">Stefano Maffei</persName>, <persName
+                     ref="#zinim">Modesto Zini</persName>,<lb/> di <del rend="strike">she</del>
+                  sciegliere un comitato per la verifica<lb/> e correzione di presenti
+                  regolamenti<lb/> e questo vene approvato da tutta la<lb/> semblea generale,</seg>
+               <list type="committee" subtype="regolamento">
+                  <note>e fu scielto un comita-<lb/> to <del rend="strike">per il</del> che e cosi’
+                     composto,</note>
+                  <item><persName ref="#fredianim">Muzio Frediani</persName>,</item>
+                  <lb/>
+                  <item><persName ref="#cappellinic">Castruccio Cappellini</persName>,</item>
+                  <item><persName ref="#maffeis">Stefano Maffei</persName>,</item>
+                  <item>
+                     <persName ref="#zinim">Modesto<lb/> Zini</persName>,</item>
+                  <item><persName ref="#simonettim">Michele Simonetti</persName>,</item>
+                  <item><persName ref="#fredianellig">Giuseppe<lb/> (Segue)<lb/>
+                        <pb n="81"/> Fredianelli</persName>,</item>
+                  <item><persName ref="#sodinij">Jacopo Sodini</persName>,</item>
+                  <item>e <persName ref="#pasquinellis">Santino<lb/> Pasquinelli</persName>.</item>
+               </list><lb/>
+               <list type="committee" subtype="picnic">
+                  <note>Poi fu scielto un comitato per anda-<lb/> re a ingaggiare il Campo per
+                     fare<lb/> il nostro PicNic nel avvenire</note>
+                  <item><persName ref="#simonettim">Michele<lb/> Simonetti</persName></item>
+                  <item>e <persName ref="#pasquinellis">Santino Pasquinelli</persName></item>
+                  <lb/>
+                  <note>Comitato.</note>
+               </list><lb/> Fu fatta una colletta per quello<lb/> che mando la elevetta e fu
+               colletta-<lb/> to $5.00.<lb/>
+               <closer>Non avendo altro da fare per quella<lb/> sera alle ore 10.30 P.M. <rs
+                     ref="#marconic">il presidente</rs><lb/> dichiara sciolta la seduta, oggi
+                  in<lb/> Cassa $______<lb/> Il Segretario Il Presidente<lb/>
+                  <signed>Emilio Marchetti</signed>
+                  <signed>Carlo Marconi</signed></closer><lb/>
             </ab>
          </body>
       </text>

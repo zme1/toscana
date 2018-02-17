@@ -278,6 +278,7 @@
               <valList type="closed">
                 <valItem ident="proposal"/>
                 <valItem ident="proposalReject"/>
+                <valItem ident="proposalWritten"/>
                 <valItem ident="invite"/>
                 <valItem ident="delegation"/>
                 <valItem ident="comp"/>
@@ -371,6 +372,14 @@
             </attDef>
           </attList>
         </elementSpec>
+        <elementSpec ident="person" mode="change"  module="namesdates">
+          <content>
+            <alternate maxOccurs="unbounded" minOccurs="2">
+              <elementRef key="persName"/>
+              <elementRef key="roleName"/>
+            </alternate>
+          </content>
+        </elementSpec>
         <elementSpec ident="list" mode="change" module="core">
           <!-- I decided to customize the <list> content model to include a <note> element that could
           be used to include a contextual phrase from the meeting minute logs to be contained within the
@@ -404,7 +413,7 @@
                 <valItem ident="picnic"/>
                 <valItem ident="stendardo"/>
                 <valItem ident="intrattenimento"/>
-                <valItem ident="sussidio"/>
+                <valItem ident="regolamento"/>
               </valList>
             </attDef>
           </attList>
@@ -447,6 +456,13 @@
             </sch:rule>
           </constraint>
         </constraintSpec>
+        <constraintSpec ident="seg_proposal_written" scheme="isoschematron">
+          <constraint>
+            <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron" context="tei:seg[@type='proposalWritten']">
+              <sch:assert test="descendant::tei:persName[@role='proposer']">Every seg of @type "proposalWritten" must have at least one (probably more) persName descendant with a @role value of "proposer."</sch:assert>
+            </sch:rule>
+          </constraint>
+        </constraintSpec>
         <constraintSpec ident="seg_comp_subtype" scheme="isoschematron">
           <constraint>
             <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron" context="tei:seg[@type='comp']">
@@ -471,7 +487,20 @@
           <constraint>
             <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
               context="tei:seg[@subtype='fondom']">
-              <sch:assert test="descendant::tei:persName[@role='target']">Every seg element of @subtypetype "fondom" must have persName element with @role value of "target.".</sch:assert>
+              <sch:assert test="descendant::tei:persName[@role='target']">Every seg element of @subtype "fondom" must have persName element with @role value of "target.".</sch:assert>
+              <sch:assert test="descendant::tei:num[@type='monetary']">Every seg of @type "comp"
+                must have a num with a @type value of "monetary."</sch:assert>
+              <sch:assert test="descendant::tei:num[@value]">Every seg of @type "comp" must have a
+                num with a @value value equivalent to the amount of money being
+                transferred.</sch:assert>
+            </sch:rule>
+          </constraint>
+        </constraintSpec>
+        <constraintSpec ident="seg_comp_regale" scheme="isoschematron">
+          <constraint>
+            <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+              context="tei:seg[@subtype='regale']">
+              <sch:assert test="descendant::tei:persName[@role='target']">Every seg element of @subtype "regale" must have persName element with @role value of "target.".</sch:assert>
               <sch:assert test="descendant::tei:num[@type='monetary']">Every seg of @type "comp"
                 must have a num with a @type value of "monetary."</sch:assert>
               <sch:assert test="descendant::tei:num[@value]">Every seg of @type "comp" must have a
