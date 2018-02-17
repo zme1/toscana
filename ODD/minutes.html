@@ -4150,8 +4150,8 @@ teidata.xpath = text</pre></td></tr><tr><td class="wovenodd-col1"><span lang="en
  or descendant::tei:rs[@role='target']"&gt;Every seg of @type "comp"
  must have a persName, an orgName, or an rs element with a @role value of "target." &lt;/sch:assert&gt;
 &lt;/sch:rule&gt;</div></td></tr><tr><td class="wovenodd-col1"><span lang="en" class="label">Schematron</span></td><td class="wovenodd-col2"><div class="pre">
-&lt;sch:rule context="tei:seg[@subtype='fondom']"&gt;
-&lt;sch:assert test="descendant::tei:persName[@role='target']"&gt;Every seg element of @subtype "fondom" must have persName element with @role value of "target.".&lt;/sch:assert&gt;
+&lt;sch:rule context="tei:seg[@subtype='fondoM']"&gt;
+&lt;sch:assert test="descendant::tei:persName[@role='target']"&gt;Every seg element of @subtype "fondoM" must have persName element with @role value of "target.".&lt;/sch:assert&gt;
 &lt;sch:assert test="descendant::tei:num[@type='monetary']"&gt;Every seg of @type "comp"
  must have a num with a @type value of "monetary."&lt;/sch:assert&gt;
 &lt;sch:assert test="descendant::tei:num[@value]"&gt;Every seg of @type "comp" must have a
@@ -4175,7 +4175,7 @@ teidata.xpath = text</pre></td></tr><tr><td class="wovenodd-col1"><span lang="en
  transferred.&lt;/sch:assert&gt;
 &lt;/sch:rule&gt;</div></td></tr><tr><td class="wovenodd-col1"><span lang="en" class="label">Schematron</span></td><td class="wovenodd-col2"><div class="pre">
 &lt;sch:rule context="tei:seg[@type='comp']"&gt;
-&lt;sch:assert test="@subtype"&gt;Every seg element of @type "comp" must have a @subtype value of either "sick," "charity," "donation," or "fondom."&lt;/sch:assert&gt;
+&lt;sch:assert test="@subtype"&gt;Every seg element of @type "comp" must have a @subtype value of either "sick," "charity," "donation," or "fondoM."&lt;/sch:assert&gt;
 &lt;/sch:rule&gt;</div></td></tr><tr><td class="wovenodd-col1"><span lang="en" class="label">Schematron</span></td><td class="wovenodd-col2"><div class="pre">
 &lt;sch:rule context="tei:seg[@type='delegation']"&gt;
 &lt;sch:assert test="descendant::tei:persName[@role='source'] or descendant::tei:rs[@role='source']"&gt;Every seg of @type
@@ -4202,6 +4202,6 @@ teidata.xpath = text</pre></td></tr><tr><td class="wovenodd-col1"><span lang="en
 	  Generated from index.xml using XSLT stylesheets version 7.42.0
 
 	       based on http://www.tei-c.org/Stylesheets/
-	       on 2018-02-17T21:12:53Z.
+	       on 2018-02-17T23:35:49Z.
 	       SAXON PE 9.7.0.15.
 		 --></address></div></body></html>

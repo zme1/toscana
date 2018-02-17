@@ -128,6 +128,7 @@
                 <valItem ident="#giuntoligi"/>
                 <valItem ident="#giuntoligu"/>
                 <!-- Last name I -->
+                <valItem ident="#incroccip"/>
                 <valItem ident="#insanal"/>
                 <!-- Last name J -->
                 <valItem ident="#jermyne"/>
@@ -165,6 +166,7 @@
                 <valItem ident="#marsilig"/>
                 <valItem ident="#marsilis"/>
                 <valItem ident="#martinellia"/>
+                <valItem ident="#martinellig"/>
                 <valItem ident="#martinellir"/>
                 <valItem ident="#meconin"/>
                 <valItem ident="#merciadrie"/>
@@ -187,6 +189,7 @@
                 <valItem ident="#pardinib"/>
                 <valItem ident="#pascuzzia"/>
                 <valItem ident="#pasqualig"/>
+                <valItem ident="#pasquinellial"/>
                 <valItem ident="#pasquinelliam"/>
                 <valItem ident="#pasquinellian"/>
                 <valItem ident="#pasquinellie"/>
@@ -201,6 +204,7 @@
                 <valItem ident="#piccininig"/>
                 <valItem ident="#pistelliu"/>
                 <valItem ident="#polif"/>
+                <valItem ident="#pollastrinia"/>
                 <valItem ident="#ponzionip"/>
                 <valItem ident="#puccettia"/>
                 <valItem ident="#puccettil"/>
@@ -298,7 +302,7 @@
                 <valItem ident="charity"/>
                 <valItem ident="donation"/>
                 <valItem ident="regale"/>
-                <valItem ident="compM"/>
+                <valItem ident="fondoM"/>
               </valList>
             </attDef>
           </attList>
@@ -325,6 +329,7 @@
                 <valItem ident="target"/>
                 <valItem ident="proposer"/>
                 <valItem ident="supporter"/>
+                <valItem ident="scaduto"/>
               </valList>
             </attDef>
           </attList>
@@ -468,7 +473,7 @@
         <constraintSpec ident="seg_comp_subtype" scheme="isoschematron">
           <constraint>
             <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron" context="tei:seg[@type='comp']">
-              <sch:assert test="@subtype">Every seg element of @type "comp" must have a @subtype value of either "sick," "charity," "donation," or "fondom."</sch:assert>
+              <sch:assert test="@subtype">Every seg element of @type "comp" must have a @subtype value of either "sick," "charity," "donation," or "fondoM."</sch:assert>
             </sch:rule>
           </constraint>
         </constraintSpec>
@@ -488,8 +493,8 @@
         <constraintSpec ident="seg_comp_morte" scheme="isoschematron">
           <constraint>
             <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-              context="tei:seg[@subtype='fondom']">
-              <sch:assert test="descendant::tei:persName[@role='target']">Every seg element of @subtype "fondom" must have persName element with @role value of "target.".</sch:assert>
+              context="tei:seg[@subtype='fondoM']">
+              <sch:assert test="descendant::tei:persName[@role='target']">Every seg element of @subtype "fondoM" must have persName element with @role value of "target.".</sch:assert>
               <sch:assert test="descendant::tei:num[@type='monetary']">Every seg of @type "comp"
                 must have a num with a @type value of "monetary."</sch:assert>
               <sch:assert test="descendant::tei:num[@value]">Every seg of @type "comp" must have a

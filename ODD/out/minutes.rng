@@ -5,7 +5,7 @@
          xmlns:teix="http://www.tei-c.org/ns/Examples"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2018-02-17T21:13:10Z. .
+Schema generated from ODD source 2018-02-17T23:36:08Z. .
 TEI Edition: Version 3.3.0. Last updated on
 	31st January 2018, revision f4d8439
 TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.3.0/
@@ -2357,6 +2357,8 @@ Sample values include: 1] rubbing; 2] mildew; 3] smoke</a:documentation>
                   <value>proposer</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                   <value>supporter</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                  <value>scaduto</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                </choice>
             </attribute>
@@ -4842,7 +4844,7 @@ Suggested values include: 1] persuade; 2] express; 3] inform; 4] entertain</a:do
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                   <value>regale</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-                  <value>compM</value>
+                  <value>fondoM</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                </choice>
             </attribute>
@@ -5513,6 +5515,8 @@ Suggested values include: 1] persuade; 2] express; 3] inform; 4] entertain</a:do
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                <value>#giuntoligu</value>
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               <value>#incroccip</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                <value>#insanal</value>
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                <value>#jermyne</value>
@@ -5579,6 +5583,8 @@ Suggested values include: 1] persuade; 2] express; 3] inform; 4] entertain</a:do
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                <value>#martinellia</value>
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               <value>#martinellig</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                <value>#martinellir</value>
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                <value>#meconin</value>
@@ -5617,6 +5623,8 @@ Suggested values include: 1] persuade; 2] express; 3] inform; 4] entertain</a:do
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                <value>#pasqualig</value>
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               <value>#pasquinellial</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                <value>#pasquinelliam</value>
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                <value>#pasquinellian</value>
@@ -5644,6 +5652,8 @@ Suggested values include: 1] persuade; 2] express; 3] inform; 4] entertain</a:do
                <value>#pistelliu</value>
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                <value>#polif</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               <value>#pollastrinia</value>
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                <value>#ponzionip</value>
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
@@ -5891,7 +5901,7 @@ Suggested values include: 1] persuade; 2] express; 3] inform; 4] entertain</a:do
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
                 context="tei:seg[@type='comp']">
-              <sch:assert test="@subtype">Every seg element of @type "comp" must have a @subtype value of either "sick," "charity," "donation," or "fondom."</sch:assert>
+              <sch:assert test="@subtype">Every seg element of @type "comp" must have a @subtype value of either "sick," "charity," "donation," or "fondoM."</sch:assert>
             </sch:rule>
    </pattern>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
@@ -5913,8 +5923,8 @@ Suggested values include: 1] persuade; 2] express; 3] inform; 4] entertain</a:do
       <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                context="tei:seg[@subtype='fondom']">
-              <sch:assert test="descendant::tei:persName[@role='target']">Every seg element of @subtype "fondom" must have persName element with @role value of "target.".</sch:assert>
+                context="tei:seg[@subtype='fondoM']">
+              <sch:assert test="descendant::tei:persName[@role='target']">Every seg element of @subtype "fondoM" must have persName element with @role value of "target.".</sch:assert>
               <sch:assert test="descendant::tei:num[@type='monetary']">Every seg of @type "comp"
                 must have a num with a @type value of "monetary."</sch:assert>
               <sch:assert test="descendant::tei:num[@value]">Every seg of @type "comp" must have a
