@@ -58,12 +58,15 @@
                 direct way. -->
                 <!-- Last name A -->
                 <valItem ident="#andreinia"/>
+                <valItem ident="#andreiniv"/>
                 <valItem ident="#anselmif"/>
                 <!-- Last name B -->
+                <valItem ident="#baccellim"/>
                 <valItem ident="#baldaccia"/>
                 <valItem ident="#banchieris"/>
                 <valItem ident="#barantip"/>
                 <valItem ident="#barduccia"/>
+                <valItem ident="#barellim"/>
                 <valItem ident="#barontinid"/>
                 <valItem ident="#bartolis"/>
                 <valItem ident="#barsottig"/>
@@ -86,6 +89,7 @@
                 <valItem ident="#cappellinim"/>
                 <valItem ident="#carloe"/>
                 <valItem ident="#carmassil"/>
+                <valItem ident="#chiccig"/>
                 <valItem ident="#chioccac"/>
                 <valItem ident="#cinellio"/>
                 <valItem ident="#colombinin"/>
@@ -97,6 +101,7 @@
                 <valItem ident="#darrigop"/>
                 <valItem ident="#datia"/>
                 <valItem ident="#davinie"/>
+                <valItem ident="#deldebbioc"/>
                 <valItem ident="#deldebbiog"/>
                 <valItem ident="#delmagrol"/>
                 <valItem ident="#denricoc"/>
@@ -120,11 +125,14 @@
                 <valItem ident="#fredianim"/>
                 <valItem ident="#fugassij"/>
                 <!-- Last name G -->
+                <valItem ident="#gambogia"/>
                 <valItem ident="#gambogis"/>
+                <valItem ident="#giampaolig"/>
                 <valItem ident="#giangranedif"/>
                 <valItem ident="#giannig"/>
                 <valItem ident="#giomettic"/>
                 <valItem ident="#giomettio"/>
+                <valItem ident="#giuglianettir"/>
                 <valItem ident="#giuntoligi"/>
                 <valItem ident="#giuntoligu"/>
                 <!-- Last name I -->
@@ -421,6 +429,7 @@
                 <valItem ident="stendardo"/>
                 <valItem ident="intrattenimento"/>
                 <valItem ident="regolamento"/>
+                <valItem ident="banchetto"/>
               </valList>
             </attDef>
           </attList>

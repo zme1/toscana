@@ -39,10 +39,11 @@
             </address>
             <idno type="URI">http://heinzhistorycenter.org</idno>
             <availability>
-               <p>The materials transcribed below are available for public use in the Detre Library<lb/>
-                  &amp; Archives located in the Heinz History Center. Materials cannot be removed<lb/>
-                  from the library and archives, but sharing of the documents digitally for<lb/>
-                  educational purposes is encouraged, with full and proper citation.</p>
+               <p>The materials transcribed below are available for public use in the Detre
+                  Library<lb/> &amp; Archives located in the Heinz History Center. Materials cannot
+                  be removed<lb/> from the library and archives, but sharing of the documents
+                  digitally for<lb/> educational purposes is encouraged, with full and proper
+                  citation.</p>
             </availability>
          </publicationStmt>
          <sourceDesc>
@@ -55,20 +56,20 @@
                </msIdentifier>
                <physDesc>
                   <handDesc>
-                     <p>This volume of minutes was written by the correspondance secretary of the<lb/>
-                        year 1923, <persName ref="#viganoe">Ernesto Vigano'</persName>.</p>
+                     <p>This volume of minutes was written by the correspondance secretary of
+                        the<lb/> year 1923, <persName ref="#viganoe">Ernesto Vigano'</persName>.</p>
                   </handDesc>
                   <accMat>
                      <p>The meeting minutes contain, in addition to written record of meetings,
-                        expense sheets that describe account balances and any spending or receipt of<lb/>
-                        money by the organization.</p>
+                        expense sheets that describe account balances and any spending or receipt
+                        of<lb/> money by the organization.</p>
                   </accMat>
                </physDesc>
                <history>
                   <origin>
-                     <p>The manuscript was compiled by Lega members during the monthly meetings that<lb/>
-                        took place in Pittsburgh, PA. This file contains meeting minutes that span<lb/>
-                        from January to December of 1923.</p>
+                     <p>The manuscript was compiled by Lega members during the monthly meetings
+                        that<lb/> took place in Pittsburgh, PA. This file contains meeting minutes
+                        that span<lb/> from January to December of 1923.</p>
                   </origin>
                   <acquisition>
                      <p>The manuscript documents were donated to the<orgName ref="#hhc">Heinz<lb/>
@@ -142,9 +143,9 @@
             </listPerson>
          </particDesc>
          <settingDesc>
-            <p>This file contains meeting minutes from the year 1923. Meetings were held monthly and<lb/>
-               were typically held in the same location near the downtown area of Pittsburgh,
-               Pennsylvania.</p>
+            <p>This file contains meeting minutes from the year 1923. Meetings were held monthly
+               and<lb/> were typically held in the same location near the downtown area of
+               Pittsburgh, Pennsylvania.</p>
             <p><address>
                   <addrLine>607 Webster Avenue</addrLine>
                   <addrLine>Pittsburgh, PA 15219</addrLine>
@@ -155,22 +156,24 @@
             <constitution type="composite"/>
             <derivation type="transcription"/>
             <domain type="institutional"/>
-            <factuality type="fact">The meeting minutes were handwritten accounts of discussions<lb/>
-               held, decisions, or money allocated made during the meetings.</factuality>
+            <factuality type="fact">The meeting minutes were handwritten accounts of
+               discussions<lb/> held, decisions, or money allocated made during the
+               meetings.</factuality>
             <interaction type="partial" active="plural" passive="group"/>
             <preparedness type="formulaic"/>
             <purpose type="documentation" degree="high"/>
          </textDesc>
          <abstract resp="#enickz">
-            <p>This research study is a collaborative effort between four undergraduate students and<lb/>
-               one faculty member at the University of Pittsburgh in Pittsburgh, PA to explore<lb/>
-               geographical, linguistic, and anthropological information regarding members and<lb/>
-               affiliates of the Lega Toscana di Protezione, a Pittsburgh-based beneficial society<lb/>
-               of Tuscan Italian immigrants. The primary purpose of this specific file is to contain<lb/>
-               specially marked-up renditionsof the transcribed minutes in order to create a social<lb/>
-               network mapping that will illuminate relationships and dynamics between both members<lb/>
-               of the Lega and those in the greater community based on varied types of interactions<lb/>
-               represented within the minutes log.</p>
+            <p>This research study is a collaborative effort between four undergraduate students
+               and<lb/> one faculty member at the University of Pittsburgh in Pittsburgh, PA to
+               explore<lb/> geographical, linguistic, and anthropological information regarding
+               members and<lb/> affiliates of the Lega Toscana di Protezione, a Pittsburgh-based
+               beneficial society<lb/> of Tuscan Italian immigrants. The primary purpose of this
+               specific file is to contain<lb/> specially marked-up renditionsof the transcribed
+               minutes in order to create a social<lb/> network mapping that will illuminate
+               relationships and dynamics between both members<lb/> of the Lega and those in the
+               greater community based on varied types of interactions<lb/> represented within the
+               minutes log.</p>
          </abstract>
          <langUsage>
             <language ident="it">Tuscan Italian, with some anglicisms</language>
@@ -195,54 +198,44 @@
       <text>
          <body>
             <ab>
-               <pb n="98"/>
-               
-               Giovedi 18 Gennaio 1923 alle ore 8.45 P.M.<lb/>
-               venne tenute la seduta ordinaria<lb/>
-               preseduta <persName ref="#marconic">dal predidente Carlo Marconi</persName><lb/>
-               il Processo verbale venne approvato<lb/>
-               come letto.<lb/>
-               <seg type="comp" subtype="sick">Fu concesso sussidio <persName ref="#martinellig" role="target">al fratello<lb/>
-               Giuseppe Martinelli</persName> di <num type="monetary" value="11">$11.00</num><lb/>
-                  per essersi fatto male ad un dito.</seg><lb/>
-               <seg type="proposal">Proposto <persName ref="#maffeis" role="proposer">dal fratello Stefano Maffei</persName><lb/>
-               ass. da <persName ref="#cappellinic" role="supporter">Catruccio Cappellini</persName> che sia<lb/>
-               eletto un altro segretario a motivo<lb/>
-               che <rs ref="#viganoe" role="scaduto">il segretario nuovo</rs> non poteva<lb/>
-               tirare avanti la carica, e fu rieletta<lb/>
-               <persName ref="#marchettie" role="replacement">il vecchio segretario Emilio Marchetti</persName>.</seg><lb/>
-               <seg type="proposal">Proposto <persName ref="#piaggesia" role="proposer">dal fratello Aladino Piaggesi</persName><lb/>
-               ass. da <persName ref="#carloe" role="supporter">Ezio Carli</persName> che sia rieletto <persName ref="#merciadrie" role="replacement">il<lb/>
-               vecchio guarda sala Eugenio Mercia-<lb/>
-               dri</persName>,</seg> Finito tutti gli affari sociali <persName ref="#marconic">il<lb/>
-               presidente Carlo Marconi</persName> ringrazio<lb/>
-               <orgName ref="#legaT">tutta la Lega</orgName> per averlo Eletto presi-<lb/>
-               dente per l’anno 1922, e poi chiamo<lb/>
-               <persName ref="#maffeis">il nuovo Presidente Stefano Maffei</persName><lb/>
-               e gli concesse la sedia da presidente<lb/>
+               <pb n="98"/> Giovedi 18 Gennaio 1923 alle ore 8.45 P.M.<lb/> venne tenute la seduta
+               ordinaria<lb/> preseduta <persName ref="#marconic">dal predidente Carlo
+                  Marconi</persName><lb/> il Processo verbale venne approvato<lb/> come letto.<lb/>
+               <seg type="comp" subtype="sick">Fu concesso sussidio <persName ref="#martinellig"
+                     role="target">al fratello<lb/> Giuseppe Martinelli</persName> di <num
+                     type="monetary" value="11">$11.00</num><lb/> per essersi fatto male ad un
+                  dito.</seg><lb/>
+               <seg type="proposal">Proposto <persName ref="#maffeis" role="proposer">dal fratello
+                     Stefano Maffei</persName><lb/> ass. da <persName ref="#cappellinic"
+                     role="supporter">Catruccio Cappellini</persName> che sia<lb/> eletto un altro
+                  segretario a motivo<lb/> che <rs ref="#viganoe" role="scaduto">il segretario
+                     nuovo</rs> non poteva<lb/> tirare avanti la carica, e fu rieletta<lb/>
+                  <persName ref="#marchettie" role="replacement">il vecchio segretario Emilio
+                     Marchetti</persName>.</seg><lb/>
+               <seg type="proposal">Proposto <persName ref="#piaggesia" role="proposer">dal fratello
+                     Aladino Piaggesi</persName><lb/> ass. da <persName ref="#carloe"
+                     role="supporter">Ezio Carli</persName> che sia rieletto <persName
+                     ref="#merciadrie" role="replacement">il<lb/> vecchio guarda sala Eugenio
+                     Mercia-<lb/> dri</persName>,</seg> Finito tutti gli affari sociali <persName
+                  ref="#marconic">il<lb/> presidente Carlo Marconi</persName> ringrazio<lb/>
+               <orgName ref="#legaT">tutta la Lega</orgName> per averlo Eletto presi-<lb/> dente per
+               l’anno 1922, e poi chiamo<lb/>
+               <persName ref="#maffeis">il nuovo Presidente Stefano Maffei</persName><lb/> e gli
+               concesse la sedia da presidente<lb/>
                <persName ref="#maffeis">Il Presidente Stefano Maffei</persName> disse due<lb/>
-               parole e ringrazziando <orgName ref="#legaT">tutta la Lega</orgName><lb/>
-               per averlo Eletto presidente ad esclama-<lb/>
-               zzione, ed di ubidire a quello che dice<lb/>
-               durando la seduta, e che la seduta<lb/>
-               sia aperta alla ore 8.30 P.M. precise<lb/>
-               e se l’ufficiale non e’ presente sia<lb/>
-               marcate assente, e il socio sentira’
-               quello che vi sara’ di fare.<lb/>
-               
+               parole e ringrazziando <orgName ref="#legaT">tutta la Lega</orgName><lb/> per averlo
+               Eletto presidente ad esclama-<lb/> zzione, ed di ubidire a quello che dice<lb/>
+               durando la seduta, e che la seduta<lb/> sia aperta alla ore 8.30 P.M. precise<lb/> e
+               se l’ufficiale non e’ presente sia<lb/> marcate assente, e il socio sentira’ quello
+               che vi sara’ di fare.<lb/>
                <pb n="99"/>
-               
                <persName ref="#pacinic">Il Vice Presidente Candito Pacini</persName><lb/>
-               ringraziava tutti e disse di essere<lb/>
-               presente a tutti le sedute ed di<lb/>
-               essere sincero a tutti i toscani.<lb/>
-               <closer>non avendo da fare altro per<lb/>
-               quella sera <persName ref="#maffeis">il Presidente Stefano<lb/>
-               Maffei</persName> dichiara sciolta la seduta.<lb/>
-               Il Presidente<lb/>
-               Il Segretario                   	<signed>Stefano Maffei</signed><lb/>
-               <signed>E. Marchetti</signed></closer><lb/>
-               
+               ringraziava tutti e disse di essere<lb/> presente a tutti le sedute ed di<lb/> essere
+               sincero a tutti i toscani.<lb/>
+               <closer>non avendo da fare altro per<lb/> quella sera <persName ref="#maffeis">il
+                     Presidente Stefano<lb/> Maffei</persName> dichiara sciolta la seduta.<lb/> Il
+                  Presidente<lb/> Il Segretario <signed>Stefano Maffei</signed><lb/>
+                  <signed>E. Marchetti</signed></closer><lb/>
             </ab>
          </body>
       </text>
@@ -253,55 +246,58 @@
             <titleStmt>
                <title/>
             </titleStmt>
-            <publicationStmt><authority>La Lega Toscana di Protezione</authority>
-            <date when="1923-02-15"/></publicationStmt>
-            <sourceDesc><p>Source description.</p></sourceDesc>
+            <publicationStmt>
+               <authority>La Lega Toscana di Protezione</authority>
+               <date when="1923-02-15"/>
+            </publicationStmt>
+            <sourceDesc>
+               <p>Source description.</p>
+            </sourceDesc>
          </fileDesc>
       </teiHeader>
       <text>
          <body>
             <ab>
-               <pb n="99"/>
-               Giovedi 15 Febbraio 1923 alle ore 8.45 P.M.<lb/>
-               venne tenuta la consueta seduta<lb/>
-               regolare ordinaria preseduta <persName ref="#maffeis">dal nostro<lb/>
-               Presidente Stefano Maffei</persName>, <list type="absent"><note>all’appello<lb/>
-               nominale degli ufficiali risultavano<lb/>
-               assenti i seguenti,</note> <item><persName ref="#pacinic">Candito Pacini</persName></item><lb/>
-               <item><persName ref="#desimos">Serafino De Simo</persName>,</item> <item><persName ref="#carloe">Ezio Carli</persName>,</item> <item><persName ref="#zinim">Modesto Zini</persName></item><lb/>
-               <item><persName ref="#sodinij">Jacopo Sodini</persName>,</item></list> Il processo verbale<lb/>
-               venne approvato come letto.<lb/>
-               <list type="applicants"><note>Vennero presentate le proposte di due<lb/>
-               nuovi soci accompagnate dal certificato medi-<lb/>
-               co</note> <item><persName ref="#incroccip">Pietro Incrocci</persName> di anni 38.</item> <item><persName ref="#pollastrinia">Alberto<lb/>
-               Pollastrini</persName> di anni 25,</item> <note>e il certificato<lb/>
-               medico <persName ref="#giomettic">del fratello Carlo giometti</persName> che<lb/>
-               e ritornato dall’Italia ed ora vi e in<lb/>
-               regola colla Lega.</note></list><lb/>
-               Il comitato Club trovo un posto in<lb/>
-               warrington ave. ma non pote sapere<lb/>
-               quanto volevano. Vi fu da ridire di sopra<lb/>
-               il diario <persName ref="#pardinib">del fratello Benedetto Pardini</persName> a<lb/>
-               motivo che aveva ritardato a presentare<lb/>
-               
-               <pb n="100"/>
-               
-               subito il certificato medico come<lb/>
-               prescrive il Capitolo 4 ed articolo 24.<lb/>
-               Ed come regola di Legge non gli aspetta<lb/>
-               niente ma dietro dichiaramento del<lb/>
-               fatto ufficiale sanitario e preso in<lb/>
-               considerazione fatte dall’ufficiale la<lb/>
-               Lega dice di pagarlo.<lb/>
-               <seg type="comp" subtype="sick">Fu pagato sussidio <persName ref="#pardinib" role="target">al fratello Bene-<lb/>
-               detto Pardini</persName> di <num type="monetary" value="29">$29.0</num>0</seg> <seg type="comp" subtype="sick">Sussidio <persName ref="#marsilis" role="target">al fratello<lb/>
-               Sam Marsili</persName> <num type="monetary" value="10">$10.00</num>.</seg><lb/>
-               <closer>Non avendo da fare altro per quella<lb/>
-               sera alle ore 10.30 P.M. <persName ref="#maffeis">il Presidente<lb/>
-               Stefano Maffei</persName> dichiara sciolta la<lb/>
-               seduta.<lb/>
-               Il Segretario                   	Il Presidente<lb/>
-               <signed>E.J. Marchett</signed>i                	<signed>S. Maffei</signed></closer><lb/>
+               <pb n="99"/> Giovedi 15 Febbraio 1923 alle ore 8.45 P.M.<lb/> venne tenuta la
+               consueta seduta<lb/> regolare ordinaria preseduta <persName ref="#maffeis">dal
+                  nostro<lb/> Presidente Stefano Maffei</persName>, <list type="absent">
+                  <note>all’appello<lb/> nominale degli ufficiali risultavano<lb/> assenti i
+                     seguenti,</note>
+                  <item><persName ref="#pacinic">Candito Pacini</persName></item>
+                  <lb/>
+                  <item><persName ref="#desimos">Serafino De Simo</persName>,</item>
+                  <item><persName ref="#carloe">Ezio Carli</persName>,</item>
+                  <item><persName ref="#zinim">Modesto Zini</persName></item>
+                  <lb/>
+                  <item><persName ref="#sodinij">Jacopo Sodini</persName>,</item>
+               </list> Il processo verbale<lb/> venne approvato come letto.<lb/>
+               <list type="applicants">
+                  <note>Vennero presentate le proposte di due<lb/> nuovi soci accompagnate dal
+                     certificato medi-<lb/> co</note>
+                  <item><persName ref="#incroccip">Pietro Incrocci</persName> di anni 38.</item>
+                  <item><persName ref="#pollastrinia">Alberto<lb/> Pollastrini</persName> di anni
+                     25,</item>
+                  <note>e il certificato<lb/> medico <persName ref="#giomettic">del fratello Carlo
+                        giometti</persName> che<lb/> e ritornato dall’Italia ed ora vi e in<lb/>
+                     regola colla Lega.</note>
+               </list><lb/> Il comitato Club trovo un posto in<lb/> warrington ave. ma non pote
+               sapere<lb/> quanto volevano. Vi fu da ridire di sopra<lb/> il diario <persName
+                  ref="#pardinib">del fratello Benedetto Pardini</persName> a<lb/> motivo che aveva
+               ritardato a presentare<lb/>
+               <pb n="100"/> subito il certificato medico come<lb/> prescrive il Capitolo 4 ed
+               articolo 24.<lb/> Ed come regola di Legge non gli aspetta<lb/> niente ma dietro
+               dichiaramento del<lb/> fatto ufficiale sanitario e preso in<lb/> considerazione fatte
+               dall’ufficiale la<lb/> Lega dice di pagarlo.<lb/>
+               <seg type="comp" subtype="sick">Fu pagato sussidio <persName ref="#pardinib"
+                     role="target">al fratello Bene-<lb/> detto Pardini</persName> di <num
+                     type="monetary" value="29">$29.0</num>0</seg>
+               <seg type="comp" subtype="sick">Sussidio <persName ref="#marsilis" role="target">al
+                     fratello<lb/> Sam Marsili</persName>
+                  <num type="monetary" value="10">$10.00</num>.</seg><lb/>
+               <closer>Non avendo da fare altro per quella<lb/> sera alle ore 10.30 P.M. <persName
+                     ref="#maffeis">il Presidente<lb/> Stefano Maffei</persName> dichiara sciolta
+                  la<lb/> seduta.<lb/> Il Segretario Il Presidente<lb/>
+                  <signed>E.J. Marchett</signed>i <signed>S. Maffei</signed></closer><lb/>
             </ab>
          </body>
       </text>
@@ -310,146 +306,94 @@
       <teiHeader>
          <fileDesc>
             <titleStmt>
-               <title></title>
+               <title/>
             </titleStmt>
-            <publicationStmt><authority>La Lega Toscana di Protezione</authority>
-            <date when="1923-03-15"/></publicationStmt>
-            <sourceDesc><p>Source description.</p></sourceDesc>
+            <publicationStmt>
+               <authority>La Lega Toscana di Protezione</authority>
+               <date when="1923-03-15"/>
+            </publicationStmt>
+            <sourceDesc>
+               <p>Source description.</p>
+            </sourceDesc>
          </fileDesc>
       </teiHeader>
       <text>
          <body>
-            <ab>
-               Giovedi 15 Marzo 1923 alle ore <del rend="strike">ore</del>
-               8.30 P.M. Venne Tenute la seduta<lb/>
-               regolare ordinaria preseduta <persName ref="#maffeis">dal<lb/>
-               Presidente Stefano Maffei</persName> <list><note>all’appello<lb/>
-               nominale degli ufficiali risultavano<lb/>
-               assenti i sequenti fratelli</note> <item><persName ref="#zinim">Modesto Zini</persName></item><lb/>
-               <item><persName ref="#merciadrie">Eugenio Merciadri</persName></item> <item><persName ref="#sodinij">Jacopo Sodin</persName>i.</item></list> Il Preces-<lb/>
-               so verbale venne approvato come letto.<lb/>
-               Fu presentata il rendiconto della fasta<lb/>
-               ballo e fu di Entrata $430.25 ed Uscita<lb/>
-               $310.25 rimane in cassa per la societa<lb/>
-               $120.00 di guadagno.<lb/>
-               <seg type="proposal">Proposto da <persName ref="#desimos" role="proposer">Serafino De simo</persName> ass. da <persName ref="#pacinic" role="supporter">Candito<lb/>
-               Pacini</persName> di cancellare <del rend="strike">tutti</del> quelli che<lb/>
-               sono stati avvisati per posta e che si<lb/>
-               
-               
-               <pb n="101"/>
-               
-               sono rifiutati di pagare ad di<lb/>
-               lascare quelli che anno detto che<lb/>
-               vogliano appartenere sempre alla<lb/>
-               Lega e di dagli tempo fino alla<lb/>
-               seduta di Aprile e se inseduta<lb/>
-               non pagassero di scancellarli.</seg><lb/>
+            <ab> Giovedi 15 Marzo 1923 alle ore <del rend="strike">ore</del> 8.30 P.M. Venne Tenute
+               la seduta<lb/> regolare ordinaria preseduta <persName ref="#maffeis">dal<lb/>
+                  Presidente Stefano Maffei</persName>
+               <list>
+                  <note>all’appello<lb/> nominale degli ufficiali risultavano<lb/> assenti i
+                     sequenti fratelli</note>
+                  <item><persName ref="#zinim">Modesto Zini</persName></item>
+                  <lb/>
+                  <item><persName ref="#merciadrie">Eugenio Merciadri</persName></item>
+                  <item><persName ref="#sodinij">Jacopo Sodin</persName>i.</item>
+               </list> Il Preces-<lb/> so verbale venne approvato come letto.<lb/> Fu presentata il
+               rendiconto della fasta<lb/> ballo e fu di Entrata $430.25 ed Uscita<lb/> $310.25
+               rimane in cassa per la societa<lb/> $120.00 di guadagno.<lb/>
+               <seg type="proposal">Proposto da <persName ref="#desimos" role="proposer">Serafino De
+                     simo</persName> ass. da <persName ref="#pacinic" role="supporter">Candito<lb/>
+                     Pacini</persName> di cancellare <del rend="strike">tutti</del> quelli che<lb/>
+                  sono stati avvisati per posta e che si<lb/>
+                  <pb n="101"/> sono rifiutati di pagare ad di<lb/> lascare quelli che anno detto
+                  che<lb/> vogliano appartenere sempre alla<lb/> Lega e di dagli tempo fino
+                  alla<lb/> seduta di Aprile e se inseduta<lb/> non pagassero di scancellarli.</seg><lb/>
                <seg type="comp" subtype="fondoM">La spesa del funerale al fratello<lb/>
-               <persName ref="#pasquinellial">Alfredo Psquinelli</persName> ammunta<lb/>
-               a $170.20 ed al numero dei soci aspetta<lb/>
-               di pagare $1.60 per ciascuno e quanti<lb/>
-               devono essere pagati in seduta<lb/>
-               oppore non piu’ tardi della seduta<lb/>
-               di Maggio Altrimenti il socio perdera<lb/>
-               i diritti come prescrive il nostro<lb/>
-               regolamento.</seg><lb/>
-               Proposto da Carlo Marconi ass da<lb/>
-               Modesto Zini di investicare se si<lb/>
-               puole avere il permesso per dare<lb/>
-               il Pic-Nic nell avvenire. Comitato<lb/>
-               Carlo Marconi. Jacopo Sodini.<lb/>
-               Americo Lucchesi.<lb/>
-               Proposto da Modesto Zini ass. da<lb/>
-               Giuseppe Gianni che la Lega<lb/>
-               Toscana prendi la inizziativa<lb/>
-               di dare il banchetto al fratello<lb/>
-               onorario Giovanni Pasquinelli<lb/>
-               nel avvenire.<lb/>
-               Fu presentata la domanda di<lb/>
-               fa parte a questa Lega di<lb/>
-               Michele Baccelli di anni 28. e Vittorio Andreini di anni 24<lb/>
-               Poi si passo alla cancellazzione<lb/>
-               dei soci che erano addietrati piu di<lb/>
-               12 mensili e che si sono rifiutati di<lb/>
-               
-               <pb n="102"/>
-               di pagare i seguenti sono<lb/>
-               Riccardo Mariani. Alberto Serafini<lb/>
-               Amus Olivieri. Raffaele Ragghianti<lb/>
-               Giuseppe Bianchini. Rinaldo Giu-<lb/>
-               glianetti. Angelo Tambellini.<lb/>
-               Ramialdo Vigano’. Orlando Francesco-<lb/>
-               ni. Lorenzo Puccetti e Giovanni<lb/>
-               Giampaoli. Non avendo da fare<lb/>
-               altro per quella sera il presidente<lb/>
-               alle ore 10.30 P.M. dichiara sciolta<lb/>
-               la Seduta.                       	Il Presidente<lb/>
-               Il Segretario                   	S. Maffei<lb/>
-               E.J. Marchetti<lb/>
-            </ab>
-         </body>
-      </text>
-   </TEI>
-   <TEI>
-      <teiHeader>
-         <fileDesc>
-            <titleStmt>
-               <title></title>
-            </titleStmt>
-            <publicationStmt><authority>La Lega Toscana di Protezione</authority>
-            <date when="1923-04-19"/></publicationStmt>
-            <sourceDesc><p>Source description./</p></sourceDesc>
-         </fileDesc>
-      </teiHeader>
-      <text>
-         <body>
-            <ab>
-               <pb n="102"/>
-               Giovedi 19 Aprile 1923 alle ore 8.30<lb/>
-               di sera venne tenuta la seduta<lb/>
-               regolare Ordinaria preseduta dal<lb/>
-               nostro presidente Stefano Maffei.<lb/>
-               All’appello nominale degli ufficiali<lb/>
-               risultavano assenti i seguenti ufficiali<lb/>
-               Americo Lucchesi, Santino Pasquinelli<lb/>
-               e Ezio Carli. Il processo verbale venne<lb/>
-               approvato come letto.<lb/>
-               Furono presentate due domande<lb/>
-               di far parte a questa Lega,<lb/>
-               Martino Barelli di anni 36 e Cesare<lb/>
-               Deldebbio di anni 24. Fu cancellto<lb/>
-               dalla Lega il fratello Angelo Gam-<lb/>
-               bogi. Il comitato Pic-Nic rapporto<lb/>
-               che per nessuna cosa si puole<lb/>
-               avere il permesso di dare il Pic-Nic<lb/>
-               la domenica.<lb/>
-               
-               <pb n="103"/>
-               Fu scelto il comitato del Banchetto<lb/>
-               <del rend="strike">de</del> di investicare dove sia meglio<lb/>
-               posto di dare il banchetto al fratello<lb/>
-               onorario Giovanni Pasquinelli<lb/>
-               e di rapportarlo in seduta, il<lb/>
-               comitato e cosi composto Jacopo<lb/>
-               Sodini, Giuseppe Fredianelli,<lb/>
-               Benedetto Pardini e Lorenzo Lunar-<lb/>
-               dini. Proposto da Benedetto Pardini<lb/>
-               ass. da Jacopo Sodini che il Banchetto<lb/>
-               sia fatto da soci della Lega e non<lb/>
-               nessuno altro, e solo i <del rend="strike">d</del> Soci devono<lb/>
-               appartenere. La spesa del funera-<lb/>
-               le del Fratello decesso Giovanni<lb/>
-               Cortopassi ammunta a $170.20<lb/>
-               ed aspetta di pagare ad ogni<lb/>
-               socio $1.65. questa tassa deve essere<lb/>
-               pagata non piu’ tardi della seduta<lb/>
-               di Luglio. Non avendo da fare<lb/>
-               altro per quella sera il presiden-<lb/>
-               te alle ore 10.30 dichiara sciolta<lb/>
-               la Seduta.                       	
-               Il Segretario                   	Il Presidente<lb/>
-               E.J. Marchetti                	S. Maffei<lb/>
+                  <persName ref="#pasquinellial" role="target">Alfredo Psquinelli</persName>
+                  ammunta<lb/> a <num type="monetary" value="170.2">$170.20</num> ed al numero dei
+                  soci aspetta<lb/> di pagare $1.60 per ciascuno e quanti<lb/> devono essere pagati
+                  in seduta<lb/> oppore non piu’ tardi della seduta<lb/> di Maggio Altrimenti il
+                  socio perdera<lb/> i diritti come prescrive il nostro<lb/> regolamento.</seg><lb/>
+               <seg type="proposal">Proposto da <persName ref="#marconic" role="proposer">Carlo
+                     Marconi</persName> ass da<lb/>
+                  <persName ref="#zinim" role="supporter">Modesto Zini</persName> di investicare se
+                  si<lb/> puole avere il permesso per dare<lb/> il Pic-Nic nell avvenire.</seg>
+               <list type="committee" subtype="picnic">
+                  <note>Comitato</note>
+                  <lb/>
+                  <item><persName ref="#marconic">Carlo Marconi</persName>.</item>
+                  <item><persName ref="#sodinij">Jacopo Sodini</persName>.</item>
+                  <lb/>
+                  <item><persName ref="#lucchesiam">Americo Lucchesi</persName>.</item>
+               </list><lb/>
+               <seg type="proposal">Proposto da <persName ref="#zinim" role="proposer">Modesto
+                     Zini</persName> ass. da<lb/>
+                  <persName ref="#giannig" role="supporter">Giuseppe Gianni</persName> che <orgName
+                     ref="#legaT">la Lega<lb/> Toscana</orgName> prendi la inizziativa<lb/> di dare
+                  il banchetto <persName ref="#pasquinellig">al fratello<lb/> onorario Giovanni
+                     Pasquinelli</persName><lb/> nel avvenire.</seg><lb/>
+               <list type="applicants">
+                  <note>Fu presentata la domanda di<lb/> fa parte a questa Lega di</note>
+                  <lb/>
+                  <item><persName ref="#baccellim">Michele Baccelli</persName> di anni 28.</item>
+                  <item>e <persName ref="#andreiniv">Vittorio Andreini</persName> di anni 24</item>
+               </list><lb/>
+               <list type="cancellati">
+                  <note>Poi si passo alla cancellazzione<lb/> dei soci che erano addietrati piu
+                     di<lb/> 12 mensili e che si sono rifiutati di<lb/>
+                     <pb n="102"/> di pagare i seguenti sono</note>
+                  <lb/>
+                  <item><persName ref="#marianir">Riccardo Mariani</persName>.</item>
+                  <item><persName ref="#serafinia">Alberto Serafini</persName></item>
+                  <lb/>
+                  <item><persName ref="#olivieria">Amus Olivieri</persName>.</item>
+                  <item><persName ref="#ragghiantir">Raffaele Ragghianti</persName></item>
+                  <lb/>
+                  <item><persName ref="#bianchinigiu">Giuseppe Bianchini</persName>.</item>
+                  <item><persName ref="#giuglianettir">Rinaldo Giu-<lb/>
+                     glianetti</persName>.</item>
+                  <item><persName ref="#tambellinia">Angelo Tambellini</persName>.</item>
+                  <lb/>
+                  <item><persName ref="#viganor">Ramialdo Vigano’</persName>.</item>
+                  <item><persName ref="#francesconio">Orlando Francesco-<lb/> ni</persName>.</item>
+                  <item><persName ref="#puccettil">Lorenzo Puccetti</persName></item>
+                  <item>e <persName ref="#giampaolig">Giovanni<lb/> Giampaoli</persName>.</item>
+               </list>
+               <closer>Non avendo da fare<lb/> altro per quella sera <rs ref="#maffeis">il
+                     presidente</rs><lb/> alle ore 10.30 P.M. dichiara sciolta<lb/> la Seduta. Il Presidente<lb/>
+                  <signed>Il Segretario</signed>
+                  <signed>S. Maffei</signed><lb/> E.J. Marchetti</closer><lb/>
             </ab>
          </body>
       </text>
@@ -460,67 +404,144 @@
             <titleStmt>
                <title/>
             </titleStmt>
-            <publicationStmt><authority>La Lega Toscana di Protezione</authority>
-            <date when="1923-05-17"/></publicationStmt>
-            <sourceDesc><p>Source description.</p></sourceDesc>
+            <publicationStmt>
+               <authority>La Lega Toscana di Protezione</authority>
+               <date when="1923-04-19"/>
+            </publicationStmt>
+            <sourceDesc>
+               <p>Source description./</p>
+            </sourceDesc>
          </fileDesc>
       </teiHeader>
       <text>
          <body>
             <ab>
-               <pb n="104"/>
-               
-               Giovedi 17 Maggio alle ore 8.30<lb/>
-               di sera venne tenuta la consueta<lb/>
-               seduta regolare ordinaria preseduta<lb/>
-               dal nostro presidente Stefano Maffei<lb/>
-               All’appello nominale degli ufficiali<lb/>
-               risultavano assenti i seguenti,<lb/>
-               Candito Pacini, Giuseppe Gianni,<lb/>
-               Modesto Zini, e Jacopo Sodini.<lb/>
-               il processo verbale venne approvato<lb/>
-               come letto.<lb/>
-               Fu presentata la domanda di ammis-<lb/>
-               sione di fare parte a questa Lega di<lb/>
-               Giuseppe Chicci di anni 27 e fu accettato.<lb/>
-               Fu pagato sussidio di malatia al<lb/>
-               fratello Giovacchino Maffei di $20.00<lb/>
-               Proposto ed ass. Modesto Zini e Lorenzo<lb/>
-               Vigano’ di accettare linvito mandato<lb/>
-               dalla loggia Cittadini Italo-Americani<lb/>
-               No. 317. Ordine figli d’Italia in america e<lb/>
-               questo venne accettata.<lb/>
-               Il comitato Banchetto rapporto ed<lb/>
-               ancora non aveva fatto niente, ed<lb/>
-               allor gli fu dato tempo fino alla prossima<lb/>
-               seduta.<lb/>
-               Fu presentata le dimessioni del<lb/>
-               Segretario di Corrispondenza a motivo<lb/>
-               che non poteva piu’ mandare <del rend="strike">avanti</del><lb/>
-               avanti la sua carica, da poco tempo<lb/>
-               disponibile, e questa venne accettata<lb/>
-               da tutta la semblea generale.<lb/>
-               Poi si apri la nomina del Segretario<lb/>
-               di corrispondenza ed un curatore<lb/>
-               
-               <pb n="105"/>
-               
-               fu proposto Giuseppe Gianni<lb/>
-               a segretario ed Martino Borelli<lb/>
-               a curatore.<lb/>
-               Proposto da Giuseppe Fredianelli ass.<lb/>
-               da Angelo Santartasci di ristribui-<lb/>
-               re 9 mesi pagati in piu’ impri-<lb/>
-               della morte del fratello decesso Alfredo<lb/>
-               Pasquinelli e questo venne accettata<lb/>
-               Non avendo altro da fare per quella<lb/>
-               sera alle 10.30 il Presidente<lb/>
-               Stefano Maffei dichiara ciolta<lb/>
-               la seduta.<lb/>                       	
-               Il Segretario                   	Il Presidente<lb/>
-               E.J. Marchetti                	Stefano Maffei<lb/>
-               [stk]G. Gianni[/stk]
-               
+               <pb n="102"/> Giovedi 19 Aprile 1923 alle ore 8.30<lb/> di sera venne tenuta la
+               seduta<lb/> regolare Ordinaria preseduta <persName ref="#maffeis">dal<lb/> nostro
+                  presidente Stefano Maffei</persName>.<lb/>
+               <list>
+                  <note>All’appello nominale degli ufficiali<lb/> risultavano assenti i seguenti
+                     ufficiali</note>
+                  <lb/>
+                  <item><persName ref="#lucchesiam">Americo Lucchesi</persName>,</item>
+                  <item><persName ref="#pasquinellis">Santino Pasquinelli</persName></item>
+                  <lb/>
+                  <item>e <persName ref="#carloe">Ezio Carli</persName>.</item>
+               </list> Il processo verbale venne<lb/> approvato come letto.<lb/>
+               <list type="applicants">
+                  <note>Furono presentate due domande<lb/> di far parte a questa Lega,</note>
+                  <lb/>
+                  <item><persName ref="#barellim">Martino Barelli</persName> di anni 36</item>
+                  <item>e <persName ref="#deldebbioc">Cesare<lb/> Deldebbio</persName> di anni
+                     24.</item>
+               </list>
+               <list type="cancellati">
+                  <note>Fu cancellto<lb/> dalla Lega</note>
+                  <item><persName ref="#gambogia">il fratello Angelo Gam-<lb/>
+                     bogi</persName>.</item>
+               </list> Il comitato Pic-Nic rapporto<lb/> che per nessuna cosa si puole<lb/> avere il
+               permesso di dare il Pic-Nic<lb/> la domenica.<lb/>
+               <pb n="103"/>
+               <list type="committee" subtype="banchetto">
+                  <note>Fu scelto il comitato del Banchetto<lb/>
+                     <del rend="strike">de</del> di investicare dove sia meglio<lb/> posto di dare
+                     il banchetto <persName ref="#pasquinellig">al fratello<lb/> onorario Giovanni
+                        Pasquinelli</persName><lb/> e di rapportarlo in seduta, il<lb/> comitato e
+                     cosi composto</note>
+                  <item><persName ref="#sodinij">Jacopo<lb/> Sodini</persName>,</item>
+                  <item><persName ref="#fredianellig">Giuseppe Fredianelli</persName>,</item>
+                  <lb/>
+                  <item><persName ref="#pardinib">Benedetto Pardini</persName></item>
+                  <item>e <persName ref="#lunardinil">Lorenzo Lunar-<lb/> dini</persName>.</item>
+               </list>
+               <seg type="proposal">Proposto da <persName ref="#pardinib" role="proposer">Benedetto
+                     Pardini</persName><lb/> ass. da <persName ref="#sodinij" role="supporter"
+                     >Jacopo Sodini</persName> che il Banchetto<lb/> sia fatto da soci della Lega e
+                  non<lb/> nessuno altro, e solo i <del rend="strike">d</del> Soci devono<lb/>
+                  appartenere.</seg>
+               <seg type="comp" subtype="fondoM">La spesa del funera-<lb/> le <persName
+                     ref="#cortopassig" role="target">del Fratello decesso Giovanni<lb/>
+                     Cortopassi</persName> ammunta a <num type="monetary" value="170.2"
+                     >$170.20</num><lb/> ed aspetta di pagare ad ogni<lb/> socio $1.65. questa tassa
+                  deve essere<lb/> pagata non piu’ tardi della seduta<lb/> di Luglio.</seg>
+               <closer>Non avendo da fare<lb/> altro per quella sera <rs ref="#maffeis">il
+                     presiden-<lb/> te</rs> alle ore 10.30 dichiara sciolta<lb/> la Seduta. Il
+                  Segretario Il Presidente<lb/>
+                  <signed>E.J. Marchetti</signed>
+                  <signed>S. Maffei</signed></closer><lb/>
+            </ab>
+         </body>
+      </text>
+   </TEI>
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title/>
+            </titleStmt>
+            <publicationStmt>
+               <authority>La Lega Toscana di Protezione</authority>
+               <date when="1923-05-17"/>
+            </publicationStmt>
+            <sourceDesc>
+               <p>Source description.</p>
+            </sourceDesc>
+         </fileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <ab>
+               <pb n="104"/> Giovedi 17 Maggio alle ore 8.30<lb/> di sera venne tenuta la
+               consueta<lb/> seduta regolare ordinaria preseduta<lb/>
+               <persName ref="#maffeis">dal nostro presidente Stefano Maffei</persName><lb/>
+               <list type="absent">
+                  <note>All’appello nominale degli ufficiali<lb/> risultavano assenti i
+                     seguenti,</note>
+                  <lb/>
+                  <item><persName ref="#pacinic">Candito Pacini</persName>,</item>
+                  <item><persName ref="#giannig">Giuseppe Gianni</persName>,</item>
+                  <lb/>
+                  <item><persName ref="#zinim">Modesto Zini</persName>,</item>
+                  <item>e <persName ref="#sodinij">Jacopo Sodini</persName>.</item>
+               </list><lb/> il processo verbale venne approvato<lb/> come letto.<lb/>
+               <list type="applicants">
+                  <note>Fu presentata la domanda di ammis-<lb/> sione di fare parte a questa Lega
+                     di</note>
+                  <lb/>
+                  <item><persName ref="#chiccig">Giuseppe Chicci</persName> di anni 27</item>
+                  <note/>
+               </list><lb/>
+               <seg type="comp" subtype="sick">Fu pagato sussidio di malatia <persName
+                     ref="#maffeigio" role="target">al<lb/> fratello Giovacchino Maffei</persName>
+                  di <num type="monetary" value="20">$20.00</num></seg><lb/>
+               <seg type="proposal">Proposto ed ass. <persName ref="#zinim" role="proposer">Modesto
+                     Zini</persName> e <persName ref="#viganol" role="supporter">Lorenzo<lb/>
+                     Vigano’</persName>
+                  <!-- <seg type="invite">di accettare linvito mandato<lb/>
+               <orgName ref="#">dalla loggia Cittadini Italo-Americani<lb/>
+               No. 317</orgName>. Ordine figli d’Italia in america</seg> e<lb/>
+               questo venne accettata.</seg> --></seg><lb/>
+               Il comitato Banchetto rapporto ed<lb/> ancora non aveva fatto niente, ed<lb/> allor
+               gli fu dato tempo fino alla prossima<lb/> seduta.<lb/> Fu presentata le dimessioni
+                  <rs ref="#marchettie" role="scaduto">del<lb/> Segretario di Corrispondenza</rs> a
+               motivo<lb/> che non poteva piu’ mandare <del rend="strike">avanti</del><lb/> avanti
+               la sua carica, da poco tempo<lb/> disponibile, e questa venne accettata<lb/> da tutta
+               la semblea generale.<lb/> Poi si apri la nomina del Segretario<lb/> di corrispondenza
+               ed un curatore<lb/>
+               <pb n="105"/> fu proposto <persName ref="#giannig" role="replacement">Giuseppe
+                  Gianni</persName><lb/> a segretario ed <persName ref="#borellie"
+                  role="replacement">Martino Borelli</persName><lb/> a curatore.<lb/>
+               <seg type="proposal">Proposto da <persName ref="#fredianellig" role="proposer"
+                     >Giuseppe Fredianelli</persName> ass.<lb/> da <persName ref="#santarlascia"
+                     role="supporter">Angelo Santarlasci</persName> di ristribui-<lb/> re 9 mesi
+                  pagati in piu’ impri-<lb/> della morte <persName ref="#pasquinellial">del fratello
+                     decesso Alfredo<lb/> Pasquinelli</persName> e questo venne accettata</seg><lb/>
+               <closer>Non avendo altro da fare per quella<lb/> sera alle 10.30 <persName
+                     ref="#maffeis">il Presidente<lb/> Stefano Maffei</persName> dichiara
+                  ciolta<lb/> la seduta.<lb/> Il Segretario Il Presidente<lb/>
+                  <signed>E.J. Marchetti</signed>
+                  <signed>Stefano Maffei</signed><lb/>
+                  <del rend="strike">G. Gianni</del></closer><lb/>
             </ab>
          </body>
       </text>
