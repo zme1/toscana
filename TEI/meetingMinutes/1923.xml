@@ -97,7 +97,11 @@
                   <roleName>Segretario di Corrispondenza</roleName>
                </person>
                <person>
-                  <persName ref="#marchettie" role="replacement">Emilio Marchetti</persName>
+                  <persName ref="#marchettie" role="scaduto">Emilio Marchetti</persName>
+                  <roleName>Segretario di Corrispondenza</roleName>
+               </person>
+               <person>
+                  <persName ref="#giannig" role="replacement">Giuseppe Gianni</persName>
                   <roleName>Segretario di Corrispondenza</roleName>
                </person>
                <person>
