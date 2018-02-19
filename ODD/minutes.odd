@@ -14,7 +14,7 @@
       <publicationStmt>
         <authority>Prepared in TEI 5 by Zachary Enick for the Italian research assistantship at the
           University of Pittsburgh. Github repository: <ref target="http://github.com/zme1/toscana"
-          />. Date last worked on: <date when="2018-02-17"/></authority>
+          />. Date last worked on: <date when="2018-02-18"/></authority>
         <availability>
           <licence><!-- licence to go here --></licence>
         </availability>
@@ -82,6 +82,7 @@
                 <valItem ident="#boninif"/>
                 <valItem ident="#bondare"/>
                 <valItem ident="#borellie"/>
+                <valItem ident="#borellim"/>
                 <valItem ident="#brigidinia"/>
                 <valItem ident="#buchignanil"/>
                 <!-- Last name C -->
@@ -91,6 +92,7 @@
                 <valItem ident="#carmassil"/>
                 <valItem ident="#chiccig"/>
                 <valItem ident="#chioccac"/>
+                <valItem ident="#chioccad"/>
                 <valItem ident="#cinellio"/>
                 <valItem ident="#colombinin"/>
                 <valItem ident="#coltellig"/>
@@ -106,7 +108,9 @@
                 <valItem ident="#delmagrol"/>
                 <valItem ident="#denricoc"/>
                 <valItem ident="#denricop"/>
+                <valItem ident="#desantie"/>
                 <valItem ident="#desimos"/>
+                <valItem ident="#dinie"/>
                 <valItem ident="#diodatia"/>
                 <valItem ident="#diodativ"/>
                 <valItem ident="#diriccoe"/>
@@ -121,6 +125,7 @@
                 <valItem ident="#fontanaf"/>
                 <valItem ident="#francesconia"/>
                 <valItem ident="#francesconio"/>
+                <valItem ident="#francionig"/>
                 <valItem ident="#fredianellig"/>
                 <valItem ident="#fredianim"/>
                 <valItem ident="#fugassij"/>
@@ -179,6 +184,7 @@
                 <valItem ident="#meconin"/>
                 <valItem ident="#merciadrie"/>
                 <valItem ident="#micheluccis"/>
+                <valItem ident="#miconin"/>
                 <valItem ident="#millarj"/>
                 <valItem ident="#mungaia"/>
                 <!-- Last name N -->
@@ -430,6 +436,7 @@
                 <valItem ident="intrattenimento"/>
                 <valItem ident="regolamento"/>
                 <valItem ident="banchetto"/>
+                <valItem ident="club"/>
               </valList>
             </attDef>
           </attList>
@@ -442,13 +449,15 @@
                 <valItem ident="#praxis"/>
                 <valItem ident="#hhc"/>
                 <valItem ident="#legaT"/>
-                <valItem ident="#figli"/>
+                <valItem ident="#figli31"/>
+                <valItem ident="#figli248"/>
                 <valItem ident="#msgm"/>
                 <valItem ident="#sodalizio"/>
                 <valItem ident="#presito"/>
                 <valItem ident="#clubM"/>
                 <valItem ident="#terremoto"/>
                 <valItem ident="#forest"/>
+                <valItem ident="#fratSic"></valItem>
               </valList>
             </attDef>
           </attList>

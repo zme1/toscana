@@ -39,11 +39,10 @@
             </address>
             <idno type="URI">http://heinzhistorycenter.org</idno>
             <availability>
-               <p>The materials transcribed below are available for public use in the Detre
-                  Library<lb/> &amp; Archives located in the Heinz History Center. Materials cannot
-                  be removed<lb/> from the library and archives, but sharing of the documents
-                  digitally for<lb/> educational purposes is encouraged, with full and proper
-                  citation.</p>
+               <p>The materials transcribed below are available for public use in the Detre Library
+                  &amp; Archives located in the Heinz History Center. Materials cannot be removed
+                  from the library and archives, but sharing of the documents digitally for
+                  educational purposes is encouraged, with full and proper citation.</p>
             </availability>
          </publicationStmt>
          <sourceDesc>
@@ -72,9 +71,9 @@
                         that span<lb/> from January to December of 1923.</p>
                   </origin>
                   <acquisition>
-                     <p>The manuscript documents were donated to the<orgName ref="#hhc">Heinz<lb/>
-                           History Center</orgName>by<persName ref="#vondasl">Laura<lb/>
-                           Bocelli-Vondas</persName>in two portions - the first in 2015 and the<lb/>
+                     <p>The manuscript documents were donated to the<orgName ref="#hhc">Heinz
+                           History Center</orgName>by<persName ref="#vondasl">Laura
+                           Bocelli-Vondas</persName>in two portions - the first in 2015 and the
                         second in 2017.</p>
                   </acquisition>
                </history>
@@ -168,16 +167,15 @@
             <purpose type="documentation" degree="high"/>
          </textDesc>
          <abstract resp="#enickz">
-            <p>This research study is a collaborative effort between four undergraduate students
-               and<lb/> one faculty member at the University of Pittsburgh in Pittsburgh, PA to
-               explore<lb/> geographical, linguistic, and anthropological information regarding
-               members and<lb/> affiliates of the Lega Toscana di Protezione, a Pittsburgh-based
-               beneficial society<lb/> of Tuscan Italian immigrants. The primary purpose of this
-               specific file is to contain<lb/> specially marked-up renditionsof the transcribed
-               minutes in order to create a social<lb/> network mapping that will illuminate
-               relationships and dynamics between both members<lb/> of the Lega and those in the
-               greater community based on varied types of interactions<lb/> represented within the
-               minutes log.</p>
+            <p>This research study is a collaborative effort between four undergraduate students and
+               one faculty member at the University of Pittsburgh in Pittsburgh, PA to explore
+               geographical, linguistic, and anthropological information regarding members and
+               affiliates of the Lega Toscana di Protezione, a Pittsburgh-based beneficial society
+               of Tuscan Italian immigrants. The primary purpose of this specific file is to contain
+               specially marked-up renditionsof the transcribed minutes in order to create a social
+               network mapping that will illuminate relationships and dynamics between both members
+               of the Lega and those in the greater community based on varied types of interactions
+               represented within the minutes log.</p>
          </abstract>
          <langUsage>
             <language ident="it">Tuscan Italian, with some anglicisms</language>
@@ -556,178 +554,60 @@
             <titleStmt>
                <title/>
             </titleStmt>
-            <publicationStmt><authority>La Lega Toscana di Protezione</authority>
-            <date when="1923-07-19"/></publicationStmt>
-            <sourceDesc><p>Source description.</p></sourceDesc>
-         </fileDesc>
-      </teiHeader>
-      <text>
-         <body><ab>
-            Giovedi 19 Luglio 1923. Alle ore 9. Di sera venne<lb/>
-            Tenuta la consueta seduta regolare,<lb/>
-            Presieduta dal nostro presidente Stefano Maffei.<lb/>
-            All’appello nominale degli ufficiali risultavano<lb/>
-            Assenti i seguenti uffi. Martino Borelli 2o<lb/>
-            curatore Il proceso verbale venne approvato come<lb/>
-            Letto. Venne presentata l’applicazione a nuovo<lb/>
-            Socio di Giuseppe Francioni e fu’ approvata.<lb/>
-            Avendo la Lega Toscana ricevuto dalla Loggia<lb/>
-            S. Amato n. 248. Ordine Indipendente Figli d’Italia<lb/>
-            
-            <pb n="106"/>
-            
-            3 libretti riffa, venne fatta la proposta<lb/>
-            Santino Pasquinelli e assecondata da Amerigo<lb/>
-            Lucchesi di accettare 2 libretti e di respingere<lb/>
-            l’altro. fu fatta un’altra proposta da Lorenzo<lb/>
-            Vigano’ ed approvata da Giangrandi Francesco<lb/>
-            di accettarli tutti e tre. ed un’altra proposta<lb/>
-            da Castruccio Cappellini e assecondata da,<lb/>
-            Amerigo Lucchesi di respingerli tutti.<lb/>
-            Dopo una lunga discussione fu mandata la<lb/>
-            votazione la proposta Cappellini. risultando<lb/>
-            negativa con 7 voti favorevoli e 9 contrari.<lb/>
-            Cosi venne approvato di ritenerli tutti e<lb/>
-            di mandarci l’immontare di $15.<lb/>
-            Fu proposto da Casimiro Pellegrini e assecon<lb/>
-            dato da Virgilio Danesi di passare $2.50 al<lb/>
-            comitato del ballo del 24 Gennaio U.S. Pero’<lb/>
-            trovando che qualcuno del comitato non aveva<lb/>
-            fatto il suo dovere allora l’assemblea decise<lb/>
-            che siano trovati quelli che l’avorarono e di<lb/>
-            farli appartenere al Banchetto.<lb/>
-            Chiamato il comitato curatori se avevano<lb/>
-            fatti i conti del semestre, rispose che non<lb/>
-            li avevano fatti. Non avendo altro da fare<lb/>
-            per quella sera il presidente dichiara sciolta<lb/>
-            la seduta. Ore 11.30 P.M.<lb/>
-            Il Segretario		Il Presidente<lb/>
-            G. Gianni		S. Maffei [firmati]<lb/>
-         </ab></body>
-      </text>
-   </TEI>
-   <TEI>
-      <teiHeader>
-         <fileDesc>
-            <titleStmt>
-               <title></title>
-            </titleStmt>
-            <publicationStmt><authority>La Lega Toscana di Protezione</authority>
-            <date when="1923-08-16"/></publicationStmt>
-            <sourceDesc><p>Source description.</p></sourceDesc>
-         </fileDesc>
-      </teiHeader>
-      <text>
-         <body><ab>
-            <pb n="107"/>
-            
-            Giovedi 16 Agosto 1923 alle ore 9 P.M. venne<lb/>
-            aperta la consueta seduta regolare, presieduta dal<lb/>
-            nostro presidente Stefano Maffei.<lb/>
-            All’appello nominale degli ufficiali, risultavano assenti<lb/>
-            i seguenti ufficiali. Serafino De Simo. primo curatore<lb/>
-            Ezio Carli terzo curatore. Lorenzo Vigano’ Ufficiale<lb/>
-            sanitario. Jacopo Sodini Collettore<lb/>
-            Il processo verbale venne approvato come letto.<lb/>
-            Fu presentata da Castruccio Cappellini una petizione<lb/>
-            di prelevare una data somma dal fondo di cassa a cio’<lb/>
-            che il banchetto al nostro socio onorario Giovanni<lb/>
-            Pasquinelli venisse piu’ numeroso.<lb/>
-            Un’altro petizione presentata da Amerigo Lucchesi<lb/>
-            di non prelevare nessuna somma dal fondo di cassa<lb/>
-            dopo finita di leggere la petizione Cappellini il<lb/>
-            fratello Michele Simonetti chiede la parola e fa<lb/>
-            conoscere all’assemblea che la petizione Cappellini<lb/>
-            e bella ma che si puo’ fare il banchetto lo stesso sensa<lb/>
-            prelevare nessun fondo e che riescera’ numeroso lo<lb/>
-            stesso. Il fratello Cappellini chiede la parola e<lb/>
-            inssiste che <del rend="strike">prell</del> prelevando una data somma<lb/>
-            dal fondo di cassa il banchetto sarebbe piu’ numeroso<lb/>
-            a onore del nostro socio onorario Giovanni Pasquinelli<lb/>
-            dopo una lunga discussione alla quale presero<lb/>
-            parte diversi membri. Il presidente mette a votazio-<lb/>
-            ne le petizioni. Il risultato della votazione fu<lb/>
-            negativo per la petizione Cappellini risultandone<lb/>
-            25 contrari e favorevoli nissuni.<lb/>
-            Chiede la parola il fratello Amerigo Pasquinelli<lb/>
-            capo comitato e da le dimissioni motivo che il<lb/>
-            banchetto non riuscira’ numeroso abbastanza non<lb/>
-            prelevando nessun fondo dalla societa’<lb/>
-            
-            <pb n="108"/>
-            
-            Il presidente all’ora nomina Michele Simonetti<lb/>
-            a capo comitato e lui scieglie i seguenti componenti<lb/>
-            Olindo Cinelli, Amerigo Lucchesi e B. Pardini.<lb/>
-            Il fratello Simonetti acconsente di trovare il<lb/>
-            locale adatto e di dare un buon pranzo e che<lb/>
-            l’ammontare non superi $5.00<lb/>
-            In casso oggi: Totale. 3194.20<lb/>
-            Non avendo altro da fare Il presidente dichiara<lb/>
-            sciolta la seduta. ore 10.45 P.M.<lb/>
-            
-            Il Segretario			Il Presidente<lb/>
-            G. Gianni			S. Maffei	[firmate]<lb/>
-         </ab></body>
-      </text>
-   </TEI>
-   <TEI>
-      <teiHeader>
-         <fileDesc>
-            <titleStmt>
-               <title></title>
-            </titleStmt>
-            <publicationStmt><authority>La Lega Toscana di Protezione</authority>
-            <date when="1923-09-20"/></publicationStmt>
-            <sourceDesc><p>Source description.</p></sourceDesc>
+            <publicationStmt>
+               <authority>La Lega Toscana di Protezione</authority>
+               <date when="1923-07-19"/>
+            </publicationStmt>
+            <sourceDesc>
+               <p>Source description.</p>
+            </sourceDesc>
          </fileDesc>
       </teiHeader>
       <text>
          <body>
-            <ab>
-               <pb n="108"/>
-               Giovedi 20 Settembre 1923 alle ore 9 P.M.<lb/>
-               venne aperta la seduta regolare presieduta<lb/>
-               dal nostro Presidente. S Maffei.<lb/>
-               All’appello nominale risultavano assenti i<lb/>
-               seguenti ufficiali. Candido Pacini Vice Presidente<lb/>
-               Lorenzo Vigano’ Ufficiale sanitario Jacopo Sodini<lb/>
-               collettore.<lb/>
-               Il processo verbale venne approvato come letto<lb/>
-               Fu accettata l’applicazione a nuovo socio di<lb/>
-               Enemia De Santi<lb/>
-               Proposto da Carlo Marconi assecondato da<lb/>
-               Olindo Cinelli di aggiungere 5 membri ancora<lb/>
-               al comitato club e furono nominati i seguenti<lb/>
-               soci Casimiro Pellegrini. Serafino De Simo.<lb/>
-               Olindo Cinelli. Carlo Marconi. e [stk]Benedetto Pardini[/stk] Candito Pacini<lb/>
-               Proposto da Michele Simonetti assecondato da<lb/>
-               Santino Pasquinelli di dare tre mesi di tempo<lb/>
-               
-               <pb n="109"/>
-               
-               al comitato club di portare alla luce quache<lb/>
-               cosa. caso diverso di fare un nuovo comitato<lb/>
-               Proposto da Carlo Marconi assecondato da<lb/>
-               Ezio Carli di dare due balli, il primo dal 15<lb/>
-               novembre al 1 Dicembre e il secondo il giovedi<lb/>
-               grasso se si puo’. e furono incaricati i seguenti dinga-<lb/>
-               ggiare la sala [stk]Santino Pasquinelli[/stk] C. Marconi C. Cappellini e Jacopo Sodini<lb/>
-               Il capo curatore Serafino De Simo fece il rapporto<lb/>
-               del semestre e dichiaro’ che [stk]si trovavano in[/stk] i libri<lb/>
-               si trovavano i perfetta regola.<lb/>
-               Proposto da Modesto Zini e assecondato da<lb/>
-               Amerigo Lucchesi di cambiare di sala, alluopo<lb/>
-               furono scielti i seguenti membri di investigare<lb/>
-               Carlo Marconi Castruccio Cappellini Jacopo Sodini<lb/>
-               Stefano Maffei Amerigo Lucchesi<lb/>
-               Fu approvato il sussidio di 32 dollari al socio<lb/>
-               Pietro Incrocci.<lb/>
-               In cassa oggi $3332.17. Non avendo altro<lb/>
-               da fare il presidente dichiara sciolta la seduta<lb/>
-               10.45 P.M.<lb/>
-               Il Seg				Il Presidente<lb/>
-               G. Gianni			Candito Pacini [firmate]<lb/>
+            <ab> Giovedi 19 Luglio 1923. Alle ore 9. Di sera venne<lb/> Tenuta la consueta seduta
+               regolare,<lb/> Presieduta <persName ref="#maffeis">dal nostro presidente Stefano
+                  Maffei</persName>.<lb/>
+               <list type="absent">
+                  <note>All’appello nominale degli ufficiali risultavano<lb/> Assenti i seguenti
+                     uffi.</note>
+                  <item><persName ref="#borellim">Martino Borelli</persName> 2o<lb/> curatore</item>
+               </list> Il proceso verbale venne approvato come<lb/> Letto. <list type="applicants">
+                  <note>Venne presentata l’applicazione a nuovo<lb/> Socio di</note>
+                  <item><persName ref="#francionig">Giuseppe Francioni</persName></item>
+                  <note>e fu’ approvata.</note>
+               </list><lb/>
+               <seg type="comp" subtype="charity">Avendo <orgName ref="#legaT" role="target">la Lega
+                     Toscana</orgName> ricevuto <orgName ref="#figli248" role="source">dalla
+                     Loggia<lb/> S. Amato n. 248. Ordine Indipendente Figli d’Italia</orgName><lb/>
+                  <pb n="106"/> 3 libretti riffa,</seg>
+               <seg type="proposalReject">venne fatta la proposta<lb/>
+                  <persName ref="#pasquinellis" role="proposer">Santino Pasquinelli</persName> e
+                  assecondata da <persName ref="#lucchesiam" role="supporter">Amerigo<lb/>
+                     Lucchesi</persName> di accettare 2 libretti e di respingere<lb/> l’altro.</seg>
+               <seg type="proposal">fu fatta un’altra proposta da <persName ref="#viganol"
+                     role="proposer">Lorenzo<lb/> Vigano’</persName> ed approvata da <persName
+                     ref="#giangranedif" role="supporter">Giangrandi Francesco</persName><lb/> di
+                  accettarli tutti e tre.</seg>
+               <seg type="proposalReject">ed un’altra proposta<lb/> da <persName ref="#cappellinic"
+                     role="proposer">Castruccio Cappellini</persName> e assecondata da,<lb/>
+                  <persName ref="#lucchesiam" role="supporter">Amerigo Lucchesi</persName> di
+                  respingerli tutti.</seg><lb/> Dopo una lunga discussione fu mandata la<lb/>
+               votazione la proposta Cappellini. risultando<lb/> negativa con 7 voti favorevoli e 9
+               contrari.<lb/> Cosi venne approvato di ritenerli tutti e<lb/> di mandarci l’immontare
+               di $15.<lb/>
+               <seg type="proposal">Fu proposto da <persName ref="#pellegrinic" role="proposer"
+                     >Casimiro Pellegrini</persName> e assecon<lb/> dato da <persName ref="#danesiv"
+                     role="supporter">Virgilio Danesi</persName> di passare $2.50 al<lb/> comitato
+                  del ballo del 24 Gennaio U.S. Pero’<lb/> trovando che qualcuno del comitato non
+                  aveva<lb/> fatto il suo dovere allora l’assemblea decise<lb/> che siano trovati
+                  quelli che l’avorarono e di<lb/> farli appartenere al Banchetto.</seg><lb/>
+               Chiamato il comitato curatori se avevano<lb/> fatti i conti del semestre, rispose che
+               non<lb/> li avevano fatti. <closer>Non avendo altro da fare<lb/> per quella sera <rs
+                     ref="#maffeis">il presidente</rs> dichiara sciolta<lb/> la seduta. Ore 11.30
+                  P.M.<lb/> Il Segretario Il Presidente<lb/>
+                  <signed>G. Gianni</signed>
+                  <signed>S. Maffei</signed></closer><lb/>
             </ab>
          </body>
       </text>
@@ -736,224 +616,453 @@
       <teiHeader>
          <fileDesc>
             <titleStmt>
-               <title></title>
+               <title/>
             </titleStmt>
-            <publicationStmt><authority>La Lega Toscana di Protezione</authority>
-            <date when="1923-10-18"/></publicationStmt>
-            <sourceDesc><p>Source description.</p></sourceDesc>
+            <publicationStmt>
+               <authority>La Lega Toscana di Protezione</authority>
+               <date when="1923-08-16"/>
+            </publicationStmt>
+            <sourceDesc>
+               <p>Source description.</p>
+            </sourceDesc>
          </fileDesc>
       </teiHeader>
       <text>
-         <body><ab>
-            <pb n="109"/>
-            Giovedi 18 Ottobre 1923 alle ore 9 P.M. venne<lb/>
-            aperta la seduta regolare ordinaria presieduta<lb/>
-            dal nostro vice presidente Candito Pacini.<lb/>
-            All’appello nominale risultavano assenti i seguenti<lb/>
-            ufficiali Stefano Maffei Presidente. Serafino De<lb/>
-            Simo Primo curatore. Ezio Carli secondo curatore<lb/>
-            
-            <pb n="110"/>
-            
-            Lorenzo Vigano’ ufficiale sanitario e questo e la<lb/>
-            terza mancanza consecutiva. Modesto Zini ufficiale<lb/>
-            sanitario e Jacopo Sodini collettore.<lb/>
-            
-            Il processo verbale venne approvato come letto.<lb/>
-            
-            Venne aperta la nomina per il comitato ballo e<lb/>
-            <del rend="strike">vennero</del> vennero scielti i seguenti soci.<lb/>
-            Amerigo Lucchesi Presidente Casimiro Pellegrini<lb/>
-            Vice presidente. Giuseppe Gianni segretario<lb/>
-            Candito Pacini Charman di arrangiamento<lb/>
-            Jacopo Sodini assistente charman di arrangiamento<lb/>
-            Carlo Marconi charman di ricevimento. Muzio<lb/>
-            Frediani Castruccio Cappellini e Michele Simonetti<lb/>
-            assistenti.<lb/>
-            Tesoriere Santino Pasquinelli<lb/>
-            Capo sala [stk]Olindo Cinelli[/stk] Lorenzo Lunardini<lb/>
-            Modesto Zini<lb/>
-            Non essendo i membri in numero sufficiente per<lb/>
-            sciegliere gli assistenti fu deciso di chiamare una<lb/>
-            seduta straordinaria per discutere sul farsi<lb/>
-            in quistione del ballo e nel tempo stesso di sciegliere<lb/>
-            li assistenti e sarebbero.<lb/>
-            Martino Borelli. Giuseppe Fredianelli. Ermete Vammucci<lb/>
-            Pasqualino Maffei. Adolfo Francesconi. Carlo<lb/>
-            Giometti. Adelmo Dati. Guiseppe Tambellini<lb/>
-            Giuseppe Martinelli. Pietro Incrocci. Nello Miconi<lb/>
-            Derio Chiocca e Eugenio Merciadri.<lb/>
-            Fu proposto da Casimiro Pellegrini e assecondato<lb/>
-            da Martino Borelli che tutti i membri della Lega<lb/>
-            la sera del ballo, abbiano un piccolo nastrino di<lb/>
-            riconoscimento.<lb/>
-            
-            <pb n="111"/>
-            
-            Fu proposto da Muzio Frediani e assecondato da<lb/>
-            Carlo Marconi che tutti i membri che vendono<lb/>
-            5 Ticchette gli viene abbonata la sua, che e’ del<lb/>
-            valore di un dollaro.<lb/>
-            Proposto da Aladino Lombardi assecondato da<lb/>
-            Stefano Maffei di dare un banchetto al comitato<lb/>
-            ballo.<lb/>
-            Fu presentata e letta una lettera che la Fratellanza<lb/>
-            Siciliana mandava invitando la lega Toscana al<lb/>
-            ballo e piu’ inviava 3 ticchette gratuite. Il fratello<lb/>
-            Muzio Frediani fece la proposta e Stefano Maffei<lb/>
-            l’assecondato’ di mandarci 10 dollari. e<lb/>
-            l’assemblea acconsenti di mandarceli.<lb/>
-            Fu incassato dal segretario di finanza $62.45<lb/>
-            In cassa oggi $ 3412.57.<lb/>
-            Non avendo altro da fare il presidente dichiara<lb/>
-            sciolta la seduta ore 10.45<lb/>
-            
-            Il Segretario			Il Presidente<lb/>
-            G. Gianni			Stefano Maffei [firmate]<lb/>
-            
-         </ab></body>
+         <body>
+            <ab>
+               <pb n="107"/> Giovedi 16 Agosto 1923 alle ore 9 P.M. venne<lb/> aperta la consueta
+               seduta regolare, presieduta <persName ref="#maffeis">dal<lb/> nostro presidente
+                  Stefano Maffei</persName>.<lb/>
+               <list type="absent">
+                  <note>All’appello nominale degli ufficiali, risultavano assenti<lb/> i seguenti
+                     ufficiali.</note>
+                  <item><persName ref="#desimos">Serafino De Simo</persName>. primo curatore</item>
+                  <lb/>
+                  <item><persName ref="#carloe">Ezio Carli</persName> terzo curatore.</item>
+                  <item><persName ref="#viganol">Lorenzo Vigano’</persName> Ufficiale<lb/>
+                     sanitario.</item>
+                  <item><persName ref="#sodinij">Jacopo Sodini</persName> Collettore</item>
+               </list><lb/> Il processo verbale venne approvato come letto.<lb/>
+               <seg type="proposalReject">Fu presentata da <persName ref="#cappellinic"
+                     role="proposer">Castruccio Cappellini</persName> una petizione<lb/> di
+                  prelevare una data somma dal fondo di cassa a cio’<lb/> che il banchetto <persName
+                     ref="#pasquinellig">al nostro socio onorario Giovanni<lb/>
+                     Pasquinelli</persName> venisse piu’ numeroso.</seg><lb/>
+               <seg type="proposalWritten">Un’altro petizione presentata da <persName
+                     ref="#lucchesiam" role="proposer">Amerigo Lucchesi</persName><lb/> di non
+                  prelevare nessuna somma dal fondo di cassa</seg><lb/> dopo finita di leggere la
+               petizione <persName ref="#cappellinic">Cappellini</persName>
+               <persName ref="#simonettim">il<lb/> fratello Michele Simonetti</persName> chiede la
+               parola e fa<lb/> conoscere all’assemblea che la petizione <persName
+                  ref="#cappellinic">Cappellini</persName><lb/> e bella ma che si puo’ fare il
+               banchetto lo stesso sensa<lb/> prelevare nessun fondo e che riescera’ numeroso
+               lo<lb/> stesso. <persName ref="#cappellinic">Il fratello Cappellini</persName> chiede
+               la parola e<lb/> inssiste che <del rend="strike">prell</del> prelevando una data
+               somma<lb/> dal fondo di cassa il banchetto sarebbe piu’ numeroso<lb/> a onore
+                  <persName ref="#pasquinellig">del nostro socio onorario Giovanni
+                  Pasquinelli</persName><lb/> dopo una lunga discussione alla quale presero<lb/>
+               parte diversi membri. <rs ref="#maffeis">Il presidente</rs> mette a votazio-<lb/> ne
+               le petizioni. Il risultato della votazione fu<lb/> negativo per la petizione
+                  <persName ref="#cappellinic">Cappellini</persName> risultandone<lb/> 25 contrari e
+               favorevoli nissuni.<lb/> Chiede la parola <persName ref="#pasquinelliam">il fratello
+                  Amerigo Pasquinelli</persName><lb/> capo comitato e da le dimissioni motivo che
+               il<lb/> banchetto non riuscira’ numeroso abbastanza non<lb/> prelevando nessun fondo
+               dalla societa’<lb/>
+               <pb n="108"/>
+               <seg type="nomination"><list type="committee" subtype="banchetto">
+                     <note><rs ref="#maffeis" role="source">Il presidente</rs> all’ora nomina
+                           <persName ref="#simonettim" role="target">Michele
+                        Simonetti</persName><lb/> a capo comitato e lui scieglie i seguenti
+                        componenti</note>
+                     <lb/>
+                     <item><persName ref="#cinellio" role="target">Olindo Cinelli</persName>,</item>
+                     <item><persName ref="#lucchesiam" role="target">Amerigo
+                        Lucchesi</persName></item>
+                     <item>e <persName ref="#pardinib" role="target">B. Pardini</persName>.</item>
+                  </list></seg><lb/>
+               <persName ref="#simonettim">Il fratello Simonetti</persName> acconsente di trovare
+               il<lb/> locale adatto e di dare un buon pranzo e che<lb/> l’ammontare non superi
+               $5.00<lb/> In casso oggi: Totale. 3194.20<lb/>
+               <closer>Non avendo altro da fare <rs ref="#maffeis">Il presidente</rs> dichiara<lb/>
+                  sciolta la seduta. ore 10.45 P.M.<lb/> Il Segretario Il Presidente<lb/>
+                  <signed>G. Gianni</signed>
+                  <signed>S. Maffei</signed></closer><lb/>
+            </ab>
+         </body>
       </text>
    </TEI>
    <TEI>
       <teiHeader>
          <fileDesc>
             <titleStmt>
-               <title></title>
+               <title/>
             </titleStmt>
-            <publicationStmt><authority>La Lega Toscana di Protezione</authority>
-            <date when="1923-11-15"/></publicationStmt>
-            <sourceDesc><p>Source description.</p></sourceDesc>
+            <publicationStmt>
+               <authority>La Lega Toscana di Protezione</authority>
+               <date when="1923-09-20"/>
+            </publicationStmt>
+            <sourceDesc>
+               <p>Source description.</p>
+            </sourceDesc>
          </fileDesc>
       </teiHeader>
       <text>
-         <body><ab>
-            <pb n="111"/>
-            Giovedi 15 Novembre 1923 alle ore. 9. P.M.<lb/>
-            venne aperta la seduta regolare presieduta<lb/>
-            dal nostro presidente Stefano Maffei.<lb/>
-            ll’appello nominale risultavano assenti i<lb/>
-            seguenti ufficiali. Serafino De Simo primo<lb/>
-            Curatore Ezio Carli secondo Curatore e<lb/>
-            Jacopo Sodini Collettore.<lb/>
-            Il processo verbale venne approvato come letto.<lb/>
-            
-            <pb n="112"/>
-            
-            Alla richiesta del presidente se il nuovo<lb/>
-            applicante Michele Baccelli fosse presente fu<lb/>
-            risposto negativamente. Il presidente allora<lb/>
-            fece conoscere all’assemblea che il nuovo<lb/>
-            applicante Michele Baccelli aveva infranto<lb/>
-            la nostre leggi e per cio andava incontro<lb/>
-            alla perdita dell’ascudo da lui versato<lb/>
-            all’atto della sua domanda d’ammissione<lb/>
-            L’assemblea dopo un vivace dibattito si<lb/>
-            dichiaro’ in maggioranza alla proposta di<lb/>
-            Casimiro Pellegrini. cioe di farlo avvisato<lb/>
-            per mezo di lettera che se non si presenta<lb/>
-            la sera di giovedi 20 Decembre giorno della<lb/>
-            nostra seduta perdera’ il dollaro da lui<lb/>
-            versato.<lb/>
-            Il comitato Club rapporto’ che ancora non<lb/>
-            aveva niente per le mano<lb/>
-            Il comitato di investigare per la nuova sala<lb/>
-            Descalpi rapporto’ che non cera niente di<lb/>
-            meglio che de la presente allora il socio<lb/>
-            Santino Pasquinelli fece la proposta e<lb/>
-            Giuseppe Tambellini l’assecondato’ di restare<lb/>
-            dove siamo e fu passato<lb/>
-            Fu aperta la nomina per i candidati dell’anno<lb/>
-            1924 e risultavano nominati i presenti<lb/>
-            Per presidente Casimiro Pellegrini contro<lb/>
-            Michele Simonetti . A vice presidente<lb/>
-            Jacopo Sodini contro Abramo Marsili<lb/>
-            A segretario di corrispondenza Giuseppe Gianni<lb/>
-            eletto ad’unanimita’ A segretario di finanza<lb/>
-            Modesto Zini contro Emilio Pasquinelli<lb/>
-            A tesoriere il nostro vecchio tesoriere<lb/>
-            
-            <pb n="113"/>
-            
-            Santino Pasquinelli ad’acclamazione a<lb/>
-            quratori Carlo Marconi Amerigo Lucchesi<lb/>
-            Martino Barelli Adelmo Dati e Candido Pacini<lb/>
-            A ufficiali sanitari Giuseppe Fredianelli e<lb/>
-            Lorenzo Vigano’ ad acclamazione. A guarda<lb/>
-            sala Eugenio Merciadri contro Lorenzo Lunardini<lb/>
-            Collettore Jacopo Sodini ad acclamazione<lb/>
-            Incassato dal segretario di finanza $21.00<lb/>
-            Incassa oggi $3412.57<lb/>
-            
-            Non avendo altro da fare il presidente<lb/>
-            dichiara sciolta la seduta alle ore 11 P.M.<lb/>
-            
-            Il Seg				Il Presidente<lb/>
-            G. Gianni			S. Maffei	[firmate]<lb/>
-         </ab></body>
+         <body>
+            <ab>
+               <pb n="108"/> Giovedi 20 Settembre 1923 alle ore 9 P.M.<lb/> venne aperta la seduta
+               regolare presieduta<lb/>
+               <persName ref="#maffeis">dal nostro Presidente. S Maffei</persName>.<lb/>
+               <list type="absent">
+                  <note>All’appello nominale risultavano assenti i<lb/> seguenti ufficiali.</note>
+                  <item><persName ref="#pacinic">Candido Pacini</persName> Vice Presidente</item>
+                  <lb/>
+                  <item><persName ref="#viganol">Lorenzo Vigano’</persName> Ufficiale
+                     sanitario</item>
+                  <item><persName ref="#sodinij">Jacopo Sodini</persName><lb/> collettore.</item>
+               </list><lb/> Il processo verbale venne approvato come letto<lb/>
+               <list type="applicants">
+                  <note>Fu accettata l’applicazione a nuovo socio di</note>
+                  <lb/>
+                  <item><persName ref="#desantie">Enemia De Santi</persName></item>
+               </list><lb/>
+               <seg type="proposal">Proposto da <persName ref="#marconic" role="proposer">Carlo
+                     Marconi</persName> assecondato da<lb/>
+                  <persName ref="#cinellio" role="supporter">Olindo Cinelli</persName> di aggiungere
+                  5 membri ancora<lb/> al comitato club</seg> e <list type="committee"
+                  subtype="club">
+                  <note>furono nominati i seguenti<lb/> soci</note>
+                  <item><persName ref="#pellegrinic">Casimiro Pellegrini</persName>.</item>
+                  <item><persName ref="#desimos">Serafino De Simo</persName>.</item>
+                  <lb/>
+                  <item><persName ref="#cinellio">Olindo Cinelli</persName>.</item>
+                  <item><persName ref="#marconic">Carlo Marconi</persName>.</item>
+                  <note>e <del rend="strike">Benedetto Pardini</del></note>
+                  <item><persName ref="#pacinic">Candito Pacini</persName></item>
+               </list><lb/>
+               <seg type="proposal">Proposto da <persName ref="#simonettim" role="proposer">Michele
+                     Simonetti</persName> assecondato da<lb/>
+                  <persName ref="#pasquinellis" role="supporter">Santino Pasquinelli</persName> di
+                  dare tre mesi di tempo<lb/>
+                  <pb n="109"/> al comitato club di portare alla luce quache<lb/> cosa. caso diverso
+                  di fare un nuovo comitato</seg><lb/>
+               <seg type="proposal">Proposto da <persName ref="#marconic" role="proposer">Carlo
+                     Marconi</persName> assecondato da<lb/>
+                  <persName ref="#carloe" role="supporter">Ezio Carli</persName> di dare due balli,
+                  il primo dal 15<lb/> novembre al 1 Dicembre e il secondo il giovedi<lb/> grasso se
+                  si puo’.</seg> e <list type="committee" subtype="ballo">
+                  <note>furono incaricati i seguenti dinga-<lb/> ggiare la sala <del rend="strike"
+                        >Santino Pasquinelli</del></note>
+                  <item><persName ref="#marconic">C. Marconi</persName></item>
+                  <item><persName ref="#cappellinic">C. Cappellini</persName></item>
+                  <item>e <persName ref="#sodinij">Jacopo Sodini</persName></item>
+               </list><lb/>
+               <persName ref="#desimos">Il capo curatore Serafino De Simo</persName> fece il
+               rapporto<lb/> del semestre e dichiaro’ che <del rend="strike">si trovavano</del> in i
+               libri<lb/> si trovavano i perfetta regola.<lb/>
+               <seg type="proposal">Proposto da <persName ref="#zinim" role="proposer">Modesto
+                     Zini</persName> e assecondato da<lb/>
+                  <persName ref="#lucchesiam" role="supporter">Amerigo Lucchesi</persName> di
+                  cambiare di sala,</seg>
+               <list>
+                  <note>alluopo<lb/> furono scielti i seguenti membri di investigare</note>
+                  <lb/>
+                  <item><persName ref="#marconic">Carlo Marconi</persName></item>
+                  <item><persName ref="#cappellinic">Castruccio Cappellini</persName></item>
+                  <item><persName ref="#sodinij">Jacopo Sodini</persName></item>
+                  <lb/>
+                  <item><persName ref="#maffeis">Stefano Maffei</persName></item>
+                  <item><persName ref="#lucchesiam">Amerigo Lucchesi</persName></item>
+               </list><lb/> Fu approvato il sussidio di 32 dollari al socio<lb/> Pietro
+               Incrocci.<lb/> In cassa oggi $3332.17. <closer>Non avendo altro<lb/> da fare <rs
+                     ref="#maffeis">il presidente</rs> dichiara sciolta la seduta<lb/> 10.45
+                  P.M.<lb/> Il Seg Il Presidente<lb/>
+                  <signed>G. Gianni</signed>
+                  <signed>Candito Pacini</signed></closer><lb/>
+            </ab>
+         </body>
       </text>
    </TEI>
    <TEI>
       <teiHeader>
          <fileDesc>
             <titleStmt>
-               <title></title>
+               <title/>
             </titleStmt>
-            <publicationStmt><authority>La Lega Toscana di Protezione</authority>
-            <date when="1923-12-20"/></publicationStmt>
-            <sourceDesc><p>Source description.</p></sourceDesc>
+            <publicationStmt>
+               <authority>La Lega Toscana di Protezione</authority>
+               <date when="1923-10-18"/>
+            </publicationStmt>
+            <sourceDesc>
+               <p>Source description.</p>
+            </sourceDesc>
          </fileDesc>
       </teiHeader>
       <text>
-         <body><ab>
-            Giovedi 20 Dicembre 1923 alle ore 9. P.M.<lb/>
-            
-            venne aperta la seduta regolare presieduta<lb/>
-            dal nostro presidente Stefano Maffei<lb/>
-            All’appello nominale degli ufficiali risultava-<lb/>
-            no assenti i seguenti Candido Pacini vice<lb/>
-            presidente Serafino De Simo primo curatore<lb/>
-            Lorenzo Vigano’ ufficiale sanitario e Ezio Carli<lb/>
-            secondo curatore<lb/>
-            Il processo verbale venne approvato come letto<lb/>
-            Venne proposto ed accettato il nuovo applican-<lb/>
-            te Dini Ezio nativo di [stk]S. Concordio[/stk] Pontetetto Provincia<lb/>
-            di Lucca.			
-            
-            <pb n="114"/>
-            
-            Fu proposto da Zini Modesto e assecondato da<lb/>
-            Barelli Martino di prelevare dal fondo di<lb/>
-            cassa la somma di $5 e darla in regalo al<lb/>
-            giovane che manda l’ascensore<lb/>
-            Il presidente la messe all’approvazione e<lb/>
-            fu passato, ma non essendo l’assemblea<lb/>
-            soddisfatta gli fece una colletta raccogliendo<lb/>
-            la somma di $11.80<lb/>
-            Non avendo altro da fare il presidente apre<lb/>
-            le votazioni dei concorenti a ufficiali per<lb/>
-            l’anno 1924<lb/>
-            I votanti risultarono trenta.<lb/>
-            Il presidente nomino’ Serafino de Simo<lb/>
-            Enemia de Santi e Ezio Carli di ricevere<lb/>
-            le schede in un cappello e poi di leggere<lb/>
-            il risultato.<lb/>
-            Risultavano eletti i seguenti ufficiali<lb/>
-            Casimiro Pellegrini a Presidente con 19 voti<lb/>
-            Jacopo Sodini Vice Presidente con 18 voti<lb/>
-            Emilio Pasquinelli a segretario di finanza<lb/>
-            con 15 voti Carlo Marconi primo curatore<lb/>
-            con 28 voti Martino Borelli secondo curatore<lb/>
-            con 16 voti e Americo Lucchesi terzo curatore<lb/>
-            con 14 voti Guarda Sala Eugenio Merciadri<lb/>
-            con 17 voti. Il resto degli ufficiali erano passati<lb/>
-            tutti all’aclamazione.<lb/>
-            Collettato dal segretario di finanza $160.65<lb/>
-            In cassa oggi $3522.55.<lb/>
-            Non avendo altro da fare il presidente dichiara<lb/>
-            sciolta la seduta.			Il presidente<lb/>
-            Il Seg			
-            G. Gianni				S. Maffei	[firmate]<lb/>
-         </ab></body>
+         <body>
+            <ab>
+               <pb n="109"/> Giovedi 18 Ottobre 1923 alle ore 9 P.M. venne<lb/> aperta la seduta
+               regolare ordinaria presieduta<lb/>
+               <persName ref="#pacinic">dal nostro vice presidente Candito Pacini</persName>.<lb/>
+               <list>
+                  <note>All’appello nominale risultavano assenti i seguenti<lb/> ufficiali</note>
+                  <item><persName ref="#maffeis">Stefano Maffei</persName> Presidente.</item>
+                  <item><persName ref="#desimos">Serafino De<lb/> Simo</persName> Primo
+                     curatore.</item>
+                  <item><persName ref="#carloe">Ezio Carli</persName> secondo curatore</item>
+                  <lb/>
+
+                  <pb n="110"/>
+
+                  <item><persName ref="#viganol">Lorenzo Vigano’</persName> ufficiale sanitario e
+                     questo e la<lb/> terza mancanza consecutiva.</item>
+                  <item><persName ref="#zinim">Modesto Zini</persName> ufficiale<lb/>
+                     sanitario</item>
+                  <item>e <persName ref="#sodinij">Jacopo Sodini</persName> collettore.</item>
+               </list><lb/> Il processo verbale venne approvato come letto.<lb/>
+               <list type="committee" subtype="ballo">
+                  <note>Venne aperta la nomina per il comitato ballo e<lb/>
+                     <del rend="strike">vennero</del> vennero scielti i seguenti soci.</note>
+                  <lb/>
+                  <item><persName ref="#lucchesiam">Amerigo Lucchesi</persName> Presidente</item>
+                  <item><persName ref="#pellegrinic">Casimiro Pellegrini</persName><lb/> Vice
+                     presidente.</item>
+                  <item><persName ref="#giannig">Giuseppe Gianni</persName> segretario</item>
+                  <lb/>
+                  <item><persName ref="#pacinic">Candito Pacini</persName> Charman di
+                     arrangiamento</item>
+                  <lb/>
+                  <item><persName ref="#sodinij">Jacopo Sodini</persName> assistente charman di
+                     arrangiamento</item>
+                  <lb/>
+                  <item><persName ref="#marconic">Carlo Marconi</persName> charman di
+                     ricevimento.</item>
+                  <item><list>
+                        <item><persName ref="#fredianim">Muzio<lb/> Frediani</persName></item>
+                        <item><persName ref="#cappellinic">Castruccio Cappellini</persName></item>
+                        <item>e <persName ref="#simonettim">Michele Simonetti</persName></item>
+                        <lb/>
+                        <note>assistenti.</note>
+                     </list></item>
+                  <lb/>
+                  <item>Tesoriere <persName ref="#pasquinellis">Santino
+                     Pasquinelli</persName></item>
+                  <lb/>
+                  <item>Capo sala <del rend="strike">Olindo Cinelli</del>
+                     <persName ref="#lunardinil">Lorenzo Lunardini</persName></item>
+                  <lb/>
+                  <item><persName ref="#zinim">Modesto Zini</persName></item>
+               </list><lb/>
+               <list type="committee" subtype="ballo">
+                  <note>Non essendo i membri in numero sufficiente per<lb/> sciegliere gli
+                     assistenti fu deciso di chiamare una<lb/> seduta straordinaria per discutere
+                     sul farsi<lb/> in quistione del ballo e nel tempo stesso di sciegliere<lb/> li
+                     assistenti e sarebbero.</note>
+                  <lb/>
+                  <item><persName ref="#borellim">Martino Borelli</persName>.</item>
+                  <item><persName ref="#fredianellig">Giuseppe Fredianelli</persName>.</item>
+                  <item><persName ref="#vammuccie">Erneste Vammucci</persName></item>
+                  <lb/>
+                  <item><persName ref="#maffeip">Pasqualino Maffei</persName>.</item>
+                  <item><persName ref="#francesconia">Adolfo Francesconi</persName>.</item>
+                  <item><persName ref="#giomettic">Carlo<lb/> Giometti</persName>.</item>
+                  <item><persName ref="#datia">Adelmo Dati</persName>.</item>
+                  <item><persName ref="#tambellinig">Guiseppe Tambellini</persName></item>
+                  <lb/>
+                  <item><persName ref="#martinellig">Giuseppe Martinelli</persName>.</item>
+                  <item><persName ref="#incroccip">Pietro Incrocci</persName>.</item>
+                  <item><persName ref="#miconin">Nello Miconi</persName></item>
+                  <lb/>
+                  <item><persName ref="#chioccad">Derio Chiocca</persName></item>
+                  <item>e <persName ref="#merciadrie">Eugenio Merciadri</persName>.</item>
+               </list><lb/>
+               <seg type="proposal">Fu proposto da <persName ref="#pellegrinic" role="proposer"
+                     >Casimiro Pellegrini</persName> e assecondato<lb/> da <persName ref="#borellim"
+                     role="supporter">Martino Borelli</persName> che tutti i membri della Lega<lb/>
+                  la sera del ballo, abbiano un piccolo nastrino di<lb/> riconoscimento.</seg><lb/>
+               <pb n="111"/>
+               <seg type="proposal">Fu proposto da <persName ref="#fredianim" role="proposer">Muzio
+                     Frediani</persName> e assecondato da<lb/>
+                  <persName ref="#marconic" role="supporter">Carlo Marconi</persName> che tutti i
+                  membri che vendono<lb/> 5 Ticchette gli viene abbonata la sua, che e’ del<lb/>
+                  valore di un dollaro.</seg><lb/>
+               <seg type="proposal">Proposto da <persName ref="#lombardia" role="proposer">Aladino
+                     Lombardi</persName> assecondato da<lb/>
+                  <persName ref="#maffeis" role="supporter">Stefano Maffei</persName> di dare un
+                  banchetto al comitato<lb/> ballo.</seg><lb/>
+               <seg type="invite">Fu presentata e letta una lettera che <orgName ref="#fratSic"
+                     role="source">la Fratellanza<lb/> Siciliana</orgName> mandava invitando
+                     <orgName ref="#legaT" role="target">la lega Toscana</orgName> al<lb/> ballo e
+                  piu’ inviava 3 ticchette gratuite.</seg>
+               <seg type="proposal">Il fratello<lb/>
+                  <persName ref="#fredianim" role="proposer">Muzio Frediani</persName> fece la
+                  proposta e <persName ref="#maffeis" role="supporter">Stefano
+                  Maffei</persName><lb/> l’assecondato’ di mandarci 10 dollari. e<lb/> l’assemblea
+                  acconsenti di mandarceli.</seg><lb/> Fu incassato dal segretario di finanza
+               $62.45<lb/> In cassa oggi $ 3412.57.<lb/>
+               <closer>Non avendo altro da fare <rs ref="#maffeis">il presidente</rs> dichiara<lb/>
+                  sciolta la seduta ore 10.45<lb/> Il Segretario Il Presidente<lb/>
+                  <signed>G. Gianni</signed>
+                  <signed>Stefano Maffei</signed></closer><lb/>
+            </ab>
+         </body>
+      </text>
+   </TEI>
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title/>
+            </titleStmt>
+            <publicationStmt>
+               <authority>La Lega Toscana di Protezione</authority>
+               <date when="1923-11-15"/>
+            </publicationStmt>
+            <sourceDesc>
+               <p>Source description.</p>
+            </sourceDesc>
+         </fileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <ab>
+               <pb n="111"/> Giovedi 15 Novembre 1923 alle ore. 9. P.M.<lb/> venne aperta la seduta
+               regolare presieduta<lb/>
+               <persName ref="#maffeis">dal nostro presidente Stefano Maffei</persName>.<lb/>
+               <list type="absent">
+                  <note>all’appello nominale risultavano assenti i<lb/> seguenti ufficiali.</note>
+                  <item><persName ref="#desimos">Serafino De Simo</persName> primo<lb/>
+                     Curatore</item>
+                  <item><persName ref="#carloe">Ezio Carli</persName> secondo Curatore</item>
+                  <item>e<lb/>
+                     <persName ref="#sodinij">Jacopo Sodini</persName> Collettore.</item>
+               </list><lb/> Il processo verbale venne approvato come letto.<lb/>
+               <pb n="112"/> Alla richiesta <rs ref="#maffeis">del presidente</rs> se <persName
+                  ref="#baccellim">il nuovo<lb/> applicante Michele Baccelli</persName> fosse
+               presente fu<lb/> risposto negativamente. <rs ref="#maffeis">Il presidente</rs>
+               allora<lb/> fece conoscere all’assemblea che <persName ref="#baccellim">il nuovo<lb/>
+                  applicante Michele Baccelli</persName> aveva infranto<lb/> la nostre leggi e per
+               cio andava incontro<lb/> alla perdita dell’ascudo da lui versato<lb/> all’atto della
+               sua domanda d’ammissione<lb/>
+               <seg type="proposalWritten">L’assemblea dopo un vivace dibattito si<lb/> dichiaro’ in
+                  maggioranza alla proposta di<lb/>
+                  <persName ref="#pellegrinic" role="proposer">Casimiro Pellegrini</persName>. cioe
+                  di farlo avvisato<lb/> per mezo di lettera che se non si presenta<lb/> la sera di
+                  giovedi 20 Decembre giorno della<lb/> nostra seduta perdera’ il dollaro da
+                  lui<lb/> versato.</seg><lb/> Il comitato Club rapporto’ che ancora non<lb/> aveva
+               niente per le mano<lb/> Il comitato di investigare per la nuova sala<lb/> Descalpi
+               rapporto’ che non cera niente di<lb/> meglio che de la presente allora <seg
+                  type="proposal"><persName ref="#pasquinellis" role="proposer">il socio<lb/>
+                     Santino Pasquinelli</persName> fece la proposta e<lb/>
+                  <persName ref="#tambellinig" role="supporter">Giuseppe Tambellini</persName>
+                  l’assecondato’ di restare<lb/> dove siamo e fu passato</seg><lb/> Fu aperta la
+               nomina per i candidati dell’anno<lb/> 1924 e risultavano nominati i presenti<lb/> Per
+               presidente <persName ref="#pellegrinic">Casimiro Pellegrini</persName> contro<lb/>
+               <persName ref="#simonettim">Michele Simonetti</persName> . A vice presidente<lb/>
+               <persName ref="#sodinij">Jacopo Sodini</persName> contro <persName ref="#marsilia"
+                  >Abramo Marsili</persName><lb/> A segretario di corrispondenza <persName
+                  ref="#giannig">Giuseppe Gianni</persName><lb/> eletto ad’unanimita’ A segretario
+               di finanza<lb/>
+               <persName ref="#zinim">Modesto Zini</persName> contro <persName ref="#pasquinellie"
+                  >Emilio Pasquinelli</persName><lb/> A tesoriere <persName ref="#pasquinellis">il
+                  nostro vecchio tesoriere<lb/>
+                  <pb n="113"/> Santino Pasquinelli</persName> ad’acclamazione a<lb/> quratori
+                  <persName ref="#marconic">Carlo Marconi</persName>
+               <persName ref="#lucchesiam">Amerigo Lucchesi</persName><lb/>
+               <persName ref="#barellim">Martino Barelli</persName>
+               <persName ref="#datia">Adelmo Dati</persName> e <persName ref="#pacinic">Candido
+                  Pacini</persName><lb/> A ufficiali sanitari <persName ref="#fredianellig">Giuseppe
+                  Fredianelli</persName> e<lb/>
+               <persName ref="#viganol">Lorenzo Vigano’</persName> ad acclamazione. A guarda<lb/>
+               sala <persName ref="#merciadrie">Eugenio Merciadri</persName> contro <persName
+                  ref="#lunardinil">Lorenzo Lunardini</persName><lb/> Collettore <persName
+                  ref="#sodinij">Jacopo Sodini</persName> ad acclamazione<lb/> Incassato dal
+               segretario di finanza $21.00<lb/> Incassa oggi $3412.57<lb/>
+               <closer>Non avendo altro da fare <rs ref="#maffeis">il presidente</rs><lb/> dichiara
+                  sciolta la seduta alle ore 11 P.M.<lb/> Il Seg Il Presidente<lb/>
+                  <signed>G. Gianni</signed>
+                  <signed>S. Maffei</signed></closer><lb/>
+            </ab>
+         </body>
+      </text>
+   </TEI>
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title/>
+            </titleStmt>
+            <publicationStmt>
+               <authority>La Lega Toscana di Protezione</authority>
+               <date when="1923-12-20"/>
+            </publicationStmt>
+            <sourceDesc>
+               <p>Source description.</p>
+            </sourceDesc>
+         </fileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <ab> Giovedi 20 Dicembre 1923 alle ore 9. P.M.<lb/> venne aperta la seduta regolare presieduta<lb/>
+               <persName ref="#maffeis">dal nostro presidente Stefano Maffe</persName>i<lb/>
+               <list type="absent">
+                  <note>All’appello nominale degli ufficiali risultava-<lb/> no assenti i
+                     seguenti</note>
+                  <item><persName ref="#pacinic">Candido Pacini</persName> vice<lb/>
+                     presidente</item>
+                  <item><persName ref="#desimos">Serafino De Simo</persName> primo curatore</item>
+                  <lb/>
+                  <item><persName ref="#viganol">Lorenzo Vigano’</persName> ufficiale
+                     sanitario</item>
+                  <item>e <persName ref="#carloe">Ezio Carli</persName><lb/> secondo curatore</item>
+               </list><lb/> Il processo verbale venne approvato come letto<lb/>
+               <list>
+                  <note>Venne proposto ed accettato il nuovo applican-<lb/> te</note>
+                  <item><persName ref="#dinie">Dini Ezio</persName></item>
+                  <note>nativo di <del rend="strike">S. Concordio</del> Pontetetto Provincia<lb/> di
+                     Lucca.</note>
+               </list>
+               <pb n="114"/>
+               <seg type="proposal">Fu proposto da <persName ref="#zinim" role="proposer">Zini
+                     Modesto</persName> e assecondato da<lb/>
+                  <persName ref="#barellim" role="supporter">Barelli Martino</persName> di prelevare
+                  dal fondo di<lb/> cassa la somma di $5 e darla in regalo al<lb/> giovane che manda l’ascensore<lb/>
+                  <rs ref="#maffeis">Il presidente</rs> la messe all’approvazione e<lb/> fu passato,
+                  ma non essendo l’assemblea<lb/> soddisfatta gli fece una colletta
+                  raccogliendo<lb/> la somma di $11.80</seg><lb/> Non avendo altro da fare <rs
+                  ref="#maffeis">il presidente</rs> apre<lb/> le votazioni dei concorenti a
+               ufficiali per<lb/> l’anno 1924<lb/> I votanti risultarono trenta.<lb/>
+               <seg type="delegation" subtype="task"><rs ref="#maffeis" role="source">Il
+                     presidente</rs> nomino’ <persName ref="#desimos" role="target">Serafino de
+                     Simo</persName><lb/>
+                  <persName ref="#desantie" role="target">Enemia de Santi</persName> e <persName
+                     ref="#carloe" role="target">Ezio Carli</persName> di ricevere<lb/> le schede in
+                  un cappello e poi di leggere<lb/> il risultato.</seg><lb/>
+               <list type="officers">
+                  <note>Risultavano eletti i seguenti ufficiali</note>
+                  <lb/>
+                  <item><persName ref="#pellegrinic">Casimiro Pellegrini</persName> a Presidente con
+                     19 voti</item>
+                  <lb/>
+                  <item><persName ref="#sodinij">Jacopo Sodini</persName> Vice Presidente con 18
+                     voti</item>
+                  <lb/>
+                  <item><persName ref="#pasquinellie">Emilio Pasquinelli</persName> a segretario di
+                     finanza<lb/> con 15 voti</item>
+                  <item><persName ref="#marconic">Carlo Marconi</persName> primo curatore<lb/> con
+                     28 voti</item>
+                  <item><persName ref="#borellim">Martino Borelli</persName> secondo curatore<lb/>
+                     con 16 voti</item>
+                  <item>e <persName ref="#lucchesiam">Americo Lucchesi</persName> terzo
+                     curatore<lb/> con 14 voti</item>
+                  <item>Guarda Sala <persName ref="#merciadrie">Eugenio Merciadri</persName><lb/>
+                     con 17 voti.</item>
+                  <note>Il resto degli ufficiali erano passati<lb/> tutti all’aclamazione.</note>
+               </list><lb/> Collettato dal segretario di finanza $160.65<lb/> In cassa oggi $3522.55.<lb/>
+               <closer>Non avendo altro da fare <rs ref="#maffeis">il presidente</rs> dichiara<lb/>
+                  sciolta la seduta. Il presidente<lb/> Il Seg <signed>G. Gianni</signed>
+                  <signed>S. Maffei</signed></closer><lb/>
+            </ab>
+         </body>
       </text>
    </TEI>
 </teiCorpus>
