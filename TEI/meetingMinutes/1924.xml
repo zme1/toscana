@@ -72,7 +72,7 @@
                   </origin>
                   <acquisition>
                      <p>The manuscript documents were donated to the<orgName ref="#hhc">Heinz
-                        History Center</orgName>by<persName ref="#vondasl">Laura
+                           History Center</orgName>by<persName ref="#vondasl">Laura
                            Bocelli-Vondas</persName>in two portions - the first in 2015 and the
                         second in 2017.</p>
                   </acquisition>
@@ -116,7 +116,11 @@
                   <roleName>Curatore</roleName>
                </person>
                <person>
-                  <persName ref="#viganol">Lorenzo Vigano'</persName>
+                  <persName ref="#viganol" role="scaduto">Lorenzo Vigano'</persName>
+                  <roleName>Ufficiale Sanitario</roleName>
+               </person>
+               <person>
+                  <persName ref="#vannuccie" role="replacement">Ernesto Vannucci</persName>
                   <roleName>Ufficiale Sanitario</roleName>
                </person>
                <person>
@@ -138,9 +142,9 @@
                and<lb/> were typically held in the same location near the downtown area of
                Pittsburgh, Pennsylvania.</p>
             <p><address>
-               <addrLine>607 Webster Avenue</addrLine>
-               <addrLine>Pittsburgh, PA 15219</addrLine>
-            </address></p>
+                  <addrLine>607 Webster Avenue</addrLine>
+                  <addrLine>Pittsburgh, PA 15219</addrLine>
+               </address></p>
          </settingDesc>
          <textDesc>
             <channel mode="w"/>
@@ -160,7 +164,7 @@
                geographical, linguistic, and anthropological information regarding members and
                affiliates of the Lega Toscana di Protezione, a Pittsburgh-based beneficial society
                of Tuscan Italian immigrants. The primary purpose of this specific file is to contain
-               specially marked-up renditionsof the transcribed minutes in order to create a social
+               specially marked-up renditions of the transcribed minutes in order to create a social
                network mapping that will illuminate relationships and dynamics between both members
                of the Lega and those in the greater community based on varied types of interactions
                represented within the minutes log.</p>
@@ -170,131 +174,77 @@
          </langUsage>
       </profileDesc>
    </teiHeader>
-<TEI>
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title/>
-         </titleStmt>
-         <publicationStmt><authority>La Lega Toscana di Protezione</authority>
-         <date when="1924-01-17"/></publicationStmt>
-         <sourceDesc><p>Source description.</p></sourceDesc>
-      </fileDesc>
-   </teiHeader>
-   <text>
-      <body>
-         <ab>
-            <pb n="115"/>
-           
-            Giovedi 17 Gennaio 1924 alle ore .9. PM
-            venne aperta la seduta regolare ordinaria<lb/>
-            presieduta dal nostro presidente Stefano Maffei.<lb/>
-            All’appello nominale degli ufficiali risultavano<lb/>
-            tutti presenti. Dopo letto e approvato il processo<lb/>
-            verbale, il presidente Stefano Maffei chiama i<lb/>
-            nuovi ufficiali da prendere i loro posti. All’ap-<lb/>
-            pello nominale risultava assente il primo<lb/>
-            curatore Carlo Marconi. Colle nostre vigenti<lb/>
-            leggi il fratello Carlo Marconi avrebbe perduto<lb/>
-            ogni diritto, ma l’assemblea ad’unanimita’
-            decise di lasciare in carica il fratello Carlo<lb/>
-            Marconi, essendo per affari dovuto trattenersi<lb/>
-            fuori citta’. E con questo il vecchio presidente<lb/>
-            Stefano Maffei ringrazia tutta l’assemblea e<lb/>
-            lascia il seggio al nuovo presidente Casimiro<lb/>
-            Pellegrini, che continui la seduta.<lb/>
-            Venne accettata l’applicazione del nuovo membro<lb/>
-            Diodati Ruggero di anni 29 nativo di S. Anna<lb/>
-            provincia di Lucca.<lb/>
-            Fu proposto da Lorenzo Lunardini e assecondato<lb/>
-            da Castruccio Cappellini di rimandare il secondo<lb/>
-            ballo a dopo la Pasqua.<lb/>
-            Fu approvato il sussidio di $20.00 al fratello<lb/>
-            Dati Adelmo per malattia.<lb/>
-            Fu approvato di non fare pagare la ticchetta obbglig-<lb/>
-            atoria ai membri che nell’ultimo ballo si fecero<lb/>
-            distinguere vendendo 5 ticchette ciascuno, e che sono<lb/>
-            i seguenti. Candido Pacini. Sam Marsili.<lb/>
-            Lorenzo Lunardini. Emilio Pasquinelli e Giuseppe<lb/>
-            Checci. Essendo venuta una commissione composta<lb/>
-            dall’avvocato Cianfrone e dal cavaliere Ferrari<lb/>
-           
-            <pb n="116"/>
-           
-            per mandare una protesta ha Washington in<lb/>
-            riguardo al restringimento sullemigrazione,<lb/>
-            l’assemblea accetto la protesta compilata dall’av-<lb/>
-            vocato Cianfrone ma si riservo’ il diritto di modificarla<lb/>
-            I curatori avendo fatti i conti annuali rapportarono<lb/>
-            che i libri si trovarono in perfetta regola.<lb/>
-            Il comitato dell’ultimo ballo diede il resoconto del<lb/>
-            ballo. Introito $.414.05.  Spese $.214.25. -<lb/>
-            Che resterebbe un guadagno netto di $.196.80. -<lb/>
-            Incassato dal Segretario di finanza $.143.50. -<lb/>
-            In cassa oggi $.3611.85. -<lb/>
-            [stk]Non avendo altro da fare il presidente dichiara<lb/>
-            che (xxxxxxxxxxxxxxxxxxxxxxx.....illegible.............xx<lb/>
-            xxxxxxxxxxxx....illegible.....)[/stk]<lb/>
-            Fu presentato il certificato medico del fratello<lb/>
-            Santino Gambogi per malattia. qualche membro<lb/>
-            trovo’ che non era giusto di pagare ha Santino<lb/>
-            Gambogi il sussidio e allora l’assemblea<lb/>
-            autorizzo’ il presidente di sciegliere un comitato<lb/>
-            di investigare e rapportare alla prossima seduta<lb/>
-            Non avendo altro da fare il presidente dichiara<lb/>
-            sciolta la seduta ore 11.30. P.M.<lb/>
-           
-            Il Seg				Il Presidente<lb/>
-            G. Gianni			Carlo Marconi	[firmate]<lb/>
-         </ab>
-      </body>
-   </text>
-</TEI>
    <TEI>
       <teiHeader>
          <fileDesc>
             <titleStmt>
                <title/>
             </titleStmt>
-            <publicationStmt><authority>La Lega Toscana di Protezione</authority>
-            <date when="1924-02-17"/></publicationStmt>
-            <sourceDesc><p>Source description.</p></sourceDesc>
+            <publicationStmt>
+               <authority>La Lega Toscana di Protezione</authority>
+               <date when="1924-01-17"/>
+            </publicationStmt>
+            <sourceDesc>
+               <p>Source description.</p>
+            </sourceDesc>
          </fileDesc>
       </teiHeader>
       <text>
          <body>
             <ab>
-               <pb n="117"/>
-              
-               Giovedi 21 Febbraio alle ore 9. P.M.<lb/>
-               venne aperta la seduta regolare ordinaria<lb/>
-               presieduta dal nostro primo curatore Carlo<lb/>
-               Marconi All’appello nominale degli<lb/>
-               ufficiali risultavano assenti i seguenti ufficia-<lb/>
-               li Casimiro Pellegrini presidente Jacopo Sodini<lb/>
-               vice presidente e Lorenzo Vigano’ ufficiale<lb/>
-               sanitario Fu proposto da Muzio Frediani<lb/>
-               e assecondato da Adelmo Dati di dare un<lb/>
-               banchetto al comitato ballo nel locale del<lb/>
-               Pasquinelli. pero’ tutti i membri che vogliano<lb/>
-               appartenere possono pagando tutto l’ammonta-<lb/>
-               re che gli verra’ tassato. Fu proposto da Modesto<lb/>
-               Zini e assecondato da Adelmo Dati di passare<lb/>
-               dollari $2.50 ai componenti il comitato ballo<lb/>
-               l’astesso che fu accordato al comitato precedente<lb/>
-               Fu accordato il sussidio di $19.00 dollari<lb/>
-               al fratello Virgilio Danesi per malattia<lb/>
-               Fu accordato il pagamento di $51.40 dollari<lb/>
-               al fratello Muzio Frediani per stampa.<lb/>
-               Mancando il presidente che aveva preso l’incarico<lb/>
-               di investigare sulla malattia di Santino<lb/>
-               Gianbogi l’assemblea la mando’ alla prossima<lb/>
-               seduta. Incassato $38.25. In cassa oggi.<lb/>
-               $3907.90. Non avendo altro da fare il nostro<lb/>
-               primo curatore dichiara sciolta la seduta. 10.30<lb/>
-               P.M.<lb/>
-               Il Seg				Il Pres.<lb/>
-               G. Gianni			C. Pellegrini<lb/>
+               <pb n="115"/> Giovedi 17 Gennaio 1924 alle ore .9. PM venne aperta la seduta regolare
+               ordinaria<lb/> presieduta <persName ref="#maffeis">dal nostro presidente Stefano
+                  Maffei</persName>.<lb/> All’appello nominale degli ufficiali risultavano<lb/>
+               tutti presenti. Dopo letto e approvato il processo<lb/> verbale, <persName
+                  ref="#maffeis">il presidente Stefano Maffei</persName> chiama i<lb/> nuovi
+               ufficiali da prendere i loro posti. <list type="absent">
+                  <note>All’ap-<lb/> pello nominale risultava assente</note>
+                  <item>il primo<lb/> curatore <persName ref="#marconic">Carlo
+                     Marconi</persName>.</item>
+               </list> Colle nostre vigenti<lb/> leggi <persName ref="#marconic">il fratello Carlo
+                  Marconi</persName> avrebbe perduto<lb/> ogni diritto, ma l’assemblea ad’unanimita’
+               decise di lasciare in carica <persName ref="#marconic">il fratello Carlo<lb/>
+                  Marconi</persName>, essendo per affari dovuto trattenersi<lb/> fuori citta’. E con
+               questo <persName ref="#maffeis">il vecchio presidente<lb/> Stefano Maffei</persName>
+               ringrazia tutta l’assemblea e<lb/> lascia il seggio <persName ref="#pellegrinic">al
+                  nuovo presidente Casimiro<lb/> Pellegrini</persName>, che continui la seduta.<lb/>
+               Venne accettata l’applicazione del nuovo membro<lb/>
+               <persName ref="#diodatir">Diodati Ruggero</persName> di anni 29 nativo di S.
+               Anna<lb/> provincia di Lucca.<lb/>
+               <seg type="proposal">Fu proposto da <persName ref="#lunardinil" role="proposer"
+                     >Lorenzo Lunardini</persName> e assecondato<lb/> da <persName
+                     ref="#cappellinic" role="supporter">Castruccio Cappellini</persName> di
+                  rimandare il secondo<lb/> ballo a dopo la Pasqua.</seg><lb/>
+               <seg type="comp" subtype="sick">Fu approvato il sussidio di <num type="monetary"
+                     value="20">$20.00</num>
+                  <persName ref="#datia" role="target">al fratello<lb/> Dati Adelmo</persName> per
+                  malattia.</seg><lb/> Fu approvato di non fare pagare la ticchetta obbglig-<lb/>
+               atoria ai membri che nell’ultimo ballo si fecero<lb/> distinguere vendendo 5
+               ticchette ciascuno, e che sono<lb/> i seguenti. <persName ref="#pacinic">Candido
+                  Pacini</persName>. <persName ref="#marsilis">Sam Marsili</persName>.<lb/>
+               <persName ref="#lunardinil">Lorenzo Lunardini</persName>. <persName
+                  ref="#pasquinellie">Emilio Pasquinelli</persName> e <persName ref="#checcig"
+                  >Giuseppe<lb/> Checci</persName>. Essendo venuta una commissione composta<lb/>
+               dall’avvocato Cianfrone e dal cavaliere Ferrari<lb/>
+               <pb n="116"/> per mandare una protesta ha Washington in<lb/> riguardo al
+               restringimento sullemigrazione,<lb/> l’assemblea accetto la protesta compilata
+               dall’av-<lb/> vocato Cianfrone ma si riservo’ il diritto di modificarla<lb/> I
+               curatori avendo fatti i conti annuali rapportarono<lb/> che i libri si trovarono in
+               perfetta regola.<lb/> Il comitato dell’ultimo ballo diede il resoconto del<lb/>
+               ballo. Introito $.414.05. Spese $.214.25. -<lb/> Che resterebbe un guadagno netto di
+               $.196.80. -<lb/> Incassato dal Segretario di finanza $.143.50. -<lb/> In cassa oggi
+               $.3611.85. -<lb/>
+               <del rend="strike">Non avendo altro da fare il presidente dichiara<lb/> che <unclear
+                     reason="illegible"/></del><lb/> Fu presentato il certificato medico <persName
+                  ref="#gambogis">del fratello<lb/> Santino Gambogi</persName> per malattia. qualche
+               membro<lb/> trovo’ che non era giusto di pagare ha <persName ref="#gambogis"
+                  >Santino<lb/> Gambogi</persName> il sussidio e allora l’assemblea<lb/> autorizzo’
+                  <rs ref="#pellegrinic">il presidente</rs> di sciegliere un comitato<lb/> di
+               investigare e rapportare alla prossima seduta<lb/>
+               <closer>Non avendo altro da fare <rs ref="#pellegrinic">il presidente</rs>
+                  dichiara<lb/> sciolta la seduta ore 11.30. P.M.<lb/> Il Seg Il Presidente<lb/>
+                  <signed>G. Gianni</signed>
+                  <signed>Carlo Marconi</signed></closer><lb/>
             </ab>
          </body>
       </text>
@@ -305,119 +255,122 @@
             <titleStmt>
                <title/>
             </titleStmt>
-            <publicationStmt><authority>La Lega Toscana di Protezione</authority>
-            <date when="1924-03-20"/></publicationStmt>
-            <sourceDesc><p>Source description.</p></sourceDesc>
+            <publicationStmt>
+               <authority>La Lega Toscana di Protezione</authority>
+               <date when="1924-02-17"/>
+            </publicationStmt>
+            <sourceDesc>
+               <p>Source description.</p>
+            </sourceDesc>
          </fileDesc>
       </teiHeader>
       <text>
          <body>
             <ab>
-               <pb n="118"/>
-              
-               Giovedi 20 Marzo 1924 alle ore. 9. P.M.<lb/>
-               venne aperta la nostra seduta regolare<lb/>
-               ordinaria presieduta dal nostro presidente<lb/>
-               Casimiro Pellegrini. all’appello nominale<lb/>
-               risultavano assenti i seguenti ufficiali.<lb/>
-               Carlo Marconi primo curatore e Lorenzo<lb/>
-               Vigano’ ufficiale sanitario. Il processo verbale<lb/>
-               venne approvato come letto. Non essendoci<lb/>
-               proposti di nuovi membri e non essendosi<lb/>
-               presentato per l’ammissione il nuovo membro<lb/>
-               Ruggero Diodati, che e la seconda volta cioe’
-               due mesi, si passa alla lettura dalla corris-<lb/>
-               pondenza. che non ce niente. agli affari non<lb/>
-               finiti venne riaperta la discussione riguardo<lb/>
-               il fratello Santino Giambogi, e dopo un vivo<lb/>
-               dibattito gli venne accordato il sussidio di<lb/>
-               $32.00 dollari pero’ da sottrarci una set<lb/>
-               timana, che resterebbero $25.00. Stando ai<lb/>
-               nostri regolamenti. Capitolo 50 art. 35. e. 41.<lb/>
-               Proposto da Michele Simonetti e assecondata da<lb/>
-               Modesto Zini di accettare il prezzo di $4.00<lb/>
-               per il seguente menu’ del banchetto. antipasto<lb/>
-               brodo lesso manzo e gallina, spaghetti pollo ar<lb/>
-               rosto e insalata frutta e formaggio un 1/4 di<lb/>
-               vino, ponce e sigaro. La societa’ venne tenuta<lb/>
-               pagatrice di $2.50 a quei membri che fecero<lb/>
-               parte e lavorarono all’ultimo ballo.<lb/>
-               Proposto da Modesto Zini e assecondato da<lb/>
-               Giuseppe Fredianelli di non dare il secondo<lb/>
-               ballo. Agli affari nuovi, fu proposto da<lb/>
-               Stefano Maffei e assecondato da Giuseppe<lb/>
-               Fredianelli di dare un pic nic il mese di<lb/>
-              
-               <pb n="119"/>
-               Giugno. Gli ufficiali sanitari rapportarano<lb/>
-               che nessuno era malato al presidente. Altri com-<lb/>
-               itati niente Curatori niente di nuovo<lb/>
+               <pb n="117"/> Giovedi 21 Febbraio alle ore 9. P.M.<lb/> venne aperta la seduta
+               regolare ordinaria<lb/> presieduta <persName ref="#marconic">dal nostro primo
+                  curatore Carlo<lb/> Marconi</persName>
+               <list type="absent">
+                  <note>All’appello nominale degli<lb/> ufficiali risultavano assenti i seguenti
+                     ufficia-<lb/> li</note>
+                  <item><persName ref="#pellegrinic">Casimiro Pellegrini</persName>
+                     presidente</item>
+                  <item><persName ref="#sodinij">Jacopo Sodini</persName><lb/> vice
+                     presidente</item>
+                  <item>e <persName ref="#viganol">Lorenzo Vigano’</persName> ufficiale<lb/>
+                     sanitario</item>
+               </list>
+               <seg type="proposal">Fu proposto da <persName ref="#fredianim" role="proposer">Muzio
+                     Frediani</persName><lb/> e assecondato da <persName ref="#datia"
+                     role="supporter">Adelmo Dati</persName> di dare un<lb/> banchetto al comitato
+                  ballo nel locale del<lb/> Pasquinelli.</seg> pero’ tutti i membri che
+               vogliano<lb/> appartenere possono pagando tutto l’ammonta-<lb/> re che gli verra’
+               tassato. <seg type="proposal">Fu proposto da <persName ref="#zinim" role="proposer"
+                     >Modesto<lb/> Zini</persName> e assecondato da <persName ref="#datia"
+                     role="supporter">Adelmo Dati</persName> di passare<lb/> dollari $2.50 ai
+                  componenti il comitato ballo<lb/> l’astesso che fu accordato al comitato
+                  precedente</seg><lb/>
+               <seg type="comp" subtype="sick">Fu accordato il sussidio di <num type="monetary"
+                     value="19">$19.00</num> dollari<lb/>
+                  <persName ref="#danesiv" role="target">al fratello Virgilio Danesi</persName> per
+                  malattia</seg><lb/> Fu accordato il pagamento di $51.40 dollari<lb/>
+               <persName ref="#fredianim">al fratello Muzio Frediani</persName> per stampa.<lb/>
+               Mancando il presidente che aveva preso l’incarico<lb/> di investigare sulla malattia
+               di <persName ref="#gambogis">Santino<lb/> Gianbogi</persName> l’assemblea la mando’
+               alla prossima<lb/> seduta. Incassato $38.25. In cassa oggi.<lb/> $3907.90.
+                  <closer>Non avendo altro da fare <rs ref="#marconic">il nostro<lb/> primo
+                     curatore</rs> dichiara sciolta la seduta. 10.30<lb/> P.M.<lb/> Il Seg Il Pres.<lb/>
+                  <signed>G. Gianni</signed>
+                  <signed>C. Pellegrini</signed></closer><lb/>
+            </ab>
+         </body>
+      </text>
+   </TEI>
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title/>
+            </titleStmt>
+            <publicationStmt>
+               <authority>La Lega Toscana di Protezione</authority>
+               <date when="1924-03-20"/>
+            </publicationStmt>
+            <sourceDesc>
+               <p>Source description.</p>
+            </sourceDesc>
+         </fileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <ab>
+               <pb n="118"/> Giovedi 20 Marzo 1924 alle ore. 9. P.M.<lb/> venne aperta la nostra
+               seduta regolare<lb/> ordinaria presieduta <persName ref="#pellegrinic">dal nostro
+                  presidente<lb/> Casimiro Pellegrini</persName>. <list type="absent">
+                  <note>all’appello nominale<lb/> risultavano assenti i seguenti ufficiali.</note>
+                  <lb/>
+                  <item><persName ref="#marconic">Carlo Marconi</persName> primo curatore</item>
+                  <item>e <persName ref="#viganol">Lorenzo<lb/> Vigano’</persName> ufficiale
+                     sanitario.</item>
+               </list> Il processo verbale<lb/> venne approvato come letto. Non essendoci<lb/>
+               proposti di nuovi membri e non essendosi<lb/> presentato per l’ammissione <persName
+                  ref="#diodatir">il nuovo membro<lb/> Ruggero Diodati</persName>, che e la seconda
+               volta cioe’ due mesi, si passa alla lettura dalla corris-<lb/> pondenza. che non ce
+               niente. <seg type="comp" subtype="sick">agli affari non<lb/> finiti venne riaperta la
+                  discussione riguardo<lb/>
+                  <persName ref="#gambogis" role="target">il fratello Santino Giambogi</persName>, e
+                  dopo un vivo<lb/> dibattito gli venne accordato il sussidio di<lb/> $32.00 dollari
+                  pero’ da sottrarci una set<lb/> timana, che resterebbero <num type="monetary"
+                     value="25">$25.00</num>. Stando ai<lb/> nostri regolamenti. Capitolo 50 art.
+                  35. e. 41.</seg><lb/>
+               <seg type="proposal">Proposto da <persName ref="#simonettim" role="proposer">Michele
+                     Simonetti</persName> e assecondata da<lb/>
+                  <persName ref="#zinim" role="supporter">Modesto Zini</persName> di accettare il
+                  prezzo di $4.00<lb/> per il seguente menu’ del banchetto. antipasto<lb/> brodo
+                  lesso manzo e gallina, spaghetti pollo ar<lb/> rosto e insalata frutta e formaggio
+                  un 1/4 di<lb/> vino, ponce e sigaro.</seg> La societa’ venne tenuta<lb/> pagatrice
+               di $2.50 a quei membri che fecero<lb/> parte e lavorarono all’ultimo ballo.<lb/>
+               <seg type="proposal">Proposto da <persName ref="#zinim" role="proposer">Modesto
+                     Zini</persName> e assecondato da<lb/>
+                  <persName ref="#fredianellig" role="supporter">Giuseppe Fredianelli</persName> di
+                  non dare il secondo<lb/> ballo.</seg>
+               <seg type="proposal">Agli affari nuovi, fu proposto da<lb/>
+                  <persName ref="#maffeis" role="proposer">Stefano Maffei</persName> e assecondato
+                  da <persName ref="#fredianellig" role="supporter">Giuseppe<lb/>
+                     Fredianelli</persName> di dare un pic nic il mese di<lb/>
+                  <pb n="119"/> Giugno.</seg> Gli ufficiali sanitari rapportarano<lb/> che nessuno
+               era malato al presidente. Altri com-<lb/> itati niente Curatori niente di nuovo<lb/>
                non essendo ancora scaduto il trimestre<lb/>
-               Al pagamento dei bills fu approvato di<lb/>
-               pagare $29.00 al fratello Fioravanti Zini<lb/>
-               $25.00 ha Santino Gambogi. e piu’
-               $11.25 per l’affitto della sala fu cassato<lb/>
-               dal segretario di finanza $105.90. In cassa<lb/>
-               oggi $3875.75. Non avendo altro da fare<lb/>
-               il presidente dichiara sciolta la seduta. 11. P.M.<lb/>
-              
-               Il Seg				Il Pres<lb/>
-               G. Gianni<lb/>
-               C. Pellegrini		[firmate]<lb/>
-              
-            </ab>
-         </body>
-      </text>
-   </TEI>
-   <TEI>
-      <teiHeader>
-         <fileDesc>
-            <titleStmt>
-               <title></title>
-            </titleStmt>
-            <publicationStmt><authority>La Lega Toscana di Protezione</authority>
-            <date when="1924-04-19"/></publicationStmt>
-            <sourceDesc><p>Source description.</p></sourceDesc>
-         </fileDesc>
-      </teiHeader>
-      <text>
-         <body>
-            <ab>
-               <pb n="119"/>
-               Giovedi 19 Aprile 1924 alle ore 9 P.M.<lb/>
-               venne aperta la nostra seduta regolare<lb/>
-               ordinaria presieduta dal nostro presidente<lb/>
-               Casimiro Pellegrini. All’appello nominale<lb/>
-               risultavano assenti i seguenti ufficiali.<lb/>
-               Jacopo Sodini vice presidente Carlo Marconi<lb/>
-               primo curatore Martino Borelli secondo<lb/>
-               curatore Giuseppe Fredianelli ufficiale<lb/>
-               sanitario e Lorenzo Vigano’ ufficiale sanitario.<lb/>
-               Avendo tre mancanze consecutive il fratello<lb/>
-               Lorenzo Vigano’ l’assemblea stando i nostri<lb/>
-               regolamenti ne fara’ uno nuovo la prossima<lb/>
-               seduta. Fu ammesso a fare parte di questa<lb/>
-              
-               <pb n="120"/>
-              
-               societa’ Diodati Ruggero. Proposto da<lb/>
-               Modesto Zini e assecondato da Ermete Vannucci<lb/>
-               di prelevare dollari 5.00 e mandarli alla loggia<lb/>
-               Bruno Chimirri per l’invito in cui accluso<lb/>
-               verano 5 ticchette gratis per il suo grande<lb/>
-               ballo e Battesimo delle bandiere.<lb/>
-               Proposto da Santino Pasqunelli e assecondata<lb/>
-               da Enemia De Santi di pagare il sussidio<lb/>
-               per malattia di $14.00 a Jacopo Sodini e di<lb/>
-               $49.00 a Enrico Sandroni e di $13.00 a<lb/>
-               Virgilio Danesi. Incassato dal Seg<lb/>
-               retario di finanza $122.00. In cassa oggi<lb/>
-               $3916.40. Non avendo altro da fare il preside[under]n[/under]<lb/>
-               te dichiara sciolta la seduta   10.45. P.M.<lb/>
-              
-               Il Seg			Il Pres<lb/>
-               G. Gianni		Carlo Marconi [firmate]<lb/>
-              
+               <seg type="comp" subtype="sick">Al pagamento dei bills fu approvato di<lb/> pagare
+                     <num type="monetary" value="29">$29.00 </num><persName ref="#zinif"
+                     role="target">al fratello Fioravanti Zini</persName></seg><lb/> $25.00 ha
+               Santino Gambogi. e piu’ $11.25 per l’affitto della sala fu cassato<lb/> dal
+               segretario di finanza $105.90. In cassa<lb/> oggi $3875.75. <closer>Non avendo altro
+                  da fare<lb/>
+                  <rs ref="#pellegrinic">il presidente</rs> dichiara sciolta la seduta. 11.
+                  P.M.<lb/> Il Seg Il Pres<lb/>
+                  <signed>G. Gianni</signed><lb/>
+                  <signed>C. Pellegrini</signed></closer><lb/>
             </ab>
          </body>
       </text>
@@ -428,59 +381,60 @@
             <titleStmt>
                <title/>
             </titleStmt>
-            <publicationStmt><authority>La Lega Toscand di Protezione</authority>
-            <date when="1924-05-15"/></publicationStmt>
-            <sourceDesc><p>Source description.</p></sourceDesc>
+            <publicationStmt>
+               <authority>La Lega Toscana di Protezione</authority>
+               <date when="1924-04-19"/>
+            </publicationStmt>
+            <sourceDesc>
+               <p>Source description.</p>
+            </sourceDesc>
          </fileDesc>
       </teiHeader>
       <text>
          <body>
             <ab>
-               <pb n="120"/>
-               Giovedi 15 Maggio 1924 alle ore 9 P.M.<lb/>
-               venne aperta la nostra seduta regolare<lb/>
-               ordinaria, presieduta dal nostro primo<lb/>
-               curatore Carlo Marconi. all’appello nomina-<lb/>
-               le risultavano assenti i seguenti ufficiali<lb/>
-               Casimiro Pellegrini Presidente. Jacopo Sodini<lb/>
-               Vice Presidente Lorenzo Vigano’ ufficiale<lb/>
-               Sanitario e Giuseppe Fredianelli ufficiale<lb/>
-               Sanitario. Il fratello Lorenzo Vigano’ non<lb/>
-               essendo stato presente per 4 seduta consecutive<lb/>
-               fu dall’assemblea dichiarato scaduto e<lb/>
-              
-               <pb n="121"/>
-              
-               aperta la nomina per il nuovo. non avendo<lb/>
-               competitori fu accettato il fratello Ermeti<lb/>
-               Vannucci. Non essendoci ne proposte ne<lb/>
-               ammissione di nuovi membri, ne corrispon<lb/>
-               denza si passa agli affari non finiti, e<lb/>
-               viene nominato il comitato per il pec<lb/>
-               nec. nei seguenti soci, Lorenzo Lunardini<lb/>
-               Modesto Zini, Ermete Vannucci, Santino<lb/>
-               Pasquinelli e Amerigo Lucchesi.<lb/>
-               Fu proposto da Modesto Zini e assecondato<lb/>
-               da  Giuseppe Gianni di fare dei comitati<lb/>
-               per portare nuovi membri e cosi accrescec-<lb/>
-               do di nuove energie accrescerebbe il morale<lb/>
-               della societa’ stessa.<lb/>
-               I curatori diedero il resoconto del trimestre<lb/>
-               e si trovo’ esatto.<lb/>
-               Al pagamento dei billi furono presentati i<lb/>
-               seguenti. Per tre mesi affitto sala $11.25<lb/>
-               Assicurazione delle bandiere       $8.47<lb/>
-               Per i componenti comitato ballo   $50.00<lb/>
-               Frediani per stampa  	          $21.35<lb/>
-              
-               In cassa oggi  $3954.90<lb/>
-              
-               In cassato dal Segretario di finanza $47.25<lb/>
-               Non avendo altro da fare il presdiente dichiara<lb/>
-               chiusa la seduta ore 10.45 P.M.<lb/>
-              
-               Il Seg				C. Pellegrini<lb/>
-               G. Gianni			Pres		[signed]<lb/>
+               <pb n="119"/> Giovedi 19 Aprile 1924 alle ore 9 P.M.<lb/> venne aperta la nostra
+               seduta regolare<lb/> ordinaria presieduta <persName ref="#pellegrinic">dal nostro
+                  presidente<lb/> Casimiro Pellegrini</persName>. <list type="absent">
+                  <note>All’appello nominale<lb/> risultavano assenti i seguenti ufficiali.</note>
+                  <lb/>
+                  <item><persName ref="#sodinij">Jacopo Sodini</persName> vice presidente</item>
+                  <item><persName ref="#marconic">Carlo Marconi</persName><lb/> primo
+                     curatore</item>
+                  <item><persName ref="#borellim">Martino Borelli</persName> secondo<lb/>
+                     curatore</item>
+                  <item><persName ref="#fredianellig">Giuseppe Fredianelli</persName> ufficiale<lb/>
+                     sanitario</item>
+                  <item>e <persName ref="#viganol">Lorenzo Vigano’</persName> ufficiale
+                     sanitario.</item>
+               </list><lb/> Avendo tre mancanze consecutive <persName ref="#viganol">il
+                  fratello<lb/> Lorenzo Vigano’</persName> l’assemblea stando i nostri<lb/>
+               regolamenti ne fara’ uno nuovo la prossima<lb/> seduta. <list type="applicants">
+                  <note>Fu ammesso a fare parte di questa<lb/>
+                     <pb n="120"/> societa’</note>
+                  <item><persName ref="#diodatir">Diodati Ruggero</persName>.</item>
+               </list>
+               <seg type="proposal">Proposto da<lb/>
+                  <persName ref="#zinim" role="proposer">Modesto Zini</persName> e assecondato da
+                     <persName ref="#vannuccie" role="supporter">Ermete Vannucci</persName><lb/> di
+                  prelevare dollari 5.00 e mandarli alla loggia<lb/> Bruno Chimirri per l’invito in
+                  cui accluso<lb/> verano 5 ticchette gratis per il suo grande<lb/> ballo e
+                  Battesimo delle bandiere.</seg><lb/>
+               <seg type="proposal">Proposto da <persName ref="#pasquinellis" role="proposer"
+                     >Santino Pasqunelli</persName> e assecondata<lb/> da <persName ref="#desantie"
+                     role="supporter">Enemia De Santi</persName> di pagare il sussidio<lb/> per
+                  malattia di <seg type="comp" subtype="sick"><num type="monetary" value="14"
+                        >$14.00</num> a <persName ref="#sodinij" role="target">Jacopo
+                        Sodini</persName></seg> e di<lb/>
+                  <seg type="comp" subtype="sick"><num type="monetary" value="49">$49.00</num> a
+                        <persName ref="#sandronee" role="target">Enrico Sandroni</persName></seg> e
+                  di <seg type="comp" subtype="sick"><num type="monetary" value="13">$13.00</num> a<lb/>
+                     <persName ref="#danesiv" role="target">Virgilio Danesi</persName>.</seg></seg>
+               Incassato dal Seg<lb/> retario di finanza $122.00. In cassa oggi<lb/> $3916.40.
+                  <closer>Non avendo altro da fare <rs ref="#pellegrinic">il presiden-<lb/> te</rs>
+                  dichiara sciolta la seduta 10.45. P.M.<lb/> Il Seg Il Pres<lb/>
+                  <signed>G. Gianni</signed>
+                  <signed>Carlo Marconi</signed></closer><lb/>
             </ab>
          </body>
       </text>
@@ -491,113 +445,60 @@
             <titleStmt>
                <title/>
             </titleStmt>
-            <publicationStmt><authority>La Lega Toscana di Protezione</authority>
-            <date when="1924-06-19"/></publicationStmt>
-            <sourceDesc><p>Source description</p></sourceDesc>
+            <publicationStmt>
+               <authority>La Lega Toscand di Protezione</authority>
+               <date when="1924-05-15"/>
+            </publicationStmt>
+            <sourceDesc>
+               <p>Source description.</p>
+            </sourceDesc>
          </fileDesc>
       </teiHeader>
       <text>
          <body>
             <ab>
-               <pb n="122"/>
-              
-               Giovedi 19 Giugno 1924 alle ore 9. P.M.<lb/>
-               venne aperta la nostra seduta regolare<lb/>
-               ordinaria presieduta dal nostro presidente<lb/>
-               Casimiro Pellegrini. All’appello nominale<lb/>
-               risultavano assenti i seguenti ufficiali<lb/>
-               [strike]Jacopo Sodini[strike] vice presidente e Giuseppe<lb/>
-               Fredianelli ufficiale Sanitario.<lb/>
-               Fu ammesso ad’unanimita’ il nuovo membro<lb/>
-               Aladino Frediani. Fu proposto da Stefano<lb/>
-               Maffei e assecondato da Carlo Marconi di<lb/>
-               lasciare il comitato gia’ scelto per il pic nec<lb/>
-               e di darli pieno potere rigruardo l’esito<lb/>
-               della festa. Avendo il nostro presidente avuto<lb/>
-               il gentile pensiero di invitare l’intiera societa’
-               alle sue nozze. l’assemblea ad’unanimita’
-               decise di fargli un regalo, all’uopo furano<lb/>
-               incaricati i seguenti soci Castruccio Cappellini<lb/>
-               e Carlo Marconi di comperarci un regalo<lb/>
-               come meglio credevano, ma che non altropa[under]s[/under]<lb/>
-               sasse $50.00 dollari.<lb/>
-               Incassato dal segretario di finanza $41.75<lb/>
-               In banca oggi 3911.08<lb/>
-               Non avendo altro da fare il presidente dichiara<lb/>
-               sciolta la seduta ore. 10.30 P.M.<lb/>
-              
-               Il Seg			Cas. Pellegrini<lb/>
-               G. Gianni<lb/>
-            </ab>
-         </body>
-      </text>
-   </TEI>
-   <TEI>
-      <teiHeader>
-         <fileDesc>
-            <titleStmt>
-               <title></title>
-            </titleStmt>
-            <publicationStmt><authority>La Lega Toscana di Protezione</authority>
-            <date when="1924-07-17"/></publicationStmt>
-            <sourceDesc><p>Source description.</p></sourceDesc>
-         </fileDesc>
-      </teiHeader>
-      <text>
-         <body>
-            <ab>
-               <pb n="123"/>
-               Giovedi 17 Luglio 1924 alle ore 9. P.M.<lb/>
-               venne aperta la nostra seduta regolare<lb/>
-               ordinaria presieduta dal nostro presidente<lb/>
-               Casimiro Pellegrini. All’appello nominale<lb/>
-               risultavano assenti i seguenti ufficiali<lb/>
-               Jacopo Sodini vice presidente Carlo Marconi<lb/>
-               primo curatore. Martino Barelli secondo<lb/>
-               curatore Ermete Vannucci ufficiale sanitario<lb/>
-               e Ugenio Merciadri guardia Sala.<lb/>
-               Fu ammesso a far parte del nostro Sodalizio il<lb/>
-               nuovo membro Aladino Frediani. Non avendo<lb/>
-               trovato il libretti riffa che la loggia Santo<lb/>
-               Amato aveva mandato in regola, Su proposta<lb/>
-               di Eugenio Bertoni, l’assemblea decise di<lb/>
-               mandarli in dietro. Fu proposto da Eugenio<lb/>
-               Bertoni e assecondato da Modesto Zini di<lb/>
-               inviare una lettera al fratello Lorenzo Vigano’
-               che si presentasse alla prossima seduta per<lb/>
-               [strike]per[strike] rispondere alle accuse mosseli.<lb/>
-               Su proposta Bertoni e Danesi fu’ approvato<lb/>
-               di sciegliere un comitato cosi composto<lb/>
-               Modesto Zini. Eugenio Bertoni Muzio Frediani<lb/>
-               Enemia De Santi Olindo Cinelli e Michele<lb/>
-               Simonetti, i sudetti dovranno riunirsi e<lb/>
-               discutere il migliore mezo per aumentare<lb/>
-               il benessere della Lega. tanto morale che materia-<lb/>
-               le. Su proposta Frediani e Cinelli l’as<lb/>
-               semblea decise di dar stampare. 100. libretti<lb/>
-               riffa di 5. tichetti ciascuno da. 50 soldi luna<lb/>
-               e di mandarne uno per ogni socio. il quale<lb/>
-               simpeguera di vendere oppure di restituirle<lb/>
-              
-               <pb n="124"/>
-              
-               la prossima seduta. [unclear/] Essendo un caso<lb/>
-               pietosi il nostro consocio Musio Frediani<lb/>
-               si offri di fare la stampa gratuita cosi<lb/>
-               diminuendo le spese a coloro che anno<lb/>
-               assistito il defunto correligionario<lb/>
-               Enrico Rossi. Pagato al signor Frediani<lb/>
-               per stampa $16.30.  $40.00 per il regalo<lb/>
-               a Casimiro Pellegrini. e. 41.30. per il<lb/>
-               pic.nic. Incassato dal Seg. di finanza<lb/>
-               $78.75. I cassa oggi 3952.63.<lb/>
-              
-               Non avendo altro da fare il presidente dichiara<lb/>
-               sciolta la seduta ore 10.30. P.M.<lb/>
-              
-               Il Seg<lb/>
-               G. Gianni		C. Pellegrini<lb/>
-              
+               <pb n="120"/> Giovedi 15 Maggio 1924 alle ore 9 P.M.<lb/> venne aperta la nostra
+               seduta regolare<lb/> ordinaria, presieduta <persName ref="#marconic">dal nostro
+                  primo<lb/> curatore Carlo Marconi</persName>. <list type="absent">
+                  <note>all’appello nomina-<lb/> le risultavano assenti i seguenti ufficiali</note>
+                  <lb/>
+                  <item><persName ref="#pellegrinic">Casimiro Pellegrini</persName>
+                     Presidente.</item>
+                  <item><persName ref="#sodinij">Jacopo Sodini</persName><lb/> Vice
+                     Presidente</item>
+                  <item><persName ref="#viganol" role="scaduto">Lorenzo Vigano’</persName>
+                     ufficiale<lb/> Sanitario</item>
+                  <item>e <persName ref="#fredianellig">Giuseppe Fredianelli</persName>
+                     ufficiale<lb/> Sanitario.</item>
+               </list>
+               <persName ref="#viganol">Il fratello Lorenzo Vigano’</persName> non<lb/> essendo
+               stato presente per 4 seduta consecutive<lb/> fu dall’assemblea dichiarato scaduto e<lb/>
+               <pb n="121"/> aperta la nomina per il nuovo. non avendo<lb/> competitori fu accettato
+                  <persName ref="#vannuccie" role="replacement">il fratello Ermeti<lb/>
+                  Vannucci</persName>. Non essendoci ne proposte ne<lb/> ammissione di nuovi membri,
+               ne corrispon<lb/> denza si passa agli affari non finiti, <list type="committee"
+                  subtype="picnic">
+                  <note>e<lb/> viene nominato il comitato per il pec<lb/> nec. nei seguenti
+                     soci,</note>
+                  <item><persName ref="#lunardinil">Lorenzo Lunardini</persName></item>
+                  <lb/>
+                  <item><persName ref="#zinim">Modesto Zini</persName>,</item>
+                  <item><persName ref="#vannuccie">Ermete Vannucci</persName>,</item>
+                  <item><persName ref="#pasquinellis">Santino<lb/> Pasquinelli</persName></item>
+                  <item>e <persName ref="#lucchesiam">Amerigo Lucchesi</persName>.</item>
+               </list><lb/>
+               <seg type="proposal">Fu proposto da <persName ref="#zinim" role="proposer">Modesto
+                     Zini</persName> e assecondato<lb/> da <persName ref="#giannig" role="supporter"
+                     >Giuseppe Gianni</persName> di fare dei comitati<lb/> per portare nuovi membri
+                  e cosi accrescec-<lb/> do di nuove energie accrescerebbe il morale<lb/> della
+                  societa’ stessa.</seg><lb/> I curatori diedero il resoconto del trimestre<lb/> e
+               si trovo’ esatto.<lb/> Al pagamento dei billi furono presentati i<lb/> seguenti. Per
+               tre mesi affitto sala $11.25<lb/> Assicurazione delle bandiere $8.47<lb/> Per i
+               componenti comitato ballo $50.00<lb/> Frediani per stampa $21.35<lb/> In cassa oggi
+               $3954.90<lb/> In cassato dal Segretario di finanza $47.25<lb/>
+               <closer>Non avendo altro da fare <rs ref="#marconic">il presdiente</rs> dichiara<lb/>
+                  chiusa la seduta ore 10.45 P.M.<lb/> Il Seg <signed>C. Pellegrini</signed><lb/>
+                  <signed>G. Gianni</signed> Pres</closer><lb/>
             </ab>
          </body>
       </text>
@@ -608,59 +509,45 @@
             <titleStmt>
                <title/>
             </titleStmt>
-            <publicationStmt><authority>La Lega Toscana di Protezione</authority>
-            <date when="1924-08-21"/></publicationStmt>
-            <sourceDesc><p>Source description.</p></sourceDesc>
+            <publicationStmt>
+               <authority>La Lega Toscana di Protezione</authority>
+               <date when="1924-06-19"/>
+            </publicationStmt>
+            <sourceDesc>
+               <p>Source description</p>
+            </sourceDesc>
          </fileDesc>
       </teiHeader>
       <text>
          <body>
             <ab>
-               <pb n="125"/>
-              
-               Giovedi 21 Agosto 1924 alle ore 9. P.M.<lb/>
-               venne aperta la nostra seduta regolare<lb/>
-               ordinaria, presieduta dal nostro presidente<lb/>
-               Casimiro Pellegrini. All’appello nominale<lb/>
-               risultavano assenti i seguenti ufficiali.<lb/>
-               Jacopo Sodini vice presidente Carlo Marconi<lb/>
-               primo curatore Amerigo Lucchesi terso<lb/>
-               curatore, e Eugenio Merciadri guarda sala<lb/>
-               Su proposta Muzio Frediani e Lorenzo Vigano’
-               venne approvato di fare un comitato per<lb/>
-               investigare i conti del. pic.nic. ultimo.<lb/>
-               Componenti il comitato sonno i seguenti<lb/>
-               Amerigo Lucchesi, Lorenzo Vigano’, Giuseppe<lb/>
-               Fredianelli. Non avendo il fratello Eugenio<lb/>
-               Micheli adempito l suo dovere come prescriv-<lb/>
-               ono i nostri regolamenti. Capitolo IV. art. 21.<lb/>
-               l’assemblea delibero’ di pagarli dal 26 Luglio<lb/>
-               al 5 Agosto cioe’ 11 giorni. Essendo al processo<lb/>
-               verbale di fare 2 pic-nic in quest’anno, il<lb/>
-               presidente dopo una lunga e vivace discussione 
-               nomino’ il seguente comitato. per farlo la<lb/>
-               seconda domenica di Settembre. Muzio Frediani<lb/>
-               Olindo Cinelli Virgilio Danesi. Lorenzo Vigano’
-               Eugenio Merciadri, Ermete Vannucci e Adelmo<lb/>
-               Dati. Essendosi presentato il fratello Lorenzo<lb/>
-               Vigano’ e dichiarato di avere mancato di fronte<lb/>
-               al comitato pic nic e verso la societa’ stessa<lb/>
-               il presidente dichiaro’ chiusa la vertenza.<lb/>
-               Proposta da Muzio Frediani e assecondato da<lb/>
-               Giuseppe Fredianelli di scrivere una lettera<lb/>
-               ad ex fondatore Achille Guidi per il suo<lb/>
-               gentile pensiero di ricordarsi ancor lontano<lb/>
-              
-               <pb n="126"/>
-              
-               della Lega Toscana. Incassto dal Seg. di<lb/>
-               finanza $44.25. In cassa oggi 3933.78.<lb/>
-               Non avendo altro da fare il presidente dichiara<lb/>
-               sciolta la seduta. ore 10.30. P.M.<lb/>
-              
-               Il Seg 				Il Pres<lb/>
-               G. Gianni		Chaz Marconi<lb/>
-               C. Pellegrini	     [signed]<lb/>
+               <pb n="122"/> Giovedi 19 Giugno 1924 alle ore 9. P.M.<lb/> venne aperta la nostra
+               seduta regolare<lb/> ordinaria presieduta <persName ref="#pellegrinic">dal nostro
+                  presidente<lb/> Casimiro Pellegrini</persName>. <list type="absent">
+                  <note>All’appello nominale<lb/> risultavano assenti i seguenti ufficiali<lb/>
+                     <del rend="strike">Jacopo Sodini</del> vice presidente</note>
+                  <item>e <persName ref="#fredianellig">Giuseppe<lb/> Fredianelli</persName>
+                     ufficiale Sanitario.</item>
+               </list><lb/>
+               <list type="applicants">
+                  <note>Fu ammesso ad’unanimita’ il nuovo membro</note>
+                  <lb/>
+                  <item><persName ref="#frediania">Aladino Frediani</persName>.</item>
+               </list>
+               <seg type="proposal">Fu proposto da <persName ref="#maffeis" role="proposer"
+                     >Stefano<lb/> Maffei</persName> e assecondato da <persName ref="#marconic"
+                     role="supporter">Carlo Marconi</persName> di<lb/> lasciare il comitato gia’
+                  scelto per il pic nec<lb/> e di darli pieno potere rigruardo l’esito<lb/> della
+                  festa.</seg> Avendo <rs ref="#pellegrinic">il nostro presidente</rs> avuto<lb/> il
+               gentile pensiero di invitare l’intiera societa’ alle sue nozze. l’assemblea
+               ad’unanimita’ decise di fargli un regalo, all’uopo furano<lb/> incaricati i seguenti
+               soci <persName ref="#cappellinic">Castruccio Cappellini</persName><lb/> e <persName
+                  ref="#marconic">Carlo Marconi</persName> di comperarci un regalo<lb/> come meglio
+               credevano, ma che non altropas-<lb/> sasse $50.00 dollari.<lb/> Incassato dal
+               segretario di finanza $41.75<lb/> In banca oggi 3911.08<lb/>
+               <closer>Non avendo altro da fare <rs ref="#marconic">il presidente</rs> dichiara<lb/>
+                  sciolta la seduta ore. 10.30 P.M.<lb/> Il Seg Cas. Pellegrini<lb/>
+                  <signed>G. Gianni</signed></closer><lb/>
             </ab>
          </body>
       </text>
@@ -669,52 +556,226 @@
       <teiHeader>
          <fileDesc>
             <titleStmt>
-               <title></title>
+               <title/>
             </titleStmt>
-            <publicationStmt><authority>La Lega Toscana di Protezione</authority>
-            <date when="1924-09-18"/></publicationStmt>
-            <sourceDesc><p>Source description.</p></sourceDesc>
+            <publicationStmt>
+               <authority>La Lega Toscana di Protezione</authority>
+               <date when="1924-07-17"/>
+            </publicationStmt>
+            <sourceDesc>
+               <p>Source description.</p>
+            </sourceDesc>
          </fileDesc>
       </teiHeader>
       <text>
          <body>
             <ab>
-               <pb n="126"/>
-               Giovedi 18 Settembre 1924 alle ore . 9 P.M venne<lb/>
-               aperta la nostra seduta regolare ordinaria presieduta<lb/>
-               dal nostro presidente Casimiro Pellegrini.<lb/>
-               All’appello nominale, non risultava nessuno<lb/>
-               degli ufficiali. Il processo verbale venne approvato come<lb/>
-               letto. Avendo l’Ordine Figli d’Italia invitato la<lb/>
-               Lega Toscana di fare parte alla parata del<lb/>
-               Columbus day. 12 Ottobre per festeggiare il piu’
-               ardito’ e grande navigatore del mondo., la Lega Toscana<lb/>
-               non volendo essere seconda a nessuno quando si tratta’
-               di tiene alto il nome Italiano., Su proposta<lb/>
-               Modesto Zini assecondata dal Carlo Marconi accetto’
-               All’ora dopo una vivace discussione venne approvato<lb/>
-               di andare in parata in corpo, e piu’ di fare un<lb/>
-               carro allegorico, all’uopo venne scielto il seguente<lb/>
-               comitato. Muzio Frediani. Stefano Maffei.<lb/>
-               E De Santi. Ugo Pistelli. Modesti Zini.<lb/>
-               Fioravante Zini. Batista Zini. e Candido Pacini<lb/>
-               con pieni poteri di spendere quello che ci voleva<lb/>
-               pure di fare un buon lavoro e farsi onore.<lb/>
-              
+               <pb n="123"/> Giovedi 17 Luglio 1924 alle ore 9. P.M.<lb/> venne aperta la nostra
+               seduta regolare<lb/> ordinaria presieduta <persName ref="#pellegrinic">dal nostro
+                  presidente<lb/> Casimiro Pellegrini</persName>. <list>
+                  <note>All’appello nominale<lb/> risultavano assenti i seguenti ufficiali</note>
+                  <lb/>
+                  <item><persName ref="#sodinij">Jacopo Sodini</persName> vice presidente</item>
+                  <item><persName ref="#marconic">Carlo Marconi</persName><lb/> primo
+                     curatore.</item>
+                  <item><persName ref="#borellim">Martino Barelli</persName> secondo<lb/>
+                     curatore</item>
+                  <item><persName ref="#vannuccie">Ermete Vannucci</persName> ufficiale
+                     sanitario</item>
+                  <lb/>
+                  <item>e <persName ref="#merciadrie">Ugenio Merciadri</persName> guardia
+                     Sala.</item>
+               </list><lb/> Fu ammesso a far parte del nostro Sodalizio il<lb/> nuovo membro
+                  <persName ref="#frediania">Aladino Frediani</persName>. Non avendo<lb/> trovato il
+               libretti riffa che la loggia Santo<lb/> Amato aveva mandato in regola, Su
+               proposta<lb/> di <persName ref="#bertonie">Eugenio Bertoni</persName>, l’assemblea
+               decise di<lb/> mandarli in dietro. <seg type="proposal">Fu proposto da <persName
+                     ref="#bertonie" role="proposer">Eugenio<lb/> Bertoni</persName> e assecondato
+                  da <persName ref="#zinim" role="supporter">Modesto Zini</persName> di<lb/> inviare
+                  una lettera <persName ref="#viganol">al fratello Lorenzo Vigano’</persName> che si
+                  presentasse alla prossima seduta per<lb/>
+                  <del rend="strike">per</del> rispondere alle accuse mosseli.</seg><lb/>
+               <list type="committee" subtype="regolamento">
+                  <note><seg type="proposal">Su proposta <persName ref="#bertonie" role="proposer"
+                           >Bertoni</persName> e <persName ref="#danesiv" role="supporter"
+                           >Danesi</persName> fu’ approvato<lb/> di sciegliere un comitato cosi
+                        composto</seg></note>
+                  <lb/>
+                  <item><persName ref="#zinim">Modesto Zini</persName>.</item>
+                  <item><persName ref="#bertonie">Eugenio Bertoni</persName></item>
+                  <item><persName ref="#fredianim">Muzio Frediani</persName></item>
+                  <lb/>
+                  <item><persName ref="#desantie">Enemia De Santi</persName></item>
+                  <item><persName ref="#cinellio">Olindo Cinelli</persName></item>
+                  <item>e <persName ref="#simonettim">Michele<lb/> Simonetti</persName>,</item>
+                  <note>i sudetti dovranno riunirsi e<lb/> discutere il migliore mezo per
+                     aumentare<lb/> il benessere della Lega.</note>
+               </list> tanto morale che materia-<lb/> le. <seg type="proposal">Su proposta <persName
+                     ref="#fredianim" role="proposer">Frediani</persName> e <persName
+                     ref="#cinellio" role="supporter">Cinelli</persName> l’as<lb/> semblea decise di
+                  dar stampare. 100. libretti<lb/> riffa di 5. tichetti ciascuno da. 50 soldi
+                  luna<lb/> e di mandarne uno per ogni socio.</seg> il quale<lb/> simpeguera di
+               vendere oppure di restituirle<lb/>
+               <pb n="124"/> la prossima seduta. <unclear reason="illegible"/> Essendo un caso<lb/>
+               pietosi il nostro consocio <persName ref="#fredianim">Musio Frediani</persName><lb/>
+               si offri di fare la stampa gratuita cosi<lb/> diminuendo le spese a coloro che
+               anno<lb/> assistito il defunto correligionario<lb/>
+               <persName ref="#rossie">Enrico Rossi</persName>. Pagato <persName ref="#fredianim">al
+                  signor Frediani</persName><lb/> per stampa $16.30. $40.00 per il regalo<lb/> a
+                  <persName ref="#pellegrinic">Casimiro Pellegrini</persName>. e. 41.30. per il<lb/>
+               pic.nic. Incassato dal Seg. di finanza<lb/> $78.75. I cassa oggi 3952.63.<lb/>
+               <closer>Non avendo altro da fare <rs ref="#pellegrinic">il presidente</rs>
+                  dichiara<lb/> sciolta la seduta ore 10.30. P.M.<lb/> Il Seg<lb/>
+                  <signed>G. Gianni</signed>
+                  <signed>C. Pellegrini</signed></closer><lb/>
+            </ab>
+         </body>
+      </text>
+   </TEI>
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title/>
+            </titleStmt>
+            <publicationStmt>
+               <authority>La Lega Toscana di Protezione</authority>
+               <date when="1924-08-21"/>
+            </publicationStmt>
+            <sourceDesc>
+               <p>Source description.</p>
+            </sourceDesc>
+         </fileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <ab>
+               <pb n="125"/> Giovedi 21 Agosto 1924 alle ore 9. P.M.<lb/> venne aperta la nostra
+               seduta regolare<lb/> ordinaria, presieduta <persName ref="#pellegrinic">dal nostro
+                  presidente<lb/> Casimiro Pellegrini</persName>. <list type="absent">
+                  <note>All’appello nominale<lb/> risultavano assenti i seguenti ufficiali.</note>
+                  <lb/>
+                  <item><persName ref="#sodinij">Jacopo Sodini</persName> vice presidente</item>
+                  <item><persName ref="#marconic">Carlo Marconi</persName><lb/> primo
+                     curatore</item>
+                  <item><persName ref="#lucchesiam">Amerigo Lucchesi</persName> terso<lb/>
+                     curatore,</item>
+                  <item>e <persName ref="#merciadrie">Eugenio Merciadri</persName> guarda
+                     sala</item>
+               </list><lb/>
+               <seg type="proposal">Su proposta <persName ref="#fredianim" role="proposer">Muzio
+                     Frediani</persName> e <persName ref="#viganol" role="supporter">Lorenzo
+                     Vigano’</persName> venne approvato di fare un comitato per<lb/> investigare i
+                  conti del. pic.nic.</seg> ultimo.<lb/> Componenti <list type="committee"
+                  subtype="picnic">
+                  <note>il comitato sonno i seguenti</note>
+                  <lb/>
+                  <item><persName ref="#lucchesiam">Amerigo Lucchesi</persName>,</item>
+                  <item><persName ref="#viganol">Lorenzo Vigano’</persName>,</item>
+                  <item><persName ref="#fredianellig">Giuseppe<lb/> Fredianelli</persName>.</item>
+               </list> Non avendo <persName ref="#michelie">il fratello Eugenio<lb/>
+                  Micheli</persName> adempito l suo dovere come prescriv-<lb/> ono i nostri
+               regolamenti. Capitolo IV. art. 21.<lb/> l’assemblea delibero’ di pagarli dal 26
+               Luglio<lb/> al 5 Agosto cioe’ 11 giorni. <list type="committee" subtype="picnic">
+                  <note>Essendo al processo<lb/> verbale di fare 2 pic-nic in quest’anno, <rs
+                        ref="#pellegrinic">il<lb/> presidente</rs> dopo una lunga e vivace
+                     discussione nomino’ il seguente comitato. per farlo la<lb/> seconda domenica di
+                     Settembre.</note>
+                  <item><persName ref="#fredianim">Muzio Frediani</persName></item>
+                  <lb/>
+                  <item><persName ref="#cinellio">Olindo Cinelli</persName></item>
+                  <item><persName ref="#danesiv">Virgilio Danesi</persName>.</item>
+                  <item><persName ref="#viganol">Lorenzo Vigano’</persName></item>
+                  <item><persName ref="#merciadrie">Eugenio Merciadri</persName>,</item>
+                  <item><persName ref="#vannuccie">Ermete Vannucci</persName></item>
+                  <item>e <persName ref="#datia">Adelmo<lb/> Dati</persName>.</item>
+               </list> Essendosi presentato <persName ref="#viganol">il fratello Lorenzo<lb/>
+                  Vigano’</persName> e dichiarato di avere mancato di fronte<lb/> al comitato pic
+               nic e verso la societa’ stessa<lb/> il presidente dichiaro’ chiusa la vertenza.<lb/>
+               <seg type="proposal">Proposta da <persName ref="#fredianim" role="proposer">Muzio
+                     Frediani</persName> e assecondato da<lb/>
+                  <persName ref="#fredianellig" role="supporter">Giuseppe Fredianelli</persName> di
+                  scrivere una lettera<lb/>
+                  <persName ref="#guidia">ad ex fondatore Achille Guidi</persName> per il suo<lb/>
+                  gentile pensiero di ricordarsi ancor lontano<lb/>
+                  <pb n="126"/> della Lega Toscana.</seg> Incassto dal Seg. di<lb/> finanza $44.25.
+               In cassa oggi 3933.78.<lb/>
+               <closer>Non avendo altro da fare <rs ref="#pellegrinic">il presidente</rs>
+                  dichiara<lb/> sciolta la seduta. ore 10.30. P.M.<lb/> Il Seg Il Pres<lb/>
+                  <signed>G. Gianni</signed>
+                  <signed>Chaz Marconi</signed><lb/>
+                  <signed>C. Pellegrini</signed>
+               </closer><lb/>
+            </ab>
+         </body>
+      </text>
+   </TEI>
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title/>
+            </titleStmt>
+            <publicationStmt>
+               <authority>La Lega Toscana di Protezione</authority>
+               <date when="1924-09-18"/>
+            </publicationStmt>
+            <sourceDesc>
+               <p>Source description.</p>
+            </sourceDesc>
+         </fileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <ab>
+               <pb n="126"/> Giovedi 18 Settembre 1924 alle ore . 9 P.M venne<lb/> aperta la nostra
+               seduta regolare ordinaria presieduta<lb/>
+               <persName ref="#pellegrinic">dal nostro presidente Casimiro
+               Pellegrini</persName>.<lb/> All’appello nominale, non risultava nessuno<lb/> degli
+               ufficiali. Il processo verbale venne approvato come<lb/> letto. <seg type="invite"
+                  >Avendo <orgName ref="#figli248" role="source">l’Ordine Figli d’Italia</orgName>
+                  invitato <orgName ref="#legaT" role="target">la<lb/> Lega Toscana</orgName> di
+                  fare parte alla parata del<lb/> Columbus day.</seg> 12 Ottobre per festeggiare il
+               piu’ ardito’ e grande navigatore del mondo., la Lega Toscana<lb/> non volendo essere
+               seconda a nessuno quando si tratta’ di tiene alto il nome Italiano., <seg
+                  type="proposal">Su proposta<lb/>
+                  <persName ref="#zinim" role="proposer">Modesto Zini</persName> assecondata
+                     <persName ref="#marconic" role="supporter">dal Carlo Marconi</persName>
+                  accetto’ All’ora dopo una vivace discussione venne approvato<lb/> di andare in
+                  parata in corpo, e piu’ di fare un<lb/> carro allegorico,</seg>
+               <list type="committee" subtype="parata">
+                  <note>all’uopo venne scielto il seguente<lb/> comitato.</note>
+                  <item><persName ref="#fredianim">Muzio Frediani</persName>.</item>
+                  <item><persName ref="#maffeis">Stefano Maffei</persName>.</item>
+                  <lb/>
+                  <item><persName ref="#desantie">E De Santi</persName>.</item>
+                  <item><persName ref="#pistelliu">Ugo Pistelli</persName>.</item>
+                  <item><persName ref="#zinim">Modesti Zini</persName>.</item>
+                  <lb/>
+                  <item><persName ref="#zinif">Fioravante Zini</persName>.</item>
+                  <item><persName ref="#zinib">Batista Zini</persName>.</item>
+                  <item>e <persName ref="#pacinic">Candido Pacini</persName></item>
+                  <lb/>
+                  <note>con pieni poteri di spendere quello che ci voleva<lb/> pure di fare un buon
+                     lavoro e farsi onore.</note>
+               </list><lb/>
                <pb n="127"/>
-              
-               Fu proposto da Modesto Zini e assecondato da<lb/>
-               Carlo Marconi di dare un ballo ma non fu definita<lb/>
-               la data Allora il presidente scielse il seguente comitato<lb/>
-               per trovare il locale. Santino Pasquinelli. Carlo Marconi<lb/>
-               e Martino Borelli. Incassato dal segretario di finanza<lb/>
-               $61.50. In cassa oggi $3965.53. non avendo alto<lb/>
-               da fare il presidente dichira sciolta la seduta ore.<lb/>
-               .11. P.M.<lb/>
-               Il Seg.<lb/>
-               G Gianni<lb/>
-               C. Pellegrini [firmate] Pres.<lb/>
-              
+               <seg type="proposal">Fu proposto da <persName ref="#zinim" role="proposer">Modesto
+                     Zini</persName> e assecondato da<lb/>
+                  <persName ref="#marconic" role="supporter">Carlo Marconi</persName> di dare un
+                  ballo ma non fu definita<lb/> la data</seg>
+               <list type="committee" subtype="ballo">
+                  <note>Allora <rs ref="#pellegrinic">il presidente</rs> scielse il seguente
+                     comitato<lb/> per trovare il locale.</note>
+                  <item><persName ref="#pasquinellis">Santino Pasquinelli</persName>.</item>
+                  <item><persName ref="#marconic">Carlo Marconi</persName></item>
+                  <lb/>
+                  <item>e <persName ref="#borellim">Martino Borelli</persName>.</item>
+               </list> Incassato dal segretario di finanza<lb/> $61.50. In cassa oggi $3965.53.
+                  <closer>non avendo alto<lb/> da fare il presidente dichira sciolta la seduta
+                  ore.<lb/> .11. P.M.<lb/> Il Seg.<lb/>
+                  <signed>G Gianni</signed><lb/>
+                  <signed>C. Pellegrini</signed> Pres.</closer><lb/>
             </ab>
          </body>
       </text>
@@ -723,83 +784,107 @@
       <teiHeader>
          <fileDesc>
             <titleStmt>
-               <title></title>
+               <title/>
             </titleStmt>
-            <publicationStmt><authority>La Lega Toscana di Protezione</authority>
-            <date when="1924-10-16"/></publicationStmt>
-            <sourceDesc><p>Source description.</p></sourceDesc>
+            <publicationStmt>
+               <authority>La Lega Toscana di Protezione</authority>
+               <date when="1924-10-16"/>
+            </publicationStmt>
+            <sourceDesc>
+               <p>Source description.</p>
+            </sourceDesc>
          </fileDesc>
       </teiHeader>
       <text>
          <body>
             <ab>
-               <pb n="128"/>
-              
-               Giovedi 16 Ottobre 1924, alle ore 8.30 P.M.<lb/>
-               venne aperta la nostra seduta regolare<lb/>
-               ordinaria presieduta dal nostro presidente<lb/>
-               Casimiro Pellegrini All’appello nominale<lb/>
-               risultavano assenti i seguenti ufficiali<lb/>
-               Giuseppe Gianni Segretario di corrispondenza<lb/>
-               Carlo Marconi. primo curatore<lb/>
-               Martino Borelli secondo curatore e<lb/>
-               Amerigo Lucchesi terzo curatore.<lb/>
-               Fu approvato ad’unanimita’ di pagare<lb/>
-               le spese che il comitato per il carro era<lb/>
-               andato in contro, e cosi ripartiti<lb/>
-               Supplies, bunting etc			$32.31<lb/>
-               Flags, straps, e ribbon			  11.30<lb/>
-               Plaster, lath, colors, etc			  8.00<lb/>
-               Lumber					  8.50<lb/>
-               Costumes					  25.65<lb/>
-               Rental of truck, space, and material 	50.00<lb/>
-               Painters time				 	 25.00<lb/>
-               Silvios time					  24.50<lb/>
-               Candito Pacini time			  	15.00<lb/>
-               Gino Milani time				  24.50<lb/>
-               Battista Zini time			 	 15.00<lb/>
-               Candito Pacini time and use of machine   7.00<lb/>
-               Use of driver and truck for banling	  10.00<lb/>
-               Superintendents labor execution<lb/>
-               and use of machine for buying<lb/>
-               supplies and directing same		  50.00<lb/>
-               Watchman					  5.00<lb/>
-               Tax bill					  4.00<lb/>
-               Totale 315.76<lb/>
-              
+               <pb n="128"/> Giovedi 16 Ottobre 1924, alle ore 8.30 P.M.<lb/> venne aperta la nostra
+               seduta regolare<lb/> ordinaria presieduta <persName ref="#pellegrinic">dal nostro
+                  presidente<lb/> Casimiro Pellegrini</persName>
+               <list type="absent">
+                  <note>All’appello nominale<lb/> risultavano assenti i seguenti ufficiali</note>
+                  <lb/>
+                  <item><persName ref="#giannig">Giuseppe Gianni</persName> Segretario di
+                     corrispondenza</item>
+                  <lb/>
+                  <item><persName ref="#marconic">Carlo Marconi</persName>. primo curatore</item>
+                  <lb/>
+                  <item><persName ref="#borellim">Martino Borelli</persName> secondo curatore</item>
+                  <item>e<lb/>
+                     <persName ref="#lucchesiam">Amerigo Lucchesi</persName> terzo curatore.</item>
+               </list><lb/> Fu approvato ad’unanimita’ di pagare<lb/> le spese che il comitato per
+               il carro era<lb/> andato in contro, e cosi ripartiti<lb/> Supplies, bunting etc
+               $32.31<lb/> Flags, straps, e ribbon 11.30<lb/> Plaster, lath, colors, etc 8.00<lb/>
+               Lumber 8.50<lb/> Costumes 25.65<lb/> Rental of truck, space, and material 50.00<lb/>
+               Painters time 25.00<lb/> Silvios time 24.50<lb/>
+               <persName ref="#pacinic">Candito Pacini</persName> time 15.00<lb/>
+               <persName ref="#milanig">Gino Milani</persName> time 24.50<lb/>
+               <persName ref="#zinib">Battista Zini</persName> time 15.00<lb/>
+               <persName ref="#pacinic">Candito Pacini</persName> time and use of machine 7.00<lb/>
+               Use of driver and truck for banling 10.00<lb/> Superintendents labor execution<lb/>
+               and use of machine for buying<lb/> supplies and directing same 50.00<lb/> Watchman
+               5.00<lb/> Tax bill 4.00<lb/> Totale 315.76<lb/>
                <pb n="129"/>
-               Fu approvato di cancellare [strike]i[strike] i seguenti membri<lb/>
-               essendo arretrati. Frediani Aladino, Incrocci<lb/>
-               Pietro, Barsotti Giorgio, Pardini Americo<lb/>
-               Serafini Alberto, Baldacci Angelo, Borelli<lb/>
-               Eugenio, Serafino Nicolai, Vincenzo Diodati<lb/>
-               e Mungai Angelo. Fu deciso di dare il ballo<lb/>
-               il 4 Decembre al Moose Temple e ce sara’
-               un ballo popolare all’uopo fu scelto il seguente<lb/>
-               comitato. Giuseppe Tambellini di Pietro<lb/>
-               Presidente Battista Zini vice Presidente,<lb/>
-               Giuseppe Gianni segretario, Adelmo Dati<lb/>
-               tesoriere. Lorenzo Lunardini floor manager<lb/>
-               assistente Ettore Fontana.<lb/>
-               Charman ricevimento Giovacchino Maffei.<lb/>
-               assistenti Alfredo Vannucci e Derio Chiocca’.<lb/>
-               Charman di arrangiamento Olindo Cinelli<lb/>
-               assistenti, Virgilio Danesi [stk]Lorenzo Vigano’[/stk]<lb/>
-               Eugenio Merciadri Pasqualino Maffei<lb/>
-               e Alfredo Lunardi<lb/>
-              
-               Trovansi ammalati i seguenti soci<lb/>
-               Giuseppe Gianni e Benedetto Pardini<lb/>
-              
-               Incassato dal segretario di finanza 	170.05<lb/>
-               Interesse dei soldi alla banca		75.14<lb/>
-               Totale  245.19<lb/>
-               Incassa oggi $4027.03.<lb/>
-               Furono pagati i billi del carro per l’ammontare<lb/>
-               di $315.76 e l’affito per la sala’ di $22.50<lb/>
-               totale $338.26. Non avendo altro da fare il<lb/>
-               presidente dichiara sciolt la seduta 11.30 PM
-               Il Seg G. Gianni.  C Pellegrini	[firmate]<lb/>
+               <list type="cancellati">
+                  <note>Fu approvato di cancellare <del rend="strike">i</del> i seguenti membri<lb/>
+                     essendo arretrati.</note>
+                  <item><persName ref="#frediania">Frediani Aladino</persName>,</item>
+                  <item><persName ref="#incroccip">Incrocci<lb/> Pietro</persName>,</item>
+                  <item><persName ref="#barsottig">Barsotti Giorgio</persName>,</item>
+                  <item><persName ref="#pardinia">Pardini Americo</persName></item>
+                  <lb/>
+                  <item><persName ref="#serafinia">Serafini Alberto</persName>,</item>
+                  <item><persName ref="#baldaccia">Baldacci Angelo</persName>,</item>
+                  <item><persName ref="#borellie">Borelli<lb/> Eugenio</persName>,</item>
+                  <item><persName ref="#serafinin">Serafino Nicolai</persName>,</item>
+                  <item><persName ref="#diodativ">Vincenzo Diodati</persName></item>
+                  <lb/>
+                  <item>e <persName ref="#mungaia">Mungai Angelo</persName>.</item>
+               </list>
+               <list type="committee" subtype="ballo">
+                  <note>Fu deciso di dare il ballo<lb/> il 4 Decembre al Moose Temple e ce sara’ un
+                     ballo popolare all’uopo fu scelto il seguente<lb/> comitato.</note>
+                  <item><persName ref="#tambellinig">Giuseppe Tambellini</persName> di Pietro<lb/>
+                     Presidente</item>
+                  <item><persName ref="#zinib">Battista Zini</persName> vice Presidente,</item>
+                  <lb/>
+                  <item><persName ref="#giannig">Giuseppe Gianni</persName> segretario,</item>
+                  <item><persName ref="#datia">Adelmo Dati</persName><lb/> tesoriere.</item>
+                  <item><persName ref="#lunardinil">Lorenzo Lunardini</persName> floor
+                     manager</item>
+                  <lb/>
+                  <item>assistente <persName ref="#fontanae">Ettore Fontana</persName>.</item>
+                  <lb/>
+                  <item>Charman ricevimento <persName ref="#maffeigio">Giovacchino
+                     Maffei</persName>.</item>
+                  <lb/>
+                  <item><list>
+                        <note>assistenti</note>
+                        <item><persName ref="#vannuccia">Alfredo Vannucci</persName></item>
+                        <item>e <persName ref="#chioccad">Derio Chiocca’</persName>.</item>
+                     </list></item>
+                  <lb/>
+                  <item>Charman di arrangiamento <persName ref="#cinellio">Olindo
+                     Cinelli</persName></item>
+                  <lb/>
+                  <item><list>
+                        <note>assistenti,</note>
+                        <item><persName ref="#danesiv">Virgilio Danesi</persName></item>
+                        <del rend="strike">Lorenzo Vigano’</del>
+                        <lb/>
+                        <item><persName ref="#merciadrie">Eugenio Merciadri</persName></item>
+                        <item><persName ref="#maffeip">Pasqualino Maffei</persName></item>
+                        <lb/>
+                        <item>e <persName ref="#lunardia">Alfredo Lunardi</persName></item>
+                     </list></item>
+               </list><lb/> Trovansi ammalati i seguenti soci<lb/>
+               <persName ref="#giannig">Giuseppe Gianni</persName> e <persName ref="#pardinia"
+                  >Benedetto Pardini</persName><lb/> Incassato dal segretario di finanza 170.05<lb/>
+               Interesse dei soldi alla banca 75.14<lb/> Totale 245.19<lb/> Incassa oggi
+               $4027.03.<lb/> Furono pagati i billi del carro per l’ammontare<lb/> di $315.76 e
+               l’affito per la sala’ di $22.50<lb/> totale $338.26. <closer>Non avendo altro da fare
+                     <rs ref="#pellegrinic">il<lb/> presidente</rs> dichiara sciolt la seduta 11.30
+                  PM Il Seg <signed>G. Gianni</signed>. <signed>C Pellegrini</signed></closer><lb/>
                Pres.<lb/>
             </ab>
          </body>
@@ -809,81 +894,93 @@
       <teiHeader>
          <fileDesc>
             <titleStmt>
-               <title></title>
+               <title/>
             </titleStmt>
-            <publicationStmt><authority>La Lega Toscana di Protezione</authority>
-            <date when="1924-11-20"/></publicationStmt>
-            <sourceDesc><p>Source description.</p></sourceDesc>
+            <publicationStmt>
+               <authority>La Lega Toscana di Protezione</authority>
+               <date when="1924-11-20"/>
+            </publicationStmt>
+            <sourceDesc>
+               <p>Source description.</p>
+            </sourceDesc>
          </fileDesc>
       </teiHeader>
       <text>
          <body>
             <ab>
-               <pb n="130"/>
-              
-               Giovedi 20 Novembre 1924, alle ore 9.15. P.M.<lb/>
-               venne aperta la nostra seduta ordinaria<lb/>
-               presieduta dal nostro presidente Casimiro Pellegrini<lb/>
-               All’appello nominale risultavano assenti i<lb/>
-               seguenti ufficiali. Jacopo Sodini vice presidente<lb/>
-               Carlo Marconi primo curatore Americo Lucchesi<lb/>
-               terzo curatore e Giuseppe Fredianello ufficiale<lb/>
-               sanitario. Apertasi la discussione riguardo al<lb/>
-               carro allegorico il presidente mostra all’assemblea<lb/>
-               un billo di $20.40. da lui ricevuto, e tenuto<lb/>
-               [stk]tenuto[/stk] responsabile, riguardo all’accidente che<lb/>
-               il carro allegorico ebbe il giorno della parata<lb/>
-               12 Ottobre, Columbus day, che per raggiungire<lb/>
-               la parata cozzo’ un’altra automobile producendole<lb/>
-               dei guasti. Dopo una vivace discussione il<lb/>
-               presidente si prende l’incarico di aggiustare<lb/>
-               la questione. Non avendo il comitato ballo<lb/>
-               fatto il suo dovere la societa’ e tenuta a perdere<lb/>
-               i .25.00 dollari sborsati per l’affito del Moose<lb/>
-               Temple il 2 Dicembre .U.S. Dal rapporto degli<lb/>
-               ufficiali sanitari risultava che i soci<lb/>
-               Benedetto Pardini, e Pietro Lunardini si<lb/>
-               Trovavano ancora ammalati.<lb/>
-               Furono approvati e pagati i seguenti billi.<lb/>
-               Sam Marsili per serratura al banco delle<lb/>
-               bandiere $3.25 Giuseppe Gianni per sussidio<lb/>
-               $16.00. Vittorio Andreini per sussidio $22.00<lb/>
-               affitto per la sala da ballo $25.00.<lb/>
-               Aladino Piaggesi per sussidio $11.00<lb/>
-               Giuseppe Gianni perlettere assicurate e<lb/>
-               francobolli $1.00.    Totale $78.25<lb/>
-              
-               <pb n="131"/>
-              
-               Incassato dal segretario di finanza $[stk]72[/stk]68.75<lb/>
-               In cassa oggi $ 3933.96.<lb/>
-              
-               Non avendo altro da fare il presidente dichiara<lb/>
-               aperta la nomina per gli ufficiali dell’anno<lb/>
-               fiscale 1925.<lb/>
-               Furono nominati ed elettti per acclamazione<lb/>
-               i seguenti. Michele Simonetti presidente<lb/>
-               Enemia De Santi vice presidente<lb/>
-               Giuseppe Gianni segretario di corrispondenza<lb/>
-               Emilio Pasquinelli segretario di finanza<lb/>
-               Santino Pasquinelli tesoriere.<lb/>
-               Giuseppe Fredianelli ufficiale sanitario<lb/>
-               Ermete Vannucci ufficiale sanitario<lb/>
-               Eugenio Merciadri guardia sala<lb/>
-              
-               Di modo che non restano che i curatori<lb/>
-               da eleggersi. I nominati sarebbero<lb/>
-              
-               Candido Pacini. Lorenzo Lunardini<lb/>
-               Lorenzo Vigano’. Adelmo Dati<lb/>
-               Olinto Cinelli. e Ettore Fontana<lb/>
-              
-               Non avendo altro da fare il presidente dichiara<lb/>
-               sciolta la seduta ore 11.00. P.M.<lb/>
-              
-               Il Seg				Il Pres.<lb/>
-               G. Gianni [firmato]		Jacopo Sodini [firmato]<lb/>
-              
+               <pb n="130"/> Giovedi 20 Novembre 1924, alle ore 9.15. P.M.<lb/> venne aperta la
+               nostra seduta ordinaria<lb/> presieduta <persName ref="#pellegrinic">dal nostro
+                  presidente Casimiro Pellegrini</persName><lb/>
+               <list type="absent">
+                  <note>All’appello nominale risultavano assenti i<lb/> seguenti ufficiali.</note>
+                  <item><persName ref="#sodinij">Jacopo Sodini</persName> vice presidente</item>
+                  <lb/>
+                  <item><persName ref="#marconic">Carlo Marconi</persName> primo curatore</item>
+                  <item><persName ref="#lucchesiam">Americo Lucchesi</persName><lb/> terzo
+                     curatore</item>
+                  <item>e <persName ref="#fredianellig">Giuseppe Fredianell</persName>
+                     ufficiale<lb/> sanitario.</item>
+               </list> Apertasi la discussione riguardo al<lb/> carro allegorico <rs
+                  ref="#pellegrinic">il presidente</rs> mostra all’assemblea<lb/> un billo di
+               $20.40. da lui ricevuto, e tenuto<lb/>
+               <del rend="strike">tenuto</del> responsabile, riguardo all’accidente che<lb/> il
+               carro allegorico ebbe il giorno della parata<lb/> 12 Ottobre, Columbus day, che per
+               raggiungire<lb/> la parata cozzo’ un’altra automobile producendole<lb/> dei guasti.
+               Dopo una vivace discussione <rs ref="#pellegrinic">il<lb/> presidente</rs> si prende
+               l’incarico di aggiustare<lb/> la questione. Non avendo il comitato ballo<lb/> fatto
+               il suo dovere la societa’ e tenuta a perdere<lb/> i .25.00 dollari sborsati per
+               l’affito del Moose<lb/> Temple il 2 Dicembre .U.S. Dal rapporto degli<lb/> ufficiali
+               sanitari risultava che i soci<lb/>
+               <persName ref="#pardinib">Benedetto Pardini</persName>, e <persName ref="#lunardinip"
+                  >Pietro Lunardini</persName> si<lb/> Trovavano ancora ammalati.<lb/> Furono
+               approvati e pagati i seguenti billi.<lb/> Sam Marsili per serratura al banco
+               delle<lb/> bandiere $3.25 <seg type="comp" subtype="sick"><persName ref="#giannig"
+                     role="target">Giuseppe Gianni</persName> per sussidio<lb/>
+                  <num type="monetary" value="16">$16.00</num>.</seg>
+               <seg type="comp" subtype="sick"><persName ref="#andreiniv" role="target">Vittorio
+                     Andreini</persName> per sussidio <num type="monetary" value="22"
+                  >$22.00</num></seg><lb/> affitto per la sala da ballo $25.00.<lb/>
+               <seg type="comp" subtype="sick"><persName ref="#piaggesia" role="target">Aladino
+                     Piaggesi</persName> per sussidio <num type="monetary" value="11"
+                  >$11.00</num></seg><lb/> Giuseppe Gianni perlettere assicurate e<lb/> francobolli
+               $1.00. Totale $78.25<lb/>
+               <pb n="131"/> Incassato dal segretario di finanza $<del rend="strike"
+               >72</del>68.75<lb/> In cassa oggi $ 3933.96.<lb/> Non avendo altro da fare <rs
+                  ref="#pellegrinic">il presidente</rs> dichiara<lb/> aperta la nomina per gli
+               ufficiali dell’anno<lb/> fiscale 1925.<lb/>
+               <list type="officers">
+                  <note>Furono nominati ed elettti per acclamazione<lb/> i seguenti.</note>
+                  <item><persName ref="#simonettim">Michele Simonetti</persName> presidente</item>
+                  <lb/>
+                  <item><persName ref="#desantie">Enemia De Santi</persName> vice presidente</item>
+                  <lb/>
+                  <item><persName ref="#giannig">Giuseppe Gianni</persName> segretario di
+                     corrispondenza</item>
+                  <lb/>
+                  <item><persName ref="#pasquinellie">Emilio Pasquinelli</persName> segretario di
+                     finanza</item>
+                  <lb/>
+                  <item><persName ref="#pasquinellis">Santino Pasquinelli</persName>
+                     tesoriere.</item>
+                  <lb/>
+                  <item><persName ref="#fredianellig">Giuseppe Fredianelli</persName> ufficiale
+                     sanitario</item>
+                  <lb/>
+                  <item><persName ref="#vannuccie">Ermete Vannucci</persName> ufficiale
+                     sanitario</item>
+                  <lb/>
+                  <item><persName ref="#merciadrie">Eugenio Merciadri</persName> guardia sala</item>
+               </list><lb/> Di modo che non restano che i curatori<lb/> da eleggersi. I nominati sarebbero<lb/>
+               <persName ref="#pacinic">Candido Pacini</persName>. <persName ref="#lunardinil"
+                  >Lorenzo Lunardini</persName><lb/>
+               <persName ref="#viganol">Lorenzo Vigano’</persName>. <persName ref="#datia">Adelmo
+                  Dati</persName><lb/>
+               <persName ref="#cinellio">Olinto Cinelli</persName>. e <persName ref="#fontanae"
+                  >Ettore Fontana</persName><lb/>
+               <closer>Non avendo altro da fare <rs ref="#pellegrinic">il presidente</rs>
+                  dichiara<lb/> sciolta la seduta ore 11.00. P.M.<lb/> Il Seg Il Pres.<lb/>
+                  <signed>G. Gianni</signed>
+                  <signed>Jacopo Sodini</signed></closer><lb/>
             </ab>
          </body>
       </text>
@@ -892,83 +989,89 @@
       <teiHeader>
          <fileDesc>
             <titleStmt>
-               <title></title>
+               <title/>
             </titleStmt>
-            <publicationStmt><authority>La Lega Toscana di Protezione</authority>
-            <date when="1924-12-18"/></publicationStmt>
-            <sourceDesc><p>Source description.</p></sourceDesc>
+            <publicationStmt>
+               <authority>La Lega Toscana di Protezione</authority>
+               <date when="1924-12-18"/>
+            </publicationStmt>
+            <sourceDesc>
+               <p>Source description.</p>
+            </sourceDesc>
          </fileDesc>
       </teiHeader>
       <text>
          <body>
             <ab>
-               <pb n="132"/>
-              
-               Giovedi 18 Dicembre 1924 alle ore 9.15. P.M.<lb/>
-               venne aperta la nostra seduta regolare ordinaria<lb/>
-               presieduta dal nostro vice presidente Jacopo Sodini.<lb/>
-               All’appello nominale risultavano assenti i seguenti<lb/>
-               ufficiali. Casimiro Pellegrini presidente<lb/>
-               Carlo Marconi primo curatore Martino Borelli<lb/>
-               secondo curatore. Amerigo Lucchesi terzo curatore<lb/>
-               Giuseppe Fredianelli e Ermete Vannucci<lb/>
-               ufficiale sanitari Il processo verbale venne approvato<lb/>
-               come letto. Avendo l’assemblea dimandato se<lb/>
-               qualcuno fosse stato incaricato dal presidente<lb/>
-               riguardo al danno causato dal carro allegorico<lb/>
-               il giorno .12. Ottobre 1924 Columbus day, il<lb/>
-               fratello Michele Simonetti, si alza e dice, che<lb/>
-               il presidente era andato a trovarlo e le aveva<lb/>
-               detto che essendo lui il nuovo presidente, aveva<lb/>
-               dato la sua direzione alla parte lesa, Su parere<lb/>
-               del nuovo presidente Michele Simonetti e di<lb/>
-               tutta l’assemblea fu incaricato lo stesso, che<lb/>
-               se per caso lo cercassero di non tenere la Lega<lb/>
-               responsabile per nessuno ammontare di danaro.<lb/>
-               Fu proposto da Michele Simonetti e assecondato<lb/>
-               da Stefano Maffei di dare un banchetto a<lb/>
-               pagamento la data non definita.<lb/>
-               Fu approvato e pagato l’affitto della sala per .3.<lb/>
-               mesi Gennaio Febbraio e Marzo. $11.25.<lb/>
-               Incassato dal segretario di finanza $15.75.<lb/>
-               In cassa oggi $3924.45.<lb/>
-               Essendo gli altri ufficiali passati tutti<lb/>
-               ad’unanimita’ il presidente dichiara aperta<lb/>
-               la votazione per i curatori. I concorrenti sono<lb/>
-               .6. e tre da eleggersi i nomi dei concorenti sono<lb/>
-              
+               <pb n="132"/> Giovedi 18 Dicembre 1924 alle ore 9.15. P.M.<lb/> venne aperta la
+               nostra seduta regolare ordinaria<lb/> presieduta <persName ref="#sodinij">dal nostro
+                  vice presidente Jacopo Sodini</persName>.<lb/>
+               <list type="absent">
+                  <note>All’appello nominale risultavano assenti i seguenti<lb/> ufficiali.</note>
+                  <item><persName ref="#pellegrinic">Casimiro Pellegrini</persName>
+                     presidente</item>
+                  <lb/>
+                  <item><persName ref="#marconic">Carlo Marconi</persName> primo curatore</item>
+                  <item><persName ref="#borellim">Martino Borelli</persName><lb/> secondo
+                     curatore.</item>
+                  <item><persName ref="#lucchesiam">Amerigo Lucchesi</persName> terzo
+                     curatore</item>
+                  <lb/>
+                  <item><list>
+                        <item><persName ref="#fredianellig">Giuseppe Fredianelli</persName></item>
+                        <item>e <persName ref="#vannuccie">Ermete Vannucci</persName></item>
+                        <lb/>
+                        <note>ufficiale sanitari</note>
+                     </list></item>
+               </list> Il processo verbale venne approvato<lb/> come letto. Avendo l’assemblea
+               dimandato se<lb/> qualcuno fosse stato incaricato <rs ref="#pellegrinic">dal
+                  presidente</rs><lb/> riguardo al danno causato dal carro allegorico<lb/> il giorno
+               .12. Ottobre 1924 Columbus day, <persName ref="#simonettim">il<lb/> fratello Michele
+                  Simonetti</persName>, si alza e dice, che<lb/>
+               <rs ref="#pellegrinic">il presidente</rs> era andato a trovarlo e le aveva<lb/> detto
+               che essendo lui <rs ref="#simonettim">il nuovo presidente</rs>, aveva<lb/> dato la
+               sua direzione alla parte lesa, Su parere<lb/>
+               <persName ref="#simonettim">del nuovo presidente Michele Simonetti</persName> e
+               di<lb/> tutta l’assemblea fu incaricato lo stesso, che<lb/> se per caso lo cercassero
+               di non tenere la Lega<lb/> responsabile per nessuno ammontare di danaro.<lb/>
+               <seg type="proposal">Fu proposto da <persName ref="#simonettim" role="proposer"
+                     >Michele Simonetti</persName> e assecondato<lb/> da <persName ref="#maffeis"
+                     role="supporter">Stefano Maffei</persName> di dare un banchetto a<lb/>
+                  pagamento la data non definita.</seg><lb/> Fu approvato e pagato l’affitto della
+               sala per .3.<lb/> mesi Gennaio Febbraio e Marzo. $11.25.<lb/> Incassato dal
+               segretario di finanza $15.75.<lb/> In cassa oggi $3924.45.<lb/> Essendo gli altri
+               ufficiali passati tutti<lb/> ad’unanimita’ <rs ref="#pellegrinic">il presidente</rs>
+               dichiara aperta<lb/> la votazione per i curatori. I concorrenti sono<lb/> .6. e tre
+               da eleggersi i nomi dei concorenti sono<lb/>
                <pb n="133"/>
-              
-               Lorenzo Lunardini. Lorenzo Vigano’. Olinto<lb/>
-               Cinelli. adelmo Dati. Ettore Fontana e<lb/>
-               Candido Pacini. i votanti furano 14 e dopo<lb/>
-               la lettura dei nomi risultavano eletti i seguen<lb/>
-               ti tre per l’anno 1925. Olinto Cinelli e Adelmo<lb/>
-               Dati con 11 voti ciascuno e Lorenzo Lunardini<lb/>
-               con 9 voti. Avendo Olinto Cinelli e Adelmo<lb/>
-               Dati parita’ di voti il presidente decide in<lb/>
-               favore di Olinto Cinelli a primo curatore.<lb/>
-               Incassato dal segretario di finanza dimensili per<lb/>
-               l’anno 1924.<lb/>
-               $831.90.<lb/>
-               Percentuale pegato al segretario<lb/>
-               di corrispondenza. 5. per. 100.		  41.59.<lb/>
-              
-               Percentuale pagata al segretario<lb/>
-               di finanza. 4. per. 100.			  33.27.<lb/>
-              
-               Al tesorierecomepaga tutto<lb/>
-               l’anno pagato				   9.00<lb/>
-              
-               Al collettore si $129.65 - 100 per 1000	  12.95<lb/>
-              
-               Andando in carica, la nuova amministrazione<lb/>
-               decise di dare un piccolo rinfresco ha tutti<lb/>
-               i membri gratuito. Non avendo altro da fare<lb/>
-               il presidente dichiara chiusa la seduta 10.30.P.M.<lb/>
-              
-               Il Seg					Il Pres<lb/>
-               G. Gianni [firmato]		J Sodini [firmato]<lb/>
+               <persName ref="#lunardinil">Lorenzo Lunardini</persName>. <persName ref="#viganol"
+                  >Lorenzo Vigano’</persName>. <persName ref="#cinellio">Olinto<lb/>
+                  Cinelli</persName>. <persName ref="#datia">adelmo Dati</persName>. <persName
+                  ref="#fontanae">Ettore Fontana</persName> e<lb/>
+               <persName ref="#pacinic">Candido Pacini</persName>. i votanti furano 14 e dopo<lb/>
+               la lettura dei nomi <list type="officers">
+                  <note>risultavano eletti i seguen<lb/> ti tre per l’anno 1925.</note>
+                  <item><list>
+                        <item><persName ref="#cinellio">Olinto Cinelli</persName></item>
+                        <item>e <persName ref="#datia">Adelmo<lb/> Dati</persName></item>
+                        <note>con 11 voti ciascuno</note>
+                     </list></item>
+                  <item>e <persName ref="#lunardinil">Lorenzo Lunardini</persName><lb/> con 9
+                     voti.</item>
+               </list> Avendo <persName ref="#cinellio">Olinto Cinelli</persName> e <persName
+                  ref="#datia">Adelmo<lb/> Dati</persName> parita’ di voti <rs ref="#pellegrinic">il
+                  presidente</rs> decide in<lb/> favore di <persName ref="#cinellio">Olinto
+                  Cinelli</persName> a primo curatore.<lb/> Incassato dal segretario di finanza
+               dimensili per<lb/> l’anno 1924.<lb/> $831.90.<lb/> Percentuale pegato al
+               segretario<lb/> di corrispondenza. 5. per. 100. 41.59.<lb/> Percentuale pagata al
+               segretario<lb/> di finanza. 4. per. 100. 33.27.<lb/> Al tesorierecomepaga tutto<lb/>
+               l’anno pagato 9.00<lb/> Al collettore si $129.65 - 100 per 1000 12.95<lb/> Andando in
+               carica, la nuova amministrazione<lb/> decise di dare un piccolo rinfresco ha
+               tutti<lb/> i membri gratuito. <closer>Non avendo altro da fare<lb/>
+                  <rs ref="#pellegrinic">il presidente</rs> dichiara chiusa la seduta
+                  10.30.P.M.<lb/> Il Seg Il Pres<lb/>
+                  <signed>G. Gianni</signed>
+                  <signed>J Sodini</signed></closer><lb/>
             </ab>
          </body>
       </text>

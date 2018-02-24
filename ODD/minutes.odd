@@ -90,7 +90,7 @@
                 <valItem ident="#cappellinim"/>
                 <valItem ident="#carloe"/>
                 <valItem ident="#carmassil"/>
-                <valItem ident="#chiccig"/>
+                <valItem ident="#checcig"/>
                 <valItem ident="#chioccac"/>
                 <valItem ident="#chioccad"/>
                 <valItem ident="#cinellio"/>
@@ -112,6 +112,7 @@
                 <valItem ident="#desimos"/>
                 <valItem ident="#dinie"/>
                 <valItem ident="#diodatia"/>
+                <valItem ident="#diodatir"/>
                 <valItem ident="#diodativ"/>
                 <valItem ident="#diriccoe"/>
                 <valItem ident="#donatol"/>
@@ -127,6 +128,7 @@
                 <valItem ident="#francesconio"/>
                 <valItem ident="#francionig"/>
                 <valItem ident="#fredianellig"/>
+                <valItem ident="#frediania"/>
                 <valItem ident="#fredianim"/>
                 <valItem ident="#fugassij"/>
                 <!-- Last name G -->
@@ -140,6 +142,7 @@
                 <valItem ident="#giuglianettir"/>
                 <valItem ident="#giuntoligi"/>
                 <valItem ident="#giuntoligu"/>
+                <valItem ident="#guidia"/>
                 <!-- Last name I -->
                 <valItem ident="#incroccip"/>
                 <valItem ident="#insanal"/>
@@ -153,7 +156,7 @@
                 <valItem ident="#lucchesial"/>
                 <valItem ident="#lucchesiam"/>
                 <valItem ident="#luccic"/>
-                <valItem ident="#lundardia"/>
+                <valItem ident="#lunardia"/>
                 <valItem ident="#lunardinia"/>
                 <valItem ident="#lunardinif"/>
                 <valItem ident="#lunardinil"/>
@@ -183,8 +186,10 @@
                 <valItem ident="#martinellir"/>
                 <valItem ident="#meconin"/>
                 <valItem ident="#merciadrie"/>
+                <valItem ident="#michelie"/>
                 <valItem ident="#micheluccis"/>
                 <valItem ident="#miconin"/>
+                <valItem ident="#milanig"/>
                 <valItem ident="#millarj"/>
                 <valItem ident="#mungaia"/>
                 <!-- Last name N -->
@@ -231,6 +236,7 @@
                 <valItem ident="#robertic"/>
                 <valItem ident="#robertig"/>
                 <valItem ident="#robertog"/>
+                <valItem ident="#rossie"/>
                 <valItem ident="#rossir"/>
                 <!-- Last name S -->
                 <valItem ident="#sandronee"/>
@@ -437,6 +443,7 @@
                 <valItem ident="regolamento"/>
                 <valItem ident="banchetto"/>
                 <valItem ident="club"/>
+                <valItem ident="parata"/>
               </valList>
             </attDef>
           </attList>
