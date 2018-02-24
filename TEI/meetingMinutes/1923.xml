@@ -55,8 +55,9 @@
                </msIdentifier>
                <physDesc>
                   <handDesc>
-                     <p>This volume of minutes was written by the correspondance secretary of
-                        the<lb/> year 1923, <persName ref="#viganoe">Ernesto Vigano'</persName>.</p>
+                     <p>This volume of minutes was written by the correspondance secretaries of
+                        the<lb/> year 1923, <persName ref="#marchettie">Emilio Marchetti</persName> from January to May, and <persName ref="#giannig">Giuseppe Gianni</persName> from
+                        July to December.</p>
                   </handDesc>
                   <accMat>
                      <p>The meeting minutes contain, in addition to written record of meetings,
@@ -117,6 +118,10 @@
                </person>
                <person>
                   <persName ref="#giannig">Giuseppe Gianni</persName>
+                  <roleName>Curatore</roleName>
+               </person>
+               <person>
+                  <persName ref="#borellim" role="replacement">Martino Borelli</persName>
                   <roleName>Curatore</roleName>
                </person>
                <person>
