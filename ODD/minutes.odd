@@ -14,7 +14,7 @@
       <publicationStmt>
         <authority>Prepared in TEI 5 by Zachary Enick for the Italian research assistantship at the
           University of Pittsburgh. Github repository: <ref target="http://github.com/zme1/toscana"
-          />. Date last worked on: <date when="2018-02-24"/></authority>
+          />. Date last worked on: <date when="2018-02-25"/></authority>
         <availability>
           <licence><!-- licence to go here --></licence>
         </availability>
@@ -57,29 +57,36 @@
                 list also includes contributors, collaborators, and other individuals affiliated with the project in any
                 direct way. -->
                 <!-- Last name A -->
+                <valItem ident="#allegrinie"/>
                 <valItem ident="#andreinia"/>
                 <valItem ident="#andreiniv"/>
                 <valItem ident="#anselmif"/>
                 <!-- Last name B -->
                 <valItem ident="#baccellim"/>
+                <valItem ident="#baccelliu"/>
+                <valItem ident="#baggianig"/>
                 <valItem ident="#baldaccia"/>
                 <valItem ident="#banchieris"/>
                 <valItem ident="#barantip"/>
                 <valItem ident="#barduccia"/>
                 <valItem ident="#barellim"/>
                 <valItem ident="#barontinid"/>
-                <valItem ident="#bartolis"/>
+                <valItem ident="#barsantif"/>
                 <valItem ident="#barsottif"/>
                 <valItem ident="#barsottigio"/>
                 <valItem ident="#barsottigiu"/>
                 <valItem ident="#barsottiv"/>
                 <valItem ident="#bartolettif"/>
+                <valItem ident="#bartolis"/>
                 <valItem ident="#battistiniv"/>
+                <valItem ident="#belluominin"/>
                 <valItem ident="#benedettia"/>
                 <valItem ident="#benedettie"/>
                 <valItem ident="#benedettig"/>
                 <valItem ident="#bertonie"/>
                 <valItem ident="#bevilacquas"/>
+                <valItem ident="#biagir"/>
+                <valItem ident="#biaginic"/>
                 <valItem ident="#bianchinif"/>
                 <valItem ident="#bianchinigio"/>
                 <valItem ident="#bianchinigiu"/>
@@ -87,6 +94,7 @@
                 <valItem ident="#bondare"/>
                 <valItem ident="#borellie"/>
                 <valItem ident="#borellim"/>
+                <valItem ident="#bottarip"/>
                 <valItem ident="#brigidinia"/>
                 <valItem ident="#buchignanil"/>
                 <valItem ident="#buchignianiv"/>
@@ -95,6 +103,7 @@
                 <valItem ident="#cappellinim"/>
                 <valItem ident="#carloe"/>
                 <valItem ident="#carmassil"/>
+                <valItem ident="#casalic"/>
                 <valItem ident="#casalio"/>
                 <valItem ident="#checcig"/>
                 <valItem ident="#chioccac"/>
@@ -104,6 +113,7 @@
                 <valItem ident="#colombinin"/>
                 <valItem ident="#coltellig"/>
                 <valItem ident="#cortopassig"/>
+                <valItem ident="#cortopassiv"/>
                 <valItem ident="#cristofania"/>
                 <!-- Last name D -->
                 <valItem ident="#danesiv"/>
@@ -113,6 +123,7 @@
                 <valItem ident="#deldebbioc"/>
                 <valItem ident="#deldebbiog"/>
                 <valItem ident="#delmagrol"/>
+                <valItem ident="#delucae"/>
                 <valItem ident="#denricoc"/>
                 <valItem ident="#denricop"/>
                 <valItem ident="#desantie"/>
@@ -128,11 +139,14 @@
                 <!-- Last name F -->
                 <valItem ident="#fogliav"/>
                 <valItem ident="#fontanaal"/>
+                <valItem ident="#fontanaam"/>
                 <valItem ident="#fontanaan"/>
                 <valItem ident="#fontanae"/>
                 <valItem ident="#fontanaf"/>
                 <valItem ident="#francesconia"/>
+                <valItem ident="#francesconig"/>
                 <valItem ident="#francesconio"/>
+                <valItem ident="#franchinir"/>
                 <valItem ident="#francionig"/>
                 <valItem ident="#fredianellig"/>
                 <valItem ident="#frediania"/>
@@ -141,15 +155,18 @@
                 <!-- Last name G -->
                 <valItem ident="#gambogia"/>
                 <valItem ident="#gambogis"/>
+                <valItem ident="#ghinaccig"/>
                 <valItem ident="#giampaolig"/>
                 <valItem ident="#giangranedif"/>
                 <valItem ident="#giannig"/>
                 <valItem ident="#giomettic"/>
                 <valItem ident="#giomettio"/>
+                <valItem ident="#giorgettip"/>
                 <valItem ident="#giuglianettir"/>
                 <valItem ident="#giuntoligi"/>
                 <valItem ident="#giuntoligu"/>
                 <valItem ident="#guidia"/>
+                <valItem ident="#guidottie"/>
                 <valItem ident="#guidottif"/>
                 <!-- Last name I -->
                 <valItem ident="#incroccip"/>
@@ -162,11 +179,13 @@
                 <valItem ident="#lombardia"/>
                 <valItem ident="#lucchesial"/>
                 <valItem ident="#lucchesiam"/>
+                <valItem ident="#lucchesin"/>
                 <valItem ident="#luccic"/>
                 <valItem ident="#lunardiac"/>
                 <valItem ident="#lunardial"/>
                 <valItem ident="#lunardinia"/>
-                <valItem ident="#lunardinif"/>
+                <valItem ident="#lunardinifa"/>
+                <valItem ident="#lunardinifr"/>
                 <valItem ident="#lunardinil"/>
                 <valItem ident="#lunardinim"/>
                 <valItem ident="#lunardinip"/>
@@ -182,10 +201,13 @@
                 <valItem ident="#malfattip"/>
                 <valItem ident="#mancinia"/>
                 <valItem ident="#marchettie"/>
-                <valItem ident="#marchettiem"/>
+                <valItem ident="#marchettil"/>
+                <valItem ident="#marchettim"/>
+                <valItem ident="#marchettiq"/>
                 <valItem ident="#marconic"/>
                 <valItem ident="#marconif"/>
                 <valItem ident="#marianir"/>
+                <valItem ident="#marracciniv"/>
                 <valItem ident="#marsilia"/>
                 <valItem ident="#marsilie"/>
                 <valItem ident="#marsilig"/>
@@ -213,6 +235,7 @@
                 <valItem ident="#pacinig"/>
                 <valItem ident="#pacinio"/>
                 <valItem ident="#padre"/>
+                <valItem ident="#paganellig"/>
                 <valItem ident="#paganuccis"/>
                 <valItem ident="#palig"/>
                 <valItem ident="#papid"/>
@@ -226,7 +249,10 @@
                 <valItem ident="#pasquinellian"/>
                 <valItem ident="#pasquinellie"/>
                 <valItem ident="#pasquinellig"/>
+                <valItem ident="#pasquinellijoh"/>
+                <valItem ident="#pasquinellijos"/>
                 <valItem ident="#pasquinellim"/>
+                <valItem ident="#pasquinelliq"/>
                 <valItem ident="#pasquinellis"/>
                 <valItem ident="#paternic"/>
                 <valItem ident="#paternim"/>
@@ -235,14 +261,18 @@
                 <valItem ident="#piaggesia"/>
                 <valItem ident="#piccininig"/>
                 <valItem ident="#pistelliu"/>
+                <valItem ident="#polia"/>
                 <valItem ident="#polif"/>
                 <valItem ident="#pollastrinia"/>
                 <valItem ident="#ponzionip"/>
                 <valItem ident="#puccettia"/>
                 <valItem ident="#puccettil"/>
+                <valItem ident="#puccinellia"/>
+                <valItem ident="#puccinellig"/>
                 <!-- Last name Q -->
                 <valItem ident="#quintigliog"/>
                 <!-- Last name R -->
+                <valItem ident="#ragghiantia"/>
                 <valItem ident="#ragghiantie"/>
                 <valItem ident="#ragghiantir"/>
                 <valItem ident="#ribettig"/>
@@ -261,19 +291,26 @@
                 <valItem ident="#serafinia"/>
                 <valItem ident="#serafinie"/>
                 <valItem ident="#serafinig"/>
-                <valItem ident="#serafinin"/>
+                <valItem ident="#serafinina"/>
+                <valItem ident="#serafinini"/>
                 <valItem ident="#serafinio"/> 
                 <valItem ident="#silvionic"/>   
                 <valItem ident="#simie"/>
                 <valItem ident="#simonettim"/>
+                <valItem ident="#sodinig"/>
                 <valItem ident="#sodinij"/>
                 <valItem ident="#sunseric"/>
                 <!-- Last name T -->
                 <valItem ident="#tambellinia"/>
                 <valItem ident="#tambellinig"/>
-                <valItem ident="#tambellinil"/>
+                <valItem ident="#tambellinile"/>
+                <valItem ident="#tambellinilo"/>
+                <valItem ident="#tamburia"/>
+                <valItem ident="#tamburig"/>
+                <valItem ident="#tamburit"/>
                 <valItem ident="#temfarlaseia"/>
                 <!-- Last name V -->
+                <valItem ident="#valdisserau"/>
                 <valItem ident="#vannuccia"/>
                 <valItem ident="#vannuccie"/>
                 <valItem ident="#viganoe"/>
@@ -390,6 +427,7 @@
               <elementRef key="roleName"/>
               <elementRef key="unclear"/>
               <elementRef key="list"/>
+              <elementRef key="note"/>
             </alternate>
           </content>
         </elementSpec>

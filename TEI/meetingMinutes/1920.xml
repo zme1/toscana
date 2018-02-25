@@ -277,7 +277,7 @@
                   <note>Vennero presentate domande di am-<lb/> missioni dei seguenti
                      asperanti:</note>
                   <item><persName ref="#vannuccie">Ernesto<lb/> Vannucci</persName>,</item>
-                  <item><persName ref="#serafinin">Serafini Nicolai</persName>,</item>
+                  <item><persName ref="#serafinini">Serafini Nicolai</persName>,</item>
                   <item><persName ref="#vannuccia">Alfredo<lb/> Vannucci</persName></item>
                   <item>e <persName ref="#zambellinic" role="rejected">Cesare
                      Zambellini</persName>.</item>
@@ -332,7 +332,7 @@
                   <item><persName ref="#paganuccis">Sam<lb/> Paganucci</persName></item>
                   <item>e <persName ref="#viganol">Lorenzo Viganò</persName>.</item>
                </list> Il Processo verba-<lb/> le venne approvato come letto.<lb/> Vennero ammessi
-               al ruolo sociale<lb/> come nuovi membri <persName ref="#marchettiem">Marchetti
+               al ruolo sociale<lb/> come nuovi membri <persName ref="#marchettie">Marchetti
                   Emilio</persName><lb/> e <persName ref="#martinellir">Renato Martinelli</persName>
                e presentate la<lb/> domanda di ammissione dell’asperante <persName
                   ref="#bevilacquas">Sam<lb/> Bevilacqua</persName> venne accettato.<lb/> Fu
@@ -643,7 +643,7 @@
                <seg type="comp" subtype="donation"><persName ref="#giangranedif" role="source"
                      >Francesco Giangrandi</persName>
                   <num type="monetary" value="3">$3</num></seg>, <seg type="comp" subtype="donation"
-                     ><persName ref="#serafinin" role="source">Nicolai Serafino</persName><lb/>
+                     ><persName ref="#serafinini" role="source">Nicolai Serafino</persName><lb/>
                   <num type="monetary" value="3">$3</num></seg>.<lb/> Parlando in riguardo al Pic-nic<lb/>
                <seg type="proposal"><persName ref="#pellegrinic" role="proposer">Casimiro
                      Pellegrini</persName> ass. <persName ref="#piaggesia" role="supporter">Aladino
@@ -659,7 +659,7 @@
                <persName ref="#silvionic">Carlo Silvioni</persName>, 1 box di candy; <persName
                   ref="#palig">Giuseppe<lb/> Pali</persName>, una box di candy; <persName
                   ref="#vannuccie">Ernesto Van-<lb/> nucci</persName> 10 pezzi artistici; <persName
-                  ref="#marchettiem">Emilio Mar-<lb/> chetti</persName>, un baby; <persName
+                  ref="#marchettie">Emilio Mar-<lb/> chetti</persName>, un baby; <persName
                   ref="#piaggesia">Aladino Piaggesi</persName>,<lb/> ½ doz. di retine per capelli;
                Sodini<lb/> e Piaggesi 5 casse di pops; <persName ref="#lucchesiam">Americo<lb/>
                   Lucchesi</persName>, 1 box di sigari De Nobili;<lb/>
@@ -808,7 +808,7 @@
                proposta<lb/> fatta nello sedute scorse di dare<lb/> un ballo nel mese di Novembre p. V:<lb/>
                <rs ref="#maffeis">Il Presidente</rs> apre le nomine di un<lb/> comitato Ballo e
                risulto cosi com-<lb/> posto: <persName ref="#sodinij">Jacopo Sodini</persName>,
-               presidente <persName ref="#marchettiem">Emi-<lb/> lio Marchetti</persName>, Vice
+               presidente <persName ref="#marchettie">Emi-<lb/> lio Marchetti</persName>, Vice
                Presidente; <persName ref="#zinim">Modesto<lb/> Zini </persName>tesoriere; <persName
                   ref="#pellegrinic">Casimiro Pellegrini</persName>:<lb/> segretario Chairman di ricevimento<lb/>
                <persName ref="#maffeis">S. Maffei</persName>, floor manager <persName
@@ -859,7 +859,7 @@
                   medesimo.</seg><lb/>
                <persName ref="#pellegrinic">Casimiro Pellegrini</persName> ha presentato<lb/> le sue
                dimissioni da capo Comitato<lb/> per le Bandiere e queste accettate ed<lb/> in sua
-               vece venne nominato <persName ref="#marchettiem">il fra-<lb/> tello Emilio
+               vece venne nominato <persName ref="#marchettie">il fra-<lb/> tello Emilio
                   Marchetti</persName><lb/>
                <seg type="proposal"><persName ref="#pellegrinic" role="proposer">Casimiro
                      Pellegrini</persName> ass. da<lb/>
@@ -963,7 +963,7 @@
                      <list rend="list">
                         <note>A Secretario</note>
                         <lb/>
-                        <item><persName ref="#marchettiem">Emilio Marchetti</persName>, per
+                        <item><persName ref="#marchettie">Emilio Marchetti</persName>, per
                            acclamazione</item>
                      </list></item>
                   <lb/>
@@ -1060,7 +1060,7 @@
                i cosi<lb/> composto:<lb/>
                <persName ref="#maffeis">Stefano Maffei</persName>, Presidente<lb/>
                <persName ref="#lucchesiam">Americo Lucchesi</persName>, Vice<lb/>
-               <persName ref="#marchettiem">Emilio Marchetti</persName>, Segretario<lb/>
+               <persName ref="#marchettie">Emilio Marchetti</persName>, Segretario<lb/>
                <persName ref="#pasquinellis">Santino Pasquinelli</persName>, Tesoriero<lb/>
                <persName ref="#viganol">Lorenzo Vigano’</persName>, Chairman of<lb/> Floor Managers
                ed i suoi assistenti:<lb/>
@@ -1082,7 +1082,7 @@
                   Carlo</persName> e<lb/>
                <persName ref="#zinif">Fiarananti Zini</persName>.<lb/>
                <seg type="proposal">Il fratello <persName ref="#santarlascia" role="proposer">Angelo
-                     Santarlasci</persName> ass.<lb/> da <persName ref="#marchettiem"
+                     Santarlasci</persName> ass.<lb/> da <persName ref="#marchettie"
                      role="supporter">Emilio Marchetti</persName>
                   <del rend="strike">che</del> propone che<lb/> sia il Ballo in Farma civile e
                   un<lb/> mascherato. Tale proposto viene ap-<lb/> provato per
@@ -1095,7 +1095,7 @@
                   >Fredianelli<lb/> Giuseppe</persName> -- Ufficiali Sanitari: <persName
                   ref="#merciadrie">Eugenio<lb/> Merciadri</persName>, <persName ref="#battistiniv"
                   >Battistini Vincenzo</persName>. Restando<lb/> eletti per acclamazioni <persName
-                  ref="#marchettiem">Emilio Marchetti</persName><lb/> Seg. di carr., <persName
+                  ref="#marchettie">Emilio Marchetti</persName><lb/> Seg. di carr., <persName
                   ref="#piaggesia">Aladino Piaggesi</persName> Seg. di Fin.<lb/>
                <persName ref="#pasquinellis">Santino Pasquinelli</persName>, Tesoriere e <persName
                   ref="#merciadrie">Eugenio<lb/> Merciadri</persName>, guarda sala<lb/> Fondo cassa
