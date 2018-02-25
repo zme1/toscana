@@ -741,95 +741,96 @@ Shouldn’t need to do anything other than wrap it in?
                
                Giovedi 16 Novembre 1922 alle ore 9 P.M.<lb/>
                Venne tenuta la seduta Ordinaria<lb/>
-               preseduta dal Curatore Musio Frediani<lb/>
-               all’appello nominale degli ufficiali<lb/>
-               risultavano assenti i seguenti<lb/>
-               Carlo Marconi, Castruccio Cappellini<lb/>
-               Sam Marsili, Eugenio Merciadri.<lb/>
+               preseduta <persName ref="#fredianim">dal Curatore Muzio Frediani</persName><lb/>
+               <list type="absent"><note>all’appello nominale degli ufficiali<lb/>
+               risultavano assenti i seguenti</note><lb/>
+               <item><persName ref="#marconic">Carlo Marconi</persName>,</item> <item><persName ref="#cappellinic">Castruccio Cappellini</persName></item><lb/>
+               <item><persName ref="#marsilis">Sam Marsili</persName>,</item> <item><persName ref="#merciadrie">Eugenio Merciadri</persName>.</item></list><lb/>
                Il processo Verbale Venne approvato<lb/>
                come letto.<lb/>
-               Fu concesso sussidio al fratello<lb/>
-               Alfredo Pasquinelli di $42.00.<lb/>
+               <seg type="comp" subtype="sick">Fu concesso sussidio <persName ref="#pasquinellial" role="target">al fratello<lb/>
+               Alfredo Pasquinelli</persName> di <num type="monetary" value="42">$42.00</num>.</seg><lb/>
                Il comitato di investicazione quele sala<lb/>
                fosse la migliore per dare il nostro<lb/>
                ballo, e trovo il montefiore Hall.<lb/>
-               Proposto da Lorenzo Vigano’ ass. da<lb/>
-               Candito Pacini che il ballo sia dato<lb/>
-               il 400 mercoledi di gennaio e sia<lb/>
-               in veste civile.<lb/>
-               <del rend="strike">Finiti tutti gli affari sociali</del> Il<lb/>
-               Presidente apri la nomina della<lb/>
+               <seg type="proposal">Proposto da <persName ref="#viganol" role="proposer">Lorenzo Vigano’</persName> ass. da<lb/>
+               <persName ref="#pacinic" role="supporter">Candito Pacini</persName> che il ballo sia dato<lb/>
+               il 4 mercoledi di gennaio e sia<lb/>
+               in veste civile.</seg><lb/>
+               <del rend="strike">Finiti tutti gli affari sociali</del> <rs ref="#fredianim">Il<lb/>
+               Presidente</rs> <list type="officers"><note>apri la nomina della<lb/>
                nuova amministrazione per L’anno<lb/>
-               1923.<lb/>
-               
-               Presidente Stefano Maffei Senza Competitori<lb/>
-               Vice Pres.	Candito Pacini " "<lb/>
-               Segretario Cor.  Ernesto Vigano’	" "<lb/>
-               " " Finanza.  Americo Lucchesi " "<lb/>
-               Tesoriere  Santino Pasquinelli " "<lb/>
-               Curatori	Serafino De Simo " "<lb/>
-               " "Giuseppe Gianni " "<lb/>
-               " "Enzo Carli " "<lb/>
-               Nufficiali Sanitari.  Lorenzo Vigano’<lb/>
-               " " " "Modesto Zini<lb/>
+               1923.</note><lb/>
+               <item>Presidente <persName ref="#maffeis">Stefano Maffei</persName> Senza Competitori</item><lb/>
+               <item>Vice Pres.	<persName ref="#pacinic">Candito Pacini</persName> " "</item><lb/>
+               <item>Segretario Cor.  <persName ref="#viganoe">Ernesto Vigano’</persName>	" "</item><lb/>
+               <item>" " Finanza.  <persName ref="#lucchesiam">Americo Lucchesi</persName> " "</item><lb/>
+               <item>Tesoriere  <persName ref="#pasquinellis">Santino Pasquinelli</persName> " "</item><lb/>
+                  <item><list><note>Curatori</note>	<item><persName ref="#desimos">Serafino De Simo</persName> " "</item><lb/>
+               <item>" "<persName ref="#giannig">Giuseppe Gianni</persName> " "</item><lb/>
+               <item>" "<persName ref="#carloe">Enzo Carli</persName> " "</item></list></item><lb/>
+               <item><list><note>Nufficiali Sanitari.</note>  <item><persName ref="#viganol">Lorenzo Vigano’</persName></item><lb/>
+               <item>" " " "<persName ref="#zinim">Modesto Zini</persName></item></list></item><lb/>
                
                <pb n="94"/>
                
-               Collettore   Jacopo Sodini<lb/>
-               Guarda Sala   Giuseppe Fredianelli<lb/>
-               Americo Pasquinelli uno da elegersi<lb/>
-               
-               Proposto da Stefano Maffei ass. da<lb/>
-               Jacopo Sodini che prencipiando<lb/>
+               <item>Collettore   <persName ref="#sodinij">Jacopo Sodini</persName></item></list><lb/>
+               Guarda Sala   <persName ref="#fredianellig">Giuseppe Fredianelli</persName><lb/>
+               <persName ref="#pasquinelliam">Americo Pasquinelli</persName> uno da elegersi<lb/>
+               <seg type="proposal">Proposto da <persName ref="#maffeis" role="proposer">Stefano Maffei</persName> ass. da<lb/>
+               <persName ref="#sodinij" role="supporter">Jacopo Sodini</persName> che prencipiando<lb/>
                dal mese di gennaio 1923 di dare<lb/>
-               $9.00 all’anno al Tesoriere.<lb/>
-               Poi si apri la nomina del comitato<lb/>
-               ballo.<lb/>
-               Serafino De Simo. Presidente<lb/>
-               Lorenzo Lunardini. Vice Presidente<lb/>
-               Ernesto Vigano’.  Segretario<lb/>
-               Santino Pasquinelli   Tesoriere.<lb/>
-               Stefano Maffei Chairman of Reception<lb/>
-               Committee. gli assistenti verranno<lb/>
-               shelti nella prossima seduta.<lb/>
-               Floor Maneger Giuseppe Gianni<lb/>
-               Modesto Zini  Chairman of Arrangement<lb/>
-               Committee. gli assistenti verranno<lb/>
-               shelti nella prossima seduta.<lb/>
+               $9.00 all’anno al Tesoriere.</seg><lb/>
+               <list type="committee" subtype="ballo"><note>Poi si apri la nomina del comitato<lb/>
+               ballo.</note><lb/>
+               <item><persName ref="#desimos">Serafino De Simo</persName>. Presidente</item><lb/>
+               <item><persName ref="#lunardinil">Lorenzo Lunardini</persName>. Vice Presidente</item><lb/>
+               <item><persName ref="#viganoe">Ernesto Vigano’</persName>.  Segretario</item><lb/>
+               <item><persName ref="#pasquinellis">Santino Pasquinelli</persName>   Tesoriere.</item><lb/>
+               <item><persName ref="#maffeis">Stefano Maffei</persName> Chairman of Reception<lb/>
+                  Committee.</item> <note>gli assistenti verranno<lb/>
+               shelti nella prossima seduta.</note><lb/>
+               <item>Floor Maneger <persName ref="#giannig">Giuseppe Gianni</persName></item><lb/>
+              <item> <persName ref="#zinim">Modesto Zini</persName>  Chairman of Arrangement<lb/>
+                 Committee.</item> <note>gli assistenti verranno<lb/>
+               shelti nella prossima seduta.</note></list><lb/>
                <del rend="strike">Proposto da Vi fu due proposte di<lb/>
                fare pagare gli statuti una a 35c<lb/>
                i altra a 50c e furono messe al<lb/>
                ballottaggio Segreto e fu passata quella<lb/>
                di 50c.</del>
-               Proposto da Jacopo Sodini ass. da Stefano<lb/>
-               Maffei che gli statuti siano pagati<lb/>
-               quando vengono consegnati.<lb/>
-               Proposto da Muzio Frediani ass. da<lb/>
-               Modesto Zini di Levare un comitato<lb/>
+               <seg type="proposal">Proposto da <persName ref="#sodinij" role="proposer">Jacopo Sodini</persName> ass. da <persName ref="#maffeis" role="supporter">Stefano<lb/>
+               Maffei</persName> che gli statuti siano pagati<lb/>
+               quando vengono consegnati.</seg><lb/>
+               <seg type="proposal">Proposto da <persName ref="#fredianim" role="proposer">Muzio Frediani</persName> ass. da<lb/>
+               <persName ref="#zinim" role="supporter">Modesto Zini</persName> di Levare un comitato<lb/>
                di investicare in riguardo di fare<lb/>
                
                <pb n="95"/>
                
-               il club della Lega. Comitato<lb/>
-               Santino Pasquinelli, Muzio<lb/>
-               Frediani, Americo Lucchesi<lb/>
-               Jacopo Sodini, Lorenzo Vigano’
+               il club della Lega.</seg> <list type="committee" subtype="club"><note>Comitato</note><lb/>
+               <item><persName ref="#pasquinellis">Santino Pasquinelli</persName>,</item> <item><persName ref="#fredianim">Muzio<lb/>
+               Frediani</persName>,</item> <item><persName ref="#lucchesiam">Americo Lucchesi</persName></item><lb/>
+               <item><persName ref="#sodinij">Jacopo Sodini</persName>,</item> <item><persName ref="#viganol">Lorenzo Vigano’</persName></item></list>
                e di rapportare a loro comodo in<lb/>
                riguardo al Club.<lb/>
-               Non avendo da fare altro per<lb/>
-               qualla sera il Presidente dichiare<lb/>
+               <closer>Non avendo da fare altro per<lb/>
+               qualla sera <rs ref="#maffeis">il Presidente</rs> dichiare<lb/>
                sciolta la seduda.<lb/>
                
                Il Segretario                   	Il Presidente<lb/>
-               E. Marchetti<lb/>
+               <signed>E. Marchetti</signed></closer><lb/>
                
-               Cancello la frase che riguarda<lb/>
+               <note resp="#marchettie">Cancello la frase che riguarda<lb/>
                gli statuti e cioe in nuovi dovran-<lb/>
                no pagare 50c ed i vecchi<lb/>
                solo 25c<lb/>
                Carlo Marconi<lb/>
-               E. Marchetti Segretario<lb/>
+               E. Marchetti Segretario</note><lb/>
                
+               <note resp="#enickz">The meeting was said to have been adjourned by the president,
+                  Carlo Marconi, who was absent at this meeting. I attributed the presiding
+                  officer, Stefano Maffei, with having done so instead.</note>
             </ab>
          </body>
       </text>

@@ -411,11 +411,11 @@ l’assemblea accetto’ il prezzo stabilito $4.00<lb/>
                <list type="committee" subtype="banchetto">
                   <note><rs ref="#simonettim">il<lb/> presidente</rs> nomino’ i seguenti soci</note>
                   <lb/>
-                  <item>Stefano Maffei presidente,</item>
-                  <item>Lorenzo Vigano’ vice<lb/>
+                  <item><persName ref="#maffeis">Stefano Maffei</persName> presidente,</item>
+                  <item><persName ref="#viganol">Lorenzo Vigano’</persName> vice<lb/>
                      <pb n="138"/> presidente,</item>
-                  <item>Santino Pasquinelli tesoriere</item>
-                  <item>e<lb/> Giuseppe Gianni segretario,</item>
+                  <item><persName ref="#pasquinellis">Santino Pasquinelli</persName> tesoriere</item>
+                  <item>e<lb/> <persName ref="#giannig">Giuseppe Gianni</persName> segretario,</item>
                   <item><list>
                         <note>al ricevimento<lb/>
                            <rs ref="#simonettim">il presidente</rs> nomino</note>
@@ -490,7 +490,7 @@ l’assemblea accetto’ il prezzo stabilito $4.00<lb/>
                   <note>Coll’amnistia<lb/> fecero domanda di essere ammessi e furono<lb/> e furono
                      accettati i seguenti nuovi applicanti</note>
                   <lb/>
-                  <item>Orlando Frosini.</item>
+                  <item><persName ref="#frosinio">Orlando Frosini</persName>.</item>
                   <item><persName ref="#allegrinie">Enrico Allegrini</persName>.</item>
                   <item><persName ref="#pasquinellijos">Joseph Pasquine<lb/> lli</persName>,</item>
                   <item><persName ref="#baggianig">Gilberto Baggiani</persName>.</item>
@@ -853,7 +853,7 @@ l’assemblea accetto’ il prezzo stabilito $4.00<lb/>
                   <signed>G. Gianni</signed> [firmato] <signed>M. G. Simonetti</signed></closer><lb/>
                <note resp="#enickz">The meeting was said to have been adjourned by the president,
                   Mike Simonetti, who was absent at this meeting. I attributed the presiding
-                  officer, Olinto Cinelli, with having done so instead</note>
+                  officer, Olinto Cinelli, with having done so instead.</note>
             </ab>
          </body>
       </text>
