@@ -1,0 +1,990 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../ODD/out/minutes.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../ODD/out/minutes.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lega Toscana di Protezione Meeting Minutes: Volume 1</title>
+            <respStmt>
+               <resp>Meeting minutes transcribed from scanned immages</resp>
+               <persName ref="#enickz">Zachary Enick</persName>
+               <persName ref="#insanal">Lina Insana</persName>
+               <persName ref="#jermyne">Eliza Jermyn</persName>
+               <persName ref="#keilr">Rita Keil</persName>
+               <persName ref="#millarj">John "Archie" Millar</persName>
+            </respStmt>
+            <respStmt>
+               <resp>TEI file created from transcribed minute log for academic use</resp>
+               <persName ref="#enickz">Zachary Enick</persName>
+               <persName ref="#insanal">Lina Insana</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Consultants on project development: </resp>
+               <persName ref="#bondare">Elisa Beshero-Bondar</persName>
+               <orgName ref="#praxis">Spring 2018 DH Advanced Praxis Group</orgName>
+               <orgName ref="#pittText">Center for the Digital Text at the University of Pittsburgh, 
+                  Greensburg</orgName>
+            </respStmt>
+         </titleStmt>
+         <extent>153 pg.</extent>
+         <publicationStmt>
+            <authority>
+               <orgName ref="#hhc">Heinz History Center</orgName>
+            </authority>
+            <address>
+               <addrLine>1212 Smallman st.</addrLine>
+               <addrLine>Pittsburgh, PA 15222</addrLine>
+               <addrLine>U.S.A.</addrLine>
+            </address>
+            <idno type="URI">http://heinzhistorycenter.org</idno>
+            <availability>
+               <p>The materials transcribed below are available for public use in the Detre Library 
+                  &amp; Archives located in the Heinz History Center. Materials cannot be removed 
+                  from the library and archives, but sharing of the documents digitally for 
+                  educational purposes is encouraged, with full and proper citation.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <institution>Heinz History Center</institution>
+                  <repository>Detre Library &amp; Archives, Italian American Collection</repository>
+                  <idno><idno>2015.0079</idno> and <idno>2017.0123</idno></idno>
+                  <msName>LEGA Minutes: 1-21-19 - 12-17-25</msName>
+               </msIdentifier>
+               <physDesc>
+                  <handDesc>
+                     <p>This volume of minutes was written by the correspondance secretary of 
+                        the<lb/> year 1924, <persName ref="#giannig">Giuseppe Gianni</persName>.</p>
+                  </handDesc>
+                  <accMat>
+                     <p>The meeting minutes contain, in addition to written record of meetings, 
+                        expense sheets that describe account balances and any spending or receipt 
+                        of<lb/> money by the organization.</p>
+                  </accMat>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>The manuscript was compiled by Lega members during the monthly meetings 
+                        that<lb/> took place in Pittsburgh, PA. This file contains meeting minutes 
+                        that span<lb/> from January to December of 1924.</p>
+                  </origin>
+                  <acquisition>
+                     <p>The manuscript documents were donated to the<orgName ref="#hhc">Heinz 
+                        History Center</orgName>by<persName ref="#vondasl">Laura 
+                           Bocelli-Vondas</persName>in two portions - the first in 2015 and the 
+                        second in 2017.</p>
+                  </acquisition>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <persName ref="#pellegrinic">Casimiro Pellegrini</persName>
+                  <roleName>Presidente</roleName>
+               </person>
+               <person>
+                  <persName ref="#sodinij">Jacopo Sodini</persName>
+                  <roleName>Vice Presidente</roleName>
+               </person>
+               <person>
+                  <persName ref="#giannig">Giuseppe Gianni</persName>
+                  <roleName>Segretario di Corrispondenza</roleName>
+               </person>
+               <person>
+                  <persName ref="#pasquinellie">Emilio Pasquinelli</persName>
+                  <roleName>Segretario Finanza</roleName>
+               </person>
+               <person>
+                  <persName ref="#pasquinellis">Santino Pasquinelli</persName>
+                  <roleName>Tesoriere</roleName>
+               </person>
+               <person>
+                  <persName ref="#marconic">Carlo Marconi</persName>
+                  <roleName>Curatore</roleName>
+               </person>
+               <person>
+                  <persName ref="#borellim">Martino Borelli</persName>
+                  <roleName>Curatore</roleName>
+               </person>
+               <person>
+                  <persName ref="#lucchesiam">Americo Lucchesi</persName>
+                  <roleName>Curatore</roleName>
+               </person>
+               <person>
+                  <persName ref="#viganol" role="scaduto">Lorenzo Vigano'</persName>
+                  <roleName>Ufficiale Sanitario</roleName>
+               </person>
+               <person>
+                  <persName ref="#vannuccie" role="replacement">Ernesto Vannucci</persName>
+                  <roleName>Ufficiale Sanitario</roleName>
+               </person>
+               <person>
+                  <persName ref="#fredianellig">Giuseppe Fredianelli</persName>
+                  <roleName>Ufficiale Sanitario</roleName>
+               </person>
+               <person>
+                  <persName ref="#sodinij">Jacopo Sodini</persName>
+                  <roleName>Collettore</roleName>
+               </person>
+               <person>
+                  <persName ref="#merciadrie">Eugenio Merciardri</persName>
+                  <roleName>Guardia Sala</roleName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <p>This file contains meeting minutes from the year 1924. Meetings were held monthly 
+               and<lb/> were typically held in the same location near the downtown area of 
+               Pittsburgh, Pennsylvania.</p>
+            <p><address>
+               <addrLine>607 Webster Avenue</addrLine>
+               <addrLine>Pittsburgh, PA 15219</addrLine>
+            </address></p>
+         </settingDesc>
+         <textDesc>
+            <channel mode="w"/>
+            <constitution type="composite"/>
+            <derivation type="transcription"/>
+            <domain type="institutional"/>
+            <factuality type="fact">The meeting minutes were handwritten accounts of 
+               discussions<lb/> held, decisions, or money allocated made during the 
+               meetings.</factuality> 
+            <interaction type="partial" active="plural" passive="group"/>
+            <preparedness type="formulaic"/>
+            <purpose type="documentation" degree="high"/>
+         </textDesc>
+         <abstract resp="#enickz">
+            <p>This research study is a collaborative effort between four undergraduate students and 
+               one faculty member at the University of Pittsburgh in Pittsburgh, PA to explore 
+               geographical, linguistic, and anthropological information regarding members and 
+               affiliates of the Lega Toscana di Protezione, a Pittsburgh-based beneficial society 
+               of Tuscan Italian immigrants. The primary purpose of this specific file is to contain 
+               specially marked-up renditions of the transcribed minutes in order to create a social 
+               network mapping that will illuminate relationships and dynamics between both members 
+               of the Lega and those in the greater community based on varied types of interactions 
+               represented within the minutes log.</p>
+         </abstract>
+         <langUsage>
+            <language ident="it">Tuscan Italian, with some anglicisms</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+<TEI>
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title></title>
+         </titleStmt>
+         <publicationStmt><authority>La Lega Toscana di Protezione</authority>
+         <date when="1925-01-15"/></publicationStmt>
+         <sourceDesc><p>Source description.</p></sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+<ab>
+   <pb n="134"/>
+   
+   Giovedi 15 Gennaio 1925 alle ore. 9. P.M.<lb/>
+   venne aperta la nostra seduta regolare<lb/>
+   ordinaria presieduta dal nostro vice<lb/>
+   presidente Jacopo Sodini all’appello<lb/>
+   nominale risultavano assenti i seguenti<lb/>
+   ufficiali. Casimiro Pellegrini presidente<lb/>
+   [stk]Santino Pasquinelli tesoriere[/stk] Carlo Marconi<lb/>
+   Amerigo Lucchesi e Martino Borelli curatori<lb/>
+   e Giuseppe Fredianelli e Ermete Vannucci<lb/>
+   ufficiali sanitari. Il processo verbale<lb/>
+   venne approvato comeletto. A questo punto<lb/>
+   terminando il lavoro per la vecchia<lb/>
+   amministrazione il vice presidente fa<lb/>
+   l’installazione e lascia il seggio al nuovo<lb/>
+   presidente che ringraziando l’assemblea<lb/>
+   prega[stk]ndola[/stk] di aiutarlo nel compimento del<lb/>
+   suo dovere. e si uugura un’anno di prosper-<lb/>
+   ita’. Venne ammesso a fare parte di questo<lb/>
+   sodalizio Vincenzo Buchigniani. gli ufficiali<lb/>
+   sanitari rapportavano che il fratello<lb/>
+   Antonio Serafini si trovava ammalato.<lb/>
+   Fu approvato che i soci Paolo Malfatti,<lb/>
+   Omero Lasali, e Ernesto Marsili debbono<lb/>
+   portare il certificato medico se vogliano essere<lb/>
+   riammessi a fare parte di questa societa’.<lb/>
+   Furono approvati e pagati i seguenti bill.<lb/>
+   Frediani per stampa $16.00.<lb/>
+   Benedetto Pardini sussidio per malattia $60.00<lb/>
+   Pietro Lunardini sussidio per malattia $42.00<lb/>
+   e $5.00 per il giovane che manda l’ascensore<lb/>
+   Proposto da Michele Simonetti e assecondato<lb/>
+   da Stefano Maffei di dare un banchetto a pagamento<lb/>
+   
+   <pb n="135"/>
+   
+   con data non stabilita. Incassato dal segretario<lb/>
+   di finanza $128.25. Totale in cassa oggi<lb/>
+   $3837.40 Non avendo altro da fare il presiden<lb/>
+   te dichiara sciolta la seduta ore. 11.15 P.M.<lb/>
+   
+   Il Seg				Il Pres<lb/>
+   G. Gianni [firmato]		M. Simonetti [firmato]<lb/>
+</ab>
+</body>
+   </text>
+</TEI>
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title></title>
+            </titleStmt>
+            <publicationStmt><authority>La Lega Toscana di Protezione</authority>
+<date when="1925-02-19"/></publicationStmt>
+            <sourceDesc><p>Source description.</p></sourceDesc>
+         </fileDesc>
+      </teiHeader>
+      <text>
+         <body>
+<ab>
+   <pb n="135"/>
+   Giovedi 19 Febbraio 1925 alle ore. 9. P.M. venne<lb/>
+   aperta la nostra seduta regolare ordinaria<lb/>
+   presieduta dal nostro presidente Michele<lb/>
+   Simonetti. All’appello nominale risultavano<lb/>
+   assente il solo ufficiale sanitario Ermete Vannucci<lb/>
+   Il processo verbale venne approvato come letto.<lb/>
+   Fecero domanda di ammissione, e furono accettati<lb/>
+   i signori Achille Lunardi, Ippolito Chiocchetti e<lb/>
+   Silvio Scarpellini. Avendo il certificato medico<lb/>
+   la sera stessa provato che si trovavano in sana<lb/>
+   costituzione fisica, furono dichiarati membri<lb/>
+   effettivi la sera stessa, i due primi cioe’.<lb/>
+   Achille Lunardi e Ippolito Chiocchetti. il<lb/>
+   terzo, Silvio Scarpellini dovra’ portare il<lb/>
+   certificato medico la prossima seduta.<lb/>
+   Fu riammesso avendo portato il certificato medico<lb/>
+   Ernesto Marsili. Su proposta di Giuseppe<lb/>
+   Tambellini e Stefano Maffei viene approvato<lb/>
+   di dare il banchetto ballo colla (amsestia/ amustia) da<lb/>
+   
+   <pb n="136"/>
+   
+   18. ai 35 anni d’eta per tutti quelli che vogliono<lb/>
+   far parte di questa Lega, cominciando il giorno<lb/>
+   19 Marzo e terminando la sera del banchetto ballo,<lb/>
+   chesara’ dato al Neixson Restaurant di<lb/>
+   domenica sera. Alluopo fu staccato il seguente<lb/>
+   comitato. Stefano Maffei. Muzio Frediani. Eugenio<lb/>
+   Bertoni. Santino Pasquinelli. Giuseppe Gianni e<lb/>
+   Lorenzo Lunardini, che coll’approvazione dell’as-<lb/>
+   semblea ammo in detta una gara fra i membri,<lb/>
+   che chi porta 3. nuovi membri a il diritto al<lb/>
+   banchetto gratis e piu’ avra un premio che il<lb/>
+   comitato credera’ meglio sciegliere. Tutti quelli<lb/>
+   che entreranno in questo periodo dal .19. Marzo<lb/>
+   alla sera del banchetto dai 18 ai 35 anni, saran-<lb/>
+   no ammessi gratis, eccetuato $2.00 dollari per<lb/>
+   il fondo unico mortuario e la fede medica.<lb/>
+   Furono pagati al consocio Antonio Serafini<lb/>
+   $.48. dollari per sussidio. Incassato dal segretario<lb/>
+   di finanza $55.50. In cassa oggi $3837.40.<lb/>
+   Non avendo altro da fare il presidente dichiara<lb/>
+   sciolta la seduta. ore. 11. P.M.<lb/>
+   Il Seg G. Gianni [firmato]		Il Pres.<lb/>
+   M. Simonetti [firmato]<lb/>
+   
+   <!-- Avendo il comitato banchetto ballo saputo e<lb/>
+informato il presidente che il padrone del<lb/>
+Nixson Restaurant voleva $3.50 e colla<lb/>
+musica andava a costare $4.00 dollari il<lb/>
+presidente chiamo’ una seduta straordinaria<lb/>
+per decidere, il giorno. 8. Marzo 1925 e<lb/>
+l’assemblea accetto’ il prezzo stabilito $4.00<lb/>
+	M. Simonetti [firmato]<lb/>
+ -->
+</ab>
+</body>
+      </text>
+   </TEI>
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title></title>
+            </titleStmt>
+            <publicationStmt><authority>La Lega Toscana di Protezione</authority>
+<date when="1925-03-19"/></publicationStmt>
+            <sourceDesc><p>Source description.</p></sourceDesc>
+         </fileDesc>
+      </teiHeader>
+      <text>
+         <body>
+<ab>
+   <pb n="137"/>
+   
+   Giovedi 19 Marzo 1925 alle ore 8.45. P.M.<lb/>
+   venne aperta la nostra seduta regolare ordinaria<lb/>
+   presieduta dal nostro presidente Michele Simonetti<lb/>
+   Dall’appello nominale risultavano assenti i<lb/>
+   seguenti ufficiali. Enemia De Santi vice presidente<lb/>
+   Santino Pasquinelli tesoriere. Olinto Cinelli<lb/>
+   primo curatore. Lorenzo Lunardini terzo curatore<lb/>
+   e Ermete Vannucci ufficiale sanitario.<lb/>
+   Il processo verbale venne approvato come letto<lb/>
+   Stando ai regolamenti della nostra amnistia fecero<lb/>
+   domanda di ammissione i seguenti richieduti<lb/>
+   Corrado Roberti, Attilio Olivieri, Romeo Maffei.<lb/>
+   Vincenzo Matteucci, Giuseppe Benedetti, Orlando<lb/>
+   Francesconi, Gino Roberti, Rizieri Menchetti,<lb/>
+   Fausto Guidotti, Vincenzo Barsotti, Ferrante Barsotti<lb/>
+   Giuseppe Barsotti, Giuseppe Barsotti, e Milani<lb/>
+   Gino. Non trovando obbiezione dall’assemblea<lb/>
+   il presidente li messe al approvazione alla<lb/>
+   alzata di mano, e furono tutti accettati.<lb/>
+   Avendo l’assemblea sentito che il richiedente<lb/>
+   di essere ammesso coll’amnistia Enrico<lb/>
+   Pardini oltrepassava il trentacinquesimo<lb/>
+   anno di eta’, le rifiuto l’amnistia.<lb/>
+   Furono riamessi come soci i fratelli, Omero<lb/>
+   Casali, e Ernesto Marsili avendo portatoil<lb/>
+   certificato medico come i nostri regolamenti<lb/>
+   lo richiedono quando un menbro si reca<lb/>
+   all’estero. Su proposta di Serafino De Simo<lb/>
+   e assecondata da Muzio Frediani di nominare<lb/>
+   l’amministrazione per il banchetto balloil<lb/>
+   presidente nomino’ i seguenti soci<lb/>
+   Stefano Maffei presidente, Lorenzo Vigano’ vice<lb/>
+   
+   <pb n="138"/>
+   
+   presidente, Santino Pasquinelli tesoriere e<lb/>
+   Giuseppe Gianni segretario, al ricevimento<lb/>
+   il presidente nomino Adelmo Dati e<lb/>
+   Muzio Frediani. Avendo due proposte per la<lb/>
+   data del banchetto ballo. la prima per la prima<lb/>
+   domenica di Maggio, Maffei Vigano’, la seconda<lb/>
+   Fredianelli Frediani per la seconda domenica<lb/>
+   di Maggio, il presidente le messe a votazione<lb/>
+   risultando vittoriosa la seconda. per la seconda<lb/>
+   domenica di Maggio. Proposto da Stefano<lb/>
+   Maffei e assecondato da Lorenzo Vigano di<lb/>
+   dare una festa campestre il mese di Giugno<lb/>
+   all’uopo fu nominato dal presidente il<lb/>
+   seguente comitato per trovare il posto.<lb/>
+   Lorenzo Vigano. Stefano Maffei e Benedetto<lb/>
+   Pardini Furono pagati i seguenti bill,<lb/>
+   Affitto per tre mesi di sala $11.25.<lb/>
+   Assicurazione per un’anno delle bandiere $8.47.<lb/>
+   Per francobolli a giuseppe Gianni $2.00.<lb/>
+   Incassato dal segretario di finanza $82.25.<lb/>
+   In cassa oggi $3844.90. Non avendo altro<lb/>
+   da fare il presidente dichiara sciolta la<lb/>
+   seduta. ore. 11.15. P.M.<lb/>
+   
+   Il Seg				Il Pres<lb/>
+   G. Gianni [firmato]		M. Simonetti [firmato]<lb/>
+</ab>
+</body>
+      </text>
+   </TEI>
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title></title>
+            </titleStmt>
+            <publicationStmt><authority>La Lega Toscana di Protezione</authority>
+<date when="1925-04-16"/></publicationStmt>
+            <sourceDesc><p>Source description.</p></sourceDesc>
+         </fileDesc>
+      </teiHeader>
+      <text>
+         <body>
+<ab>
+   <pb n="139"/>
+   
+   Giovedi 16 Aprile 1925, alle ore .9. P.M.<lb/>
+   venne aperta la nostra seduta regolare<lb/>
+   ordinaria presieduta dal nostro presidente<lb/>
+   Michele Simonetti All.appello nominale<lb/>
+   risultavano assenti i seguenti ufficiali<lb/>
+   Ermete Vannucci ufficiale sanitario, essendo<lb/>
+   3 volte consecutive che il fratello Ermete<lb/>
+   Vannucci si trova assente, il presidente<lb/>
+   nomina il fratello, Alfredo Vannucci ha<lb/>
+   nuovo ufficiale sanitario, e che lui accetta<lb/>
+   la carica affidatagli. Il processo verbale<lb/>
+   venne approvato come letto. Coll’amnistia<lb/>
+   fecero domanda di essere ammessi e furono<lb/>
+   e furono accettati i seguenti nuovi applicanti<lb/>
+   Orlando Frosini. Enrico Allegrini. Joseph Pasquine<lb/>
+   lli, Gilberto Baggiani. Pietro Bottari. Quinto<lb/>
+   Pasquinelli Lorenzo Marchetti. Quinto Marchetti<lb/>
+   Attilio Puccinelli. John Pasquinelli. Lorenzo<lb/>
+   Tambellini. Nello Belluomini. Giulio Paganelli<lb/>
+   Modesto Marchetti. Vittorio Cortopassi. Tebaldo<lb/>
+   Tamburi. Alberto Poli. Remo Biagi. Nando<lb/>
+   Lucchesi. Giulio Tamburi. Ubaldo Baccelli<lb/>
+   Carlo Biagini Umberto Valdissera e Faust<lb/>
+   Lunardini. Su proposta di Modesto Zini e<lb/>
+   assecondata da Stefano Maffei fu approvato<lb/>
+   di mandare $10.00. dollari alle Dame di<lb/>
+   Carita’ per il ballo dato pro’ orfani<lb/>
+   Furano accettate tre tichette che il Club Indipen-<lb/>
+   dente di Bloomfield mando’ alla Lega di<lb/>
+   [stk]di[/stk] rappresentarla al suo grande ballo del<lb/>
+   28 Aprile. U.S. Il capo curatore diede il<lb/>
+   resoconto del primo trimestre rapportando<lb/>
+   
+   <pb n="140"/>
+   di avere trovati i libri in perfetta regola<lb/>
+   Incassato dal Segretario di finanza $114.25<lb/>
+   In cassa oggi $3903.43. Non avendo altro<lb/>
+   da fare il presidente dichiara sciolta la seduta<lb/>
+   ore 11. P.M.<lb/>
+   
+   Il Seg				Il Pres.<lb/>
+   G. Gianni [firmato]<lb/>
+   E De Santi <!-- firmato in maniera diagonale attraverso il centro della pagina -->
+</ab>
+</body>
+      </text>
+   </TEI>
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title></title>
+            </titleStmt>
+            <publicationStmt><authority>La Lega Toscana di Protezione</authority>
+<date when="1925-05-21"/></publicationStmt>
+            <sourceDesc><p>Source description.</p></sourceDesc>
+         </fileDesc>
+      </teiHeader>
+      <text>
+         <body>
+<ab>
+   <pb n="140"/>
+   Giovedi 21 Maggio 1925, alle ore 9 P.M
+   venne aperta la nostra seduta regolare<lb/>
+   ordinaria presieduta dal nostro presidente<lb/>
+   Michele Simonetti. All’appello nominale<lb/>
+   risultavano assenti i seguenti ufficiali<lb/>
+   Lorenzo Lunardini terzo curatore Giuseppe<lb/>
+   Fredianelli ufficiale sanitario e Alfredo<lb/>
+   Vannucci ufficiale sanitario. Il processo verbale<lb/>
+   venne approvato come letto. Coll’amnestia<lb/>
+   furono accettati i seguenti nuovi membri<lb/>
+   Giuseppe Puccinelli. Vincenzo Marraccini.<lb/>
+   Marello Cappellini. Casali Carlo. Ettore<lb/>
+   Guidotti. Nat Serafini. Romeo Franchini<lb/>
+   Enrico De Luca. Gino Ghinacci. Pacini<lb/>
+   Olindo. Giuseppe Sodini. Giuseppe<lb/>
+   Tambellini. Dino Barontini. Giorgetti<lb/>
+   
+   <pb n="141"/>
+   
+   Pietro. Ragghianti Archise. e Giuseppe<lb/>
+   Francesconi. Ah questo momento si alza il<lb/>
+   vice presidente e ringrazio i membri tutti<lb/>
+   per il buon esito del banchetto ballo e piu’
+   illustra all’assemblea il modo per cui si puo’<lb/>
+   raggiungere le nostre aspirazioni. Applause<lb/>
+   
+   Proposto da Modesto Zini e assecondato da<lb/>
+   Lorenzo Vigano’ di dare il pec.nec. la<lb/>
+   terza Domenica di Luglio. P.V. all’uopo<lb/>
+   fu scielto il seguente comitato. Prs.<lb/>
+   Michele Simonetti, Vice. prs. Enemia De<lb/>
+   Santi. Seg. di corrispondenza Giuseppe<lb/>
+   Gianni. Seg. di finanza Silvio Scarpellini<lb/>
+   Tes. Santino Pasquinelli. Capo charman<lb/>
+   Lorenzo Vigano’. ass. Charman. Michele<lb/>
+   Baccelli. Assistenti, Emillio Pellegrini<lb/>
+   Aladino Piaggesi Ugenio Merciadri,<lb/>
+   Giuseppe Barsotti. Modesto Zini e<lb/>
+   Adelmo Dati. A questo punto il pres.<lb/>
+   chiude la seduta in segno di lutto per tre<lb/>
+   minuti il fratello Ernesto Vigano’
+   decesso il mese di Aprile dopo breve<lb/>
+   malattia. Colla nostra amnistia anno<lb/>
+   diritto al banchetto gratuito i seguenti soci<lb/>
+   Benedetto Pardini...4...membri<lb/>
+   Stefano Maffei...8.....<lb/>
+   Americo Pasquinelli..3.....<lb/>
+   Giuseppe Fredianelli...5........<lb/>
+   Giuseppe Gianni...3.......<lb/>
+   Lorenzo Lunardini...8........<lb/>
+   Adelmo Dati....5.......<lb/>
+   
+   <pb n="142"/>
+   
+   Ezio Dini     ........       4....Membri<lb/>
+   Franceso Lunardini   4...........<lb/>
+   Aladino Piagesi         4<lb/>
+   Jacopo Sodini           4<lb/>
+   
+   Oltre il banchetto anno diritto al premio<lb/>
+   come prescrive la nostra amnistia i<lb/>
+   seguenti soci. Stefano Maffei. Giuseppe<lb/>
+   Fredianelli. Lorenzo Lunardini. e Adelmo<lb/>
+   Dati. Furono pagati i seguenti bill.<lb/>
+   $150.00 funerale Ernesto Vigano’. $10.50<lb/>
+   Carrozza al funerale e $10.00 per fiori al<lb/>
+   funerale. $10.90 al seg. di corrispondenza<lb/>
+   per tre mesi di salario. e. $1.62. per<lb/>
+   francobolli. In cassato da seg. di finanza<lb/>
+   $130.00. In cassa oggi $3952.16<lb/>
+   Non avendo altro da fare il presidente<lb/>
+   dichiara sciolta la seduta. 11. P.M.<lb/>
+   
+   Il Seg<lb/>
+   G. Gianni [firmato]		M. G. Simonetti [firmato]<lb/>
+</ab>
+</body>
+      </text>
+   </TEI>
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title></title>
+            </titleStmt>
+            <publicationStmt><authority>La Lega Toscana di Protezione</authority>
+<date when="1925-06-18"/></publicationStmt>
+            <sourceDesc><p>Source description.</p></sourceDesc>
+         </fileDesc>
+      </teiHeader>
+      <text>
+         <body>
+<ab>
+   <pb n="143"/>
+   
+   Giovedi 18 Giugno 1925 alle ore 9 .P.M.<lb/>
+   venne aperta la nostra seduta regolare ordinaria<lb/>
+   presieduta dal nostro presidente Michele Simonetti<lb/>
+   all’appello nominale risultavano assenti i seguenti<lb/>
+   ufficiali Lorenzo Lunardini 3.rd. curatore.<lb/>
+   Giuseppe Fredianelli ufficiale sanitario.<lb/>
+   Alfredo Vannucci ufficiale sanitario, e<lb/>
+   Ugenio Merciadri guada sala. Il processo<lb/>
+   verbale venne approvato come letto. Fu am-<lb/>
+   messo a fare parte della Lega il nuovo<lb/>
+   applicante Guglielmo Piccinini.<lb/>
+   Il tesoriere lesse il resoconto finale del banchetto<lb/>
+   ballo, colle seguenti cifre. totale degli invitati<lb/>
+   166. che a $3.50 a testa importano $581.00<lb/>
+   che furono pagati al Nix Restaurant.<lb/>
+   Orchestra $79.00 fiori $27.50. due posti<lb/>
+   gratuiti per la cantante $8.00. Totale spese<lb/>
+   $695.50 Entrate 166 persone a $4.00 a<lb/>
+   testa importano $664.00 che sottraendoli<lb/>
+   da $695.50 vi e una rimessa di $31.50<lb/>
+   Fu proposto da Santino Pasquinelli e assecondato<lb/>
+   da Modesto Zini di rifondare $4.00 a<lb/>
+   Amando Fontana non avendo potuto trovarsi<lb/>
+   presente al banchetto. Furono pagati i seguenti<lb/>
+   bill Muzio Frediani per stampa $39.65<lb/>
+   Rimessa del banchetto $31.50<lb/>
+   Rifondati ai membri che avevano portati<lb/>
+   3 membri o piu’ $44.00<lb/>
+   In cassa oggi $3952.16<lb/>
+   In cassato dal segretario di finanza $89.00<lb/>
+   Non avendo altro da fare il presidente dichiara<lb/>
+   sciolta la seduta ore 10.45. P.M.<lb/>
+   Il Seg. G. Gianni [firmato]<lb/>
+   
+   <!-- la firma di presidente Michele Simonetti si trova scritto in matita sopra le ultimi righe del verbale, in fondo a pagina 143 -->
+</ab>
+</body>
+      </text>
+   </TEI>
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title></title>
+            </titleStmt>
+            <publicationStmt><authority>La Lega Toscana di Protezione</authority>
+<date when="1925-07-16"/></publicationStmt>
+            <sourceDesc><p>Source description.</p></sourceDesc>
+         </fileDesc>
+      </teiHeader>
+      <text>
+         <body>
+<ab>
+   <pb n="144"/>
+   
+   Giovedi 16 Luglio 1925 alle ore .9 P.M.<lb/>
+   venne aperta la nostra seduta regolare<lb/>
+   ordinaria presieduta dal nostro presiden-<lb/>
+   te Michele Simonetti. All’appello nominale<lb/>
+   risultavano assenti il Solo curatore Lorenzo<lb/>
+   Lunardini. Il processo verbale venne ap-<lb/>
+   provato come letto. Avendo la Societa’
+   Loggia Martire Cesare Battisti No 238.<lb/>
+   Inviato un ivito di andare in corpo e con<lb/>
+   bandiere alla loro festa pro’. S. Giuseppe<lb/>
+   e piu’ due libretti riffa da vendere.<lb/>
+   l’assemblea dopo breve discussione<lb/>
+   risultava l’una e l’altra Avendo il<lb/>
+   comitato festa campestre bisogno ancora<lb/>
+   di personale il presidente nomino’ ed<lb/>
+   accettarono i seguenti membri. Marsili Abramo<lb/>
+   e Silvioni Carlo guarda Sala di ballo<lb/>
+   Ermete Vannucci e Alfredo Vannucci a<lb/>
+   vendere le ticchette per il ballo. Francesco<lb/>
+   Lunardini. Americo Pasquinelli. Giuseppe<lb/>
+   Fredianelli e Giovacchino Maffei a ricevere<lb/>
+   la gente. Stefano Maffei. Olinto Cinelli<lb/>
+   Ezio Carli. e Emilio Pasquinelli a<lb/>
+   vendere le ticchette per la bevanda.<lb/>
+   Furono pagati i seguenti bill. Michele Simonetti<lb/>
+   per francobolli $4.00. giuseppe Gianni<lb/>
+   per francobolli $2.94 Giuseppe Gianni<lb/>
+   per il trimestre Aprile-Giugno $10.55<lb/>
+   Giometti Ottavia per malattia $25.00<lb/>
+   Sandroni Enrico per malattia $60.00<lb/>
+   Rifondato a Lorenzo Vigano’ $0.75 ¢ che<lb/>
+   il suo nepote Ernesto Vigano aveva pagato<lb/>
+   
+   <pb n="145"/>
+   in piu’ al tempo del decesso.<lb/>
+   Incassato dal segretatario di finanza $215.75<lb/>
+   In cassa oggi $3926.01. Non avendo altro<lb/>
+   da fare il presidente dichiara sciolta<lb/>
+   la seduta ore 11.15 P.M.<lb/>
+   
+   Il Seg				Il Pres<lb/>
+   G. Gianni [firmato]		O A Cinelli [firmato]<lb/>
+</ab>
+</body>
+      </text>
+   </TEI>
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title></title>
+            </titleStmt>
+            <publicationStmt><authority>La Lega Toscana di Protezione</authority>
+<date when="1925-08-20"/></publicationStmt>
+            <sourceDesc><p>Source description.</p></sourceDesc>
+         </fileDesc>
+      </teiHeader>
+      <text>
+         <body>
+<ab>
+   <pb n="145"/>
+   Giovedi 20 Agosto 1925 alle ore 9.30 P.M.<lb/>
+   venne aperta la nostra seduta regolare<lb/>
+   ordinaria presiduta dal primo curatore<lb/>
+   Olinto Cinelli. All’appello nominale<lb/>
+   risultavano assenti i seguenti ufficiali<lb/>
+   Michele Simonetti presidente, Enemia De<lb/>
+   Santi vice presidente. Il processo verbale venne<lb/>
+   approvato come letto. Non avendo potuto<lb/>
+   avere il resoconto della festa campestre<lb/>
+   pronto il tesoriere dichiaro’ di portarlo alla<lb/>
+   prossima seduta. Si trova ammalato il<lb/>
+   fratello Ugo Pistelli. fu proposto da Modesto<lb/>
+   Zini e assecondato da Stefano Maffei di<lb/>
+   dare un banchetto  in campagna il giorno<lb/>
+   [stk]11[/stk] di domenica .11 Ottobre 1925, per festeggiare<lb/>
+   il Colombus day. All’uopo fu nominato<lb/>
+   il seguente comitato per trovare il locale.<lb/>
+   Michele Simonetti. Giuseppe Fredianelli,<lb/>
+   Santino Pasquinelli. Stefano Maffei e<lb/>
+   Olinto Cinelli.<lb/>
+   
+   <pb n="146"/>
+   
+   Incassato dal segretario di finanza $71.25<lb/>
+   In cassa oggi $4027.27<lb/>
+   Non avendo altro da fare il presidente dichiara<lb/>
+   sciolta la seduta ore .11. PM.<lb/>
+   
+   Il Seg				Il Pres<lb/>
+   G. Gianni [firmato]		M. G. Simonetti<lb/>
+   
+</ab>
+</body>
+      </text>
+   </TEI>
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title></title>
+            </titleStmt>
+            <publicationStmt><authority>La Lega Toscana di Protezione</authority>
+<date when="1925-09-17"/></publicationStmt>
+            <sourceDesc><p>Source description.</p></sourceDesc>
+         </fileDesc>
+      </teiHeader>
+      <text>
+         <body>
+<ab>
+   <pb n="146"/>
+   Giovedi 17 Settembre 1925 alle ore .9. P.M.<lb/>
+   venne aperta la nostra seduta regolare ordinar-<lb/>
+   ia presieduta dal nostro presidente Michele<lb/>
+   Simonetti All’appello nominale risultavano<lb/>
+   assenti i seguenti ufficiali Lorenzo Lunardini<lb/>
+   terzo curatore e Alfredo Vannucci ufficiale<lb/>
+   sanitario. Il processo verbale venne approvato come<lb/>
+   letto Venne approvato di dare il banchetto e del<lb/>
+   costo di $5.00 a testa col seguente Menu’<lb/>
+   Buon giorno. Antipasto. Consume’ con pastina<lb/>
+   Bollita manzo e gallina. Fritto misto speciale<lb/>
+   mezo pollo arrosto. insalata frutti e formaggio<lb/>
+   un quarto di vino a testa. e caffe’.<lb/>
+   Venne pure approvato di lasciare in carica il comitato<lb/>
+   che aveva trovato il locale. Il tesoriere da il resoconto<lb/>
+   dellultima festa campestre col seguente risultato<lb/>
+   Entrata senguicci e bevanda $636.00 tichette<lb/>
+   entrata $189.75. Ballo $75.00. Kandi $5.00<lb/>
+   Borsa da donna $1.50. Checher per giocare<lb/>
+   $0.50. Totale entrata $907.75<lb/>
+   Spese Automobile $5.00. 5. Roll di ticchette per<lb/>
+   bevanda e altro $3.00. Ghiaccio $8.00. Birra<lb/>
+   
+   <pb n="147"/>
+   
+   $217.00. Campo $85.00. Bottiglie perse $10.00<lb/>
+   Automobile $5.00. Stefano Maffei $8.85<lb/>
+   Poliziotti al campo $10.00. Pascuzzi $6.00<lb/>
+   Enemia De Santi $47.63. Rama per poppa<lb/>
+   $46.55. Pasquinelli. Bros. $28.18 Musica<lb/>
+   $50.00. Frediani per stampa 45.80. Pacini<lb/>
+   e bros $9.20. Pane $8.80. Serafnini per Candy<lb/>
+   $10.00. Trocco $25.00. Bambocci $4.60<lb/>
+   Pittsburgh Ice cream $41.85. Barsotti $5.00<lb/>
+   Emilio $5.00. Totale Spese $690.46<lb/>
+   Sottraendo $690 46 da $907.75. resta un<lb/>
+   avanzo netto di $217.29.<lb/>
+   Incassato dal Segretario di finanze $142.75<lb/>
+   Interessi dei soldi alla banca          $160 90<lb/>
+   Avanzo della festa campestre        $217.29<lb/>
+   In cassa oggi				$4098.52<lb/>
+   Non avendo altro da fare il presidente dichiara<lb/>
+   sciolta la seduta ore .11. P.M.<lb/>
+   
+   Il Seg				Il Pres.<lb/>
+   G Gianni			MG Simonetti<lb/>
+</ab>
+</body>
+      </text>
+   </TEI>
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title></title>
+            </titleStmt>
+            <publicationStmt><authority>La Lega Toscana di Protezione</authority>
+<date when="1925-10-15"/></publicationStmt>
+            <sourceDesc><p>Source description.</p></sourceDesc>
+         </fileDesc>
+      </teiHeader>
+      <text>
+         <body>
+<ab>
+   <pb n="147"/>
+   Giovedi 15 Ottobre 1925 alle ore 9. P.M.<lb/>
+   venne aperta la nostra seduta regolare<lb/>
+   ordinaria presieduta dal nostro presidente<lb/>
+   Michele Simonetti. All’appello nominale<lb/>
+   risultavano assenti i seguenti ufficiali<lb/>
+   Enemia De Senti vice presidente Olinto<lb/>
+   Cinelli primo curatore e Eugenio Merciadri<lb/>
+   
+   <pb n="148"/>
+   
+   guarda sala. Il processo verbale venne<lb/>
+   approvato come letto. Avendo la Loggia<lb/>
+   Nuova .4. Novembre No 1344. inviate 25<lb/>
+   ticchette di complimento alla Lega per<lb/>
+   partecipare alla commemorazione del<lb/>
+   4 Novembre data memorabile a tutti l’Italiani<lb/>
+   Il presidente fa appello all’assemblea. che<lb/>
+   approva di accettare l’invito. il presidente<lb/>
+   allora le distribuisce fra i membri<lb/>
+   pregandoli di non mancare la sera del<lb/>
+   .4. Novembre. Essendoci la nomina della<lb/>
+   nuova amministrazione nella prossima<lb/>
+   seduta fu proposto de Modesto Zini e<lb/>
+   assecondato da Giuseppe Fredianelli di<lb/>
+   dare un piccolo rinfresco in onore dei<lb/>
+   nuovi nominati a spese della Societa’.<lb/>
+   Il presidente la mette ad approvazione e<lb/>
+   fu passato ad’unanimita’. Furono pagati<lb/>
+   i seguenti bill<lb/>
+   Fitto Sala per tre mesi		$11.25<lb/>
+   Frediani per stampa			  12.75<lb/>
+   Marsili per automobile		  10.00<lb/>
+   Ugo Pistelli per sussidio		  45.00<lb/>
+   Percentuale al .Seg. di corrispondenza  15.95<lb/>
+   
+  <!-- le lettere “nza” sono scritte sotto la fine della parola “corrisponde(nza)” delle riga precedente -->
+   
+   G. Gianni per francobolli  		  3.00<lb/>
+   Incassato dal Seg. di finanza          $60.75<lb/>
+   In cassa oggi $4582.26.<lb/>
+   Non avendo altro da fare il presidente<lb/>
+   dichiara sciolta la seduta ore 10.45 PM<lb/>
+   
+   Il Seg				Il Pres<lb/>
+   G Gianni [firmato]		M G Simonetti [firmato]<lb/>
+</ab>
+</body>
+      </text>
+   </TEI>
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title></title>
+            </titleStmt>
+            <publicationStmt><authority>La Lega Toscana di Protezione</authority>
+<date when="1925-11-19"/></publicationStmt>
+            <sourceDesc><p>Source description.</p></sourceDesc>
+         </fileDesc>
+      </teiHeader>
+      <text>
+         <body>
+<ab>
+   <pb n="149"/>
+   
+   Giovedi 19 Novembre 1925 alle ore .9. P.M.<lb/>
+   venne aperta la nostra seduta regolare<lb/>
+   ordinaria presieduta dal nostro presidente<lb/>
+   Michele Simonetti. All’appello nominale<lb/>
+   [stk]risultavano assenti i seguenti ufficiali[/stk]<lb/>
+   non risultava assente nessuno ufficiale. Il<lb/>
+   processo verbale venne approvato come letto.<lb/>
+   Fu accettato a nuovi membri Federigo Barsanti<lb/>
+   e Alfredo Tamburi. Dopo lunga discussione<lb/>
+   sulla proposta Vigano’ Zini di dare un ballo<lb/>
+   in maschera per carnevale ed il 25 per 100.<lb/>
+   a favore dell’orfanotrofio scuola, Artigianelli<lb/>
+   Matteo Civitali di Lucca, venne approvata<lb/>
+   con 21 voti favorevoli, e .11 contrari. della prop<lb/>
+   osta Carli. tambellini. di dare un ballo senza<lb/>
+   maschera. Approvata la proposta Vigano Zini<lb/>
+   il presidente nomina il seguente comitato -<lb/>
+   ballo. Pres. Enemia De Santi. Vice pres. Olinto<lb/>
+   Cinelli. Tes. Modesto Zini. Seg. di corrispondenza<lb/>
+   Dino Barantini. Seg. di finanza Emilio Pasquinelli<lb/>
+   Capo di arrangiamento Carlo Silvioni. assistente<lb/>
+   Giuseppe .S. Tambellini. aiutanti Adriano Puccetti<lb/>
+   Giuseppe Martinelli. Amerigo Pasquinelli. Alfredo<lb/>
+   Vannucci. Ermete Vannucci. Ettore Guidotti.<lb/>
+   G. Baggiani. e Eugenio Merciadri. Comitato<lb/>
+   ricevimento. Stefano Maffei. Adelmo Dati<lb/>
+   Giuseppe Fredianelli e Giuseppe Gianni<lb/>
+   Capi sala. Lorenzo Vigano’. Lorenzo Lunardini<lb/>
+   e Romeo Maffei Gli uffi sanitari rapportano<lb/>
+   che si trovano ammalati i seguenti soci. Fioravante<lb/>
+   Zini. Adriano Puccetti e Riz[stk]z[/stk]ieri Menchetti.<lb/>
+   Come loro dovere i curatore visitarono i libri<lb/>
+   
+   <pb n="150"/>
+   
+   del Seg di finanza e li trovarono in perfetta<lb/>
+   regola. In cassato dal Seg. di finanza $67.50<lb/>
+   In cassa oggi $4649.79. non avendo altri<lb/>
+   affari il presidente apre la nomina degli uffi<lb/>
+   per l’anno 1926. e che vennero nominati ad<lb/>
+   acclamazione i seguenti. Presidente. Enemia De<lb/>
+   Santi Vice presidente Modesto Zini. Seg. di corr.<lb/>
+   Giuseppe Gianni. Seg. di finanza Emilio Pasquinelli<lb/>
+   Tes. Santino Pasquinelli. uffi sanitari Alfredo<lb/>
+   Vannucci e Lorenzo Vigano’. Guadia Sala<lb/>
+   Eugenio Merciadri. Di modo che no resta sciegliere<lb/>
+   tre curatori dai seguenti 6 nominati.<lb/>
+   Carlo Silvioni. Giuseppe Fredianelli. Adelmo<lb/>
+   Dati. Michele Simonetti. olinto Cinelli e<lb/>
+   Amerigo Pasquinelli. Non avendo altro da<lb/>
+   fare il presidente dichiara sciolta la seduta. ore<lb/>
+   11 P.M.				Il Pres.<lb/>
+   Il Seg. G Gianni [firmato]<lb/>
+   M G Simonetti [firmato]<lb/>
+   
+</ab>
+</body>
+      </text>
+   </TEI>
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title></title>
+            </titleStmt>
+            <publicationStmt><authority>La Lega Toscana di Protezione</authority>
+<date when="1925-12-17"/></publicationStmt>
+            <sourceDesc><p>Source description.</p></sourceDesc>
+         </fileDesc>
+      </teiHeader>
+      <text>
+         <body>
+<ab>
+   <pb n="150"/>
+   Giovedi 17 Dicembre 1925 alle ore 9. P.M. venne<lb/>
+   aperta la nostra seduta regolare ordinaria presie-<lb/>
+   duta dal nostro pres. Michele Simonetti. All’appello<lb/>
+   nominale risultavano assenti i seguenti ufficiali. Adelmo<lb/>
+   Dati secondo curatore Lorenzo Lunardini 3o curatore<lb/>
+   Giuseppe Fredianelli ufficiale sanitario Eugenio Merciadri<lb/>
+   guardia sala. Il processo verbale venne approvato come<lb/>
+   letto. Furono convalidati i due nuovi applicanti. Alfredo<lb/>
+   Tamburi e Federigo Barsanti. Il pres. del ballo Enem<lb/>
+   ia De Santi dichiara che la data del ballo e stata<lb/>
+   fissata per la sera di Martedi 16 Febbraio al Elk Club.<lb/>
+   
+   <pb n="151"/>
+   
+   e che per avere un grande successo bisogna che tutti cooperano<lb/>
+   col comitato allora i soci Michele Simonetti Carlo Silvioni<lb/>
+   Jacopo Sodini Romeo Maffei Santino Pasquinelli, Alfredo<lb/>
+   Vannucci e Lorenzo Lunardini si dichiarano volenterosi<lb/>
+   di cercare di vendere i libretti reclame. Fu proposto da<lb/>
+   Jacopo Sodini di mandare a tutti i soci morosi una<lb/>
+   lettera col rispettivo ammontare e che non si mette in reg<lb/>
+   ola alla prossima seduta, che sia cancellato. Proposto<lb/>
+   da Santino Pasquinelli. asso da Abramo Marsili di dare<lb/>
+   $10.00 al giovane dell’ascensore. Pro. da Sam Marsili. asso.<lb/>
+   da Olinto Cinelli di dare un rinfresco alla nuova amministra<lb/>
+   
+   <!-- la parte bassa di pagina 151 e’ stato tagliato dal libretto, ma il verbale continua ininterroto in cima a pagina 152 -->
+   
+   <pb n="152"/>
+   
+   zione. furono pagati i seguenti bill Rizieri Mechetti per<lb/>
+   sussidio $30.00 Adriano Puccetti per sussidio $4.00 Affitto sala<lb/>
+   $11.25. Rinfresco a Pasquinelli $27.90. Al seg di finanza per<lb/>
+   un anno $35.53. al seg. di corrispondenza per tre mesi $6.93<lb/>
+   Al collettore $7.10. Al tesoriere $9.00. Incassato dal Seg. di<lb/>
+   finanza $45.50 In cassa oggi $4553.55. Il presidente dichiara<lb/>
+   aperta la [stk]sedu[/stk] votazione per tre curatore da sciegliere dai<lb/>
+   6 proposti. Votanti 25. Risultano eletti 1o curatore Giusep<lb/>
+   pe Fredianelli con 16 voti 2o curatore Amerigo Pasquinelli con<lb/>
+   12 voti 3o Olinto Cinelli con 11 voti. Eugenio Merciadri<lb/>
+   sconfigge l’avversario Ezio Carli a guardia Sala<lb/>
+   
+   <pb n="153"/>
+   
+   Non avendo altro da fare il presidente dichiara<lb/>
+   sciolta la seduta ore 11.30 P.M.<lb/>
+   
+   Il Seg				Il Pres<lb/>
+   G Gianni [firmato]		M G Simonetti [firmato]<lb/>
+</ab>
+</body>
+      </text>
+   </TEI>
+</teiCorpus>

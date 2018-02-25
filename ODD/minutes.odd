@@ -90,6 +90,7 @@
                 <valItem ident="#cappellinim"/>
                 <valItem ident="#carloe"/>
                 <valItem ident="#carmassil"/>
+                <valItem ident="#casalio"/>
                 <valItem ident="#checcig"/>
                 <valItem ident="#chioccac"/>
                 <valItem ident="#chioccad"/>
@@ -151,7 +152,6 @@
                 <!-- Last name K -->
                 <valItem ident="#keilr"/>
                 <!-- Last name L -->
-                <valItem ident="#lasalio"/>
                 <valItem ident="#lombardia"/>
                 <valItem ident="#lucchesial"/>
                 <valItem ident="#lucchesiam"/>
