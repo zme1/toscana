@@ -374,27 +374,27 @@
             e il 3 Settembre e pagarono $20.00 di<lb/>
             deposito dieci per ogni domenica il<lb/>
             rimanente il giorno del Pic-Nic.<lb/>
-            Finito tutti gli affare sociale il<lb/>
+            <list type="committee" subtype="picnic"><note>Finito tutti gli affare sociale il<lb/>
             Presidente apri la nomina del<lb/>
-            comitato Pic-Nic<lb/>
-            Americo Lucchesi         	Presidente<lb/>
-            Adelmo Dati                  	Vice Presidente<lb/>
+            comitato Pic-Nic</note><lb/>
+            <item><persName ref="#lucchesiam">Americo Lucchesi</persName>         	Presidente</item><lb/>
+            <item><persName ref="#datia">Adelmo Dati</persName>                  	Vice Presidente</item><lb/>
             
             <pb n="83"/>
             
-            Modesto Zini                 	Segretario<lb/>
-            Muzio Frediani              	Tesoriere<lb/>
-            Emilio Pellegrini            	Chairman of Arrangement<lb/>
-            Commitee<lb/>
-            Giovacchino Maffei     	Vice Arrangement Com.<lb/>
-            Lorenzo Vigano’           	Floor Manager<lb/>
-            gli assistenti verranno scielti nella<lb/>
-            prossima seduta.<lb/>
-            Non avendo altro da fare per<lb/>
-            quella sera il Presidente Carlo<lb/>
-            Marconi dichiara sciolta la seduta<lb/>
+            <item><persName ref="#zinim">Modesto Zini</persName>                 	Segretario</item><lb/>
+            <item><persName ref="#fredianim">Muzio Frediani</persName>              	Tesoriere</item><lb/>
+            <item><persName ref="#pellegrinie">Emilio Pellegrini</persName>            	Chairman of Arrangement</item><lb/>
+            <note>Commitee</note><lb/>
+            <item><persName ref="#maffeigio">Giovacchino Maffei</persName>     	Vice Arrangement Com.</item><lb/>
+            <item><persName ref="#viganol">Lorenzo Vigano’</persName>           	Floor Manager</item><lb/>
+            <note>gli assistenti verranno scielti nella<lb/>
+            prossima seduta.</note></list><lb/>
+            <closer>Non avendo altro da fare per<lb/>
+            quella sera <persName ref="#marconic">il Presidente Carlo<lb/>
+            Marconi</persName> dichiara sciolta la seduta<lb/>
             Il Segretario                   	Il Presidente<lb/>
-            Emil Marchetti              	C. Marconi<lb/>
+            <signed>Emil Marchetti</signed>              	<signed>C. Marconi</signed></closer><lb/>
             
          </ab></body>
       </text>
@@ -416,27 +416,27 @@
                <pb n="83"/>
                Giovedi 20 Aprile alle ore 9.15 P.M.<lb/> 
                venne tenuta la nostra seduta rego-<lb/>
-               lare ordinaria preseduta dal nostro<lb/>
-               Presidente Carlo Marconi. All’appello<lb/>
+               lare ordinaria preseduta <persName ref="#marconic">dal nostro<lb/>
+               Presidente Carlo Marconi</persName>. <list type="absent"><note>All’appello<lb/>
                nominale degli ufficiali risultavano<lb/>
-               assenti i seguenti fratelli Eugenio<lb/>
-               Merciadri, Romeo Maffei, Luigi<lb/>
-               Buchigniani. Il processo verbale venne<lb/>
+               assenti i seguenti fratelli</note> <item><persName ref="#merciadrie">Eugenio<lb/>
+               Merciadri</persName>,</item> <item><persName ref="#maffeir">Romeo Maffei</persName>,</item> <item><persName ref="#buchignianil">Luigi<lb/>
+               Buchigniani</persName>.</item></list> Il processo verbale venne<lb/>
                approvato come letto<lb/>
-               Fu concesso sussidio di malatia al<lb/>
-               fratello Adriano Puccett $8.00.<lb/>
-               Proposto dal fratello Casimirro Pellegrini<lb/>
-               ass dal fratello Modesto Zini di sciegliere<lb/>
+               <seg type="comp" subtype="sick">Fu concesso sussidio di malatia <persName ref="#puccettia" role="target">al<lb/>
+               fratello Adriano Puccett</persName> <num type="monetary" value="8">$8.00</num>.</seg><lb/>
+               <seg type="proposal">Proposto <persName ref="#pellegrinic" role="proposer">dal fratello Casimirro Pellegrini</persName><lb/>
+               ass <persName ref="#zinim" role="supporter">dal fratello Modesto Zini</persName> di sciegliere<lb/>
                un comitato di investigare a chi si<lb/>
                doveva’ dare la moneta dal orfanotrofio<lb/>
-               e dare pieno potere al comitato<lb/>
-               Il comitato e cosi composto.<lb/>
+               e dare pieno potere al comitato</seg><lb/>
+               <list type="committee" subtype="investigazione"><note>Il comitato e cosi composto.</note><lb/>
                
                <pb n="84"/>
                
-               Santino Pasquinelli, Muzio Frediani<lb/>
-               Casimirro Pellegrini, Stefano Maffei<lb/>
-               Lorenzo Vigano’ Guiseppe Tambellini.<lb/>
+               <item><persName ref="#pasquinellis">Santino Pasquinelli</persName>,</item> <item><persName ref="#fredianim">Muzio Frediani</persName></item><lb/>
+               <item><persName ref="#pellegrinic">Casimirro Pellegrini</persName>,</item> <item><persName ref="#maffeis">Stefano Maffei</persName></item><lb/>
+               <item><persName ref="#viganol">Lorenzo Vigano’</persName></item> <item><persName ref="#tambellinig">Guiseppe Tambellini</persName>.</item></list><lb/>
                
                Il Comitato di correzzione dei presenti<lb/>
                regolamenti rapporto quello che aveva-<lb/>
@@ -444,22 +444,22 @@
                blea generale, fu messo alla apporova-<lb/>
                zione e venne approvato ad un-<lb/>
                enemita’.<lb/>
-               Finito tutti l’affare sociale il<lb/>
+               <list type="committee" subtype="picnic"><note>Finito tutti l’affare sociale il<lb/>
                presidente apri la nomina degli<lb/>
-               assistenti Pic-Nic. ass Floor Manager<lb/>
-               Quintiglio Gigli, Ernesto Vigano’,<lb/>
-               ass arrangement Committee.<lb/>
-               Emilio Pasquinelli, Vergilio Danesi<lb/>
-               Alfredo Vannucci, Stefano Maffei<lb/>
-               Santino Pasquinelli, Lorenzo Lunardini<lb/>
-               Eugenio Merciadri, Vincenzo Battistini<lb/>
-               Giuseppe Gianni, Castruccio Cappellini<lb/>
-               Candito Pasini.<lb/>
-               Non avendo altro da fare per quella<lb/>
-               sera il Presdiente dichiara sciolta la<lb/>
+               assistenti Pic-Nic.</note> <item><list><note>ass Floor Manager</note><lb/>
+               <item><persName ref="#quintigliog">Quintiglio Gigli</persName>,</item> <item><persName ref="#viganoe">Ernesto Vigano’</persName>,</item></list></item><lb/>
+               <item><list><note>ass arrangement Committee.</note><lb/>
+               <item><persName ref="#pasquinellie">Emilio Pasquinelli</persName>,</item> <item><persName ref="#danesiv">Vergilio Danesi</persName></item><lb/>
+               <item><persName ref="#vannuccia">Alfredo Vannucci</persName>,</item> <item><persName ref="#maffeis">Stefano Maffei</persName></item><lb/>
+               <item><persName ref="#pasquinellis">Santino Pasquinelli</persName>,</item> <item><persName ref="#lunardinil">Lorenzo Lunardini</persName></item><lb/>
+               <item><persName ref="#merciadrie">Eugenio Merciadri</persName>,</item> <item><persName ref="#battistiniv">Vincenzo Battistini</persName></item><lb/>
+               <item><persName ref="#giannig">Giuseppe Gianni</persName>,</item> <item><persName ref="#cappellinic">Castruccio Cappellini</persName></item><lb/>
+               <item>Candito Pasini.</item></list></item></list><lb/>
+               <closer>Non avendo altro da fare per quella<lb/>
+               sera <rs ref="#marconic">il Presdiente</rs> dichiara sciolta la<lb/>
                seduta<lb/>
                Il Segretario                   	Il Presidente<lb/>
-               E. Marchetti                   	C Cappellini Vice Pres<lb/>
+               <signed>E. Marchetti</signed>                   	<signed>C Cappellini Vice Pres</signed></closer><lb/>
             </ab>
          </body>
       </text>

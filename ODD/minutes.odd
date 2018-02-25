@@ -497,6 +497,7 @@
                 <valItem ident="banchetto"/>
                 <valItem ident="club"/>
                 <valItem ident="parata"/>
+                <valItem ident="investigazione"/>
               </valList>
             </attDef>
           </attList>
