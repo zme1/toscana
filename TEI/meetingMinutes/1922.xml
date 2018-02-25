@@ -90,12 +90,16 @@
                   <roleName>Vice Presidente</roleName></person>
                <person><persName ref="#marchettie">Emilio Marchetti</persName>
                   <roleName>Segretario di Corrispondenza</roleName></person>
-               <person><persName ref="#maffeigia">Giacomo Maffei</persName>
+               <person><persName ref="#maffeigia" role="scaduto">Giacomo Maffei</persName>
                   <roleName>Segretario Finanza</roleName></person>
+               <person><persName ref="#lucchesiam" role="replacement">Americo Lucchesi</persName>
+               <roleName>Segretario di Finanza</roleName></person>
                <person><persName ref="#pasquinellis">Santino Pasquinelli</persName>
                   <roleName>Tesoriere</roleName></person>
-               <person><persName ref="#lunardinil">Lorenzo Lunardini</persName>
+               <person><persName ref="#lunardinil" role="scaduto">Lorenzo Lunardini</persName>
                   <roleName>Curatore</roleName></person>
+               <person><persName ref="#fredianim" role="replacement">Muzio Frediani</persName>
+               <roleName>Curatore</roleName></person>
                <person><persName ref="#sodinij">Jacopo Sodini</persName>
                   <roleName>Curatore</roleName></person>
                <person><persName ref="#marsilis">Sam Marsili</persName>
@@ -108,8 +112,10 @@
                   <persName ref="#buchignianil" role="replacement">Luigi Buchigniani</persName>
                   <roleName>Ufficiale Sanitario</roleName>
                </person>
-               <person><persName ref="#maffeir">Romeo Maffei</persName>
+               <person><persName ref="#maffeir" role="scaduto">Romeo Maffei</persName>
                   <roleName>Collettore</roleName></person>
+               <person><persName ref="#sodinij" role="replacement">Jacopo Sodini</persName>
+               <roleName>Colletore</roleName></person>
                <person><persName ref="#merciadrie">Eugenio Merciardri</persName>
                   <roleName>Guardia Sala</roleName></person>
             </listPerson>
@@ -538,12 +544,12 @@
             Castruccio Cappellini</persName>, <list type="absent"><note>all’appello <del rend="strike">mo</del><lb/>
             nominale degli ufficiali risultava-<lb/>
             no assenti i seguenti fratelli</note><lb/>
-            <item>Carlo Marconi,</item> <item><persName ref="#maffeigia" role="scaduto">Giacomo Maffei</persName> il<lb/>
+            <item><persName ref="#marconic">Carlo Marconi</persName>,</item> <item><persName ref="#maffeigia" role="scaduto">Giacomo Maffei</persName> il<lb/>
             quale diede le dimissione del suo incarito,</item><lb/>
-            <item><list><item>Lorenzo Lunardini,</item> <item>Sam Marsili</item><lb/>
+            <item><list><item><persName ref="#lunardinil" role="scaduto">Lorenzo Lunardini</persName>,</item> <item><persName ref="#marsilis">Sam Marsili</persName></item><lb/>
             <note>il quale due si trovano mancanti per<lb/>
-            tre volte,</note></list></item> <item>Jacopo Sodini,</item> <item><list><item>Romeo Maffei</item><lb/>
-            <item>Luigi Buchigniani</item> <note>il quale ultimi due<lb/>
+            tre volte,</note></list></item> <item><persName ref="#sodinij">Jacopo Sodini</persName>,</item> <item><list><item><persName ref="#maffeir" role="scaduto">Romeo Maffei</persName></item><lb/>
+            <item><persName ref="#buchignianil" role="scaduto">Luigi Buchigniani</persName></item> <note>il quale ultimi due<lb/>
             sono mancanti piu’ di tre volte</note></list></item></list> il<lb/>
             processo verbale venne approvato<lb/>
             come letto.<lb/>
@@ -612,8 +618,8 @@
                Giovedi 21 Settembre 1922 alle<lb/>
                ore 9 P.M. venne tenuta la<lb/>
                consueta seduta regolare Ordinaria<lb/>
-               preseduta dal nostro Presidente<lb/>
-               Carlo Marconi all’appello nominale<lb/>
+               preseduta <persName ref="#marconic">dal nostro Presidente<lb/>
+               Carlo Marconi</persName> all’appello nominale<lb/>
                degli ufficiali risultavano tutti<lb/>
                presenti il Processo verbale venne<lb/>
                approvato come letto.<lb/>
@@ -623,39 +629,39 @@
                no in vogore la prima <del rend="strike">prima</del> seduta<lb/>
                di gennaio 1923 e furono approvati ad<lb/>
                una anemita’.<lb/>
-               Proposto da Casimirro Pellegrini ass”
-               da Stefano Maffei che nella seduta<lb/>
+               <seg type="proposalReject">Proposto da <persName ref="#pellegrinic" role="proposer">Casimirro Pellegrini</persName> ass”
+               da <persName ref="#maffeis" role="supporter">Stefano Maffei</persName> che nella seduta<lb/>
                di Diciembre di votare a <unclear reason="illegible">sentivo</unclear> singolo<lb/>
                e fu messo al ballottaggio segreto<lb/>
-               e non venne passato.<lb/>
-               Proposto da Casimirro Pellegrini<lb/>
-               ass” da Fioravante Zini di dare<lb/>
-               il 10100 per cente al collettore che colletta<lb/>
+               e non venne passato.</seg><lb/>
+               <seg type="proposal">Proposto da <persName ref="#pellegrinic" role="proposer">Casimirro Pellegrini</persName><lb/>
+               ass” da <persName ref="#zinif" role="supporter">Fioravante Zini</persName> di dare<lb/>
+               il 10.100 per cente <rs ref="#maffeir">al collettore</rs> che colletta<lb/>
                la moneta dei soci che sono addietra-<lb/>
                ti coi pagamenti a di darli tempo<lb/>
                fino alla seduta di dicembre, la lista<lb/>
-               dei pagamenti gli verra’ fornita dal segretario di<lb/>
-               finanza, e questo venne passato.<lb/>
+               dei pagamenti gli verra’ fornita <rs ref="#maffeigia">dal segretario di<lb/>
+               finanza</rs>, e questo venne passato.</seg><lb/>
                Il comitato di visitare i libri al<lb/>
                segretario di finanza fece il suo<lb/>
                dovere e trovo due sbagli di 50 soli<lb/>
                <unclear reason="illegible">luna</unclear>.<lb/>
                <pb n="91"/>
                
-               Il presidente apri la nomina<lb/>
-               per gli ufficiali scaduti<lb/>
-               a segretario di Finanza<lb/>
-               Americo Lucchesi<lb/>
-               A curatore Sam Marsili<lb/>
-               Muzio Frediani, ufficiale<lb/>
-               sanitario Modesto Zini<lb/>
-               A Collettore Jacopo Sodini.<lb/>
-               Non avendo da fare altro per<lb/>
+               <list type="officers"><note><rs ref="#marconic">Il presidente</rs> apri la nomina<lb/>
+               per gli ufficiali scaduti</note><lb/>
+               <item>a segretario di Finanza<lb/>
+               <persName ref="#lucchesiam" role="replacement">Americo Lucchesi</persName></item><lb/>
+               <item><list><note>A curatore</note> <item><persName ref="#marsilis">Sam Marsili</persName></item><lb/>
+               <item><persName ref="#fredianim" role="replacement">Muzio Frediani</persName>,</item></list></item> <item>ufficiale<lb/>
+               sanitario <persName ref="#zinim" role="replacement">Modesto Zini</persName></item><lb/>
+               <item>A Collettore <persName ref="#sodinij" role="replacement">Jacopo Sodini</persName>.</item></list><lb/>
+               <closer>Non avendo da fare altro per<lb/>
                quella sera alle ore 11.30 P.M.<lb/>
-               il Presidente dichiara sciolta<lb/>
+               <rs ref="#marconic">il Presidente</rs> dichiara sciolta<lb/>
                la Seduta.<lb/>
                Il Segretario                   	Il Presidente<lb/>
-               E. Marchetti                   	Char Marconi<lb/>
+               <signed>E. Marchetti</signed>                   	<signed>Char Marconi</signed></closer><lb/>
                
             </ab>
          </body>
