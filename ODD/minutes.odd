@@ -69,11 +69,15 @@
                 <valItem ident="#barellim"/>
                 <valItem ident="#barontinid"/>
                 <valItem ident="#bartolis"/>
-                <valItem ident="#barsottig"/>
+                <valItem ident="#barsottif"/>
+                <valItem ident="#barsottigio"/>
+                <valItem ident="#barsottigiu"/>
+                <valItem ident="#barsottiv"/>
                 <valItem ident="#bartolettif"/>
                 <valItem ident="#battistiniv"/>
                 <valItem ident="#benedettia"/>
                 <valItem ident="#benedettie"/>
+                <valItem ident="#benedettig"/>
                 <valItem ident="#bertonie"/>
                 <valItem ident="#bevilacquas"/>
                 <valItem ident="#bianchinif"/>
@@ -85,6 +89,7 @@
                 <valItem ident="#borellim"/>
                 <valItem ident="#brigidinia"/>
                 <valItem ident="#buchignanil"/>
+                <valItem ident="#buchignianiv"/>
                 <!-- Last name C -->
                 <valItem ident="#cappellinic"/>
                 <valItem ident="#cappellinim"/>
@@ -94,6 +99,7 @@
                 <valItem ident="#checcig"/>
                 <valItem ident="#chioccac"/>
                 <valItem ident="#chioccad"/>
+                <valItem ident="#chiocchettii"/>
                 <valItem ident="#cinellio"/>
                 <valItem ident="#colombinin"/>
                 <valItem ident="#coltellig"/>
@@ -144,6 +150,7 @@
                 <valItem ident="#giuntoligi"/>
                 <valItem ident="#giuntoligu"/>
                 <valItem ident="#guidia"/>
+                <valItem ident="#guidottif"/>
                 <!-- Last name I -->
                 <valItem ident="#incroccip"/>
                 <valItem ident="#insanal"/>
@@ -156,7 +163,8 @@
                 <valItem ident="#lucchesial"/>
                 <valItem ident="#lucchesiam"/>
                 <valItem ident="#luccic"/>
-                <valItem ident="#lunardia"/>
+                <valItem ident="#lunardiac"/>
+                <valItem ident="#lunardial"/>
                 <valItem ident="#lunardinia"/>
                 <valItem ident="#lunardinif"/>
                 <valItem ident="#lunardinil"/>
@@ -179,12 +187,15 @@
                 <valItem ident="#marconif"/>
                 <valItem ident="#marianir"/>
                 <valItem ident="#marsilia"/>
+                <valItem ident="#marsilie"/>
                 <valItem ident="#marsilig"/>
                 <valItem ident="#marsilis"/>
                 <valItem ident="#martinellia"/>
                 <valItem ident="#martinellig"/>
                 <valItem ident="#martinellir"/>
+                <valItem ident="#matteucciv"/>
                 <valItem ident="#meconin"/>
+                <valItem ident="#menchettir"/>
                 <valItem ident="#merciadrie"/>
                 <valItem ident="#michelie"/>
                 <valItem ident="#micheluccis"/>
@@ -195,7 +206,8 @@
                 <!-- Last name N -->
                 <valItem ident="#nicolais"/>
                 <!-- Last name O -->
-                <valItem ident="#olivieria"/>
+                <valItem ident="#olivieriam"/>
+                <valItem ident="#olivieriat"/>
                 <!-- Last name P -->
                 <valItem ident="#pacinic"/>
                 <valItem ident="#pacinig"/>
@@ -233,7 +245,8 @@
                 <valItem ident="#ragghiantie"/>
                 <valItem ident="#ragghiantir"/>
                 <valItem ident="#ribettig"/>
-                <valItem ident="#robertic"/>
+                <valItem ident="#robertice"/>
+                <valItem ident="#robertico"/>
                 <valItem ident="#robertig"/>
                 <valItem ident="#robertog"/>
                 <valItem ident="#rossie"/>
@@ -243,6 +256,7 @@
                 <valItem ident="#santarlascia"/>
                 <valItem ident="#santonif"/>
                 <valItem ident="#santorinif"/>
+                <valItem ident="#scarpellinis"/>
                 <valItem ident="#serafinia"/>
                 <valItem ident="#serafinie"/>
                 <valItem ident="#serafinig"/>

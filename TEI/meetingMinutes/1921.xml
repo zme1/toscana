@@ -532,7 +532,7 @@
                   <item><list rend="list">
                         <item><persName ref="#puccettia">Adriano Puccetti</persName></item>
                         <item><persName ref="#puccettil">Lorenzo Puccetti</persName></item>
-                        <item><persName ref="#robertic">Gino<lb/> Roberti</persName></item>
+                        <item><persName ref="#robertig">Gino<lb/> Roberti</persName></item>
                         <item><persName ref="#meconin">Nello Meconi</persName></item>
                         <item><persName ref="#merciadrie">Eugenio Merciadri</persName>.</item>
                      </list></item>
@@ -584,7 +584,7 @@
                   <note>Fu presentata la domanda del nuovo<lb/> membro di fare parte a questa
                      Lega</note>
                   <lb/>
-                  <item><persName ref="#olivieria">Amus Olivieri</persName> e venne passato.</item>
+                  <item><persName ref="#olivieriam">Amus Olivieri</persName> e venne passato.</item>
                </list><lb/> Fu concesso sussidio per malatia ai<lb/> Fratelli. <seg type="comp"
                   subtype="sick"><persName ref="#fontanaan" role="target">Angelo Fontana</persName>
                   <num type="monetary" value="46">$46.00</num></seg><lb/>
@@ -728,7 +728,7 @@
                         <item><persName ref="#datia">Adelmo Dati</persName>, </item>
                         <item><persName ref="#martinellia">Alfredo Martinelli</persName>,</item>
                         <lb/>
-                        <item><persName ref="#olivieria">Amos Olivieri</persName>, </item>
+                        <item><persName ref="#olivieriam">Amos Olivieri</persName>, </item>
                         <item><persName ref="unknown">Ernesto <unclear reason="illegible"
                               /></persName>,</item>
                         <lb/>

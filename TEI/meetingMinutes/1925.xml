@@ -56,7 +56,7 @@
                <physDesc>
                   <handDesc>
                      <p>This volume of minutes was written by the correspondance secretary of 
-                        the<lb/> year 1924, <persName ref="#giannig">Giuseppe Gianni</persName>.</p>
+                        the<lb/> year 1925, <persName ref="#giannig">Giuseppe Gianni</persName>.</p>
                   </handDesc>
                   <accMat>
                      <p>The meeting minutes contain, in addition to written record of meetings, 
@@ -68,7 +68,7 @@
                   <origin>
                      <p>The manuscript was compiled by Lega members during the monthly meetings 
                         that<lb/> took place in Pittsburgh, PA. This file contains meeting minutes 
-                        that span<lb/> from January to December of 1924.</p>
+                        that span<lb/> from January to December of 1925.</p>
                   </origin>
                   <acquisition>
                      <p>The manuscript documents were donated to the<orgName ref="#hhc">Heinz 
@@ -84,11 +84,11 @@
          <particDesc>
             <listPerson>
                <person>
-                  <persName ref="#pellegrinic">Casimiro Pellegrini</persName>
+                  <persName ref="#simonettim">Michele Simonetti</persName>
                   <roleName>Presidente</roleName>
                </person>
                <person>
-                  <persName ref="#sodinij">Jacopo Sodini</persName>
+                  <persName ref="#desantie">Enemia De Santi</persName>
                   <roleName>Vice Presidente</roleName>
                </person>
                <person>
@@ -116,20 +116,12 @@
                   <roleName>Curatore</roleName>
                </person>
                <person>
-                  <persName ref="#viganol" role="scaduto">Lorenzo Vigano'</persName>
+                  <persName ref="#viganol">Giuseppe Fredianelli</persName>
                   <roleName>Ufficiale Sanitario</roleName>
                </person>
                <person>
-                  <persName ref="#vannuccie" role="replacement">Ernesto Vannucci</persName>
+                  <persName ref="#vannuccie">Ermete Vannucci</persName>
                   <roleName>Ufficiale Sanitario</roleName>
-               </person>
-               <person>
-                  <persName ref="#fredianellig">Giuseppe Fredianelli</persName>
-                  <roleName>Ufficiale Sanitario</roleName>
-               </person>
-               <person>
-                  <persName ref="#sodinij">Jacopo Sodini</persName>
-                  <roleName>Collettore</roleName>
                </person>
                <person>
                   <persName ref="#merciadrie">Eugenio Merciardri</persName>
@@ -152,7 +144,7 @@
             <derivation type="transcription"/>
             <domain type="institutional"/>
             <factuality type="fact">The meeting minutes were handwritten accounts of 
-               discussions<lb/> held, decisions, or money allocated made during the 
+               discussions held, decisions, or money allocated made during the 
                meetings.</factuality> 
             <interaction type="partial" active="plural" passive="group"/>
             <preparedness type="formulaic"/>
@@ -192,46 +184,46 @@
    
    Giovedi 15 Gennaio 1925 alle ore. 9. P.M.<lb/>
    venne aperta la nostra seduta regolare<lb/>
-   ordinaria presieduta dal nostro vice<lb/>
-   presidente Jacopo Sodini all’appello<lb/>
+   ordinaria presieduta <persName ref="#sodinij">dal nostro vice<lb/>
+   presidente Jacopo Sodini</persName> <list type="absent"><note>all’appello<lb/>
    nominale risultavano assenti i seguenti<lb/>
-   ufficiali. Casimiro Pellegrini presidente<lb/>
-   [stk]Santino Pasquinelli tesoriere[/stk] Carlo Marconi<lb/>
-   Amerigo Lucchesi e Martino Borelli curatori<lb/>
-   e Giuseppe Fredianelli e Ermete Vannucci<lb/>
-   ufficiali sanitari. Il processo verbale<lb/>
+   ufficiali.</note> <item><persName ref="#pellegrinic">Casimiro Pellegrini</persName> presidente</item><lb/>
+   <del rend="strike">Santino Pasquinelli tesoriere</del> <item><list><item><persName ref="#marconic">Carlo Marconi</persName></item><lb/>
+   <item><persName ref="#lucchesiam">Amerigo Lucchesi</persName></item> <item>e <persName ref="#borellim">Martino Borelli</persName></item> <note>curatori</note></list></item><lb/>
+   <item><list><item>e <persName ref="#fredianellig">Giuseppe Fredianelli</persName></item> <item>e <persName ref="#vannuccie">Ermete Vannucci</persName></item><lb/>
+   <note>ufficiali sanitari.</note></list></item></list> Il processo verbale<lb/>
    venne approvato comeletto. A questo punto<lb/>
    terminando il lavoro per la vecchia<lb/>
-   amministrazione il vice presidente fa<lb/>
-   l’installazione e lascia il seggio al nuovo<lb/>
-   presidente che ringraziando l’assemblea<lb/>
-   prega[stk]ndola[/stk] di aiutarlo nel compimento del<lb/>
+   amministrazione <rs ref="#sodinij">il vice presidente</rs> fa<lb/>
+   l’installazione e lascia il seggio <rs ref="#simonettim">al nuovo<lb/>
+   presidente</rs> che ringraziando l’assemblea<lb/>
+   prega<del rend="strike">ndola</del> di aiutarlo nel compimento del<lb/>
    suo dovere. e si uugura un’anno di prosper-<lb/>
-   ita’. Venne ammesso a fare parte di questo<lb/>
-   sodalizio Vincenzo Buchigniani. gli ufficiali<lb/>
-   sanitari rapportavano che il fratello<lb/>
-   Antonio Serafini si trovava ammalato.<lb/>
-   Fu approvato che i soci Paolo Malfatti,<lb/>
-   Omero Lasali, e Ernesto Marsili debbono<lb/>
+   ita’. <list type="applicants"><note>Venne ammesso a fare parte di questo<lb/>
+   sodalizio</note> <item><persName ref="#buchignianiv">Vincenzo Buchigniani</persName>.</item></list> gli ufficiali<lb/>
+   sanitari rapportavano che <persName ref="#serafinia">il fratello<lb/>
+   Antonio Serafini</persName> si trovava ammalato.<lb/>
+   Fu approvato che i soci <persName ref="#malfattip">Paolo Malfatti</persName>,<lb/>
+   <persName ref="#casalio">Omero Casali</persName>, e <persName ref="#marsilie">Ernesto Marsili</persName> debbono<lb/>
    portare il certificato medico se vogliano essere<lb/>
    riammessi a fare parte di questa societa’.<lb/>
    Furono approvati e pagati i seguenti bill.<lb/>
-   Frediani per stampa $16.00.<lb/>
-   Benedetto Pardini sussidio per malattia $60.00<lb/>
-   Pietro Lunardini sussidio per malattia $42.00<lb/>
+   <persName ref="#fredianim">Frediani</persName> per stampa $16.00.<lb/>
+   <seg type="comp" subtype="sick"><persName ref="#pardinib" role="target">Benedetto Pardini</persName> sussidio per malattia <num type="monetary" value="60">$60.00</num></seg><lb/>
+   <seg type="comp" subtype="sick"><persName ref="#lunardinip" role="target">Pietro Lunardini</persName> sussidio per malattia <num type="monetary" value="42">$42.00</num></seg><lb/>
    e $5.00 per il giovane che manda l’ascensore<lb/>
-   Proposto da Michele Simonetti e assecondato<lb/>
-   da Stefano Maffei di dare un banchetto a pagamento<lb/>
+   <seg type="proposal">Proposto da <persName ref="#simonettim" role="proposer">Michele Simonetti</persName> e assecondato<lb/>
+   da <persName ref="#maffeis" role="supporter">Stefano Maffei</persName> di dare un banchetto a pagamento<lb/>
    
    <pb n="135"/>
    
-   con data non stabilita. Incassato dal segretario<lb/>
+   con data non stabilita.</seg> Incassato dal segretario<lb/>
    di finanza $128.25. Totale in cassa oggi<lb/>
-   $3837.40 Non avendo altro da fare il presiden<lb/>
-   te dichiara sciolta la seduta ore. 11.15 P.M.<lb/>
+   $3837.40 <closer>Non avendo altro da fare <rs ref="#simonettim">il presiden<lb/>
+   te</rs> dichiara sciolta la seduta ore. 11.15 P.M.<lb/>
    
    Il Seg				Il Pres<lb/>
-   G. Gianni [firmato]		M. Simonetti [firmato]<lb/>
+   <signed>G. Gianni</signed>		<signed>M. Simonetti</signed></closer><lb/>
 </ab>
 </body>
    </text>
@@ -253,23 +245,23 @@
    <pb n="135"/>
    Giovedi 19 Febbraio 1925 alle ore. 9. P.M. venne<lb/>
    aperta la nostra seduta regolare ordinaria<lb/>
-   presieduta dal nostro presidente Michele<lb/>
-   Simonetti. All’appello nominale risultavano<lb/>
-   assente il solo ufficiale sanitario Ermete Vannucci<lb/>
+   presieduta <persName ref="#simonettim">dal nostro presidente Michele<lb/>
+   Simonetti</persName>. <list type="absent"><note>All’appello nominale risultavano<lb/>
+   assente</note> <item>il solo ufficiale sanitario <persName ref="#vannuccie">Ermete Vannucci</persName></item></list><lb/>
    Il processo verbale venne approvato come letto.<lb/>
-   Fecero domanda di ammissione, e furono accettati<lb/>
-   i signori Achille Lunardi, Ippolito Chiocchetti e<lb/>
-   Silvio Scarpellini. Avendo il certificato medico<lb/>
+   <list type="applicants"><note>Fecero domanda di ammissione, e furono accettati<lb/>
+   i signori</note> <item><persName ref="#lunardiac">Achille Lunardi</persName>,</item> <item><persName ref="#chiocchettii">Ippolito Chiocchetti</persName></item> <item>e<lb/>
+   <persName ref="#scarpellinis">Silvio Scarpellini</persName>.</item> <note>Avendo il certificato medico<lb/>
    la sera stessa provato che si trovavano in sana<lb/>
    costituzione fisica, furono dichiarati membri<lb/>
    effettivi la sera stessa, i due primi cioe’.<lb/>
-   Achille Lunardi e Ippolito Chiocchetti. il<lb/>
-   terzo, Silvio Scarpellini dovra’ portare il<lb/>
-   certificato medico la prossima seduta.<lb/>
-   Fu riammesso avendo portato il certificato medico<lb/>
-   Ernesto Marsili. Su proposta di Giuseppe<lb/>
-   Tambellini e Stefano Maffei viene approvato<lb/>
-   di dare il banchetto ballo colla (amsestia/ amustia) da<lb/>
+   <persName ref="#lunardiac">Achille Lunardi</persName> e <persName ref="#chiocchettii">Ippolito Chiocchetti</persName>. il<lb/>
+   terzo, <persName ref="#scarpellinis">Silvio Scarpellini</persName> dovra’ portare il<lb/>
+      certificato medico la prossima seduta.</note></list><lb/>
+   <list type="applicants"><note>Fu riammesso avendo portato il certificato medico</note><lb/>
+   <item><persName ref="#marsilie">Ernesto Marsili</persName>.</item></list> <seg type="proposal">Su proposta di <persName ref="#tambellinig" role="proposer">Giuseppe<lb/>
+   Tambellini</persName> e <persName ref="#maffeis" role="supporter">Stefano Maffei</persName> viene approvato<lb/>
+   di dare il banchetto ballo colla <unclear reason="illegible">amnestia</unclear> da<lb/>
    
    <pb n="136"/>
    
@@ -277,11 +269,11 @@
    far parte di questa Lega, cominciando il giorno<lb/>
    19 Marzo e terminando la sera del banchetto ballo,<lb/>
    chesara’ dato al Neixson Restaurant di<lb/>
-   domenica sera. Alluopo fu staccato il seguente<lb/>
-   comitato. Stefano Maffei. Muzio Frediani. Eugenio<lb/>
-   Bertoni. Santino Pasquinelli. Giuseppe Gianni e<lb/>
-   Lorenzo Lunardini, che coll’approvazione dell’as-<lb/>
-   semblea ammo in detta una gara fra i membri,<lb/>
+   domenica sera.</seg> <list type="committee" subtype="banchetto"><note>Alluopo fu staccato il seguente<lb/>
+   comitato.</note> <item><persName ref="#maffeis">Stefano Maffei</persName>.</item> <item><persName ref="#fredianim">Muzio Frediani</persName>.</item> <item><persName ref="#bertonie">Eugenio<lb/>
+   Bertoni</persName>.</item> <item><persName ref="#pasquinellis">Santino Pasquinelli</persName>.</item> <item><persName ref="#giannig">Giuseppe Gianni</persName></item> <item>e<lb/>
+   <persName ref="#lunardinil">Lorenzo Lunardini</persName>,</item></list> che coll’approvazione dell’as-<lb/>
+   semblea anno in detta una gara fra i membri,<lb/>
    che chi porta 3. nuovi membri a il diritto al<lb/>
    banchetto gratis e piu’ avra un premio che il<lb/>
    comitato credera’ meglio sciegliere. Tutti quelli<lb/>
@@ -289,13 +281,13 @@
    alla sera del banchetto dai 18 ai 35 anni, saran-<lb/>
    no ammessi gratis, eccetuato $2.00 dollari per<lb/>
    il fondo unico mortuario e la fede medica.<lb/>
-   Furono pagati al consocio Antonio Serafini<lb/>
-   $.48. dollari per sussidio. Incassato dal segretario<lb/>
+   <seg type="comp" subtype="sick">Furono pagati al consocio <persName ref="#serafinia" role="target">Antonio Serafini</persName><lb/>
+   <num type="monetary" value="48">$.48.</num> dollari per sussidio.</seg> Incassato dal segretario<lb/>
    di finanza $55.50. In cassa oggi $3837.40.<lb/>
-   Non avendo altro da fare il presidente dichiara<lb/>
+   <closer>Non avendo altro da fare il presidente dichiara<lb/>
    sciolta la seduta. ore. 11. P.M.<lb/>
-   Il Seg G. Gianni [firmato]		Il Pres.<lb/>
-   M. Simonetti [firmato]<lb/>
+   <signed>Il Seg G. Gianni</signed> 		Il Pres.<lb/>
+   <signed>M. Simonetti</signed></closer><lb/>
    
    <!-- Avendo il comitato banchetto ballo saputo e<lb/>
 informato il presidente che il padrone del<lb/>
@@ -328,23 +320,23 @@ l’assemblea accetto’ il prezzo stabilito $4.00<lb/>
    
    Giovedi 19 Marzo 1925 alle ore 8.45. P.M.<lb/>
    venne aperta la nostra seduta regolare ordinaria<lb/>
-   presieduta dal nostro presidente Michele Simonetti<lb/>
-   Dall’appello nominale risultavano assenti i<lb/>
-   seguenti ufficiali. Enemia De Santi vice presidente<lb/>
-   Santino Pasquinelli tesoriere. Olinto Cinelli<lb/>
-   primo curatore. Lorenzo Lunardini terzo curatore<lb/>
-   e Ermete Vannucci ufficiale sanitario.<lb/>
+   presieduta <persName ref="#simonettim">dal nostro presidente Michele Simonetti</persName><lb/>
+   <list type="absent"><note>Dall’appello nominale risultavano assenti i<lb/>
+   seguenti ufficiali.</note> <item><persName ref="#desantie">Enemia De Santi</persName> vice presidente</item><lb/>
+   <item><persName ref="#pasquinellis">Santino Pasquinelli</persName> tesoriere.</item> <item><persName ref="#cinellio">Olinto Cinelli</persName><lb/>
+   primo curatore.</item> <item><persName ref="#lunardinil">Lorenzo Lunardini</persName> terzo curatore</item><lb/>
+   <item>e <persName ref="#vannuccie">Ermete Vannucci</persName> ufficiale sanitario.</item></list><lb/>
    Il processo verbale venne approvato come letto<lb/>
-   Stando ai regolamenti della nostra amnistia fecero<lb/>
-   domanda di ammissione i seguenti richieduti<lb/>
-   Corrado Roberti, Attilio Olivieri, Romeo Maffei.<lb/>
-   Vincenzo Matteucci, Giuseppe Benedetti, Orlando<lb/>
-   Francesconi, Gino Roberti, Rizieri Menchetti,<lb/>
-   Fausto Guidotti, Vincenzo Barsotti, Ferrante Barsotti<lb/>
-   Giuseppe Barsotti, Giuseppe Barsotti, e Milani<lb/>
-   Gino. Non trovando obbiezione dall’assemblea<lb/>
+   <list type="applicants"><note>Stando ai regolamenti della nostra amnistia fecero<lb/>
+   domanda di ammissione i seguenti richieduti</note><lb/>
+   <item><persName ref="#robertico">Corrado Roberti</persName>,</item> <item><persName ref="#olivieriat">Attilio Olivieri</persName>,</item> <item><persName ref="#maffeir">Romeo Maffei</persName>.</item><lb/>
+   <item><persName ref="#matteucciv">Vincenzo Matteucci</persName>,</item> <item><persName ref="#benedettig">Giuseppe Benedetti</persName>,</item> <item><persName ref="#francesconio">Orlando<lb/>
+   Francesconi</persName>,</item> <item><persName ref="#robertig">Gino Roberti</persName>,</item> <item><persName ref="#menchettir">Rizieri Menchetti</persName>,</item><lb/>
+   <item><persName ref="#guidottif">Fausto Guidotti</persName>,</item> <item><persName ref="#barsottiv">Vincenzo Barsotti</persName>,</item> <item><persName ref="#barsottif">Ferrante Barsotti</persName></item><lb/>
+   <item><persName ref="#barsottigiu">Giuseppe Barsotti</persName>,</item><note resp="#enickz">The name Giuseppe Barsotti is duplicated in the original transcription here.</note> <item>e <persName ref="#milanig">Milani<lb/>
+   Gino</persName>.</item> <note>Non trovando obbiezione dall’assemblea<lb/>
    il presidente li messe al approvazione alla<lb/>
-   alzata di mano, e furono tutti accettati.<lb/>
+   alzata di mano, e furono tutti accettati.</note></list><lb/>
    Avendo l’assemblea sentito che il richiedente<lb/>
    di essere ammesso coll’amnistia Enrico<lb/>
    Pardini oltrepassava il trentacinquesimo<lb/>
