@@ -335,50 +335,50 @@ l’assemblea accetto’ il prezzo stabilito $4.00<lb/>
    <item><persName ref="#guidottif">Fausto Guidotti</persName>,</item> <item><persName ref="#barsottiv">Vincenzo Barsotti</persName>,</item> <item><persName ref="#barsottif">Ferrante Barsotti</persName></item><lb/>
    <item><persName ref="#barsottigiu">Giuseppe Barsotti</persName>,</item><note resp="#enickz">The name Giuseppe Barsotti is duplicated in the original transcription here.</note> <item>e <persName ref="#milanig">Milani<lb/>
    Gino</persName>.</item> <note>Non trovando obbiezione dall’assemblea<lb/>
-   il presidente li messe al approvazione alla<lb/>
+   <rs ref="#simonettim">il presidente</rs> li messe al approvazione alla<lb/>
    alzata di mano, e furono tutti accettati.</note></list><lb/>
    Avendo l’assemblea sentito che il richiedente<lb/>
-   di essere ammesso coll’amnistia Enrico<lb/>
-   Pardini oltrepassava il trentacinquesimo<lb/>
+   di essere ammesso coll’amnistia <persName ref="#pardinie">Enrico<lb/>
+   Pardini</persName> oltrepassava il trentacinquesimo<lb/>
    anno di eta’, le rifiuto l’amnistia.<lb/>
-   Furono riamessi come soci i fratelli, Omero<lb/>
-   Casali, e Ernesto Marsili avendo portatoil<lb/>
+   <list type="applicants"><note>Furono riamessi come soci i fratelli,</note> <item><persName ref="#casalio">Omero<lb/>
+   Casali</persName>,</item> <item>e <persName ref="#marsilie">Ernesto Marsili</persName></item> <note>avendo portatoil<lb/>
    certificato medico come i nostri regolamenti<lb/>
    lo richiedono quando un menbro si reca<lb/>
-   all’estero. Su proposta di Serafino De Simo<lb/>
-   e assecondata da Muzio Frediani di nominare<lb/>
-   l’amministrazione per il banchetto balloil<lb/>
-   presidente nomino’ i seguenti soci<lb/>
-   Stefano Maffei presidente, Lorenzo Vigano’ vice<lb/>
+   all’estero.</note></list> <seg type="proposal">Su proposta di <persName ref="#desimos" role="proposer">Serafino De Simo</persName><lb/>
+   e assecondata da <persName ref="#fredianim" role="supporter">Muzio Frediani</persName> di nominare<lb/>
+   l’amministrazione per il banchetto ballo</seg> <list type="committee" subtype="banchetto"><note><rs ref="#simonettim">il<lb/>
+   presidente</rs> nomino’ i seguenti soci</note><lb/>
+   <item>Stefano Maffei presidente,</item> <item>Lorenzo Vigano’ vice<lb/>
    
    <pb n="138"/>
    
-   presidente, Santino Pasquinelli tesoriere e<lb/>
-   Giuseppe Gianni segretario, al ricevimento<lb/>
-   il presidente nomino Adelmo Dati e<lb/>
-   Muzio Frediani. Avendo due proposte per la<lb/>
-   data del banchetto ballo. la prima per la prima<lb/>
-   domenica di Maggio, Maffei Vigano’, la seconda<lb/>
-   Fredianelli Frediani per la seconda domenica<lb/>
-   di Maggio, il presidente le messe a votazione<lb/>
-   risultando vittoriosa la seconda. per la seconda<lb/>
-   domenica di Maggio. Proposto da Stefano<lb/>
-   Maffei e assecondato da Lorenzo Vigano di<lb/>
-   dare una festa campestre il mese di Giugno<lb/>
-   all’uopo fu nominato dal presidente il<lb/>
-   seguente comitato per trovare il posto.<lb/>
-   Lorenzo Vigano. Stefano Maffei e Benedetto<lb/>
-   Pardini Furono pagati i seguenti bill,<lb/>
+   presidente,</item> <item>Santino Pasquinelli tesoriere</item> <item>e<lb/>
+   Giuseppe Gianni segretario,</item> <item><list><note>al ricevimento<lb/>
+   <rs ref="#simonettim">il presidente</rs> nomino</note> <item><persName ref="#datia">Adelmo Dati</persName></item> <item>e<lb/>
+   <persName ref="#fredianim">Muzio Frediani</persName>.</item></list></item></list> Avendo due proposte per la<lb/>
+   data del banchetto ballo. <seg type="proposalReject">la prima per la prima<lb/>
+   domenica di Maggio, <persName ref="#maffeis" role="proposer">Maffei</persName> <persName ref="#viganol" role="supporter">Vigano’</persName>,</seg> <seg type="proposal">la seconda<lb/>
+   <persName ref="#fredianellig" role="proposer">Fredianelli</persName> <persName ref="#fredianim" role="supporter">Frediani</persName> per la seconda domenica<lb/>
+   di Maggio, <rs ref="#simonettim">il presidente</rs> le messe a votazione<lb/>
+   risultando vittoriosa la seconda.</seg> per la seconda<lb/>
+   domenica di Maggio. <seg type="proposal">Proposto da <persName ref="#maffeis" role="proposer">Stefano<lb/>
+   Maffei</persName> e assecondato da <persName ref="#viganol" role="supporter">Lorenzo Vigano</persName> di<lb/>
+   dare una festa campestre il mese di Giugno</seg><lb/>
+   <list type="committee" subtype="festaCampestre"><note>all’uopo fu nominato <rs ref="#simonettim">dal presidente</rs> il<lb/>
+   seguente comitato per trovare il posto.</note><lb/>
+   <item><persName ref="#viganol">Lorenzo Vigano</persName>.</item> <item><persName ref="#maffeis">Stefano Maffei</persName></item> <item>e <persName ref="#pardinib">Benedetto<lb/>
+   Pardini</persName></item></list> Furono pagati i seguenti bill,<lb/>
    Affitto per tre mesi di sala $11.25.<lb/>
    Assicurazione per un’anno delle bandiere $8.47.<lb/>
    Per francobolli a giuseppe Gianni $2.00.<lb/>
    Incassato dal segretario di finanza $82.25.<lb/>
-   In cassa oggi $3844.90. Non avendo altro<lb/>
-   da fare il presidente dichiara sciolta la<lb/>
+   In cassa oggi $3844.90. <closer>Non avendo altro<lb/>
+   da fare <rs ref="#simonettim">il presidente</rs> dichiara sciolta la<lb/>
    seduta. ore. 11.15. P.M.<lb/>
    
    Il Seg				Il Pres<lb/>
-   G. Gianni [firmato]		M. Simonetti [firmato]<lb/>
+   <signed>G. Gianni</signed>		<signed>M. Simonetti</signed></closer><lb/>
 </ab>
 </body>
       </text>
