@@ -102,8 +102,12 @@
                   <roleName>Curatore</roleName></person>
                <person><persName ref="#merciadrie">Eugenio Merciadri</persName>
                   <roleName>Ufficiale Sanitario</roleName></person>
-               <person><persName ref="#micheluccis">Silvio Michelucci</persName>
+               <person><persName ref="#micheluccis" role="scaduto">Silvio Michelucci</persName>
                   <roleName>Ufficiale Sanitario</roleName></person>
+               <person>
+                  <persName ref="#buchignianil" role="replacement">Luigi Buchigniani</persName>
+                  <roleName>Ufficiale Sanitario</roleName>
+               </person>
                <person><persName ref="#maffeir">Romeo Maffei</persName>
                   <roleName>Collettore</roleName></person>
                <person><persName ref="#merciadrie">Eugenio Merciardri</persName>
@@ -328,40 +332,40 @@
             <pb n="81"/>
             Giovedi 16 Marzo 1922 alle ore 9 P.M.<lb/>
             venne tenuta la nostra seduta regolare<lb/>
-            ordinaria preseduta del nostro presidente<lb/>
-            Carlo Marconi. All’appello nominale<lb/>
+            ordinaria preseduta <persName ref="#marconic">del nostro presidente<lb/>
+            Carlo Marconi</persName>. <list type="absent"><note>All’appello nominale<lb/>
             degli ufficiali risultavano assenti i<lb/>
-            fratelli Lorenzo Lunardini Romeo<lb/>
-            Maffei e Silvio Michelucci. Quindi<lb/>
-            Silvio Michelucci risultava assente per<lb/>
+            fratelli</note> <item><persName ref="#lunardinil">Lorenzo Lunardini</persName></item> <item><persName ref="#maffeir">Romeo<lb/>
+            Maffei</persName></item> <item>e <persName ref="#micheluccis" role="scaduto">Silvio Michelucci</persName>.</item></list> Quindi<lb/>
+            <persName ref="#micheluccis">Silvio Michelucci</persName> risultava assente per<lb/>
             tre sedute consecutive, e stando al<lb/>
             nostro regolamento quale dice che chi<lb/>
             manca tre volte dentro un epoca di<lb/>
             sei (6) mesi e non giustificata l’assenza<lb/>
             viene cancellato della sua carica, e cosi<lb/>
-            il fratello Silvio Michelucci fu cancellato<lb/>
+            <persName ref="#micheluccis">il fratello Silvio Michelucci</persName> fu cancellato<lb/>
             della sua carica di ufficial Sanitario<lb/>
             <pb n="82"/>
             
             Il Processo verbale venne approvato come<lb/>
             letto.<lb/>
-            Fu concesso sussidio di malatia al<lb/>
-            fratello Sam Marsili $15.00<lb/>
-            Fu presentata la domanda di fare<lb/>
-            parte a questa Lega Ernesto Vigano’
-            di anni 18 accompagnata col certificato<lb/>
-            medico e venne accettata.<lb/>
-            Proposto dal fratello giuseppe Tambellini<lb/>
-            ass. dal fratello Muzio Frediani che sia<lb/>
+            <seg type="comp" subtype="sick">Fu concesso sussidio di malatia <persName ref="#marsilis" role="target">al<lb/>
+            fratello Sam Marsili</persName> <num type="monetary" value="15">$15.00</num></seg><lb/>
+            <list type="applicants"><note>Fu presentata la domanda di fare<lb/>
+            parte a questa Lega</note> <item><persName ref="#viganoe">Ernesto Vigano’</persName>
+            di anni 18</item> <note>accompagnata col certificato<lb/>
+            medico e venne accettata.</note></list><lb/>
+            <seg type="proposal">Proposto <persName ref="#tambellinig" role="proposer">dal fratello giuseppe Tambellini</persName><lb/>
+            ass. <persName ref="#fredianim" role="supporter">dal fratello Muzio Frediani</persName> che sia<lb/>
             levato dal fondo di cassa $25.00 ed<lb/>
             mandarli al comitato topercolotici di<lb/>
             guerra, se il comitato avesse mandato<lb/>
             una circolare come avevano proposto.<lb/>
             e questa venne accettata da tutta<lb/>
-            la semblea generale.<lb/>
-            Il Presidente apri la nomina di<lb/>
+            la semblea generale.</seg><lb/>
+            <rs ref="#marconic">Il Presidente</rs> apri la nomina di<lb/>
             un ufficiale Sanitario e fu proposto<lb/>
-            il fratello Luigi Buchigniani a uffi-<lb/>
+            <persName ref="#buchignianil" role="replacement">il fratello Luigi Buchigniani</persName> a uffi-<lb/>
             ciale Sanitario.<lb/>
             Il comitato Pic-Nic andarono a fissare il campo<lb/>
             e lo fissarono per due domeniche il quale<lb/>
