@@ -4142,6 +4142,9 @@ teidata.xpath = text</pre></td></tr><tr><td class="wovenodd-col1"><span lang="en
 &lt;sch:rule context="tei:del"&gt;
 &lt;sch:assert test="@rend"&gt;Every strike element must have a @rend attribute of value "strike."&lt;/sch:assert&gt;
 &lt;/sch:rule&gt;</div></td></tr><tr><td class="wovenodd-col1"><span lang="en" class="label">Schematron</span></td><td class="wovenodd-col2"><div class="pre">
+&lt;sch:rule context="tei:item[not(tei:list)]"&gt;
+&lt;sch:assert test="tei:persName or tei:rs"&gt;Every item element must have a child element of persName&lt;/sch:assert&gt;
+&lt;/sch:rule&gt;</div></td></tr><tr><td class="wovenodd-col1"><span lang="en" class="label">Schematron</span></td><td class="wovenodd-col2"><div class="pre">
 &lt;sch:rule context="tei:rs"&gt;
 &lt;sch:assert test="@ref"&gt;Every rs element must have a @ref attribute.&lt;/sch:assert&gt;
 &lt;/sch:rule&gt;</div></td></tr><tr><td class="wovenodd-col1"><span lang="en" class="label">Schematron</span></td><td class="wovenodd-col2"><div class="pre">
@@ -4202,6 +4205,6 @@ teidata.xpath = text</pre></td></tr><tr><td class="wovenodd-col1"><span lang="en
 	  Generated from index.xml using XSLT stylesheets version 7.42.0
 
 	       based on http://www.tei-c.org/Stylesheets/
-	       on 2018-02-25T21:10:08Z.
+	       on 2018-02-25T22:28:38Z.
 	       SAXON PE 9.7.0.15.
 		 --></address></div></body></html>

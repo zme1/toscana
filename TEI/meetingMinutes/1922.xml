@@ -460,7 +460,7 @@
                <item><persName ref="#pasquinellis">Santino Pasquinelli</persName>,</item> <item><persName ref="#lunardinil">Lorenzo Lunardini</persName></item><lb/>
                <item><persName ref="#merciadrie">Eugenio Merciadri</persName>,</item> <item><persName ref="#battistiniv">Vincenzo Battistini</persName></item><lb/>
                <item><persName ref="#giannig">Giuseppe Gianni</persName>,</item> <item><persName ref="#cappellinic">Castruccio Cappellini</persName></item><lb/>
-               <item>Candito Pasini.</item></list></item></list><lb/>
+               <item><persName ref="#pacinic">Candito Pacini</persName>.</item></list></item></list><lb/>
                <closer>Non avendo altro da fare per quella<lb/>
                sera <rs ref="#marconic">il Presdiente</rs> dichiara sciolta la<lb/>
                seduta<lb/>
@@ -685,15 +685,15 @@
                
                Giovedi 19 Ottobre alle ore 9 P.M.<lb/>
                1922. Venne tenuta la nostra seduta<lb/>
-               regolare Ordinaria preseduta dal<lb/>
-               nostro Presidente Carlo Marconi<lb/>
-               All’appello nominale degli ufficiali<lb/>
-               risultava assente il curatore Sam Marsili<lb/>
+               regolare Ordinaria preseduta <persName ref="#marconic">dal<lb/>
+               nostro Presidente Carlo Marconi</persName><lb/>
+               <list type="absent"><note>All’appello nominale degli ufficiali<lb/>
+               risultava assente</note> <item>il curatore <persName ref="#marsilis">Sam Marsili</persName></item></list><lb/>
                il processo verbale venne approvato<lb/>
                come letto.<lb/>
-               Fu cancellato dalla Lega il socio<lb/>
-               Lelio Tambellini per avere rifutato<lb/>
-               di pagare Le tasse mensili<lb/>
+               <list type="cancellati"><note>Fu cancellato dalla Lega</note> <item>il socio<lb/>
+               <persName ref="#tambellinile">Lelio Tambellini</persName></item> <note>per avere rifutato<lb/>
+               di pagare Le tasse mensili</note></list><lb/>
                <!-- 2018-02-18 Since this is a whole striken section, you 
 Shouldn’t need to do anything other than wrap it in?
 <del> tags -->
@@ -701,23 +701,23 @@ Shouldn’t need to do anything other than wrap it in?
                Giuseppe Tambellini che $1.50 che<lb/>
                doveva pagare il fratello Giogio<lb/>
                Bassotti sia pagato dalla Lega.</del>
-               Proposto da Casimirro Pellegrini ass.<lb/>
-               da Castruccio Cappellini di mettere a<lb/>
+               <seg type="proposal">Proposto da <persName ref="#pellegrinic" role="proposer">Casimirro Pellegrini</persName> ass.<lb/>
+               da <persName ref="#cappellinic" role="supporter">Castruccio Cappellini</persName> di mettere a<lb/>
                credito una ticcetta del balle del valore<lb/>
-               di $1.00 al fratello Silvio Michelucci<lb/>
-               Proposto da Giuseppe Tambellini<lb/>
-               ass da Angelo Tambellini di dare il<lb/>
-               ballo annuale nel mese di Gennaio 1923.<lb/>
-               e che sia  <del rend="strike">ch</del> cielto un comitato di<lb/>
+               di $1.00 <persName ref="#micheluccis">al fratello Silvio Michelucci</persName></seg><lb/>
+               <seg type="proposal">Proposto da <persName ref="#tambellinig" role="proposer">Giuseppe Tambellini</persName><lb/>
+               ass da <persName ref="#tambellinia" role="supporter">Angelo Tambellini</persName> di dare il<lb/>
+               ballo annuale nel mese di Gennaio 1923.</seg><lb/>
+               e che <list type="committee" subtype="investigazione"><note>sia  <del rend="strike">ch</del> cielto un comitato di<lb/>
                guardare quale sala sia la meglio<lb/>
                per dare il nostro ballo e di rapportar-<lb/>
-               lo nella prossima seduta.<lb/>
-               Jacopo Sodini, Giuseppe Tambellini,<lb/>
-               Santino Pasquinelli. Comitato.<lb/>
-               Non avendo altro da fare per quella<lb/>
-               sera alle ore 10.15 P.M. il presidente<lb/>
+               lo nella prossima seduta.</note><lb/>
+               <item><persName ref="#sodinij">Jacopo Sodini</persName>,</item> <item><persName ref="#tambellinig">Giuseppe Tambellini</persName>,</item><lb/>
+                  <item><persName ref="#pasquinellis">Santino Pasquinelli</persName>.</item> </list>Comitato.<lb/>
+               <closer>Non avendo altro da fare per quella<lb/>
+               sera alle ore 10.15 P.M. <rs ref="#marconic">il presidente</rs><lb/>
                dichiara sciolta la seduta.         	Il Presidente<lb/>
-               Il Segretario  E. Marchetti            M Frediani [firmato]<lb/> 
+               Il Segretario  <signed>E. Marchetti</signed>            <signed>M Frediani</signed></closer><lb/> 
                
             </ab>
          </body>

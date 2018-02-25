@@ -318,21 +318,21 @@
                   <note>E tutti furono passati all’alzata di mano.</note>
                </list><lb/> (Segue)<lb/>
                <pb n="62"/>
-               <list rend="list">
-                  <note>Si delibera’ di pagare ai fratelli come diritto.</note>
+               
+                  Si delibera’ di pagare ai fratelli come diritto.
                   <lb/>
-                  <item><seg type="comp" subtype="sick"><persName ref="#diodativ" role="target"
+                  <seg type="comp" subtype="sick"><persName ref="#diodativ" role="target"
                            >Vincenzo Diodati</persName>
-                        <num type="monetary" value="56">$56.00</num> di sussidio</seg></item>
+                        <num type="monetary" value="56">$56.00</num> di sussidio</seg>
                   <lb/>
-                  <item><seg type="comp" subtype="sick"><persName ref="#pacinio" role="target"
+                  <seg type="comp" subtype="sick"><persName ref="#pacinio" role="target"
                            >Olindo Pacini</persName>
-                        <num type="monetary" value="14">$14.00</num> “ “ “</seg></item>
+                        <num type="monetary" value="14">$14.00</num> “ “ “</seg>
                   <lb/>
-                  <item><seg type="comp" subtype="sick"><persName ref="#barantip" role="target"
+                  <seg type="comp" subtype="sick"><persName ref="#barantip" role="target"
                            >Pietro Baranti</persName>
-                        <num type="monetary" value="19">$19.00</num> “ “ “</seg></item>
-               </list><lb/> Il comitato Pic-Nic andiede a fissare il<lb/> campo, e lo’ fisso per il
+                        <num type="monetary" value="19">$19.00</num> “ “ “</seg>
+               <lb/> Il comitato Pic-Nic andiede a fissare il<lb/> campo, e lo’ fisso per il
                19 di giugno P. V.,<lb/> ma essendo che era libero solo 3 Domenice<lb/> in tutta
                l’estate, pago’ anche un deposito<lb/> per un altra volta Domenica se la<lb/> semblea
                lo avesse accettato, se incaso la<lb/> semblea non avesse voluto fare due
@@ -1043,10 +1043,10 @@
                      </list></item>
                   <lb/>
                   <item><persName ref="#marconic">Carlo Marconi</persName> Chairman of Floor<lb/>
-                     Managers,</item>
-                  <item>gli assistenti verranno <del rend="strike">schelti</del><lb/> Cielti nell
-                     prossima Seduta.</item>
-               </list><lb/> Terminato tutto gli affari sociali <rs ref="#marsilis">il<lb/>
+                     Managers,</item></list>
+                  gli assistenti verranno <del rend="strike">schelti</del><lb/> Cielti nell
+                     prossima Seduta.
+               <lb/> Terminato tutto gli affari sociali <rs ref="#marsilis">il<lb/>
                   Presidente</rs> apri la nomina per i<lb/> Candidati per l’amministrazione per<lb/>
                L’anno 1922.<lb/> A Presidente <persName ref="#marconic">Carlo Marconi</persName>,
                   <persName ref="#pellegrinic">Casimirro<lb/> Pellegrini</persName> uno da

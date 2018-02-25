@@ -223,13 +223,13 @@
                      Pasquinelli</persName></item>
                   <lb/>
                   <item> Curatori <unclear reason="illegible"/>
-                     <list rend="list">
-                        <item><del rend="strike"><persName ref="#silvionic">Carlo
-                                 Silvione</persName></del></item>
+                     <list>
+                        <del rend="strike"><persName ref="#silvionic">Carlo
+                                 Silvione</persName></del>
                         <lb/>
                         <item><persName ref="#paganuccis">Sam Paganucci</persName></item>
-                        <item><del rend="strike"><persName ref="#bertonie">Eugenio
-                                 Bertoni</persName></del></item>
+                        <del rend="strike"><persName ref="#bertonie">Eugenio
+                                 Bertoni</persName></del>
                         <lb/>
                         <item><persName ref="#marsilia">Abramo Marsili</persName></item>
                      </list></item>
@@ -491,7 +491,7 @@
                      Nomi-</note>
                   <lb/>
                   <item><persName ref="#lunardinim">Matteo Lunardini</persName>-</item>
-                  <item><persName ref="#buchignanil">Luigi Buchignani</persName>-</item>
+                  <item><persName ref="#buchignianil">Luigi Buchignani</persName>-</item>
                   <lb/>
                   <item><persName ref="#paternim">Michele Paterni</persName>-</item>
                   <item><persName ref="#diriccoe">Enrico DiRicco</persName>-</item>
@@ -1131,11 +1131,11 @@
                   <item>5to <persName ref="#davinie">Enrico Davini</persName></item>
                   <item>6to <persName ref="#marconif">Filippo Marconi</persName></item>
                   <lb/>
-                  <item><del rend="strike">7mo <persName ref="#pardinia">Americo Pardini</persName>
-                        da vedersi in Riguardo Militare</del></item>
+                  <del rend="strike">7mo <persName ref="#pardinia">Americo Pardini</persName>
+                        da vedersi in Riguardo Militare</del>
                   <lb/>
-                  <item><del rend="strike">8mo <persName ref="#santorinif">Fortunato
-                           Santorini</persName></del> " " " non dichiarata</item>
+                  <del rend="strike">8mo <persName ref="#santorinif">Fortunato
+                           Santorini</persName></del><note> " " " non dichiarata</note>
                   <lb/>
                   <item>9 <persName ref="#barontinid">Dino Barontini</persName>, </item>
                   <item>10 <persName ref="#benedettie">Egidio Benedetti</persName></item>

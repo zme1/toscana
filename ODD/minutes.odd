@@ -636,6 +636,13 @@
             </sch:rule>
           </constraint>
         </constraintSpec>
+        <constraintSpec ident="item_persName" scheme="isoschematron">
+          <constraint>
+            <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron" context="tei:item[not(tei:list)]">
+              <sch:assert test="tei:persName or tei:rs">Every item element must have a child element of persName</sch:assert>
+            </sch:rule>
+          </constraint>
+        </constraintSpec>
         <!--2018-01-28 ebb: Here's an alternative way to define the SAME rule we wrote in the elementSpec 
        for persName above. If you write a constraintSpec as a sibling of the elementSpec elements you need to 
        define its context with sch:rule this time: See how this works? -->
