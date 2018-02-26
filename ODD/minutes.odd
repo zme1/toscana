@@ -662,6 +662,13 @@
             </sch:rule>
           </constraint>
         </constraintSpec>
+        <constraintSpec ident="list_type" scheme="isoschematron">
+          <constraint>
+            <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron" context="tei:list[not(ancestor::tei:list)]">
+              <sch:assert test="@type">Every list element must have @type attribute</sch:assert>
+            </sch:rule>
+          </constraint>
+        </constraintSpec>
         <!--2018-01-28 ebb: Here's an alternative way to define the SAME rule we wrote in the elementSpec 
        for persName above. If you write a constraintSpec as a sibling of the elementSpec elements you need to 
        define its context with sch:rule this time: See how this works? -->

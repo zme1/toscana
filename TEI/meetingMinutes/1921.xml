@@ -200,7 +200,7 @@
                amministrazione<lb/> il quale chiamo <persName ref="#marsilis">il nuovo
                   presidente<lb/> Sam Marsili</persName>, e tutta l’amministrazione<lb/> nuova e can
                parole augurava un buon<lb/> successo durante la loro occupazione<lb/> anno 1921<lb/>
-               <list rend="list" type="officers">
+               <list type="officers">
                   <note>Amministrazione per l’anno 1921</note>
                   <lb/>
                   <item>Presidente <persName ref="#marsilis">Sam Marsili</persName></item>
@@ -214,7 +214,7 @@
                   <item>Tesoriere <persName ref="#pasquinellis">Santino
                      Pasquinelli</persName></item>
                   <lb/>
-                  <item><list rend="list">
+                  <item><list>
                         <note>Curatori</note>
                         <item><persName ref="#pasquinelliam">Americo Pasquinelli</persName></item>
                         <lb/>
@@ -223,7 +223,7 @@
                         <item><persName ref="#fredianellig">Giuseppe Fredianelli</persName></item>
                      </list></item>
                   <lb/>
-                  <item><list rend="list">
+                  <item><list>
                         <note>Ufficiali Sanitari</note>
                         <item><persName ref="#merciadrie">Eugenio Merciadri</persName></item>
                         <lb/>
@@ -368,7 +368,7 @@
                   fare<lb/> come piace a lui, per quella sera, e di<lb/> Invitare <persName
                      ref="#pascuzzia">Angelo Pascuzzi</persName>, per quella sera,<lb/> e tutto
                   questo venne passato dalla semblea.</seg><lb/>
-               <list rend="list" type="committee" subtype="intrattenimento">
+               <list type="committee" subtype="intrattenimento">
                   <note>Il comitato e cosi composto</note>
                   <lb/>
                   <item><persName ref="#pasquinelliam">Americo Pasquinelli</persName></item>
@@ -515,7 +515,7 @@
                </list> Fu rigettato il diario del<lb/> fratello <persName ref="#cappellinic"
                   >Castruccio Cappellini</persName> perche’ egli<lb/> all’epoca quando cadette
                ammalato<lb/> trovasi arretrato coi pagamenti mensili.<lb/>
-               <list rend="list" type="committee" subtype="picnic">
+               <list type="committee" subtype="picnic">
                   <note>Si passo alla discuzione del prossimo<lb/> Pic-Nic e il comitato e cosi
                      composto</note>
                   <lb/>
@@ -530,7 +530,7 @@
                   <item><persName ref="#viganol">Lorenzo Vigano’</persName> Capo Comitato di<lb/>
                      preparazione e i suoi assistenti</item>
                   <lb/>
-                  <item><list rend="list">
+                  <item><list>
                         <item><persName ref="#puccettia">Adriano Puccetti</persName></item>
                         <item><persName ref="#puccettil">Lorenzo Puccetti</persName></item>
                         <item><persName ref="#robertig">Gino<lb/> Roberti</persName></item>
@@ -688,7 +688,7 @@
                <del rend="strike">Muzio Frediani</del><lb/>
                <persName ref="#simonettim">Michele Simonetti</persName> nominati di compera-<lb/> re
                il premio.<lb/>
-               <list rend="list">
+               <list>
                   <note>Poi fu aperta la nomina del<lb/> Comitato Pic-Nic de 38 Agosto P.V.<lb/> Il
                      comitato e cosi Composto.</note>
                   <lb/>
@@ -708,7 +708,7 @@
                   <item>Floor Maneger<lb/>
                      <persName ref="#viganor">Ramialdo Vigano’</persName></item>
                   <lb/>
-                  <item><list rend="list">
+                  <item><list>
                         <note>Assistenti</note>
                         <item><persName ref="#fredianellig">Giuseppe Fredianelli</persName></item>
                         <lb/>
@@ -931,7 +931,7 @@
                essere<lb/> Meglio per dare questo ballo, e il medesi-<lb/> mo tempo di mettere un
                deposito per<lb/> la <del rend="strike">meo</del> sala e di fissarla per il<lb/>
                giovedi grasso se fosse possible e<lb/> Di dare pieno potere al comitato.<lb/>
-               <list rend="list" type="committee" subtype="ballo">
+               <list type="committee" subtype="ballo">
                   <note>Il Comitato e cosi composto.</note>
                   <lb/>
                   <item><persName ref="#sodinij">Jacopo Sodini</persName>. </item>

@@ -85,7 +85,7 @@
             <listPerson>
                <person>
                   <persName ref="#maffeis">Stefano Maffei</persName>
-                  <roleName type="officer" role="pres"></roleName>
+                  <roleName type="officer" role="pres"/>
                </person>
                <person>
                   <persName ref="#sodinij">Jacopo Sodini</persName>
@@ -366,7 +366,7 @@
                      ref="#legaT" role="supporter">ad unanimita</rs><lb/> propone dare un pic-nic e
                   tal uopo<lb/> viene fatto un comitato con piene potere<lb/> di fissare il posto se
                   fosse possibile<lb/> per il mese di Luglio.</seg><lb/>
-               <list rend="list" type="committee" subtype="picnic">
+               <list type="committee" subtype="picnic">
                   <note>Il Comitato fu cosi composto</note>
                   <lb/>
                   <item><persName ref="#maffeis">S. Maffei</persName></item>
@@ -484,24 +484,36 @@
                   Bevilacqua</persName> dietro<lb/> formale presentazione del certificato<lb/>
                medico. Dopo di certi affari ammini-<lb/> strativi si passa alla discussione<lb/> del
                prossimo Pic-nic che fisso'<lb/> il comitato per la prima Domeni-<lb/> ca di Agosto.
-               Venne nominato il<lb/> comitato ed e' cosi composto:<lb/>
-               <persName ref="#lunardinil">Lorenzo Lunardini, presidente</persName>; <persName ref="#datia"
-                  >Adel-<lb/> mo Dati vice
-                     presidente</persName>; <persName ref="#fredianim">Muzio Fre-<lb/>
-                  diani, seg.
-               corr</persName>; <persName ref="#pellegrinic">C. Pellegrini, seg.<lb/> Fin.</persName>;
-                  <persName ref="#lucchesiam">Americo Lucchesi, tesoriere</persName>;<lb/>
-               <pb n="45"/>
-               <persName ref="#pasquinellis">Santino Pasquinelli, capo comitato<lb/> di preparazione</persName>,
-                  <persName ref="#sodinij">Jacopo Sodini, vice<lb/> capo</persName>; Gli assistenti scelti furono<lb/>
-               <persName ref="#zinim">Modesto Zini</persName>, <persName ref="#silvionic">Carlo
-                  Silvioni</persName>, <persName ref="#robertice">Cesare<lb/> Roberti</persName>;
-                  <persName ref="#bevilacquas">Sam Bevilacqua</persName>, <persName
-                  ref="#merciadrie">E. Mer-<lb/> ciadri</persName>, <persName ref="#fontanaan"
-                  >Angelo Fontana</persName>, <persName ref="#danesiv">Virgilio<lb/>
-                  Danesi</persName> e <persName ref="#denricoc">Curico D'Enrico</persName>.<lb/> Il
-               pic-nic fu deciso di farlo<lb/> libero a tutti e di fare un biglietto<lb/> unico del
-               costo di 25¢ escludendo<lb/> dal pagamento i bambini al disotto<lb/> di 10 anni.<lb/>
+                  <list type="committee" subtype="picnic">
+                  <note>Venne nominato il<lb/> comitato ed e' cosi composto:</note>
+                  <lb/>
+                     <item><persName ref="#lunardinil">Lorenzo Lunardini</persName>, <roleName type="committee" role="pres">presidente</roleName>;</item>
+                     <item><persName ref="#datia">Adel-<lb/> mo Dati</persName> vice presidente;</item>
+                     <item><persName ref="#fredianim">Muzio Fre-<lb/> diani</persName>, seg.
+                     corr;</item>
+                     <item><persName ref="#pellegrinic">C. Pellegrini</persName>, seg.<lb/>
+                     Fin.;</item>
+                     <item><persName ref="#lucchesiam">Americo Lucchesi</persName>, tesoriere;</item>
+                  <lb/>
+                  <pb n="45"/>
+                     <item><persName ref="#pasquinellis">Santino Pasquinelli</persName>, capo comitato<lb/> di
+                        preparazione,</item>
+                     <item><persName ref="#sodinij">Jacopo Sodini</persName>, vice<lb/> capo;</item>
+                  <item><list>
+                        <note><roleName type="committee" role="assistente">Gli assistenti</roleName> scelti furono</note>
+                        <lb/>
+                        <item><persName ref="#zinim">Modesto Zini</persName>,</item>
+                        <item><persName ref="#silvionic">Carlo Silvioni</persName>,</item>
+                        <item><persName ref="#robertice">Cesare<lb/> Roberti</persName>;</item>
+                        <item><persName ref="#bevilacquas">Sam Bevilacqua</persName>,</item>
+                        <item><persName ref="#merciadrie">E. Mer-<lb/> ciadri</persName>,</item>
+                        <item><persName ref="#fontanaan">Angelo Fontana</persName>,</item>
+                        <item><persName ref="#danesiv">Virgilio<lb/> Danesi</persName></item>
+                        <item>e <persName ref="#denricoc">Curico D'Enrico</persName>.</item>
+                     </list></item>
+               </list><lb/> Il pic-nic fu deciso di farlo<lb/> libero a tutti e di fare un
+               biglietto<lb/> unico del costo di 25¢ escludendo<lb/> dal pagamento i bambini al
+               disotto<lb/> di 10 anni.<lb/>
                <closer> Non essendoci altro da discutere<lb/>
                   <rs ref="#maffeis">il Presidente</rs> toglie la seduta<lb/> Fondo cassa a
                   tutt'oggi $<lb/> Il Seg. Il Presidente<lb/>
@@ -598,7 +610,7 @@
                      >Sodini Jacopo</persName> di nominare<lb/> un comitato per fare lo stendardo
                   so-<lb/> ciale e che questo sia autorizzato di<lb/> non spendere piu di
                   $100.00.</seg>
-               <list rend="list" type="committee" subtype="stendardo">
+               <list type="committee" subtype="stendardo">
                   <note>Il co-<lb/> mitato e’ cosi composto:</note>
                   <lb/>
                   <item><persName ref="#pellegrinic">Casimiro Pellegrini</persName></item>
@@ -928,12 +940,12 @@
                   <item><persName ref="#marchettie">E Marchetti</persName>.</item>
                </list><lb/>
                <pb n="55"/>
-               <list rend="list">
+               <list>
                   <note>Terminato tutto il lavoro sociale <rs ref="#maffeis">il<lb/> Presidente</rs>
                      dichiare aperte da nomina dei<lb/> candidati per le nuove gestioni 1924 i<lb/>
                      viene cosi compilate:</note>
                   <lb/>
-                  <item><list rend="list">
+                  <item><list>
                         <note>A Presidente</note>
                         <lb/>
                         <item><persName ref="#zinim">Modesto Zini</persName></item>
@@ -943,7 +955,7 @@
                         <item><persName ref="#tambellinig">Giuseppe Tambellini S.</persName></item>
                      </list></item>
                   <lb/>
-                  <item><list rend="list">
+                  <item><list>
                         <note>A V. Presidente:</note>
                         <lb/>
                         <item><persName ref="#datia">Dati Adelino</persName></item>
@@ -954,21 +966,21 @@
                      </list></item>
                   <lb/>
                   <item>
-                     <list rend="list">
+                     <list>
                         <note>A Secretario</note>
                         <lb/>
                         <item><persName ref="#marchettie">Emilio Marchetti</persName>, per
                            acclamazione</item>
                      </list></item>
                   <lb/>
-                  <item><list rend="list">
+                  <item><list>
                         <note>A Seg. di Finanza</note>
                         <lb/>
                         <item><persName ref="#piaggesia">Aladino Piaggisi</persName>, per
                            acclamazione</item>
                      </list></item>
                   <lb/>
-                  <item><list rend="list">
+                  <item><list>
                         <note>A Curatori:</note>
                         <lb/>
                         <item><persName ref="#maffeis">Stefano Maffei</persName></item>
@@ -982,7 +994,7 @@
                         <item><persName ref="#pasquinelliam">Americo Pasquinelli</persName></item>
                      </list></item>
                   <lb/>
-                  <item><list rend="list">
+                  <item><list>
                         <note>A Uff. Sanitari:</note>
                         <lb/>
                         <item><persName ref="#battistiniv">Battistini Vincenzo</persName></item>
@@ -992,7 +1004,7 @@
                         <item><persName ref="#merciadrie">Eugenio Merciadri</persName></item>
                      </list></item>
                   <lb/>
-                  <item><list rend="list">
+                  <item><list>
                         <note>A guardo Sale</note>
                         <lb/>
                         <item><persName ref="#merciadrie">E. Merciadri</persName>, per
