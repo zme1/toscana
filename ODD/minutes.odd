@@ -435,10 +435,9 @@
         </elementSpec>
         <elementSpec ident="roleName" mode="change" module="namesdates">
           <attList>
-            <attDef ident="type" mode="replace" usage="rec">
+            <attDef ident="type" mode="replace" usage="req">
               <valList type="closed">
                 <valItem ident="committee"/>
-                <valItem ident="subcommittee"/>
                 <valItem ident="officer"/>
               </valList>
             </attDef>
@@ -450,6 +449,24 @@
                 <valItem ident="picnic"/>
                 <valItem ident="stendardo"/>
                 <valItem ident="sussidio"/>
+              </valList>
+            </attDef>
+            <attDef ident="role" mode="replace" usage="req">
+              <valList type="closed">
+                <valItem ident="pres"/>
+                <valItem ident="vice"/>
+                <valItem ident="corresp"/>
+                <valItem ident="finanza"/>
+                <valItem ident="tes"/>
+                <valItem ident="curatore"/>
+                <valItem ident="sanitario"/>
+                <valItem ident="colletore"/>
+                <valItem ident="guardia"/>
+                <valItem ident="chairman"/>
+                <valItem ident="manager"/>
+                <valItem ident="assistente"/>
+                <valItem ident="arrangement"/>
+                <valItem ident="ricevimento"/>
               </valList>
             </attDef>
           </attList>

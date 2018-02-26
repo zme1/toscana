@@ -85,55 +85,55 @@
             <listPerson>
                <person>
                   <persName ref="#pellegrinic">Casimiro Pellegrini</persName>
-                  <roleName>Presidente</roleName>
+                  <roleName type="officer" role="pres"/>
                </person>
                <person>
                   <persName ref="#sodinij">Jacopo Sodini</persName>
-                  <roleName>Vice Presidente</roleName>
+                  <roleName type="officer" role="vice"/>
                </person>
                <person>
                   <persName ref="#giannig">Giuseppe Gianni</persName>
-                  <roleName>Segretario di Corrispondenza</roleName>
+                  <roleName type="officer" role="corresp"/>
                </person>
                <person>
                   <persName ref="#pasquinellie">Emilio Pasquinelli</persName>
-                  <roleName>Segretario Finanza</roleName>
+                  <roleName type="officer" role="finanza"/>
                </person>
                <person>
                   <persName ref="#pasquinellis">Santino Pasquinelli</persName>
-                  <roleName>Tesoriere</roleName>
+                  <roleName type="officer" role="tes"/>
                </person>
                <person>
                   <persName ref="#marconic">Carlo Marconi</persName>
-                  <roleName>Curatore</roleName>
+                  <roleName type="officer" role="curatore"/>
                </person>
                <person>
                   <persName ref="#borellim">Martino Borelli</persName>
-                  <roleName>Curatore</roleName>
+                  <roleName type="officer" role="curatore"/>
                </person>
                <person>
                   <persName ref="#lucchesiam">Americo Lucchesi</persName>
-                  <roleName>Curatore</roleName>
+                  <roleName type="officer" role="curatore"/>
                </person>
                <person>
                   <persName ref="#viganol" role="scaduto">Lorenzo Vigano'</persName>
-                  <roleName>Ufficiale Sanitario</roleName>
+                  <roleName type="officer" role="sanitario"/>
                </person>
                <person>
                   <persName ref="#vannuccie" role="replacement">Ernesto Vannucci</persName>
-                  <roleName>Ufficiale Sanitario</roleName>
+                  <roleName type="officer" role="sanitario"/>
                </person>
                <person>
                   <persName ref="#fredianellig">Giuseppe Fredianelli</persName>
-                  <roleName>Ufficiale Sanitario</roleName>
+                  <roleName type="officer" role="sanitario"/>
                </person>
                <person>
                   <persName ref="#sodinij">Jacopo Sodini</persName>
-                  <roleName>Collettore</roleName>
+                  <roleName type="officer" role="colletore"/>
                </person>
                <person>
                   <persName ref="#merciadrie">Eugenio Merciardri</persName>
-                  <roleName>Guardia Sala</roleName>
+                  <roleName type="officer" role="guardia"/>
                </person>
             </listPerson>
          </particDesc>

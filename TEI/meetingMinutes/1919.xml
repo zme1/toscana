@@ -85,55 +85,55 @@
             <listPerson>
                <person>
                   <persName ref="#fredianim">Muzio Frediani</persName>
-                  <roleName>Presidente</roleName>
+                  <roleName type="officer" role="pres"/>
                </person>
                <person>
                   <persName ref="#maffeis">Stefano Maffei</persName>
-                  <roleName>Vice Presidente</roleName>
+                  <roleName type="officer" role="vice"/>
                </person>
                <person>
                   <persName ref="#simonettim">Michele Simonetti</persName>
-                  <roleName>Segretario di Corrispondenza</roleName>
+                  <roleName type="officer" role="corresp"/>
                </person>
                <person>
                   <persName ref="#pasquinellis">Santino Pasquinelli</persName>
-                  <roleName>Segretario Finanza</roleName>
+                  <roleName type="officer" role="finanza"/>
                </person>
                <person>
                   <persName ref="#pasquinelliam">Americo Pasquinelli</persName>
-                  <roleName>Tesoriere</roleName>
+                  <roleName type="officer" role="tes"/>
                </person>
                <person>
                   <persName ref="#silvionic" role="scaduto">Carlo Silvioni</persName>
-                  <roleName>Curatore</roleName>
+                  <roleName type="officer" role="curatore"/>
                </person>
                <person>
                   <persName ref="#paganuccis" role="replacement">Sam Paganucci</persName>
-                  <roleName>Curatore</roleName>
+                  <roleName type="officer" role="curatore"/>
                </person>
                <person>
                   <persName ref="#bertonie" role="scaduto">Eugenio Bertoni</persName>
-                  <roleName>Curatore</roleName>
+                  <roleName type="officer" role="curatore"/>
                </person>
                <person>
                   <persName ref="#lunardinil" role="replacement">Lorenzo Lunardini</persName>
-                  <roleName>Curatore</roleName>
+                  <roleName type="officer" role="curatore"/>
                </person>
                <person>
                   <persName ref="#marsilia">Abramo Marsili</persName>
-                  <roleName>Curatore</roleName>
+                  <roleName type="officer" role="curatore"/>
                </person>
                <person>
                   <persName ref="#giomettic">Carlo Giometti</persName>
-                  <roleName>Ufficiale Sanitario</roleName>
+                  <roleName type="officer" role="sanitario"/>
                </person>
                <person>
                   <persName ref="#merciadrie">Eugenio Merciardi</persName>
-                  <roleName>Ufficiale Sanitario</roleName>
+                  <roleName type="officer" role="sanitario"/>
                </person>
                <person>
                   <persName ref="#fontanaan">Angelo Fontana</persName>
-                  <roleName>Guardia Sala</roleName>
+                  <roleName type="officer" role="guardia"/>
                </person>
             </listPerson>
          </particDesc>
@@ -206,7 +206,7 @@
                   Muzio Frediani</persName><lb/> in Sieme Con il Seguito di tutta la
                aministrazione<lb/> e Con Parole Augurandoci un buon successo<lb/> durante la Loro
                Ocupazione Anno 1919.<lb/>
-               <list rend="list" type="officers">
+               <list type="officers">
                   <note>Aministrazione Anno 1919</note>
                   <lb/>
                   <item>Presidente <persName ref="#fredianim">Muzio Frediani</persName></item>
@@ -234,7 +234,7 @@
                         <item><persName ref="#marsilia">Abramo Marsili</persName></item>
                      </list></item>
                   <lb/>
-                  <item> Ufficiali Sanitari <list rend="list">
+                  <item> Ufficiali Sanitari <list>
                         <item><persName ref="#giomettic">Carlo Giometti</persName></item>
                         <lb/>
                         <item>
@@ -620,7 +620,7 @@
                      <rs ref="#legaT" role="supporter">da tutta<lb/>L’assemblea Generale</rs></seg><lb/>
                <seg type="delegation" subtype="committee"><rs ref="#mf" role="source">Il
                      Presidente</rs>Scelse un Comitato<lb/> di Ivesticazione per dare la Festa<lb/>Campestre<lb/>
-                  <list rend="list" type="committee" subtype="festaCampestre">
+                  <list type="committee" subtype="festaCampestre">
                      <item><persName ref="#marsilia" role="target">Abramo Marsili</persName></item>
                      <lb/>
                      <item><persName ref="#lunardinil" role="target">Lorenzo
@@ -757,42 +757,42 @@
                <pb n="24"/>
                <persName ref="#fredianim"> Il Presidente M Frediani</persName>Chiese<lb/>il Raporto
                del Comto Scelto per<lb/>trovare la farm per darci la festa<lb/>Campestre e Famigliare<lb/>
-               <persName ref="#maffeis">Il <roleName type="committee">Capo
-                  Comto</roleName>SMaffei</persName>Raporto<lb/>che avevano trovato e
+               <persName ref="#maffeis">Il Capo
+                  Comto S Maffei</persName>Raporto<lb/>che avevano trovato e
                ingaggiato<lb/>la Ross Farm Aspinwall Pa<lb/>per $20.00 e avremmo potuto<lb/>farci la
                festa qualunque domenica<lb/>che Si avesse piaciuto a Noi<lb/>Cosi fu’ accetta da
                tutta la<lb/>Assemblea Generale di dare la<lb/>Festa Campestre e Famigliare<lb/>a
-               Ross Farm Aspinwall Pa<lb/>la 1a domenica di agosto<lb/><list rend="list"
+               Ross Farm Aspinwall Pa<lb/>la 1a domenica di agosto<lb/><list
                   type="committee" subtype="festaCampestre">
                   <note>Aministrazione della Festa Campestre</note>
                   <lb/>
-                  <item><persName ref="#fredianim">Muzio Frediani <roleName type="committee"
+                  <item><persName ref="#fredianim">Muzio Frediani <roleName type="committee" role="pres"
                            >Presidente</roleName></persName></item>
                   <lb/>
-                  <item><persName ref="#zinim">Modesto Zini<roleName type="committee"
+                  <item><persName ref="#zinim">Modesto Zini<roleName type="committee" role="vice"
                            >Vice</roleName></persName></item>
                   <lb/>
-                  <item><persName ref="#pellegrinic">Casimiro Pelligrini<roleName type="committee"
+                  <item><persName ref="#pellegrinic">Casimiro Pelligrini<roleName type="committee" role="finanza"
                            >Segrodi Finanza</roleName></persName></item>
                   <lb/>
-                  <item><persName ref="#simonettim">Mike Simonetti<roleName type="committee">^
+                  <item><persName ref="#simonettim">Mike Simonetti<roleName type="committee" role="corresp">^
                            Cor.</roleName></persName></item>
                   <lb/>
-                  <item><persName ref="#pasquinellis">Santino Pasquinelli<roleName type="committee"
+                  <item><persName ref="#pasquinellis">Santino Pasquinelli<roleName type="committee" role="tes"
                            >Tesoriere</roleName></persName></item>
                   <lb/>
-                  <item><persName ref="#viganol">Lorenzo Vigano’<roleName type="committee"
+                  <item><persName ref="#viganol">Lorenzo Vigano’<roleName type="committee" role="chairman"
                               >Capo<unclear reason="illegible">Chia</unclear>
                            d’arangiomento</roleName></persName></item>
                   <lb/>
-                  <item><persName ref="#merciadrie">Eugenio Merciadri</persName></item>
+                  <item><list><note>Assistenti</note>
+                  <item><persName ref="#merciadrie">Eugenio Merciadri</persName><roleName type="committee" role="assistente"></roleName></item>
                   <lb/>
-                  <item><persName ref="#danesiv">Vergilio danesi<roleName type="committee"
-                           >Assistenti</roleName></persName></item>
+                     <item><persName ref="#danesiv">Vergilio danesi</persName><roleName type="committee" role="assistente"/></item>
                   <lb/>
-                  <item><persName ref="#paganuccis">Sam Paganucci</persName></item>
+                     <item><persName ref="#paganuccis">Sam Paganucci</persName><roleName type="committee" role="assistente"/></item>
                   <lb/>
-                  <item><persName ref="#paternim">Mike Paterni</persName></item>
+                     <item><persName ref="#paternim">Mike Paterni</persName><roleName type="committee" role="assistente"/></item></list></item>
                   <lb/>
                </list> Fu dato Pieno Potere all’aministrazione<lb/>di agire e di fare tutto
                il<lb/>Necessario per la festa<lb/>
@@ -874,73 +874,73 @@
                   Sodalizio della Lega Toscana<lb/>la Proposta del Fratello Maffei fu asecondata<lb/>
                   <persName ref="#simonettim" role="supporter">dal Fratello Simonetti</persName>e fu
                   aprovata<lb/>da tutta la l’assemblea generale<lb/></seg>
-               <list rend="list" type="committee" subtype="ballo">
+               <list type="committee" subtype="ballo">
                   <note>Il Presidente apri la Nomina del<lb/>Comitato Ballo e Resultarono
                      i<lb/>Seguenti</note>
                   <lb/>
-                  <item><persName ref="#boninif"><roleName type="committee">A
-                        Presidente</roleName><lb/>Francesco WBonini</persName><lb/></item>
-                  <item><persName ref="#silvionic"><roleName type="committee">Vice
-                           Presidente</roleName>Carlo Silvione</persName></item>
+                  <item><roleName type="committee" role="pres">A
+                     Presidente</roleName><lb/><persName ref="#boninif">Francesco Bonini</persName><lb/></item>
+                  <item><roleName type="committee" role="vice">Vice
+                     Presidente</roleName><persName ref="#silvionic">Carlo Silvione</persName></item>
                   <lb/>
                   <pb n="28"/>
-                  <item><persName ref="#sodinij"><roleName type="committee">Secondo Vice
-                           Presidente</roleName>Jeapo Sodini</persName></item>
+                  <item><roleName type="committee" role="vice">Secondo Vice
+                     Presidente</roleName><persName ref="#sodinij">Jeapo Sodini</persName></item>
                   <lb/>
-                  <item><persName ref="#fredianim"><roleName type="committee">Segretario di
-                           Cor</roleName>Muzio Frediani</persName></item>
+                  <item><roleName type="committee" role="corresp">Segretario di
+                     Cor</roleName><persName ref="#fredianim">Muzio Frediani</persName></item>
                   <lb/>
-                  <item><persName ref="#pellegrinic"><roleName type="committee">Asistente
-                           Segretario</roleName>CasimiroPellegrini</persName></item>
+                  <item><roleName type="committee" role="assistente">Asistente
+                     Segretario</roleName><persName ref="#pellegrinic">Casimiro Pellegrini</persName></item>
                   <lb/>
-                  <item><persName ref="#desimos"><roleName type="committee"
-                        >Tesoriere</roleName>Serafino DeSimo</persName></item>
+                  <item><roleName type="committee" role="tes"
+                     >Tesoriere</roleName><persName ref="#desimos">Serafino DeSimo</persName></item>
                   <lb/>
-                  <item><roleName type="subcommittee">Comitato di Ricevimento</roleName><lb/>
-                     <list rend="list">
-                        <item><persName ref="#bertonie">Eugenio Bertoni</persName></item>
+                  <item><list><note>Comitato di Ricevimento</note><lb/>
+                     
+                        <item><roleName type="committee" role="ricevimento"/><persName ref="#bertonie">Eugenio Bertoni</persName></item>
                         <lb/>
-                        <item><persName ref="#cappellinic">Castruccio Cappellini</persName></item>
+                     <item><roleName type="committee" role="ricevimento"/><persName ref="#cappellinic">Castruccio Cappellini</persName></item>
                         <lb/>
-                        <item><persName ref="#tambellinig">Giuseppe Tambellini</persName></item>
+                     <item><roleName type="committee" role="ricevimento"/><persName ref="#tambellinig">Giuseppe Tambellini</persName></item>
                         <lb/>
-                        <item><persName ref="#serafinio">Orlando Serafini</persName></item>
+                     <item><roleName type="committee" role="ricevimento"/><persName ref="#serafinio">Orlando Serafini</persName></item>
                         <lb/>
-                        <item><persName ref="#marsilia">Abramo Marsili</persName></item>
+                     <item><roleName type="committee" role="ricevimento"/><persName ref="#marsilia">Abramo Marsili</persName></item></list>
+                     </item>
+                  <lb/>
+                  <item><list><note>Manegere della Sala da Balli</note><lb/>
+                     
+                     <item><roleName type="committee" role="manager"/><persName ref="#simonettim">Michele Simonetti</persName></item>
+                        <lb/>
+                     <item><roleName type="committee" role="manager"/><persName ref="#lunardinil">Lorenzo Lunardini</persName></item>
+                        <lb/>
+                     <item><roleName type="committee" role="manager"/><persName ref="#viganol">Lorenzo Vigano</persName></item>
+                        <lb/>
+                     <item><roleName type="committee" role="manager"/><persName ref="#pistelliu">Ugo Pistelli</persName></item>
                      </list></item>
                   <lb/>
-                  <item><roleName type="subcommittee">Manegere della Sala da Balli</roleName><lb/>
-                     <list rend="list">
-                        <item><persName ref="#simonettim">Michele Simonetti</persName></item>
+                  <item><list><note>Chiarma d’arangiomento</note><lb/>
+                     
+                     <item><roleName type="committee" role="arrangement"/><persName ref="#maffeis">Stefano Maffei</persName></item>
                         <lb/>
-                        <item><persName ref="#lunardinil">Lorenzo Lunardini</persName></item>
+                     <item><roleName type="committee" role="arrangement"/><persName ref="#fredianellig">Giuseppe Fredianelli</persName></item>
                         <lb/>
-                        <item><persName ref="#viganol">Lorenzo Vigano</persName></item>
+                     <item><roleName type="committee" role="arrangement"/><persName ref="#paganuccis">Sam Paganucci</persName></item>
                         <lb/>
-                        <item><persName ref="#pistelliu">Ugo Pistelli</persName></item>
-                     </list></item>
-                  <lb/>
-                  <item><roleName type="subcommittee">Chiarma d’arangiomento</roleName><lb/>
-                     <list rend="list">
-                        <item><persName ref="#maffeis">Stefano Maffei</persName></item>
+                     <item><roleName type="committee" role="arrangement"/><persName ref="#zinim">Modesto Zini</persName></item>
                         <lb/>
-                        <item><persName ref="#fredianellig">Giuseppe Fredianelli</persName></item>
+                     <item><roleName type="committee" role="arrangement"/><persName ref="#merciadrie">Eugenio Merciadri</persName></item>
                         <lb/>
-                        <item><persName ref="#paganuccis">Sam Paganucci</persName></item>
+                     <item><roleName type="committee" role="arrangement"/><persName ref="#diriccoe">Enrico DiRicco</persName></item>
                         <lb/>
-                        <item><persName ref="#zinim">Modesto Zini</persName></item>
+                     <item><roleName type="committee" role="arrangement"/><persName ref="#giomettic">Carlo Giometti</persName></item>
                         <lb/>
-                        <item><persName ref="#merciadrie">Eugenio Merciadri</persName></item>
+                     <item><roleName type="committee" role="arrangement"/><persName ref="#pasquinelliam">Americo Pasquinelli</persName></item>
                         <lb/>
-                        <item><persName ref="#diriccoe">Enrico DiRicco</persName></item>
+                     <item><roleName type="committee" role="arrangement"/><persName ref="#giangranedif">Francesco Giangranedi</persName></item>
                         <lb/>
-                        <item><persName ref="#giomettic">Carlo Giometti</persName></item>
-                        <lb/>
-                        <item><persName ref="#pasquinelliam">Americo Pasquinelli</persName></item>
-                        <lb/>
-                        <item><persName ref="#giangranedif">Francesco Giangranedi</persName></item>
-                        <lb/>
-                        <item><persName ref="#pasquinellis">Santino Pasquinelli</persName></item>
+                     <item><roleName type="committee" role="arrangement"/><persName ref="#pasquinellis">Santino Pasquinelli</persName></item>
                      </list></item>
                   <lb/>
                </list>

@@ -85,53 +85,54 @@
             <listPerson>
                <person>
                   <persName ref="#marsilis">Sam Marsili</persName>
-                  <roleName>Presidente</roleName>
+                  <roleName type="officer" role="pres"/>
                </person>
                <person>
                   <persName ref="#sodinij">Jacopo Sodini</persName>
-                  <roleName>Vice Presidente</roleName>
+                  <roleName type="officer" role="vice"/>
                </person>
                <person>
                   <persName ref="#marchettie">Emilio Marchetti</persName>
-                  <roleName>Segretario di Corrispondenza</roleName>
+                  <roleName type="officer" role="corresp"/>
                </person>
                <person>
                   <persName ref="#piaggesia">Aladino Piaggesi</persName>
-                  <roleName>Segretario Finanza</roleName>
+                  <roleName type="officer" role="finanza"/>
                </person>
                <person>
                   <persName ref="#pasquinellis">Santino Pasquinelli</persName>
-                  <roleName>Tesoriere</roleName>
+                  <roleName type="officer" role="tes"/>
                </person>
                <person>
                   <persName ref="#pasquinelliam">Americo Pasquinelli</persName>
-                  <roleName>Curatore</roleName>
+                  <roleName type="officer" role="curatore"/>
                </person>
                <person>
                   <persName ref="#lucchesiam">Americo Lucchesi</persName>
-                  <roleName>Curatore</roleName>
+                  <roleName type="officer" role="curatore"/>
                </person>
                <person>
                   <persName ref="#fredianellig">Giuseppe Fredianelli</persName>
-                  <roleName>Curatore</roleName>
+                  <roleName type="officer" role="curatore"/>
                </person>
                <person>
                   <persName ref="#merciadrie">Eugenio Merciadri</persName>
-                  <roleName>Ufficiale Sanitario</roleName>
+                  <roleName type="officer" role="sanitario"/>
                </person>
                <person>
                   <persName ref="#battistiniv">Vincenzo Battistini</persName>
-                  <roleName>Ufficiale Sanitario</roleName>
+                  <roleName type="officer" role="sanitario"/>
                </person>
                <person>
                   <persName ref="#silvionic" role="scaduto">Carolo Silvioni</persName>
-                  <roleName>Collettore</roleName>
+                  <roleName type="officer" role="colletore"/>
                </person>
                <person><persName ref="#cappellinic" role="replacement">Castruccio Cappellini</persName>
-               <roleName>Colletore</roleName></person>
+                  <roleName type="officer" role="colletore"/>
+               </person>
                <person>
                   <persName ref="#merciadrie">Eugenio Merciardri</persName>
-                  <roleName>Guardia Sala</roleName>
+                  <roleName type="officer" role="guardia"/>
                </person>
             </listPerson>
          </particDesc>

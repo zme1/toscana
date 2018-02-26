@@ -85,51 +85,51 @@
             <listPerson>
                <person>
                   <persName ref="#maffeis">Stefano Maffei</persName>
-                  <roleName>Presidente</roleName>
+                  <roleName type="officer" role="pres"></roleName>
                </person>
                <person>
                   <persName ref="#sodinij">Jacopo Sodini</persName>
-                  <roleName>Vice Presidente</roleName>
+                  <roleName type="officer" role="vice"/>
                </person>
                <person>
                   <persName ref="#fredianim">Muzio Frediani</persName>
-                  <roleName>Segretario di Corrispondenza</roleName>
+                  <roleName type="officer" role="corresp"/>
                </person>
                <person>
                   <persName ref="#pellegrinic">Casimiro Pellegrini</persName>
-                  <roleName>Segretario Finanza</roleName>
+                  <roleName type="officer" role="finanza"/>
                </person>
                <person>
                   <persName ref="#pasquinellis">Santino Pasquinelli</persName>
-                  <roleName>Tesoriere</roleName>
+                  <roleName type="officer" role="tes"/>
                </person>
                <person>
                   <persName ref="#lunardinil">Lorenzo Lunardini</persName>
-                  <roleName>Curatore</roleName>
+                  <roleName type="officer" role="curatore"/>
                </person>
                <person>
                   <persName ref="#silvionic">Carlo Silvioni</persName>
-                  <roleName>Curatore</roleName>
+                  <roleName type="officer" role="curatore"/>
                </person>
                <person>
                   <persName ref="#fredianellig">Giuseppe Fredianelli</persName>
-                  <roleName>Curatore</roleName>
+                  <roleName type="officer" role="curatore"/>
                </person>
                <person>
                   <persName ref="#paganuccis">Sam Paganucci</persName>
-                  <roleName>Ufficiale Sanitario</roleName>
+                  <roleName type="officer" role="sanitario"/>
                </person>
                <person>
                   <persName ref="#piaggesia">Aladino Piaggesi</persName>
-                  <roleName>Ufficiale Sanitario</roleName>
+                  <roleName type="officer" role="sanitario"/>
                </person>
                <person>
                   <persName ref="#viganol">Lorenzo Vigano'</persName>
-                  <roleName>Collettore</roleName>
+                  <roleName type="officer" role="colletore"/>
                </person>
                <person>
                   <persName ref="#merciadrie">Eugenio Merciardri</persName>
-                  <roleName>Guardia Sala</roleName>
+                  <roleName type="officer" role="guardia"/>
                </person>
             </listPerson>
          </particDesc>
@@ -485,21 +485,15 @@
                medico. Dopo di certi affari ammini-<lb/> strativi si passa alla discussione<lb/> del
                prossimo Pic-nic che fisso'<lb/> il comitato per la prima Domeni-<lb/> ca di Agosto.
                Venne nominato il<lb/> comitato ed e' cosi composto:<lb/>
-               <persName ref="#lunardinil">Lorenzo Lunardini, <roleName type="committee"
-                     subtype="picnic">presidente</roleName></persName>; <persName ref="#datia"
-                  >Adel-<lb/> mo Dati <roleName type="committee" subtype="picnic">vice
-                     presidente</roleName></persName>; <persName ref="#fredianim">Muzio Fre-<lb/>
-                  diani, <roleName type="committee" subtype="picnic">seg.
-               corr</roleName></persName>; <persName ref="#pellegrinic">C. Pellegrini, <roleName
-                     type="committee" subtype="picnic">seg.<lb/> Fin.</roleName></persName>;
-                  <persName ref="#lucchesiam">Americo Lucchesi, <roleName type="committee"
-                     subtype="picnic">tesoriere</roleName></persName>;<lb/>
+               <persName ref="#lunardinil">Lorenzo Lunardini, presidente</persName>; <persName ref="#datia"
+                  >Adel-<lb/> mo Dati vice
+                     presidente</persName>; <persName ref="#fredianim">Muzio Fre-<lb/>
+                  diani, seg.
+               corr</persName>; <persName ref="#pellegrinic">C. Pellegrini, seg.<lb/> Fin.</persName>;
+                  <persName ref="#lucchesiam">Americo Lucchesi, tesoriere</persName>;<lb/>
                <pb n="45"/>
-               <persName ref="#pasquinellis">Santino Pasquinelli, <roleName type="committee"
-                     subtype="picnic">capo comitato<lb/> di preparazione</roleName></persName>,
-                  <persName ref="#sodinij">Jacopo Sodini, <roleName type="committee"
-                     subtype="picnic">vice<lb/> capo</roleName></persName>; Gli assistenti scelti furono<lb/>
-               <!-- HOW DO I FORMAT THIS! I KEEP GOING BACK AND FORTH -->
+               <persName ref="#pasquinellis">Santino Pasquinelli, capo comitato<lb/> di preparazione</persName>,
+                  <persName ref="#sodinij">Jacopo Sodini, vice<lb/> capo</persName>; Gli assistenti scelti furono<lb/>
                <persName ref="#zinim">Modesto Zini</persName>, <persName ref="#silvionic">Carlo
                   Silvioni</persName>, <persName ref="#robertice">Cesare<lb/> Roberti</persName>;
                   <persName ref="#bevilacquas">Sam Bevilacqua</persName>, <persName

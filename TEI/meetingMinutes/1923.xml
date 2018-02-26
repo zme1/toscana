@@ -86,67 +86,67 @@
             <listPerson>
                <person>
                   <persName ref="#maffeis">Stefano Maffei</persName>
-                  <roleName>Presidente</roleName>
+                  <roleName type="officer" role="pres"/>
                </person>
                <person>
                   <persName ref="#pacinic">Candito Pacini</persName>
-                  <roleName>Vice Presidente</roleName>
+                  <roleName type="officer" role="vice"/>
                </person>
                <person>
                   <persName ref="#viganoe" role="scaduto">Ernesto Vigano'</persName>
-                  <roleName>Segretario di Corrispondenza</roleName>
+                  <roleName type="officer" role="corresp"/>
                </person>
                <person>
                   <persName ref="#marchettie" role="scaduto">Emilio Marchetti</persName>
-                  <roleName>Segretario di Corrispondenza</roleName>
+                  <roleName type="officer" role="corresp"/>
                </person>
                <person>
                   <persName ref="#giannig" role="replacement">Giuseppe Gianni</persName>
-                  <roleName>Segretario di Corrispondenza</roleName>
+                  <roleName type="officer" role="corresp"/>
                </person>
                <person>
                   <persName ref="#lucchesiam">Americo Lucchesi</persName>
-                  <roleName>Segretario Finanza</roleName>
+                  <roleName type="officer" role="finanza"/>
                </person>
                <person>
                   <persName ref="#pasquinellis">Santino Pasquinelli</persName>
-                  <roleName>Tesoriere</roleName>
+                  <roleName type="officer" role="tes"/>
                </person>
                <person>
                   <persName ref="#desimos">Serafino DeSimo</persName>
-                  <roleName>Curatore</roleName>
+                  <roleName type="officer" role="curatore"/>
                </person>
                <person>
                   <persName ref="#giannig">Giuseppe Gianni</persName>
-                  <roleName>Curatore</roleName>
+                  <roleName type="officer" role="curatore"/>
                </person>
                <person>
                   <persName ref="#borellim" role="replacement">Martino Borelli</persName>
-                  <roleName>Curatore</roleName>
+                  <roleName type="officer" role="curatore"/>
                </person>
                <person>
                   <persName ref="#carloe">Ezio Carli</persName>
-                  <roleName>Curatore</roleName>
+                  <roleName type="officer" role="curatore"/>
                </person>
                <person>
                   <persName ref="#viganol">Lorenzo Vigano'</persName>
-                  <roleName>Ufficiale Sanitario</roleName>
+                  <roleName type="officer" role="sanitario"/>
                </person>
                <person>
                   <persName ref="#zinim">Modesto Zini</persName>
-                  <roleName>Ufficiale Sanitario</roleName>
+                  <roleName type="officer" role="sanitario"/>
                </person>
                <person>
                   <persName ref="#sodinij">Jacopo Sodini</persName>
-                  <roleName>Collettore</roleName>
+                  <roleName type="officer" role="colletore"/>
                </person>
                <person>
                   <persName ref="#fredianellig" role="scaduto">Giuseppe Fredianelli</persName>
-                  <roleName>Guardia Sala</roleName>
+                  <roleName type="officer" role="guardia"/>
                </person>
                <person>
                   <persName ref="#merciadrie" role="replacement">Eugenio Merciardri</persName>
-                  <roleName>Guardia Sala</roleName>
+                  <roleName type="officer" role="guardia"/>
                </person>
             </listPerson>
          </particDesc>
