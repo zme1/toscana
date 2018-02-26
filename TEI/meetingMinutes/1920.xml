@@ -407,7 +407,7 @@
             <ab>
                <pb n="43"/> Domenica 25 Aprile 1920 alle ore 4 pm<lb/> nella solita sala si ebbe la
                seduta rego-<lb/> lare ordinaria presiedute <persName ref="#maffeis">dal
-                  Presidente<lb/> Stefano Maffei</persName>. <list>
+                  Presidente<lb/> Stefano Maffei</persName>. <list type="absent">
                   <note>Gli ufficiale assenti fu-<lb/> rono</note>
                   <item><persName ref="#silvionic">Carlo Silvioni</persName></item>
                   <item><persName ref="#paganuccis">Sam Paganucci</persName></item>
@@ -472,12 +472,12 @@
                on the 44th page. I added this for future use to reference specific page scans.-->
                <pb n="44"/> Giovedi 20 Maggio 1920 a ore 9 p.m.<lb/> nel solito locale venne tenuta
                la<lb/> consueta seduta ordinaria presiedute<lb/>
-               <persName ref="#maffeis">dal Presidente Stefano Maffei</persName>. <list>
+               <persName ref="#maffeis">dal Presidente Stefano Maffei</persName>. <list type="absent">
                   <note>Dall'ap-<lb/> pello nominale degli ufficiali risultarono<lb/> assenti i
                      seguenti: </note>
                   <item><persName ref="#pellegrinic">Casimiro Pelle-<lb/> grini</persName>,</item>
                   <item><persName ref="#fredianellig">Fredianelli Giuseppe</persName></item>
-                  <item>e <persName ref="#viganol">Lorenzo<lb/> Vigano'</persName>;</item>
+                  <item>e <persName ref="#viganol" role="scaduto">Lorenzo<lb/> Vigano'</persName>;</item>
                   <note>quest'ultimo veine dichiarato<lb/> scaduto dal suo ufficio.</note>
                </list> Il processo<lb/> verbale venne approvato senza osservazio-<lb/> ni.<lb/>
                Viene messo al registro <persName ref="#bevilacquas">il nuovo<lb/> fratello Samuele
@@ -545,7 +545,7 @@
                on the 45th page. I added this for future use to reference specific page scans.-->
                <pb n="45"/> Seduta ordinaria 17 Giugno 1920.<lb/>
                <persName ref="#maffeis">Il Presidente S. Maffei</persName> alle 8.30 dichiara<lb/>
-               aperta la seduta. <list>
+               aperta la seduta. <list type="absent">
                   <note>Dall’appello nominale<lb/> degli ufficiale risultarono assenti</note>
                   <item><persName ref="#silvionic">Carlo<lb/> Silvione</persName></item>
                   <item>e <persName ref="#paganuccis">Sam Paganucci</persName>.</item>
@@ -703,7 +703,7 @@
             <ab>
                <pb n="49"/> Giovedi – 19 Agosto 1920 venne tenuta<lb/> la ­­­consueta seduta
                ordinaria alla so-<lb/> lita ora e ­­­­locale e presieduta <persName ref="#maffeis"
-                  >dal Presi-<lb/> dente Stefano Maffei</persName>. <list>
+                  >dal Presi-<lb/> dente Stefano Maffei</persName>. <list type="absent">
                   <note>Dall’appello no-<lb/> minale degli ufficiali risultarono as-<lb/> senti </note>
                   <item><persName ref="#silvionic">Carlo Silviani</persName>,</item>
                   <item><persName ref="#fredianellig">Fredianelli Giusep-<lb/> pe</persName>,</item>
@@ -771,7 +771,7 @@
                <pb n="50"/> Giovedi 16 Settembre 1920 alle ore 9:30 li<lb/> ebbe la nostra seduta
                ordinaria presieduta<lb/> da <persName ref="#maffeis">presidente Stefano
                   Maffei</persName>.<lb/>
-               <list>
+               <list type="absent">
                   <note>Mediante la mancanza </note>
                   <item><rs ref="#fredianim">del segre-<lb/> tario di Corrispondenza</rs></item>
                </list>
@@ -940,7 +940,7 @@
                   <item><persName ref="#marchettie">E Marchetti</persName>.</item>
                </list><lb/>
                <pb n="55"/>
-               <list>
+               <list type="candidates">
                   <note>Terminato tutto il lavoro sociale <rs ref="#maffeis">il<lb/> Presidente</rs>
                      dichiare aperte da nomina dei<lb/> candidati per le nuove gestioni 1924 i<lb/>
                      viene cosi compilate:</note>

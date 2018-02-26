@@ -329,7 +329,7 @@
             <ab> Giovedi 15 Marzo 1923 alle ore <del rend="strike">ore</del> 8.30 P.M. Venne Tenute
                la seduta<lb/> regolare ordinaria preseduta <persName ref="#maffeis">dal<lb/>
                   Presidente Stefano Maffei</persName>
-               <list>
+               <list type="absent">
                   <note>all’appello<lb/> nominale degli ufficiali risultavano<lb/> assenti i
                      sequenti fratelli</note>
                   <item><persName ref="#zinim">Modesto Zini</persName></item>
@@ -426,7 +426,7 @@
                <pb n="102"/> Giovedi 19 Aprile 1923 alle ore 8.30<lb/> di sera venne tenuta la
                seduta<lb/> regolare Ordinaria preseduta <persName ref="#maffeis">dal<lb/> nostro
                   presidente Stefano Maffei</persName>.<lb/>
-               <list>
+               <list type="absent">
                   <note>All’appello nominale degli ufficiali<lb/> risultavano assenti i seguenti
                      ufficiali</note>
                   <lb/>
@@ -768,7 +768,7 @@
                      Zini</persName> e assecondato da<lb/>
                   <persName ref="#lucchesiam" role="supporter">Amerigo Lucchesi</persName> di
                   cambiare di sala,</seg>
-               <list>
+               <list type="committee" subtype="investigazione">
                   <note>alluopo<lb/> furono scielti i seguenti membri di investigare</note>
                   <lb/>
                   <item><persName ref="#marconic">Carlo Marconi</persName></item>
@@ -808,7 +808,7 @@
                <pb n="109"/> Giovedi 18 Ottobre 1923 alle ore 9 P.M. venne<lb/> aperta la seduta
                regolare ordinaria presieduta<lb/>
                <persName ref="#pacinic">dal nostro vice presidente Candito Pacini</persName>.<lb/>
-               <list>
+               <list type="absent">
                   <note>All’appello nominale risultavano assenti i seguenti<lb/> ufficiali</note>
                   <item><persName ref="#maffeis">Stefano Maffei</persName> Presidente.</item>
                   <item><persName ref="#desimos">Serafino De<lb/> Simo</persName> Primo
@@ -1020,7 +1020,7 @@
                      sanitario</item>
                   <item>e <persName ref="#carloe">Ezio Carli</persName><lb/> secondo curatore</item>
                </list><lb/> Il processo verbale venne approvato come letto<lb/>
-               <list>
+               <list type="applicants">
                   <note>Venne proposto ed accettato il nuovo applican-<lb/> te</note>
                   <item><persName ref="#dinie">Dini Ezio</persName></item>
                   <note>nativo di <del rend="strike">S. Concordio</del> Pontetetto Provincia<lb/> di

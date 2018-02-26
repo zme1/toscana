@@ -14,7 +14,7 @@
       <publicationStmt>
         <authority>Prepared in TEI 5 by Zachary Enick for the Italian research assistantship at the
           University of Pittsburgh. Github repository: <ref target="http://github.com/zme1/toscana"
-          />. Date last worked on: <date when="2018-02-25"/></authority>
+          />. Date last worked on: <date when="2018-02-26"/></authority>
         <availability>
           <licence><!-- licence to go here --></licence>
         </availability>
@@ -467,6 +467,7 @@
                 <valItem ident="assistente"/>
                 <valItem ident="arrangement"/>
                 <valItem ident="ricevimento"/>
+                <valItem ident="seg"/>
               </valList>
             </attDef>
           </attList>
@@ -499,6 +500,7 @@
               <valList type="closed">
                 <valItem ident="committee"/>
                 <valItem ident="officers"/>
+                <valItem ident="candidates"/>
                 <valItem ident="absent"/>
                 <valItem ident="applicants"/>
                 <valItem ident="cancellati"/>

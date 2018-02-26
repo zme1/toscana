@@ -299,7 +299,7 @@
          <body>
             <ab>
                <pb n="61"/> Alle ore 8.30 P.M. <persName ref="#marsilis">Il Presidente Sam
-                  Marsili</persName><lb/> dichiara aperta la seduta. <list>
+                  Marsili</persName><lb/> dichiara aperta la seduta. <list type="absent">
                   <note>Fra gli ufficiali<lb/> assenti fu </note>
                   <item><persName ref="#lucchesiam">Americo Lucchesi</persName></item>
                </list>, e dopo lettura<lb/> del processo verbale lo messe all’approvazione<lb/> e
@@ -508,7 +508,7 @@
                   <lb/>
                   <item>e <persName ref="#silvionic">Carlo Silvioni</persName>.</item>
                </list> Il processo verbale<lb/> venne approvato senza osservazioni.<lb/>
-               <list>
+               <list type="applicants">
                   <note>Fu messo come nuovo membro di fare<lb/> parte a questa Lega</note>
                   <item><persName ref="#piccininig">Guglielmo Piccinini</persName> di<lb/> anni
                      44.</item>
@@ -581,7 +581,7 @@
                   <lb/>
                   <item>e <persName ref="#silvionic">Carlo Silvioni</persName>.</item>
                </list> Il processo verbale<lb/> venne approvato come letto.<lb/>
-               <list>
+               <list type="applicants">
                   <note>Fu presentata la domanda del nuovo<lb/> membro di fare parte a questa
                      Lega</note>
                   <lb/>
@@ -688,52 +688,52 @@
                <del rend="strike">Muzio Frediani</del><lb/>
                <persName ref="#simonettim">Michele Simonetti</persName> nominati di compera-<lb/> re
                il premio.<lb/>
-               <list>
+               <list type="committee" subtype="picnic">
                   <note>Poi fu aperta la nomina del<lb/> Comitato Pic-Nic de 38 Agosto P.V.<lb/> Il
                      comitato e cosi Composto.</note>
                   <lb/>
-                  <item><persName ref="#marconic">Carlo Marconi</persName>, Presidente</item>
+                  <item><persName ref="#marconic">Carlo Marconi</persName>, <roleName type="committee" role="pres">Presidente</roleName></item>
                   <lb/>
-                  <item><persName ref="#cappellinic">Castruccio Cappellini</persName>, Vice
-                     Presidente</item>
+                  <item><persName ref="#cappellinic">Castruccio Cappellini</persName>, <roleName type="committee" role="vice">Vice
+                     Presidente</roleName></item>
                   <lb/>
                   <item><persName ref="#pasquinellis">Santino Pasquinelli</persName>,
-                     Tesoriere</item>
+                     <roleName type="committee" role="tes">Tesoriere</roleName></item>
                   <lb/>
-                  <item><persName ref="#giannig">Giuseppe Gianni</persName>, Segretario</item>
+                  <item><persName ref="#giannig">Giuseppe Gianni</persName>, <roleName type="committee" role="seg">Segretario</roleName></item>
                   <lb/>
-                  <item>Capo Comitato di Preparazione<lb/>
+                  <item><roleName type="committee" role="chairman">Capo Comitato di Preparazione</roleName><lb/>
                      <persName ref="#simonettim">Michele Simonetti</persName></item>
                   <item>Vice Capo, <persName ref="#maffeis">Stefano<lb/> Maffei</persName>,</item>
-                  <item>Floor Maneger<lb/>
+                  <item><roleName type="committee" role="manager">Floor Maneger</roleName><lb/>
                      <persName ref="#viganor">Ramialdo Vigano’</persName></item>
                   <lb/>
                   <item><list>
                         <note>Assistenti</note>
-                        <item><persName ref="#fredianellig">Giuseppe Fredianelli</persName></item>
+                        <item><persName ref="#fredianellig">Giuseppe Fredianelli<roleName type="committee" role="assistente"/></persName></item>
                         <lb/>
-                        <item><persName ref="#marsilis">Sam Marsili</persName>,</item>
-                        <item><persName ref="#lucchesiam">Americo Lucchesi</persName></item>
+                     <item><persName ref="#marsilis">Sam Marsili</persName><roleName type="committee" role="assistente"/>,</item>
+                     <item><persName ref="#lucchesiam">Americo Lucchesi</persName><roleName type="committee" role="assistente"/></item>
                         <lb/>
 
                         <pb n="70"/>
-                        <item><persName ref="#pacinic">Candido Pacini</persName>, </item>
-                        <item><persName ref="#vannuccie">Ernesto Vannucci</persName>,</item>
+                     <item><persName ref="#pacinic">Candido Pacini</persName><roleName type="committee" role="assistente"/>, </item>
+                     <item><persName ref="#vannuccie">Ernesto Vannucci</persName><roleName type="committee" role="assistente"/>,</item>
                         <lb/>
-                        <item><persName ref="#papid">Donato Papi</persName>, </item>
-                        <item><persName ref="#puccettia">Adriano Puccetti</persName>,</item>
+                     <item><persName ref="#papid">Donato Papi</persName><roleName type="committee" role="assistente"/>, </item>
+                     <item><persName ref="#puccettia">Adriano Puccetti</persName><roleName type="committee" role="assistente"/>,</item>
                         <lb/>
-                        <item><persName ref="#merciadrie">Eugenio Merciadri</persName>, </item>
-                        <item><persName ref="#pasquinelliam">Americo Pasquinelli</persName>,</item>
+                     <item><persName ref="#merciadrie">Eugenio Merciadri</persName><roleName type="committee" role="assistente"/>, </item>
+                     <item><persName ref="#pasquinelliam">Americo Pasquinelli</persName><roleName type="committee" role="assistente"/>,</item>
                         <lb/>
-                        <item><persName ref="#datia">Adelmo Dati</persName>, </item>
-                        <item><persName ref="#martinellia">Alfredo Martinelli</persName>,</item>
+                     <item><persName ref="#datia">Adelmo Dati</persName><roleName type="committee" role="assistente"/>, </item>
+                     <item><persName ref="#martinellia">Alfredo Martinelli</persName><roleName type="committee" role="assistente"/>,</item>
                         <lb/>
-                        <item><persName ref="#olivieriam">Amos Olivieri</persName>, </item>
+                     <item><persName ref="#olivieriam">Amos Olivieri</persName><roleName type="committee" role="assistente"/>, </item>
                         <item><persName ref="unknown">Ernesto <unclear reason="illegible"
                               /></persName>,</item>
                         <lb/>
-                        <item><persName ref="#cinellio">Olinto Cinelli</persName>.</item>
+                     <item><persName ref="#cinellio">Olinto Cinelli</persName><roleName type="committee" role="assistente"/>.</item>
                      </list></item>
                </list><lb/>
                <closer>Non avendo altro da fare <rs ref="#marsilis">il<lb/> Presidente</rs> dichiara
@@ -765,12 +765,12 @@
                <pb n="71"/> Giovedi 21 Luglio alle ore 9.30 P.M.<lb/> fu tenute la nostra seduta
                regolare<lb/> ordinaria, preseduta <persName ref="#marsilis">dal nostro<lb/>
                   presidente Sam Marsili</persName>,<lb/>
-               <list>
+               <list type="absent">
                   <note>all’appello nominale degli officiali<lb/> risultava assente</note>
                   <item>il segretario di<lb/> finanza <persName ref="#piaggesia">Aladino
                         Piaggesi</persName></item>
                </list>, il processo<lb/> verbale venne approvato conme letto.<lb/>
-               <list>
+               <list type="applicants">
                   <note>Furono presentate due nuove doman-<lb/> de di ammissione di fare parte a
                      questa<lb/> Lega.</note>
                   <item><persName ref="#micheluccis">Silvio Michelucci</persName> di anni 45</item>
@@ -972,7 +972,7 @@
             <ab>
                <pb n="75"/> Giovedi 17 Novembre 1921 alle ore 9.00 P.M.<lb/> Tenutasi la nostra
                seduta regolare<lb/> Ordinaria, Preseduta <persName ref="#marsilis">dal nostro
-                  Presidente<lb/> Sam Marsili</persName>, <list>
+                  Presidente<lb/> Sam Marsili</persName>, <list type="absent">
                   <note>all’appello nominale<lb/> Degli ufficiali risultavano assenti i<lb/>
                      Fratelli</note>
                   <item><persName ref="#piaggesia">Aladino Piaggesi</persName>,</item>
