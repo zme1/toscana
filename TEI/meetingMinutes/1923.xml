@@ -674,9 +674,9 @@
                il<lb/> banchetto non riuscira’ numeroso abbastanza non<lb/> prelevando nessun fondo
                dalla societa’<lb/>
                <pb n="108"/>
-               <seg type="nomination"><list type="committee" subtype="banchetto">
-                     <note><rs ref="#maffeis" role="source">Il presidente</rs> all’ora nomina
-                           <persName ref="#simonettim" role="target">Michele
+               <list type="committee" subtype="banchetto">
+                     <note><rs ref="#maffeis">Il presidente</rs> all’ora nomina
+                           <persName ref="#simonettim">Michele
                         Simonetti</persName><lb/> a capo comitato e lui scieglie i seguenti
                         componenti</note>
                      <lb/>
@@ -684,7 +684,7 @@
                      <item><persName ref="#lucchesiam" role="target">Amerigo
                         Lucchesi</persName></item>
                      <item>e <persName ref="#pardinib" role="target">B. Pardini</persName>.</item>
-                  </list></seg><lb/>
+                  </list><lb/>
                <persName ref="#simonettim">Il fratello Simonetti</persName> acconsente di trovare
                il<lb/> locale adatto e di dare un buon pranzo e che<lb/> l’ammontare non superi
                $5.00<lb/> In casso oggi: Totale. 3194.20<lb/>
@@ -894,10 +894,10 @@
                      Lombardi</persName> assecondato da<lb/>
                   <persName ref="#maffeis" role="supporter">Stefano Maffei</persName> di dare un
                   banchetto al comitato<lb/> ballo.</seg><lb/>
-               <seg type="invite">Fu presentata e letta una lettera che <orgName ref="#fratSic"
-                     role="source">la Fratellanza<lb/> Siciliana</orgName> mandava invitando
-                     <orgName ref="#legaT" role="target">la lega Toscana</orgName> al<lb/> ballo e
-                  piu’ inviava 3 ticchette gratuite.</seg>
+               Fu presentata e letta una lettera che <orgName ref="#fratSic"
+                    >la Fratellanza<lb/> Siciliana</orgName> mandava invitando
+                     la lega Toscana al<lb/> ballo e
+                  piu’ inviava 3 ticchette gratuite.
                <seg type="proposal">Il fratello<lb/>
                   <persName ref="#fredianim" role="proposer">Muzio Frediani</persName> fece la
                   proposta e <persName ref="#maffeis" role="supporter">Stefano
@@ -1036,12 +1036,12 @@
                   raccogliendo<lb/> la somma di $11.80</seg><lb/> Non avendo altro da fare <rs
                   ref="#maffeis">il presidente</rs> apre<lb/> le votazioni dei concorenti a
                ufficiali per<lb/> l’anno 1924<lb/> I votanti risultarono trenta.<lb/>
-               <seg type="delegation" subtype="task"><rs ref="#maffeis" role="source">Il
-                     presidente</rs> nomino’ <persName ref="#desimos" role="target">Serafino de
+               <rs ref="#maffeis">Il
+                     presidente</rs> nomino’ <persName ref="#desimos">Serafino de
                      Simo</persName><lb/>
                   <persName ref="#desantie" role="target">Enemia de Santi</persName> e <persName
                      ref="#carloe" role="target">Ezio Carli</persName> di ricevere<lb/> le schede in
-                  un cappello e poi di leggere<lb/> il risultato.</seg><lb/>
+                  un cappello e poi di leggere<lb/> il risultato.<lb/>
                <list type="officers">
                   <note>Risultavano eletti i seguenti ufficiali</note>
                   <lb/>

@@ -359,10 +359,7 @@
                 <valItem ident="proposal"/>
                 <valItem ident="proposalReject"/>
                 <valItem ident="proposalWritten"/>
-                <valItem ident="invite"/>
-                <valItem ident="delegation"/>
                 <valItem ident="comp"/>
-                <valItem ident="nomination"/>
               </valList>
             </attDef>
             <!-- The @subtype element is used with the seg of @type delegation and comp. The former uses the @subtype attribute to distinguish
@@ -370,13 +367,15 @@
             distinguish between compensation for an ill member and charitable donations to groups or causes.-->
             <attDef ident="subtype" mode="replace" usage="opt">
               <valList type="closed">
-                <valItem ident="task"/>
-                <valItem ident="committee"/>
                 <valItem ident="sick"/>
                 <valItem ident="charity"/>
                 <valItem ident="donation"/>
                 <valItem ident="regalo"/>
                 <valItem ident="fondoM"/>
+                <valItem ident="regolamento"/>
+                <valItem ident="evento"/>
+                <valItem ident="denaro"/>
+                <valItem ident="nominazione"/>
               </valList>
             </attDef>
           </attList>
