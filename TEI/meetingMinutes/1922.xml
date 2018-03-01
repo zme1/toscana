@@ -306,7 +306,7 @@
                annualmente di $56.00 pari<lb/> a otto (8) Settimane, e compreso qualsi-<lb/> sia
                operazione che potesse andare<lb/> incontro. Fu messo al ballottaggio secreto<lb/> e
                risutavano in favore 27 Palline Bianche<lb/> e 3 Palline nere contrarie.<lb/>
-               <seg type="comp" subtype="regale">Poi fu presentato il regalo <persName
+               <seg type="comp" subtype="regalo">Poi fu presentato il regalo <persName
                      ref="#pasquinellis" role="target">del nostro<lb/> Tesoriere Santino
                      Pasquinelli</persName>, e con parole<lb/> ringrazzio la Lega della ricordanza
                   che<lb/> ad avuto verso di lui, il valore di esso e <num type="monetary"
@@ -906,12 +906,12 @@ Shouldn’t need to do anything other than wrap it in?
                   ref="#desimos">Serafino De Simo</persName> " "<lb/> " "<persName ref="#giannig"
                   >Giuseppe Gianni</persName> " "<lb/> " "<persName ref="#carloe">Enzo
                   Carli</persName> " "<lb/>
-               <list>
-                  <note>Nufficiali Sanitari.</note>
-                  <item><persName ref="#viganol">Lorenzo Vigano’</persName></item>
+               
+                  Nufficiali Sanitari.
+                  <persName ref="#viganol">Lorenzo Vigano’</persName>
                   <lb/>
-                  <item>" " " "<persName ref="#zinim">Modesto Zini</persName></item>
-               </list><lb/>
+                  " " " "<persName ref="#zinim">Modesto Zini</persName>
+               <lb/>
                <pb n="94"/> Collettore <persName ref="#sodinij">Jacopo Sodini</persName><lb/> Guarda
                Sala <persName ref="#fredianellig">Giuseppe Fredianelli</persName><lb/>
                <persName ref="#pasquinelliam">Americo Pasquinelli</persName> uno da elegersi<lb/>
