@@ -208,9 +208,9 @@
                questo <persName ref="#maffeis">il vecchio presidente<lb/> Stefano Maffei</persName>
                ringrazia tutta l’assemblea e<lb/> lascia il seggio <persName ref="#pellegrinic">al
                   nuovo presidente Casimiro<lb/> Pellegrini</persName>, che continui la seduta.<lb/>
-               Venne accettata l’applicazione del nuovo membro<lb/>
-               <persName ref="#diodatir">Diodati Ruggero</persName> di anni 29 nativo di S.
-               Anna<lb/> provincia di Lucca.<lb/>
+               <list type="applicants"><note>Venne accettata l’applicazione del nuovo membro</note><lb/>
+               <item><persName ref="#diodatir">Diodati Ruggero</persName></item> <note>di anni 29 nativo di S.
+               Anna<lb/> provincia di Lucca.</note></list><lb/>
                <seg type="proposal">Fu proposto da <persName ref="#lunardinil" role="proposer"
                      >Lorenzo Lunardini</persName> e assecondato<lb/> da <persName
                      ref="#cappellinic" role="supporter">Castruccio Cappellini</persName> di
@@ -296,7 +296,7 @@
                   malattia</seg><lb/> Fu accordato il pagamento di $51.40 dollari<lb/>
                <persName ref="#fredianim">al fratello Muzio Frediani</persName> per stampa.<lb/>
                Mancando il presidente che aveva preso l’incarico<lb/> di investigare sulla malattia
-               di <persName ref="#gambogis">Santino<lb/> Gianbogi</persName> l’assemblea la mando’
+               di <persName ref="#gambogis">Santino<lb/> Gambogi</persName> l’assemblea la mando’
                alla prossima<lb/> seduta. Incassato $38.25. In cassa oggi.<lb/> $3907.90.
                   <closer>Non avendo altro da fare <rs ref="#marconic">il nostro<lb/> primo
                      curatore</rs> dichiara sciolta la seduta. 10.30<lb/> P.M.<lb/> Il Seg Il Pres.<lb/>
@@ -364,7 +364,7 @@
                <seg type="comp" subtype="sick">Al pagamento dei bills fu approvato di<lb/> pagare
                      <num type="monetary" value="29">$29.00 </num><persName ref="#zinif"
                      role="target">al fratello Fioravanti Zini</persName></seg><lb/> $25.00 ha
-               Santino Gambogi. e piu’ $11.25 per l’affitto della sala fu cassato<lb/> dal
+               <persName ref="#gambogis">Santino Gambogi</persName>. e piu’ $11.25 per l’affitto della sala fu cassato<lb/> dal
                segretario di finanza $105.90. In cassa<lb/> oggi $3875.75. <closer>Non avendo altro
                   da fare<lb/>
                   <rs ref="#pellegrinic">il presidente</rs> dichiara sciolta la seduta. 11.
@@ -494,7 +494,7 @@
                   societa’ stessa.</seg><lb/> I curatori diedero il resoconto del trimestre<lb/> e
                si trovo’ esatto.<lb/> Al pagamento dei billi furono presentati i<lb/> seguenti. Per
                tre mesi affitto sala $11.25<lb/> Assicurazione delle bandiere $8.47<lb/> Per i
-               componenti comitato ballo $50.00<lb/> Frediani per stampa $21.35<lb/> In cassa oggi
+               componenti comitato ballo $50.00<lb/> <persName ref="#fredianim">Frediani</persName> per stampa $21.35<lb/> In cassa oggi
                $3954.90<lb/> In cassato dal Segretario di finanza $47.25<lb/>
                <closer>Non avendo altro da fare <rs ref="#marconic">il presdiente</rs> dichiara<lb/>
                   chiusa la seduta ore 10.45 P.M.<lb/> Il Seg <signed>C. Pellegrini</signed><lb/>
@@ -732,7 +732,7 @@
                seduta regolare ordinaria presieduta<lb/>
                <persName ref="#pellegrinic">dal nostro presidente Casimiro
                Pellegrini</persName>.<lb/> All’appello nominale, non risultava nessuno<lb/> degli
-               ufficiali. Il processo verbale venne approvato come<lb/> letto. Avendo <orgName ref="#figli248" role="source">l’Ordine Figli d’Italia</orgName>
+               ufficiali. Il processo verbale venne approvato come<lb/> letto. Avendo l’Ordine Figli d’Italia
                   invitato la<lb/> Lega Toscana di
                   fare parte alla parata del<lb/> Columbus day. 12 Ottobre per festeggiare il
                piu’ ardito’ e grande navigatore del mondo., la Lega Toscana<lb/> non volendo essere
@@ -763,7 +763,7 @@
                      Zini</persName> e assecondato da<lb/>
                   <persName ref="#marconic" role="supporter">Carlo Marconi</persName> di dare un
                   ballo ma non fu definita<lb/> la data</seg>
-               <list type="committee" subtype="ballo">
+               <list type="committee" subtype="investigazione">
                   <note>Allora <rs ref="#pellegrinic">il presidente</rs> scielse il seguente
                      comitato<lb/> per trovare il locale.</note>
                   <item><persName ref="#pasquinellis">Santino Pasquinelli</persName>.</item>
@@ -844,37 +844,37 @@
                   <note>Fu deciso di dare il ballo<lb/> il 4 Decembre al Moose Temple e ce sara’ un
                      ballo popolare all’uopo fu scelto il seguente<lb/> comitato.</note>
                   <item><persName ref="#tambellinig">Giuseppe Tambellini</persName> di Pietro<lb/>
-                     Presidente</item>
-                  <item><persName ref="#zinib">Battista Zini</persName> vice Presidente,</item>
+                     <roleName type="committee" role="pres">Presidente</roleName></item>
+                  <item><persName ref="#zinib">Battista Zini</persName> <roleName type="committee" role="vice">vice Presidente</roleName>,</item>
                   <lb/>
-                  <item><persName ref="#giannig">Giuseppe Gianni</persName> segretario,</item>
-                  <item><persName ref="#datia">Adelmo Dati</persName><lb/> tesoriere.</item>
-                  <item><persName ref="#lunardinil">Lorenzo Lunardini</persName> floor
-                     manager</item>
+                  <item><persName ref="#giannig">Giuseppe Gianni</persName> <roleName type="committee" role="seg">segretario</roleName>,</item>
+                  <item><persName ref="#datia">Adelmo Dati</persName><lb/> <roleName type="committee" role="tes">tesoriere</roleName>.</item>
+                  <item><persName ref="#lunardinil">Lorenzo Lunardini</persName> <roleName type="committee" role="manager">floor
+                     manager</roleName></item>
                   <lb/>
-                  <item>assistente <persName ref="#fontanae">Ettore Fontana</persName>.</item>
+                  <item><roleName type="committee" role="assistente">assistente</roleName> <persName ref="#fontanae">Ettore Fontana</persName>.</item>
                   <lb/>
-                  <item>Charman ricevimento <persName ref="#maffeigio">Giovacchino
+                  <item><roleName type="committee" role="chairman">Charman ricevimento</roleName> <persName ref="#maffeigio">Giovacchino
                      Maffei</persName>.</item>
                   <lb/>
                   <item><list>
                         <note>assistenti</note>
-                        <item><persName ref="#vannuccia">Alfredo Vannucci</persName></item>
-                        <item>e <persName ref="#chioccad">Derio Chiocca’</persName>.</item>
+                        <item><persName ref="#vannuccia">Alfredo Vannucci</persName><roleName type="committee" role="assistente"/></item>
+                     <item>e <persName ref="#chioccad">Derio Chiocca’</persName><roleName type="committee" role="assistente"/>.</item>
                      </list></item>
                   <lb/>
-                  <item>Charman di arrangiamento <persName ref="#cinellio">Olindo
+                  <item><roleName type="committee" role="chairman">Charman di arrangiamento</roleName> <persName ref="#cinellio">Olindo
                      Cinelli</persName></item>
                   <lb/>
                   <item><list>
                         <note>assistenti,</note>
-                        <item><persName ref="#danesiv">Virgilio Danesi</persName></item>
+                     <item><persName ref="#danesiv">Virgilio Danesi</persName><roleName type="committee" role="assistente"/></item>
                         <del rend="strike">Lorenzo Vigano’</del>
                         <lb/>
-                        <item><persName ref="#merciadrie">Eugenio Merciadri</persName></item>
-                        <item><persName ref="#maffeip">Pasqualino Maffei</persName></item>
+                     <item><persName ref="#merciadrie">Eugenio Merciadri</persName><roleName type="committee" role="assistente"/></item>
+                     <item><persName ref="#maffeip">Pasqualino Maffei</persName><roleName type="committee" role="assistente"/></item>
                         <lb/>
-                        <item>e <persName ref="#lunardial">Alfredo Lunardi</persName></item>
+                     <item>e <persName ref="#lunardial">Alfredo Lunardi</persName><roleName type="committee" role="assistente"/></item>
                      </list></item>
                </list><lb/> Trovansi ammalati i seguenti soci<lb/>
                <persName ref="#giannig">Giuseppe Gianni</persName> e <persName ref="#pardinia"
@@ -941,34 +941,34 @@
                   >$22.00</num></seg><lb/> affitto per la sala da ballo $25.00.<lb/>
                <seg type="comp" subtype="sick"><persName ref="#piaggesia" role="target">Aladino
                      Piaggesi</persName> per sussidio <num type="monetary" value="11"
-                  >$11.00</num></seg><lb/> Giuseppe Gianni perlettere assicurate e<lb/> francobolli
+                  >$11.00</num></seg><lb/> <persName ref="#giannig">Giuseppe Gianni</persName> perlettere assicurate e<lb/> francobolli
                $1.00. Totale $78.25<lb/>
-               <pb n="131"/> Incassato dal segretario di finanza $<del rend="strike"
+               <pb n="131"/> Incassato <rs ref="#pasquinellie">dal segretario di finanza</rs> $<del rend="strike"
                >72</del>68.75<lb/> In cassa oggi $ 3933.96.<lb/> Non avendo altro da fare <rs
                   ref="#pellegrinic">il presidente</rs> dichiara<lb/> aperta la nomina per gli
                ufficiali dell’anno<lb/> fiscale 1925.<lb/>
                <list type="officers">
                   <note>Furono nominati ed elettti per acclamazione<lb/> i seguenti.</note>
-                  <item><persName ref="#simonettim">Michele Simonetti</persName> presidente</item>
+                  <item><persName ref="#simonettim">Michele Simonetti</persName> <roleName type="officer" role="pres">presidente</roleName></item>
                   <lb/>
-                  <item><persName ref="#desantie">Enemia De Santi</persName> vice presidente</item>
+                  <item><persName ref="#desantie">Enemia De Santi</persName> <roleName type="officer" role="vice">vice presidente</roleName></item>
                   <lb/>
-                  <item><persName ref="#giannig">Giuseppe Gianni</persName> segretario di
-                     corrispondenza</item>
+                  <item><persName ref="#giannig">Giuseppe Gianni</persName> <roleName type="officer" role="corresp">segretario di
+                     corrispondenza</roleName></item>
                   <lb/>
-                  <item><persName ref="#pasquinellie">Emilio Pasquinelli</persName> segretario di
-                     finanza</item>
+                  <item><persName ref="#pasquinellie">Emilio Pasquinelli</persName> <roleName type="officer" role="finanza">segretario di
+                     finanza</roleName></item>
                   <lb/>
                   <item><persName ref="#pasquinellis">Santino Pasquinelli</persName>
-                     tesoriere.</item>
+                     <roleName type="officer" role="tes">tesoriere</roleName>.</item>
                   <lb/>
-                  <item><persName ref="#fredianellig">Giuseppe Fredianelli</persName> ufficiale
-                     sanitario</item>
+                  <item><persName ref="#fredianellig">Giuseppe Fredianelli</persName> <roleName type="officer" role="sanitario">ufficiale
+                     sanitario</roleName></item>
                   <lb/>
-                  <item><persName ref="#vannuccie">Ermete Vannucci</persName> ufficiale
-                     sanitario</item>
+                  <item><persName ref="#vannuccie">Ermete Vannucci</persName> <roleName type="officer" role="sanitario">ufficiale
+                     sanitario</roleName></item>
                   <lb/>
-                  <item><persName ref="#merciadrie">Eugenio Merciadri</persName> guardia sala</item>
+                  <item><persName ref="#merciadrie">Eugenio Merciadri</persName> <roleName type="officer" role="guardia">guardia sala</roleName></item>
                </list><lb/> Di modo che non restano che i curatori<lb/> da eleggersi. I nominati sarebbero<lb/>
                <persName ref="#pacinic">Candido Pacini</persName>. <persName ref="#lunardinil"
                   >Lorenzo Lunardini</persName><lb/>
@@ -1037,8 +1037,8 @@
                      >Michele Simonetti</persName> e assecondato<lb/> da <persName ref="#maffeis"
                      role="supporter">Stefano Maffei</persName> di dare un banchetto a<lb/>
                   pagamento la data non definita.</seg><lb/> Fu approvato e pagato l’affitto della
-               sala per .3.<lb/> mesi Gennaio Febbraio e Marzo. $11.25.<lb/> Incassato dal
-               segretario di finanza $15.75.<lb/> In cassa oggi $3924.45.<lb/> Essendo gli altri
+               sala per .3.<lb/> mesi Gennaio Febbraio e Marzo. $11.25.<lb/> Incassato <rs ref="#pasquinellie">dal
+               segretario di finanza</rs> $15.75.<lb/> In cassa oggi $3924.45.<lb/> Essendo gli altri
                ufficiali passati tutti<lb/> ad’unanimita’ <rs ref="#pellegrinic">il presidente</rs>
                dichiara aperta<lb/> la votazione per i curatori. I concorrenti sono<lb/> .6. e tre
                da eleggersi i nomi dei concorenti sono<lb/>
@@ -1051,11 +1051,11 @@
                la lettura dei nomi <list type="officers">
                   <note>risultavano eletti i seguen<lb/> ti tre per l’anno 1925.</note>
                   <item><list>
-                        <item><persName ref="#cinellio">Olinto Cinelli</persName></item>
-                        <item>e <persName ref="#datia">Adelmo<lb/> Dati</persName></item>
+                        <item><persName ref="#cinellio">Olinto Cinelli</persName><roleName type="officer" role="curatore"/></item>
+                     <item>e <persName ref="#datia">Adelmo<lb/> Dati</persName><roleName type="officer" role="curatore"/></item>
                         <note>con 11 voti ciascuno</note>
                      </list></item>
-                  <item>e <persName ref="#lunardinil">Lorenzo Lunardini</persName><lb/> con 9
+                  <item>e <persName ref="#lunardinil">Lorenzo Lunardini</persName><roleName type="officer" role="curatore"/><lb/> con 9
                      voti.</item>
                </list> Avendo <persName ref="#cinellio">Olinto Cinelli</persName> e <persName
                   ref="#datia">Adelmo<lb/> Dati</persName> parita’ di voti <rs ref="#pellegrinic">il
