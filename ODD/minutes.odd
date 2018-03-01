@@ -8,13 +8,13 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Lega Toscana di Protezione ODD File</title>
+        <title>Lega Toscana di Protezione ODD File for Volume of Meeting Minutes</title>
         <author>Zachary Enick</author>
       </titleStmt>
       <publicationStmt>
         <authority>Prepared in TEI 5 by Zachary Enick for the Italian research assistantship at the
           University of Pittsburgh. Github repository: <ref target="http://github.com/zme1/toscana"
-          />. Date last worked on: <date when="2018-02-26"/></authority>
+          />. Date last worked on: <date when="2018-02-28"/></authority>
         <availability>
           <licence><!-- licence to go here --></licence>
         </availability>
@@ -375,7 +375,7 @@
                 <valItem ident="sick"/>
                 <valItem ident="charity"/>
                 <valItem ident="donation"/>
-                <valItem ident="regale"/>
+                <valItem ident="regalo"/>
                 <valItem ident="fondoM"/>
               </valList>
             </attDef>

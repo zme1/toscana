@@ -124,7 +124,11 @@
                   <roleName type="officer" role="sanitario"/>
                </person>
                <person>
-                  <persName ref="#viganol">Lorenzo Vigano'</persName>
+                  <persName ref="#viganol" role="scaduto">Lorenzo Vigano'</persName>
+                  <roleName type="officer" role="colletore"/>
+               </person>
+               <person>
+                  <persName ref="#buchignianil">Luigi Buchigniani</persName>
                   <roleName type="officer" role="colletore"/>
                </person>
                <person>
@@ -191,9 +195,8 @@
                on the 38th page. I added this for future use to reference specific page scans.-->
                <pb n="38"/> Martedi 20 Gennaio alle ore 8 p.m.<lb/> si tenne la seduta regolare
                ordinaria presie-<lb/> duta <persName ref="#maffeis">dal Presidente S.
-                  Maffei</persName><lb/> Dietro lettura dei rendiconti annua-<lb/> li <orgName
-                  ref="#legaT">dalla Societa</orgName>
-               <persName ref="#maffeis">Il fratello S. Maffei</persName> fece<lb/> osservare
+                  Maffei</persName><lb/> Dietro lettura dei rendiconti annua-<lb/> li dalla Societa
+                  <persName ref="#maffeis">Il fratello S. Maffei</persName> fece<lb/> osservare
                un’ingiustizia fatta in riguardo<lb/> allo stipendio <rs ref="#pellegrinic">del Seg.
                   di finanza</rs> e ciò-<lb/> invece del 4 per cento fu concesso il 5. La<lb/>
                decisioni per tale stato di cose viene ri-<lb/> mandato alla prossima seduta.<lb/>
@@ -218,23 +221,27 @@
                <seg type="proposal">Proposto <persName ref="#diodativ" role="proposer">dal fratello
                      V. Diodati</persName> ass.<lb/> da <persName ref="#tambellinig"
                      role="supporter">G. Tambellini</persName>
-                  <seg type="comp" subtype="regale">di dare in regale al<lb/> fratello <persName
+                  <seg type="comp" subtype="regalo">di dare in regale al<lb/> fratello <persName
                         ref="#lunardinil" role="target">Lorenzo Lunardini</persName>, per avere<lb/>
                      venduto un maggior numero di biglietti<lb/> del Ballo, del valore di <num
                         type="monetary" value="10">$ 10.</num></seg></seg><lb/>
                <seg type="proposal">Proposto da <persName ref="#pasquinellis" role="proposer">S.
                      Pasquinelli</persName> ass. da<lb/>
                   <persName ref="#viganol" role="supporter">Lorenzo Vigano’</persName>
-                  <seg type="comp" subtype="regale">consegnare <num type="monetary" value="15">$
+                  <seg type="comp" subtype="regalo">consegnare <num type="monetary" value="15">$
                         15</num> come<lb/> regalo <persName ref="#diodativ" role="target">al
                         fratello V. Diodati</persName> per a-<lb/> vere disimpegnato bene il suo
                      lavoro<lb/> di decorazioni luminose nella sala<lb/> del Ballo.</seg></seg><lb/>
-               Per i tali comitati per l’acqui-<lb/> sto dei regali vennero scelti i fratelli<lb/>
-               <persName ref="#sodinij">J. Sodini</persName>, <persName ref="#fredianellig">Giuseppe
-                  Fredianelli</persName>, <persName ref="#silvionic">Carlo<lb/>
-               Silvioni.</persName><lb/> In ultimo viene riconfermata<lb/> la deliberazione di
-               tenere per tre se-<lb/> dute la Domenica e cioè la quarta<lb/> si regola ad un
-               rapporto avuto per<lb/> la medesima<lb/>
+               <list type="committee" subtype="investigazione">
+                  <note>Per i tali comitati per l’acqui-<lb/> sto dei regali vennero scelti i
+                     fratelli</note>
+                  <lb/>
+                  <item><persName ref="#sodinij">J. Sodini</persName>,</item>
+                  <item><persName ref="#fredianellig">Giuseppe Fredianelli</persName>,</item>
+                  <item><persName ref="#silvionic">Carlo<lb/> Silvioni.</persName></item>
+               </list><lb/> In ultimo viene riconfermata<lb/> la deliberazione di tenere per tre
+               se-<lb/> dute la Domenica e cioè la quarta<lb/> si regola ad un rapporto avuto
+               per<lb/> la medesima<lb/>
                <closer>Non essendoci altro da discu-<lb/> tere il Presidente ordina chiusa la<lb/>
                   seduta<lb/> Il Segretario Il Presidente<lb/>
                   <signed>S. Maffei</signed></closer><lb/>
@@ -286,9 +293,9 @@
                      cioe’ si messe a voti<lb/> e risulto rigettato con 9 voti contra-<lb/> ri e
                      quindi non ammesso.</note>
                </list><lb/> Viene rimandata alla prossima<lb/> seduta la discussione sul da
-               farsi<lb/> in riguardo allo stipendio percepi-<lb/> to <rs ref="unknown">dall’ex Seg.
-                  di Finanza</rs>.<lb/> Non avendo il comitato regali esple-<lb/> tati i suoi
-               doveri, perche scusabili,<lb/> viene rimandata la consegna alla<lb/> prossima seduta.<lb/>
+               farsi<lb/> in riguardo allo stipendio percepi-<lb/> to <rs ref="#pasquinellis"
+                  >dall’ex Seg. di Finanza</rs>.<lb/> Non avendo il comitato regali esple-<lb/> tati
+               i suoi doveri, perche scusabili,<lb/> viene rimandata la consegna alla<lb/> prossima seduta.<lb/>
                <seg type="proposal">Proposto da <persName ref="#simonettim" role="proposer">Michele
                      Simonetti</persName> ed<lb/> ass. <rs ref="#legaT" role="supporter">ad
                      unanimita</rs> che gli asperanti<lb/> che presentarano Domande di
@@ -331,14 +338,17 @@
                   <item><persName ref="#silvionic">Carlo Silvioni</persName>,</item>
                   <item><persName ref="#paganuccis">Sam<lb/> Paganucci</persName></item>
                   <item>e <persName ref="#viganol">Lorenzo Viganò</persName>.</item>
-               </list> Il Processo verba-<lb/> le venne approvato come letto.<lb/> Vennero ammessi
-               al ruolo sociale<lb/> come nuovi membri <persName ref="#marchettie">Marchetti
-                  Emilio</persName><lb/> e <persName ref="#martinellir">Renato Martinelli</persName>
-               e presentate la<lb/> domanda di ammissione dell’asperante <persName
-                  ref="#bevilacquas">Sam<lb/> Bevilacqua</persName> venne accettato.<lb/> Fu
-               definita la questione del percen-<lb/> tuale <persName ref="#pasquinellis">al
-                  segretario di finanza Santino<lb/> Pasquinelli</persName> pagando esso la
-               differenze in<lb/> piu ricevuta.<lb/>
+               </list> Il Processo verba-<lb/> le venne approvato come letto.<lb/>
+               <list type="applicants">
+                  <note>Vennero ammessi al ruolo sociale<lb/> come nuovi membri</note>
+                  <item><persName ref="#marchettie">Marchetti Emilio</persName><lb/></item>
+                  <item>e <persName ref="#martinellir">Renato Martinelli</persName></item>
+                  <note>e presentate la<lb/> domanda di ammissione dell’asperante</note>
+                  <item><persName ref="#bevilacquas">Sam<lb/> Bevilacqua</persName></item>
+                  <note>venne accettato.</note>
+               </list><lb/> Fu definita la questione del percen-<lb/> tuale <persName
+                  ref="#pasquinellis">al segretario di finanza Santino<lb/> Pasquinelli</persName>
+               pagando esso la differenze in<lb/> piu ricevuta.<lb/>
                <seg type="proposal">Proposto da <persName ref="#simonettim" role="proposer">M.
                      Simonetti</persName> ass.<lb/> da <persName ref="#bertonie" role="supporter">E.
                      Bertoni</persName> di fare un<unclear reason="illegible">bottone</unclear> a
@@ -366,7 +376,7 @@
                      ref="#legaT" role="supporter">ad unanimita</rs><lb/> propone dare un pic-nic e
                   tal uopo<lb/> viene fatto un comitato con piene potere<lb/> di fissare il posto se
                   fosse possibile<lb/> per il mese di Luglio.</seg><lb/>
-               <list type="committee" subtype="picnic">
+               <list type="committee" subtype="investigazione">
                   <note>Il Comitato fu cosi composto</note>
                   <lb/>
                   <item><persName ref="#maffeis">S. Maffei</persName></item>
@@ -440,8 +450,8 @@
                <seg type="proposal">Proposto da <persName ref="#lunardinil" role="proposer"
                      >Lunardini Lorenzo</persName><lb/> ed ass. da <persName ref="#pellegrinic"
                      role="supporter">C. Pellegrini</persName> di mandare<lb/> 5 biglietti ad ogni
-                  membro del valore<lb/> di $5.00 per la serata artistica del<lb/>
-                  <orgName ref="#clubM">Club Mascagni</orgName>.</seg><lb/> volta<lb/>
+                  membro del valore<lb/> di $5.00 per la serata artistica del<lb/> Club
+                  Mascagni.</seg><lb/> volta<lb/>
                <pb n="44"/> Fondo di cassa a tutt'oggi $1252.24<lb/>
                <closer>Non essendoci altro da trattare il<lb/> Presidente toglie la seduta.<lb/> Il
                   Seg. Il Presidente<lb/>
@@ -472,12 +482,14 @@
                on the 44th page. I added this for future use to reference specific page scans.-->
                <pb n="44"/> Giovedi 20 Maggio 1920 a ore 9 p.m.<lb/> nel solito locale venne tenuta
                la<lb/> consueta seduta ordinaria presiedute<lb/>
-               <persName ref="#maffeis">dal Presidente Stefano Maffei</persName>. <list type="absent">
+               <persName ref="#maffeis">dal Presidente Stefano Maffei</persName>. <list
+                  type="absent">
                   <note>Dall'ap-<lb/> pello nominale degli ufficiali risultarono<lb/> assenti i
                      seguenti: </note>
                   <item><persName ref="#pellegrinic">Casimiro Pelle-<lb/> grini</persName>,</item>
                   <item><persName ref="#fredianellig">Fredianelli Giuseppe</persName></item>
-                  <item>e <persName ref="#viganol" role="scaduto">Lorenzo<lb/> Vigano'</persName>;</item>
+                  <item>e <persName ref="#viganol" role="scaduto">Lorenzo<lb/>
+                     Vigano'</persName>;</item>
                   <note>quest'ultimo veine dichiarato<lb/> scaduto dal suo ufficio.</note>
                </list> Il processo<lb/> verbale venne approvato senza osservazio-<lb/> ni.<lb/>
                Viene messo al registro <persName ref="#bevilacquas">il nuovo<lb/> fratello Samuele
@@ -487,29 +499,42 @@
                   <list type="committee" subtype="picnic">
                   <note>Venne nominato il<lb/> comitato ed e' cosi composto:</note>
                   <lb/>
-                     <item><persName ref="#lunardinil">Lorenzo Lunardini</persName>, <roleName type="committee" role="pres">presidente</roleName>;</item>
-                     <item><persName ref="#datia">Adel-<lb/> mo Dati</persName> vice presidente;</item>
-                     <item><persName ref="#fredianim">Muzio Fre-<lb/> diani</persName>, seg.
-                     corr;</item>
-                     <item><persName ref="#pellegrinic">C. Pellegrini</persName>, seg.<lb/>
-                     Fin.;</item>
-                     <item><persName ref="#lucchesiam">Americo Lucchesi</persName>, tesoriere;</item>
+                  <item><persName ref="#lunardinil">Lorenzo Lunardini</persName>, <roleName
+                        type="committee" role="pres">presidente</roleName>;</item>
+                  <item><persName ref="#datia">Adel-<lb/> mo Dati</persName>
+                     <roleName type="committee" role="vice">vice presidente</roleName>;</item>
+                  <item><persName ref="#fredianim">Muzio Fre-<lb/> diani</persName>, <roleName
+                        type="committee" role="corresp">seg. corr</roleName>;</item>
+                  <item><persName ref="#pellegrinic">C. Pellegrini</persName>, <roleName
+                        type="committee" role="finanza">seg.<lb/> Fin.</roleName>;</item>
+                  <item><persName ref="#lucchesiam">Americo Lucchesi</persName>, <roleName
+                        type="committee" role="tes">tesoriere</roleName>;</item>
                   <lb/>
                   <pb n="45"/>
-                     <item><persName ref="#pasquinellis">Santino Pasquinelli</persName>, capo comitato<lb/> di
-                        preparazione,</item>
-                     <item><persName ref="#sodinij">Jacopo Sodini</persName>, vice<lb/> capo;</item>
+                  <item><persName ref="#pasquinellis">Santino Pasquinelli</persName>, <roleName
+                        type="committee" role="chairman">capo comitato<lb/> di
+                        preparazione</roleName>,</item>
+                  <item><persName ref="#sodinij">Jacopo Sodini</persName>, <roleName
+                        type="committee" role="assistente">vice<lb/> capo</roleName>;</item>
                   <item><list>
-                        <note><roleName type="committee" role="assistente">Gli assistenti</roleName> scelti furono</note>
+                        <note>Gli assistenti scelti furono</note>
                         <lb/>
-                        <item><persName ref="#zinim">Modesto Zini</persName>,</item>
-                        <item><persName ref="#silvionic">Carlo Silvioni</persName>,</item>
-                        <item><persName ref="#robertice">Cesare<lb/> Roberti</persName>;</item>
-                        <item><persName ref="#bevilacquas">Sam Bevilacqua</persName>,</item>
-                        <item><persName ref="#merciadrie">E. Mer-<lb/> ciadri</persName>,</item>
-                        <item><persName ref="#fontanaan">Angelo Fontana</persName>,</item>
-                        <item><persName ref="#danesiv">Virgilio<lb/> Danesi</persName></item>
-                        <item>e <persName ref="#denricoc">Curico D'Enrico</persName>.</item>
+                        <item><persName ref="#zinim">Modesto Zini<roleName type="committee"
+                                 role="assistente"/></persName>,</item>
+                        <item><persName ref="#silvionic">Carlo Silvioni<roleName type="committee"
+                                 role="assistente"/></persName>,</item>
+                        <item><persName ref="#robertice">Cesare<lb/> Roberti<roleName
+                                 type="committee" role="assistente"/></persName>;</item>
+                        <item><persName ref="#bevilacquas">Sam Bevilacqua<roleName type="committee"
+                                 role="assistente"/></persName>,</item>
+                        <item><persName ref="#merciadrie">E. Mer-<lb/> ciadri<roleName
+                                 type="committee" role="assistente"/></persName>,</item>
+                        <item><persName ref="#fontanaan">Angelo Fontana<roleName type="committee"
+                                 role="assistente"/></persName>,</item>
+                        <item><persName ref="#danesiv">Virgilio<lb/> Danesi<roleName
+                                 type="committee" role="assistente"/></persName></item>
+                        <item>e <persName ref="#denricoc">Curico D'Enrico<roleName type="committee"
+                                 role="assistente"/></persName>.</item>
                      </list></item>
                </list><lb/> Il pic-nic fu deciso di farlo<lb/> libero a tutti e di fare un
                biglietto<lb/> unico del costo di 25¢ escludendo<lb/> dal pagamento i bambini al
@@ -552,7 +577,7 @@
                </list> Il processo<lb/> verbale venne approvato come letto. L’indice<lb/> le
                votazioni per il collettore al posto<lb/> dello scaduto <persName ref="#viganol"
                   >Lorenzo Viganò’</persName> e venne<lb/> nominato ad unanimità <persName
-                  ref="#buchignianil">Luigi Buchi-<lb/> guani.</persName><lb/>
+                  ref="#buchignianil" role="replacement">Luigi Buchi-<lb/> guani.</persName><lb/>
                <list type="applicants">
                   <note>Vengono presentato le domande<lb/> di nuovi membri e sono</note>
                   <item><persName ref="#darrigop">Pietro D’Arrigo</persName>,</item>
@@ -566,11 +591,12 @@
                </list><lb/>
                <seg type="comp" subtype="sick">Fu concesso <num type="monetary" value="12">12</num>
                   giorni di sussidio<lb/>
-                  <persName ref="#marsilis" role="target">al fratello Sam Marsili</persName></seg> e
-               8 giorni <persName ref="#viganol">al<lb/> fratello Lorenzo Viganò</persName> e fu
-               rigettato<lb/> il diario <persName ref="#barantip">del fratello Pietro
-                  Baranti</persName> per-<lb/> ché egli all’epoca quando cadde amma-<lb/> lato
-               trovavasi arretrato coi pagamenti<lb/> mensili.<lb/>
+                  <persName ref="#marsilis" role="target">al fratello Sam Marsili</persName></seg>
+               <seg type="comp" subtype="sick">e <num type="monetary" value="8">8</num> giorni
+                     <persName ref="#viganol" role="target">al<lb/> fratello Lorenzo
+                     Viganò</persName></seg> e fu rigettato<lb/> il diario <persName ref="#barantip"
+                  >del fratello Pietro Baranti</persName> per-<lb/> ché egli all’epoca quando cadde
+               amma-<lb/> lato trovavasi arretrato coi pagamenti<lb/> mensili.<lb/>
                <seg type="proposal"> Viene proposta <persName ref="#bertonie" role="proposer">dal
                      fratello Eugenio<lb/> Bertoni</persName> ed ass. da <persName
                      ref="#fredianellig" role="supporter">G. Fredianelli</persName> d’fare<lb/> lo
@@ -613,7 +639,8 @@
                <list type="committee" subtype="stendardo">
                   <note>Il co-<lb/> mitato e’ cosi composto:</note>
                   <lb/>
-                  <item><persName ref="#pellegrinic">Casimiro Pellegrini</persName></item>
+                  <item><persName ref="#pellegrinic">Casimiro Pellegrini <roleName type="committee"
+                           role="chairman"/></persName></item>
                   <lb/>
                   <item><persName ref="#desimos">De Simo Serafino</persName></item>
                   <lb/>
@@ -787,7 +814,7 @@
                <rs ref="#pellegrinic">dichiarò</rs> di non avere dato ordinazioni<lb/> poiché il
                costo gli sembrò esagerato<lb/>
                <seg type="proposal">E così li venne a conclusione su<lb/> proposta <persName
-                     ref="#casalio" role="proposer">del fratello Omero lasali</persName><lb/> ass.
+                     ref="#casalio" role="proposer">del fratello Omero Casali</persName><lb/> ass.
                      <persName ref="#zinim" role="supporter">dal fratello Zini</persName>, di far
                   fare<lb/> solo lo standardo e di sospendere per<lb/> il momento le bandiere con un
                   limite<lb/> di prezzo di $300 e non più</seg><lb/>
@@ -807,20 +834,35 @@
                      immediatamente <rs ref="#terremoto" role="target">in Italia</rs><lb/> Questa
                      proposta venne approvata <rs ref="#legaT" role="supporter">ad<lb/> unanimità
                         dai presenti.</rs></seg></seg><lb/> A questo momento venne<lb/> fatto voto
-               che i fratelli S. Maffei,<lb/> S. Pasquinelli, A. Lucchese e M.<lb/> Simonetti
+               che i fratelli <persName ref="#maffeis">S. Maffei</persName>,<lb/>
+               <persName ref="#pasquinellis">S. Pasquinelli</persName>, <persName ref="#lucchesiam"
+                  >A. Lucchese</persName> e <persName ref="#simonettim">M.<lb/> Simonetti</persName>
                avevano già – collettato già –<lb/> la cospicua somma di $300.00.<lb/> Il Presidente
                scelse subito un co-<lb/>
                <pb n="52"/> mitato per le spedizioni di detto<lb/> somma.<lb/> In conformità di una
                proposta<lb/> fatta nello sedute scorse di dare<lb/> un ballo nel mese di Novembre p. V:<lb/>
-               <rs ref="#maffeis">Il Presidente</rs> apre le nomine di un<lb/> comitato Ballo e
-               risulto cosi com-<lb/> posto: <persName ref="#sodinij">Jacopo Sodini</persName>,
-               presidente <persName ref="#marchettie">Emi-<lb/> lio Marchetti</persName>, Vice
-               Presidente; <persName ref="#zinim">Modesto<lb/> Zini </persName>tesoriere; <persName
-                  ref="#pellegrinic">Casimiro Pellegrini</persName>:<lb/> segretario Chairman di ricevimento<lb/>
-               <persName ref="#maffeis">S. Maffei</persName>, floor manager <persName
-                  ref="#simonettim">M Simonetti</persName>,<lb/> Chairman di Arrangiamento <persName
-                  ref="#fredianellig">G. Fredianelli</persName><lb/> Gli assistenti verranno scelti
-               nella<lb/> prossimo seduto.<lb/>
+               <list type="committee" subtype="ballo">
+                  <note><rs ref="#maffeis">Il Presidente</rs> apre le nomine di un<lb/> comitato
+                     Ballo e risulto cosi com-<lb/> posto:</note>
+                  <item><persName ref="#sodinij">Jacopo Sodini</persName>, <roleName
+                        type="committee" role="pres">presidente</roleName>
+                  </item>
+                  <item><persName ref="#marchettie">Emi-<lb/> lio Marchetti</persName>, <roleName
+                        type="committee" role="vice">Vice Presidente</roleName>;</item>
+                  <item><persName ref="#zinim">Modesto<lb/> Zini </persName><roleName
+                        type="committee" role="tes">tesoriere</roleName>;</item>
+                  <item><persName ref="#pellegrinic">Casimiro Pellegrini</persName>:<lb/>
+                     <roleName type="committee" role="seg">segretario</roleName></item>
+                  <item><roleName type="committee" role="chairman">Chairman di
+                        ricevimento</roleName><lb/>
+                     <persName ref="#maffeis">S. Maffei</persName>,</item>
+                  <item><roleName type="committee" role="manager">floor manager</roleName>
+                     <persName ref="#simonettim">M Simonetti</persName>,</item>
+                  <lb/>
+                  <item>
+                     <roleName type="committee" role="chairman">Chairman di Arrangiamento</roleName>
+                     <persName ref="#fredianellig">G. Fredianelli</persName></item>
+               </list><lb/> Gli assistenti verranno scelti nella<lb/> prossimo seduto.<lb/>
                <closer>Non avendo altro da fare<lb/>
                   <rs ref="#maffeis">il presidente</rs> chiuse la seduta alle<lb/> 11.15.<lb/> Fondo
                   costa <unclear reason="illegible"/>
@@ -863,18 +905,25 @@
                      >Modesto Zini</persName> di sospendere, per giuste<lb/> Ragioni, il proposto
                   Ballo ed in conse-<lb/> guenza di cio – venga prosciolto il comitato<lb/> per il
                   medesimo.</seg><lb/>
-               <persName ref="#pellegrinic">Casimiro Pellegrini</persName> ha presentato<lb/> le sue
-               dimissioni da capo Comitato<lb/> per le Bandiere e queste accettate ed<lb/> in sua
-               vece venne nominato <persName ref="#marchettie">il fra-<lb/> tello Emilio
-                  Marchetti</persName><lb/>
+               <list type="committee" subtype="stendardo">
+                  <note><persName ref="#pellegrinic">Casimiro Pellegrini</persName> ha
+                     presentato<lb/> le sue dimissioni da capo Comitato<lb/> per le Bandiere e
+                     queste accettate ed<lb/> in sua vece venne nominato </note>
+                  <item><persName ref="#marchettie"><roleName type="committee" role="chairman"/>il
+                        fra-<lb/> tello Emilio Marchetti</persName></item>
+               </list><lb/>
                <seg type="proposal"><persName ref="#pellegrinic" role="proposer">Casimiro
                      Pellegrini</persName> ass. da<lb/>
                   <persName ref="#zinim" role="supporter">Modesto Zini</persName> che nella prossima
                   seduta<lb/> sia dato un rinfresco in onore dei soldati<lb/> toscani in
-                  congedo.</seg> Per tale feste<lb/> vennero nominati al comitato <persName
-                  ref="#maffeis">Maffei</persName>,<lb/>
-               <persName ref="#fredianellig">Fredianelli</persName> e <persName ref="#pasquinelliam"
-                  >A. Pasquinelli</persName>.<lb/>
+                  congedo.</seg>
+               <list type="committee" subtype="banchetto">
+                  <note>Per tale feste<lb/> vennero nominati al comitato</note>
+                  <item><persName ref="#maffeis">Maffei</persName>,</item>
+                  <lb/>
+                  <item><persName ref="#fredianellig">Fredianelli</persName></item>
+                  <item>e <persName ref="#pasquinelliam">A. Pasquinelli</persName>.</item>
+               </list><lb/>
                <closer>Non essendoci altro di discutere il<lb/>
                   <pb n="54"/>
                   <rs ref="#maffeis">Presidente</rs> tagliò la seduta<lb/> Il segretario Il Presidente<lb/>
@@ -915,12 +964,15 @@
                      fratello<persName ref="#fredianim" role="proposer"> M. Frediani</persName>
                   ass.<lb/> Da Lui <persName ref="#zinim" role="supporter">Modesto</persName> di
                   dare un Ballo masche-<lb/> rato per il prossimo periodo di carnevale</seg><lb/>
-               <seg type="delegation" subtype="committee"><rs ref="#maffeis" role="source">Il
-                     Presidente</rs> ha scelto un comitato per<lb/> investigare ore sia per propizio
-                  il posto<lb/> per darlo e del comitato sono: <persName ref="#pellegrinic"
-                     role="target">Casimiro<lb/> Pellegrini</persName>, <persName ref="#sodinij"
-                     role="target">Jacopo Sodini</persName> e <persName ref="#lucchesiam">Americo
-                     Luc<lb/> chesi</persName>.</seg><lb/>
+               <list type="committee" subtype="investigazione">
+                  <note><rs ref="#maffeis">Il Presidente</rs> ha scelto un comitato per<lb/>
+                     investigare ore sia per propizio il posto<lb/> per darlo e del comitato
+                     sono:</note>
+                  <item><persName ref="#pellegrinic" role="target">Casimiro<lb/>
+                        Pellegrini</persName>,</item>
+                  <item><persName ref="#sodinij" role="target">Jacopo Sodini</persName></item>
+                  <item>e <persName ref="#lucchesiam">Americo Luc<lb/> chesi</persName>.</item>
+               </list><lb/>
                <list type="applicants">
                   <note>Turano presentato le domande di<lb/> nuovi aspiranti ed accettati:</note>
                   <item><persName ref="#maffeiv">Verghino<lb/> Maffei</persName>;</item>
@@ -1060,52 +1112,117 @@
                      ref="#fredianellig" role="proposer">Giuseppe<lb/> Fredianelli</persName>
                   assecondato da <persName ref="#zinim" role="supporter">Zini
                   Modesto</persName><lb/> Se i dieci dollari gli siano concessi co-<lb/> me
-                  Beneficenza e non come diritto.</seg><lb/> L’inizio il disbrigo su da fare<lb/>
-               sul nostro ballo e venne deciso che sia<lb/> dato la sera del 27 Gennaio
-               prossimo<lb/> al Montefiore Hall e furono nominati<lb/> i componenti il Comitato che
-               i cosi<lb/> composto:<lb/>
-               <persName ref="#maffeis">Stefano Maffei</persName>, Presidente<lb/>
-               <persName ref="#lucchesiam">Americo Lucchesi</persName>, Vice<lb/>
-               <persName ref="#marchettie">Emilio Marchetti</persName>, Segretario<lb/>
-               <persName ref="#pasquinellis">Santino Pasquinelli</persName>, Tesoriero<lb/>
-               <persName ref="#viganol">Lorenzo Vigano’</persName>, Chairman of<lb/> Floor Managers
-               ed i suoi assistenti:<lb/>
-               <pb n="57"/>
-               <persName ref="#viganor">Ronnaldo Vigano’</persName>, <persName ref="#pellegrinic"
-                  >Casimiro Pellegri-<lb/> ni</persName>
-               <persName ref="#maffeid">Dante Maffei</persName><lb/>
-               <persName ref="#silvionic">Carlo Silvioni</persName> Chairman of Reception<lb/>
-               Committee ed i suoi assistenti: <persName ref="#sodinij">Jacopo<lb/>
-                  Sodini</persName>, <persName ref="#zinim">Modesto Zini</persName>, <persName
-                  ref="#santarlascia">Angelo Santarlasci</persName><lb/>
-               <persName ref="#marsilis">Sam Marsili</persName> Chairman of Arrange-<lb/> ment
-               Committee ed i suoi assistenti:<lb/>
-               <persName ref="#quintigliog">Quintiglio Gino</persName>, <persName ref="#giomettic"
-                  >Giometti Carlo</persName>, <persName ref="#maffeigia">Giacamo<lb/>
-                  Maffei</persName>, <persName ref="#cristofania">Armando Cristafami</persName>,
-                  <persName ref="#battistiniv">Battistini Vin-<lb/> cenzo</persName>, <persName
-                  ref="#merciadrie">Eugenio Merciadri</persName>, <persName ref="#carloe">Ezio
-                  Carlo</persName> e<lb/>
-               <persName ref="#zinif">Fiarananti Zini</persName>.<lb/>
+                  Beneficenza e non come diritto.</seg><lb/>
+               <list type="committee" subtype="ballo">
+                  <note>L’inizio il disbrigo su da fare<lb/> sul nostro ballo e venne deciso che
+                     sia<lb/> dato la sera del 27 Gennaio prossimo<lb/> al Montefiore Hall e furono
+                     nominati<lb/> i componenti il Comitato che i cosi<lb/> composto:</note>
+                  <lb/>
+                  <item><persName ref="#maffeis">Stefano Maffei</persName>, <roleName
+                        type="committee" role="pres">Presidente</roleName></item>
+                  <lb/>
+                  <item><persName ref="#lucchesiam">Americo Lucchesi</persName>, <roleName
+                        type="committee" role="vice">Vice</roleName></item>
+                  <lb/>
+                  <item><persName ref="#marchettie">Emilio Marchetti</persName>, <roleName
+                        type="committee" role="seg">Segretario</roleName></item>
+                  <lb/>
+                  <item><persName ref="#pasquinellis">Santino Pasquinelli</persName>, <roleName
+                        type="committee" role="tes">Tesoriere</roleName></item>
+                  <lb/>
+                  <item><persName ref="#viganol">Lorenzo Vigano’</persName>, <roleName
+                        type="committee" role="chairman">Chairman of<lb/> Floor
+                     Managers</roleName></item>
+                  <item><list>
+                        <note>ed i suoi assistenti:</note>
+                        <lb/>
+                        <pb n="57"/>
+                        <item><persName ref="#viganor">Ronnaldo Vigano’</persName><roleName
+                              type="committee" role="assistente"/>,</item>
+                        <item><persName ref="#pellegrinic">Casimiro Pellegri-<lb/>
+                              ni</persName><roleName type="committee" role="assistente"/></item>
+                        <item><persName ref="#maffeid">Dante Maffei</persName><roleName
+                              type="committee" role="assistente"/></item>
+                     </list></item>
+                  <lb/>
+                  <item><persName ref="#silvionic">Carlo Silvioni</persName>
+                     <roleName type="committee" role="chairman">Chairman of Reception<lb/>
+                        Committee</roleName></item>
+                  <item><list>
+                        <note>ed i suoi assistenti:</note>
+                        <item><persName ref="#sodinij">Jacopo<lb/> Sodini</persName><roleName
+                              type="committee" role="assistente"/>,</item>
+                        <item><persName ref="#zinim">Modesto Zini</persName><roleName
+                              type="committee" role="assistente"/>,</item>
+                        <item><persName ref="#santarlascia">Angelo Santarlasci</persName><roleName
+                              type="committee" role="assistente"/></item>
+                     </list></item>
+                  <lb/>
+                  <item><persName ref="#marsilis">Sam Marsili</persName>
+                     <roleName type="committee" role="chairman">Chairman of Arrange-<lb/> ment
+                        Committee</roleName></item>
+                  <item><list>
+                        <note>ed i suoi assistenti:</note>
+                        <lb/>
+                        <item><persName ref="#quintigliog">Quintiglio Gino</persName><roleName
+                              type="committee" role="assistente"/>,</item>
+                        <item><persName ref="#giomettic">Giometti Carlo</persName><roleName
+                              type="committee" role="assistente"/>,</item>
+                        <item><persName ref="#maffeigia">Giacamo<lb/> Maffei</persName><roleName
+                              type="committee" role="assistente"/>,</item>
+                        <item><persName ref="#cristofania">Armando Cristafami</persName><roleName
+                              type="committee" role="assistente"/>,</item>
+                        <item><persName ref="#battistiniv">Battistini Vin-<lb/>
+                              cenzo</persName><roleName type="committee" role="assistente"/>,</item>
+                        <item><persName ref="#merciadrie">Eugenio Merciadri</persName><roleName
+                              type="committee" role="assistente"/>,</item>
+                        <item><persName ref="#carloe">Ezio Carlo</persName><roleName
+                              type="committee" role="assistente"/></item>
+                        <item>e<lb/>
+                           <persName ref="#zinif">Fiarananti Zini</persName><roleName
+                              type="committee" role="assistente"/>.</item>
+                     </list></item>
+               </list><lb/>
                <seg type="proposal">Il fratello <persName ref="#santarlascia" role="proposer">Angelo
                      Santarlasci</persName> ass.<lb/> da <persName ref="#marchettie"
                      role="supporter">Emilio Marchetti</persName>
                   <del rend="strike">che</del> propone che<lb/> sia il Ballo in Farma civile e
-                  un<lb/> mascherato. Tale proposto viene ap-<lb/> provato per
-               acclamazione.</seg><lb/> Terminati tutti gli affari sociali<lb/> viene distribuito le
-               schede per l’ele-<lb/> zioni amministrative e risultavano eletti:<lb/>
-               <persName ref="#marsilis">Presidente Sam Marsili</persName>, <persName ref="#sodinij"
-                  >Vice President<lb/> Jacopo Sodini</persName>, Curatori <persName
-                  ref="#pasquinelliam">Pasquinelli<lb/> Americo</persName>, <persName
-                  ref="#lucchesiam">Americo Lucchesi</persName> e <persName ref="#fredianellig"
-                  >Fredianelli<lb/> Giuseppe</persName> -- Ufficiali Sanitari: <persName
-                  ref="#merciadrie">Eugenio<lb/> Merciadri</persName>, <persName ref="#battistiniv"
-                  >Battistini Vincenzo</persName>. Restando<lb/> eletti per acclamazioni <persName
-                  ref="#marchettie">Emilio Marchetti</persName><lb/> Seg. di carr., <persName
-                  ref="#piaggesia">Aladino Piaggesi</persName> Seg. di Fin.<lb/>
-               <persName ref="#pasquinellis">Santino Pasquinelli</persName>, Tesoriere e <persName
-                  ref="#merciadrie">Eugenio<lb/> Merciadri</persName>, guarda sala<lb/> Fondo cassa
-               e tutt’oggi $......<lb/>
+                  un<lb/> mascherato. Tale proposto viene ap-<lb/> provato per acclamazione.</seg><lb/>
+               <list type="officers">
+                  <note>Terminati tutti gli affari sociali<lb/> viene distribuito le schede per
+                     l’ele-<lb/> zioni amministrative e risultavano eletti:</note>
+                  <lb/>
+                  <item><roleName type="officer" role="pres">Presidente</roleName>
+                     <persName ref="#marsilis">Sam Marsili</persName>,</item>
+                  <item><roleName type="officer" role="vice">Vice President</roleName><lb/>
+                     <persName ref="#sodinij">Jacopo Sodini</persName>,</item>
+                  <item><list>
+                        <note>Curatori</note>
+                        <item><persName ref="#pasquinelliam">Pasquinelli<lb/>
+                              Americo</persName><roleName type="officer" role="curatore"/>,</item>
+                        <item><persName ref="#lucchesiam">Americo Lucchesi</persName><roleName
+                              type="officer" role="curatore"/></item>
+                        <item>e <persName ref="#fredianellig">Fredianelli<lb/>
+                              Giuseppe</persName><roleName type="officer" role="curatore"/></item>
+                     </list></item>
+                  <item><list>
+                        <note>-- Ufficiali Sanitari:</note>
+                        <item><persName ref="#merciadrie">Eugenio<lb/> Merciadri</persName><roleName
+                              type="officer" role="sanitario"/>,</item>
+                        <item><persName ref="#battistiniv">Battistini Vincenzo</persName><roleName
+                              type="officer" role="sanitario"/>.</item>
+                     </list></item>
+                  <note>Restando<lb/> eletti per acclamazioni</note>
+                  <item><persName ref="#marchettie">Emilio Marchetti</persName><lb/>
+                     <roleName type="officer" role="corresp">Seg. di carr.</roleName>,</item>
+                  <item><persName ref="#piaggesia">Aladino Piaggesi</persName>
+                     <roleName type="officer" role="finanza">Seg. di Fin.</roleName></item>
+                  <lb/>
+                  <item><persName ref="#pasquinellis">Santino Pasquinelli</persName>, <roleName
+                        type="officer" role="tes">Tesoriere</roleName></item>
+                  <item>e <persName ref="#merciadrie">Eugenio<lb/> Merciadri</persName>, <roleName
+                        type="officer" role="guardia">guarda sala</roleName></item>
+               </list><lb/> Fondo cassa e tutt’oggi $......<lb/>
                <closer>Non essendovi altro da trattare <rs ref="#maffeis">il<lb/> Presidente</rs>
                   chiuse le sedute<lb/>
                   <signed>Muzio Frediani</signed>, Seg</closer><lb/>
