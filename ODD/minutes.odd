@@ -373,6 +373,7 @@
                 <valItem ident="regalo"/>
                 <valItem ident="fondoM"/>
                 <valItem ident="regolamento"/>
+                <valItem ident="comitato"/>
                 <valItem ident="evento"/>
                 <valItem ident="denaro"/>
                 <valItem ident="nominazione"/>

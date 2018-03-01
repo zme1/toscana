@@ -334,7 +334,7 @@
                   <item><persName ref="#sodinij">Jacopo Sodini</persName>,</item>
                   <item>e <persName ref="#pasquinellis">Santino<lb/> Pasquinelli</persName>.</item>
                </list><lb/>
-               <list type="committee" subtype="picnic">
+               <list type="committee" subtype="investigazione">
                   <note>Poi fu scielto un comitato per anda-<lb/> re a ingaggiare il Campo per
                      fare<lb/> il nostro PicNic nel avvenire</note>
                   <item><persName ref="#simonettim">Michele<lb/> Simonetti</persName></item>
@@ -413,26 +413,30 @@
                   <note>Finito tutti gli affare sociale il<lb/> Presidente apri la nomina del<lb/>
                      comitato Pic-Nic</note>
                   <lb/>
-                  <item><persName ref="#lucchesiam">Americo Lucchesi</persName> Presidente</item>
+                  <item><persName ref="#lucchesiam">Americo Lucchesi</persName>
+                     <roleName type="committee" role="pres">Presidente</roleName></item>
                   <lb/>
-                  <item><persName ref="#datia">Adelmo Dati</persName> Vice Presidente</item>
+                  <item><persName ref="#datia">Adelmo Dati</persName>
+                     <roleName type="committee" role="vice">Vice Presidente</roleName></item>
                   <lb/>
 
                   <pb n="83"/>
 
-                  <item><persName ref="#zinim">Modesto Zini</persName> Segretario</item>
+                  <item><persName ref="#zinim">Modesto Zini</persName>
+                     <roleName type="committee" role="seg">Segretario</roleName></item>
                   <lb/>
-                  <item><persName ref="#fredianim">Muzio Frediani</persName> Tesoriere</item>
+                  <item><persName ref="#fredianim">Muzio Frediani</persName>
+                     <roleName type="committee" role="tes">Tesoriere</roleName></item>
                   <lb/>
-                  <item><persName ref="#pellegrinie">Emilio Pellegrini</persName> Chairman of
-                     Arrangement</item>
+                  <item><persName ref="#pellegrinie">Emilio Pellegrini</persName>
+                     <roleName type="committee" role="chairman">Chairman of
+                        Arrangement<lb/>Committee<lb/></roleName></item>
+                  <item><persName ref="#maffeigio">Giovacchino Maffei</persName>
+                     <roleName type="committee" role="assistente">Vice Arrangement
+                     Com.</roleName></item>
                   <lb/>
-                  <note>Commitee</note>
-                  <lb/>
-                  <item><persName ref="#maffeigio">Giovacchino Maffei</persName> Vice Arrangement
-                     Com.</item>
-                  <lb/>
-                  <item><persName ref="#viganol">Lorenzo Vigano’</persName> Floor Manager</item>
+                  <item><persName ref="#viganol">Lorenzo Vigano’</persName>
+                     <roleName type="committee" role="manager">Floor Manager</roleName></item>
                   <lb/>
                   <note>gli assistenti verranno scielti nella<lb/> prossima seduta.</note>
                </list><lb/>
@@ -473,7 +477,7 @@
                   <item><persName ref="#buchignianil">Luigi<lb/> Buchigniani</persName>.</item>
                </list> Il processo verbale venne<lb/> approvato come letto<lb/>
                <seg type="comp" subtype="sick">Fu concesso sussidio di malatia <persName
-                     ref="#puccettia" role="target">al<lb/> fratello Adriano Puccett</persName>
+                     ref="#puccettia" role="target">al<lb/> fratello Adriano Puccetti</persName>
                   <num type="monetary" value="8">$8.00</num>.</seg><lb/>
                <seg type="proposal">Proposto <persName ref="#pellegrinic" role="proposer">dal
                      fratello Casimirro Pellegrini</persName><lb/> ass <persName ref="#zinim"
@@ -503,29 +507,41 @@
                   <item><list>
                         <note>ass Floor Manager</note>
                         <lb/>
-                        <item><persName ref="#quintigliog">Quintiglio Gigli</persName>,</item>
-                        <item><persName ref="#viganoe">Ernesto Vigano’</persName>,</item>
+                        <item><persName ref="#quintigliog">Quintiglio Gigli</persName><roleName
+                              type="committee" role="assistente"/>,</item>
+                        <item><persName ref="#viganoe">Ernesto Vigano’</persName><roleName
+                              type="committee" role="assistente"/>,</item>
                      </list></item>
                   <lb/>
                   <item><list>
                         <note>ass arrangement Committee.</note>
                         <lb/>
-                        <item><persName ref="#pasquinellie">Emilio Pasquinelli</persName>,</item>
-                        <item><persName ref="#danesiv">Vergilio Danesi</persName></item>
+                        <item><persName ref="#pasquinellie">Emilio Pasquinelli</persName><roleName
+                              type="committee" role="assistente"/>,</item>
+                        <item><persName ref="#danesiv">Vergilio Danesi</persName><roleName
+                              type="committee" role="assistente"/></item>
                         <lb/>
-                        <item><persName ref="#vannuccia">Alfredo Vannucci</persName>,</item>
-                        <item><persName ref="#maffeis">Stefano Maffei</persName></item>
+                        <item><persName ref="#vannuccia">Alfredo Vannucci</persName><roleName
+                              type="committee" role="assistente"/>,</item>
+                        <item><persName ref="#maffeis">Stefano Maffei</persName><roleName
+                              type="committee" role="assistente"/></item>
                         <lb/>
-                        <item><persName ref="#pasquinellis">Santino Pasquinelli</persName>,</item>
-                        <item><persName ref="#lunardinil">Lorenzo Lunardini</persName></item>
+                        <item><persName ref="#pasquinellis">Santino Pasquinelli</persName><roleName
+                              type="committee" role="assistente"/>,</item>
+                        <item><persName ref="#lunardinil">Lorenzo Lunardini</persName><roleName
+                              type="committee" role="assistente"/></item>
                         <lb/>
-                        <item><persName ref="#merciadrie">Eugenio Merciadri</persName>,</item>
-                        <item><persName ref="#battistiniv">Vincenzo Battistini</persName></item>
+                        <item><persName ref="#merciadrie">Eugenio Merciadri</persName><roleName
+                              type="committee" role="assistente"/>,</item>
+                        <item><persName ref="#battistiniv">Vincenzo Battistini</persName><roleName
+                              type="committee" role="assistente"/></item>
                         <lb/>
                         <item><persName ref="#giannig">Giuseppe Gianni</persName>,</item>
-                        <item><persName ref="#cappellinic">Castruccio Cappellini</persName></item>
+                        <item><persName ref="#cappellinic">Castruccio Cappellini</persName><roleName
+                              type="committee" role="assistente"/></item>
                         <lb/>
-                        <item><persName ref="#pacinic">Candito Pacini</persName>.</item>
+                        <item><persName ref="#pacinic">Candito Pacini</persName><roleName
+                              type="committee" role="assistente"/>.</item>
                      </list></item>
                </list><lb/>
                <closer>Non avendo altro da fare per quella<lb/> sera <rs ref="#marconic">il
@@ -578,36 +594,50 @@
                      apri la nomina<lb/> per il Comitato Pic-Nic del 3 Settem-<lb/> bre prossimo
                      venturo, Il Comitato e<lb/> cosi composto.</note>
                   <item><persName ref="#cappellinic">Castruccio Cappellini</persName><lb/>
-                     Presidente,</item>
-                  <item><persName ref="#vannuccia">Alfredo Vannucci</persName> Vice Pres”</item>
-                  <item><persName ref="#marchettie">E. Marchetti</persName> Seg”.</item>
-                  <item><persName ref="#pasquinellis">S. Pasquinelli</persName> Tes”.</item>
+                     <roleName type="committee" role="pres">Presidente</roleName>,</item>
+                  <item><persName ref="#vannuccia">Alfredo Vannucci</persName>
+                     <roleName type="committee" role="vice">Vice Pres”</roleName></item>
+                  <item><persName ref="#marchettie">E. Marchetti</persName>
+                     <roleName type="committee" role="seg">Seg”</roleName>.</item>
+                  <item><persName ref="#pasquinellis">S. Pasquinelli</persName>
+                     <roleName type="committee" role="tes">Tes”</roleName>.</item>
                   <lb/>
-                  <item><persName ref="#lucchesiam">Americo Lucchesi</persName> Chairman of
-                     Arrangement<lb/> Committee,</item>
-                  <item><persName ref="#giannig">Giuseppe Gianni</persName> Vice Chairman</item>
+                  <item><persName ref="#lucchesiam">Americo Lucchesi</persName>
+                     <roleName type="committee" role="chairman">Chairman of Arrangement<lb/>
+                        Committee</roleName>,</item>
+                  <item><persName ref="#giannig">Giuseppe Gianni</persName>
+                     <roleName type="committee" role="assistente">Vice Chairman</roleName></item>
                   <lb/>
-                  <item><persName ref="#viganol">Lorenzo Vigano’</persName>, Floor Manager.</item>
+                  <item><persName ref="#viganol">Lorenzo Vigano’</persName>, <roleName
+                        type="committee" role="manager">Floor Manage</roleName>r.</item>
                   <lb/>
                   <item><list>
                         <note>Assistenti a floor Manager.</note>
-                        <item><persName ref="#mungaia">Angelo Mungai</persName></item>
+                        <item><persName ref="#mungaia">Angelo Mungai</persName><roleName
+                              type="committee" role="assistente"/></item>
                         <lb/>
-                        <item><persName ref="#zinif">Fioravante Zini</persName>,</item>
+                        <item><persName ref="#zinif">Fioravante Zini</persName><roleName
+                              type="committee" role="assistente"/>,</item>
                      </list></item>
                   <item><list>
                         <note>Assistent a Chairman</note>
                         <lb/>
-                        <item><persName ref="#pacinig">Giuseppe Pacini</persName>,</item>
-                        <item><persName ref="#merciadrie">Eugenio Merciadri</persName>,</item>
+                        <item><persName ref="#pacinig">Giuseppe Pacini</persName><roleName
+                              type="committee" role="assistente"/>,</item>
+                        <item><persName ref="#merciadrie">Eugenio Merciadri</persName><roleName
+                              type="committee" role="assistente"/>,</item>
                         <lb/>
                         <item><persName ref="#zinim">Modesto Zini</persName>,</item>
-                        <item><persName ref="#pasquinellie">Emilio Pasquinelli</persName>,</item>
+                        <item><persName ref="#pasquinellie">Emilio Pasquinelli</persName><roleName
+                              type="committee" role="assistente"/>,</item>
                         <lb/>
-                        <item><persName ref="#viganoe">Ernesto Vigano’</persName>,</item>
-                        <item><persName ref="#giomettio">Ottavio Giometti</persName>,</item>
+                        <item><persName ref="#viganoe">Ernesto Vigano’</persName><roleName
+                              type="committee" role="assistente"/>,</item>
+                        <item><persName ref="#giomettio">Ottavio Giometti</persName><roleName
+                              type="committee" role="assistente"/>,</item>
                         <lb/>
-                        <item><persName ref="#cortopassig">Giovanni Cortopassi</persName>,</item>
+                        <item><persName ref="#cortopassig">Giovanni Cortopassi</persName><roleName
+                              type="committee" role="assistente"/>,</item>
                      </list></item>
                </list>
                <closer>non avendo altro<lb/> da fare alle ore 10 P.M. <rs ref="#cappellinic">il vice
@@ -765,22 +795,24 @@
                   <note><rs ref="#marconic">Il presidente</rs> apri la nomina<lb/> per gli ufficiali
                      scaduti</note>
                   <lb/>
-                  <item>a segretario di Finanza<lb/>
+                  <item><roleName type="officer" role="finanza">a segretario di Finanza</roleName><lb/>
                      <persName ref="#lucchesiam" role="replacement">Americo
                      Lucchesi</persName></item>
                   <lb/>
                   <item><list>
                         <note>A curatore</note>
-                        <item><persName ref="#marsilis">Sam Marsili</persName></item>
+                        <item><persName ref="#marsilis">Sam Marsili</persName><roleName
+                              type="officer" role="curatore"/></item>
                         <lb/>
                         <item><persName ref="#fredianim" role="replacement">Muzio
-                              Frediani</persName>,</item>
+                              Frediani</persName><roleName type="officer" role="curatore"/>,</item>
                      </list></item>
-                  <item>ufficiale<lb/> sanitario <persName ref="#zinim" role="replacement">Modesto
-                        Zini</persName></item>
+                  <item><roleName type="officer" role="sanitario">ufficiale<lb/>
+                        sanitario</roleName>
+                     <persName ref="#zinim" role="replacement">Modesto Zini</persName></item>
                   <lb/>
-                  <item>A Collettore <persName ref="#sodinij" role="replacement">Jacopo
-                        Sodini</persName>.</item>
+                  <item>A <roleName type="officer" role="colletore">Collettore</roleName>
+                     <persName ref="#sodinij" role="replacement">Jacopo Sodini</persName>.</item>
                </list><lb/>
                <closer>Non avendo da fare altro per<lb/> quella sera alle ore 11.30 P.M.<lb/>
                   <rs ref="#marconic">il Presidente</rs> dichiara sciolta<lb/> la Seduta.<lb/> Il
@@ -822,9 +854,6 @@
                      <persName ref="#tambellinile">Lelio Tambellini</persName></item>
                   <note>per avere rifutato<lb/> di pagare Le tasse mensili</note>
                </list><lb/>
-               <!-- 2018-02-18 Since this is a whole striken section, you 
-Shouldn’t need to do anything other than wrap it in?
-<del> tags -->
                <del rend="strike">Proposto da Casimirro Pellegrini ass” da<lb/> Giuseppe Tambellini
                   che $1.50 che<lb/> doveva pagare il fratello Giogio<lb/> Bassotti sia pagato dalla
                   Lega.</del>
@@ -905,12 +934,9 @@ Shouldn’t need to do anything other than wrap it in?
                   ref="#pasquinellis">Santino Pasquinelli</persName> " "<lb/> Curatori <persName
                   ref="#desimos">Serafino De Simo</persName> " "<lb/> " "<persName ref="#giannig"
                   >Giuseppe Gianni</persName> " "<lb/> " "<persName ref="#carloe">Enzo
-                  Carli</persName> " "<lb/>
-               
-                  Nufficiali Sanitari.
-                  <persName ref="#viganol">Lorenzo Vigano’</persName>
-                  <lb/>
-                  " " " "<persName ref="#zinim">Modesto Zini</persName>
+                  Carli</persName> " "<lb/> Nufficiali Sanitari. <persName ref="#viganol">Lorenzo
+                  Vigano’</persName>
+               <lb/> " " " "<persName ref="#zinim">Modesto Zini</persName>
                <lb/>
                <pb n="94"/> Collettore <persName ref="#sodinij">Jacopo Sodini</persName><lb/> Guarda
                Sala <persName ref="#fredianellig">Giuseppe Fredianelli</persName><lb/>
@@ -923,25 +949,30 @@ Shouldn’t need to do anything other than wrap it in?
                <list type="committee" subtype="ballo">
                   <note>Poi si apri la nomina del comitato<lb/> ballo.</note>
                   <lb/>
-                  <item><persName ref="#desimos">Serafino De Simo</persName>. Presidente</item>
+                  <item><persName ref="#desimos">Serafino De Simo</persName>. <roleName
+                        type="committee" role="pres">Presidente</roleName></item>
                   <lb/>
-                  <item><persName ref="#lunardinil">Lorenzo Lunardini</persName>. Vice
-                     Presidente</item>
+                  <item><persName ref="#lunardinil">Lorenzo Lunardini</persName>. <roleName
+                        type="committee" role="vice">Vice Presidente</roleName></item>
                   <lb/>
-                  <item><persName ref="#viganoe">Ernesto Vigano’</persName>. Segretario</item>
+                  <item><persName ref="#viganoe">Ernesto Vigano’</persName>. <roleName
+                        type="committee" role="seg">Segretario</roleName></item>
                   <lb/>
                   <item><persName ref="#pasquinellis">Santino Pasquinelli</persName>
-                     Tesoriere.</item>
+                     <roleName type="committee" role="tes">Tesoriere</roleName>.</item>
                   <lb/>
-                  <item><persName ref="#maffeis">Stefano Maffei</persName> Chairman of
-                     Reception<lb/> Committee.</item>
+                  <item><persName ref="#maffeis">Stefano Maffei</persName>
+                     <roleName type="committee" role="chairman">Chairman of Reception<lb/>
+                        Committee</roleName>.</item>
                   <note>gli assistenti verranno<lb/> shelti nella prossima seduta.</note>
                   <lb/>
-                  <item>Floor Maneger <persName ref="#giannig">Giuseppe Gianni</persName></item>
+                  <item><roleName type="committee" role="manager">Floor Maneger</roleName>
+                     <persName ref="#giannig">Giuseppe Gianni</persName></item>
                   <lb/>
                   <item>
-                     <persName ref="#zinim">Modesto Zini</persName> Chairman of Arrangement<lb/>
-                     Committee.</item>
+                     <persName ref="#zinim">Modesto Zini</persName>
+                     <roleName type="committee" role="chairman">Chairman of Arrangement<lb/>
+                        Committee</roleName>.</item>
                   <note>gli assistenti verranno<lb/> shelti nella prossima seduta.</note>
                </list><lb/>
                <del rend="strike">Proposto da Vi fu due proposte di<lb/> fare pagare gli statuti una
@@ -956,7 +987,7 @@ Shouldn’t need to do anything other than wrap it in?
                   <persName ref="#zinim" role="supporter">Modesto Zini</persName> di Levare un
                   comitato<lb/> di investicare in riguardo di fare<lb/>
                   <pb n="95"/> il club della Lega.</seg>
-               <list type="committee" subtype="club">
+               <list type="committee" subtype="investigazione">
                   <note>Comitato</note>
                   <lb/>
                   <item><persName ref="#pasquinellis">Santino Pasquinelli</persName>,</item>
@@ -1019,38 +1050,48 @@ Shouldn’t need to do anything other than wrap it in?
                   <note>Poi si passo alle elezzioni amministrativi<lb/> e furono eletti i seguenti
                      fratelli</note>
                   <lb/>
-                  <item>A Presidente <persName ref="#maffeis">Stefano Maffei</persName></item>
+                  <item>A <roleName type="officer" role="pres">Presidente</roleName>
+                     <persName ref="#maffeis">Stefano Maffei</persName></item>
                   <lb/>
-                  <item>Vice Presidente <persName ref="#pacinic">Candito Pacini</persName></item>
+                  <item><roleName type="officer" role="vice">Vice Presidente</roleName>
+                     <persName ref="#pacinic">Candito Pacini</persName></item>
                   <lb/>
-                  <item>Segretario di Corrispondenza <persName ref="#viganoe">Ernesto
-                        Vigano’</persName></item>
+                  <item><roleName type="officer" role="corresp">Segretario di
+                        Corrispondenza</roleName>
+                     <persName ref="#viganoe">Ernesto Vigano’</persName></item>
                   <lb/>
-                  <item>Segretario di Finanza <persName ref="#lucchesiam">Americo
-                        Lucchesi</persName></item>
+                  <item><roleName type="officer" role="finanza">Segretario di Finanza</roleName>
+                     <persName ref="#lucchesiam">Americo Lucchesi</persName></item>
                   <lb/>
-                  <item>Cassiere <persName ref="#pasquinellis">Santino Pasquinelli</persName></item>
+                  <item><roleName type="officer" role="tes">Cassiere</roleName>
+                     <persName ref="#pasquinellis">Santino Pasquinelli</persName></item>
                   <lb/>
 
                   <item><list>
                         <note>Curatori</note>
-                        <item><persName ref="#desimos">Serafino de Simo</persName></item>
+                        <item><persName ref="#desimos">Serafino de Simo</persName><roleName
+                              type="officer" role="curatore"/></item>
                         <lb/>
-                        <item>“ “ <persName ref="#giannig">Giuseppe Gianni</persName></item>
+                        <item>“ “ <persName ref="#giannig">Giuseppe Gianni</persName><roleName
+                              type="officer" role="curatore"/></item>
                         <lb/>
-                        <item>“ “ <persName ref="#carloe">Enzo Carli</persName></item>
+                        <item>“ “ <persName ref="#carloe">Enzo Carli</persName><roleName
+                              type="officer" role="curatore"/></item>
                      </list></item>
                   <lb/>
                   <item><list>
                         <note>Ufficiali Sanitari</note>
-                        <item><persName ref="#viganol">Lorenzo Vigano’</persName></item>
-                        <item><persName ref="#zinim">Modesto Zini</persName></item>
+                        <item><persName ref="#viganol">Lorenzo Vigano’</persName><roleName
+                              type="officer" role="sanitario"/></item>
+                        <item><persName ref="#zinim">Modesto Zini</persName><roleName type="officer"
+                              role="sanitario"/></item>
                      </list></item>
                   <lb/>
-                  <item>Guarda Sala <persName ref="#fredianellig">Giuseppe
-                     Fredianelli</persName></item>
+                  <item><roleName type="officer" role="guardia">Guarda Sala</roleName>
+                     <persName ref="#fredianellig">Giuseppe Fredianelli</persName></item>
                   <lb/>
-                  <item>Collettore <persName ref="#sodinij">Jacopo Sodini</persName></item>
+                  <item><roleName type="officer" role="colletore">Collettore</roleName>
+                     <persName ref="#sodinij">Jacopo Sodini</persName></item>
                </list><lb/>
                <pb n="97"/>
                <seg type="proposal">Proposto <persName ref="#maffeis" role="proposer">dal fratello
@@ -1062,31 +1103,42 @@ Shouldn’t need to do anything other than wrap it in?
                   <note>fu aperta la nomina degli assistenti<lb/> ballo.</note>
                   <item><list>
                         <note>Reception Commitee.</note>
-                        <item><persName ref="#marconic">Carlo Marconi</persName>,</item>
+                        <item><persName ref="#marconic">Carlo Marconi</persName><roleName
+                              type="committee" role="assistente"/>,</item>
                         <lb/>
-                        <item><persName ref="#cappellinic">Castruccio Cappellini</persName>,</item>
-                        <item><persName ref="#fredianim">Muzio Frediani</persName></item>
+                        <item><persName ref="#cappellinic">Castruccio Cappellini</persName><roleName
+                              type="committee" role="assistente"/>,</item>
+                        <item><persName ref="#fredianim">Muzio Frediani</persName><roleName
+                              type="committee" role="assistente"/></item>
                      </list></item>
                   <lb/>
                   <item><list>
                         <note>Floor Manager</note>
-                        <item><persName ref="#battistiniv">Vincenzo Battistini</persName></item>
+                        <item><persName ref="#battistiniv">Vincenzo Battistini</persName><roleName
+                              type="committee" role="assistente"/></item>
                         <lb/>
-                        <item><persName ref="#viganol">Lorenzo Vigano’</persName>.</item>
+                        <item><persName ref="#viganol">Lorenzo Vigano’</persName><roleName
+                              type="committee" role="assistente"/>.</item>
                      </list></item>
                   <lb/>
                   <item><list>
                         <note>Arrangement Commitee</note>
-                        <item><persName ref="#pasquinelliam">Americo Pasquinelli</persName></item>
+                        <item><persName ref="#pasquinelliam">Americo Pasquinelli</persName><roleName
+                              type="committee" role="assistente"/></item>
                         <lb/>
-                        <item><persName ref="#pasquinellie">Emilio Pasquinelli</persName>,</item>
+                        <item><persName ref="#pasquinellie">Emilio Pasquinelli</persName><roleName
+                              type="committee" role="assistente"/>,</item>
                         <item><persName ref="#martinellig">Giuseppe Martinel-<lb/>
                            li</persName></item>
-                        <item><persName ref="#merciadrie">Eugenio Merciadri</persName>,</item>
-                        <item><persName ref="#pacinic">Candito Pacini</persName></item>
+                        <item><persName ref="#merciadrie">Eugenio Merciadri</persName><roleName
+                              type="committee" role="assistente"/>,</item>
+                        <item><persName ref="#pacinic">Candito Pacini</persName><roleName
+                              type="committee" role="assistente"/></item>
                         <lb/>
-                        <item><persName ref="#piaggesia">Aladino Piaggesi</persName>,</item>
-                        <item><persName ref="#casalio">Omero Casali</persName>.</item>
+                        <item><persName ref="#piaggesia">Aladino Piaggesi</persName><roleName
+                              type="committee" role="assistente"/>,</item>
+                        <item><persName ref="#casalio">Omero Casali</persName><roleName
+                              type="committee" role="assistente"/>.</item>
                      </list></item>
                </list><lb/> Fu fatta una colletta per quella<lb/> che manda la elevetta e fu<lb/>
                collettato $5.05. <closer>Non avendo da<lb/> fare altro per quella sera alle<lb/> ore
