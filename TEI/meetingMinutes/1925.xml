@@ -411,11 +411,11 @@ l’assemblea accetto’ il prezzo stabilito $4.00<lb/>
                <list type="committee" subtype="banchetto">
                   <note><rs ref="#simonettim">il<lb/> presidente</rs> nomino’ i seguenti soci</note>
                   <lb/>
-                  <item><persName ref="#maffeis">Stefano Maffei</persName> presidente,</item>
-                  <item><persName ref="#viganol">Lorenzo Vigano’</persName> vice<lb/>
-                     <pb n="138"/> presidente,</item>
-                  <item><persName ref="#pasquinellis">Santino Pasquinelli</persName> tesoriere</item>
-                  <item>e<lb/> <persName ref="#giannig">Giuseppe Gianni</persName> segretario,</item>
+                  <item><persName ref="#maffeis">Stefano Maffei</persName> <roleName type="committee" role="pres">presidente</roleName>,</item>
+                  <item><persName ref="#viganol">Lorenzo Vigano’</persName> <roleName type="committee" role="vice">vice<lb/>
+                     <pb n="138"/> presidente</roleName>,</item>
+                  <item><persName ref="#pasquinellis">Santino Pasquinelli</persName> <roleName type="committee" role="tes">tesoriere</roleName></item>
+                  <item>e<lb/> <persName ref="#giannig">Giuseppe Gianni</persName> <roleName type="committee" role="seg">segretario</roleName>,</item>
                   <item><list>
                         <note>al ricevimento<lb/>
                            <rs ref="#simonettim">il presidente</rs> nomino</note>
@@ -436,7 +436,7 @@ l’assemblea accetto’ il prezzo stabilito $4.00<lb/>
                      role="proposer">Stefano<lb/> Maffei</persName> e assecondato da <persName
                      ref="#viganol" role="supporter">Lorenzo Vigano</persName> di<lb/> dare una
                   festa campestre il mese di Giugno</seg><lb/>
-               <list type="committee" subtype="festaCampestre">
+               <list type="committee" subtype="investigazione">
                   <note>all’uopo fu nominato <rs ref="#simonettim">dal presidente</rs> il<lb/>
                      seguente comitato per trovare il posto.</note>
                   <lb/>
@@ -526,8 +526,8 @@ l’assemblea accetto’ il prezzo stabilito $4.00<lb/>
                   <del rend="strike">di</del> rappresentarla al suo grande ballo del<lb/> 28 Aprile.
                   U.S.</seg>
                <rs ref="#marconic">Il capo curatore</rs> diede il<lb/> resoconto del primo trimestre rapportando<lb/>
-               <pb n="140"/> di avere trovati i libri in perfetta regola<lb/> Incassato dal
-               Segretario di finanza $114.25<lb/> In cassa oggi $3903.43. <closer>Non avendo
+               <pb n="140"/> di avere trovati i libri in perfetta regola<lb/> Incassato <rs ref="#pasquinellie">dal
+               Segretario di finanza</rs> $114.25<lb/> In cassa oggi $3903.43. <closer>Non avendo
                   altro<lb/> da fare <rs ref="#simonettim">il presidente</rs> dichiara sciolta la
                   seduta<lb/> ore 11. P.M.<lb/> Il Seg Il Pres.<lb/>
                   <signed>G. Gianni</signed> [firmato]<lb/>
@@ -597,30 +597,30 @@ l’assemblea accetto’ il prezzo stabilito $4.00<lb/>
                   pec.nec. la<lb/> terza Domenica di Luglio. P.V.</seg>
                <list type="committee" subtype="picnic">
                   <note>all’uopo<lb/> fu scielto il seguente comitato.</note>
-                  <item>Prs.<lb/>
+                  <item><roleName type="committee" role="pres">Prs.</roleName><lb/>
                      <persName ref="#simonettim">Michele Simonetti</persName>,</item>
-                  <item>Vice. prs. <persName ref="#desantie">Enemia De<lb/> Santi</persName>.</item>
-                  <item>Seg. di corrispondenza <persName ref="#giannig">Giuseppe<lb/>
+                  <item><roleName type="committee" role="vice">Vice. prs.</roleName> <persName ref="#desantie">Enemia De<lb/> Santi</persName>.</item>
+                  <item><roleName type="committee" role="corresp">Seg. di corrispondenza</roleName> <persName ref="#giannig">Giuseppe<lb/>
                         Gianni</persName>.</item>
-                  <item>Seg. di finanza <persName ref="#scarpellinis">Silvio
+                  <item><roleName type="committee" role="finanza">Seg. di finanza</roleName> <persName ref="#scarpellinis">Silvio
                      Scarpellini</persName></item>
                   <lb/>
-                  <item>Tes. <persName ref="#pasquinellis">Santino Pasquinelli</persName>.</item>
-                  <item>Capo charman<lb/>
+                  <item><roleName type="committee" role="tes">Tes.</roleName> <persName ref="#pasquinellis">Santino Pasquinelli</persName>.</item>
+                  <item><roleName type="committee" role="chairman">Capo charman</roleName><lb/>
                      <persName ref="#viganol">Lorenzo Vigano’</persName>.</item>
-                  <item>ass. Charman. <persName ref="#baccellim">Michele<lb/>
+                  <item><roleName type="committee" role="assistente">ass. Charman.</roleName> <persName ref="#baccellim">Michele<lb/>
                      Baccelli</persName>.</item>
                   <item><list>
                         <note>Assistenti,</note>
-                        <item><persName ref="#pellegrinie">Emillio Pellegrini</persName></item>
+                        <item><persName ref="#pellegrinie">Emillio Pellegrini</persName><roleName type="committee" role="assistente"/></item>
                         <lb/>
-                        <item><persName ref="#piaggesia">Aladino Piaggesi</persName></item>
-                        <item><persName ref="#merciadrie">Ugenio Merciadri</persName>,</item>
+                     <item><persName ref="#piaggesia">Aladino Piaggesi</persName><roleName type="committee" role="assistente"/></item>
+                     <item><persName ref="#merciadrie">Ugenio Merciadri</persName><roleName type="committee" role="assistente"/>,</item>
                         <lb/>
-                        <item><persName ref="#barsottigiu">Giuseppe Barsotti</persName>.</item>
-                        <item><persName ref="#zinim">Modesto Zini</persName></item>
+                     <item><persName ref="#barsottigiu">Giuseppe Barsotti</persName><roleName type="committee" role="assistente"/>.</item>
+                     <item><persName ref="#zinim">Modesto Zini</persName><roleName type="committee" role="assistente"/></item>
                         <item>e<lb/>
-                           <persName ref="#datia">Adelmo Dat</persName>i.</item>
+                           <persName ref="#datia">Adelmo Dati</persName><roleName type="committee" role="assistente"/>.</item>
                      </list></item>
                </list> A questo punto <rs ref="#simonettim">il pres.</rs><lb/> chiude la seduta in
                segno di lutto per tre<lb/> minuti <persName ref="#viganoe">il fratello Ernesto
@@ -639,14 +639,14 @@ l’assemblea accetto’ il prezzo stabilito $4.00<lb/>
                <persName ref="#piaggesia">Aladino Piagesi</persName> 4<lb/>
                <persName ref="#sodinij">Jacopo Sodini</persName> 4<lb/> Oltre il banchetto anno
                diritto al premio<lb/> come prescrive la nostra amnistia i<lb/> seguenti soci.
-               Stefano Maffei. Giuseppe<lb/> Fredianelli. Lorenzo Lunardini. e Adelmo<lb/> Dati.
+               <persName ref="#maffeis">Stefano Maffei</persName>. <persName ref="#fredianellig">Giuseppe<lb/> Fredianelli</persName>. <persName ref="#lunardinil">Lorenzo Lunardini</persName>. e <persName ref="#datia">Adelmo<lb/> Dati</persName>.
                Furono pagati i seguenti bill.<lb/>
                <seg type="comp" subtype="fondoM"><num type="monetary" value="150">$150.00</num>
                   funerale <persName ref="#viganoe" role="target">Ernesto Vigano’</persName>. <num
                      type="monetary" value="10.5">$10.50</num><lb/> Carrozza al funerale e <num
                      type="monetary" value="10">$10.00</num> per fiori al<lb/> funerale.</seg>
-               $10.90 al seg. di corrispondenza<lb/> per tre mesi di salario. e. $1.62. per<lb/>
-               francobolli. In cassato da seg. di finanza<lb/> $130.00. In cassa oggi $3952.16<lb/>
+               $10.90 <rs ref="#giannig">al seg. di corrispondenza</rs><lb/> per tre mesi di salario. e. $1.62. per<lb/>
+               francobolli. In cassato <rs ref="#pasquinellie">da seg. di finanza</rs><lb/> $130.00. In cassa oggi $3952.16<lb/>
                <closer>Non avendo altro da fare <rs ref="#simonettim">il presidente</rs><lb/>
                   dichiara sciolta la seduta. 11. P.M.<lb/> Il Seg<lb/>
                   <signed>G. Gianni</signed>
@@ -704,12 +704,12 @@ l’assemblea accetto’ il prezzo stabilito $4.00<lb/>
                      role="supporter">Modesto Zini</persName> di rifondare $4.00 a<lb/>
                   <persName ref="#fontanaam">Amando Fontana</persName> non avendo potuto
                   trovarsi<lb/> presente al banchetto.</seg> Furono pagati i seguenti<lb/> bill
-               Muzio Frediani per stampa $39.65<lb/> Rimessa del banchetto $31.50<lb/> Rifondati ai
+               <persName ref="#fredianim">Muzio Frediani</persName> per stampa $39.65<lb/> Rimessa del banchetto $31.50<lb/> Rifondati ai
                membri che avevano portati<lb/> 3 membri o piu’ $44.00<lb/> In cassa oggi
                $3952.16<lb/> In cassato <rs ref="#pasquinellie">dal segretario di finanza</rs> $89.00<lb/>
                <closer>Non avendo altro da fare <rs ref="#simonettim">il presidente</rs>
-                  dichiara<lb/> sciolta la seduta ore 10.45. P.M.<lb/> Il Seg. G. Gianni
-                  [firmato]</closer><lb/>
+                  dichiara<lb/> sciolta la seduta ore 10.45. P.M.<lb/> Il Seg. <signed>G. Gianni</signed>
+                  </closer><lb/>
                <note resp="#millara">la firma di presidente Michele Simonetti si trova scritto in
                   matita sopra le ultimi righe del verbale, in fondo a pagina 143</note>
             </ab>
@@ -753,7 +753,7 @@ l’assemblea accetto’ il prezzo stabilito $4.00<lb/>
                         <item><persName ref="#marsilia">Marsili Abramo</persName></item>
                         <lb/>
                         <item>e <persName ref="#silvionic">Silvioni Carlo</persName></item>
-                        <note>guarda Sala di ballo</note>
+                        <note><roleName type="committee" role="guardia">guarda Sala di ballo</roleName></note>
                      </list></item>
                   <lb/>
                   <item><list>
@@ -835,7 +835,7 @@ l’assemblea accetto’ il prezzo stabilito $4.00<lb/>
                      >Stefano Maffei</persName> di<lb/> dare un banchetto in campagna il giorno<lb/>
                   <del rend="strike">11</del> di domenica .11 Ottobre 1925, per festeggiare<lb/> il
                   Colombus day.</seg>
-               <list type="committee" subtype="banchetto">
+               <list type="committee" subtype="investigazione">
                   <note>All’uopo fu nominato<lb/> il seguente comitato per trovare il locale.</note>
                   <lb/>
                   <item><persName ref="#simonettim">Michele Simonetti</persName>.</item>
@@ -850,7 +850,7 @@ l’assemblea accetto’ il prezzo stabilito $4.00<lb/>
                $71.25<lb/> In cassa oggi $4027.27<lb/>
                <closer>Non avendo altro da fare <rs ref="#cinellio">il presidente</rs> dichiara<lb/>
                   sciolta la seduta ore .11. PM.<lb/> Il Seg Il Pres<lb/>
-                  <signed>G. Gianni</signed> [firmato] <signed>M. G. Simonetti</signed></closer><lb/>
+                  <signed>G. Gianni</signed><signed>M. G. Simonetti</signed></closer><lb/>
                <note resp="#enickz">The meeting was said to have been adjourned by the president,
                   Mike Simonetti, who was absent at this meeting. I attributed the presiding
                   officer, Olinto Cinelli, with having done so instead.</note>
@@ -965,7 +965,6 @@ l’assemblea accetto’ il prezzo stabilito $4.00<lb/>
                      Pistelli</persName> per sussidio <num type="monetary" value="45"
                   >45.00</num></seg><lb/> Percentuale <rs ref="#giannig">al .Seg. di
                   corrispondenza</rs> 15.95<lb/>
-               <!-- le lettere “nza” sono scritte sotto la fine della parola “corrisponde(nza)” delle riga precedente -->
                <persName ref="#giannig">G. Gianni</persName> per francobolli 3.00<lb/> Incassato <rs
                   ref="#pasquinellie">dal Seg. di finanza</rs> $60.75<lb/> In cassa oggi $4582.26.<lb/>
                <closer>Non avendo altro da fare <rs ref="#simonettim">il presidente</rs><lb/>
@@ -1019,46 +1018,46 @@ l’assemblea accetto’ il prezzo stabilito $4.00<lb/>
                      <persName ref="#zinim">Zini</persName><lb/>
                      <rs ref="#simonettim">il presidente</rs> nomina il seguente comitato -<lb/>
                      ballo.</note>
-                  <item>Pres. <persName ref="#desantie">Enemia De Santi</persName>.</item>
-                  <item>Vice pres. <persName ref="#cinellio">Olinto<lb/> Cinelli</persName>.</item>
-                  <item>Tes. <persName ref="#zinim">Modesto Zini</persName>.</item>
-                  <item>Seg. di corrispondenza<lb/>
+                  <item><roleName type="committee" role="pres">Pres</roleName>. <persName ref="#desantie">Enemia De Santi</persName>.</item>
+                  <item><roleName type="committee" role="vice">Vice pres.</roleName> <persName ref="#cinellio">Olinto<lb/> Cinelli</persName>.</item>
+                  <item><roleName type="committee" role="tes">Tes.</roleName> <persName ref="#zinim">Modesto Zini</persName>.</item>
+                  <item><roleName type="committee" role="corresp">Seg. di corrispondenza</roleName><lb/>
                      <persName ref="#barontinid">Dino Barantini</persName>.</item>
-                  <item>Seg. di finanza <persName ref="#pasquinellie">Emilio
+                  <item><roleName type="committee" role="finanza">Seg. di finanza</roleName> <persName ref="#pasquinellie">Emilio
                      Pasquinelli</persName></item>
                   <lb/>
-                  <item>Capo di arrangiamento <persName ref="#silvionic">Carlo
+                  <item><roleName type="committee" role="chairman">Capo di arrangiamento</roleName> <persName ref="#silvionic">Carlo
                      Silvioni</persName>.</item>
                   <item>assistente<lb/>
-                     <persName ref="#tambellinig">Giuseppe .S. Tambellini</persName>.</item>
+                     <persName ref="#tambellinig">Giuseppe .S. Tambellini</persName><roleName type="committee" role="assistente"/>.</item>
                   <item><list>
                         <note>aiutanti</note>
-                        <item><persName ref="#puccettia">Adriano Puccetti</persName></item>
+                     <item><persName ref="#puccettia">Adriano Puccetti</persName><roleName type="committee" role="assistente"/></item>
                         <lb/>
-                        <item><persName ref="#martinellig">Giuseppe Martinelli</persName>.</item>
-                        <item><persName ref="#pasquinelliam">Amerigo Pasquinelli</persName>.</item>
-                        <item><persName ref="#vannuccia">Alfredo<lb/> Vannucci</persName>.</item>
-                        <item><persName ref="#vannuccie">Ermete Vannucci</persName>.</item>
-                        <item><persName ref="#guidottie">Ettore Guidotti</persName>.</item>
+                     <item><persName ref="#martinellig">Giuseppe Martinelli</persName><roleName type="committee" role="assistente"/>.</item>
+                     <item><persName ref="#pasquinelliam">Amerigo Pasquinelli</persName><roleName type="committee" role="assistente"/>.</item>
+                     <item><persName ref="#vannuccia">Alfredo<lb/> Vannucci</persName><roleName type="committee" role="assistente"/>.</item>
+                     <item><persName ref="#vannuccie">Ermete Vannucci</persName><roleName type="committee" role="assistente"/>.</item>
+                     <item><persName ref="#guidottie">Ettore Guidotti</persName><roleName type="committee" role="assistente"/>.</item>
                         <lb/>
-                        <item><persName ref="#baggianig">G. Baggiani</persName>.</item>
-                        <item>e <persName ref="#merciadrie">Eugenio Merciadri</persName>.</item>
+                     <item><persName ref="#baggianig">G. Baggiani</persName><roleName type="committee" role="assistente"/>.</item>
+                     <item>e <persName ref="#merciadrie">Eugenio Merciadri</persName><roleName type="committee" role="assistente"/>.</item>
                      </list></item>
                   <item><list>
                         <note>Comitato<lb/> ricevimento.</note>
-                        <item><persName ref="#maffeis">Stefano Maffei</persName>.</item>
-                        <item><persName ref="#datia">Adelmo Dati</persName></item>
+                     <item><persName ref="#maffeis">Stefano Maffei</persName><roleName type="committee" role="assistente"/>.</item>
+                     <item><persName ref="#datia">Adelmo Dati</persName><roleName type="committee" role="assistente"/></item>
                         <lb/>
-                        <item><persName ref="#fredianellig">Giuseppe Fredianelli</persName></item>
-                        <item>e <persName ref="#giannig">Giuseppe Gianni</persName></item>
+                     <item><persName ref="#fredianellig">Giuseppe Fredianelli</persName><roleName type="committee" role="assistente"/></item>
+                     <item>e <persName ref="#giannig">Giuseppe Gianni</persName><roleName type="committee" role="assistente"/></item>
                      </list></item>
                   <lb/>
                   <item><list>
                         <note>Capi sala.</note>
-                        <item><persName ref="#viganol">Lorenzo Vigano’</persName>.</item>
-                        <item><persName ref="#lunardinil">Lorenzo Lunardini</persName></item>
+                     <item><persName ref="#viganol">Lorenzo Vigano’</persName><roleName type="committee" role="chairman"/>.</item>
+                     <item><persName ref="#lunardinil">Lorenzo Lunardini</persName><roleName type="committee" role="chairman"/></item>
                         <lb/>
-                        <item>e <persName ref="#maffeir">Romeo Maffei</persName></item>
+                     <item>e <persName ref="#maffeir">Romeo Maffei</persName><roleName type="committee" role="chairman"/></item>
                      </list></item>
                </list> Gli uffi sanitari rapportano<lb/> che si trovano ammalati i seguenti soci.
                   <persName ref="#zinif">Fioravante<lb/> Zini</persName>. <persName ref="#puccettia"
@@ -1072,21 +1071,21 @@ l’assemblea accetto’ il prezzo stabilito $4.00<lb/>
                   <note>non avendo altri<lb/> affari <rs ref="#simonettim">il presidente</rs> apre
                      la nomina degli uffi<lb/> per l’anno 1926. e che vennero nominati ad<lb/>
                      acclamazione i seguenti.</note>
-                  <item>Presidente. <persName ref="#desantie">Enemia De<lb/> Santi</persName></item>
-                  <item>Vice presidente <persName ref="#zinim">Modesto Zini</persName>.</item>
-                  <item>Seg. di corr.<lb/>
+                  <item><roleName type="officer" role="pres">Presidente</roleName>. <persName ref="#desantie">Enemia De<lb/> Santi</persName></item>
+                  <item><roleName type="officer" role="vice">Vice presidente</roleName> <persName ref="#zinim">Modesto Zini</persName>.</item>
+                  <item><roleName type="officer" role="corresp">Seg. di corr.</roleName><lb/>
                      <persName ref="#giannig">Giuseppe Gianni</persName>.</item>
-                  <item>Seg. di finanza <persName ref="#pasquinellie">Emilio
+                  <item><roleName type="officer" role="finanza">Seg. di finanza</roleName> <persName ref="#pasquinellie">Emilio
                      Pasquinelli</persName></item>
                   <lb/>
-                  <item>Tes. <persName ref="#pasquinellis">Santino Pasquinelli</persName>.</item>
+                  <item><roleName type="officer" role="tes">Tes.</roleName> <persName ref="#pasquinellis">Santino Pasquinelli</persName>.</item>
                   <item><list>
                         <note>uffi sanitari</note>
-                        <item><persName ref="#vannuccia">Alfredo<lb/> Vannucci</persName></item>
-                        <item>e <persName ref="#viganol">Lorenzo Vigano’</persName>.</item>
+                        <item><persName ref="#vannuccia">Alfredo<lb/> Vannucci</persName><roleName type="officer" role="sanitario"/></item>
+                     <item>e <persName ref="#viganol">Lorenzo Vigano’</persName><roleName type="officer" role="sanitario"/>.</item>
                      </list></item>
                   <item>Guadia Sala<lb/>
-                     <persName ref="#merciadrie">Eugenio Merciadri</persName>.</item>
+                     <persName ref="#merciadrie">Eugenio Merciadri</persName><roleName type="officer" role="guardia"/>.</item>
                </list> Di modo che no resta sciegliere<lb/> tre curatori dai seguenti 6 nominati.<lb/>
                <persName ref="#silvionic">Carlo Silvioni</persName>. <persName ref="#fredianellig"
                   >Giuseppe Fredianelli</persName>. <persName ref="#datia">Adelmo<lb/>
@@ -1173,11 +1172,11 @@ l’assemblea accetto’ il prezzo stabilito $4.00<lb/>
                   rend="strike">sedu</del> votazione per tre curatore da sciegliere dai<lb/> 6
                proposti. Votanti 25. <list type="officers">
                   <note>Risultano eletti</note>
-                  <item>1o curatore <persName ref="#fredianellig">Giusep<lb/> pe
+                  <item><roleName type="officer" role="curatore">1o curatore</roleName> <persName ref="#fredianellig">Giusep<lb/> pe
                         Fredianelli</persName> con 16 voti</item>
-                  <item>2o curatore <persName ref="#pasquinelliam">Amerigo Pasquinelli</persName>
+                  <item><roleName type="officer" role="curatore">2o curatore</roleName> <persName ref="#pasquinelliam">Amerigo Pasquinelli</persName>
                      con<lb/> 12 voti</item>
-                  <item>3o <persName ref="#cinellio">Olinto Cinelli</persName> con 11 voti.</item>
+                  <item><roleName type="officer" role="curatore">3o</roleName> <persName ref="#cinellio">Olinto Cinelli</persName> con 11 voti.</item>
                </list> Eugenio Merciadri<lb/> sconfigge l’avversario Ezio Carli a guardia Sala<lb/>
                <pb n="153"/>
                <closer>Non avendo altro da fare <rs ref="#simonettim">il presidente</rs>
