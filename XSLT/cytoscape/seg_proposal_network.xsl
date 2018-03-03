@@ -8,18 +8,42 @@
     <xsl:variable name="minuteColl" select="collection('../../TEI/meetingMinutes')/*"/>
 <xsl:template match="/">
     <xsl:for-each select="$minuteColl//TEI//seg[@type='proposal']">
-        <xsl:value-of select="persName[@role='proposer']/@ref"/>
-        <xsl:text>&#x9;</xsl:text>
-        <xsl:value-of select="persName[@role='proposer']/@role"/>
-        <xsl:text>&#x9;</xsl:text>
-        <xsl:value-of select="./@type"/>
-        <xsl:text>&#x9;</xsl:text>
-        <xsl:text>(proposal @subtype here)</xsl:text>
-        <xsl:text>&#x9;</xsl:text>
-        <xsl:value-of select="persName[@role='supporter']/@ref"/>
-        <xsl:text>&#x9;</xsl:text>
-        <xsl:value-of select="persName[@role='supporter']/@role"/>
-        <xsl:text>&#xa;</xsl:text>
+        <xsl:choose>
+            <xsl:when test="count(persName[@role='supporter']) eq 2">
+                <xsl:value-of select="descendant::*[@role='proposer']/@ref"/>
+                <xsl:text>&#x9;</xsl:text>
+                <xsl:value-of select="descendant::*[@role='proposer']/@role"/>
+                <xsl:text>&#x9;</xsl:text>
+                <xsl:value-of select="./@type"/>
+                <xsl:text>&#x9;</xsl:text>
+                <xsl:value-of select="descendant::*[@role='supporter'][1]/@ref"/>
+                <xsl:text>&#x9;</xsl:text>
+                <xsl:value-of select="descendant::*[@role='supporter']/@role"/>
+                <xsl:text>&#xa;</xsl:text>
+                <xsl:value-of select="descendant::*[@role='proposer']/@ref"/>
+                <xsl:text>&#x9;</xsl:text>
+                <xsl:value-of select="descendant::*[@role='proposer']/@role"/>
+                <xsl:text>&#x9;</xsl:text>
+                <xsl:value-of select="./@type"/>
+                <xsl:text>&#x9;</xsl:text>
+                <xsl:value-of select="descendant::*[@role='supporter'][2]/@ref"/>
+                <xsl:text>&#x9;</xsl:text>
+                <xsl:value-of select="descendant::*[@role='supporter']/@role"/>
+                <xsl:text>&#xa;</xsl:text>
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:value-of select="descendant::*[@role='proposer']/@ref"/>
+                <xsl:text>&#x9;</xsl:text>
+                <xsl:value-of select="descendant::*[@role='proposer']/@role"/>
+                <xsl:text>&#x9;</xsl:text>
+                <xsl:value-of select="./@type"/>
+                <xsl:text>&#x9;</xsl:text>
+                <xsl:value-of select="descendant::*[@role='supporter']/@ref"/>
+                <xsl:text>&#x9;</xsl:text>
+                <xsl:value-of select="descendant::*[@role='supporter']/@role"/>
+                <xsl:text>&#xa;</xsl:text>
+            </xsl:otherwise>
+        </xsl:choose>
     </xsl:for-each>
 </xsl:template>
 </xsl:stylesheet>
