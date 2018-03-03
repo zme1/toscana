@@ -5,9 +5,9 @@
     exclude-result-prefixes="xs"
     version="3.0">
     <xsl:output method="text" encoding="UTF-8" indent="yes"/>
-    <xsl:variable name="minuteColl" select="collection('../../TEI/meetingMinutes')"/>
+    <xsl:variable name="minuteColl" select="collection('../../TEI/meetingMinutes')/*"/>
 <xsl:template match="/">
-    <xsl:for-each select="//seg[@type='proposal']">
+    <xsl:for-each select="$minuteColl//TEI//seg[@type='proposal']">
         <xsl:value-of select="persName[@role='proposer']/@ref"/>
         <xsl:text>&#x9;</xsl:text>
         <xsl:value-of select="persName[@role='proposer']/@role"/>
