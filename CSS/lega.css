@@ -68,17 +68,26 @@ a:hover{
     text-decoration: underline;
 }
 h1,
-h2{
+h2,
+h3{
     font-family: "Snell Roundhand", cursive;
     text-align: center;
     color: white;
-    font-size: 300%;
     letter-spacing: 4px;
     margin-bottom: 0;
 }
+h1{
+    font-size: 50px;
+}
 h2{
-    font-size: 200%;
-    margin-top: 0;
+    font-size: 40px;
+}
+h3{
+    font-size: 35px;
+}
+code{
+    color: #58A378;
+    font-size: 110%;
 }
 footer{
     right: 0;
