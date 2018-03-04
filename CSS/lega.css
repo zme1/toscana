@@ -5,12 +5,12 @@ body{
     color: white;
     font-weight: 900;
 }
-hr.maj{
+hr.min{
     border: 0;
     height: 1px;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(255, 255, 255), rgba(0, 0, 0, 0));
 }
-hr.min{
+hr.maj{
     border: 0;
     height: 1px;
     background: #333;
