@@ -37,16 +37,17 @@ a:hover{
     color: #E1CAAB;
     text-decoration: underline;
 }
-h1,
-h2,
-h3,
-h4{
+h1,h2{
     font-family: "Snell Roundhand", cursive;
     text-align: center;
     color: white;
     font-size: 300%;
     letter-spacing: 4px;
     margin-bottom:0;
+}
+h2{
+    font-size: 200%;
+    margin-top: 0;
 }
 div.text{
     margin: 0 8%;
