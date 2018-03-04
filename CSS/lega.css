@@ -1,5 +1,5 @@
 body{
-    background-image: url(../img/maybe.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/maybe.jpg);
     width: 100%;
     margin: 0 auto;
     color: white;
