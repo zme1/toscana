@@ -81,12 +81,13 @@ h2{
     margin-top: 0;
 }
 footer{
-    position: absolute;
     right: 0;
     bottom: 0;
     left: 0;
     padding: 1rem;
     text-align: center;
+    height: 50px;
+    margin-top: -50px;
 }
 #cc{
 
