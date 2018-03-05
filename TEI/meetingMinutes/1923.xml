@@ -213,12 +213,12 @@
                      role="target">al fratello<lb/> Giuseppe Martinelli</persName> di <num
                      type="monetary" value="11">$11.00</num><lb/> per essersi fatto male ad un
                   dito.</seg><lb/>
-               <seg type="proposal">Proposto <persName ref="#maffeis" role="proposer">dal fratello
+               <seg type="proposal" subtype="nominazione">Proposto <persName ref="#maffeis" role="proposer">dal fratello
                      Stefano Maffei</persName><lb/> ass. da <persName ref="#cappellinic"
                      role="supporter">Catruccio Cappellini</persName> che sia<lb/> eletto un altro
                   segretario a motivo<lb/> che <rs ref="#viganoe" role="scaduto">il segretario
                      nuovo</rs> non poteva<lb/> tirare avanti la carica, e fu rieletta<lb/> .</seg><lb/>
-               <seg type="proposal">Proposto <persName ref="#piaggesia" role="proposer">dal fratello
+               <seg type="proposal" subtype="nominazione">Proposto <persName ref="#piaggesia" role="proposer">dal fratello
                      Aladino Piaggesi</persName><lb/> ass. da <persName ref="#carloe"
                      role="supporter">Ezio Carli</persName> che sia rieletto <persName
                      ref="#merciadrie" role="replacement">il<lb/> vecchio guarda sala Eugenio
@@ -337,7 +337,7 @@
                </list> Il Preces-<lb/> so verbale venne approvato come letto.<lb/> Fu presentata il
                rendiconto della fasta<lb/> ballo e fu di Entrata $430.25 ed Uscita<lb/> $310.25
                rimane in cassa per la societa<lb/> $120.00 di guadagno.<lb/>
-               <seg type="proposal">Proposto da <persName ref="#desimos" role="proposer">Serafino De
+               <seg type="proposal" subtype="status">Proposto da <persName ref="#desimos" role="proposer">Serafino De
                      simo</persName> ass. da <persName ref="#pacinic" role="supporter">Candito<lb/>
                      Pacini</persName> di cancellare <del rend="strike">tutti</del> quelli che<lb/>
                   sono stati avvisati per posta e che si<lb/>
@@ -350,7 +350,7 @@
                   soci aspetta<lb/> di pagare $1.60 per ciascuno e quanti<lb/> devono essere pagati
                   in seduta<lb/> oppore non piu’ tardi della seduta<lb/> di Maggio Altrimenti il
                   socio perdera<lb/> i diritti come prescrive il nostro<lb/> regolamento.</seg><lb/>
-               <seg type="proposal">Proposto da <persName ref="#marconic" role="proposer">Carlo
+               <seg type="proposal" subtype="evento">Proposto da <persName ref="#marconic" role="proposer">Carlo
                      Marconi</persName> ass da<lb/>
                   <persName ref="#zinim" role="supporter">Modesto Zini</persName> di investicare se
                   si<lb/> puole avere il permesso per dare<lb/> il Pic-Nic nell avvenire.</seg>
@@ -362,7 +362,7 @@
                   <lb/>
                   <item><persName ref="#lucchesiam">Americo Lucchesi</persName>.</item>
                </list><lb/>
-               <seg type="proposal">Proposto da <persName ref="#zinim" role="proposer">Modesto
+               <seg type="proposal" subtype="evento">Proposto da <persName ref="#zinim" role="proposer">Modesto
                      Zini</persName> ass. da<lb/>
                   <persName ref="#giannig" role="supporter">Giuseppe Gianni</persName> che la
                   Lega<lb/> Toscana prendi la inizziativa<lb/> di dare il banchetto <persName
@@ -459,7 +459,7 @@
                   <item><persName ref="#pardinib">Benedetto Pardini</persName></item>
                   <item>e <persName ref="#lunardinil">Lorenzo Lunar-<lb/> dini</persName>.</item>
                </list>
-               <seg type="proposal">Proposto da <persName ref="#pardinib" role="proposer">Benedetto
+               <seg type="proposal" subtype="evento">Proposto da <persName ref="#pardinib" role="proposer">Benedetto
                      Pardini</persName><lb/> ass. da <persName ref="#sodinij" role="supporter"
                      >Jacopo Sodini</persName> che il Banchetto<lb/> sia fatto da soci della Lega e
                   non<lb/> nessuno altro, e solo i <del rend="strike">d</del> Soci devono<lb/>
@@ -519,7 +519,7 @@
                <seg type="comp" subtype="sick">Fu pagato sussidio di malatia <persName
                      ref="#maffeigio" role="target">al<lb/> fratello Giovacchino Maffei</persName>
                   di <num type="monetary" value="20">$20.00</num></seg><lb/>
-               <seg type="proposal">Proposto ed ass. <persName ref="#zinim" role="proposer">Modesto
+               <seg type="proposal" subtype="evento">Proposto ed ass. <persName ref="#zinim" role="proposer">Modesto
                      Zini</persName> e <persName ref="#viganol" role="supporter">Lorenzo<lb/>
                      Vigano’</persName> di accettare linvito mandato<lb/> dalla loggia Cittadini
                   Italo-Americani<lb/> No. 317. Ordine figli d’Italia in america e<lb/> questo venne
@@ -533,7 +533,7 @@
                <pb n="105"/> fu proposto <persName ref="#giannig" role="replacement">Giuseppe
                   Gianni</persName><lb/> a segretario ed <persName ref="#borellie"
                   role="replacement">Martino Borelli</persName><lb/> a curatore.<lb/>
-               <seg type="proposal">Proposto da <persName ref="#fredianellig" role="proposer"
+               <seg type="proposal" subtype="denaro">Proposto da <persName ref="#fredianellig" role="proposer"
                      >Giuseppe Fredianelli</persName> ass.<lb/> da <persName ref="#santarlascia"
                      role="supporter">Angelo Santarlasci</persName> di ristribui-<lb/> re 9 mesi
                   pagati in piu’ impri-<lb/> della morte <persName ref="#pasquinellial">del fratello
@@ -565,7 +565,8 @@
       </teiHeader>
       <text>
          <body>
-            <ab> Giovedi 19 Luglio 1923. Alle ore 9. Di sera venne<lb/> Tenuta la consueta seduta
+            <ab>
+               <pb n="105"/>Giovedi 19 Luglio 1923. Alle ore 9. Di sera venne<lb/> Tenuta la consueta seduta
                regolare,<lb/> Presieduta <persName ref="#maffeis">dal nostro presidente Stefano
                   Maffei</persName>.<lb/>
                <list type="absent">
@@ -582,7 +583,7 @@
                   <persName ref="#pasquinellis" role="proposer">Santino Pasquinelli</persName> e
                   assecondata da <persName ref="#lucchesiam" role="supporter">Amerigo<lb/>
                      Lucchesi</persName> di accettare 2 libretti e di respingere<lb/> l’altro.</seg>
-               <seg type="proposal">fu fatta un’altra proposta da <persName ref="#viganol"
+               <seg type="proposal" subtype="status">fu fatta un’altra proposta da <persName ref="#viganol"
                      role="proposer">Lorenzo<lb/> Vigano’</persName> ed approvata da <persName
                      ref="#giangranedif" role="supporter">Giangrandi Francesco</persName><lb/> di
                   accettarli tutti e tre.</seg>
@@ -593,7 +594,7 @@
                votazione la proposta Cappellini. risultando<lb/> negativa con 7 voti favorevoli e 9
                contrari.<lb/> Cosi venne approvato di ritenerli tutti e<lb/> di mandarci l’immontare
                di $15.<lb/>
-               <seg type="proposal">Fu proposto da <persName ref="#pellegrinic" role="proposer"
+               <seg type="proposal" subtype="denaro">Fu proposto da <persName ref="#pellegrinic" role="proposer"
                      >Casimiro Pellegrini</persName> e assecon<lb/> dato da <persName ref="#danesiv"
                      role="supporter">Virgilio Danesi</persName> di passare $2.50 al<lb/> comitato
                   del ballo del 24 Gennaio U.S. Pero’<lb/> trovando che qualcuno del comitato non
@@ -724,7 +725,7 @@
                   <lb/>
                   <item><persName ref="#desantie">Enemia De Santi</persName></item>
                </list><lb/>
-               <seg type="proposal">Proposto da <persName ref="#marconic" role="proposer">Carlo
+               <seg type="proposal" subtype="status">Proposto da <persName ref="#marconic" role="proposer">Carlo
                      Marconi</persName> assecondato da<lb/>
                   <persName ref="#cinellio" role="supporter">Olindo Cinelli</persName> di aggiungere
                   5 membri ancora<lb/> al comitato club</seg> e <list type="committee"
@@ -738,13 +739,13 @@
                   <note>e <del rend="strike">Benedetto Pardini</del></note>
                   <item><persName ref="#pacinic">Candito Pacini</persName></item>
                </list><lb/>
-               <seg type="proposal">Proposto da <persName ref="#simonettim" role="proposer">Michele
+               <seg type="proposal" subtype="comitato">Proposto da <persName ref="#simonettim" role="proposer">Michele
                      Simonetti</persName> assecondato da<lb/>
                   <persName ref="#pasquinellis" role="supporter">Santino Pasquinelli</persName> di
                   dare tre mesi di tempo<lb/>
                   <pb n="109"/> al comitato club di portare alla luce quache<lb/> cosa. caso diverso
                   di fare un nuovo comitato</seg><lb/>
-               <seg type="proposal">Proposto da <persName ref="#marconic" role="proposer">Carlo
+               <seg type="proposal" subtype="comitato">Proposto da <persName ref="#marconic" role="proposer">Carlo
                      Marconi</persName> assecondato da<lb/>
                   <persName ref="#carloe" role="supporter">Ezio Carli</persName> di dare due balli,
                   il primo dal 15<lb/> novembre al 1 Dicembre e il secondo il giovedi<lb/> grasso se
@@ -758,7 +759,7 @@
                <persName ref="#desimos">Il capo curatore Serafino De Simo</persName> fece il
                rapporto<lb/> del semestre e dichiaro’ che <del rend="strike">si trovavano</del> in i
                libri<lb/> si trovavano i perfetta regola.<lb/>
-               <seg type="proposal">Proposto da <persName ref="#zinim" role="proposer">Modesto
+               <seg type="proposal" subtype="misc">Proposto da <persName ref="#zinim" role="proposer">Modesto
                      Zini</persName> e assecondato da<lb/>
                   <persName ref="#lucchesiam" role="supporter">Amerigo Lucchesi</persName> di
                   cambiare di sala,</seg>
@@ -896,22 +897,22 @@
                   <item>e <persName ref="#merciadrie">Eugenio Merciadri</persName><roleName
                         type="committee" role="assistente"/>.</item>
                </list><lb/>
-               <seg type="proposal">Fu proposto da <persName ref="#pellegrinic" role="proposer"
+               <seg type="proposal" subtype="evento">Fu proposto da <persName ref="#pellegrinic" role="proposer"
                      >Casimiro Pellegrini</persName> e assecondato<lb/> da <persName ref="#borellim"
                      role="supporter">Martino Borelli</persName> che tutti i membri della Lega<lb/>
                   la sera del ballo, abbiano un piccolo nastrino di<lb/> riconoscimento.</seg><lb/>
                <pb n="111"/>
-               <seg type="proposal">Fu proposto da <persName ref="#fredianim" role="proposer">Muzio
+               <seg type="proposal" subtype="evento">Fu proposto da <persName ref="#fredianim" role="proposer">Muzio
                      Frediani</persName> e assecondato da<lb/>
                   <persName ref="#marconic" role="supporter">Carlo Marconi</persName> che tutti i
                   membri che vendono<lb/> 5 Ticchette gli viene abbonata la sua, che e’ del<lb/>
                   valore di un dollaro.</seg><lb/>
-               <seg type="proposal">Proposto da <persName ref="#lombardia" role="proposer">Aladino
+               <seg type="proposal" subtype="evento">Proposto da <persName ref="#lombardia" role="proposer">Aladino
                      Lombardi</persName> assecondato da<lb/>
                   <persName ref="#maffeis" role="supporter">Stefano Maffei</persName> di dare un
                   banchetto al comitato<lb/> ballo.</seg><lb/> Fu presentata e letta una lettera che
                la Fratellanza<lb/> Siciliana mandava invitando la lega Toscana al<lb/> ballo e piu’
-               inviava 3 ticchette gratuite. <seg type="proposal">Il fratello<lb/>
+               inviava 3 ticchette gratuite. <seg type="proposal" subtype="denaro">Il fratello<lb/>
                   <persName ref="#fredianim" role="proposer">Muzio Frediani</persName> fece la
                   proposta e <persName ref="#maffeis" role="supporter">Stefano
                   Maffei</persName><lb/> l’assecondato’ di mandarci 10 dollari. e<lb/> l’assemblea
@@ -969,7 +970,7 @@
                   lui<lb/> versato.</seg><lb/> Il comitato Club rapporto’ che ancora non<lb/> aveva
                niente per le mano<lb/> Il comitato di investigare per la nuova sala<lb/> Descalpi
                rapporto’ che non cera niente di<lb/> meglio che de la presente allora <seg
-                  type="proposal"><persName ref="#pasquinellis" role="proposer">il socio<lb/>
+                  type="proposal" subtype="misc"><persName ref="#pasquinellis" role="proposer">il socio<lb/>
                      Santino Pasquinelli</persName> fece la proposta e<lb/>
                   <persName ref="#tambellinig" role="supporter">Giuseppe Tambellini</persName>
                   l’assecondato’ di restare<lb/> dove siamo e fu passato</seg><lb/> Fu aperta la
@@ -1040,7 +1041,7 @@
                      Lucca.</note>
                </list>
                <pb n="114"/>
-               <seg type="proposal">Fu proposto da <persName ref="#zinim" role="proposer">Zini
+               <seg type="proposal" subtype="denaro">Fu proposto da <persName ref="#zinim" role="proposer">Zini
                      Modesto</persName> e assecondato da<lb/>
                   <persName ref="#barellim" role="supporter">Barelli Martino</persName> di prelevare
                   dal fondo di<lb/> cassa la somma di $5 e darla in regalo al<lb/> giovane che manda l’ascensore<lb/>

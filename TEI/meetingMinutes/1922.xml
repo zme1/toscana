@@ -254,7 +254,7 @@
                   <item><persName ref="#micheluccis">Silvio Michellucci</persName>,</item>
                   <item><persName ref="#maffeir">Romo Maffei</persName>,</item>
                </list><lb/>
-               <seg type="proposal">Proposto <persName ref="#simonettim" role="proposer">dal
+               <seg type="proposal" subtype="amnistia">Proposto <persName ref="#simonettim" role="proposer">dal
                      fratello Michele Simonetti</persName><lb/> ass <persName ref="#viganol"
                      role="supporter">dal fratello Lorenzo Vigano’</persName> che sia<lb/> aperta
                   l’arnestia gratis dall’eta dai 18-ai 25<lb/> anni di eta col portando un
@@ -395,7 +395,7 @@
                   <item><persName ref="#viganoe">Ernesto Vigano’</persName> di anni 18</item>
                   <note>accompagnata col certificato<lb/> medico e venne accettata.</note>
                </list><lb/>
-               <seg type="proposal">Proposto <persName ref="#tambellinig" role="proposer">dal
+               <seg type="proposal" subtype="denaro">Proposto <persName ref="#tambellinig" role="proposer">dal
                      fratello giuseppe Tambellini</persName><lb/> ass. <persName ref="#fredianim"
                      role="supporter">dal fratello Muzio Frediani</persName> che sia<lb/> levato dal
                   fondo di cassa $25.00 ed<lb/> mandarli al comitato topercolotici di<lb/> guerra,
@@ -479,7 +479,7 @@
                <seg type="comp" subtype="sick">Fu concesso sussidio di malatia <persName
                      ref="#puccettia" role="target">al<lb/> fratello Adriano Puccetti</persName>
                   <num type="monetary" value="8">$8.00</num>.</seg><lb/>
-               <seg type="proposal">Proposto <persName ref="#pellegrinic" role="proposer">dal
+               <seg type="proposal" subtype="comitato">Proposto <persName ref="#pellegrinic" role="proposer">dal
                      fratello Casimirro Pellegrini</persName><lb/> ass <persName ref="#zinim"
                      role="supporter">dal fratello Modesto Zini</persName> di sciegliere<lb/> un
                   comitato di investigare a chi si<lb/> doveva’ dare la moneta dal orfanotrofio<lb/>
@@ -696,13 +696,13 @@
                      type="monetary" value="56">$56.00</num>
                   <persName ref="#vannuccie" role="target">al fratello Ermete
                   Vannucci</persName></seg><lb/>
-               <seg type="proposal">Proposto <persName ref="#zinim" role="proposer">dal fratello
+               <seg type="proposal" subtype="evento">Proposto <persName ref="#zinim" role="proposer">dal fratello
                      Modesto Zini</persName> assecon-<lb/> dato da <persName ref="#marchettie"
                      role="supporter">Emilio Marchetti</persName> di accettare<lb/> l’invito mandato
                   dal Bloomfield Italian<lb/> Independent Club del valore di $10.00<lb/> e che i
                   biglietti siano distribuiti fra<lb/> i soci, e se incaso vincessero il premio<lb/>
                   che sia dato alla societa’.</seg><lb/>
-               <seg type="proposal">Proposto <persName ref="#maffeis" role="proposer">dal fratello
+               <seg type="proposal" subtype="evento">Proposto <persName ref="#maffeis" role="proposer">dal fratello
                      Stefano Maffei</persName><lb/> assecondato <persName ref="#puccettia"
                      role="supporter">dal Adriano puccetti</persName> che sia<lb/> dato un banchetto
                   allacanpagnia<lb/> e di tassare ogni membro che accetta<lb/> l’invito,</seg> e fu
@@ -722,7 +722,7 @@
                   <item><persName ref="#fredianellig">Giuseppe Fredianelli</persName>,</item>
                   <item><persName ref="#pasquinellis">Santino Pasquinelli</persName>.</item>
                </list><lb/>
-               <seg type="proposal">Proposto <persName ref="#pellegrinic" role="proposer">dal
+               <seg type="proposal" subtype="comitato">Proposto <persName ref="#pellegrinic" role="proposer">dal
                      fratello Casimirro Pellegrini</persName><lb/> ass da <persName ref="#pacinic"
                      role="supporter">Candito Pacini</persName> di nominare tre<lb/> persone di
                   visitare i libri del segretario<lb/> di Finanza, e che lo rapportino nella<lb/>
@@ -780,7 +780,7 @@
                      role="supporter">Stefano Maffei</persName> che nella seduta<lb/> di Diciembre
                   di votare a <unclear reason="illegible">sentivo</unclear> singolo<lb/> e fu messo
                   al ballottaggio segreto<lb/> e non venne passato.</seg><lb/>
-               <seg type="proposal">Proposto da <persName ref="#pellegrinic" role="proposer"
+               <seg type="proposal" subtype="regolamento">Proposto da <persName ref="#pellegrinic" role="proposer"
                      >Casimirro Pellegrini</persName><lb/> ass” da <persName ref="#zinif"
                      role="supporter">Fioravante Zini</persName> di dare<lb/> il 10.100 per cente
                      <rs ref="#maffeir">al collettore</rs> che colletta<lb/> la moneta dei soci che
@@ -857,12 +857,12 @@
                <del rend="strike">Proposto da Casimirro Pellegrini ass” da<lb/> Giuseppe Tambellini
                   che $1.50 che<lb/> doveva pagare il fratello Giogio<lb/> Bassotti sia pagato dalla
                   Lega.</del>
-               <seg type="proposal">Proposto da <persName ref="#pellegrinic" role="proposer"
+               <seg type="proposal" subtype="evento">Proposto da <persName ref="#pellegrinic" role="proposer"
                      >Casimirro Pellegrini</persName> ass.<lb/> da <persName ref="#cappellinic"
                      role="supporter">Castruccio Cappellini</persName> di mettere a<lb/> credito una
-                  ticcetta del balle del valore<lb/> di $1.00 <persName ref="#micheluccis">al
+                  ticcetta del ballo del valore<lb/> di $1.00 <persName ref="#micheluccis">al
                      fratello Silvio Michelucci</persName></seg><lb/>
-               <seg type="proposal">Proposto da <persName ref="#tambellinig" role="proposer"
+               <seg type="proposal" subtype="evento">Proposto da <persName ref="#tambellinig" role="proposer"
                      >Giuseppe Tambellini</persName><lb/> ass da <persName ref="#tambellinian"
                      role="supporter">Angelo Tambellini</persName> di dare il<lb/> ballo annuale nel
                   mese di Gennaio 1923.</seg><lb/> e che <list type="committee"
@@ -920,7 +920,7 @@
                      type="monetary" value="42">$42.00</num>.</seg><lb/> Il comitato di
                investicazione quele sala<lb/> fosse la migliore per dare il nostro<lb/> ballo, e
                trovo il montefiore Hall.<lb/>
-               <seg type="proposal">Proposto da <persName ref="#viganol" role="proposer">Lorenzo
+               <seg type="proposal" subtype="evento">Proposto da <persName ref="#viganol" role="proposer">Lorenzo
                      Vigano’</persName> ass. da<lb/>
                   <persName ref="#pacinic" role="supporter">Candito Pacini</persName> che il ballo
                   sia dato<lb/> il 4 mercoledi di gennaio e sia<lb/> in veste civile.</seg><lb/>
@@ -941,7 +941,7 @@
                <pb n="94"/> Collettore <persName ref="#sodinij">Jacopo Sodini</persName><lb/> Guarda
                Sala <persName ref="#fredianellig">Giuseppe Fredianelli</persName><lb/>
                <persName ref="#pasquinelliam">Americo Pasquinelli</persName> uno da elegersi<lb/>
-               <seg type="proposal">Proposto da <persName ref="#maffeis" role="proposer">Stefano
+               <seg type="proposal" subtype="regolamento">Proposto da <persName ref="#maffeis" role="proposer">Stefano
                      Maffei</persName> ass. da<lb/>
                   <persName ref="#sodinij" role="supporter">Jacopo Sodini</persName> che
                   prencipiando<lb/> dal mese di gennaio 1923 di dare<lb/> $9.00 all’anno al
@@ -978,11 +978,11 @@
                <del rend="strike">Proposto da Vi fu due proposte di<lb/> fare pagare gli statuti una
                   a 35c<lb/> i altra a 50c e furono messe al<lb/> ballottaggio Segreto e fu passata
                   quella<lb/> di 50c.</del>
-               <seg type="proposal">Proposto da <persName ref="#sodinij" role="proposer">Jacopo
+               <seg type="proposal" subtype="regolamento">Proposto da <persName ref="#sodinij" role="proposer">Jacopo
                      Sodini</persName> ass. da <persName ref="#maffeis" role="supporter"
                      >Stefano<lb/> Maffei</persName> che gli statuti siano pagati<lb/> quando
                   vengono consegnati.</seg><lb/>
-               <seg type="proposal">Proposto da <persName ref="#fredianim" role="proposer">Muzio
+               <seg type="proposal" subtype="comitato">Proposto da <persName ref="#fredianim" role="proposer">Muzio
                      Frediani</persName> ass. da<lb/>
                   <persName ref="#zinim" role="supporter">Modesto Zini</persName> di Levare un
                   comitato<lb/> di investicare in riguardo di fare<lb/>
@@ -1094,7 +1094,7 @@
                      <persName ref="#sodinij">Jacopo Sodini</persName></item>
                </list><lb/>
                <pb n="97"/>
-               <seg type="proposal">Proposto <persName ref="#maffeis" role="proposer">dal fratello
+               <seg type="proposal" subtype="evento">Proposto <persName ref="#maffeis" role="proposer">dal fratello
                      Stefano Maffei</persName><lb/> ass. da <persName ref="#cappellinic"
                      role="supporter">Castruccio Cappellini</persName> che il<lb/> biglietto del
                   ballo sia obbligatorio<lb/> ed ogni membro deve pagare $1.00<lb/>

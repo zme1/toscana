@@ -233,7 +233,7 @@
                <seg type="comp" subtype="sick"><persName ref="#lunardinip" role="target">Pietro
                      Lunardini</persName> sussidio per malattia <num type="monetary" value="42"
                      >$42.00</num></seg><lb/> e $5.00 per il giovane che manda l’ascensore<lb/>
-               <seg type="proposal">Proposto da <persName ref="#simonettim" role="proposer">Michele
+               <seg type="proposal" subtype="evento">Proposto da <persName ref="#simonettim" role="proposer">Michele
                      Simonetti</persName> e assecondato<lb/> da <persName ref="#maffeis"
                      role="supporter">Stefano Maffei</persName> di dare un banchetto a pagamento<lb/>
                   <pb n="135"/> con data non stabilita.</seg> Incassato dal segretario<lb/> di
@@ -290,7 +290,7 @@
                   <lb/>
                   <item><persName ref="#marsilie">Ernesto Marsili</persName>.</item>
                </list>
-               <seg type="proposal">Su proposta di <persName ref="#tambellinig" role="proposer"
+               <seg type="proposal" subtype="evento">Su proposta di <persName ref="#tambellinig" role="proposer"
                      >Giuseppe<lb/> Tambellini</persName> e <persName ref="#maffeis"
                      role="supporter">Stefano Maffei</persName> viene approvato<lb/> di dare il
                   banchetto ballo colla <unclear reason="illegible">amnestia</unclear> da<lb/>
@@ -404,7 +404,7 @@ l’assemblea accetto’ il prezzo stabilito $4.00<lb/>
                   <note>avendo portatoil<lb/> certificato medico come i nostri regolamenti<lb/> lo
                      richiedono quando un menbro si reca<lb/> all’estero.</note>
                </list>
-               <seg type="proposal">Su proposta di <persName ref="#desimos" role="proposer">Serafino
+               <seg type="proposal" subtype="comitato">Su proposta di <persName ref="#desimos" role="proposer">Serafino
                      De Simo</persName><lb/> e assecondata da <persName ref="#fredianim"
                      role="supporter">Muzio Frediani</persName> di nominare<lb/> l’amministrazione
                   per il banchetto ballo</seg>
@@ -427,12 +427,12 @@ l’assemblea accetto’ il prezzo stabilito $4.00<lb/>
                   type="proposalReject">la prima per la prima<lb/> domenica di Maggio, <persName
                      ref="#maffeis" role="proposer">Maffei</persName>
                   <persName ref="#viganol" role="supporter">Vigano’</persName>,</seg>
-               <seg type="proposal">la seconda<lb/>
+               <seg type="proposal" subtype="evento">la seconda<lb/>
                   <persName ref="#fredianellig" role="proposer">Fredianelli</persName>
                   <persName ref="#fredianim" role="supporter">Frediani</persName> per la seconda
                   domenica<lb/> di Maggio, <rs ref="#simonettim">il presidente</rs> le messe a
                   votazione<lb/> risultando vittoriosa la seconda.</seg> per la seconda<lb/>
-               domenica di Maggio. <seg type="proposal">Proposto da <persName ref="#maffeis"
+               domenica di Maggio. <seg type="proposal" subtype="evento">Proposto da <persName ref="#maffeis"
                      role="proposer">Stefano<lb/> Maffei</persName> e assecondato da <persName
                      ref="#viganol" role="supporter">Lorenzo Vigano</persName> di<lb/> dare una
                   festa campestre il mese di Giugno</seg><lb/>
@@ -518,7 +518,7 @@ l’assemblea accetto’ il prezzo stabilito $4.00<lb/>
                   <item><persName ref="#valdisserau">Umberto Valdissera</persName></item>
                   <item>e <persName ref="#lunardinifa">Faust<lb/> Lunardini</persName>.</item>
                </list>
-               <seg type="proposal">Su proposta di <persName ref="#zinim" role="proposer">Modesto
+               <seg type="proposal" subtype="denaro">Su proposta di <persName ref="#zinim" role="proposer">Modesto
                      Zini</persName> e<lb/> assecondata da <persName ref="#maffeis" role="supporter"
                      >Stefano Maffei</persName> fu approvato<lb/> di mandare $10.00. dollari alle
                   Dame di<lb/> Carita’ per il ballo dato pro’ orfani<lb/> Furano accettate tre
@@ -591,7 +591,7 @@ l’assemblea accetto’ il prezzo stabilito $4.00<lb/>
                </list> Ah questo momento si alza <rs ref="#desantie">il<lb/> vice presidente</rs> e
                ringrazio i membri tutti<lb/> per il buon esito del banchetto ballo e piu’ illustra
                all’assemblea il modo per cui si puo’<lb/> raggiungere le nostre aspirazioni. Applause<lb/>
-               <seg type="proposal">Proposto da <persName ref="#zinim" role="proposer">Modesto
+               <seg type="proposal" subtype="evento">Proposto da <persName ref="#zinim" role="proposer">Modesto
                      Zini</persName> e assecondato da<lb/>
                   <persName ref="#viganol" role="supporter">Lorenzo Vigano’</persName> di dare il
                   pec.nec. la<lb/> terza Domenica di Luglio. P.V.</seg>
@@ -699,7 +699,7 @@ l’assemblea accetto’ il prezzo stabilito $4.00<lb/>
                Orchestra $79.00 fiori $27.50. due posti<lb/> gratuiti per la cantante $8.00. Totale
                spese<lb/> $695.50 Entrate 166 persone a $4.00 a<lb/> testa importano $664.00 che
                sottraendoli<lb/> da $695.50 vi e una rimessa di $31.50<lb/>
-               <seg type="proposal">Fu proposto da <persName ref="#pasquinellis" role="proposer"
+               <seg type="proposal" subtype="denaro">Fu proposto da <persName ref="#pasquinellis" role="proposer"
                      >Santino Pasquinelli</persName> e assecondato<lb/> da <persName ref="#zinim"
                      role="supporter">Modesto Zini</persName> di rifondare $4.00 a<lb/>
                   <persName ref="#fontanaam">Amando Fontana</persName> non avendo potuto
@@ -830,7 +830,7 @@ l’assemblea accetto’ il prezzo stabilito $4.00<lb/>
                avere il resoconto della festa campestre<lb/> pronto <rs ref="#pasquinellis">il
                   tesoriere</rs> dichiaro’ di portarlo alla<lb/> prossima seduta. Si trova ammalato
                   <persName ref="#pistelliu">il<lb/> fratello Ugo Pistelli</persName>. <seg
-                  type="proposal">fu proposto da <persName ref="#zinim" role="proposer">Modesto<lb/>
+                  type="proposal" subtype="evento">fu proposto da <persName ref="#zinim" role="proposer">Modesto<lb/>
                      Zini</persName> e assecondato da <persName ref="#maffeis" role="supporter"
                      >Stefano Maffei</persName> di<lb/> dare un banchetto in campagna il giorno<lb/>
                   <del rend="strike">11</del> di domenica .11 Ottobre 1925, per festeggiare<lb/> il
@@ -952,7 +952,7 @@ l’assemblea accetto’ il prezzo stabilito $4.00<lb/>
                di accettare l’invito. <rs ref="#simonettim">il presidente</rs><lb/> allora le
                distribuisce fra i membri<lb/> pregandoli di non mancare la sera del<lb/> .4.
                Novembre. Essendoci la nomina della<lb/> nuova amministrazione nella prossima<lb/>
-               seduta <seg type="proposal">fu proposto de <persName ref="#zinim" role="proposer"
+               seduta <seg type="proposal" subtype="evento">fu proposto de <persName ref="#zinim" role="proposer"
                      >Modesto Zini</persName> e<lb/> assecondato da <persName ref="#fredianellig"
                      role="supporter">Giuseppe Fredianelli</persName> di<lb/> dare un piccolo
                   rinfresco in onore dei<lb/> nuovi nominati a spese della Societa’.<lb/>
@@ -1004,11 +1004,11 @@ l’assemblea accetto’ il prezzo stabilito $4.00<lb/>
                   <lb/>
                   <item>e <persName ref="#tamburia">Alfredo Tamburi</persName>.</item>
                </list>
-               <seg type="proposal">Dopo lunga discussione<lb/> sulla proposta <persName
+               <seg type="proposal" subtype="evento">Dopo lunga discussione<lb/> sulla proposta <persName
                      ref="#viganol" role="proposer">Vigano’</persName>
                   <persName ref="#zinim" role="supporter">Zini</persName> di dare un ballo<lb/> in
                   maschera per carnevale</seg> ed il 25 per 100.<lb/> a favore dell’orfanotrofio
-               scuola, Artigianelli<lb/> Matteo Civitali di Lucca, <seg type="proposal">venne
+               scuola, Artigianelli<lb/> Matteo Civitali di Lucca, <seg type="proposal" subtype="evento">venne
                   approvata<lb/> con 21 voti favorevoli, e .11 contrari. della prop<lb/> osta
                      <persName ref="#carloe" role="proposer">Carli</persName>. <persName
                      ref="#tambellinig" role="supporter">tambellini</persName>. di dare un ballo
@@ -1148,11 +1148,11 @@ l’assemblea accetto’ il prezzo stabilito $4.00<lb/>
                   <persName ref="#sodinij" role="proposer">Jacopo Sodini</persName> di mandare a
                   tutti i soci morosi una<lb/> lettera col rispettivo ammontare e che non si mette
                   in reg<lb/> ola alla prossima seduta, che sia cancellato.</seg>
-               <seg type="proposal">Proposto<lb/> da <persName ref="#pasquinellis" role="proposer"
+               <seg type="proposal" subtype="denaro">Proposto<lb/> da <persName ref="#pasquinellis" role="proposer"
                      >Santino Pasquinelli</persName>. asso da <persName ref="#marsilia"
                      role="supporter">Abramo Marsil</persName>i di dare<lb/> $10.00 al giovane
                   dell’ascensore.</seg>
-               <seg type="proposal">Pro. da <persName ref="#marsilia" role="proposer">Sam
+               <seg type="proposal" subtype="evento">Pro. da <persName ref="#marsilia" role="proposer">Sam
                      Marsili</persName>. asso.<lb/> da <persName ref="#cinellio" role="supporter"
                      >Olinto Cinelli</persName> di dare un rinfresco alla nuova amministra<lb/>
                   <note resp="#millarj">la parte bassa di pagina 151 e’ stato tagliato dal libretto,

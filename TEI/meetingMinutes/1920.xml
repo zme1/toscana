@@ -200,7 +200,7 @@
                un’ingiustizia fatta in riguardo<lb/> allo stipendio <rs ref="#pellegrinic">del Seg.
                   di finanza</rs> e ciò-<lb/> invece del 4 per cento fu concesso il 5. La<lb/>
                decisioni per tale stato di cose viene ri-<lb/> mandato alla prossima seduta.<lb/>
-               <seg type="proposal">Proposta da <persName ref="#fredianim" role="proposer">M.
+               <seg type="proposal" subtype="evento">Proposta da <persName ref="#fredianim" role="proposer">M.
                      Frediani</persName>; ass. da<lb/>
                   <persName ref="#marsilis" role="supporter">Sam Marsili</persName> de i possesori
                   di biglietti<lb/> del ballo non portandoli indietro alla<lb/> prossima seduta
@@ -213,19 +213,19 @@
                      value="28">$28</num><lb/>
                   <persName ref="#simonettim" role="target">al fratello Michele Simonetti</persName>
                   per 28<lb/> giorno di malattia.</seg><lb/>
-               <seg type="proposal"><persName ref="#silvionic" role="proposer">Il fratello Carlo
+               <seg type="proposal" subtype="evento"><persName ref="#silvionic" role="proposer">Il fratello Carlo
                      Silvioni</persName> ass.<lb/> da <persName ref="#tambellinig" role="supporter"
                      >Giuseppe Tambellini</persName> propose di<lb/> fare regalo alle giovinette che<lb/>
                   <pb n="39"/> venderano fiori al nostro Ballo.</seg> Il<lb/> valore complessivo di
                tali regali non<lb/> deve oltrepassare i $ 5.00.<lb/>
-               <seg type="proposal">Proposto <persName ref="#diodativ" role="proposer">dal fratello
+               <seg type="proposal" subtype="denaro">Proposto <persName ref="#diodativ" role="proposer">dal fratello
                      V. Diodati</persName> ass.<lb/> da <persName ref="#tambellinig"
                      role="supporter">G. Tambellini</persName>
                   <seg type="comp" subtype="regalo">di dare in regale al<lb/> fratello <persName
                         ref="#lunardinil" role="target">Lorenzo Lunardini</persName>, per avere<lb/>
                      venduto un maggior numero di biglietti<lb/> del Ballo, del valore di <num
                         type="monetary" value="10">$ 10.</num></seg></seg><lb/>
-               <seg type="proposal">Proposto da <persName ref="#pasquinellis" role="proposer">S.
+               <seg type="proposal" subtype="denaro">Proposto da <persName ref="#pasquinellis" role="proposer">S.
                      Pasquinelli</persName> ass. da<lb/>
                   <persName ref="#viganol" role="supporter">Lorenzo Vigano’</persName>
                   <seg type="comp" subtype="regalo">consegnare <num type="monetary" value="15">$
@@ -296,7 +296,7 @@
                farsi<lb/> in riguardo allo stipendio percepi-<lb/> to <rs ref="#pasquinellis"
                   >dall’ex Seg. di Finanza</rs>.<lb/> Non avendo il comitato regali esple-<lb/> tati
                i suoi doveri, perche scusabili,<lb/> viene rimandata la consegna alla<lb/> prossima seduta.<lb/>
-               <seg type="proposal">Proposto da <persName ref="#simonettim" role="proposer">Michele
+               <seg type="proposal" subtype="status">Proposto da <persName ref="#simonettim" role="proposer">Michele
                      Simonetti</persName> ed<lb/> ass. <rs ref="#legaT" role="supporter">ad
                      unanimita</rs> che gli asperanti<lb/> che presentarano Domande di
                   ammissio-<lb/> ne antecedente a questa seduta, non<lb/>
@@ -349,12 +349,12 @@
                </list><lb/> Fu definita la questione del percen-<lb/> tuale <persName
                   ref="#pasquinellis">al segretario di finanza Santino<lb/> Pasquinelli</persName>
                pagando esso la differenze in<lb/> piu ricevuta.<lb/>
-               <seg type="proposal">Proposto da <persName ref="#simonettim" role="proposer">M.
+               <seg type="proposal" subtype="misc">Proposto da <persName ref="#simonettim" role="proposer">M.
                      Simonetti</persName> ass.<lb/> da <persName ref="#bertonie" role="supporter">E.
                      Bertoni</persName> di fare un<unclear reason="illegible">bottone</unclear> a
                   giglio<lb/> e che questi venghino pagati da singoli soci<lb/>
                   <pb n="42"/> Come pure si decise far fare 20 badges<lb/> che dovranno servire ai
-                  rappresentanti <orgName ref="#legaT">la Lega</orgName><lb/> nelle diversi
+                  rappresentanti la Lega<lb/> nelle diversi
                   occasioni.</seg> Per tali fabbisogni<lb/> fu scielto un comitato per la ricerca
                dei<lb/> prezzi migliori. Gli incaricati sono <persName ref="#fredianim">Muzio
                   Fre-<lb/> diani</persName> e <persName ref="#simonettim">Michele
@@ -366,12 +366,12 @@
                      Sodini</persName> - <num type="monetary" value="31">31.00</num></seg><lb/>
                <seg type="comp" subtype="sick"><persName ref="#pardinib" role="target">Benedetto
                      Pardini</persName> - <num type="monetary" value="11">11.00</num></seg><lb/>
-               <seg type="proposal"><persName ref="#bertonie" role="proposer">Eugenio
+               <seg type="proposal" subtype="denaro"><persName ref="#bertonie" role="proposer">Eugenio
                      Bertoni</persName>, ass. da <persName ref="#zinim" role="supporter">Modesto
                      Zini</persName>,<lb/> propone sio prelevato dal fondo cassa<lb/> $500.00 per
                   investirli al <orgName ref="#presito">Prestito Italiano</orgName><lb/> in
                   dollari.</seg><lb/>
-               <seg type="proposal">
+               <seg type="proposal" subtype="evento">
                   <persName ref="#simonettim" role="proposer">M. Simonetti</persName> ass. <rs
                      ref="#legaT" role="supporter">ad unanimita</rs><lb/> propone dare un pic-nic e
                   tal uopo<lb/> viene fatto un comitato con piene potere<lb/> di fissare il posto se
@@ -425,7 +425,7 @@
                   <item><persName ref="#piaggesia">Aladino Piaggesi</persName></item>
                   <item>e <persName ref="#viganol">Lorenzo Vigano'</persName>.</item>
                </list> Il<lb/> Processo verbale venna approvato come<lb/> letto.<lb/>
-               <seg type="proposal"><seg type="comp" subtype="charity"><persName ref="#fredianellig"
+               <seg type="proposal" subtype="denaro"><seg type="comp" subtype="charity"><persName ref="#fredianellig"
                         role="proposer">Fredianelli Giuseppe</persName> ass. da <persName
                         ref="#sodinij" role="supporter">Jacopo<lb/> Sodini</persName> propone di
                      dare <num type="monetary" value="35">$35.00</num> agli<lb/> orfani di guerra
@@ -447,7 +447,7 @@
                   scelto <orgName ref="#legaT">dalla Lega</orgName>. Tale proposta<lb/> venne
                   rigettato facendo valida la<lb/> legge in vigore.</seg><lb/> Si da facolta al
                comitato Pic-<lb/> nic di fissare il campo e di non<lb/> oltrepassare la somma di $100.00.<lb/>
-               <seg type="proposal">Proposto da <persName ref="#lunardinil" role="proposer"
+               <seg type="proposal" subtype="evento">Proposto da <persName ref="#lunardinil" role="proposer"
                      >Lunardini Lorenzo</persName><lb/> ed ass. da <persName ref="#pellegrinic"
                      role="supporter">C. Pellegrini</persName> di mandare<lb/> 5 biglietti ad ogni
                   membro del valore<lb/> di $5.00 per la serata artistica del<lb/> Club
@@ -597,7 +597,7 @@
                      Viganò</persName></seg> e fu rigettato<lb/> il diario <persName ref="#barantip"
                   >del fratello Pietro Baranti</persName> per-<lb/> ché egli all’epoca quando cadde
                amma-<lb/> lato trovavasi arretrato coi pagamenti<lb/> mensili.<lb/>
-               <seg type="proposal"> Viene proposta <persName ref="#bertonie" role="proposer">dal
+               <seg type="proposal" subtype="misc"> Viene proposta <persName ref="#bertonie" role="proposer">dal
                      fratello Eugenio<lb/> Bertoni</persName> ed ass. da <persName
                      ref="#fredianellig" role="supporter">G. Fredianelli</persName> d’fare<lb/> lo
                   stendardo sociale.</seg><lb/>
@@ -631,7 +631,7 @@
                   <item><persName ref="#paganuccis">Sam Paganucci</persName></item>
                   <item>e <persName ref="#buchignianil">Luigi Buchigua-<lb/> ni</persName>.</item>
                </list> Il processo verbale venne approvato<lb/> senza osservazioni.<lb/>
-               <seg type="proposal">Proposta al <persName ref="#silvionic" role="proposer">Carlo
+               <seg type="proposal" subtype="comitato">Proposta al <persName ref="#silvionic" role="proposer">Carlo
                      Silvioni</persName> ed<lb/> ass. da <persName ref="#sodinij" role="supporter"
                      >Sodini Jacopo</persName> di nominare<lb/> un comitato per fare lo stendardo
                   so-<lb/> ciale e che questo sia autorizzato di<lb/> non spendere piu di
@@ -646,7 +646,7 @@
                   <lb/>
                   <item><persName ref="#silvionic">Carlo Silvione</persName></item>
                </list><lb/>
-               <seg type="proposal"><persName ref="#pasquinelliam" role="proposer">A.
+               <seg type="proposal" subtype="denaro"><persName ref="#pasquinelliam" role="proposer">A.
                      Pasquinelli</persName> ass. da <persName ref="#tambellinig" role="supporter">G.
                      Tambellini</persName><lb/> di aprire una sottoscrizione /uno – stendardo<lb/>
                   <pb n="47"/> per fare in parte l’ammontare occorrente<lb/> per l’acquisto.</seg>
@@ -678,7 +678,7 @@
                   <num type="monetary" value="3">$3</num></seg>, <seg type="comp" subtype="donation"
                      ><persName ref="#serafinini" role="source">Nicolai Serafino</persName><lb/>
                   <num type="monetary" value="3">$3</num></seg>.<lb/> Parlando in riguardo al Pic-nic<lb/>
-               <seg type="proposal"><persName ref="#pellegrinic" role="proposer">Casimiro
+               <seg type="proposal" subtype="denaro"><persName ref="#pellegrinic" role="proposer">Casimiro
                      Pellegrini</persName> ass. <persName ref="#piaggesia" role="supporter">Aladino
                      Piaggesi</persName><lb/> propone sia accettato $35.00 dal <persName
                      ref="#banchieris">Sig.<lb/> Banchieri</persName> per avere egli il permesso
@@ -744,7 +744,7 @@
                Comitato ha piena facoltà di spendere<lb/> quello che realmente occorre.”<lb/> Il
                resoconto Pic-nic risultò così:<lb/> Entrata $ 592.79, spese $404.90 restando<lb/> di
                profitto $207.79. Più 50 biglietti ancora<lb/> da collettare. <seg type="proposal"
-                     ><persName ref="#pasquinellis" role="proposer">Il fratello Santino Pa-<lb/>
+                      subtype="denaro"><persName ref="#pasquinellis" role="proposer">Il fratello Santino Pa-<lb/>
                      quinelli</persName>, assecondato da <persName ref="#lucchesiam"
                      role="supporter">Americo Lucchesi</persName>,<lb/> propone che il ricavato sia
                   devoluto alla<lb/> cassia sociale.</seg>
@@ -753,17 +753,17 @@
                osservazione<lb/> sul cattivo funzionamento della mu-<lb/> sica, ma però fu approvato
                che li<lb/>
                <del rend="strike">pagho</del> pagasse tutto l’ammontare fis-<lb/> sato e cioè -- $50.00.<lb/>
-               <seg type="proposal">Proposto da <persName ref="#desimos" role="proposer">Serafino
+               <seg type="proposal" subtype="denaro">Proposto da <persName ref="#desimos" role="proposer">Serafino
                      DeSimo</persName><lb/> Ed ass. da <persName ref="#sodinij" role="supporter"
                      >Jacapo Sodini</persName> di pa-<lb/> gare dalla casse $7.00 spesi per un<lb/>
                   <pb n="50"/> fiore alla defunta moglie <persName ref="#bartolis">del fratello<lb/>
                      Bartoli Salvatore.</persName></seg><lb/>
-               <seg type="proposal"><persName ref="#pellegrinic" role="proposer">Casimiro
+               <seg type="proposal" subtype="evento"><persName ref="#pellegrinic" role="proposer">Casimiro
                      Pellegrini</persName> assecondato da<lb/>
                   <persName ref="#lunardinil" role="supporter">Lorenzo Lucardini</persName> di dare
                   il nostro<lb/> Ballo annuale verso il mese di No-<lb/> Vembre ed alla prossima
                   seduta no-<lb/> minare il Comitato addetto.</seg><lb/>
-               <seg type="proposal"><persName ref="#fredianim" role="proposer">Muzio
+               <seg type="proposal" subtype="misc"><persName ref="#fredianim" role="proposer">Muzio
                      Frediani</persName> ass. da <persName ref="#zinim" role="supporter">Zini<lb/>
                      Modesto</persName> di cambiare la sala <unclear reason="illegible"/><lb/> dalle
                   piccole passare alla grande ed<lb/> il medesimo <persName ref="#fredianim"
@@ -813,7 +813,7 @@
                dai $500 ai 700 e<lb/>
                <rs ref="#pellegrinic">dichiarò</rs> di non avere dato ordinazioni<lb/> poiché il
                costo gli sembrò esagerato<lb/>
-               <seg type="proposal">E così li venne a conclusione su<lb/> proposta <persName
+               <seg type="proposal" subtype="comitato">E così li venne a conclusione su<lb/> proposta <persName
                      ref="#casalio" role="proposer">del fratello Omero Casali</persName><lb/> ass.
                      <persName ref="#zinim" role="supporter">dal fratello Zini</persName>, di far
                   fare<lb/> solo lo standardo e di sospendere per<lb/> il momento le bandiere con un
@@ -824,7 +824,7 @@
                      Pasquinelli</persName> e questi con atto fi-<lb/> lantropico devolse la somma
                   a<lb/> beneficio <rs ref="#terremoto" role="target">dei derelitti del
                      terremoto</rs></seg><lb/>
-               <seg type="proposal"><seg type="comp" subtype="charity"><rs ref="#maffeis">Il
+               <seg type="proposal" subtype="denaro"><seg type="comp" subtype="charity"><rs ref="#maffeis">Il
                         presidente</rs> accenna alle catestr-<lb/> ofe avvenute in Toscana con
                      parole<lb/> commoventi de dopo di avere lasciato<lb/> la sedia <rs
                         ref="#sodinij">al Vice Presidente</rs>
@@ -892,7 +892,7 @@
                ordinaria presie-<lb/> duta <persName ref="#maffeis">dal presidente Stefano
                   Maffei</persName>: Non si<lb/> tenne conto della assenza degli ufficiali
                perche<lb/> nella seduta prossima ci sarà la nomina<lb/> degli ufficiali.<lb/>
-               <seg type="proposal">Proposto da <persName ref="#fredianim" role="proposer">M.
+               <seg type="proposal" subtype="regolamento">Proposto da <persName ref="#fredianim" role="proposer">M.
                      Fredianni</persName> ed ass. da<lb/>
                   <persName ref="#sodinij" role="supporter">Jacopo Sodini</persName> di concedere il
                   privilegio<lb/> a tutti i toscani di poter appartenere <orgName ref="#legaT"
@@ -900,7 +900,7 @@
                   cioè: L’ammissione costa solo $1.00<lb/> a coloro che hanno non meno di 18
                   anni<lb/> e non più di 36 e questa concessione<lb/> durerà dalla prossima seduta
                   di Novembre<lb/> fino alle sedute di Febbraio.</seg><lb/>
-               <seg type="proposal"><persName ref="#pellegrinic" role="proposer">Il fratelo Casimiro
+               <seg type="proposal" subtype="evento"><persName ref="#pellegrinic" role="proposer">Il fratelo Casimiro
                      Pellegrini</persName> ass.<lb/> da <persName ref="#zinim" role="supporter"
                      >Modesto Zini</persName> di sospendere, per giuste<lb/> Ragioni, il proposto
                   Ballo ed in conse-<lb/> guenza di cio – venga prosciolto il comitato<lb/> per il
@@ -912,7 +912,7 @@
                   <item><persName ref="#marchettie"><roleName type="committee" role="chairman"/>il
                         fra-<lb/> tello Emilio Marchetti</persName></item>
                </list><lb/>
-               <seg type="proposal"><persName ref="#pellegrinic" role="proposer">Casimiro
+               <seg type="proposal" subtype="evento"><persName ref="#pellegrinic" role="proposer">Casimiro
                      Pellegrini</persName> ass. da<lb/>
                   <persName ref="#zinim" role="supporter">Modesto Zini</persName> che nella prossima
                   seduta<lb/> sia dato un rinfresco in onore dei soldati<lb/> toscani in
@@ -960,7 +960,7 @@
                   <item>e <persName ref="#buchignianil">Luigi<lb/> Buchignani</persName></item>
                   <note> il quale ultimo trovasi ammalato.</note>
                </list><lb/> Il processo verbale venne approvato come<lb/> letto.<lb/>
-               <seg type="proposal">Dopo di avere splitato affari am-<lb/> ministrati il
+               <seg type="proposal" subtype="evento">Dopo di avere splitato affari am-<lb/> ministrati il
                      fratello<persName ref="#fredianim" role="proposer"> M. Frediani</persName>
                   ass.<lb/> Da Lui <persName ref="#zinim" role="supporter">Modesto</persName> di
                   dare un Ballo masche-<lb/> rato per il prossimo periodo di carnevale</seg><lb/>
@@ -1103,7 +1103,7 @@
                      Pellegrini</persName></seg><lb/>
                <seg type="comp" subtype="sick">ed a <persName ref="#santarlascia" role="target"
                      >Angelo Santarlasci</persName>
-                  <num type="monetary" value="10">$10.00</num></seg>, <seg type="proposal">ma<lb/>
+                  <num type="monetary" value="10">$10.00</num></seg>, <seg type="proposal" subtype="denaro">ma<lb/>
                   trovandosi agli arretrato coi pagamenti<lb/> verso la Lega fu fatta da <persName
                      ref="#fredianellig" role="proposer">Giuseppe<lb/> Fredianelli</persName>
                   assecondato da <persName ref="#zinim" role="supporter">Zini
@@ -1179,7 +1179,7 @@
                               type="committee" role="assistente"/>.</item>
                      </list></item>
                </list><lb/>
-               <seg type="proposal">Il fratello <persName ref="#santarlascia" role="proposer">Angelo
+               <seg type="proposal" subtype="evento">Il fratello <persName ref="#santarlascia" role="proposer">Angelo
                      Santarlasci</persName> ass.<lb/> da <persName ref="#marchettie"
                      role="supporter">Emilio Marchetti</persName>
                   <del rend="strike">che</del> propone che<lb/> sia il Ballo in Farma civile e

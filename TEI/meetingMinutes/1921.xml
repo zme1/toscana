@@ -271,7 +271,7 @@
                      ref="#buchignianil" role="target">al fratello Luigi Buchignani<lb/>
                      <num type="monetary" value="55">$55.00</num> il qui era stato Ammalato 55
                      giorni<lb/> con desiperá.</persName></seg><lb/>
-               <seg type="proposal">Venne fatta una proposta da <persName ref="#simonettim"
+               <seg type="proposal" subtype="evento">Venne fatta una proposta da <persName ref="#simonettim"
                      role="proposer">Michele<lb/> Simonetti</persName> e assecondata da <persName
                      ref="#zinim" role="supporter">Modesto Zini</persName><lb/> di dare una festa
                   campestre ossia un picnic<lb/> Nel Estate e di nominare un comitato di<lb/> andare
@@ -347,29 +347,29 @@
                pago’ anche un deposito<lb/> per un altra volta Domenica se la<lb/> semblea lo avesse
                accettato, se incaso la<lb/> semblea non avesse voluto fare due Pic-Nic,<lb/> allara
                la moneta versata, andava per<lb/> il 19 Giugno P.V. Depesitato $20.00.<lb/>
-               <seg type="proposal">Proposto da <persName ref="#pellegrinic" role="proposer"
+               <seg type="proposal" subtype="evento">Proposto da <persName ref="#pellegrinic" role="proposer"
                      >Casimiro Pellegrini</persName> è assecondato<lb/> da <persName
                      ref="#maffeigia" role="supporter">Giacomo Maffei</persName> di fare due
                   Pic-Nic. uno<lb/> il 19 Giugno e laltro il 28 Agosto P.V, e questo<lb/> venne
                   passato dallasemblea.</seg><lb/>
-               <seg type="proposal">Proposto da <persName ref="#maffeis" role="proposer">Stefano
+               <seg type="proposal" subtype="denaro">Proposto da <persName ref="#maffeis" role="proposer">Stefano
                      Maffei</persName> e assecondato<lb/> da <persName ref="#zinim" role="supporter"
                      >Modesto Zini</persName> di comperare un banco<lb/> per uso di societa’,
                      <persName ref="#pardinib">dal fratello Benedetto<lb/> Pardini</persName> del
                   valore di $15.00 se la semblea<lb/> lo avesse accettato, e questo venne
                   accettato.</seg><lb/>
-               <seg type="proposal">Proposto da <persName ref="#simonettim" role="proposer">Michele
+               <seg type="proposal" subtype="denaro">Proposto da <persName ref="#simonettim" role="proposer">Michele
                      Simonetti</persName> è assecondato<lb/> da <persName ref="#santarlascia"
                      role="supporter">Angelo Santarlascio</persName> di portare il banco<lb/> in
                   sala per la prossima Seduta, e questo<lb/> venne passato dalla semblea.</seg><lb/>
-               <seg type="proposal">Proposto da <persName ref="#maffeis" role="proposer">Stefano
+               <seg type="proposal" subtype="evento">Proposto da <persName ref="#maffeis" role="proposer">Stefano
                      Maffei</persName> e assecondato<lb/> da <persName ref="#zinim" role="supporter"
                      >Modesto Zini</persName> di dare un intrattenimento<lb/> a tutti i soci della
                   Lega, e di mettere lo<lb/> stendardo e bandiere stese in Sala, quella<lb/> sera
                   del intrattenimento per farle vedere<lb/> a quelli che ancora non le anno vedute<lb/>
                   <pb n="63"/> e di avvisare con cartolina i soci, e che<lb/> portino tutti i
                   toscani di loro conoscenza<lb/> e questo venne passato dalla semblea.</seg><lb/>
-               <seg type="proposal">Proposto da <persName ref="#sodinij" role="proposer">Jacapo
+               <seg type="proposal" subtype="evento">Proposto da <persName ref="#sodinij" role="proposer">Jacapo
                      Sodini</persName> e assecondato<lb/> da <persName ref="#simonettim"
                      role="supporter">Michele Simonetti</persName> di dare questo<lb/>
                   Intrattenimento di Domenica se è possibile<lb/> e di nominare un comitato di
@@ -391,7 +391,7 @@
                   <lb/>
                   <item><persName ref="#pellegrinic">Casimiro Pellegrini</persName></item>
                </list><lb/>
-               <seg type="proposal">Proposto da <persName ref="#silvionic" role="proposer">Carlo
+               <seg type="proposal" subtype="amnistia">Proposto da <persName ref="#silvionic" role="proposer">Carlo
                      Silvioni</persName> e assecondato<lb/> da <persName ref="#maffeigia"
                      role="supporter">Giacomo Maffei</persName> di allungare<lb/> l’annestia fino
                   alla seduta di Marzo P.V.<lb/> e venne passta dalla Semblea.</seg><lb/>
@@ -467,7 +467,7 @@
                <seg type="comp" subtype="sick">Venne concesso sussidio per malatia<lb/>
                   <num type="monetary" value="56">$56.00</num>
                   <persName ref="#datia" role="target">al Fratello Adelmo Dati</persName>.</seg><lb/>
-               <seg type="proposal">Proposto da <persName ref="#pellegrinic" role="proposer"
+               <seg type="proposal" subtype="comitato">Proposto da <persName ref="#pellegrinic" role="proposer"
                      >Casimirro Pellegrini</persName> e assecondato<lb/> da <persName
                      ref="#pasquinellis" role="supporter">Santino Pasquinelli</persName> che sia
                   nominato<lb/> un comitato per il Pic-Nic nella<lb/> seduta di Aprile e che siano
@@ -697,7 +697,7 @@
                <seg type="comp" subtype="sick"><persName ref="#serafinia" role="target">Antonio
                      Serafini</persName>
                   <num type="monetary" value="19">$19.00</num>.</seg><lb/>
-               <seg type="proposal">Proposto da <persName ref="#marchettie" role="proposer">Emilio
+               <seg type="proposal" subtype="status">Proposto da <persName ref="#marchettie" role="proposer">Emilio
                      Marchetti</persName> e assecon-<lb/> dato da <persName ref="#piaggesia"
                      role="supporter">Aladino Piaggesi</persName>, che gli<lb/> aspiranti che
                   presenteranno domanda<lb/> di ammissione anticedente a questa<lb/> seduta, non
@@ -705,20 +705,20 @@
                   gli ascritti <del rend="strike">della</del><lb/> perderanno il diritto di
                   rimborso<lb/> della moneta versata, giusto nostre leggi.</seg><lb/>
                <persName ref="#marsilis" role="source">Il Presidente Sam Marsili</persName> apri
-               la<lb/> nomina per un collettore, <seg type="proposal">fu proposto<lb/> il fratello
+               la<lb/> nomina per un collettore, <seg type="proposal" subtype="nominazione">fu proposto<lb/> il fratello
                      <persName ref="#cappellinic" role="replacement">Castruccio
                      Cappellini</persName><lb/>
                   <pb n="69"/> da <persName ref="#martinellia" role="proposer">Alfredo
                      Martinelli</persName> assecondato<lb/> dal fratello <persName ref="#viganol"
                      role="supporter">Lorenzo Vigano’</persName> e fu<lb/> passato ad una
                   anemita’.</seg><lb/>
-               <seg type="proposal">Proposto <persName ref="#maffeis" role="proposer">dal fratello
+               <seg type="proposal" subtype="status">Proposto <persName ref="#maffeis" role="proposer">dal fratello
                      Stefano Maffei</persName><lb/> assecondato <persName ref="#viganol"
                      role="supporter">dal fratello Lorenzo Vigano’</persName><lb/> di mettere
                      <persName ref="#pasquinellig">Giovanni Pasquinelli</persName> nella<lb/> Lega
                   come membro Onorario se la<lb/> semblea lo avesse accettato e<lb/> questo venne
                   accettato da tutta<lb/> la semblea generale.</seg><lb/>
-               <seg type="proposal">Proposto dal fratello <persName ref="#fredianim" role="proposer"
+               <seg type="proposal" subtype="evento">Proposto dal fratello <persName ref="#fredianim" role="proposer"
                      >Muzio Frediani</persName><lb/> Assecondato da <persName ref="#viganol"
                      role="supporter">Lorenzo Vigano’</persName> che<lb/> Sia dato il premio a
                   quella persona<lb/> Che a venduto di piu’ biglietti per<lb/> La festa da ballo del
@@ -870,7 +870,7 @@
                      Sodini</persName></item>
                </list>, il quale ultimo trovasi un<lb/> po ammalato. Il processo verbale<lb/> venne
                approvato come letto.<lb/>
-               <seg type="proposal">Proposto dal fratello <persName ref="#zinif" role="proposer"
+               <seg type="proposal" subtype="misc">Proposto dal fratello <persName ref="#zinif" role="proposer"
                      >Fioravante Zini</persName><lb/> assecondato dal fratello <persName
                      ref="#maffeigia" role="supporter">Giacomo Maffei</persName><lb/> di fare un
                   regalo alla fine dell’anno<lb/>
@@ -919,14 +919,14 @@
                   <note>come membro<lb/> onorario e gli fu fatto un grande<lb/> applauso da tutta la
                      semblea generale.</note>
                </list><lb/>
-               <seg type="proposal">Proposto <persName ref="#maffeis" role="proposer">dal fratello
+               <seg type="proposal" subtype="evento">Proposto <persName ref="#maffeis" role="proposer">dal fratello
                      Stefano Maffei</persName> ass<lb/>
                   <persName ref="#zinim" role="supporter">dal fratello Modesto Zini</persName> di
                   dare un<lb/> ballo nell’avvenire come la Lega a sempre<lb/> fatto nel passato e
                   poi<lb/> si parlera’ nelle prossime sedute quan-<lb/> do si dove’ dare questo
                   ballo.</seg><lb/>
                <pb n="73"/>
-               <seg type="proposal">Proposto <persName ref="#maffeis" role="proposer">dal fratello
+               <seg type="proposal" subtype="misc">Proposto <persName ref="#maffeis" role="proposer">dal fratello
                      Stefano Maffei</persName><lb/> ass <persName ref="#marsilia" role="supporter"
                      >dal fratello Abramo Marsili</persName><lb/> di sospendere la seduta per<lb/>
                   quella sera a motivo che vi era’<lb/>
@@ -969,12 +969,12 @@
                   <item><persName ref="#lucchesiam">Americo Lucchesi</persName>,</item>
                   <item><persName ref="#fredianellig">Giuseppe Fredia-<lb/> nelli</persName>.</item>
                </list> Il processo verbale venne approva-<lb/> to come letto.<lb/>
-               <seg type="proposal">Proposto <persName ref="#maffeis" role="proposer">dal fratello
+               <seg type="proposal" subtype="evento">Proposto <persName ref="#maffeis" role="proposer">dal fratello
                      Stefano Maffei</persName><lb/> ass <persName ref="#pasquinellis"
                      role="supporter">dal fratello Santino Pasquinelli</persName><lb/> di dare il
                   proposto ballo di Carnevale,<lb/> edse e’ possibile di darlo il giovedi
                   grasso<lb/> e questo venne approvato.</seg><lb/>
-               <seg type="proposal">Proposto <persName ref="#pasquinellis" role="proposer">dal
+               <seg type="proposal" subtype="denaro">Proposto <persName ref="#pasquinellis" role="proposer">dal
                      fratello Santino Pasquinelli</persName><lb/> ass <persName ref="#sodinij"
                      role="supporter">dal fratello Jacopo Sodini</persName>
                   <del rend="strike">i</del> che il<lb/> cinquanta percento (50/100) del guadagno
@@ -1046,11 +1046,11 @@
                </list><lb/> Il comitato Sala fisso’ la sala del<lb/> Coffey Club ossia il Montefiore
                Hall.<lb/> E pago’ un deposito di $25.00 il rimandan-<lb/> te di pagarlo la sera dell
                ballo o in<lb/> Prima, e fu fissata per il giorno 22<lb/> Febbraio 1922.<lb/>
-               <seg type="proposal">Proposto <persName ref="#sodinij" role="proposer">dal fratello
+               <seg type="proposal" subtype="evento">Proposto <persName ref="#sodinij" role="proposer">dal fratello
                      Jacopo Sodini</persName> assecon-<lb/> Dato <persName ref="#cappellinic"
                      role="supporter">dal fratello Cartruccio Cappellini</persName> di<lb/> Dare il
                   proposto ballo in machera.</seg><lb/>
-               <seg type="proposal">Proposto <persName ref="#sodinij" role="proposer">dal fratello
+               <seg type="proposal" subtype="evento">Proposto <persName ref="#sodinij" role="proposer">dal fratello
                      Jacopo Sodini</persName> assecon-<lb/> Dato dal fratello <persName
                      ref="#maffeigia" role="supporter">Giovacchino Maffei</persName> che<lb/> Il
                   biglietto del socio sia obbligatorio.</seg><lb/>

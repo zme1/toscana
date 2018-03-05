@@ -261,7 +261,7 @@
                <persName ref="#fredianim">Il Presidente Frediani</persName> Chiedeva il Parere
                all’assemble-<lb/> a in riguardo quando Fosse Stato Necessario di<lb/> Mettere in
                Vigore il Sussidio della Lega Toscana e<lb/> dopo Fatta una Lunga disculzione <seg
-                  type="proposal"><persName ref="#simonettim" role="proposer">il Fratello<lb/> M.
+                  type="proposal" subtype="regolamento"><persName ref="#simonettim" role="proposer">il Fratello<lb/> M.
                      Simonetti</persName> Faceva la Proposta che il Sussidio<lb/> Fosse Andato in
                   Vigore il 1° aprile 1919<lb/> la Proposta Vene Assecondata <persName
                      ref="#maffeis" role="supporter">dal Fratello Stefano<lb/> Maffei</persName>
@@ -271,7 +271,7 @@
                <pb n="3"/> Veniva aperta la disculzione a riguardo al<lb/> fondo Mortuario che il
                quale tutti i Soci sono<lb/> sotto a Pagamento di $200 --- che i quali<lb/> vanno a
                fondo Mortuario--<lb/>
-               <seg type="proposal">dopo una Grande Disculzione <persName ref="#maffeis"
+               <seg type="proposal" subtype="regolamento">dopo una Grande Disculzione <persName ref="#maffeis"
                      role="proposer">il fratello<lb/> Stefano Maffei</persName> faceva la Proposta
                   che i<lb/> $200 fossero Pagati da tutti i fratelli non<lb/> piu' tardi del 1
                   Aprile 1919. la Proposta <persName ref="#maffeis">del Fratello Maffei</persName>
@@ -327,12 +327,12 @@
                Pagò la Soma di $5.00 i quali<lb/> Anderanno a fondo del Sodalizio<lb/> Billi che
                furano Pagati in Seduta Stante<lb/> Stampa $4.50 un Libro Per Precessi Verbal<lb/>
                $2.15 Totale $6.65/100<lb/> quindi Si Passo alla disculzione in riguardo<lb/> A una
-               Nuova Amistia <seg type="proposal">dopo una Lunga<lb/> disculzione <persName
+               Nuova Amistia <seg type="proposal" subtype="amnistia">dopo una Lunga<lb/> disculzione <persName
                      ref="#maffeis" role="proposer">Il Fratello S Maffei</persName> fece la<lb/>
                   proposta di fare una Mistia la proposta <persName ref="#maffeis">del<lb/> Fratello
                      S Maffei</persName> fu asecondata <persName ref="#bertonie" role="supporter"
                      >dal Fratello E Benedetto</persName></seg><lb/>
-               <seg type="proposal"><persName ref="#marsilia" role="proposer">Il Fratello Abramo
+               <seg type="proposal" subtype="amnistia"><persName ref="#marsilia" role="proposer">Il Fratello Abramo
                      Marsili</persName> fece una Proposta che<lb/> in questa Mistia non fossero
                   amessi i Foreoni<lb/>
                   <del rend="strike">più</del> che Oltrapassano 35 anni di Età e non<lb/> più
@@ -340,7 +340,7 @@
                   la Proposta <persName ref="#marsilia">del Fratello abramo Marsili</persName><lb/>
                   fu assecondata <persName ref="#maffeigio" role="supporter">dal Fratello
                      Giovacchino Maffei</persName></seg><lb/>
-               <seg type="proposal"><persName ref="#maffeis" role="proposer">Il Fratello Stefano
+               <seg type="proposal" subtype="regolamento"><persName ref="#maffeis" role="proposer">Il Fratello Stefano
                      Maffei</persName> Fece la Proposta<lb/>
                   <pb n="5"/> che fosse Stampata una gunta all’articolo 11<lb/> perche il detto art
                   non permette di acettare<lb/> aplicazione Se non anno 21 anni di Età e<lb/> non
@@ -408,7 +408,7 @@
                   <note>tutti e due <rs ref="#fredianim">il Presidente</rs><lb/> gli Messe al Ballottaggio
                      Risultarono<lb/> tutti Favorevoli nessono Contrari</note>
                </list><lb/> vi fu’ una discursione al riguardo<lb/> al Fondo Unico Mortuario <seg
-                  type="proposal">dopo che<lb/> Fu Parlato da diversi Fratelli <persName
+                  type="proposal" subtype="regolamento">dopo che<lb/> Fu Parlato da diversi Fratelli <persName
                      ref="#maffeis" role="proposer">il<lb/> Fratello Stefano Maffei</persName> fece
                   la <lb/> Proposta che tutti coloro che Pageravan-<lb/> o la tassa di $2.00 giusto
                   Nostro<lb/> regolamento Unico Fondo Mortuario<lb/>
@@ -421,7 +421,7 @@
                      role="supporter">dl Socio<lb/> Santino Pasquinelli</persName>.<lb/>
                   <rs ref="#fredianim">Il Presidente</rs> la Messe all’aprovazione<lb/> e fu Aprovata con
                   tutti Favorevoli e Nessun-<lb/> o Contrari</seg><lb/>
-               <seg type="proposal"><persName ref="#simonettim" role="proposer">Il Fratello Michele
+               <seg type="proposal" subtype="regolamento"><persName ref="#simonettim" role="proposer">Il Fratello Michele
                      Simonetti</persName> Fece la<lb/> Proposta che Fosse Mandato a tutti<lb/> i
                   Soci una Circolare e Fargli Sapere<lb/> che il primo 1o Aprile 1919 danno in<lb/>
                   vigore il Sussidio in Caso di Malatia<lb/> e L’assegno agli Eredi in Caso di<lb/>
@@ -496,7 +496,7 @@
                   <item><persName ref="#paternim">Michele Paterni</persName>-</item>
                   <item><persName ref="#diriccoe">Enrico DiRicco</persName>-</item>
                   <item><persName ref="#lucchesial">Alberto<lb/> Lucchese</persName></item>
-               </list>Tutti Toscani e <seg type="proposal">il fratello<lb/>
+               </list>Tutti Toscani e <seg type="proposal" subtype="status">il fratello<lb/>
                   <persName ref="#silvionic" role="proposer">Carlo Silvione</persName>fece la
                   Proposta che le<lb/>(5) Cinque Nuove Aplicazione fossero<lb/>messe all’aprovazione
                   all’arsata di mano<lb/>la Proposta fu assecondata <lb/>
@@ -607,13 +607,13 @@
                   il Settimane <num type="monetary" value="28">28.00</num></seg><lb/>Si Passo alla
                Lettura del Nuovo Regolame<lb/>Nto Unico Fondo Mortuario per la prima<lb/>Volta e Fuì
                aprovato tutti gli art<lb/>Da tutta l’assemblea Generale<lb/>
-               <seg type="proposal"><persName ref="#silvionic" role="proposer">Il Frt
+               <seg type="proposal" subtype="evento"><persName ref="#silvionic" role="proposer">Il Frt
                      C.Silvione</persName>Fece una Proposta di<lb/>dare un Ballo Nel Mese di Ottobre
                   1919<lb/>a Beneficio da Meta a Fondi Sussidio<lb/>e lartra Metà a Fondo Unico
                   Morturaro<lb/>la Proposta Fu Assecondata dal<lb/>
                   <persName ref="#marsilia" role="supporter">Frat A Marsili</persName>e fu aprovato
                   dalla<lb/>Samblea</seg><lb/>
-               <seg type="proposal"><persName ref="#pellegrinie" role="proposer">Il Frat E
+               <seg type="proposal" subtype="evento"><persName ref="#pellegrinie" role="proposer">Il Frat E
                      Pellegrini</persName>Fece la Proposta<lb/>di dare una Festa Campestre e<lb/>
                   <pb n="20"/>Famigliare Nel Mese di Luglio<lb/>Entrante la Proposta fu Assecondata<lb/>
                   <persName ref="#lunardinil" role="supporter">dal Frat L. Lundardini</persName>e
@@ -677,7 +677,7 @@
                Medesima<lb/>vi era Incluso 5 Tickette d’amissione Gratuite<lb/>Linvito della Societa M. S. G. M. Fu’ acetta<lb/>Per La Seconda
                volta Fu dato Lettura dello<lb/>Statuto Unica Fondo Mortuario e Fu<lb/>aprovato da
                tutti per la Seconda Volta<lb/>
-               <seg type="proposal"><persName ref="#simonettim" role="proposer">Il Fratello
+               <seg type="proposal" subtype="evento"><persName ref="#simonettim" role="proposer">Il Fratello
                      M.Simonetti</persName> Fece una Proposta<lb/>di dare una Festa Campestre
                   Famigliare Nel Mese<lb/>di Agosto 1919 Essendo stato inPossibile<lb/>a darla Nel
                   Mese di Luglio la Proposta<lb/>Fu’ assecondata<persName ref="#cappellinic"
@@ -696,7 +696,7 @@
                   <item><persName ref="#marsilia">A Marsili</persName></item></list>
                <lb/>
                <pb n="22"/>
-               <seg type="proposal"><persName ref="#maffeis" role="proposer">Il Fratello
+               <seg type="proposal" subtype="comitato"><persName ref="#maffeis" role="proposer">Il Fratello
                      Stefano Maffei</persName> Fece una proposta<lb/>da dare al comitato incaricato
                   al trovare il<lb/>il Posto Pieno Potere di Fissarlo Sibito e<lb/>di Chiamare una
                   Seduta Straordinaria<lb/>Se la Credessero che gli Fosse Necessario<lb/>la Proposta
@@ -742,7 +742,7 @@
                e’ scritto. Fu’<del rend="strike">Lettetto</del>dato<lb/>Lettura per la terza vorta
                Regolamento dell’unico Fondo<lb/>Mortuario e Fu aprovato da tutta la<lb/>assemblea
                generale come Legge<lb/>
-               <seg type="proposal"><persName ref="#pellegrinic" role="proposer">Il Fratello
+               <seg type="proposal" subtype="regolamento"><persName ref="#pellegrinic" role="proposer">Il Fratello
                      C.Pellegrini</persName> fece Come pro<lb/>poste che il Regolamento unico
                   fondo<lb/>Mortuario fosse fatto andare in Vigore<lb/>alla Prossima Seduta Ossia il
                   19<lb/>agosto 1919. La Proposta del Frlo<lb/>Pelligrini fu assecondata<persName
@@ -841,14 +841,14 @@
                </list><lb/>
                <persName ref="#fredianim"> Il Prte Muzio Frediani</persName>parlo’ in Riguardo
                alla<lb/> Nistia come l’assemblea avesse intenzio<lb/>ne di fare.<seg type="proposal"
-                     ><persName ref="#maffeis" role="proposer">Il fratello Stefano
+                     subtype="amnistia"><persName ref="#maffeis" role="proposer">Il fratello Stefano
                   Maffei</persName>fece<lb/>la Proposta che la Nistia fosse stata in<lb/>Vigore fino
                   alla prossima seduta e poi<lb/>Fosse stata tolta la Proposta del
                   Fratello<lb/>Maffei Fu Asecondata<persName ref="#silvionic" role="supporter">dal
                      Fratello Silvione</persName><lb/> È fu aprovata da tutta L’’assemblea
                   Generale</seg><lb/>Fu risolta una grande disculzione in<lb/>riguardo dei fratelli
                che si Trovano Aretrati<lb/>Coi Pagamenti tasse Mensili dopo
-                  lunga<lb/>Disculzione<seg type="proposal"><persName ref="#simonettim"
+                  lunga<lb/>Disculzione<seg type="proposal" subtype="regolamento"><persName ref="#simonettim"
                      role="proposer">Il Fratello M. Simonetti</persName><lb/>Fece la Proposta che
                   tutti Coloro che<lb/>Si trovano aretrati piu’ di un<lb/>
                   <pb n="27"/> Anno Aretrati Coi Pagamenti tasse Mensili<lb/>di Farli Avisati che
@@ -859,7 +859,7 @@
                   un Anno<lb/>la Proposta del Fratello Simonetti fu<lb/>asecondata<persName
                      ref="#maffeis" role="supporter">dal Fratello Maffei</persName>e fu aprovata
                   da<lb/>tutta la Assemblea generale<lb/></seg>
-               <seg type="proposal"><persName ref="#maffeis" role="proposer">Il Fratello Stefano
+               <seg type="proposal" subtype="regolamento"><persName ref="#maffeis" role="proposer">Il Fratello Stefano
                      Maffei</persName>fece la Proposta<lb/> che alla Prossima Seduta tutti gli
                   aretrati<lb/>che Sono Stati Avisati e che si sono rifiu<lb/>tati a pagare
                   laretrato che Siano Cancellati<lb/>dai ruoli <orgName ref="#legaT">della Lega
@@ -867,7 +867,7 @@
                      Maffei</persName> fu Assecondata da<lb/>
                   <persName ref="#silvionic" role="supporter">Carlo Silvione</persName>è fu aprovata
                   da tutta<lb/>l’assemblea generale<lb/></seg>
-               <seg type="proposal"><persName ref="#maffeis" role="proposer">Il fratello Stefano
+               <seg type="proposal" subtype="evento"><persName ref="#maffeis" role="proposer">Il fratello Stefano
                      Maffei</persName>fece Come<lb/>Proposta a dare un Ballo a Beneficio<lb/>del
                   Sodalizio della Lega Toscana<lb/>la Proposta del Fratello Maffei fu asecondata<lb/>
                   <persName ref="#simonettim" role="supporter">dal Fratello Simonetti</persName>e fu
@@ -942,7 +942,7 @@
                      </list></item>
                   <lb/>
                </list>
-               <seg type="proposal"><persName ref="#maffeis" role="proposer">Il Fratello Stefano
+               <seg type="proposal" subtype="comitato"><persName ref="#maffeis" role="proposer">Il Fratello Stefano
                      Maffei</persName> fece<lb/>Come Proposta di dare Pieno Potere<lb/>al Comitato
                   di Agire per il Ballo<lb/>
                   <pb n="29"/> la Proposta del Fratello Maffei fu<lb/>Assecondata <persName
@@ -1001,7 +1001,7 @@
                         Sig. Olinto Cinelli</persName> fu Rincesso<lb/> Alla prossima Seduta per non
                      avre<lb/> Spacificato leta’</note>
                </list><lb/>
-               <seg type="proposal">dopo Una Lunga disculzione in rigua<lb/> rdo all’anistia
+               <seg type="proposal" subtype="amnistia">dopo Una Lunga disculzione in rigua<lb/> rdo all’anistia
                      <persName ref="#pasquinellis" role="proposer">il fratello Santino
                      Pasquinelli</persName><lb/> fece la Proposta che l’anistia fosse
                   prolungata<lb/> ancora per due Mesi Ossia fino alla Seduta<lb/> Ordinaria di
@@ -1175,7 +1175,7 @@
                <persName ref="#merciadrie">Eugenio Merciadri</persName> 1 da elergesi<lb/> la Nuova
                amministrazione Numinata Oggi<lb/> andra alla Votazione in <unclear
                   reason="illegible">SCutignio</unclear> alla<lb/> Seduta di dicembre 1919<lb/>
-               <seg type="proposal"><persName ref="#maffeis" role="proposer">Il fratello Stefano
+               <seg type="proposal" subtype="regolamento"><persName ref="#maffeis" role="proposer">Il fratello Stefano
                      Maffei</persName> Fece Una<lb/> Proposta che tutti Coloro che fanno<lb/>
                   aplicazione per Apartenere alla<lb/> Lega Toscana e dopo Essere avvertiti<lb/> che
                   Sono Passati per Mezzo di Cartolina<lb/> e alla Seduta Precedente non <unclear
@@ -1231,7 +1231,7 @@
                   Paganucci</persName></item> <item>e <persName ref="#piaggesia">Aladino Piaggiesi</persName></item><note>, 13
                il primo<lb/> e 14 il secondo contro 7;</note></list></item><item> a guardia sala<lb/>
                <persName ref="#merciadrie">Eugenio Merciadri</persName> 11 voti contro 7.</item></list><lb/>
-               <seg type="proposal"><persName ref="#sodinij" role="proposer">Il fratello
+               <seg type="proposal" subtype="misc"><persName ref="#sodinij" role="proposer">Il fratello
                      Sodini</persName> ass. <persName ref="#piaggesia" role="supporter">da
                      Piaggesi</persName><lb/> propone di tenere la seduta durante l’in-<lb/> verno
                   di Domenica. Tale proposta fu<lb/> approvata e si diede incarico <rs

@@ -214,7 +214,7 @@
                   <item><persName ref="#diodatir">Diodati Ruggero</persName></item>
                   <note>di anni 29 nativo di S. Anna<lb/> provincia di Lucca.</note>
                </list><lb/>
-               <seg type="proposal">Fu proposto da <persName ref="#lunardinil" role="proposer"
+               <seg type="proposal" subtype="evento">Fu proposto da <persName ref="#lunardinil" role="proposer"
                      >Lorenzo Lunardini</persName> e assecondato<lb/> da <persName
                      ref="#cappellinic" role="supporter">Castruccio Cappellini</persName> di
                   rimandare il secondo<lb/> ballo a dopo la Pasqua.</seg><lb/>
@@ -283,12 +283,12 @@
                   <item>e <persName ref="#viganol">Lorenzo Vigano’</persName> ufficiale<lb/>
                      sanitario</item>
                </list>
-               <seg type="proposal">Fu proposto da <persName ref="#fredianim" role="proposer">Muzio
+               <seg type="proposal" subtype="evento">Fu proposto da <persName ref="#fredianim" role="proposer">Muzio
                      Frediani</persName><lb/> e assecondato da <persName ref="#datia"
                      role="supporter">Adelmo Dati</persName> di dare un<lb/> banchetto al comitato
                   ballo nel locale del<lb/> Pasquinelli.</seg> pero’ tutti i membri che
                vogliano<lb/> appartenere possono pagando tutto l’ammonta-<lb/> re che gli verra’
-               tassato. <seg type="proposal">Fu proposto da <persName ref="#zinim" role="proposer"
+               tassato. <seg type="proposal" subtype="denaro">Fu proposto da <persName ref="#zinim" role="proposer"
                      >Modesto<lb/> Zini</persName> e assecondato da <persName ref="#datia"
                      role="supporter">Adelmo Dati</persName> di passare<lb/> dollari $2.50 ai
                   componenti il comitato ballo<lb/> l’astesso che fu accordato al comitato
@@ -346,18 +346,18 @@
                   pero’ da sottrarci una set<lb/> timana, che resterebbero <num type="monetary"
                      value="25">$25.00</num>. Stando ai<lb/> nostri regolamenti. Capitolo 50 art.
                   35. e. 41.</seg><lb/>
-               <seg type="proposal">Proposto da <persName ref="#simonettim" role="proposer">Michele
+               <seg type="proposal" subtype="evento">Proposto da <persName ref="#simonettim" role="proposer">Michele
                      Simonetti</persName> e assecondata da<lb/>
                   <persName ref="#zinim" role="supporter">Modesto Zini</persName> di accettare il
                   prezzo di $4.00<lb/> per il seguente menu’ del banchetto. antipasto<lb/> brodo
                   lesso manzo e gallina, spaghetti pollo ar<lb/> rosto e insalata frutta e formaggio
                   un 1/4 di<lb/> vino, ponce e sigaro.</seg> La societa’ venne tenuta<lb/> pagatrice
                di $2.50 a quei membri che fecero<lb/> parte e lavorarono all’ultimo ballo.<lb/>
-               <seg type="proposal">Proposto da <persName ref="#zinim" role="proposer">Modesto
+               <seg type="proposal" subtype="evento">Proposto da <persName ref="#zinim" role="proposer">Modesto
                      Zini</persName> e assecondato da<lb/>
                   <persName ref="#fredianellig" role="supporter">Giuseppe Fredianelli</persName> di
                   non dare il secondo<lb/> ballo.</seg>
-               <seg type="proposal">Agli affari nuovi, fu proposto da<lb/>
+               <seg type="proposal" subtype="evento">Agli affari nuovi, fu proposto da<lb/>
                   <persName ref="#maffeis" role="proposer">Stefano Maffei</persName> e assecondato
                   da <persName ref="#fredianellig" role="supporter">Giuseppe<lb/>
                      Fredianelli</persName> di dare un pic nic il mese di<lb/>
@@ -417,13 +417,13 @@
                      <pb n="120"/> societa’</note>
                   <item><persName ref="#diodatir">Diodati Ruggero</persName>.</item>
                </list>
-               <seg type="proposal">Proposto da<lb/>
+               <seg type="proposal" subtype="denaro">Proposto da<lb/>
                   <persName ref="#zinim" role="proposer">Modesto Zini</persName> e assecondato da
                      <persName ref="#vannuccie" role="supporter">Ermete Vannucci</persName><lb/> di
                   prelevare dollari 5.00 e mandarli alla loggia<lb/> Bruno Chimirri per l’invito in
                   cui accluso<lb/> verano 5 ticchette gratis per il suo grande<lb/> ballo e
                   Battesimo delle bandiere.</seg><lb/>
-               <seg type="proposal">Proposto da <persName ref="#pasquinellis" role="proposer"
+               <seg type="proposal" subtype="denaro">Proposto da <persName ref="#pasquinellis" role="proposer"
                      >Santino Pasqunelli</persName> e assecondata<lb/> da <persName ref="#desantie"
                      role="supporter">Enemia De Santi</persName> di pagare il sussidio<lb/> per
                   malattia di <seg type="comp" subtype="sick"><num type="monetary" value="14"
@@ -490,7 +490,7 @@
                   <item><persName ref="#pasquinellis">Santino<lb/> Pasquinelli</persName></item>
                   <item>e <persName ref="#lucchesiam">Amerigo Lucchesi</persName>.</item>
                </list><lb/>
-               <seg type="proposal">Fu proposto da <persName ref="#zinim" role="proposer">Modesto
+               <seg type="proposal" subtype="comitato">Fu proposto da <persName ref="#zinim" role="proposer">Modesto
                      Zini</persName> e assecondato<lb/> da <persName ref="#giannig" role="supporter"
                      >Giuseppe Gianni</persName> di fare dei comitati<lb/> per portare nuovi membri
                   e cosi accrescec-<lb/> do di nuove energie accrescerebbe il morale<lb/> della
@@ -538,7 +538,7 @@
                   <lb/>
                   <item><persName ref="#frediania">Aladino Frediani</persName>.</item>
                </list>
-               <seg type="proposal">Fu proposto da <persName ref="#maffeis" role="proposer"
+               <seg type="proposal" subtype="comitato">Fu proposto da <persName ref="#maffeis" role="proposer"
                      >Stefano<lb/> Maffei</persName> e assecondato da <persName ref="#marconic"
                      role="supporter">Carlo Marconi</persName> di<lb/> lasciare il comitato gia’
                   scelto per il pic nec<lb/> e di darli pieno potere rigruardo l’esito<lb/> della
@@ -593,14 +593,14 @@
                   <persName ref="#frediania">Aladino Frediani</persName>. Non avendo<lb/> trovato il
                libretti riffa che la loggia Santo<lb/> Amato aveva mandato in regola, Su
                proposta<lb/> di <persName ref="#bertonie">Eugenio Bertoni</persName>, l’assemblea
-               decise di<lb/> mandarli in dietro. <seg type="proposal">Fu proposto da <persName
+               decise di<lb/> mandarli in dietro. <seg type="proposal" subtype="status">Fu proposto da <persName
                      ref="#bertonie" role="proposer">Eugenio<lb/> Bertoni</persName> e assecondato
                   da <persName ref="#zinim" role="supporter">Modesto Zini</persName> di<lb/> inviare
                   una lettera <persName ref="#viganol">al fratello Lorenzo Vigano’</persName> che si
                   presentasse alla prossima seduta per<lb/>
                   <del rend="strike">per</del> rispondere alle accuse mosseli.</seg><lb/>
                <list type="committee" subtype="regolamento">
-                  <note><seg type="proposal">Su proposta <persName ref="#bertonie" role="proposer"
+                  <note><seg type="proposal" subtype="comitato">Su proposta <persName ref="#bertonie" role="proposer"
                            >Bertoni</persName> e <persName ref="#danesiv" role="supporter"
                            >Danesi</persName> fu’ approvato<lb/> di sciegliere un comitato cosi
                         composto</seg></note>
@@ -614,7 +614,7 @@
                   <item>e <persName ref="#simonettim">Michele<lb/> Simonetti</persName>,</item>
                   <note>i sudetti dovranno riunirsi e<lb/> discutere il migliore mezo per
                      aumentare<lb/> il benessere della Lega.</note>
-               </list> tanto morale che materia-<lb/> le. <seg type="proposal">Su proposta <persName
+               </list> tanto morale che materia-<lb/> le. <seg type="proposal" subtype="misc">Su proposta <persName
                      ref="#fredianim" role="proposer">Frediani</persName> e <persName
                      ref="#cinellio" role="supporter">Cinelli</persName> l’as<lb/> semblea decise di
                   dar stampare. 100. libretti<lb/> riffa di 5. tichetti ciascuno da. 50 soldi
@@ -667,7 +667,7 @@
                   <item>e <persName ref="#merciadrie">Eugenio Merciadri</persName> guarda
                      sala</item>
                </list><lb/>
-               <seg type="proposal">Su proposta <persName ref="#fredianim" role="proposer">Muzio
+               <seg type="proposal" subtype="comitato">Su proposta <persName ref="#fredianim" role="proposer">Muzio
                      Frediani</persName> e <persName ref="#viganol" role="supporter">Lorenzo
                      Vigano’</persName> venne approvato di fare un comitato per<lb/> investigare i
                   conti del. pic.nic.</seg> ultimo.<lb/> Componenti <list type="committee"
@@ -696,7 +696,7 @@
                </list> Essendosi presentato <persName ref="#viganol">il fratello Lorenzo<lb/>
                   Vigano’</persName> e dichiarato di avere mancato di fronte<lb/> al comitato pic
                nic e verso la societa’ stessa<lb/> il presidente dichiaro’ chiusa la vertenza.<lb/>
-               <seg type="proposal">Proposta da <persName ref="#fredianim" role="proposer">Muzio
+               <seg type="proposal" subtype="misc">Proposta da <persName ref="#fredianim" role="proposer">Muzio
                      Frediani</persName> e assecondato da<lb/>
                   <persName ref="#fredianellig" role="supporter">Giuseppe Fredianelli</persName> di
                   scrivere una lettera<lb/>
@@ -740,7 +740,7 @@
                d’Italia invitato la<lb/> Lega Toscana di fare parte alla parata del<lb/> Columbus
                day. 12 Ottobre per festeggiare il piu’ ardito’ e grande navigatore del mondo., la
                Lega Toscana<lb/> non volendo essere seconda a nessuno quando si tratta’ di tiene
-               alto il nome Italiano., <seg type="proposal">Su proposta<lb/>
+               alto il nome Italiano., <seg type="proposal" subtype="evento">Su proposta<lb/>
                   <persName ref="#zinim" role="proposer">Modesto Zini</persName> assecondata
                      <persName ref="#marconic" role="supporter">dal Carlo Marconi</persName>
                   accetto’ All’ora dopo una vivace discussione venne approvato<lb/> di andare in
@@ -762,7 +762,7 @@
                      lavoro e farsi onore.</note>
                </list><lb/>
                <pb n="127"/>
-               <seg type="proposal">Fu proposto da <persName ref="#zinim" role="proposer">Modesto
+               <seg type="proposal" subtype="evento">Fu proposto da <persName ref="#zinim" role="proposer">Modesto
                      Zini</persName> e assecondato da<lb/>
                   <persName ref="#marconic" role="supporter">Carlo Marconi</persName> di dare un
                   ballo ma non fu definita<lb/> la data</seg>
@@ -1052,7 +1052,7 @@
                <persName ref="#simonettim">del nuovo presidente Michele Simonetti</persName> e
                di<lb/> tutta l’assemblea fu incaricato lo stesso, che<lb/> se per caso lo cercassero
                di non tenere la Lega<lb/> responsabile per nessuno ammontare di danaro.<lb/>
-               <seg type="proposal">Fu proposto da <persName ref="#simonettim" role="proposer"
+               <seg type="proposal" subtype="evento">Fu proposto da <persName ref="#simonettim" role="proposer"
                      >Michele Simonetti</persName> e assecondato<lb/> da <persName ref="#maffeis"
                      role="supporter">Stefano Maffei</persName> di dare un banchetto a<lb/>
                   pagamento la data non definita.</seg><lb/> Fu approvato e pagato l’affitto della

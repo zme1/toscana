@@ -5,7 +5,7 @@
          xmlns:teix="http://www.tei-c.org/ns/Examples"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2018-03-01T20:35:18Z. .
+Schema generated from ODD source 2018-03-05T21:37:56Z. .
 TEI Edition: Version 3.3.0. Last updated on
 	31st January 2018, revision f4d8439
 TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.3.0/
@@ -4844,6 +4844,10 @@ Suggested values include: 1] persuade; 2] express; 3] inform; 4] entertain</a:do
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                   <value>regolamento</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                  <value>amnistia</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                  <value>status</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                   <value>comitato</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                   <value>evento</value>
@@ -4851,6 +4855,8 @@ Suggested values include: 1] persuade; 2] express; 3] inform; 4] entertain</a:do
                   <value>denaro</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                   <value>nominazione</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                  <value>misc</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                </choice>
             </attribute>
@@ -6068,6 +6074,7 @@ Suggested values include: 1] persuade; 2] express; 3] inform; 4] entertain</a:do
                 "proposal" must have a persName with a @role value of "proposer."</sch:assert>
               <sch:assert test="descendant::tei:persName[@role='supporter'] or descendant::tei:rs[@role='supporter']">Every seg of @type
                 "proposal" must have a persName or an rs with a @role value of "supporter."</sch:assert>
+              <sch:assert test="@subtype">Every seg of @type "proposal" must have a @subtype value that describes the nature of the proposal.</sch:assert>
             </sch:rule>
    </pattern>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"

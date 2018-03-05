@@ -14,7 +14,7 @@
       <publicationStmt>
         <authority>Prepared in TEI 5 by Zachary Enick for the Italian research assistantship at the
           University of Pittsburgh. Github repository: <ref target="http://github.com/zme1/toscana"
-          />. Date last worked on: <date when="2018-03-01"/></authority>
+          />. Date last worked on: <date when="2018-03-05"/></authority>
         <availability>
           <licence><!-- licence to go here --></licence>
         </availability>
@@ -367,16 +367,21 @@
             distinguish between compensation for an ill member and charitable donations to groups or causes.-->
             <attDef ident="subtype" mode="replace" usage="opt">
               <valList type="closed">
+                <!-- The following @subtype values are only for use with the @type value of "comp" -->
                 <valItem ident="sick"/>
                 <valItem ident="charity"/>
                 <valItem ident="donation"/>
                 <valItem ident="regalo"/>
                 <valItem ident="fondoM"/>
+                <!-- The following @subtype values are only for use with the @type value of "proposal" -->
                 <valItem ident="regolamento"/>
+                <valItem ident="amnistia"/>
+                <valItem ident="status"/>
                 <valItem ident="comitato"/>
                 <valItem ident="evento"/>
                 <valItem ident="denaro"/>
                 <valItem ident="nominazione"/>
+                <valItem ident="misc"/>
               </valList>
             </attDef>
           </attList>
@@ -553,6 +558,7 @@
                 "proposal" must have a persName with a @role value of "proposer."</sch:assert>
               <sch:assert test="descendant::tei:persName[@role='supporter'] or descendant::tei:rs[@role='supporter']">Every seg of @type
                 "proposal" must have a persName or an rs with a @role value of "supporter."</sch:assert>
+              <sch:assert test="@subtype">Every seg of @type "proposal" must have a @subtype value that describes the nature of the proposal.</sch:assert>
             </sch:rule>
           </constraint>
         </constraintSpec>

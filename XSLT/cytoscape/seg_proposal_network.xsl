@@ -9,7 +9,7 @@
 <xsl:template match="/">
     <xsl:for-each select="$minuteColl//TEI//seg[@type='proposal']">
         <xsl:choose>
-            <xsl:when test="count(persName[@role='supporter']) eq 2">
+            <xsl:when test="count(*[@role='supporter']) eq 2">
                 <xsl:value-of select="descendant::*[@role='proposer']/@ref"/>
                 <xsl:text>&#x9;</xsl:text>
                 <xsl:value-of select="descendant::*[@role='proposer']/@role"/>
@@ -18,7 +18,7 @@
                 <xsl:text>&#x9;</xsl:text>
                 <xsl:value-of select="descendant::*[@role='supporter'][1]/@ref"/>
                 <xsl:text>&#x9;</xsl:text>
-                <xsl:value-of select="descendant::*[@role='supporter']/@role"/>
+                <xsl:value-of select="descendant::*[@role='supporter'][1]/@role"/>
                 <xsl:text>&#xa;</xsl:text>
                 <xsl:value-of select="descendant::*[@role='proposer']/@ref"/>
                 <xsl:text>&#x9;</xsl:text>
@@ -28,7 +28,7 @@
                 <xsl:text>&#x9;</xsl:text>
                 <xsl:value-of select="descendant::*[@role='supporter'][2]/@ref"/>
                 <xsl:text>&#x9;</xsl:text>
-                <xsl:value-of select="descendant::*[@role='supporter']/@role"/>
+                <xsl:value-of select="descendant::*[@role='supporter'][2]/@role"/>
                 <xsl:text>&#xa;</xsl:text>
             </xsl:when>
             <xsl:otherwise>
