@@ -16,6 +16,8 @@
                 <xsl:text>&#x9;</xsl:text>
                 <xsl:value-of select="./@type"/>
                 <xsl:text>&#x9;</xsl:text>
+                <xsl:value-of select="./@subtype"/>
+                <xsl:text>&#x9;</xsl:text>
                 <xsl:value-of select="descendant::*[@role='supporter'][1]/@ref"/>
                 <xsl:text>&#x9;</xsl:text>
                 <xsl:value-of select="descendant::*[@role='supporter'][1]/@role"/>
@@ -25,6 +27,8 @@
                 <xsl:value-of select="descendant::*[@role='proposer']/@role"/>
                 <xsl:text>&#x9;</xsl:text>
                 <xsl:value-of select="./@type"/>
+                <xsl:text>&#x9;</xsl:text>
+                <xsl:value-of select="./@subtype"/>
                 <xsl:text>&#x9;</xsl:text>
                 <xsl:value-of select="descendant::*[@role='supporter'][2]/@ref"/>
                 <xsl:text>&#x9;</xsl:text>
@@ -37,6 +41,8 @@
                 <xsl:value-of select="descendant::*[@role='proposer']/@role"/>
                 <xsl:text>&#x9;</xsl:text>
                 <xsl:value-of select="./@type"/>
+                <xsl:text>&#x9;</xsl:text>
+                <xsl:value-of select="./@subtype"/>
                 <xsl:text>&#x9;</xsl:text>
                 <xsl:value-of select="descendant::*[@role='supporter']/@ref"/>
                 <xsl:text>&#x9;</xsl:text>
