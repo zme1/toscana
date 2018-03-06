@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="700">
+   <g transform="translate(100,650)">
+      <rect x="140"
+            y="-600"
+            width="140"
+            height="600"
+            style="fill:rgb(226,226,226)"/>
+      <rect x="420"
+            y="-600"
+            width="140"
+            height="600"
+            style="fill:rgb(226,226,226)"/>
