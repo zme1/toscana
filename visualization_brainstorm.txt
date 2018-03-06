@@ -4,6 +4,9 @@ Social Network of proposals, including values for types of proposals (edge color
 participates the most (node size?), and analyzing several different types of centrality and closeness.
 
 Flow of members in and out of the group over time (tracking aggregated numbers and also seeing who leaves vs. who enters)
+    - Single line-graph with two separate lines (one for entries and the other for dismissals), the graph will have 6-month intervals
+        and the shading will change in 12-month periods so that, while we can see activity at two points per year, we can still easily distinguish
+        years)
 
 Who gets compensated by the Lega the most frequently and who gets the most money in compensation (two visualizations, one illustrating
 iterations, and the other illustrating cash totals)
