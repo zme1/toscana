@@ -21,7 +21,7 @@
     <xsl:variable name="xLength" select="($yrLength * 7) + 20"/>
     <xsl:variable name="yLength" select="$yScale * 65 + 20"/>
     <xsl:template match="/">
-        <svg width="2000" height="75000">
+        <svg width="2000" height="7500">
             <g transform="translate(100,700)">
                 <xsl:for-each select="$minuteColl//TEI/ancestor::teiCorpus">
                     <xsl:variable name="dateNum" select="descendant::TEI[1]/descendant::date/@when/number(tokenize(., '\-')[1])"/>
