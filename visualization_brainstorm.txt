@@ -1,0 +1,21 @@
+VISUALIZATIONS TO MAKE:
+
+Social Network of proposals, including values for types of proposals (edge color?), who proposes vs. who supports more (node gradient change?), who
+participates the most (node size?), and analyzing several different types of centrality and closeness.
+
+Flow of members in and out of the group over time (tracking aggregated numbers and also seeing who leaves vs. who enters)
+
+Who gets compensated by the Lega the most frequently and who gets the most money in compensation (two visualizations, one illustrating
+iterations, and the other illustrating cash totals)
+
+Officer vs. General member participation over the span of time (year-by-year)
+
+Officer absences over time (year-by-year)
+
+Activity of presidents during their administrative year in relation to off-years
+
+Just out of interest... Seeing which members are mentioned only once
+
+Members on committees -- Showing who appeared on different committees and how many (and what types?)
+
+Positions of power on committees -- showing who had which roles for committees (stacked bar chart?)
