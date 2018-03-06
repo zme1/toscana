@@ -7,7 +7,7 @@
     <xsl:output method="text" encoding="UTF-8" indent="yes"/>
     <xsl:variable name="minuteColl" select="collection('../../TEI/meetingMinutes')/*"/>
 <xsl:template match="/">
-    <xsl:for-each select="$minuteColl//TEI//seg[@type='proposal']">
+    <xsl:for-each select="$minuteColl//tei//seg[@type='proposal']">
         <xsl:choose>
             <xsl:when test="count(*[@role='supporter']) eq 2">
                 <xsl:value-of select="descendant::*[@role='proposer']/@ref"/>
