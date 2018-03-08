@@ -10,7 +10,7 @@
       <publicationStmt>
         <authority>Prepared in TEI 5 by Zachary Enick for the Italian research assistantship at the
           University of Pittsburgh. Github repository: <ref target="http://github.com/zme1/toscana"
-          />. Date last worked on: <date when="2018-02-07"/></authority>
+          />. Date last worked on: <date when="2018-03-08"/></authority>
         <availability>
           <licence><!-- licence to go here --></licence>
         </availability>
@@ -37,15 +37,6 @@
               <elementRef key="note"/>
             </alternate>
           </content>
-        </elementSpec>
-        <elementSpec ident="roleName" module="namesdates" mode="change">
-          <attList>
-            <attDef ident="from" mode="add" usage="req">
-                <datatype>
-                  <dataRef key="teidata.temporal.iso"/>
-                </datatype>
-            </attDef>
-          </attList>
         </elementSpec>
       </schemaSpec>
     </body>
