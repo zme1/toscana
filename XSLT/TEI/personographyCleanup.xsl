@@ -9,6 +9,7 @@
  <xsl:template match="/">
      <TEI>
      <xsl:copy-of select="//teiHeader"/>
+         <!--2018-03-08 ebb: xsl:copy-of is known as "deep copy": it's basically an identity transformation of everything marked from this point on, and it'll output the teiHeader with its tags and all its descendants intact. -->
      <xsl:apply-templates select="//text"/>
      </TEI>
  </xsl:template>
