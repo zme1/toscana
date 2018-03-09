@@ -134,6 +134,64 @@
                <p>Source description.</p>
             </sourceDesc>
          </fileDesc>
+         <profileDesc>
+            <particDesc>
+               <listPerson>
+                  <person>
+                     <persName ref="#fredianim">Muzio Frediani</persName>
+                     <roleName type="officer" role="pres"/>
+                  </person>
+                  <person>
+                     <persName ref="#maffeis">Stefano Maffei</persName>
+                     <roleName type="officer" role="vice"/>
+                  </person>
+                  <person>
+                     <persName ref="#simonettim">Michele Simonetti</persName>
+                     <roleName type="officer" role="corresp"/>
+                  </person>
+                  <person>
+                     <persName ref="#pasquinellis">Santino Pasquinelli</persName>
+                     <roleName type="officer" role="finanza"/>
+                  </person>
+                  <person>
+                     <persName ref="#pasquinelliam">Americo Pasquinelli</persName>
+                     <roleName type="officer" role="tes"/>
+                  </person>
+                  <person>
+                     <persName ref="#silvionic" role="scaduto">Carlo Silvioni</persName>
+                     <roleName type="officer" role="curatore"/>
+                  </person>
+                  <person>
+                     <persName ref="#paganuccis" role="replacement">Sam Paganucci</persName>
+                     <roleName type="officer" role="curatore"/>
+                  </person>
+                  <person>
+                     <persName ref="#bertonie" role="scaduto">Eugenio Bertoni</persName>
+                     <roleName type="officer" role="curatore"/>
+                  </person>
+                  <person>
+                     <persName ref="#lunardinil" role="replacement">Lorenzo Lunardini</persName>
+                     <roleName type="officer" role="curatore"/>
+                  </person>
+                  <person>
+                     <persName ref="#marsilia">Abramo Marsili</persName>
+                     <roleName type="officer" role="curatore"/>
+                  </person>
+                  <person>
+                     <persName ref="#giomettic">Carlo Giometti</persName>
+                     <roleName type="officer" role="sanitario"/>
+                  </person>
+                  <person>
+                     <persName ref="#merciadrie">Eugenio Merciardi</persName>
+                     <roleName type="officer" role="sanitario"/>
+                  </person>
+                  <person>
+                     <persName ref="#fontanaan">Angelo Fontana</persName>
+                     <roleName type="officer" role="guardia"/>
+                  </person>
+               </listPerson>
+            </particDesc>
+         </profileDesc>
       </teiHeader>
       <text>
          <body>
@@ -842,15 +900,15 @@
                   <lb/>
                   <item><list><note>Comitato di Ricevimento</note><lb/>
                      
-                        <item><roleName type="committee" role="ricevimento"/><persName ref="#bertonie">Eugenio Bertoni</persName></item>
+                        <item><roleName type="committee" role="assistente"/><persName ref="#bertonie">Eugenio Bertoni</persName></item>
                         <lb/>
-                     <item><roleName type="committee" role="ricevimento"/><persName ref="#cappellinic">Castruccio Cappellini</persName></item>
+                     <item><roleName type="committee" role="assistente"/><persName ref="#cappellinic">Castruccio Cappellini</persName></item>
                         <lb/>
-                     <item><roleName type="committee" role="ricevimento"/><persName ref="#tambellinig">Giuseppe Tambellini</persName></item>
+                     <item><roleName type="committee" role="assistente"/><persName ref="#tambellinig">Giuseppe Tambellini</persName></item>
                         <lb/>
-                     <item><roleName type="committee" role="ricevimento"/><persName ref="#serafinio">Orlando Serafini</persName></item>
+                     <item><roleName type="committee" role="assistente"/><persName ref="#serafinio">Orlando Serafini</persName></item>
                         <lb/>
-                     <item><roleName type="committee" role="ricevimento"/><persName ref="#marsilia">Abramo Marsili</persName></item></list>
+                     <item><roleName type="committee" role="assistente"/><persName ref="#marsilia">Abramo Marsili</persName></item></list>
                      </item>
                   <lb/>
                   <item><list><note>Manegere della Sala da Balli</note><lb/>
@@ -866,25 +924,25 @@
                   <lb/>
                   <item><list><note>Chiarma d’arangiomento</note><lb/>
                      
-                     <item><roleName type="committee" role="arrangement"/><persName ref="#maffeis">Stefano Maffei</persName></item>
+                     <item><roleName type="committee" role="assistente"/><persName ref="#maffeis">Stefano Maffei</persName></item>
                         <lb/>
-                     <item><roleName type="committee" role="arrangement"/><persName ref="#fredianellig">Giuseppe Fredianelli</persName></item>
+                     <item><roleName type="committee" role="assistente"/><persName ref="#fredianellig">Giuseppe Fredianelli</persName></item>
                         <lb/>
-                     <item><roleName type="committee" role="arrangement"/><persName ref="#paganuccis">Sam Paganucci</persName></item>
+                     <item><roleName type="committee" role="assistente"/><persName ref="#paganuccis">Sam Paganucci</persName></item>
                         <lb/>
-                     <item><roleName type="committee" role="arrangement"/><persName ref="#zinim">Modesto Zini</persName></item>
+                     <item><roleName type="committee" role="assistente"/><persName ref="#zinim">Modesto Zini</persName></item>
                         <lb/>
-                     <item><roleName type="committee" role="arrangement"/><persName ref="#merciadrie">Eugenio Merciadri</persName></item>
+                     <item><roleName type="committee" role="assistente"/><persName ref="#merciadrie">Eugenio Merciadri</persName></item>
                         <lb/>
-                     <item><roleName type="committee" role="arrangement"/><persName ref="#diriccoe">Enrico DiRicco</persName></item>
+                     <item><roleName type="committee" role="assistente"/><persName ref="#diriccoe">Enrico DiRicco</persName></item>
                         <lb/>
-                     <item><roleName type="committee" role="arrangement"/><persName ref="#giomettic">Carlo Giometti</persName></item>
+                     <item><roleName type="committee" role="assistente"/><persName ref="#giomettic">Carlo Giometti</persName></item>
                         <lb/>
-                     <item><roleName type="committee" role="arrangement"/><persName ref="#pasquinelliam">Americo Pasquinelli</persName></item>
+                     <item><roleName type="committee" role="assistente"/><persName ref="#pasquinelliam">Americo Pasquinelli</persName></item>
                         <lb/>
-                     <item><roleName type="committee" role="arrangement"/><persName ref="#giangranedif">Francesco Giangranedi</persName></item>
+                     <item><roleName type="committee" role="assistente"/><persName ref="#giangranedif">Francesco Giangranedi</persName></item>
                         <lb/>
-                     <item><roleName type="committee" role="arrangement"/><persName ref="#pasquinellis">Santino Pasquinelli</persName></item>
+                     <item><roleName type="committee" role="assistente"/><persName ref="#pasquinellis">Santino Pasquinelli</persName></item>
                      </list></item>
                   <lb/>
                </list>
@@ -1152,6 +1210,64 @@
                <p>Source description.</p>
             </sourceDesc>
          </fileDesc>
+         <profileDesc>
+            <particDesc>
+               <listPerson>
+                  <person>
+                     <persName ref="#maffeis">Stefano Maffei</persName>
+                     <roleName type="officer" role="pres"/>
+                  </person>
+                  <person>
+                     <persName ref="#sodinij">Jacopo Sodini</persName>
+                     <roleName type="officer" role="vice"/>
+                  </person>
+                  <person>
+                     <persName ref="#fredianim">Muzio Frediani</persName>
+                     <roleName type="officer" role="corresp"/>
+                  </person>
+                  <person>
+                     <persName ref="#pellegrinic">Casimiro Pellegrini</persName>
+                     <roleName type="officer" role="finanza"/>
+                  </person>
+                  <person>
+                     <persName ref="#pasquinellis">Santino Pasquinelli</persName>
+                     <roleName type="officer" role="tes"/>
+                  </person>
+                  <person>
+                     <persName ref="#lunardinil">Lorenzo Lunardini</persName>
+                     <roleName type="officer" role="curatore"/>
+                  </person>
+                  <person>
+                     <persName ref="#silvionic">Carlo Silvioni</persName>
+                     <roleName type="officer" role="curatore"/>
+                  </person>
+                  <person>
+                     <persName ref="#fredianellig">Giuseppe Fredianelli</persName>
+                     <roleName type="officer" role="curatore"/>
+                  </person>
+                  <person>
+                     <persName ref="#paganuccis">Sam Paganucci</persName>
+                     <roleName type="officer" role="sanitario"/>
+                  </person>
+                  <person>
+                     <persName ref="#piaggesia">Aladino Piaggesi</persName>
+                     <roleName type="officer" role="sanitario"/>
+                  </person>
+                  <person>
+                     <persName ref="#viganol" role="scaduto">Lorenzo Vigano'</persName>
+                     <roleName type="officer" role="colletore"/>
+                  </person>
+                  <person>
+                     <persName ref="#buchignianil">Luigi Buchigniani</persName>
+                     <roleName type="officer" role="colletore"/>
+                  </person>
+                  <person>
+                     <persName ref="#merciadrie">Eugenio Merciardri</persName>
+                     <roleName type="officer" role="guardia"/>
+                  </person>
+               </listPerson>
+            </particDesc>
+         </profileDesc>
       </teiHeader>
       <text>
          <body>
@@ -1905,6 +2021,7 @@
             </titleStmt>
             <publicationStmt>
                <authority>La Lega Toscana di Protezione</authority>
+               <date when="1920-11-02"/>
             </publicationStmt>
             <sourceDesc>
                <p>Source description.</p>
@@ -2245,6 +2362,64 @@
                <p>Source description.</p>
             </sourceDesc>
          </fileDesc>
+         <profileDesc>
+            <particDesc>
+               <listPerson>
+                  <person>
+                     <persName ref="#marsilis">Sam Marsili</persName>
+                     <roleName type="officer" role="pres"/>
+                  </person>
+                  <person>
+                     <persName ref="#sodinij">Jacopo Sodini</persName>
+                     <roleName type="officer" role="vice"/>
+                  </person>
+                  <person>
+                     <persName ref="#marchettie">Emilio Marchetti</persName>
+                     <roleName type="officer" role="corresp"/>
+                  </person>
+                  <person>
+                     <persName ref="#piaggesia">Aladino Piaggesi</persName>
+                     <roleName type="officer" role="finanza"/>
+                  </person>
+                  <person>
+                     <persName ref="#pasquinellis">Santino Pasquinelli</persName>
+                     <roleName type="officer" role="tes"/>
+                  </person>
+                  <person>
+                     <persName ref="#pasquinelliam">Americo Pasquinelli</persName>
+                     <roleName type="officer" role="curatore"/>
+                  </person>
+                  <person>
+                     <persName ref="#lucchesiam">Americo Lucchesi</persName>
+                     <roleName type="officer" role="curatore"/>
+                  </person>
+                  <person>
+                     <persName ref="#fredianellig">Giuseppe Fredianelli</persName>
+                     <roleName type="officer" role="curatore"/>
+                  </person>
+                  <person>
+                     <persName ref="#merciadrie">Eugenio Merciadri</persName>
+                     <roleName type="officer" role="sanitario"/>
+                  </person>
+                  <person>
+                     <persName ref="#battistiniv">Vincenzo Battistini</persName>
+                     <roleName type="officer" role="sanitario"/>
+                  </person>
+                  <person>
+                     <persName ref="#silvionic" role="scaduto">Carolo Silvioni</persName>
+                     <roleName type="officer" role="colletore"/>
+                  </person>
+                  <person>
+                     <persName ref="#cappellinic" role="replacement">Castruccio Cappellini</persName>
+                     <roleName type="officer" role="colletore"/>
+                  </person>
+                  <person>
+                     <persName ref="#merciadrie">Eugenio Merciardri</persName>
+                     <roleName type="officer" role="guardia"/>
+                  </person>
+               </listPerson>
+            </particDesc>
+         </profileDesc>
       </teiHeader>
       <text>
          <body>
@@ -3213,6 +3388,7 @@
             </titleStmt>
             <publicationStmt>
                <authority>La Lega Toscana di Protezione</authority>
+               <date when="1921-12-15"/>
             </publicationStmt>
             <sourceDesc>
                <p>Source description.</p>
@@ -3349,6 +3525,76 @@
                <p>Source description.</p>
             </sourceDesc>
          </fileDesc>
+         <profileDesc>
+            <particDesc>
+               <listPerson>
+                  <person>
+                     <persName ref="#marconic">Carlo Marconi</persName>
+                     <roleName type="officer" role="pres"/>
+                  </person>
+                  <person>
+                     <persName ref="#cappellinic">Castruccio Cappellini</persName>
+                     <roleName type="officer" role="vice"/>
+                  </person>
+                  <person>
+                     <persName ref="#marchettie">Emilio Marchetti</persName>
+                     <roleName type="officer" role="corresp"/>
+                  </person>
+                  <person>
+                     <persName ref="#maffeigia" role="scaduto">Giacomo Maffei</persName>
+                     <roleName type="officer" role="finanza"/>
+                  </person>
+                  <person>
+                     <persName ref="#lucchesiam" role="replacement">Americo Lucchesi</persName>
+                     <roleName type="officer" role="finanza"/>
+                  </person>
+                  <person>
+                     <persName ref="#pasquinellis">Santino Pasquinelli</persName>
+                     <roleName type="officer" role="tes"/>
+                  </person>
+                  <person>
+                     <persName ref="#lunardinil" role="scaduto">Lorenzo Lunardini</persName>
+                     <roleName type="officer" role="curatore"/>
+                  </person>
+                  <person>
+                     <persName ref="#fredianim" role="replacement">Muzio Frediani</persName>
+                     <roleName type="officer" role="curatore"/>
+                  </person>
+                  <person>
+                     <persName ref="#sodinij">Jacopo Sodini</persName>
+                     <roleName type="officer" role="curatore"/>
+                  </person>
+                  <person>
+                     <persName ref="#marsilis">Sam Marsili</persName>
+                     <roleName type="officer" role="curatore"/>
+                  </person>
+                  <person>
+                     <persName ref="#merciadrie">Eugenio Merciadri</persName>
+                     <roleName type="officer" role="sanitario"/>
+                  </person>
+                  <person>
+                     <persName ref="#micheluccis" role="scaduto">Silvio Michelucci</persName>
+                     <roleName type="officer" role="sanitario"/>
+                  </person>
+                  <person>
+                     <persName ref="#buchignianil" role="replacement">Luigi Buchigniani</persName>
+                     <roleName type="officer" role="sanitario"/>
+                  </person>
+                  <person>
+                     <persName ref="#maffeir" role="scaduto">Romeo Maffei</persName>
+                     <roleName type="officer" role="colletore"/>
+                  </person>
+                  <person>
+                     <persName ref="#sodinij" role="replacement">Jacopo Sodini</persName>
+                     <roleName type="officer" role="colletore"/>
+                  </person>
+                  <person>
+                     <persName ref="#merciadrie">Eugenio Merciardri</persName>
+                     <roleName type="officer" role="guardia"/>
+                  </person>
+               </listPerson>
+            </particDesc>
+         </profileDesc>
       </teiHeader>
       <text>
          <body>
@@ -3510,7 +3756,7 @@
             </titleStmt>
             <publicationStmt>
                <authority>La Lega Toscana di Protezione</authority>
-               <date when="1923-03-16"/>
+               <date when="1922-03-16"/>
             </publicationStmt>
             <sourceDesc>
                <p>Source description.</p>
@@ -4314,6 +4560,72 @@
                <p>Source description.</p>
             </sourceDesc>
          </fileDesc>
+         <profileDesc>
+            <particDesc>
+               <listPerson>
+                  <person>
+                     <persName ref="#maffeis">Stefano Maffei</persName>
+                     <roleName type="officer" role="pres"/>
+                  </person>
+                  <person>
+                     <persName ref="#pacinic">Candito Pacini</persName>
+                     <roleName type="officer" role="vice"/>
+                  </person>
+                  <person>
+                     <persName ref="#viganoe" role="scaduto">Ernesto Vigano'</persName>
+                     <roleName type="officer" role="corresp"/>
+                  </person>
+                  <person>
+                     <persName ref="#merciadrie" role="scaduto">Eugenio Merciadri</persName>
+                     <roleName type="officer" role="corresp"/>
+                  </person>
+                  <person>
+                     <persName ref="#giannig" role="replacement">Giuseppe Gianni</persName>
+                     <roleName type="officer" role="corresp"/>
+                  </person>
+                  <person>
+                     <persName ref="#lucchesiam">Americo Lucchesi</persName>
+                     <roleName type="officer" role="finanza"/>
+                  </person>
+                  <person>
+                     <persName ref="#pasquinellis">Santino Pasquinelli</persName>
+                     <roleName type="officer" role="tes"/>
+                  </person>
+                  <person>
+                     <persName ref="#desimos">Serafino DeSimo</persName>
+                     <roleName type="officer" role="curatore"/>
+                  </person>
+                  <person>
+                     <persName ref="#giannig">Giuseppe Gianni</persName>
+                     <roleName type="officer" role="curatore"/>
+                  </person>
+                  <person>
+                     <persName ref="#borellim" role="replacement">Martino Borelli</persName>
+                     <roleName type="officer" role="curatore"/>
+                  </person>
+                  <person>
+                     <persName ref="#carloe">Ezio Carli</persName>
+                     <roleName type="officer" role="curatore"/>
+                  </person>
+                  <person>
+                     <persName ref="#viganol">Lorenzo Vigano'</persName>
+                     <roleName type="officer" role="sanitario"/>
+                  </person>
+                  <person>
+                     <persName ref="#zinim">Modesto Zini</persName>
+                     <roleName type="officer" role="sanitario"/>
+                  </person>
+                  <person>
+                     <persName ref="#sodinij">Jacopo Sodini</persName>
+                     <roleName type="officer" role="colletore"/>
+                  </person>
+                  <person>
+                     <persName ref="#fredianellig">Giuseppe Fredianelli</persName>
+                     <roleName type="officer" role="guardia"/>
+                  </person>
+               </listPerson>
+            </particDesc>
+         </profileDesc>
       </teiHeader>
       <text>
          <body>
@@ -4637,7 +4949,7 @@
                   Italo-Americani<lb/> No. 317. Ordine figli d’Italia in america e<lb/> questo venne
                   accettata.</seg><lb/> Il comitato Banchetto rapporto ed<lb/> ancora non aveva
                fatto niente, ed<lb/> allor gli fu dato tempo fino alla prossima<lb/> seduta.<lb/> Fu
-               presentata le dimessioni <rs ref="#marchettie" role="scaduto">del<lb/> Segretario di
+               presentata le dimessioni <rs ref="#merciadrie" role="scaduto">del<lb/> Segretario di
                   Corrispondenza</rs> a motivo<lb/> che non poteva piu’ mandare <del rend="strike"
                   >avanti</del><lb/> avanti la sua carica, da poco tempo<lb/> disponibile, e questa
                venne accettata<lb/> da tutta la semblea generale.<lb/> Poi si apri la nomina del
@@ -5212,6 +5524,64 @@
                <p>Source description.</p>
             </sourceDesc>
          </fileDesc>
+         <profileDesc>
+            <particDesc>
+               <listPerson>
+                  <person>
+                     <persName ref="#pellegrinic">Casimiro Pellegrini</persName>
+                     <roleName type="officer" role="pres"/>
+                  </person>
+                  <person>
+                     <persName ref="#sodinij">Jacopo Sodini</persName>
+                     <roleName type="officer" role="vice"/>
+                  </person>
+                  <person>
+                     <persName ref="#giannig">Giuseppe Gianni</persName>
+                     <roleName type="officer" role="corresp"/>
+                  </person>
+                  <person>
+                     <persName ref="#pasquinellie">Emilio Pasquinelli</persName>
+                     <roleName type="officer" role="finanza"/>
+                  </person>
+                  <person>
+                     <persName ref="#pasquinellis">Santino Pasquinelli</persName>
+                     <roleName type="officer" role="tes"/>
+                  </person>
+                  <person>
+                     <persName ref="#marconic">Carlo Marconi</persName>
+                     <roleName type="officer" role="curatore"/>
+                  </person>
+                  <person>
+                     <persName ref="#borellim">Martino Borelli</persName>
+                     <roleName type="officer" role="curatore"/>
+                  </person>
+                  <person>
+                     <persName ref="#lucchesiam">Americo Lucchesi</persName>
+                     <roleName type="officer" role="curatore"/>
+                  </person>
+                  <person>
+                     <persName ref="#viganol" role="scaduto">Lorenzo Vigano'</persName>
+                     <roleName type="officer" role="sanitario"/>
+                  </person>
+                  <person>
+                     <persName ref="#vannuccie" role="replacement">Ernesto Vannucci</persName>
+                     <roleName type="officer" role="sanitario"/>
+                  </person>
+                  <person>
+                     <persName ref="#fredianellig">Giuseppe Fredianelli</persName>
+                     <roleName type="officer" role="sanitario"/>
+                  </person>
+                  <person>
+                     <persName ref="#sodinij">Jacopo Sodini</persName>
+                     <roleName type="officer" role="colletore"/>
+                  </person>
+                  <person>
+                     <persName ref="#merciadrie">Eugenio Merciardri</persName>
+                     <roleName type="officer" role="guardia"/>
+                  </person>
+               </listPerson>
+            </particDesc>
+         </profileDesc>
       </teiHeader>
       <text>
          <body>
@@ -6134,6 +6504,60 @@
                <p>Source description.</p>
             </sourceDesc>
          </fileDesc>
+         <profileDesc>
+            <particDesc>
+               <listPerson>
+                  <person>
+                     <persName ref="#simonettim">Michele Simonetti</persName>
+                     <roleName type="officer" role="pres"/>
+                  </person>
+                  <person>
+                     <persName ref="#desantie">Enemia De Santi</persName>
+                     <roleName type="officer" role="vice"/>
+                  </person>
+                  <person>
+                     <persName ref="#giannig">Giuseppe Gianni</persName>
+                     <roleName type="officer" role="corresp"/>
+                  </person>
+                  <person>
+                     <persName ref="#pasquinellie">Emilio Pasquinelli</persName>
+                     <roleName type="officer" role="finanza"/>
+                  </person>
+                  <person>
+                     <persName ref="#pasquinellis">Santino Pasquinelli</persName>
+                     <roleName type="officer" role="tes"/>
+                  </person>
+                  <person>
+                     <persName ref="#marconic">Carlo Marconi</persName>
+                     <roleName type="officer" role="curatore"/>
+                  </person>
+                  <person>
+                     <persName ref="#borellim">Martino Borelli</persName>
+                     <roleName type="officer" role="curatore"/>
+                  </person>
+                  <person>
+                     <persName ref="#lucchesiam">Americo Lucchesi</persName>
+                     <roleName type="officer" role="curatore"/>
+                  </person>
+                  <person>
+                     <persName ref="#viganol">Giuseppe Fredianelli</persName>
+                     <roleName type="officer" role="sanitario"/>
+                  </person>
+                  <person>
+                     <persName ref="#vannuccie" role="scaduto">Ermete Vannucci</persName>
+                     <roleName type="officer" role="sanitario"/>
+                  </person>
+                  <person>
+                     <persName ref="#vannuccia" role="replacement">Alfredo Vannucci</persName>
+                     <roleName type="officer" role="sanitario"/>
+                  </person>
+                  <person>
+                     <persName ref="#merciadrie">Eugenio Merciardri</persName>
+                     <roleName type="officer" role="guardia"/>
+                  </person>
+               </listPerson>
+            </particDesc>
+         </profileDesc>
       </teiHeader>
       <text>
          <body>
