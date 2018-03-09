@@ -677,7 +677,15 @@
             </sch:rule>
           </constraint>
         </constraintSpec>
-        <!--2018-01-28 ebb: Here's an alternative way to define the SAME rule we wrote in the elementSpec 
+        <!--<constraintSpec ident="list_roleName" scheme="isoschematron">
+          <constraint>
+            <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron" context="tei:list[@type='committee'][not(@subtype='investigazione')][not(@subtype='regolamento')]/tei:item[tei:persName]">
+              <sch:assert test="tei:roleName">Every committee list element must have a roleName associated with each committee member.</sch:assert>
+            </sch:rule>
+          </constraint>
+        </constraintSpec>-->
+        <!--2018-01-28 ebb:
+          Here's an alternative way to define the SAME rule we wrote in the elementSpec 
        for persName above. If you write a constraintSpec as a sibling of the elementSpec elements you need to 
        define its context with sch:rule this time: See how this works? -->
       </schemaSpec>

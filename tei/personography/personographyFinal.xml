@@ -1,0 +1,3193 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lega Toscana di Protezione XSLT Generated Personography File -
+                            2</title>
+            <author>Zachary Enick</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Prepared in TEI 5 by Zachary Enick for the Italian research
+                            assistantship at the University of Pittsburgh. Github repository: <ref target="http://github.com/zme1/toscana"/>. Date last worked on:
+                                <date when="2018-03-08"/>
+            </authority>
+            <availability>
+               <licence/>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader><text><body><listPerson><person xml:id="fredianim">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName>
+                     <roleName type="officer" role="pres">
+                        <date when="1919"/>
+                     </roleName>
+                     <roleName type="officer" role="corresp">
+                        <date when="1920"/>
+                     </roleName>
+                     <roleName type="officer" role="curatore replacement">
+                        <date when="1922"/>
+                     </roleName>
+                     <roleName type="committee" subtype="festaCampestre" role="pres">
+                        <date when="1919-07"/>
+                     </roleName>
+                     <roleName type="committee" subtype="ballo" role="corresp">
+                        <date when="1919-08"/>
+                     </roleName>
+                     <roleName type="committee" subtype="picnic" role="corresp">
+                        <date when="1920-05"/>
+                     </roleName>
+                     <roleName type="committee" subtype="picnic" role="assistente">
+                        <date when="1921-05"/>
+                     </roleName>
+                     <roleName type="committee" subtype="picnic" role="tes">
+                        <date when="1922-03"/>
+                     </roleName>
+                     <roleName type="committee" subtype="ballo" role="assistente">
+                        <date when="1922-12"/>
+                     </roleName>
+                     <roleName type="committee" subtype="ballo" role="assistente">
+                        <date when="1923-10"/>
+                     </roleName>
+                     <roleName type="committee" subtype="picnic" role="assistente">
+                        <date when="1924-08"/>
+                     </roleName>
+                     <roleName type="committee" subtype="regolamento" role="regolatore">
+                        <date when="1922-02"/>
+                     </roleName>
+                     <roleName type="committee" subtype="regolamento" role="regolatore">
+                        <date when="1922-08"/>
+                     </roleName>
+                     <roleName type="committee" subtype="regolamento" role="regolatore">
+                        <date when="1924-07"/>
+                     </roleName>
+                     <roleName type="committee" subtype="investigazione" role="investigatore">
+                        <date when="1922-04"/>
+                     </roleName>
+                     <roleName type="committee" subtype="investigazione" role="investigatore">
+                        <date when="1922-11"/>
+                     </roleName>
+                     <roleName type="committee" subtype="banchetto" role="membro">
+                        <date when="1925-02"/>
+                     </roleName>
+                     <roleName type="committee" subtype="banchetto" role="membro">
+                        <date when="1925-03"/>
+                     </roleName>
+                     <roleName type="committee" subtype="parata" role="membro">
+                        <date when="1924-09"/>
+                     </roleName>
+                  </roleName>
+               </persName>
+            </person><person xml:id="maffeis">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName>
+                     <roleName type="officer" role="vice">
+                        <date when="1919"/>
+                     </roleName>
+                     <roleName type="officer" role="pres">
+                        <date when="1920"/>
+                     </roleName>
+                     <roleName type="officer" role="pres">
+                        <date when="1923"/>
+                     </roleName>
+                     <roleName type="committee" subtype="ballo" role="assistente">
+                        <date when="1919-08"/>
+                     </roleName>
+                     <roleName type="committee" subtype="ballo" role="chairman">
+                        <date when="1920-09"/>
+                     </roleName>
+                     <roleName type="committee" subtype="ballo" role="pres">
+                        <date when="1920-12"/>
+                     </roleName>
+                     <roleName type="committee" subtype="picnic" role="assistente">
+                        <date when="1921-05"/>
+                     </roleName>
+                     <roleName type="committee" subtype="picnic" role="assistente">
+                        <date when="1921-06"/>
+                     </roleName>
+                     <roleName type="committee" subtype="picnic" role="assistente">
+                        <date when="1922-04"/>
+                     </roleName>
+                     <roleName type="committee" subtype="ballo" role="chairman">
+                        <date when="1922-11"/>
+                     </roleName>
+                     <roleName type="committee" subtype="banchetto" role="pres">
+                        <date when="1925-03"/>
+                     </roleName>
+                     <roleName type="committee" subtype="festaCampestre" role="assistente">
+                        <date when="1925-07"/>
+                     </roleName>
+                     <roleName type="committee" subtype="ballo" role="assistente">
+                        <date when="1925-11"/>
+                     </roleName>
+                     <roleName type="committee" subtype="regolamento" role="regolatore">
+                        <date when="1922-01"/>
+                     </roleName>
+                     <roleName type="committee" subtype="regolamento" role="regolatore">
+                        <date when="1922-02"/>
+                     </roleName>
+                     <roleName type="committee" subtype="investigazione" role="investigatore">
+                        <date when="1919-05"/>
+                     </roleName>
+                     <roleName type="committee" subtype="investigazione" role="investigatore">
+                        <date when="1919-06"/>
+                     </roleName>
+                     <roleName type="committee" subtype="investigazione" role="investigatore">
+                        <date when="1920-03"/>
+                     </roleName>
+                     <roleName type="committee" subtype="investigazione" role="investigatore">
+                        <date when="1921-10"/>
+                     </roleName>
+                     <roleName type="committee" subtype="investigazione" role="investigatore">
+                        <date when="1922-04"/>
+                     </roleName>
+                     <roleName type="committee" subtype="investigazione" role="investigatore">
+                        <date when="1922-08"/>
+                     </roleName>
+                     <roleName type="committee" subtype="investigazione" role="investigatore">
+                        <date when="1923-09"/>
+                     </roleName>
+                     <roleName type="committee" subtype="investigazione" role="investigatore">
+                        <date when="1925-03"/>
+                     </roleName>
+                     <roleName type="committee" subtype="investigazione" role="investigatore">
+                        <date when="1925-08"/>
+                     </roleName>
+                     <roleName type="committee" subtype="banchetto" role="membro">
+                        <date when="1920-10"/>
+                     </roleName>
+                     <roleName type="committee" subtype="banchetto" role="membro">
+                        <date when="1925-02"/>
+                     </roleName>
+                     <roleName type="committee" subtype="banchetto" role="membro">
+                        <date when="1925-03"/>
+                     </roleName>
+                     <roleName type="committee" subtype="parata" role="membro">
+                        <date when="1924-09"/>
+                     </roleName>
+                  </roleName>
+               </persName>
+            </person><person xml:id="simonettim">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName>
+                     <roleName type="officer" role="corresp">
+                        <date when="1919"/>
+                     </roleName>
+                     <roleName type="officer" role="pres">
+                        <date when="1925"/>
+                     </roleName>
+                     <roleName type="committee" subtype="festaCampestre" role="corresp">
+                        <date when="1919-07"/>
+                     </roleName>
+                     <roleName type="committee" subtype="ballo" role="manager">
+                        <date when="1919-08"/>
+                     </roleName>
+                     <roleName type="committee" subtype="ballo" role="manager">
+                        <date when="1920-09"/>
+                     </roleName>
+                     <roleName type="committee" subtype="picnic" role="assistente">
+                        <date when="1921-05"/>
+                     </roleName>
+                     <roleName type="committee" subtype="picnic" role="chairman">
+                        <date when="1921-06"/>
+                     </roleName>
+                     <roleName type="committee" subtype="ballo" role="chairman">
+                        <date when="1921-11"/>
+                     </roleName>
+                     <roleName type="committee" subtype="banchetto" role="chairman">
+                        <date when="1923-08"/>
+                     </roleName>
+                     <roleName type="committee" subtype="ballo" role="assistente">
+                        <date when="1923-10"/>
+                     </roleName>
+                     <roleName type="committee" subtype="picnic" role="pres">
+                        <date when="1925-05"/>
+                     </roleName>
+                     <roleName type="committee" subtype="regolamento" role="regolatore">
+                        <date when="1919-04"/>
+                     </roleName>
+                     <roleName type="committee" subtype="regolamento" role="regolatore">
+                        <date when="1922-02"/>
+                     </roleName>
+                     <roleName type="committee" subtype="regolamento" role="regolatore">
+                        <date when="1924-07"/>
+                     </roleName>
+                     <roleName type="committee" subtype="investigazione" role="investigatore">
+                        <date when="1919-06"/>
+                     </roleName>
+                     <roleName type="committee" subtype="investigazione" role="investigatore">
+                        <date when="1920-03"/>
+                     </roleName>
+                     <roleName type="committee" subtype="investigazione" role="investigatore">
+                        <date when="1921-01"/>
+                     </roleName>
+                     <roleName type="committee" subtype="investigazione" role="investigatore">
+                        <date when="1922-02"/>
+                     </roleName>
+                     <roleName type="committee" subtype="investigazione" role="investigatore">
+                        <date when="1925-08"/>
+                     </roleName>
+                  </roleName>
+               </persName>
+            </person><person xml:id="pasquinellis">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName>
+                     <roleName type="officer" role="finanza">
+                        <date when="1919"/>
+                     </roleName>
+                     <roleName type="officer" role="tes">
+                        <date when="1920"/>
+                     </roleName>
+                     <roleName type="officer" role="tes">
+                        <date when="1921"/>
+                     </roleName>
+                     <roleName type="officer" role="tes">
+                        <date when="1922"/>
+                     </roleName>
+                     <roleName type="officer" role="tes">
+                        <date when="1923"/>
+                     </roleName>
+                     <roleName type="officer" role="tes">
+                        <date when="1924"/>
+                     </roleName>
+                     <roleName type="officer" role="tes">
+                        <date when="1925"/>
+                     </roleName>
+                     <roleName type="committee" subtype="festaCampestre" role="tes">
+                        <date when="1919-07"/>
+                     </roleName>
+                     <roleName type="committee" subtype="ballo" role="assistente">
+                        <date when="1919-08"/>
+                     </roleName>
+                     <roleName type="committee" subtype="picnic" role="chairman">
+                        <date when="1920-05"/>
+                     </roleName>
+                     <roleName type="committee" subtype="ballo" role="tes">
+                        <date when="1920-12"/>
+                     </roleName>
+                     <roleName type="committee" subtype="picnic" role="tes">
+                        <date when="1921-06"/>
+                     </roleName>
+                     <roleName type="committee" subtype="ballo" role="tes">
+                        <date when="1921-11"/>
+                     </roleName>
+                     <roleName type="committee" subtype="picnic" role="assistente">
+                        <date when="1922-04"/>
+                     </roleName>
+                     <roleName type="committee" subtype="picnic" role="tes">
+                        <date when="1922-07"/>
+                     </roleName>
+                     <roleName type="committee" subtype="ballo" role="tes">
+                        <date when="1922-11"/>
+                     </roleName>
+                     <roleName type="committee" subtype="ballo" role="tes">
+                        <date when="1923-10"/>
+                     </roleName>
+                     <roleName type="committee" subtype="picnic" role="assistente">
+                        <date when="1924-05"/>
+                     </roleName>
+                     <roleName type="committee" subtype="banchetto" role="tes">
+                        <date when="1925-03"/>
+                     </roleName>
+                     <roleName type="committee" subtype="picnic" role="tes">
+                        <date when="1925-05"/>
+                     </roleName>
+                     <roleName type="committee" subtype="regolamento" role="regolatore">
+                        <date when="1922-02"/>
+                     </roleName>
+                     <roleName type="committee" subtype="regolamento" role="regolatore">
+                        <date when="1922-08"/>
+                     </roleName>
+                     <roleName type="committee" subtype="investigazione" role="investigatore">
+                        <date when="1919-05"/>
+                     </roleName>
+                     <roleName type="committee" subtype="investigazione" role="investigatore">
+                        <date when="1919-06"/>
+                     </roleName>
+                     <roleName type="committee" subtype="investigazione" role="investigatore">
+                        <date when="1921-01"/>
+                     </roleName>
+                     <roleName type="committee" subtype="investigazione" role="investigatore">
+                        <date when="1921-10"/>
+                     </roleName>
+                     <roleName type="committee" subtype="investigazione" role="investigatore">
+                        <date when="1922-02"/>
+                     </roleName>
+                     <roleName type="committee" subtype="investigazione" role="investigatore">
+                        <date when="1922-04"/>
+                     </roleName>
+                     <roleName type="committee" subtype="investigazione" role="investigatore">
+                        <date when="1922-08"/>
+                     </roleName>
+                     <roleName type="committee" subtype="investigazione" role="investigatore">
+                        <date when="1922-10"/>
+                     </roleName>
+                     <roleName type="committee" subtype="investigazione" role="investigatore">
+                        <date when="1922-11"/>
+                     </roleName>
+                     <roleName type="committee" subtype="investigazione" role="investigatore">
+                        <date when="1924-09"/>
+                     </roleName>
+                     <roleName type="committee" subtype="investigazione" role="investigatore">
+                        <date when="1925-08"/>
+                     </roleName>
+                     <roleName type="committee" subtype="banchetto" role="membro">
+                        <date when="1925-02"/>
+                     </roleName>
+                     <roleName type="committee" subtype="banchetto" role="membro">
+                        <date when="1925-03"/>
+                     </roleName>
+                  </roleName>
+               </persName>
+            </person><person xml:id="pasquinelliam">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName>
+                     <roleName type="officer" role="tes">
+                        <date when="1919"/>
+                     </roleName>
+                     <roleName type="officer" role="curatore">
+                        <date when="1921"/>
+                     </roleName>
+                     <roleName type="committee" subtype="ballo" role="assistente">
+                        <date when="1919-08"/>
+                     </roleName>
+                     <roleName type="committee" subtype="picnic" role="assistente">
+                        <date when="1921-06"/>
+                     </roleName>
+                     <roleName type="committee" subtype="ballo" role="assistente">
+                        <date when="1921-12"/>
+                     </roleName>
+                     <roleName type="committee" subtype="ballo" role="assistente">
+                        <date when="1922-12"/>
+                     </roleName>
+                     <roleName type="committee" subtype="festaCampestre" role="assistente">
+                        <date when="1925-07"/>
+                     </roleName>
+                     <roleName type="committee" subtype="ballo" role="assistente">
+                        <date when="1925-11"/>
+                     </roleName>
+                     <roleName type="committee" subtype="banchetto" role="membro">
+                        <date when="1920-10"/>
+                     </roleName>
+                     <roleName type="committee" subtype="intrattenimento" role="membro">
+                        <date when="1921-02"/>
+                     </roleName>
+                  </roleName>
+               </persName>
+            </person><person xml:id="silvionic">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName>
+                     <roleName type="officer" role="curatore scaduto">
+                        <date when="1919"/>
+                     </roleName>
+                     <roleName type="officer" role="curatore">
+                        <date when="1920"/>
+                     </roleName>
+                     <roleName type="officer" role="colletore scaduto">
+                        <date when="1921"/>
+                     </roleName>
+                     <roleName type="committee" subtype="ballo" role="vice">
+                        <date when="1919-08"/>
+                     </roleName>
+                     <roleName type="committee" subtype="picnic" role="assistente">
+                        <date when="1920-05"/>
+                     </roleName>
+                     <roleName type="committee" subtype="ballo" role="chairman">
+                        <date when="1920-12"/>
+                     </roleName>
+                     <roleName type="committee" subtype="ballo" role="assistente">
+                        <date when="1921-12"/>
+                     </roleName>
+                     <roleName type="committee" subtype="ballo" role="chairman">
+                        <date when="1925-11"/>
+                     </roleName>
+                     <roleName type="committee" subtype="regolamento" role="regolatore">
+                        <date when="1919-04"/>
+                     </roleName>
+                     <roleName type="committee" subtype="investigazione" role="investigatore">
+                        <date when="1920-01"/>
+                     </roleName>
+                  </roleName>
+               </persName>
+            </person><person xml:id="paganuccis">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName>
+                     <roleName type="officer" role="curatore replacement">
+                        <date when="1919"/>
+                     </roleName>
+                     <roleName type="officer" role="sanitario">
+                        <date when="1920"/>
+                     </roleName>
+                     <roleName type="committee" subtype="festaCampestre" role="assistente">
+                        <date when="1919-07"/>
+                     </roleName>
+                     <roleName type="committee" subtype="ballo" role="assistente">
+                        <date when="1919-08"/>
+                     </roleName>
+                  </roleName>
+               </persName>
+            </person><person xml:id="bertonie">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName>
+                     <roleName type="officer" role="curatore scaduto">
+                        <date when="1919"/>
+                     </roleName>
+                     <roleName type="committee" subtype="ballo" role="assistente">
+                        <date when="1919-08"/>
+                     </roleName>
+                     <roleName type="committee" subtype="regolamento" role="regolatore">
+                        <date when="1922-01"/>
+                     </roleName>
+                     <roleName type="committee" subtype="regolamento" role="regolatore">
+                        <date when="1924-07"/>
+                     </roleName>
+                     <roleName type="committee" subtype="banchetto" role="membro">
+                        <date when="1925-02"/>
+                     </roleName>
+                  </roleName>
+               </persName>
+            </person><person xml:id="lunardinil">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName>
+                     <roleName type="officer" role="curatore replacement">
+                        <date when="1919"/>
+                     </roleName>
+                     <roleName type="officer" role="curatore">
+                        <date when="1920"/>
+                     </roleName>
+                     <roleName type="officer" role="curatore scaduto">
+                        <date when="1922"/>
+                     </roleName>
+                     <roleName type="committee" subtype="ballo" role="manager">
+                        <date when="1919-08"/>
+                     </roleName>
+                     <roleName type="committee" subtype="picnic" role="pres">
+                        <date when="1920-05"/>
+                     </roleName>
+                     <roleName type="committee" subtype="picnic" role="manager">
+                        <date when="1921-04"/>
+                     </roleName>
+                     <roleName type="committee" subtype="picnic" role="assistente">
+                        <date when="1922-04"/>
+                     </roleName>
+                     <roleName type="committee" subtype="ballo" role="vice">
+                        <date when="1922-11"/>
+                     </roleName>
+                     <roleName type="committee" subtype="ballo" role="chairman">
+                        <date when="1923-10"/>
+                     </roleName>
+                     <roleName type="committee" subtype="picnic" role="assistente">
+                        <date when="1924-05"/>
+                     </roleName>
+                     <roleName type="committee" subtype="ballo" role="manager">
+                        <date when="1924-10"/>
+                     </roleName>
+                     <roleName type="committee" subtype="ballo" role="chairman">
+                        <date when="1925-11"/>
+                     </roleName>
+                     <roleName type="committee" subtype="investigazione" role="investigatore">
+                        <date when="1919-05"/>
+                     </roleName>
+                     <roleName type="committee" subtype="investigazione" role="investigatore">
+                        <date when="1919-06"/>
+                     </roleName>
+                     <roleName type="committee" subtype="investigazione" role="investigatore">
+                        <date when="1920-03"/>
+                     </roleName>
+                     <roleName type="committee" subtype="investigazione" role="investigatore">
+                        <date when="1923-04"/>
+                     </roleName>
+                     <roleName type="committee" subtype="banchetto" role="membro">
+                        <date when="1925-02"/>
+                     </roleName>
+                  </roleName>
+               </persName>
+            </person><person xml:id="marsilia">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName>
+                     <roleName type="officer" role="curatore">
+                        <date when="1919"/>
+                     </roleName>
+                     <roleName type="committee" subtype="ballo" role="assistente">
+                        <date when="1919-08"/>
+                     </roleName>
+                     <roleName type="committee" subtype="festaCampestre" role="guardia">
+                        <date when="1925-07"/>
+                     </roleName>
+                     <roleName type="committee" subtype="investigazione" role="investigatore">
+                        <date when="1919-05"/>
+                     </roleName>
+                     <roleName type="committee" subtype="investigazione" role="investigatore">
+                        <date when="1919-06"/>
+                     </roleName>
+                  </roleName>
+               </persName>
+            </person><person xml:id="giomettic">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName>
+                     <roleName type="officer" role="sanitario">
+                        <date when="1919"/>
+                     </roleName>
+                     <roleName type="committee" subtype="ballo" role="assistente">
+                        <date when="1919-08"/>
+                     </roleName>
+                     <roleName type="committee" subtype="ballo" role="assistente">
+                        <date when="1920-12"/>
+                     </roleName>
+                     <roleName type="committee" subtype="ballo" role="assistente">
+                        <date when="1923-10"/>
+                     </roleName>
+                  </roleName>
+               </persName>
+            </person><person xml:id="merciadrie">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName>
+                     <roleName type="officer" role="sanitario">
+                        <date when="1919"/>
+                     </roleName>
+                     <roleName type="officer" role="guardia">
+                        <date when="1920"/>
+                     </roleName>
+                     <roleName type="officer" role="sanitario">
+                        <date when="1921"/>
+                     </roleName>
+                     <roleName type="officer" role="guardia">
+                        <date when="1921"/>
+                     </roleName>
+                     <roleName type="officer" role="sanitario">
+                        <date when="1922"/>
+                     </roleName>
+                     <roleName type="officer" role="guardia">
+                        <date when="1922"/>
+                     </roleName>
+                     <roleName type="officer" role="corresp scaduto">
+                        <date when="1923"/>
+                     </roleName>
+                     <roleName type="officer" role="guardia">
+                        <date when="1924"/>
+                     </roleName>
+                     <roleName type="officer" role="guardia">
+                        <date when="1925"/>
+                     </roleName>
+                     <roleName type="committee" subtype="festaCampestre" role="assistente">
+                        <date when="1919-07"/>
+                     </roleName>
+                     <roleName type="committee" subtype="ballo" role="assistente">
+                        <date when="1919-08"/>
+                     </roleName>
+                     <roleName type="committee" subtype="picnic" role="assistente">
+                        <date when="1920-05"/>
+                     </roleName>
+                     <roleName type="committee" subtype="ballo" role="assistente">
+                        <date when="1920-12"/>
+                     </roleName>
+                     <roleName type="committee" subtype="picnic" role="assistente">
+                        <date when="1921-04"/>
+                     </roleName>
+                     <roleName type="committee" subtype="picnic" role="assistente">
+                        <date when="1921-06"/>
+                     </roleName>
+                     <roleName type="committee" subtype="ballo" role="assistente">
+                        <date when="1921-11"/>
+                     </roleName>
+                     <roleName type="committee" subtype="picnic" role="assistente">
+                        <date when="1922-04"/>
+                     </roleName>
+                     <roleName type="committee" subtype="picnic" role="assistente">
+                        <date when="1922-07"/>
+                     </roleName>
+                     <roleName type="committee" subtype="ballo" role="assistente">
+                        <date when="1922-12"/>
+                     </roleName>
+                     <roleName type="committee" subtype="ballo" role="assistente">
+                        <date when="1923-10"/>
+                     </roleName>
+                     <roleName type="committee" subtype="picnic" role="assistente">
+                        <date when="1924-08"/>
+                     </roleName>
+                     <roleName type="committee" subtype="ballo" role="assistente">
+                        <date when="1924-10"/>
+                     </roleName>
+                     <roleName type="committee" subtype="picnic" role="assistente">
+                        <date when="1925-05"/>
+                     </roleName>
+                     <roleName type="committee" subtype="ballo" role="assistente">
+                        <date when="1925-11"/>
+                     </roleName>
+                     <roleName type="committee" subtype="intrattenimento" role="membro">
+                        <date when="1921-02"/>
+                     </roleName>
+                  </roleName>
+               </persName>
+            </person><person xml:id="fontanaan">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName>
+                     <roleName type="officer" role="guardia">
+                        <date when="1919"/>
+                     </roleName>
+                     <roleName type="committee" subtype="picnic" role="assistente">
+                        <date when="1920-05"/>
+                     </roleName>
+                  </roleName>
+               </persName>
+            </person><person xml:id="serafinig">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="maffeigio">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName>
+                     <roleName type="committee" subtype="picnic" role="assistente">
+                        <date when="1922-03"/>
+                     </roleName>
+                     <roleName type="committee" subtype="ballo" role="chairman">
+                        <date when="1924-10"/>
+                     </roleName>
+                     <roleName type="committee" subtype="festaCampestre" role="assistente">
+                        <date when="1925-07"/>
+                     </roleName>
+                  </roleName>
+               </persName>
+            </person><person xml:id="viganol">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName>
+                     <roleName type="officer" role="colletore scaduto">
+                        <date when="1920"/>
+                     </roleName>
+                     <roleName type="officer" role="sanitario">
+                        <date when="1923"/>
+                     </roleName>
+                     <roleName type="officer" role="sanitario scaduto">
+                        <date when="1924"/>
+                     </roleName>
+                     <roleName type="officer" role="sanitario">
+                        <date when="1925"/>
+                     </roleName>
+                     <roleName type="committee" subtype="festaCampestre" role="chairman">
+                        <date when="1919-07"/>
+                     </roleName>
+                     <roleName type="committee" subtype="ballo" role="manager">
+                        <date when="1919-08"/>
+                     </roleName>
+                     <roleName type="committee" subtype="ballo" role="chairman">
+                        <date when="1920-12"/>
+                     </roleName>
+                     <roleName type="committee" subtype="picnic" role="chairman">
+                        <date when="1921-04"/>
+                     </roleName>
+                     <roleName type="committee" subtype="ballo" role="assistente">
+                        <date when="1921-12"/>
+                     </roleName>
+                     <roleName type="committee" subtype="picnic" role="manager">
+                        <date when="1922-03"/>
+                     </roleName>
+                     <roleName type="committee" subtype="picnic" role="manager">
+                        <date when="1922-07"/>
+                     </roleName>
+                     <roleName type="committee" subtype="ballo" role="assistente">
+                        <date when="1922-12"/>
+                     </roleName>
+                     <roleName type="committee" subtype="picnic" role="assistente">
+                        <date when="1924-08"/>
+                     </roleName>
+                     <roleName type="committee" subtype="banchetto" role="vice">
+                        <date when="1925-03"/>
+                     </roleName>
+                     <roleName type="committee" subtype="picnic" role="chairman">
+                        <date when="1925-05"/>
+                     </roleName>
+                     <roleName type="committee" subtype="ballo" role="chairman">
+                        <date when="1925-11"/>
+                     </roleName>
+                     <roleName type="committee" subtype="investigazione" role="investigatore">
+                        <date when="1922-04"/>
+                     </roleName>
+                     <roleName type="committee" subtype="investigazione" role="investigatore">
+                        <date when="1922-11"/>
+                     </roleName>
+                     <roleName type="committee" subtype="investigazione" role="investigatore">
+                        <date when="1924-08"/>
+                     </roleName>
+                     <roleName type="committee" subtype="investigazione" role="investigatore">
+                        <date when="1925-03"/>
+                     </roleName>
+                     <roleName type="committee" subtype="banchetto" role="membro">
+                        <date when="1925-03"/>
+                     </roleName>
+                  </roleName>
+               </persName>
+            </person><person xml:id="maffeir">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName>
+                     <roleName type="officer" role="colletore scaduto">
+                        <date when="1922"/>
+                     </roleName>
+                     <roleName type="committee" subtype="ballo" role="chairman">
+                        <date when="1925-11"/>
+                     </roleName>
+                  </roleName>
+               </persName>
+            </person><person xml:id="danesiv">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName>
+                     <roleName type="committee" subtype="festaCampestre" role="assistente">
+                        <date when="1919-07"/>
+                     </roleName>
+                     <roleName type="committee" subtype="picnic" role="assistente">
+                        <date when="1920-05"/>
+                     </roleName>
+                     <roleName type="committee" subtype="picnic" role="assistente">
+                        <date when="1922-04"/>
+                     </roleName>
+                     <roleName type="committee" subtype="picnic" role="assistente">
+                        <date when="1924-08"/>
+                     </roleName>
+                     <roleName type="committee" subtype="ballo" role="assistente">
+                        <date when="1924-10"/>
+                     </roleName>
+                  </roleName>
+               </persName>
+            </person><person xml:id="lunardinim">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName>
+                     <roleName type="committee" subtype="ballo" role="assistente">
+                        <date when="1921-12"/>
+                     </roleName>
+                  </roleName>
+               </persName>
+            </person><person xml:id="buchignianil">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName>
+                     <roleName type="officer" role="colletore">
+                        <date when="1920"/>
+                     </roleName>
+                     <roleName type="officer" role="sanitario replacement">
+                        <date when="1922"/>
+                     </roleName>
+                  </roleName>
+               </persName>
+            </person><person xml:id="paternim">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName>
+                     <roleName type="committee" subtype="festaCampestre" role="assistente">
+                        <date when="1919-07"/>
+                     </roleName>
+                  </roleName>
+               </persName>
+            </person><person xml:id="diriccoe">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName>
+                     <roleName type="committee" subtype="ballo" role="assistente">
+                        <date when="1919-08"/>
+                     </roleName>
+                  </roleName>
+               </persName>
+            </person><person xml:id="lucchesial">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="pellegrinie">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName>
+                     <roleName type="committee" subtype="picnic" role="chairman">
+                        <date when="1922-03"/>
+                     </roleName>
+                     <roleName type="committee" subtype="picnic" role="assistente">
+                        <date when="1925-05"/>
+                     </roleName>
+                  </roleName>
+               </persName>
+            </person><person xml:id="robertice">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName>
+                     <roleName type="committee" subtype="picnic" role="assistente">
+                        <date when="1920-05"/>
+                     </roleName>
+                  </roleName>
+               </persName>
+            </person><person xml:id="barantip">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="ribettig">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="delmagrol">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="sunseric">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="desimos">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName>
+                     <roleName type="officer" role="curatore">
+                        <date when="1923"/>
+                     </roleName>
+                     <roleName type="committee" subtype="ballo" role="tes">
+                        <date when="1919-08"/>
+                     </roleName>
+                     <roleName type="committee" subtype="ballo" role="pres">
+                        <date when="1922-11"/>
+                     </roleName>
+                     <roleName type="committee" subtype="regolamento" role="regolatore">
+                        <date when="1919-04"/>
+                     </roleName>
+                     <roleName type="committee" subtype="investigazione" role="investigatore">
+                        <date when="1919-06"/>
+                     </roleName>
+                     <roleName type="committee" subtype="investigazione" role="investigatore">
+                        <date when="1923-09"/>
+                     </roleName>
+                  </roleName>
+               </persName>
+            </person><person xml:id="fredianellig">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName>
+                     <roleName type="officer" role="curatore">
+                        <date when="1920"/>
+                     </roleName>
+                     <roleName type="officer" role="curatore">
+                        <date when="1921"/>
+                     </roleName>
+                     <roleName type="officer" role="guardia">
+                        <date when="1923"/>
+                     </roleName>
+                     <roleName type="officer" role="sanitario">
+                        <date when="1924"/>
+                     </roleName>
+                     <roleName type="committee" subtype="ballo" role="assistente">
+                        <date when="1919-08"/>
+                     </roleName>
+                     <roleName type="committee" subtype="ballo" role="chairman">
+                        <date when="1920-09"/>
+                     </roleName>
+                     <roleName type="committee" subtype="picnic" role="assistente">
+                        <date when="1921-06"/>
+                     </roleName>
+                     <roleName type="committee" subtype="ballo" role="assistente">
+                        <date when="1921-11"/>
+                     </roleName>
+                     <roleName type="committee" subtype="ballo" role="assistente">
+                        <date when="1923-10"/>
+                     </roleName>
+                     <roleName type="committee" subtype="festaCampestre" role="assistente">
+                        <date when="1925-07"/>
+                     </roleName>
+                     <roleName type="committee" subtype="ballo" role="assistente">
+                        <date when="1925-11"/>
+                     </roleName>
+                     <roleName type="committee" subtype="regolamento" role="regolatore">
+                        <date when="1919-04"/>
+                     </roleName>
+                     <roleName type="committee" subtype="regolamento" role="regolatore">
+                        <date when="1922-02"/>
+                     </roleName>
+                     <roleName type="committee" subtype="investigazione" role="investigatore">
+                        <date when="1920-01"/>
+                     </roleName>
+                     <roleName type="committee" subtype="investigazione" role="investigatore">
+                        <date when="1922-08"/>
+                     </roleName>
+                     <roleName type="committee" subtype="investigazione" role="investigatore">
+                        <date when="1923-04"/>
+                     </roleName>
+                     <roleName type="committee" subtype="investigazione" role="investigatore">
+                        <date when="1924-08"/>
+                     </roleName>
+                     <roleName type="committee" subtype="investigazione" role="investigatore">
+                        <date when="1925-08"/>
+                     </roleName>
+                     <roleName type="committee" subtype="banchetto" role="membro">
+                        <date when="1920-10"/>
+                     </roleName>
+                  </roleName>
+               </persName>
+            </person><person xml:id="battistiniv">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName>
+                     <roleName type="officer" role="sanitario">
+                        <date when="1921"/>
+                     </roleName>
+                     <roleName type="committee" subtype="ballo" role="assistente">
+                        <date when="1920-12"/>
+                     </roleName>
+                     <roleName type="committee" subtype="ballo" role="assistente">
+                        <date when="1921-11"/>
+                     </roleName>
+                     <roleName type="committee" subtype="picnic" role="assistente">
+                        <date when="1922-04"/>
+                     </roleName>
+                     <roleName type="committee" subtype="ballo" role="assistente">
+                        <date when="1922-12"/>
+                     </roleName>
+                  </roleName>
+               </persName>
+            </person><person xml:id="sodinij">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName>
+                     <roleName type="officer" role="vice">
+                        <date when="1920"/>
+                     </roleName>
+                     <roleName type="officer" role="vice">
+                        <date when="1921"/>
+                     </roleName>
+                     <roleName type="officer" role="curatore">
+                        <date when="1922"/>
+                     </roleName>
+                     <roleName type="officer" role="colletore replacement">
+                        <date when="1922"/>
+                     </roleName>
+                     <roleName type="officer" role="colletore">
+                        <date when="1923"/>
+                     </roleName>
+                     <roleName type="officer" role="vice">
+                        <date when="1924"/>
+                     </roleName>
+                     <roleName type="officer" role="colletore">
+                        <date when="1924"/>
+                     </roleName>
+                     <roleName type="committee" subtype="ballo" role="vice">
+                        <date when="1919-08"/>
+                     </roleName>
+                     <roleName type="committee" subtype="picnic" role="assistente">
+                        <date when="1920-05"/>
+                     </roleName>
+                     <roleName type="committee" subtype="ballo" role="pres">
+                        <date when="1920-09"/>
+                     </roleName>
+                     <roleName type="committee" subtype="ballo" role="assistente">
+                        <date when="1920-12"/>
+                     </roleName>
+                     <roleName type="committee" subtype="ballo" role="chairman">
+                        <date when="1921-11"/>
+                     </roleName>
+                     <roleName type="committee" subtype="ballo" role="assistente">
+                        <date when="1923-10"/>
+                     </roleName>
+                     <roleName type="committee" subtype="regolamento" role="regolatore">
+                        <date when="1922-02"/>
+                     </roleName>
+                     <roleName type="committee" subtype="investigazione" role="investigatore">
+                        <date when="1920-01"/>
+                     </roleName>
+                     <roleName type="committee" subtype="investigazione" role="investigatore">
+                        <date when="1920-03"/>
+                     </roleName>
+                     <roleName type="committee" subtype="investigazione" role="investigatore">
+                        <date when="1920-11"/>
+                     </roleName>
+                     <roleName type="committee" subtype="investigazione" role="investigatore">
+                        <date when="1921-10"/>
+                     </roleName>
+                     <roleName type="committee" subtype="investigazione" role="investigatore">
+                        <date when="1922-10"/>
+                     </roleName>
+                     <roleName type="committee" subtype="investigazione" role="investigatore">
+                        <date when="1922-11"/>
+                     </roleName>
+                     <roleName type="committee" subtype="investigazione" role="investigatore">
+                        <date when="1923-03"/>
+                     </roleName>
+                     <roleName type="committee" subtype="investigazione" role="investigatore">
+                        <date when="1923-04"/>
+                     </roleName>
+                     <roleName type="committee" subtype="investigazione" role="investigatore">
+                        <date when="1923-09"/>
+                     </roleName>
+                     <roleName type="committee" subtype="investigazione" role="investigatore">
+                        <date when="1923-09"/>
+                     </roleName>
+                  </roleName>
+               </persName>
+            </person><person xml:id="zinim">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName>
+                     <roleName type="officer" role="sanitario">
+                        <date when="1923"/>
+                     </roleName>
+                     <roleName type="committee" subtype="festaCampestre" role="vice">
+                        <date when="1919-07"/>
+                     </roleName>
+                     <roleName type="committee" subtype="ballo" role="assistente">
+                        <date when="1919-08"/>
+                     </roleName>
+                     <roleName type="committee" subtype="picnic" role="assistente">
+                        <date when="1920-05"/>
+                     </roleName>
+                     <roleName type="committee" subtype="ballo" role="tes">
+                        <date when="1920-09"/>
+                     </roleName>
+                     <roleName type="committee" subtype="ballo" role="assistente">
+                        <date when="1920-12"/>
+                     </roleName>
+                     <roleName type="committee" subtype="picnic" role="assistente">
+                        <date when="1921-05"/>
+                     </roleName>
+                     <roleName type="committee" subtype="ballo" role="assistente">
+                        <date when="1921-11"/>
+                     </roleName>
+                     <roleName type="committee" subtype="picnic" role="seg">
+                        <date when="1922-03"/>
+                     </roleName>
+                     <roleName type="committee" subtype="picnic" role="assistente">
+                        <date when="1922-07"/>
+                     </roleName>
+                     <roleName type="committee" subtype="ballo" role="chairman">
+                        <date when="1922-11"/>
+                     </roleName>
+                     <roleName type="committee" subtype="ballo" role="assistente">
+                        <date when="1923-10"/>
+                     </roleName>
+                     <roleName type="committee" subtype="picnic" role="assistente">
+                        <date when="1924-05"/>
+                     </roleName>
+                     <roleName type="committee" subtype="picnic" role="assistente">
+                        <date when="1925-05"/>
+                     </roleName>
+                     <roleName type="committee" subtype="ballo" role="tes">
+                        <date when="1925-11"/>
+                     </roleName>
+                     <roleName type="committee" subtype="regolamento" role="regolatore">
+                        <date when="1922-02"/>
+                     </roleName>
+                     <roleName type="committee" subtype="regolamento" role="regolatore">
+                        <date when="1924-07"/>
+                     </roleName>
+                     <roleName type="committee" subtype="parata" role="membro">
+                        <date when="1924-09"/>
+                     </roleName>
+                  </roleName>
+               </persName>
+            </person><person xml:id="giangranedif">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName>
+                     <roleName type="committee" subtype="ballo" role="assistente">
+                        <date when="1919-08"/>
+                     </roleName>
+                  </roleName>
+               </persName>
+            </person><person xml:id="cappellinic">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName>
+                     <roleName type="officer" role="colletore replacement">
+                        <date when="1921"/>
+                     </roleName>
+                     <roleName type="officer" role="vice">
+                        <date when="1922"/>
+                     </roleName>
+                     <roleName type="committee" subtype="ballo" role="assistente">
+                        <date when="1919-08"/>
+                     </roleName>
+                     <roleName type="committee" subtype="picnic" role="assistente">
+                        <date when="1921-05"/>
+                     </roleName>
+                     <roleName type="committee" subtype="picnic" role="vice">
+                        <date when="1921-06"/>
+                     </roleName>
+                     <roleName type="committee" subtype="picnic" role="assistente">
+                        <date when="1922-04"/>
+                     </roleName>
+                     <roleName type="committee" subtype="picnic" role="pres">
+                        <date when="1922-07"/>
+                     </roleName>
+                     <roleName type="committee" subtype="ballo" role="assistente">
+                        <date when="1922-12"/>
+                     </roleName>
+                     <roleName type="committee" subtype="ballo" role="assistente">
+                        <date when="1923-10"/>
+                     </roleName>
+                     <roleName type="committee" subtype="regolamento" role="regolatore">
+                        <date when="1922-01"/>
+                     </roleName>
+                     <roleName type="committee" subtype="regolamento" role="regolatore">
+                        <date when="1922-02"/>
+                     </roleName>
+                     <roleName type="committee" subtype="investigazione" role="investigatore">
+                        <date when="1921-10"/>
+                     </roleName>
+                     <roleName type="committee" subtype="investigazione" role="investigatore">
+                        <date when="1922-08"/>
+                     </roleName>
+                     <roleName type="committee" subtype="investigazione" role="investigatore">
+                        <date when="1923-09"/>
+                     </roleName>
+                     <roleName type="committee" subtype="investigazione" role="investigatore">
+                        <date when="1923-09"/>
+                     </roleName>
+                  </roleName>
+               </persName>
+            </person><person xml:id="pellegrinic">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName>
+                     <roleName type="officer" role="finanza">
+                        <date when="1920"/>
+                     </roleName>
+                     <roleName type="officer" role="pres">
+                        <date when="1924"/>
+                     </roleName>
+                     <roleName type="committee" subtype="festaCampestre" role="finanza">
+                        <date when="1919-07"/>
+                     </roleName>
+                     <roleName type="committee" subtype="ballo" role="assistente">
+                        <date when="1919-08"/>
+                     </roleName>
+                     <roleName type="committee" subtype="picnic" role="finanza">
+                        <date when="1920-05"/>
+                     </roleName>
+                     <roleName type="committee" subtype="stendardo" role="chairman">
+                        <date when="1920-07"/>
+                     </roleName>
+                     <roleName type="committee" subtype="ballo" role="seg">
+                        <date when="1920-09"/>
+                     </roleName>
+                     <roleName type="committee" subtype="ballo" role="assistente">
+                        <date when="1920-12"/>
+                     </roleName>
+                     <roleName type="committee" subtype="ballo" role="assistente">
+                        <date when="1921-12"/>
+                     </roleName>
+                     <roleName type="committee" subtype="ballo" role="vice">
+                        <date when="1923-10"/>
+                     </roleName>
+                     <roleName type="committee" subtype="regolamento" role="regolatore">
+                        <date when="1922-01"/>
+                     </roleName>
+                     <roleName type="committee" subtype="regolamento" role="regolatore">
+                        <date when="1922-08"/>
+                     </roleName>
+                     <roleName type="committee" subtype="investigazione" role="investigatore">
+                        <date when="1919-06"/>
+                     </roleName>
+                     <roleName type="committee" subtype="investigazione" role="investigatore">
+                        <date when="1920-03"/>
+                     </roleName>
+                     <roleName type="committee" subtype="investigazione" role="investigatore">
+                        <date when="1920-11"/>
+                     </roleName>
+                     <roleName type="committee" subtype="investigazione" role="investigatore">
+                        <date when="1921-01"/>
+                     </roleName>
+                     <roleName type="committee" subtype="investigazione" role="investigatore">
+                        <date when="1922-04"/>
+                     </roleName>
+                     <roleName type="committee" subtype="investigazione" role="investigatore">
+                        <date when="1923-09"/>
+                     </roleName>
+                     <roleName type="committee" subtype="intrattenimento" role="membro">
+                        <date when="1921-02"/>
+                     </roleName>
+                  </roleName>
+               </persName>
+            </person><person xml:id="mancinia">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="pardinia">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="simie">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="rossir">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="tambellinile">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="pacinio">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="boninif">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName>
+                     <roleName type="committee" subtype="ballo" role="pres">
+                        <date when="1919-08"/>
+                     </roleName>
+                  </roleName>
+               </persName>
+            </person><person xml:id="tambellinig">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName>
+                     <roleName type="committee" subtype="ballo" role="assistente">
+                        <date when="1919-08"/>
+                     </roleName>
+                     <roleName type="committee" subtype="ballo" role="pres">
+                        <date when="1921-11"/>
+                     </roleName>
+                     <roleName type="committee" subtype="ballo" role="assistente">
+                        <date when="1923-10"/>
+                     </roleName>
+                     <roleName type="committee" subtype="ballo" role="pres">
+                        <date when="1924-10"/>
+                     </roleName>
+                     <roleName type="committee" subtype="ballo" role="assistente">
+                        <date when="1925-11"/>
+                     </roleName>
+                     <roleName type="committee" subtype="investigazione" role="investigatore">
+                        <date when="1922-04"/>
+                     </roleName>
+                     <roleName type="committee" subtype="investigazione" role="investigatore">
+                        <date when="1922-10"/>
+                     </roleName>
+                  </roleName>
+               </persName>
+            </person><person xml:id="serafinio">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName>
+                     <roleName type="committee" subtype="ballo" role="assistente">
+                        <date when="1919-08"/>
+                     </roleName>
+                  </roleName>
+               </persName>
+            </person><person xml:id="pistelliu">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName>
+                     <roleName type="committee" subtype="ballo" role="manager">
+                        <date when="1919-08"/>
+                     </roleName>
+                     <roleName type="committee" subtype="parata" role="membro">
+                        <date when="1924-09"/>
+                     </roleName>
+                  </roleName>
+               </persName>
+            </person><person xml:id="lombardia">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="cappellinim">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="fontanaf">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="baldaccia">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="cinellio">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName>
+                     <roleName type="committee" subtype="picnic" role="assistente">
+                        <date when="1921-06"/>
+                     </roleName>
+                     <roleName type="committee" subtype="banchetto" role="assistente">
+                        <date when="1923-08"/>
+                     </roleName>
+                     <roleName type="committee" subtype="picnic" role="assistente">
+                        <date when="1924-08"/>
+                     </roleName>
+                     <roleName type="committee" subtype="ballo" role="chairman">
+                        <date when="1924-10"/>
+                     </roleName>
+                     <roleName type="committee" subtype="festaCampestre" role="assistente">
+                        <date when="1925-07"/>
+                     </roleName>
+                     <roleName type="committee" subtype="ballo" role="vice">
+                        <date when="1925-11"/>
+                     </roleName>
+                     <roleName type="committee" subtype="regolamento" role="regolatore">
+                        <date when="1924-07"/>
+                     </roleName>
+                     <roleName type="committee" subtype="investigazione" role="investigatore">
+                        <date when="1923-09"/>
+                     </roleName>
+                     <roleName type="committee" subtype="investigazione" role="investigatore">
+                        <date when="1925-08"/>
+                     </roleName>
+                     <roleName type="committee" subtype="banchetto" role="membro">
+                        <date when="1923-08"/>
+                     </roleName>
+                  </roleName>
+               </persName>
+            </person><person xml:id="zinib">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName>
+                     <roleName type="committee" subtype="ballo" role="vice">
+                        <date when="1924-10"/>
+                     </roleName>
+                     <roleName type="committee" subtype="parata" role="membro">
+                        <date when="1924-09"/>
+                     </roleName>
+                  </roleName>
+               </persName>
+            </person><person xml:id="barsottigio">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="bartolettif">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="bianchinigio">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="carmassil">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="diodatia">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="davinie">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="marconif">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="barontinid">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName>
+                     <roleName type="committee" subtype="ballo" role="corresp">
+                        <date when="1925-11"/>
+                     </roleName>
+                  </roleName>
+               </persName>
+            </person><person xml:id="benedettie">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="fontanaal">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="giuntoligi">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="giuntoligu">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="pasquinellian">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="serafinia">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="marconic">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName>
+                     <roleName type="officer" role="pres">
+                        <date when="1922"/>
+                     </roleName>
+                     <roleName type="officer" role="curatore">
+                        <date when="1924"/>
+                     </roleName>
+                     <roleName type="officer" role="curatore">
+                        <date when="1925"/>
+                     </roleName>
+                     <roleName type="committee" subtype="picnic" role="pres">
+                        <date when="1921-06"/>
+                     </roleName>
+                     <roleName type="committee" subtype="ballo" role="chairman">
+                        <date when="1921-11"/>
+                     </roleName>
+                     <roleName type="committee" subtype="ballo" role="assistente">
+                        <date when="1922-12"/>
+                     </roleName>
+                     <roleName type="committee" subtype="ballo" role="chairman">
+                        <date when="1923-10"/>
+                     </roleName>
+                     <roleName type="committee" subtype="investigazione" role="investigatore">
+                        <date when="1923-03"/>
+                     </roleName>
+                     <roleName type="committee" subtype="investigazione" role="investigatore">
+                        <date when="1923-09"/>
+                     </roleName>
+                     <roleName type="committee" subtype="investigazione" role="investigatore">
+                        <date when="1923-09"/>
+                     </roleName>
+                     <roleName type="committee" subtype="investigazione" role="investigatore">
+                        <date when="1923-09"/>
+                     </roleName>
+                     <roleName type="committee" subtype="investigazione" role="investigatore">
+                        <date when="1924-09"/>
+                     </roleName>
+                  </roleName>
+               </persName>
+            </person><person xml:id="piaggesia">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName>
+                     <roleName type="officer" role="sanitario">
+                        <date when="1920"/>
+                     </roleName>
+                     <roleName type="officer" role="finanza">
+                        <date when="1921"/>
+                     </roleName>
+                     <roleName type="committee" subtype="ballo" role="assistente">
+                        <date when="1922-12"/>
+                     </roleName>
+                     <roleName type="committee" subtype="picnic" role="assistente">
+                        <date when="1925-05"/>
+                     </roleName>
+                  </roleName>
+               </persName>
+            </person><person xml:id="sandronee">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName>
+                     <roleName type="committee" subtype="ballo" role="assistente">
+                        <date when="1921-12"/>
+                     </roleName>
+                  </roleName>
+               </persName>
+            </person><person xml:id="marsilis">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName>
+                     <roleName type="officer" role="pres">
+                        <date when="1921"/>
+                     </roleName>
+                     <roleName type="officer" role="curatore">
+                        <date when="1922"/>
+                     </roleName>
+                     <roleName type="committee" subtype="ballo" role="chairman">
+                        <date when="1920-12"/>
+                     </roleName>
+                     <roleName type="committee" subtype="picnic" role="assistente">
+                        <date when="1921-06"/>
+                     </roleName>
+                     <roleName type="committee" subtype="intrattenimento" role="membro">
+                        <date when="1921-02"/>
+                     </roleName>
+                  </roleName>
+               </persName>
+            </person><person xml:id="diodativ">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="vannuccie">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName>
+                     <roleName type="officer" role="sanitario replacement">
+                        <date when="1924"/>
+                     </roleName>
+                     <roleName type="officer" role="sanitario scaduto">
+                        <date when="1925"/>
+                     </roleName>
+                     <roleName type="committee" subtype="picnic" role="assistente">
+                        <date when="1921-06"/>
+                     </roleName>
+                     <roleName type="committee" subtype="ballo" role="assistente">
+                        <date when="1921-11"/>
+                     </roleName>
+                     <roleName type="committee" subtype="ballo" role="assistente">
+                        <date when="1923-10"/>
+                     </roleName>
+                     <roleName type="committee" subtype="picnic" role="assistente">
+                        <date when="1924-05"/>
+                     </roleName>
+                     <roleName type="committee" subtype="picnic" role="assistente">
+                        <date when="1924-08"/>
+                     </roleName>
+                     <roleName type="committee" subtype="festaCampestre" role="assistente">
+                        <date when="1925-07"/>
+                     </roleName>
+                     <roleName type="committee" subtype="ballo" role="assistente">
+                        <date when="1925-11"/>
+                     </roleName>
+                  </roleName>
+               </persName>
+            </person><person xml:id="serafinini">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="vannuccia">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName>
+                     <roleName type="officer" role="sanitario replacement">
+                        <date when="1925"/>
+                     </roleName>
+                     <roleName type="committee" subtype="picnic" role="assistente">
+                        <date when="1922-04"/>
+                     </roleName>
+                     <roleName type="committee" subtype="picnic" role="vice">
+                        <date when="1922-07"/>
+                     </roleName>
+                     <roleName type="committee" subtype="ballo" role="assistente">
+                        <date when="1924-10"/>
+                     </roleName>
+                     <roleName type="committee" subtype="festaCampestre" role="assistente">
+                        <date when="1925-07"/>
+                     </roleName>
+                     <roleName type="committee" subtype="ballo" role="assistente">
+                        <date when="1925-11"/>
+                     </roleName>
+                  </roleName>
+               </persName>
+            </person><person xml:id="zambellinic">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="marchettie">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName>
+                     <roleName type="officer" role="corresp">
+                        <date when="1921"/>
+                     </roleName>
+                     <roleName type="officer" role="corresp">
+                        <date when="1922"/>
+                     </roleName>
+                     <roleName type="committee" subtype="ballo" role="vice">
+                        <date when="1920-09"/>
+                     </roleName>
+                     <roleName type="committee" subtype="stendardo" role="chairman">
+                        <date when="1920-10"/>
+                     </roleName>
+                     <roleName type="committee" subtype="ballo" role="seg">
+                        <date when="1920-12"/>
+                     </roleName>
+                     <roleName type="committee" subtype="ballo" role="seg">
+                        <date when="1921-11"/>
+                     </roleName>
+                     <roleName type="committee" subtype="picnic" role="seg">
+                        <date when="1922-07"/>
+                     </roleName>
+                  </roleName>
+               </persName>
+            </person><person xml:id="martinellir">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="bevilacquas">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName>
+                     <roleName type="committee" subtype="picnic" role="assistente">
+                        <date when="1920-05"/>
+                     </roleName>
+                  </roleName>
+               </persName>
+            </person><person xml:id="pardinib">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName>
+                     <roleName type="committee" subtype="banchetto" role="assistente">
+                        <date when="1923-08"/>
+                     </roleName>
+                     <roleName type="committee" subtype="investigazione" role="investigatore">
+                        <date when="1923-04"/>
+                     </roleName>
+                     <roleName type="committee" subtype="investigazione" role="investigatore">
+                        <date when="1925-03"/>
+                     </roleName>
+                     <roleName type="committee" subtype="banchetto" role="membro">
+                        <date when="1923-08"/>
+                     </roleName>
+                  </roleName>
+               </persName>
+            </person><person xml:id="padre">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="datia">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName>
+                     <roleName type="committee" subtype="picnic" role="vice">
+                        <date when="1920-05"/>
+                     </roleName>
+                     <roleName type="committee" subtype="picnic" role="assistente">
+                        <date when="1921-06"/>
+                     </roleName>
+                     <roleName type="committee" subtype="ballo" role="assistente">
+                        <date when="1921-12"/>
+                     </roleName>
+                     <roleName type="committee" subtype="picnic" role="vice">
+                        <date when="1922-03"/>
+                     </roleName>
+                     <roleName type="committee" subtype="ballo" role="assistente">
+                        <date when="1923-10"/>
+                     </roleName>
+                     <roleName type="committee" subtype="picnic" role="assistente">
+                        <date when="1924-08"/>
+                     </roleName>
+                     <roleName type="committee" subtype="ballo" role="tes">
+                        <date when="1924-10"/>
+                     </roleName>
+                     <roleName type="committee" subtype="picnic" role="assistente">
+                        <date when="1925-05"/>
+                     </roleName>
+                     <roleName type="committee" subtype="ballo" role="assistente">
+                        <date when="1925-11"/>
+                     </roleName>
+                     <roleName type="committee" subtype="banchetto" role="membro">
+                        <date when="1925-03"/>
+                     </roleName>
+                  </roleName>
+               </persName>
+            </person><person xml:id="lucchesiam">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName>
+                     <roleName type="officer" role="curatore">
+                        <date when="1921"/>
+                     </roleName>
+                     <roleName type="officer" role="finanza replacement">
+                        <date when="1922"/>
+                     </roleName>
+                     <roleName type="officer" role="finanza">
+                        <date when="1923"/>
+                     </roleName>
+                     <roleName type="officer" role="curatore">
+                        <date when="1924"/>
+                     </roleName>
+                     <roleName type="officer" role="curatore">
+                        <date when="1925"/>
+                     </roleName>
+                     <roleName type="committee" subtype="picnic" role="tes">
+                        <date when="1920-05"/>
+                     </roleName>
+                     <roleName type="committee" subtype="ballo" role="vice">
+                        <date when="1920-12"/>
+                     </roleName>
+                     <roleName type="committee" subtype="picnic" role="tes">
+                        <date when="1921-04"/>
+                     </roleName>
+                     <roleName type="committee" subtype="picnic" role="assistente">
+                        <date when="1921-06"/>
+                     </roleName>
+                     <roleName type="committee" subtype="picnic" role="pres">
+                        <date when="1922-03"/>
+                     </roleName>
+                     <roleName type="committee" subtype="picnic" role="chairman">
+                        <date when="1922-07"/>
+                     </roleName>
+                     <roleName type="committee" subtype="banchetto" role="assistente">
+                        <date when="1923-08"/>
+                     </roleName>
+                     <roleName type="committee" subtype="ballo" role="pres">
+                        <date when="1923-10"/>
+                     </roleName>
+                     <roleName type="committee" subtype="picnic" role="assistente">
+                        <date when="1924-05"/>
+                     </roleName>
+                     <roleName type="committee" subtype="investigazione" role="investigatore">
+                        <date when="1920-11"/>
+                     </roleName>
+                     <roleName type="committee" subtype="investigazione" role="investigatore">
+                        <date when="1922-08"/>
+                     </roleName>
+                     <roleName type="committee" subtype="investigazione" role="investigatore">
+                        <date when="1922-11"/>
+                     </roleName>
+                     <roleName type="committee" subtype="investigazione" role="investigatore">
+                        <date when="1923-03"/>
+                     </roleName>
+                     <roleName type="committee" subtype="investigazione" role="investigatore">
+                        <date when="1923-09"/>
+                     </roleName>
+                     <roleName type="committee" subtype="investigazione" role="investigatore">
+                        <date when="1924-08"/>
+                     </roleName>
+                     <roleName type="committee" subtype="banchetto" role="membro">
+                        <date when="1923-08"/>
+                     </roleName>
+                  </roleName>
+               </persName>
+            </person><person xml:id="denricoc">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName>
+                     <roleName type="committee" subtype="picnic" role="assistente">
+                        <date when="1920-05"/>
+                     </roleName>
+                  </roleName>
+               </persName>
+            </person><person xml:id="darrigop">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="paternic">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="zinif">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName>
+                     <roleName type="committee" subtype="ballo" role="assistente">
+                        <date when="1920-12"/>
+                     </roleName>
+                     <roleName type="committee" subtype="ballo" role="assistente">
+                        <date when="1921-11"/>
+                     </roleName>
+                     <roleName type="committee" subtype="picnic" role="assistente">
+                        <date when="1922-07"/>
+                     </roleName>
+                     <roleName type="committee" subtype="parata" role="membro">
+                        <date when="1924-09"/>
+                     </roleName>
+                  </roleName>
+               </persName>
+            </person><person xml:id="palig">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="denricop">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="gambogis">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="maffeip">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName>
+                     <roleName type="committee" subtype="ballo" role="assistente">
+                        <date when="1923-10"/>
+                     </roleName>
+                     <roleName type="committee" subtype="ballo" role="assistente">
+                        <date when="1924-10"/>
+                     </roleName>
+                  </roleName>
+               </persName>
+            </person><person xml:id="banchieris">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="bartolis">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="carloe">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName>
+                     <roleName type="officer" role="curatore">
+                        <date when="1923"/>
+                     </roleName>
+                     <roleName type="committee" subtype="ballo" role="assistente">
+                        <date when="1920-12"/>
+                     </roleName>
+                     <roleName type="committee" subtype="ballo" role="assistente">
+                        <date when="1921-11"/>
+                     </roleName>
+                     <roleName type="committee" subtype="festaCampestre" role="assistente">
+                        <date when="1925-07"/>
+                     </roleName>
+                  </roleName>
+               </persName>
+            </person><person xml:id="casalio">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName>
+                     <roleName type="committee" subtype="ballo" role="assistente">
+                        <date when="1922-12"/>
+                     </roleName>
+                  </roleName>
+               </persName>
+            </person><person xml:id="maffeiv">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="maffeigia">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName>
+                     <roleName type="officer" role="finanza scaduto">
+                        <date when="1922"/>
+                     </roleName>
+                     <roleName type="committee" subtype="ballo" role="assistente">
+                        <date when="1920-12"/>
+                     </roleName>
+                     <roleName type="committee" subtype="ballo" role="assistente">
+                        <date when="1921-12"/>
+                     </roleName>
+                     <roleName type="committee" subtype="ballo" role="assistente">
+                        <date when="1921-12"/>
+                     </roleName>
+                     <roleName type="committee" subtype="intrattenimento" role="membro">
+                        <date when="1921-02"/>
+                     </roleName>
+                  </roleName>
+               </persName>
+            </person><person xml:id="maffeid">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName>
+                     <roleName type="committee" subtype="ballo" role="assistente">
+                        <date when="1920-12"/>
+                     </roleName>
+                     <roleName type="committee" subtype="ballo" role="assistente">
+                        <date when="1921-12"/>
+                     </roleName>
+                  </roleName>
+               </persName>
+            </person><person xml:id="cristofania">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName>
+                     <roleName type="committee" subtype="ballo" role="assistente">
+                        <date when="1920-12"/>
+                     </roleName>
+                     <roleName type="committee" subtype="picnic" role="seg">
+                        <date when="1921-04"/>
+                     </roleName>
+                  </roleName>
+               </persName>
+            </person><person xml:id="francesconia">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName>
+                     <roleName type="committee" subtype="ballo" role="assistente">
+                        <date when="1923-10"/>
+                     </roleName>
+                  </roleName>
+               </persName>
+            </person><person xml:id="donatol">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="ragghiantir">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName>
+                     <roleName type="committee" subtype="picnic" role="assistente">
+                        <date when="1921-05"/>
+                     </roleName>
+                  </roleName>
+               </persName>
+            </person><person xml:id="ragghiantie">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="zambellinig">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="robertog">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="santarlascia">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName>
+                     <roleName type="committee" subtype="ballo" role="assistente">
+                        <date when="1920-12"/>
+                     </roleName>
+                     <roleName type="committee" subtype="picnic" role="assistente">
+                        <date when="1921-05"/>
+                     </roleName>
+                  </roleName>
+               </persName>
+            </person><person xml:id="viganor">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName>
+                     <roleName type="committee" subtype="ballo" role="assistente">
+                        <date when="1920-12"/>
+                     </roleName>
+                     <roleName type="committee" subtype="picnic" role="manager">
+                        <date when="1921-06"/>
+                     </roleName>
+                  </roleName>
+               </persName>
+            </person><person xml:id="quintigliog">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName>
+                     <roleName type="committee" subtype="ballo" role="assistente">
+                        <date when="1920-12"/>
+                     </roleName>
+                     <roleName type="committee" subtype="picnic" role="assistente">
+                        <date when="1922-04"/>
+                     </roleName>
+                  </roleName>
+               </persName>
+            </person><person xml:id="pasquinellig">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="fogliav">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="temfarlaseia">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="luccic">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="bianchinigiu">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="polif">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="francesconio">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="maffeib">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="giannig">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName>
+                     <roleName type="officer" role="corresp replacement">
+                        <date when="1923"/>
+                     </roleName>
+                     <roleName type="officer" role="curatore">
+                        <date when="1923"/>
+                     </roleName>
+                     <roleName type="officer" role="corresp">
+                        <date when="1924"/>
+                     </roleName>
+                     <roleName type="officer" role="corresp">
+                        <date when="1925"/>
+                     </roleName>
+                     <roleName type="committee" subtype="picnic" role="assistente">
+                        <date when="1921-05"/>
+                     </roleName>
+                     <roleName type="committee" subtype="picnic" role="seg">
+                        <date when="1921-06"/>
+                     </roleName>
+                     <roleName type="committee" subtype="ballo" role="assistente">
+                        <date when="1921-11"/>
+                     </roleName>
+                     <roleName type="committee" subtype="picnic" role="assistente">
+                        <date when="1922-04"/>
+                     </roleName>
+                     <roleName type="committee" subtype="picnic" role="assistente">
+                        <date when="1922-07"/>
+                     </roleName>
+                     <roleName type="committee" subtype="ballo" role="manager">
+                        <date when="1922-11"/>
+                     </roleName>
+                     <roleName type="committee" subtype="ballo" role="seg">
+                        <date when="1923-10"/>
+                     </roleName>
+                     <roleName type="committee" subtype="ballo" role="seg">
+                        <date when="1924-10"/>
+                     </roleName>
+                     <roleName type="committee" subtype="banchetto" role="seg">
+                        <date when="1925-03"/>
+                     </roleName>
+                     <roleName type="committee" subtype="picnic" role="corresp">
+                        <date when="1925-05"/>
+                     </roleName>
+                     <roleName type="committee" subtype="ballo" role="assistente">
+                        <date when="1925-11"/>
+                     </roleName>
+                     <roleName type="committee" subtype="investigazione" role="investigatore">
+                        <date when="1922-08"/>
+                     </roleName>
+                     <roleName type="committee" subtype="banchetto" role="membro">
+                        <date when="1925-02"/>
+                     </roleName>
+                     <roleName type="committee" subtype="banchetto" role="membro">
+                        <date when="1925-03"/>
+                     </roleName>
+                  </roleName>
+               </persName>
+            </person><person xml:id="pascuzzia">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="malfattip">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName>
+                     <roleName type="committee" subtype="picnic" role="assistente">
+                        <date when="1921-05"/>
+                     </roleName>
+                     <roleName type="committee" subtype="intrattenimento" role="membro">
+                        <date when="1921-02"/>
+                     </roleName>
+                  </roleName>
+               </persName>
+            </person><person xml:id="tambellinial">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="giomettio">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName>
+                     <roleName type="committee" subtype="picnic" role="assistente">
+                        <date when="1922-07"/>
+                     </roleName>
+                  </roleName>
+               </persName>
+            </person><person xml:id="brigidinia">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="bianchinif">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="meconin">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName>
+                     <roleName type="committee" subtype="picnic" role="assistente">
+                        <date when="1921-04"/>
+                     </roleName>
+                  </roleName>
+               </persName>
+            </person><person xml:id="lunardinip">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="puccettil">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName>
+                     <roleName type="committee" subtype="picnic" role="assistente">
+                        <date when="1921-04"/>
+                     </roleName>
+                  </roleName>
+               </persName>
+            </person><person xml:id="puccettia">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName>
+                     <roleName type="committee" subtype="picnic" role="assistente">
+                        <date when="1921-04"/>
+                     </roleName>
+                     <roleName type="committee" subtype="picnic" role="assistente">
+                        <date when="1921-06"/>
+                     </roleName>
+                     <roleName type="committee" subtype="ballo" role="assistente">
+                        <date when="1925-11"/>
+                     </roleName>
+                  </roleName>
+               </persName>
+            </person><person xml:id="coltellig">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="andreinia">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="fontanae">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName>
+                     <roleName type="committee" subtype="ballo" role="assistente">
+                        <date when="1924-10"/>
+                     </roleName>
+                  </roleName>
+               </persName>
+            </person><person xml:id="deldebbiog">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="pacinig">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName>
+                     <roleName type="committee" subtype="picnic" role="assistente">
+                        <date when="1922-07"/>
+                     </roleName>
+                  </roleName>
+               </persName>
+            </person><person xml:id="pasquinellim">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="marianir">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName>
+                     <roleName type="committee" subtype="picnic" role="assistente">
+                        <date when="1921-05"/>
+                     </roleName>
+                  </roleName>
+               </persName>
+            </person><person xml:id="mungaia">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName>
+                     <roleName type="committee" subtype="picnic" role="assistente">
+                        <date when="1922-07"/>
+                     </roleName>
+                  </roleName>
+               </persName>
+            </person><person xml:id="colombinin">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="borellie">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="ponzionip">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="nicolais">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="piccininig">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="pacinic">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName>
+                     <roleName type="officer" role="vice">
+                        <date when="1923"/>
+                     </roleName>
+                     <roleName type="committee" subtype="picnic" role="pres">
+                        <date when="1921-04"/>
+                     </roleName>
+                     <roleName type="committee" subtype="picnic" role="assistente">
+                        <date when="1921-06"/>
+                     </roleName>
+                     <roleName type="committee" subtype="ballo" role="vice">
+                        <date when="1921-11"/>
+                     </roleName>
+                     <roleName type="committee" subtype="picnic" role="assistente">
+                        <date when="1922-04"/>
+                     </roleName>
+                     <roleName type="committee" subtype="ballo" role="assistente">
+                        <date when="1922-12"/>
+                     </roleName>
+                     <roleName type="committee" subtype="ballo" role="chairman">
+                        <date when="1923-10"/>
+                     </roleName>
+                     <roleName type="committee" subtype="investigazione" role="investigatore">
+                        <date when="1921-10"/>
+                     </roleName>
+                     <roleName type="committee" subtype="investigazione" role="investigatore">
+                        <date when="1923-09"/>
+                     </roleName>
+                     <roleName type="committee" subtype="parata" role="membro">
+                        <date when="1924-09"/>
+                     </roleName>
+                  </roleName>
+               </persName>
+            </person><person xml:id="papid">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName>
+                     <roleName type="committee" subtype="picnic" role="vice">
+                        <date when="1921-04"/>
+                     </roleName>
+                     <roleName type="committee" subtype="picnic" role="assistente">
+                        <date when="1921-06"/>
+                     </roleName>
+                  </roleName>
+               </persName>
+            </person><person xml:id="robertig">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName>
+                     <roleName type="committee" subtype="picnic" role="assistente">
+                        <date when="1921-04"/>
+                     </roleName>
+                  </roleName>
+               </persName>
+            </person><person xml:id="olivieriam">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName>
+                     <roleName type="committee" subtype="picnic" role="assistente">
+                        <date when="1921-06"/>
+                     </roleName>
+                  </roleName>
+               </persName>
+            </person><person xml:id="martinellia">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName>
+                     <roleName type="committee" subtype="picnic" role="assistente">
+                        <date when="1921-05"/>
+                     </roleName>
+                     <roleName type="committee" subtype="picnic" role="assistente">
+                        <date when="1921-06"/>
+                     </roleName>
+                  </roleName>
+               </persName>
+            </person><person xml:id="unknown">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="micheluccis">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName>
+                     <roleName type="officer" role="sanitario scaduto">
+                        <date when="1922"/>
+                     </roleName>
+                     <roleName type="committee" subtype="ballo" role="assistente">
+                        <date when="1921-11"/>
+                     </roleName>
+                  </roleName>
+               </persName>
+            </person><person xml:id="marsilig">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="fugassij">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="lunardinia">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="pasqualig">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="cortopassig">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName>
+                     <roleName type="committee" subtype="ballo" role="assistente">
+                        <date when="1921-11"/>
+                     </roleName>
+                     <roleName type="committee" subtype="picnic" role="assistente">
+                        <date when="1922-07"/>
+                     </roleName>
+                  </roleName>
+               </persName>
+            </person><person xml:id="pasquinellie">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName>
+                     <roleName type="officer" role="finanza">
+                        <date when="1924"/>
+                     </roleName>
+                     <roleName type="officer" role="finanza">
+                        <date when="1925"/>
+                     </roleName>
+                     <roleName type="committee" subtype="picnic" role="assistente">
+                        <date when="1922-04"/>
+                     </roleName>
+                     <roleName type="committee" subtype="picnic" role="assistente">
+                        <date when="1922-07"/>
+                     </roleName>
+                     <roleName type="committee" subtype="ballo" role="assistente">
+                        <date when="1922-12"/>
+                     </roleName>
+                     <roleName type="committee" subtype="festaCampestre" role="assistente">
+                        <date when="1925-07"/>
+                     </roleName>
+                     <roleName type="committee" subtype="ballo" role="finanza">
+                        <date when="1925-11"/>
+                     </roleName>
+                  </roleName>
+               </persName>
+            </person><person xml:id="lunardinifr">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName>
+                     <roleName type="committee" subtype="ballo" role="assistente">
+                        <date when="1921-12"/>
+                     </roleName>
+                     <roleName type="committee" subtype="festaCampestre" role="assistente">
+                        <date when="1925-07"/>
+                     </roleName>
+                  </roleName>
+               </persName>
+            </person><person xml:id="barduccia">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="benedettia">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="santonif">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="chioccac">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="viganoe">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName>
+                     <roleName type="officer" role="corresp scaduto">
+                        <date when="1923"/>
+                     </roleName>
+                     <roleName type="committee" subtype="picnic" role="assistente">
+                        <date when="1922-04"/>
+                     </roleName>
+                     <roleName type="committee" subtype="picnic" role="assistente">
+                        <date when="1922-07"/>
+                     </roleName>
+                     <roleName type="committee" subtype="ballo" role="seg">
+                        <date when="1922-11"/>
+                     </roleName>
+                  </roleName>
+               </persName>
+            </person><person xml:id="tambellinian">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="pasquinellial">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="chioccad">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName>
+                     <roleName type="committee" subtype="ballo" role="assistente">
+                        <date when="1923-10"/>
+                     </roleName>
+                     <roleName type="committee" subtype="ballo" role="assistente">
+                        <date when="1924-10"/>
+                     </roleName>
+                  </roleName>
+               </persName>
+            </person><person xml:id="martinellig">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName>
+                     <roleName type="committee" subtype="ballo" role="assistente">
+                        <date when="1922-12"/>
+                     </roleName>
+                     <roleName type="committee" subtype="ballo" role="assistente">
+                        <date when="1923-10"/>
+                     </roleName>
+                     <roleName type="committee" subtype="ballo" role="assistente">
+                        <date when="1925-11"/>
+                     </roleName>
+                  </roleName>
+               </persName>
+            </person><person xml:id="borellim">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName>
+                     <roleName type="officer" role="curatore replacement">
+                        <date when="1923"/>
+                     </roleName>
+                     <roleName type="officer" role="curatore">
+                        <date when="1924"/>
+                     </roleName>
+                     <roleName type="officer" role="curatore">
+                        <date when="1925"/>
+                     </roleName>
+                     <roleName type="committee" subtype="ballo" role="assistente">
+                        <date when="1923-10"/>
+                     </roleName>
+                     <roleName type="committee" subtype="investigazione" role="investigatore">
+                        <date when="1924-09"/>
+                     </roleName>
+                  </roleName>
+               </persName>
+            </person><person xml:id="incroccip">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName>
+                     <roleName type="committee" subtype="ballo" role="assistente">
+                        <date when="1923-10"/>
+                     </roleName>
+                  </roleName>
+               </persName>
+            </person><person xml:id="pollastrinia">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="baccellim">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName>
+                     <roleName type="committee" subtype="picnic" role="assistente">
+                        <date when="1925-05"/>
+                     </roleName>
+                  </roleName>
+               </persName>
+            </person><person xml:id="andreiniv">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="giuglianettir">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="giampaolig">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="barellim">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="deldebbioc">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="gambogia">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="checcig">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="francionig">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="desantie">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName>
+                     <roleName type="officer" role="vice">
+                        <date when="1925"/>
+                     </roleName>
+                     <roleName type="committee" subtype="picnic" role="vice">
+                        <date when="1925-05"/>
+                     </roleName>
+                     <roleName type="committee" subtype="ballo" role="pres">
+                        <date when="1925-11"/>
+                     </roleName>
+                     <roleName type="committee" subtype="regolamento" role="regolatore">
+                        <date when="1924-07"/>
+                     </roleName>
+                     <roleName type="committee" subtype="parata" role="membro">
+                        <date when="1924-09"/>
+                     </roleName>
+                  </roleName>
+               </persName>
+            </person><person xml:id="miconin">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName>
+                     <roleName type="committee" subtype="ballo" role="assistente">
+                        <date when="1923-10"/>
+                     </roleName>
+                  </roleName>
+               </persName>
+            </person><person xml:id="dinie">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="diodatir">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="frediania">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="rossie">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="michelie">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="guidia">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="milanig">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="lunardial">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName>
+                     <roleName type="committee" subtype="ballo" role="assistente">
+                        <date when="1924-10"/>
+                     </roleName>
+                  </roleName>
+               </persName>
+            </person><person xml:id="buchignianiv">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="marsilie">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="lunardiac">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="chiocchettii">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="scarpellinis">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName>
+                     <roleName type="committee" subtype="picnic" role="finanza">
+                        <date when="1925-05"/>
+                     </roleName>
+                  </roleName>
+               </persName>
+            </person><person xml:id="robertico">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="olivieriat">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="matteucciv">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="benedettig">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="menchettir">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="guidottif">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="barsottiv">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="barsottif">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="barsottigiu">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName>
+                     <roleName type="committee" subtype="picnic" role="assistente">
+                        <date when="1925-05"/>
+                     </roleName>
+                  </roleName>
+               </persName>
+            </person><person xml:id="pardinie">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="frosinio">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="allegrinie">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="pasquinellijos">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="baggianig">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName>
+                     <roleName type="committee" subtype="ballo" role="assistente">
+                        <date when="1925-11"/>
+                     </roleName>
+                  </roleName>
+               </persName>
+            </person><person xml:id="bottarip">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="pasquinelliq">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="marchettil">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="marchettiq">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="puccinellia">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="pasquinellijoh">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="tambellinilo">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="belluominin">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="paganellig">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="marchettim">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="cortopassiv">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="tamburit">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="polia">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="biagir">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="lucchesin">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="tamburig">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="baccelliu">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="biaginic">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="valdisserau">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="lunardinifa">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="puccinellig">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="marracciniv">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="casalic">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="guidottie">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName>
+                     <roleName type="committee" subtype="ballo" role="assistente">
+                        <date when="1925-11"/>
+                     </roleName>
+                  </roleName>
+               </persName>
+            </person><person xml:id="serafinina">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="franchinir">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="delucae">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="ghinaccig">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="sodinig">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="giorgettip">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="ragghiantia">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="francesconig">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="fontanaam">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="barsantif">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person><person xml:id="tamburia">
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <roleName/>
+               </persName>
+            </person></listPerson></body></text></TEI>

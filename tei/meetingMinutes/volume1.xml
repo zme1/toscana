@@ -768,24 +768,24 @@
                   type="committee" subtype="festaCampestre">
                   <note>Aministrazione della Festa Campestre</note>
                   <lb/>
-                  <item><persName ref="#fredianim">Muzio Frediani <roleName type="committee" role="pres"
-                           >Presidente</roleName></persName></item>
+                  <item><persName ref="#fredianim">Muzio Frediani</persName> <roleName type="committee" role="pres"
+                           >Presidente</roleName></item>
                   <lb/>
-                  <item><persName ref="#zinim">Modesto Zini<roleName type="committee" role="vice"
-                           >Vice</roleName></persName></item>
+                  <item><persName ref="#zinim">Modesto Zini</persName><roleName type="committee" role="vice"
+                           >Vice</roleName></item>
                   <lb/>
-                  <item><persName ref="#pellegrinic">Casimiro Pelligrini<roleName type="committee" role="finanza"
-                           >Segrodi Finanza</roleName></persName></item>
+                  <item><persName ref="#pellegrinic">Casimiro Pelligrini</persName><roleName type="committee" role="finanza"
+                           >Segrodi Finanza</roleName></item>
                   <lb/>
-                  <item><persName ref="#simonettim">Mike Simonetti<roleName type="committee" role="corresp">^
-                           Cor.</roleName></persName></item>
+                  <item><persName ref="#simonettim">Mike Simonetti</persName><roleName type="committee" role="corresp">^
+                           Cor.</roleName></item>
                   <lb/>
-                  <item><persName ref="#pasquinellis">Santino Pasquinelli<roleName type="committee" role="tes"
-                           >Tesoriere</roleName></persName></item>
+                  <item><persName ref="#pasquinellis">Santino Pasquinelli</persName><roleName type="committee" role="tes"
+                           >Tesoriere</roleName></item>
                   <lb/>
-                  <item><persName ref="#viganol">Lorenzo Vigano’<roleName type="committee" role="chairman"
+                  <item><persName ref="#viganol">Lorenzo Vigano’</persName><roleName type="committee" role="chairman"
                               >Capo<unclear reason="illegible">Chia</unclear>
-                           d’arangiomento</roleName></persName></item>
+                           d’arangiomento</roleName></item>
                   <lb/>
                   <item><list><note>Assistenti</note>
                   <item><persName ref="#merciadrie">Eugenio Merciadri</persName><roleName type="committee" role="assistente"></roleName></item>
@@ -1600,22 +1600,22 @@
                   <item><list>
                         <note>Gli assistenti scelti furono</note>
                         <lb/>
-                        <item><persName ref="#zinim">Modesto Zini<roleName type="committee"
-                                 role="assistente"/></persName>,</item>
-                        <item><persName ref="#silvionic">Carlo Silvioni<roleName type="committee"
-                                 role="assistente"/></persName>,</item>
-                        <item><persName ref="#robertice">Cesare<lb/> Roberti<roleName
-                                 type="committee" role="assistente"/></persName>;</item>
-                        <item><persName ref="#bevilacquas">Sam Bevilacqua<roleName type="committee"
-                                 role="assistente"/></persName>,</item>
-                        <item><persName ref="#merciadrie">E. Mer-<lb/> ciadri<roleName
-                                 type="committee" role="assistente"/></persName>,</item>
-                        <item><persName ref="#fontanaan">Angelo Fontana<roleName type="committee"
-                                 role="assistente"/></persName>,</item>
-                        <item><persName ref="#danesiv">Virgilio<lb/> Danesi<roleName
-                                 type="committee" role="assistente"/></persName></item>
-                        <item>e <persName ref="#denricoc">Curico D'Enrico<roleName type="committee"
-                                 role="assistente"/></persName>.</item>
+                     <item><persName ref="#zinim">Modesto Zini</persName><roleName type="committee"
+                                 role="assistente"/>,</item>
+                     <item><persName ref="#silvionic">Carlo Silvioni</persName><roleName type="committee"
+                                 role="assistente"/>,</item>
+                     <item><persName ref="#robertice">Cesare<lb/> Roberti</persName><roleName
+                                 type="committee" role="assistente"/>;</item>
+                     <item><persName ref="#bevilacquas">Sam Bevilacqua</persName><roleName type="committee"
+                                 role="assistente"/>,</item>
+                     <item><persName ref="#merciadrie">E. Mer-<lb/> ciadri</persName><roleName
+                                 type="committee" role="assistente"/>,</item>
+                     <item><persName ref="#fontanaan">Angelo Fontana</persName><roleName type="committee"
+                                 role="assistente"/>,</item>
+                     <item><persName ref="#danesiv">Virgilio<lb/> Danesi</persName><roleName
+                                 type="committee" role="assistente"/></item>
+                     <item>e <persName ref="#denricoc">Curico D'Enrico</persName><roleName type="committee"
+                                 role="assistente"/>.</item>
                      </list></item>
                </list><lb/> Il pic-nic fu deciso di farlo<lb/> libero a tutti e di fare un
                biglietto<lb/> unico del costo di 25¢ escludendo<lb/> dal pagamento i bambini al
@@ -1720,8 +1720,8 @@
                <list type="committee" subtype="stendardo">
                   <note>Il co-<lb/> mitato e’ cosi composto:</note>
                   <lb/>
-                  <item><persName ref="#pellegrinic">Casimiro Pellegrini <roleName type="committee"
-                           role="chairman"/></persName></item>
+                  <item><persName ref="#pellegrinic">Casimiro Pellegrini</persName> <roleName type="committee"
+                           role="chairman"/></item>
                   <lb/>
                   <item><persName ref="#desimos">De Simo Serafino</persName></item>
                   <lb/>
@@ -1990,8 +1990,8 @@
                   <note><persName ref="#pellegrinic">Casimiro Pellegrini</persName> ha
                      presentato<lb/> le sue dimissioni da capo Comitato<lb/> per le Bandiere e
                      queste accettate ed<lb/> in sua vece venne nominato </note>
-                  <item><persName ref="#marchettie"><roleName type="committee" role="chairman"/>il
-                        fra-<lb/> tello Emilio Marchetti</persName></item>
+                  <item><persName ref="#marchettie"></persName><roleName type="committee" role="chairman"/>il
+                        fra-<lb/> tello Emilio Marchetti</item>
                </list><lb/>
                <seg type="proposal" subtype="evento"><persName ref="#pellegrinic" role="proposer">Casimiro
                      Pellegrini</persName> ass. da<lb/>
@@ -2779,8 +2779,8 @@
                         <note>e i suoi assistenti</note>
                         <lb/>
 
-                        <item><persName ref="#puccettia">Adriano Puccetti<roleName type="committee"
-                                 role="assistente"/></persName></item>
+                     <item><persName ref="#puccettia">Adriano Puccetti</persName><roleName type="committee"
+                                 role="assistente"/></item>
                         <item><persName ref="#puccettil">Lorenzo Puccetti</persName><roleName
                               type="committee" role="assistente"/></item>
                         <item><persName ref="#robertig">Gino<lb/> Roberti</persName><roleName
@@ -2986,8 +2986,8 @@
                   <lb/>
                   <item><list>
                         <note>Assistenti</note>
-                        <item><persName ref="#fredianellig">Giuseppe Fredianelli<roleName
-                                 type="committee" role="assistente"/></persName></item>
+                     <item><persName ref="#fredianellig">Giuseppe Fredianelli</persName><roleName
+                                 type="committee" role="assistente"/></item>
                         <lb/>
                         <item><persName ref="#marsilis">Sam Marsili</persName><roleName
                               type="committee" role="assistente"/>,</item>
@@ -3018,8 +3018,8 @@
                         <lb/>
                         <item><persName ref="#olivieriam">Amos Olivieri</persName><roleName
                               type="committee" role="assistente"/>, </item>
-                        <item><persName ref="unknown">Ernesto <unclear reason="illegible"
-                              /></persName>,</item>
+                       <note><persName ref="unknown">Ernesto <unclear reason="illegible"
+                              /></persName>,</note>
                         <lb/>
                         <item><persName ref="#cinellio">Olinto Cinelli</persName><roleName
                               type="committee" role="assistente"/>.</item>
@@ -3932,7 +3932,7 @@
                         <item><persName ref="#battistiniv">Vincenzo Battistini</persName><roleName
                               type="committee" role="assistente"/></item>
                         <lb/>
-                        <item><persName ref="#giannig">Giuseppe Gianni</persName>,</item>
+                        <item><persName ref="#giannig">Giuseppe Gianni</persName><roleName type="committee" role="assistente"/>,</item>
                         <item><persName ref="#cappellinic">Castruccio Cappellini</persName><roleName
                               type="committee" role="assistente"/></item>
                         <lb/>
@@ -4023,7 +4023,7 @@
                         <item><persName ref="#merciadrie">Eugenio Merciadri</persName><roleName
                               type="committee" role="assistente"/>,</item>
                         <lb/>
-                        <item><persName ref="#zinim">Modesto Zini</persName>,</item>
+                        <item><persName ref="#zinim">Modesto Zini</persName><roleName type="committee" role="assistente"></roleName>,</item>
                         <item><persName ref="#pasquinellie">Emilio Pasquinelli</persName><roleName
                               type="committee" role="assistente"/>,</item>
                         <lb/>
@@ -4525,7 +4525,7 @@
                         <item><persName ref="#pasquinellie">Emilio Pasquinelli</persName><roleName
                               type="committee" role="assistente"/>,</item>
                         <item><persName ref="#martinellig">Giuseppe Martinel-<lb/>
-                           li</persName></item>
+                           li</persName><roleName type="committee" role="assistente"></roleName></item>
                         <item><persName ref="#merciadrie">Eugenio Merciadri</persName><roleName
                               type="committee" role="assistente"/>,</item>
                         <item><persName ref="#pacinic">Candito Pacini</persName><roleName
@@ -5305,7 +5305,7 @@
                         type="committee" role="assistente"/>.</item>
                   <item><persName ref="#giomettic">Carlo<lb/> Giometti</persName><roleName
                         type="committee" role="assistente"/>.</item>
-                  <item><persName ref="#datia">Adelmo Dati</persName>.</item>
+                  <item><persName ref="#datia">Adelmo Dati</persName><roleName type="committee" role="assistente"/>.</item>
                   <item><persName ref="#tambellinig">Guiseppe Tambellini</persName><roleName
                         type="committee" role="assistente"/></item>
                   <lb/>
@@ -5877,12 +5877,12 @@
                   subtype="picnic">
                   <note>e<lb/> viene nominato il comitato per il pec<lb/> nec. nei seguenti
                      soci,</note>
-                  <item><persName ref="#lunardinil">Lorenzo Lunardini</persName></item>
+                  <item><persName ref="#lunardinil">Lorenzo Lunardini</persName><roleName type="committee" role="assistente"/></item>
                   <lb/>
-                  <item><persName ref="#zinim">Modesto Zini</persName>,</item>
-                  <item><persName ref="#vannuccie">Ermete Vannucci</persName>,</item>
-                  <item><persName ref="#pasquinellis">Santino<lb/> Pasquinelli</persName></item>
-                  <item>e <persName ref="#lucchesiam">Amerigo Lucchesi</persName>.</item>
+                  <item><persName ref="#zinim">Modesto Zini</persName><roleName type="committee" role="assistente"/>,</item>
+                  <item><persName ref="#vannuccie">Ermete Vannucci</persName><roleName type="committee" role="assistente"/>,</item>
+                  <item><persName ref="#pasquinellis">Santino<lb/> Pasquinelli</persName><roleName type="committee" role="assistente"/></item>
+                  <item>e <persName ref="#lucchesiam">Amerigo Lucchesi</persName><roleName type="committee" role="assistente"/>.</item>
                </list><lb/>
                <seg type="proposal" subtype="comitato">Fu proposto da <persName ref="#zinim" role="proposer">Modesto
                      Zini</persName> e assecondato<lb/> da <persName ref="#giannig" role="supporter"
@@ -6065,7 +6065,7 @@
                      Frediani</persName> e <persName ref="#viganol" role="supporter">Lorenzo
                      Vigano’</persName> venne approvato di fare un comitato per<lb/> investigare i
                   conti del. pic.nic.</seg> ultimo.<lb/> Componenti <list type="committee"
-                  subtype="picnic">
+                  subtype="investigazione">
                   <note>il comitato sonno i seguenti</note>
                   <lb/>
                   <item><persName ref="#lucchesiam">Amerigo Lucchesi</persName>,</item>
@@ -6079,14 +6079,14 @@
                         ref="#pellegrinic">il<lb/> presidente</rs> dopo una lunga e vivace
                      discussione nomino’ il seguente comitato. per farlo la<lb/> seconda domenica di
                      Settembre.</note>
-                  <item><persName ref="#fredianim">Muzio Frediani</persName></item>
+                  <item><persName ref="#fredianim">Muzio Frediani</persName><roleName type="committee" role="assistente"/></item>
                   <lb/>
-                  <item><persName ref="#cinellio">Olindo Cinelli</persName></item>
-                  <item><persName ref="#danesiv">Virgilio Danesi</persName>.</item>
-                  <item><persName ref="#viganol">Lorenzo Vigano’</persName></item>
-                  <item><persName ref="#merciadrie">Eugenio Merciadri</persName>,</item>
-                  <item><persName ref="#vannuccie">Ermete Vannucci</persName></item>
-                  <item>e <persName ref="#datia">Adelmo<lb/> Dati</persName>.</item>
+                  <item><persName ref="#cinellio">Olindo Cinelli</persName><roleName type="committee" role="assistente"/></item>
+                  <item><persName ref="#danesiv">Virgilio Danesi</persName><roleName type="committee" role="assistente"/>.</item>
+                  <item><persName ref="#viganol">Lorenzo Vigano’</persName><roleName type="committee" role="assistente"/></item>
+                  <item><persName ref="#merciadrie">Eugenio Merciadri</persName><roleName type="committee" role="assistente"/>,</item>
+                  <item><persName ref="#vannuccie">Ermete Vannucci</persName><roleName type="committee" role="assistente"/></item>
+                  <item>e <persName ref="#datia">Adelmo<lb/> Dati</persName><roleName type="committee" role="assistente"/>.</item>
                </list> Essendosi presentato <persName ref="#viganol">il fratello Lorenzo<lb/>
                   Vigano’</persName> e dichiarato di avere mancato di fronte<lb/> al comitato pic
                nic e verso la societa’ stessa<lb/> il presidente dichiaro’ chiusa la vertenza.<lb/>
@@ -7119,38 +7119,38 @@ l’assemblea accetto’ il prezzo stabilito $4.00<lb/>
                Loggia Martire Cesare Battisti No 238.<lb/> Inviato un ivito di andare in corpo e
                con<lb/> bandiere alla loro festa pro’. <persName ref="#sodinig">S.
                   Giuseppe</persName><lb/> e piu’ due libretti riffa da vendere.<lb/>
-               <list type="committee" subtype="ballo">
+               <list type="committee" subtype="festaCampestre">
                   <note>l’assemblea dopo breve discussione<lb/> risultava l’una e l’altra Avendo
                      il<lb/> comitato festa campestre bisogno ancora<lb/> di personale <rs
                         ref="#simonettim">il presidente</rs> nomino’ ed<lb/> accettarono i seguenti
                      membri.</note>
                   <item><list>
-                        <item><persName ref="#marsilia">Marsili Abramo</persName></item>
+                        <item><persName ref="#marsilia">Marsili Abramo</persName><roleName type="committee" role="guardia"/></item>
                         <lb/>
                         <item>e <persName ref="#silvionic">Silvioni Carlo</persName></item>
                         <note><roleName type="committee" role="guardia">guarda Sala di ballo</roleName></note>
                      </list></item>
                   <lb/>
                   <item><list>
-                        <item><persName ref="#vannuccie">Ermete Vannucci</persName></item>
-                        <item>e <persName ref="#vannuccia">Alfredo Vannucci</persName></item>
+                     <item><persName ref="#vannuccie">Ermete Vannucci</persName><roleName type="committee" role="assistente"/></item>
+                     <item>e <persName ref="#vannuccia">Alfredo Vannucci</persName><roleName type="committee" role="assistente"/></item>
                         <note>a<lb/> vendere le ticchette per il ballo.</note>
                      </list></item>
                   <item><list>
                         <item><persName ref="#lunardinifr">Francesco<lb/>
-                           Lunardini</persName>.</item>
-                        <item><persName ref="#pasquinelliam">Americo Pasquinelli</persName>.</item>
+                           Lunardini</persName><roleName type="committee" role="assistente"/>.</item>
+                     <item><persName ref="#pasquinelliam">Americo Pasquinelli</persName><roleName type="committee" role="assistente"/>.</item>
                         <item><persName ref="#fredianellig">Giuseppe<lb/>
-                           Fredianelli</persName></item>
-                        <item>e <persName ref="#maffeigio">Giovacchino Maffei</persName></item>
+                           Fredianelli</persName><roleName type="committee" role="assistente"/></item>
+                     <item>e <persName ref="#maffeigio">Giovacchino Maffei</persName><roleName type="committee" role="assistente"/></item>
                         <note>a ricevere<lb/> la gente.</note>
                      </list></item>
                   <item><list>
-                        <item><persName ref="#maffeis">Stefano Maffei</persName>.</item>
-                        <item><persName ref="#cinellio">Olinto Cinelli</persName></item>
+                     <item><persName ref="#maffeis">Stefano Maffei</persName><roleName type="committee" role="assistente"/>.</item>
+                     <item><persName ref="#cinellio">Olinto Cinelli</persName><roleName type="committee" role="assistente"/></item>
                         <lb/>
-                        <item><persName ref="#carloe">Ezio Carli</persName>.</item>
-                        <item>e <persName ref="#pasquinellie">Emilio Pasquinelli</persName></item>
+                     <item><persName ref="#carloe">Ezio Carli</persName><roleName type="committee" role="assistente"/>.</item>
+                     <item>e <persName ref="#pasquinellie">Emilio Pasquinelli</persName><roleName type="committee" role="assistente"/></item>
                         <note>a<lb/> vendere le ticchette per la bevanda.</note>
                      </list></item>
                </list><lb/> Furono pagati i seguenti bill. <persName ref="#simonettim">Michele
