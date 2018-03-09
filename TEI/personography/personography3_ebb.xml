@@ -1,0 +1,1023 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../odd/out/personography.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lega Toscana di Protezione XSLT Generated Personography File</title>
+            <author>Zachary Enick</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Prepared in TEI 5 by Zachary Enick for the Italian research assistantship at the
+                            University of Pittsburgh. Github repository: <ref target="http://github.com/zme1/toscana"/>. Date last worked on: <date when="2018-01-28"/>
+            </authority>
+            <availability>
+               <licence/>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="allegrinie"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when="2019"/>
+               </roleName></roleName></persName></person>
+            <person xml:id="andreinia"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="andreiniv"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="anselmif"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="baccellim"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="baccelliu"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="baggianig"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="baldaccia"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="banchieris"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="barantip"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="barduccia"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="barellim"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="barontinid"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="barsantif"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="barsottif"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="barsottigio"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="barsottigiu"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="barsottiv"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="bartolettif"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="bartolis"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="battistiniv"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName><roleName type="officer" role="sanitario"><date when=""/></roleName></roleName></persName></person>
+            <person xml:id="belluominin"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="benedettia"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="benedettie"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="benedettig"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="bertonie"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName><roleName type="officer" role="curatore"><date when=""/></roleName></roleName></persName></person>
+            <person xml:id="bevilacquas"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="biagir"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="biaginic"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="bianchinif"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="bianchinigio"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="bianchinigiu"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="boninif"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="bondare"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="borellie"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="borellim"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName><roleName type="officer" role="curatore"><date when=""/></roleName><roleName type="officer" role="curatore"><date when=""/></roleName><roleName type="officer" role="curatore"><date when=""/></roleName></roleName></persName></person>
+            <person xml:id="bottarip"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="brigidinia"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="buchignianil"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName><roleName type="officer" role="colletore"><date when=""/></roleName><roleName type="officer" role="sanitario"><date when=""/></roleName></roleName></persName></person>
+            <person xml:id="buchignianiv"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="cappellinic"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName><roleName type="officer" role="colletore"><date when=""/></roleName><roleName type="officer" role="vice"><date when=""/></roleName></roleName></persName></person>
+            <person xml:id="cappellinim"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="carloe"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName><roleName type="officer" role="curatore"><date when=""/></roleName></roleName></persName></person>
+            <person xml:id="carmassil"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="casalic"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="casalio"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="checcig"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="chioccac"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="chioccad"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="chiocchettii"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="cinellio"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="colombinin"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="coltellig"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="cortopassig"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="cortopassiv"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="cristofania"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="danesiv"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="darrigop"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="datia"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="davinie"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="deldebbioc"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="deldebbiog"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="delmagrol"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="delucae"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="denricoc"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="denricop"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="desantie"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName><roleName type="officer" role="vice"><date when=""/></roleName></roleName></persName></person>
+            <person xml:id="desimos"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName><roleName type="officer" role="curatore"><date when=""/></roleName></roleName></persName></person>
+            <person xml:id="dinie"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="diodatia"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="diodatir"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="diodativ"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="diriccoe"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="donatol"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="enickz"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="fogliav"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="fontanaal"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="fontanaam"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="fontanaan"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName><roleName type="officer" role="guardia"><date when=""/></roleName></roleName></persName></person>
+            <person xml:id="fontanae"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="fontanaf"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="francesconia"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="francesconig"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="francesconio"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="franchinir"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="francionig"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="fredianellig"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName><roleName type="officer" role="curatore"><date when=""/></roleName><roleName type="officer" role="curatore"><date when=""/></roleName><roleName type="officer" role="guardia"><date when=""/></roleName><roleName type="officer" role="sanitario"><date when=""/></roleName></roleName></persName></person>
+            <person xml:id="frediania"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="fredianim"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName><roleName type="officer" role="pres"><date when=""/></roleName><roleName type="officer" role="corresp"><date when=""/></roleName><roleName type="officer" role="curatore"><date when=""/></roleName></roleName></persName></person>
+            <person xml:id="frosinio"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="fugassij"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="gambogia"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="gambogis"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="ghinaccig"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="giampaolig"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="giangranedif"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="giannig"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName><roleName type="officer officer" role="corresp curatore"><date when=""/></roleName><roleName type="officer" role="corresp"><date when=""/></roleName><roleName type="officer" role="corresp"><date when=""/></roleName></roleName></persName></person>
+            <person xml:id="giomettic"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName><roleName type="officer" role="sanitario"><date when=""/></roleName></roleName></persName></person>
+            <person xml:id="giomettio"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="giorgettip"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="giuglianettir"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="giuntoligi"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="giuntoligu"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="guidia"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="guidottie"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="guidottif"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="incroccip"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="insanal"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="jermyne"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="keilr"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="lombardia"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="lucchesial"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="lucchesiam"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName><roleName type="officer" role="curatore"><date when=""/></roleName><roleName type="officer" role="finanza"><date when=""/></roleName><roleName type="officer" role="finanza"><date when=""/></roleName><roleName type="officer" role="curatore"><date when=""/></roleName><roleName type="officer" role="curatore"><date when=""/></roleName></roleName></persName></person>
+            <person xml:id="lucchesin"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="luccic"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="lunardiac"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="lunardial"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="lunardinia"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="lunardinifa"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="lunardinifr"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="lunardinil"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName><roleName type="officer" role="curatore"><date when=""/></roleName><roleName type="officer" role="curatore"><date when=""/></roleName><roleName type="officer" role="curatore"><date when=""/></roleName></roleName></persName></person>
+            <person xml:id="lunardinim"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="lunardinip"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="maffeib"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="maffeid"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="maffeigia"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName><roleName type="officer" role="finanza"><date when=""/></roleName></roleName></persName></person>
+            <person xml:id="maffeigio"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="maffeip"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="maffeir"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName><roleName type="officer" role="colletore"><date when=""/></roleName></roleName></persName></person>
+            <person xml:id="maffeis"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName><roleName type="officer" role="vice"><date when=""/></roleName><roleName type="officer" role="pres"><date when=""/></roleName><roleName type="officer" role="pres"><date when=""/></roleName></roleName></persName></person>
+            <person xml:id="maffeiv"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="malfattip"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="mancinia"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="marchettie"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName><roleName type="officer" role="corresp"><date when=""/></roleName><roleName type="officer" role="corresp"><date when=""/></roleName></roleName></persName></person>
+            <person xml:id="marchettil"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="marchettim"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="marchettiq"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="marconic"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName><roleName type="officer" role="pres"><date when=""/></roleName><roleName type="officer" role="curatore"><date when=""/></roleName><roleName type="officer" role="curatore"><date when=""/></roleName></roleName></persName></person>
+            <person xml:id="marconif"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="marianir"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="marracciniv"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="marsilia"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName><roleName type="officer" role="curatore"><date when=""/></roleName></roleName></persName></person>
+            <person xml:id="marsilie"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="marsilig"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="marsilis"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName><roleName type="officer" role="pres"><date when=""/></roleName><roleName type="officer" role="curatore"><date when=""/></roleName></roleName></persName></person>
+            <person xml:id="martinellia"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="martinellig"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="martinellir"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="matteucciv"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="meconin"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="menchettir"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="merciadrie"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName><roleName type="officer" role="sanitario"><date when=""/></roleName><roleName type="officer" role="guardia"><date when=""/></roleName><roleName type="officer officer" role="sanitario guardia"><date when=""/></roleName><roleName type="officer officer" role="sanitario guardia"><date when=""/></roleName><roleName type="officer" role="corresp"><date when=""/></roleName><roleName type="officer" role="guardia"><date when=""/></roleName><roleName type="officer" role="guardia"><date when=""/></roleName></roleName></persName></person>
+            <person xml:id="michelie"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="micheluccis"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName><roleName type="officer" role="sanitario"><date when=""/></roleName></roleName></persName></person>
+            <person xml:id="miconin"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="milanig"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="millarj"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="mungaia"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="nicolais"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="olivieriam"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="olivieriat"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="pacinic"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName><roleName type="officer" role="vice"><date when=""/></roleName></roleName></persName></person>
+            <person xml:id="pacinig"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="pacinio"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="padre"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="paganellig"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="paganuccis"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName><roleName type="officer" role="curatore"><date when=""/></roleName><roleName type="officer" role="sanitario"><date when=""/></roleName></roleName></persName></person>
+            <person xml:id="palig"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="papid"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="pardinia"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="pardinib"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="pardinie"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="pascuzzia"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="pasqualig"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="pasquinellial"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="pasquinelliam"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName><roleName type="officer" role="tes"><date when=""/></roleName><roleName type="officer" role="curatore"><date when=""/></roleName></roleName></persName></person>
+            <person xml:id="pasquinellian"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="pasquinellie"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName><roleName type="officer" role="finanza"><date when=""/></roleName><roleName type="officer" role="finanza"><date when=""/></roleName></roleName></persName></person>
+            <person xml:id="pasquinellig"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="pasquinellijoh"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="pasquinellijos"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="pasquinellim"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="pasquinelliq"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="pasquinellis"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName><roleName type="officer" role="finanza"><date when=""/></roleName><roleName type="officer" role="tes"><date when=""/></roleName><roleName type="officer" role="tes"><date when=""/></roleName><roleName type="officer" role="tes"><date when=""/></roleName><roleName type="officer" role="tes"><date when=""/></roleName><roleName type="officer" role="tes"><date when=""/></roleName><roleName type="officer" role="tes"><date when=""/></roleName></roleName></persName></person>
+            <person xml:id="paternic"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="paternim"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="pellegrinic"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName><roleName type="officer" role="finanza"><date when=""/></roleName><roleName type="officer" role="pres"><date when=""/></roleName></roleName></persName></person>
+            <person xml:id="pellegrinie"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="piaggesia"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName><roleName type="officer" role="sanitario"><date when=""/></roleName><roleName type="officer" role="finanza"><date when=""/></roleName></roleName></persName></person>
+            <person xml:id="piccininig"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="pistelliu"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="polia"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="polif"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="pollastrinia"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="ponzionip"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="puccettia"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="puccettil"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="puccinellia"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="puccinellig"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="quintigliog"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="ragghiantia"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="ragghiantie"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="ragghiantir"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="ribettig"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="robertice"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="robertico"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="robertig"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="robertog"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="rossie"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="rossir"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="sandronee"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="santarlascia"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="santonif"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="santorinif"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="scarpellinis"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="serafinia"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="serafinie"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="serafinig"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="serafinina"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="serafinini"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="serafinio"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="silvionic"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName><roleName type="officer" role="curatore"><date when=""/></roleName><roleName type="officer" role="curatore"><date when=""/></roleName><roleName type="officer" role="colletore"><date when=""/></roleName></roleName></persName></person>
+            <person xml:id="simie"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="simonettim"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName><roleName type="officer" role="corresp"><date when=""/></roleName><roleName type="officer" role="pres"><date when=""/></roleName></roleName></persName></person>
+            <person xml:id="sodinig"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="sodinij"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName><roleName type="officer" role="vice"><date when=""/></roleName><roleName type="officer" role="vice"><date when=""/></roleName><roleName type="officer officer" role="curatore colletore"><date when=""/></roleName><roleName type="officer" role="colletore"><date when=""/></roleName><roleName type="officer officer" role="vice colletore"><date when=""/></roleName></roleName></persName></person>
+            <person xml:id="sunseric"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="tambellinial"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="tambellinian"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="tambellinig"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="tambellinile"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="tambellinilo"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="tamburia"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="tamburig"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="tamburit"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="temfarlaseia"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="valdisserau"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="vannuccia"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName><roleName type="officer" role="sanitario"><date when=""/></roleName></roleName></persName></person>
+            <person xml:id="vannuccie"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName><roleName type="officer" role="sanitario"><date when=""/></roleName><roleName type="officer" role="sanitario"><date when=""/></roleName></roleName></persName></person>
+            <person xml:id="viganoe"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName><roleName type="officer" role="corresp"><date when=""/></roleName></roleName></persName></person>
+            <person xml:id="viganol"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName><roleName type="officer" role="colletore"><date when=""/></roleName><roleName type="officer" role="sanitario"><date when=""/></roleName><roleName type="officer" role="sanitario"><date when=""/></roleName><roleName type="officer" role="sanitario"><date when=""/></roleName></roleName></persName></person>
+            <person xml:id="viganor"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="vondasl"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="zambellinic"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="zambellinig"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="zinib"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="zinif"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+            <person xml:id="zinim"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName><roleName type="officer" role="sanitario"><date when=""/></roleName></roleName></persName></person>
+            <person xml:id="unknown"><persName><surname><surname/></surname><forename><forename/></forename><roleName><roleName>
+                  <roleName/>
+                  <date when=""/>
+               </roleName></roleName></persName></person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
