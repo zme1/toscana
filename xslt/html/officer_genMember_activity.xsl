@@ -9,6 +9,27 @@
     presence at the meeting) or <seg> elements of @subtype value "sick", which explicates absence. Constraining the graph to only specific
     elements and their nested contents would miss a wealth of shorthand discussion in the minutes that is not directly marked up, and which
     may include more general member activity than the proposals would. -->
-    
-    <xsl:variable name="minutesColl" select="../../"/>
+
+    <xsl:variable name="minutesColl" select="../../tei/meetingMinutes/*[starts-with(., '1')]"/>
+    <xsl:variable name="barWidth" as="xs:integer" select="140"/>
+    <xsl:variable name="barInterval" as="xs:integer" select="5"/>
+    <xsl:variable name="yrLength" as="xs:integer" select="$barWidth + $barInterval"/>
+    <xsl:variable name="yScale" as="xs:integer" select="10"/>
+    <xsl:variable name="barCount" select="count($minutesColl)"/>
+    <xsl:variable name="xLength" select="($yrLength * 7) + 20"/>
+    <xsl:variable name="yLength" select="$yScale * 65"/>
+    <xsl:variable name="yOnePercent" select="$yLength div 100"/>
+    <xsl:template match="/">
+        <svg width="2000" height="750">
+            <g transform="translate(100,700)">
+                <line x1="0" y1="0" x2="{$xLength}" y2="0" stroke="black" stroke-width="1"/>
+                <line x1="0" y1="0" x2="0" y2="-{$yLength}" stroke="black" stroke-width="1"/>
+            </g>
+        </svg>
+        <xsl:for-each select="$minutesColl/parent::teiCorpus">
+            <xsl:variable name="year" select="child::TEI//date/tokenize(@when, '-')[1]/number()"/>
+            <xsl:variable name="position" select="$year - 1919"/>
+            <rect x="{$position * $yrLength}" y="-200" width="{$barWidth}" height="200"/>
+        </xsl:for-each>
+    </xsl:template>
 </xsl:stylesheet>
