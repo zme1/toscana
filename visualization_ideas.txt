@@ -2,14 +2,16 @@
 2. Committee Social Network
 3. Flow of members in and out of the Lega on a yearly basis
 	- Enhance existing bar chart? boring…
+	- Stacked bar chart (inverted sideways)… 3 tiers: ongoing members, new members, outgoing members (click interaction to reveal names of incoming/outgoing
 3. Member compensation (iterations and overall money)
 	*Data: Member names, total amount of money
 	- Bubble chart ?… 51 total recipients… too many values… ( maybe by year? No aggregate analysis)
+	- Very few distinct values — xslt table
 4. Officer vs. General member activity in meetings by year
 	- Stacked bar chart?
+	- Heat map (first add committee termination dates)
 5. Activity of Presidents during administrative year and off-year
 	- Line graph with values of president superimposed over another
 		- Select a year, or select a person
-		- Year will illuminate all presidents in different colors, person will
-		illuminate all that individual’s years in different colors (no way to easily compare different presidents when their values are not all illuminated simultaneously)
+		- Year will illuminate all presidents in different colors, person will illuminate all that individual’s years in different colors (no way to easily compare different presidents when their values are not all illuminated simultaneously)
 	- Line graph formatted in the same manner as the previous one that compares committee activity or proposals?
