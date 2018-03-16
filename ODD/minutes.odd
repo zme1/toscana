@@ -14,7 +14,7 @@
       <publicationStmt>
         <authority>Prepared in TEI 5 by Zachary Enick for the Italian research assistantship at the
           University of Pittsburgh. Github repository: <ref target="http://github.com/zme1/toscana"
-          />. Date last worked on: <date when="2018-03-05"/></authority>
+          />. Date last worked on: <date when="2018-03-15"/></authority>
         <availability>
           <licence><!-- licence to go here --></licence>
         </availability>
@@ -473,6 +473,9 @@
                 <valItem ident="arrangement"/>
                 <valItem ident="ricevimento"/>
                 <valItem ident="seg"/>
+                <valItem ident="regolatore"/>
+                <valItem ident="investigatore"/>
+                <valItem ident="membro"/>
               </valList>
             </attDef>
           </attList>
@@ -482,6 +485,7 @@
             <alternate maxOccurs="unbounded" minOccurs="2">
               <elementRef key="persName"/>
               <elementRef key="roleName"/>
+              <elementRef key="date"/>
             </alternate>
           </content>
         </elementSpec>
@@ -498,6 +502,7 @@
               <elementRef key="pb"/>
               <elementRef key="note"/>
               <elementRef key="del"/>
+              <elementRef key="date"/>
             </alternate>
           </content>
           <attList>
@@ -513,7 +518,6 @@
             </attDef>
             <attDef ident="subtype" mode="replace" usage="rec">
               <valList type="closed">
-                <valItem ident="festaCampestre"/>
                 <valItem ident="ballo"/>
                 <valItem ident="fondoM"/>
                 <valItem ident="picnic"/>
@@ -674,6 +678,34 @@
           <constraint>
             <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron" context="tei:list[not(ancestor::tei:list)]">
               <sch:assert test="@type">Every list element must have @type attribute</sch:assert>
+            </sch:rule>
+          </constraint>
+        </constraintSpec>
+        <constraintSpec ident="list_committee_date" scheme="isoschematron">
+          <constraint>
+            <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron" context="tei:list[@type='committee']">
+              <sch:assert test="tei:date">Every list element of a committee must have child date element</sch:assert>
+            </sch:rule>
+          </constraint>
+        </constraintSpec>
+        <constraintSpec ident="list_committee_roleName" scheme="isoschematron">
+          <constraint>
+            <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron" context="tei:item[ancestor::tei:list[@type='committee']][not(tei:list)]">
+              <sch:assert test="tei:roleName">Every item of a committee list must have a roleName element.</sch:assert>
+            </sch:rule>
+          </constraint>
+        </constraintSpec>
+        <constraintSpec ident="officer_scaduto_date" scheme="isoschematron">
+          <constraint>
+            <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron" context="tei:person/tei:persName[@role='scaduto']">
+              <sch:assert test="following-sibling::tei:date">Every demoted officer must have a date of relief.</sch:assert>
+            </sch:rule>
+          </constraint>
+        </constraintSpec>
+        <constraintSpec ident="officer_replacement_date" scheme="isoschematron">
+          <constraint>
+            <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron" context="tei:person/tei:persName[@role='replacement']">
+              <sch:assert test="following-sibling::tei:date">Every promoted officer must have a date of commencement.</sch:assert>
             </sch:rule>
           </constraint>
         </constraintSpec>

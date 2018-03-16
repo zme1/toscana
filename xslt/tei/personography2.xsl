@@ -17,7 +17,7 @@
                         <authority>Prepared in TEI 5 by Zachary Enick for the Italian research
                             assistantship at the University of Pittsburgh. Github repository: <ref
                                 target="http://github.com/zme1/toscana"/>. Date last worked on:
-                                <date when="2018-03-08"/></authority>
+                                <date when="2018-03-0"/></authority>
                         <availability>
                             <licence><!-- licence to go here --></licence>
                         </availability>
@@ -45,102 +45,37 @@
                 <forename/>
                 <roleName>
                     <xsl:apply-templates
-                        select="//TEI//profileDesc/particDesc//person[persName[@ref = current()/@ref]]"/>
+                        select="//teiCorpus//profileDesc/particDesc//person[persName[@ref = current()/@ref]]"/>
                     <xsl:apply-templates
                         select="//roleName[@type = 'committee'][preceding-sibling::persName[@ref = current()/@ref] or following-sibling::persName[@ref = current()/@ref]]">
-                        <xsl:sort select="@type" order="descending"/>
                     </xsl:apply-templates>
-                    <xsl:apply-templates
-                        select="//list[@subtype = 'regolamento']//item[persName[@ref = current()/@ref]]"
-                    />
-                    <xsl:apply-templates
-                        select="//list[@subtype = 'investigazione']//item[persName[@ref = current()/@ref]]"
-                    />
-                    <xsl:apply-templates
-                        select="//list[@subtype = 'banchetto']//item[persName[@ref = current()/@ref]]"
-                    />
-                    <xsl:apply-templates
-                        select="//list[@subtype = 'intrattenimento']//item[persName[@ref = current()/@ref]]"
-                    />
-                    <xsl:apply-templates
-                        select="//list[@subtype = 'parata']//item[persName[@ref = current()/@ref]]"
-                    />
                 </roleName>
             </persName>
         </person>
     </xsl:template>
     <xsl:template match="roleName[@type = 'committee']">
-        <xsl:variable name="yr"
+        <xsl:variable name="startYr"
             select="ancestor::text/preceding-sibling::teiHeader//date/tokenize(@when, '-')[1]"/>
-        <xsl:variable name="mo"
+        <xsl:variable name="startMo"
             select="ancestor::text/preceding-sibling::teiHeader//date/tokenize(@when, '-')[2]"/>
-        <xsl:variable name="yrmo" select="string-join(($yr, $mo), '-')"/>
+        <xsl:variable name="yrmo" select="string-join(($startYr, $startMo), '-')"/>
+        <xsl:variable name="endDate" select="ancestor::list/date/@when"/>
 
         <roleName type="{current()/@type}" subtype="{ancestor::list/@subtype}"
             role="{current()/@role}">
-            <date when="{$yrmo}"/>
+            <date from="{$yrmo}" to="{$endDate}"/>
         </roleName>
     </xsl:template>
-    <xsl:template match="list[@subtype = 'parata']//item">
-        <xsl:variable name="yr"
-            select="ancestor::text/preceding-sibling::teiHeader//date/tokenize(@when, '-')[1]"/>
-        <xsl:variable name="mo"
-            select="ancestor::text/preceding-sibling::teiHeader//date/tokenize(@when, '-')[2]"/>
-        <xsl:variable name="yrmo" select="string-join(($yr, $mo), '-')"/>
-        <roleName type="committee" subtype="parata" role="membro">
-            <date when="{$yrmo}"/>
-        </roleName>
-    </xsl:template>
-    <xsl:template match="list[@subtype = 'intrattenimento']//item">
-        <xsl:variable name="yr"
-            select="ancestor::text/preceding-sibling::teiHeader//date/tokenize(@when, '-')[1]"/>
-        <xsl:variable name="mo"
-            select="ancestor::text/preceding-sibling::teiHeader//date/tokenize(@when, '-')[2]"/>
-        <xsl:variable name="yrmo" select="string-join(($yr, $mo), '-')"/>
-        <roleName type="committee" subtype="intrattenimento" role="membro">
-            <date when="{$yrmo}"/>
-        </roleName>
-    </xsl:template>
-    <xsl:template match="list[@subtype = 'banchetto']//item">
-        <xsl:variable name="yr"
-            select="ancestor::text/preceding-sibling::teiHeader//date/tokenize(@when, '-')[1]"/>
-        <xsl:variable name="mo"
-            select="ancestor::text/preceding-sibling::teiHeader//date/tokenize(@when, '-')[2]"/>
-        <xsl:variable name="yrmo" select="string-join(($yr, $mo), '-')"/>
-        <roleName type="committee" subtype="banchetto" role="membro">
-            <date when="{$yrmo}"/>
-        </roleName>
-    </xsl:template>
-    <xsl:template match="list[@subtype = 'investigazione']//item">
-        <xsl:variable name="yr"
-            select="ancestor::text/preceding-sibling::teiHeader//date/tokenize(@when, '-')[1]"/>
-        <xsl:variable name="mo"
-            select="ancestor::text/preceding-sibling::teiHeader//date/tokenize(@when, '-')[2]"/>
-        <xsl:variable name="yrmo" select="string-join(($yr, $mo), '-')"/>
-        <roleName type="committee" subtype="investigazione" role="investigatore">
-            <date when="{$yrmo}"/>
-        </roleName>
-    </xsl:template>
-    <xsl:template match="list[@subtype = 'regolamento']//item">
-        <xsl:variable name="yr"
-            select="ancestor::text/preceding-sibling::teiHeader//date/tokenize(@when, '-')[1]"/>
-        <xsl:variable name="mo"
-            select="ancestor::text/preceding-sibling::teiHeader//date/tokenize(@when, '-')[2]"/>
-        <xsl:variable name="yrmo" select="string-join(($yr, $mo), '-')"/>
-        <roleName type="committee" subtype="regolamento" role="regolatore">
-            <date when="{$yrmo}"/>
-        </roleName>
-    </xsl:template>
-    <xsl:template match="TEI//profileDesc/particDesc//person">
+    <xsl:template match="teiCorpus//profileDesc/particDesc//person">
         <xsl:variable name="yr"
             select="ancestor::profileDesc/preceding-sibling::fileDesc//date/tokenize(@when, '-')[1]"/>
         <xsl:variable name="mo"
-            select="ancestor::profileDesc/preceding-sibling::fileDesc/date/tokenize(@when, '-')[2]"/>
+            select="ancestor::profileDesc/preceding-sibling::fileDesc//date/tokenize(@when, '-')[2]"/>
         <xsl:variable name="yrmo" select="string-join(($yr, $mo), '-')"/>
         <xsl:choose>
             <xsl:when test="persName[@role = 'scaduto']">
                 <roleName type="officer" role="{roleName/@role} scaduto">
-                    <date when="{$yr}"/>
+                    <date from="{$yr}-01" to="{ancestor::teiCorpus[not(descendant::teiCorpus)]//*[@ref=current()/@ref][@role='scaduto']/ancestor::text/preceding-sibling::teiHeader//date/@when}"/>
                 </roleName>
             </xsl:when>
             <xsl:when test="persName[@role = 'replacement']">
