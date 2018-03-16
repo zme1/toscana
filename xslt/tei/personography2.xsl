@@ -73,14 +73,19 @@
             select="ancestor::profileDesc/preceding-sibling::fileDesc//date/tokenize(@when, '-')[2]"/>
         <xsl:variable name="yrmo" select="string-join(($yr, $mo), '-')"/>
         <xsl:choose>
+            <xsl:when test="persName[@role = 'scaduto'][following-sibling::date[@from]]">
+                <roleName type="officer" role="{roleName/@role} scaduto">
+                    <date from="{date/@from}" to="{date/@to}"/>
+                </roleName>
+            </xsl:when>
             <xsl:when test="persName[@role = 'scaduto']">
                 <roleName type="officer" role="{roleName/@role} scaduto">
-                    <date from="{$yr}-01" to="{ancestor::teiCorpus[not(descendant::teiCorpus)]//*[@ref=current()/@ref][@role='scaduto']/ancestor::text/preceding-sibling::teiHeader//date/@when}"/>
+                    <date from="{$yr}-01" to="{date/@when}"/>
                 </roleName>
             </xsl:when>
             <xsl:when test="persName[@role = 'replacement']">
                 <roleName type="officer" role="{roleName/@role} replacement">
-                    <date when="{$yr}"/>
+                    <date from="{date/@when}" to="{$yr}-12"/>
                 </roleName>
             </xsl:when>
             <xsl:otherwise>
