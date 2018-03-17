@@ -110,19 +110,19 @@
         <xsl:variable name="yPos"
             select="$yHeight - (((position() - 1) * $yrHeight) + $barInterval)"/>
         <!-- Acettati rectangle -->
-        <rect x="0" y="-{$yPos}" height="{$barHeight}" width="{$barWidthAcc}" fill="#5A837A"/>
+        <rect class="toggle" id="accToggle{$date}" x="0" y="-{$yPos}" height="{$barHeight}" width="{$barWidthAcc}" fill="#5A837A"/>
         <!-- Cancellati rectangle -->
-        <rect x="-{$barWidthCan}" y="-{$yPos}" height="{$barHeight}" width="{$barWidthCan}"
+        <rect class="toggle" id="canToggle{$date}" x="-{$barWidthCan}" y="-{$yPos}" height="{$barHeight}" width="{$barWidthCan}"
             fill="#CE4B29"/>
         <!-- Date for each year -->
-        <text x="0" y="-{$yPos - $barHeight div 2 - 5}" text-anchor="middle">
+        <text class="toggle" id="textToggle{$date}" x="0" y="-{$yPos - $barHeight div 2 - 5}" text-anchor="middle">
             <xsl:value-of select="$date"/>
         </text>
     </xsl:template>
     <xsl:template match="teiCorpus/teiCorpus" mode="table">
         <xsl:variable name="date"
             select="teiHeader/fileDesc/publicationStmt/date/tokenize(@when, '-')[1]"/>
-        <div class="table" id="accettati{$date}">
+        <div class="table" id="tableToggle{$date}">
             <table>
                 <tr>
                     <th class="year">Year</th>
