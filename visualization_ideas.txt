@@ -12,7 +12,7 @@
 
 
 
-6. Activity of Presidents during administrative year and off-year
+6?. Activity of Presidents during administrative year and off-year
 	- Line graph with values of president superimposed over another
 		- Select a year, or select a person
 		- Year will illuminate all presidents in different colors, person will illuminate all that individual’s years in different colors (no way to easily compare different presidents when their values are not all illuminated simultaneously)

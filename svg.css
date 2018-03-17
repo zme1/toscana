@@ -1,0 +1,31 @@
+div.svgContainer{
+    display: flex;
+    flex-flow: row wrap;
+}
+div.svg{
+    width: 60%;
+}
+div.table{
+
+}
+table,
+th,
+tr,
+td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: 20px 30px;
+    text-align: center;
+}
+table{
+    width: 40%
+}
+td.year{
+    width: 15%
+}
+td.in{
+    width: 42.5%;
+}
+td.out{
+    width: 42.5%;
+}
