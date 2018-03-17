@@ -1,0 +1,1 @@
+window.addEventListener('DOMContentLoaded', alert('hi'), false);

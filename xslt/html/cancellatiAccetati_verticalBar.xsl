@@ -15,13 +15,14 @@
         <html>
             <head>
                 <link type="text/css" rel="stylesheet" href="svg.css"/>
+                <script type="text/javascript" src="svg.js">/**/</script>
                 <title>Visualizations</title>
             </head>
             <body>
                 <h1>Cancellati and Accetati in the Lega Through the Years</h1>
                 <div class="svgContainer">
                     <div class="svg">
-                        <svg smlns="http://www.w3.org/2000/svg" viewbox="0 0 850 450">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 450">
                             <g transform="translate(400,400)">
                                 <xsl:apply-templates select="/teiCorpus/teiCorpus" mode="svg"/>
                                 <!-- Left vertical line -->
