@@ -14,8 +14,8 @@
     <xsl:template match="/">
         <html>
             <head>
-                <link type="text/css" rel="stylesheet" href="svg.css"/>
-                <script type="text/javascript" src="svg.js">/**/</script>
+                <link type="text/css" rel="stylesheet" href="css/svg.css"/>
+                <script type="text/javascript" src="js/svg.js">/**/</script>
                 <title>Visualizations</title>
             </head>
             <body>
@@ -110,7 +110,6 @@
         <xsl:variable name="yPos"
             select="$yHeight - (((position() - 1) * $yrHeight) + $barInterval)"/>
         <!-- Acettati rectangle -->
-<<<<<<< HEAD
         <svg:rect class="toggle" id="accToggle{$date}" x="0" y="-{$yPos}" height="{$barHeight}"
             width="{$barWidthAcc}" fill="#5A837A"/>
         <!-- Cancellati rectangle -->
@@ -118,17 +117,7 @@
             height="{$barHeight}" width="{$barWidthCan}" fill="#CE4B29"/>
         <!-- Date for each year -->
         <svg:text class="toggle" id="textToggle{$date}" x="0" y="-{$yPos - $barHeight div 2 - 5}"
-            text-anchor="middle">
-=======
-        <rect x="0" y="-{$yPos}" height="{$barHeight}" width="{$barWidthAcc}" fill="#5A837A"/>
-        <!-- Cancellati rectangle -->
-        <rect x="-{$barWidthCan}" y="-{$yPos}" height="{$barHeight}" width="{$barWidthCan}"
-            fill="#CE4B29"/>
-        <!-- Date for each year -->
-        <text x="0" y="-{$yPos - $barHeight div 2 - 5}" text-anchor="middle">
->>>>>>> master
-            <xsl:value-of select="$date"/>
-        </svg:text>
+            text-anchor="middle"><xsl:value-of select="$date"/></svg:text>
     </xsl:template>
     <xsl:template match="teiCorpus/teiCorpus" mode="table">
         <xsl:variable name="date"
