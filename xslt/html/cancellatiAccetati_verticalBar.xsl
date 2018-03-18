@@ -2,7 +2,7 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
     xpath-default-namespace="http://www.tei-c.org/ns/1.0" exclude-result-prefixes="xs" version="2.0"
-    xmlns="http://www.w3.org/1999/xhtml">
+    xmlns="http://www.w3.org/1999/xhtml" xmlns:svg="http://www.w3.org/2000/svg">
     <xsl:output method="xml" indent="yes"/>
     <xsl:variable name="yHeight" as="xs:integer" select="350"/>
     <xsl:variable name="barHeight" as="xs:integer" select="40"/>
@@ -110,14 +110,16 @@
         <xsl:variable name="yPos"
             select="$yHeight - (((position() - 1) * $yrHeight) + $barInterval)"/>
         <!-- Acettati rectangle -->
-        <rect class="toggle" id="accToggle{$date}" x="0" y="-{$yPos}" height="{$barHeight}" width="{$barWidthAcc}" fill="#5A837A"/>
+        <svg:rect class="toggle" id="accToggle{$date}" x="0" y="-{$yPos}" height="{$barHeight}"
+            width="{$barWidthAcc}" fill="#5A837A"/>
         <!-- Cancellati rectangle -->
-        <rect class="toggle" id="canToggle{$date}" x="-{$barWidthCan}" y="-{$yPos}" height="{$barHeight}" width="{$barWidthCan}"
-            fill="#CE4B29"/>
+        <svg:rect class="toggle" id="canToggle{$date}" x="-{$barWidthCan}" y="-{$yPos}"
+            height="{$barHeight}" width="{$barWidthCan}" fill="#CE4B29"/>
         <!-- Date for each year -->
-        <text class="toggle" id="textToggle{$date}" x="0" y="-{$yPos - $barHeight div 2 - 5}" text-anchor="middle">
+        <svg:text class="toggle" id="textToggle{$date}" x="0" y="-{$yPos - $barHeight div 2 - 5}"
+            text-anchor="middle">
             <xsl:value-of select="$date"/>
-        </text>
+        </svg:text>
     </xsl:template>
     <xsl:template match="teiCorpus/teiCorpus" mode="table">
         <xsl:variable name="date"
@@ -130,9 +132,19 @@
                     <th class="out">Outgoing Members</th>
                 </tr>
                 <tr>
-                    <td class="year"><xsl:value-of select="$date"/></td>
-                    <td class="in"><xsl:value-of select="string-join(descendant::list[@type='applicants']/item/persName, ', ')"/></td>
-                    <td class="out"><xsl:value-of select="string-join(descendant::list[@type='cancellati']/item/persName, ', ')"/></td>
+                    <td class="year">
+                        <xsl:value-of select="$date"/>
+                    </td>
+                    <td class="in">
+                        <xsl:value-of
+                            select="string-join(descendant::list[@type = 'applicants']/item/persName, ', ')"
+                        />
+                    </td>
+                    <td class="out">
+                        <xsl:value-of
+                            select="string-join(descendant::list[@type = 'cancellati']/item/persName, ', ')"
+                        />
+                    </td>
                 </tr>
             </table>
         </div>
