@@ -16,3 +16,4 @@ function toggleTable() {
     var activeTable = document.getElementById('tableToggle' + year); // show selected table
     activeTable.style.display = 'block';
 }
+
