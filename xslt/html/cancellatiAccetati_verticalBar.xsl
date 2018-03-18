@@ -3,7 +3,7 @@
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
     xpath-default-namespace="http://www.tei-c.org/ns/1.0" exclude-result-prefixes="xs" version="2.0"
     xmlns="http://www.w3.org/1999/xhtml" xmlns:svg="http://www.w3.org/2000/svg">
-    <xsl:output method="xml" indent="yes"/>
+    <xsl:output method="xml" indent="yes" doctype-system="about:legacy-compat"/>
     <xsl:variable name="yHeight" as="xs:integer" select="350"/>
     <xsl:variable name="barHeight" as="xs:integer" select="40"/>
     <xsl:variable name="barInterval" as="xs:integer" select="5"/>
@@ -100,7 +100,7 @@
             </body>
         </html>
     </xsl:template>
-    <xsl:template match="teiCorpus/teiCorpus" mode="svg">
+    <xsl:template match="teiCorpus/teiCorpus" mode="svg" xmlns="http://www.w3.org/2000/svg">
         <xsl:variable name="date"
             select="teiHeader/fileDesc/publicationStmt/date/tokenize(@when, '-')[1]"/>
         <xsl:variable name="barWidthAcc"
@@ -110,14 +110,14 @@
         <xsl:variable name="yPos"
             select="$yHeight - (((position() - 1) * $yrHeight) + $barInterval)"/>
         <!-- Acettati rectangle -->
-        <svg:rect class="toggle" id="accToggle{$date}" x="0" y="-{$yPos}" height="{$barHeight}"
+        <rect class="toggle" id="accToggle{$date}" x="0" y="-{$yPos}" height="{$barHeight}"
             width="{$barWidthAcc}" fill="#5A837A"/>
         <!-- Cancellati rectangle -->
-        <svg:rect class="toggle" id="canToggle{$date}" x="-{$barWidthCan}" y="-{$yPos}"
+        <rect class="toggle" id="canToggle{$date}" x="-{$barWidthCan}" y="-{$yPos}"
             height="{$barHeight}" width="{$barWidthCan}" fill="#CE4B29"/>
         <!-- Date for each year -->
-        <svg:text class="toggle" id="textToggle{$date}" x="0" y="-{$yPos - $barHeight div 2 - 5}"
-            text-anchor="middle"><xsl:value-of select="$date"/></svg:text>
+        <text class="toggle" id="textToggle{$date}" x="0" y="-{$yPos - $barHeight div 2 - 5}"
+            text-anchor="middle"><xsl:value-of select="$date"/></text>
     </xsl:template>
     <xsl:template match="teiCorpus/teiCorpus" mode="table">
         <xsl:variable name="date"
