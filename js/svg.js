@@ -13,7 +13,7 @@ function toggleTable() {
     for (var i=0, length = allTables.length; i < length; i++) {
         allTables[i].style.display = 'none';
     }
-    var activeTable = document.getElementById('tableToggle' + year); // show selected table
+    var activeTable = document.getElementById('accettati' + year); // show selected table
     activeTable.style.display = 'block';
 }
 
