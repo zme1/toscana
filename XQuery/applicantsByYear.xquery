@@ -6,7 +6,7 @@ declare variable $years as element(tei:TEI)+ := //tei:TEI;
     <body>
         <h1>Applicants by year</h1>{
             for $year in $years
-            let $date as xs:string? := $year//tei:publicationStmt/tei:date/@when/string()
+            let $date as xs:string := $year//tei:publicationStmt/tei:date/@when/string()
             let $applicants as xs:string* := $year//tei:list[@type = "applicants"]/tei:item/tei:persName/@ref/string()
             return
                 (<h2>{$date}</h2>,
