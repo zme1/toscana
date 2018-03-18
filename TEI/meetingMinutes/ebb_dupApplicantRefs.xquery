@@ -6,4 +6,4 @@ for $i in $dvApps
 let $match := //list[@type="applicants"]//persName[@ref = $i]
 where count($match) gt 1
 return 
-($i, $match/ancestor::TEI//date/@when/string(),  "&#10;")
+($i, "appears repeatedly here:", string-join($match/ancestor::TEI//date/@when/string(), ', '),  ". &#10;")
