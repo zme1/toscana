@@ -135,7 +135,7 @@
                     </td>
                     <td class="in">
                         <xsl:value-of
-                            select="string-join(descendant::list[@type = 'applicants']/item/persName, ', ')"
+                            select="string-join(descendant::list[@type = 'applicants']/item[not(note)]/persName, ', ')"
                         />
                     </td>
                     <td class="out">
