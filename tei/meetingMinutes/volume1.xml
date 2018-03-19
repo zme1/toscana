@@ -4081,7 +4081,7 @@
                      <num type="monetary" value="15">$15.00</num></seg><lb/>
                   <list type="applicants">
                      <note>Fu presentata la domanda di fare<lb/> parte a questa Lega</note>
-                     <item><persName ref="#viganoe">Ernesto Vigano’</persName> di anni 18</item>
+                     <item><persName ref="#viganoe">Ernesto Vigano'</persName> di anni 18</item>
                      <note>accompagnata col certificato<lb/> medico e venne accettata.</note>
                   </list><lb/>
                   <seg type="proposal" subtype="denaro">Proposto <persName ref="#tambellinig"
