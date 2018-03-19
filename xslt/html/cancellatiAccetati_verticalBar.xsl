@@ -14,12 +14,14 @@
     <xsl:template match="/">
         <html>
             <head>
-                <link type="text/css" rel="stylesheet" href="css/svg.css"/>
-                <script type="text/javascript" src="js/svg.js">/**/</script>
+                <link type="text/css" rel="stylesheet" href="../css/svg.css"/>
+                <link type="text/css" rel="stylesheet" href="../css/lega.css"/>
+                <script type="text/javascript" src="../js/svg.js">/**/</script>
                 <title>Visualizations</title>
             </head>
             <body>
-                <h1>Cancellati and Accetati in the Lega Through the Years</h1>
+                <xsl:comment>#include virtual="ssi/ssi_menu.html" </xsl:comment>
+                <h3>Cancellati and Accetati in the Lega Through the Years</h3>
                 <div class="svgContainer">
                     <div class="svg">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 450">
