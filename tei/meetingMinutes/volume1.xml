@@ -1286,6 +1286,63 @@
             </body>
          </text>
       </TEI>
+      <TEI>
+         <teiHeader>
+            <fileDesc>
+               <titleStmt>
+                  <title/>
+               </titleStmt>
+               <publicationStmt>
+                  <authority>La Lega Toscana di Protezione</authority>
+                  <date when="1919-12-16"/>
+               </publicationStmt>
+               <sourceDesc>
+                  <p>Source description.</p>
+               </sourceDesc>
+            </fileDesc>
+         </teiHeader>
+         <text>
+            <body>
+               <ab>
+                  <pb n="37"/> Martedi 16 Dicembre 1919 alle ore 8.40<lb/> ebbe principio la regolare
+                  seduta ordinaria<lb/> Presieduta <persName ref="#fredianim">dal Presidente Muzio
+                     Frediani</persName>:<lb/> il quale, <list type="absent">
+                        <note>in mancanza </note>
+                        <item><rs ref="#simonettim">del segretario di cor-<lb/> rispondenza</rs></item>
+                     </list> della lettura del processo ver-<lb/> bale ed il medesimo venne approvato<lb/>
+                  senza ritocco.<lb/> <list type="officers"><note>Dopo di aver disbrigato affari am-<lb/> ministrativi si dichiaro
+                     aperta la vota-<lb/> zione dei nuovi ufficiali per la gestione<lb/> del 1920 dalle
+                     quali risultarono eletti</note><lb/>
+                     <item><persName ref="#sodinij">Jacopo Sodini</persName>, 11 contro 8, a vice Presidente:</item><lb/>
+                     <item><persName ref="#pellegrinic">Casimiro Pellegrini</persName>, 11 contro 6, a Seg<lb/>
+                        di corrispondenza;</item> <item><list><note>a curatori </note><item><persName ref="#lunardinil">Lorenzo Lu-<lb/>
+                           nardini</persName>, 13 voti;</item> <item><persName ref="#silvionic">Carlo Silvioni</persName>,
+                              13 voti,</item><lb/><note> e si procede al ballottaggio per parita - di<lb/> voti ricevuti tra
+                                 <persName ref="#fredianellig">il fratello Fredianelli Giuseppe</persName><lb/> e
+                                 <persName ref="#lunardinia">Americo Lunardini</persName> dal quale risulto<lb/>
+                                 eletto</note> <item><persName ref="#fredianellig">Fredianelli</persName> con 14 voti contro
+                                    5;</item></list></item><lb/><item><list><note>a ufficiali Sanitari risultarono eletti</note> <item><persName ref="#paganuccis">Sam<lb/>
+                                       Paganucci</persName></item> <item>e <persName ref="#piaggesia">Aladino Piaggiesi</persName></item><note>, 13
+                                          il primo<lb/> e 14 il secondo contro 7;</note></list></item><item> a guardia sala<lb/>
+                                             <persName ref="#merciadrie">Eugenio Merciadri</persName> 11 voti contro 7.</item></list><lb/>
+                  <seg type="proposal" subtype="misc"><persName ref="#sodinij" role="proposer">Il fratello
+                     Sodini</persName> ass. <persName ref="#piaggesia" role="supporter">da
+                        Piaggesi</persName><lb/> propone di tenere la seduta durante l’in-<lb/> verno
+                     di Domenica. Tale proposta fu<lb/> approvata e si diede incarico <rs
+                        ref="#fredianim">al Presidente</rs><lb/> per domandare al padrone sala
+                     quale<lb/> Domenica si potrebbe tenere la seduta.</seg><lb/> Fu proposto del
+                  fratello Stefano<lb/> Maffei si delibera di tenere una seduta<lb/> del comitato ballo
+                  avanti la seduta.<lb/>
+                  <!-- Since there was nobody to support this specific "proposal" I did not mark it as an interaction. 
+               Given the context, it seems more like a suggestion or announcement than an actual proposal.-->
+                  <pb n="38"/>
+                  <closer>Non essendoci altro da disbrigare<lb/> si ordina la seduta sciolta.<lb/> Il
+                     Seg Il Presidente<lb/>
+                     <signed>Muzio Frediani</signed></closer><lb/>
+               </ab>
+            </body>
+         </text>
+      </TEI>
    </teiCorpus>
    <teiCorpus>
       <teiHeader>
