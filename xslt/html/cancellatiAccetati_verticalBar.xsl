@@ -12,8 +12,8 @@
     <xsl:variable name="yrHeight" select="$barHeight + ($barInterval * 2)"/>
     <xsl:template match="/">
                 <h3>Cancellati and Accetati in the Lega Through the Years</h3>
-                <div class="svgContainer">
-                    <div class="svg">
+                <div class="cancellatiContainer">
+                    <div class="cancellatiSvg">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1050 430">
                             <g transform="translate(400,400)">
                                 <xsl:apply-templates select="/teiCorpus/teiCorpus" mode="svg"/>
