@@ -46,47 +46,47 @@
                         <line x1="0" y1="-{$dollarScale * 4}" x2="{$xLength}"
                             y2="-{$dollarScale * 4}" stroke="black" stroke-width=".25"
                             stroke-dasharray="5,10"/>
-                        <text x="-36" y="-{$dollarScale * 4 - 5}" text-align="middle">$40</text>
+                        <text x="-45" y="-{$dollarScale * 4 - 5}" text-align="middle">$40</text>
                         <line x1="0" y1="-{$dollarScale * 8}" x2="{$xLength}"
                             y2="-{$dollarScale * 8}" stroke="black" stroke-width=".25"
                             stroke-dasharray="5,10"/>
-                        <text x="-36" y="-{$dollarScale * 8 - 5}" text-align="middle">$80</text>
+                        <text x="-45" y="-{$dollarScale * 8 - 5}" text-align="middle">$80</text>
                         <line x1="0" y1="-{$dollarScale * 12}" x2="{$xLength}"
                             y2="-{$dollarScale * 12}" stroke="black" stroke-width=".25"
                             stroke-dasharray="5,10"/>
-                        <text x="-36" y="-{$dollarScale * 12 - 5}" text-align="middle">$120</text>
+                        <text x="-45" y="-{$dollarScale * 12 - 5}" text-align="middle">$120</text>
                         <line x1="0" y1="-{$dollarScale * 16}" x2="{$xLength}"
                             y2="-{$dollarScale * 16}" stroke="black" stroke-width=".25"
                             stroke-dasharray="5,10"/>
-                        <text x="-36" y="-{$dollarScale * 16 - 5}" text-align="middle">$160</text>
+                        <text x="-45" y="-{$dollarScale * 16 - 5}" text-align="middle">$160</text>
                         <line x1="0" y1="-{$dollarScale * 20}" x2="{$xLength}"
                             y2="-{$dollarScale * 20}" stroke="black" stroke-width=".25"
                             stroke-dasharray="5,10"/>
-                        <text x="-36" y="-{$dollarScale * 20 - 5}" text-align="middle">$200</text>
+                        <text x="-45" y="-{$dollarScale * 20 - 5}" text-align="middle">$200</text>
                         <line x1="0" y1="-{$dollarScale * 24}" x2="{$xLength}"
                             y2="-{$dollarScale * 24}" stroke="black" stroke-width=".25"
                             stroke-dasharray="5,10"/>
-                        <text x="-36" y="-{$dollarScale * 24 - 5}" text-align="middle">$240</text>
+                        <text x="-45" y="-{$dollarScale * 24 - 5}" text-align="middle">$240</text>
                         <line x1="0" y1="-{$dollarScale * 28}" x2="{$xLength}"
                             y2="-{$dollarScale * 28}" stroke="black" stroke-width=".25"
                             stroke-dasharray="5,10"/>
-                        <text x="-36" y="-{$dollarScale * 28 - 5}" text-align="middle">$280</text>
+                        <text x="-45" y="-{$dollarScale * 28 - 5}" text-align="middle">$280</text>
                         <line x1="0" y1="-{$dollarScale * 32}" x2="{$xLength}"
                             y2="-{$dollarScale * 32}" stroke="black" stroke-width=".25"
                             stroke-dasharray="5,10"/>
-                        <text x="-36" y="-{$dollarScale * 32 - 5}" text-align="middle">$320</text>
+                        <text x="-45" y="-{$dollarScale * 32 - 5}" text-align="middle">$320</text>
                         <line x1="0" y1="-{$dollarScale * 36}" x2="{$xLength}"
                             y2="-{$dollarScale * 36}" stroke="black" stroke-width=".25"
                             stroke-dasharray="5,10"/>
-                        <text x="-36" y="-{$dollarScale * 36 - 5}" text-align="middle">$360</text>
+                        <text x="-45" y="-{$dollarScale * 36 - 5}" text-align="middle">$360</text>
                         <line x1="0" y1="-{$dollarScale * 40}" x2="{$xLength}"
                             y2="-{$dollarScale * 40}" stroke="black" stroke-width=".25"
                             stroke-dasharray="5,10"/>
-                        <text x="-36" y="-{$dollarScale * 40 - 5}" text-align="middle">$400</text>
+                        <text x="-45" y="-{$dollarScale * 40 - 5}" text-align="middle">$400</text>
                         <line x1="0" y1="-{$dollarScale * 44}" x2="{$xLength}"
                             y2="-{$dollarScale * 44}" stroke="black" stroke-width=".25"
                             stroke-dasharray="5,10"/>
-                        <text x="-36" y="-{$dollarScale * 44 - 5}" text-align="middle">$440</text>
+                        <text x="-45" y="-{$dollarScale * 44 - 5}" text-align="middle">$440</text>
                     </g>
                 </svg>
             </div>
