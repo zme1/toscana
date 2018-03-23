@@ -4,11 +4,11 @@
     xpath-default-namespace="http://www.tei-c.org/ns/1.0" exclude-result-prefixes="xs" version="2.0">
     <xsl:output method="xml" indent="yes" omit-xml-declaration="yes"/>
     <xsl:variable name="dotInterval" as="xs:integer" select="90"/>
-    <xsl:variable name="xLength" select="$dotInterval * 12 + 30"/>
+    <xsl:variable name="xLength" select="$dotInterval * 12 + 20"/>
     <xsl:variable name="yScale" select="1"/>
     <xsl:variable name="maxComp"
         select="max(/teiCorpus/teiCorpus/sum(descendant::seg[@subtype = 'sick']/num/@value/number()))"/>
-    <xsl:variable name="yLength" select="$maxComp * $yScale + 20"/>
+    <xsl:variable name="yLength" select="$maxComp * $yScale + 30"/>
     <xsl:variable name="dollarScale" select="$maxComp div 42"/>
     <!-- 
         Single month/meeting with the most money distributed to members
@@ -76,6 +76,7 @@
         <line class="line{$year}" x1="0" y1="0" x2="{$dotInterval}"
             y2="-{TEI[1]/sum(descendant::seg[@subtype = 'sick']/num/@value)}" stroke="blue"
             stroke-width="1"/>
+        <text x="{$xLength + 5}" y="-{sum(descendant::seg[@subtype='sick']/num/@value/number())}" text-anchor=""><xsl:value-of select="$year"/></text>
         <xsl:apply-templates select="TEI"/>
     </xsl:template>
     <xsl:template match="TEI" xmlns="http://www.w3.org/2000/svg">
