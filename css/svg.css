@@ -12,7 +12,7 @@ table,
 th,
 tr,
 td {
-    border: 1px solid black;
+    border: 1px solid white;
     border-collapse: collapse;
     margin: 20px 30px;
     text-align: center;
@@ -32,4 +32,44 @@ td.in {
 }
 td.out {
     width: 42.5%;
+}
+
+/* End of Cancellati and Accettati SVG properties */
+ 
+ /* Beginning of Sick Comp SVG properties */
+  
+.line1919{
+    fill: gray;
+    stroke: gray;
+    stroke-width: 1;
+}
+.line1920{
+    fill: #3E6E63;
+    stroke: #3E6E63;
+    stroke-width: 1;
+}
+.line1921{
+    fill: #BFA179;
+    stroke: #BFA179;
+    stroke-width: 1;
+}
+.line1922{
+    fill: #CE4B29;
+    stroke: #CE4B29;
+    stroke-width: 1;
+}
+.line1923{
+    fill: #AAAA00;
+    stroke: #AAAA00;
+    stroke-width: 1;
+}
+.line1924{
+    fill: #8F5BBA;
+    stroke: #8F5BBA; 
+    stroke-width: 1;
+}
+.line1925{
+    fill: #F26E00;
+    stroke: #F26E00;
+    stroke-width: 1;
 }

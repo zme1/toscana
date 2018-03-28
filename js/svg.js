@@ -5,6 +5,10 @@ function init() {
     for (var i = 0; i < acceptedBars.length; i++) {
         acceptedBars[i].addEventListener('click', toggleTable, false);
     }
+    var lines = document.getElementsByClassName('lineToggle');
+for (var i = 0; i < lines.length; i++) {
+    lines[i].addEventListener('click', toggleLine, false);
+}
 }
 
 function toggleTable() {
@@ -15,5 +19,9 @@ function toggleTable() {
     }
     var activeTable = document.getElementById('accettati' + year); // show selected table
     activeTable.style.display = 'block';
+}
+
+function toggleLine() {
+alert('come back later!');
 }
 
