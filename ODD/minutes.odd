@@ -519,13 +519,11 @@
             <attDef ident="subtype" mode="replace" usage="rec">
               <valList type="closed">
                 <valItem ident="ballo"/>
-                <valItem ident="fondoM"/>
                 <valItem ident="picnic"/>
                 <valItem ident="stendardo"/>
                 <valItem ident="intrattenimento"/>
                 <valItem ident="regolamento"/>
                 <valItem ident="banchetto"/>
-                <valItem ident="club"/>
                 <valItem ident="parata"/>
                 <valItem ident="investigazione"/>
               </valList>

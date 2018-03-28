@@ -812,7 +812,7 @@
                   potuto<lb/>farci la festa qualunque domenica<lb/>che Si avesse piaciuto a
                   Noi<lb/>Cosi fu’ accetta da tutta la<lb/>Assemblea Generale di dare la<lb/>Festa
                   Campestre e Famigliare<lb/>a Ross Farm Aspinwall Pa<lb/>la 1a domenica di
-                     agosto<lb/><list type="committee" subtype="picnic"><date when="1919-08"/>
+                     agosto<lb/><list type="committee" subtype="picnic"><date when-custom="1919-07 1919-08"/>
                      <note>Aministrazione della Festa Campestre</note>
                      <lb/>
                      <item><persName ref="#fredianim">Muzio Frediani</persName>
@@ -932,7 +932,7 @@
                      Maffei fu asecondata<lb/>
                      <persName ref="#simonettim" role="supporter">dal Fratello Simonetti</persName>e
                      fu aprovata<lb/>da tutta la l’assemblea generale<lb/></seg>
-                  <list type="committee" subtype="ballo"><date when="1919-10"/>
+                  <list type="committee" subtype="ballo"><date when-custom="1919-08 1919-09 1919-10"/>
                      <note><rs ref="#fredianim">Il Presidente</rs> apri la Nomina del<lb/>Comitato
                         Ballo e Resultarono i<lb/>Seguenti</note>
                      <lb/>
@@ -1746,7 +1746,7 @@
                      Samuele Bevilacqua</persName> dietro<lb/> formale presentazione del
                   certificato<lb/> medico. Dopo di certi affari ammini-<lb/> strativi si passa alla
                   discussione<lb/> del prossimo Pic-nic che fisso'<lb/> il comitato per la prima
-                  Domeni-<lb/> ca di Agosto. <list type="committee" subtype="picnic"><date when="1920-08"/>
+                  Domeni-<lb/> ca di Agosto. <list type="committee" subtype="picnic"><date when-custom="1920-05 1920-06 1920-07 1920-08"/>
                      <note>Venne nominato il<lb/> comitato ed e' cosi composto:</note>
                      <lb/>
                      <item><persName ref="#lunardinil">Lorenzo Lunardini</persName>, <roleName
@@ -2107,7 +2107,7 @@
                   <pb n="52"/> mitato per le spedizioni di detto<lb/> somma.<lb/> In conformità di
                   una proposta<lb/> fatta nello sedute scorse di dare<lb/> un ballo nel mese di
                   Novembre p. V:<lb/>
-                  <list type="committee" subtype="ballo"><date when="1920-11"/>
+                  <list type="committee" subtype="ballo"><date when-custom="1920-09 1920-10 1920-11"/>
                      <note><rs ref="#maffeis">Il Presidente</rs> apre le nomine di un<lb/> comitato
                         Ballo e risulto cosi com-<lb/> posto:</note>
                      <item><persName ref="#sodinij">Jacopo Sodini</persName>, <roleName
@@ -2348,7 +2348,7 @@
                         Fredianelli</persName> assecondato da <persName ref="#zinim"
                         role="supporter">Zini Modesto</persName><lb/> Se i dieci dollari gli siano
                      concessi co-<lb/> me Beneficenza e non come diritto.</seg><lb/>
-                  <list type="committee" subtype="ballo"><date when="1921-01"/>
+                  <list type="committee" subtype="ballo"><date when-custom="1920-12 1921-01"/>
                      <note>L’inizio il disbrigo su da fare<lb/> sul nostro ballo e venne deciso che
                         sia<lb/> dato la sera del 27 Gennaio prossimo<lb/> al Montefiore Hall e
                         furono nominati<lb/> i componenti il Comitato che i cosi<lb/>
@@ -2950,7 +2950,7 @@
                   </list> Fu rigettato il diario del<lb/> fratello <persName ref="#cappellinic"
                      >Castruccio Cappellini</persName> perche’ egli<lb/> all’epoca quando cadette
                   ammalato<lb/> trovasi arretrato coi pagamenti mensili.<lb/>
-                  <list type="committee" subtype="picnic"><date when="1921-06"/>
+                  <list type="committee" subtype="picnic"><date when-custom="1921-04 1921-05 1921-06"/>
                      <note>Si passo alla discuzione del prossimo<lb/> Pic-Nic e il comitato e cosi
                         composto</note>
                      <lb/>
@@ -3048,7 +3048,7 @@
                   per rimodifar-<lb/> lo <del rend="strike">e la nera</del> per quelli che<lb/>
                   <pb n="67"/> non avessero inteso l’articolo 21<lb/> e la nera di lasciarlo come
                   si<lb/> trova nel regolamento le votazio-<lb/> ni risultarono cosi Nere 13.
-                  bianche<lb/> 11. <list type="committee" subtype="picnic"><date when="1921-06"/>
+                  bianche<lb/> 11. <list type="committee" subtype="picnic"><date when-custom="1921-05 1921-06"/>
                      <note>Poi furono fatti gli assistenti<lb/> del Pic-Nic</note>
                      <item><persName ref="#santarlascia">Angelo Santarlasci</persName><roleName
                            type="committee" role="assistente"/>,</item>
@@ -3160,7 +3160,7 @@
                   <del rend="strike">Muzio Frediani</del><lb/>
                   <persName ref="#simonettim">Michele Simonetti</persName> nominati di compera-<lb/>
                   re il premio.<lb/>
-                  <list type="committee" subtype="picnic"><date when="1921-08"/>
+                  <list type="committee" subtype="picnic"><date when-custom="1921-06 1921-07 1921-08"/>
                      <note>Poi fu aperta la nomina del<lb/> Comitato Pic-Nic de 38 Agosto P.V.<lb/>
                         Il comitato e cosi Composto.</note>
                      <lb/>
@@ -3497,7 +3497,7 @@
                         role="proposer">dal fratello Jacopo Sodini</persName> assecon-<lb/> Dato dal
                      fratello <persName ref="#maffeigia" role="supporter">Giovacchino
                         Maffei</persName> che<lb/> Il biglietto del socio sia obbligatorio.</seg><lb/>
-                  <list type="committee" subtype="ballo"><date when="1922-02"/>
+                  <list type="committee" subtype="ballo"><date when-custom="1921-11 1921-12 1922-02"/>
                      <note>Il Comitato ballo e cosi composto</note>
                      <lb/>
                      <item><persName ref="#tambellinig">Giuseppe S. Tambellini</persName>
@@ -3638,7 +3638,7 @@
                   <persName ref="#cappellinic">Castruccio Cappellini</persName>,<lb/>
                   <persName ref="#maffeis">Stefano Maffei</persName>. Comitato per comperare<lb/> Il
                   regalo <persName ref="#pasquinellis">al Tesoriere Santino Pasquinelli</persName>.<lb/>
-                  <list type="committee" subtype="ballo"><date when="1922-02"/>
+                  <list type="committee" subtype="ballo"><date when-custom="1921-12 1922-01 1922-02"/>
                      <note>Poi si feri di sciegliere gli assistenti del<lb/> Comitato ballo.</note>
                      <item><list>
                            <note>Reception Commitee.</note>
@@ -4047,7 +4047,7 @@
                   non vi era altre domenice in tutta<lb/> l’estate lo fissarono per il 21 di
                   Maggio<lb/> e il 3 Settembre e pagarono $20.00 di<lb/> deposito dieci per ogni
                   domenica il<lb/> rimanente il giorno del Pic-Nic.<lb/>
-                  <list type="committee" subtype="picnic"><date when="1922-05"/>
+                  <list type="committee" subtype="picnic"><date when-custom="1922-03 1922-04 1922-05"/>
                      <note>Finito tutti gli affare sociale il<lb/> Presidente apri la nomina
                         del<lb/> comitato Pic-Nic</note>
                      <lb/>
@@ -4139,7 +4139,7 @@
                   </list><lb/> Il Comitato di correzzione dei presenti<lb/> regolamenti rapporto
                   quello che aveva-<lb/> no fatto, e fu letto a tutta la sem-<lb/> blea generale, fu
                   messo alla apporova-<lb/> zione e venne approvato ad un-<lb/> enemita’.<lb/>
-                  <list type="committee" subtype="picnic"><date when="1922-05"/>
+                  <list type="committee" subtype="picnic"><date when-custom="1922-04 1922-05"/>
                      <note>Finito tutti l’affare sociale il<lb/> presidente apri la nomina
                         degli<lb/> assistenti Pic-Nic.</note>
                      <item><list>
@@ -4232,7 +4232,7 @@
                      <note>il quali<lb/> ultimo si trova di gia mancante<lb/> per quattro
                         sedute.</note>
                   </list><lb/> Il processo verbale venne approva-<lb/> to come letto.<lb/>
-                  <list type="committee" subtype="picnic"><date when="1922-09"/>
+                  <list type="committee" subtype="picnic"><date when-custom="1922-07 1922-08 1922-09"/>
                      <note>Non avendo altro da fare <rs ref="#cappellinic">il<lb/> vice
                            Presidente</rs> apri la nomina<lb/> per il Comitato Pic-Nic del 3
                         Settem-<lb/> bre prossimo venturo, Il Comitato e<lb/> cosi composto.</note>
@@ -4597,7 +4597,7 @@
                      <persName ref="#sodinij" role="supporter">Jacopo Sodini</persName> che
                      prencipiando<lb/> dal mese di gennaio 1923 di dare<lb/> $9.00 all’anno al
                      Tesoriere.</seg><lb/>
-                  <list type="committee" subtype="ballo"><date when="1923-01"/>
+                  <list type="committee" subtype="ballo"><date when-custom="1922-11 1922-12 1923-01"/>
                      <note>Poi si apri la nomina del comitato<lb/> ballo.</note>
                      <lb/>
                      <item><persName ref="#desimos">Serafino De Simo</persName>. <roleName
@@ -4753,7 +4753,7 @@
                         Cappellini</persName> che il<lb/> biglietto del ballo sia obbligatorio<lb/>
                      ed ogni membro deve pagare $1.00<lb/>
                      <rs ref="#lucchesiam">al segretario di Finanza</rs>.</seg><lb/>
-                  <list type="committee" subtype="ballo"><date when="1923-01"/>
+                  <list type="committee" subtype="ballo"><date when-custom="1922-12 1923-01"/>
                      <note>fu aperta la nomina degli assistenti<lb/> ballo.</note>
                      <item><list>
                            <note>Reception Commitee.</note>
@@ -5521,7 +5521,7 @@
                      sanitario</item>
                   <item>e <persName ref="#sodinij">Jacopo Sodini</persName> collettore.</item>
                </list><lb/> Il processo verbale venne approvato come letto.<lb/>
-               <list type="committee" subtype="ballo"><date when="1924-01"/>
+               <list type="committee" subtype="ballo"><date when-custom="1923-10 1923-11 1923-12 1924-01"/>
                   <note>Venne aperta la nomina per il comitato ballo e<lb/>
                      <del rend="strike">vennero</del> vennero scielti i seguenti soci.</note>
                   <lb/>
@@ -5564,7 +5564,7 @@
                   <item><persName ref="#zinim">Modesto Zini</persName><roleName type="committee"
                         role="assistente"/></item>
                </list><lb/>
-               <list type="committee" subtype="ballo"><date when="1924-01"/>
+               <list type="committee" subtype="ballo"><date when-custom="1923-10 1923-11 1923-12 1924-01"/>
                   <note>Non essendo i membri in numero sufficiente per<lb/> sciegliere gli
                      assistenti fu deciso di chiamare una<lb/> seduta straordinaria per discutere
                      sul farsi<lb/> in quistione del ballo e nel tempo stesso di sciegliere<lb/> li
@@ -6542,7 +6542,7 @@
                   <lb/>
                   <item>e <persName ref="#mungaia">Mungai Angelo</persName>.</item>
                </list>
-               <list type="committee" subtype="ballo"><date when="1924-12"/>
+               <list type="committee" subtype="ballo"><date when-custom="1924-10 1924-11 1924-12"/>
                   <note>Fu deciso di dare il ballo<lb/> il 4 Decembre al Moose Temple e ce sara’ un
                      ballo popolare all’uopo fu scelto il seguente<lb/> comitato.</note>
                   <item><persName ref="#tambellinig">Giuseppe Tambellini</persName> di Pietro<lb/>
@@ -7739,7 +7739,7 @@ l’assemblea accetto’ il prezzo stabilito $4.00<lb/>
                   della prop<lb/> osta <persName ref="#carloe" role="proposer">Carli</persName>.
                      <persName ref="#tambellinig" role="supporter">tambellini</persName>. di dare un
                   ballo senza<lb/> maschera.</seg>
-               <list type="committee" subtype="ballo"><date when="1925-12"/>
+               <list type="committee" subtype="ballo"><date when-custom="1925-11 1925-12"/>
                   <note>Approvata la proposta <persName ref="#viganol">Vigano</persName>
                      <persName ref="#zinim">Zini</persName><lb/>
                      <rs ref="#simonettim">il presidente</rs> nomina il seguente comitato -<lb/>
