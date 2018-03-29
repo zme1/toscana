@@ -1889,7 +1889,7 @@
                         ref="#sodinij" role="supporter">Sodini Jacopo</persName> di nominare<lb/> un
                      comitato per fare lo stendardo so-<lb/> ciale e che questo sia autorizzato
                      di<lb/> non spendere piu di $100.00.</seg>
-                  <list type="committee" subtype="stendardo"><date when="1920-11"/>
+                  <list type="committee" subtype="stendardo"><date when-custom="1920-07 1920-08 1920-09 1920-10 1920-11"/>
                      <note>Il co-<lb/> mitato e’ cosi composto:</note>
                      <lb/>
                      <item><persName ref="#pellegrinic">Casimiro Pellegrini</persName>
@@ -2172,7 +2172,7 @@
                         ref="#zinim" role="supporter">Modesto Zini</persName> di sospendere, per
                      giuste<lb/> Ragioni, il proposto Ballo ed in conse-<lb/> guenza di cio – venga
                      prosciolto il comitato<lb/> per il medesimo.</seg><lb/>
-                  <list type="committee" subtype="stendardo"><date when="1920-11"/>
+                  <list type="committee" subtype="stendardo"><date when-custom="1920-10 1920-11"/>
                      <note><persName ref="#pellegrinic">Casimiro Pellegrini</persName> ha
                         presentato<lb/> le sue dimissioni da capo Comitato<lb/> per le Bandiere e
                         queste accettate ed<lb/> in sua vece venne nominato </note>
@@ -2184,7 +2184,7 @@
                      <persName ref="#zinim" role="supporter">Modesto Zini</persName> che nella
                      prossima seduta<lb/> sia dato un rinfresco in onore dei soldati<lb/> toscani in
                      congedo.</seg>
-                  <list type="committee" subtype="banchetto"><date when="1920-11"/>
+                  <list type="committee" subtype="banchetto"><date when-custom="1920-10 1920-11"/>
                      <note>Per tale feste<lb/> vennero nominati al comitato</note>
                      <item><persName ref="#maffeis">Maffei</persName><roleName type="committee" role="membro"/>,</item>
                      <lb/>
@@ -5369,7 +5369,7 @@
                il<lb/> banchetto non riuscira’ numeroso abbastanza non<lb/> prelevando nessun fondo
                dalla societa’<lb/>
                <pb n="108"/>
-               <list type="committee" subtype="banchetto"><date when="1923-09"/>
+               <list type="committee" subtype="banchetto"><date when-custom="1923-08 1923-09"/>
                   <note><rs ref="#maffeis">Il presidente</rs> all’ora nomina <persName
                         ref="#simonettim">Michele Simonetti</persName><lb/> a <roleName
                         type="committee" role="chairman">capo comitato</roleName> e lui scieglie i
@@ -6167,7 +6167,7 @@
                   <persName ref="#vannuccie" role="replacement">il fratello Ermeti<lb/>
                   Vannucci</persName>. Non essendoci ne proposte ne<lb/> ammissione di nuovi membri,
                ne corrispon<lb/> denza si passa agli affari non finiti, <list type="committee"
-                  subtype="picnic"><date when="1924-06"/>
+                  subtype="picnic"><date when-custom="1924-05 1924-06"/>
                   <note>e<lb/> viene nominato il comitato per il pec<lb/> nec. nei seguenti
                      soci,</note>
                   <item><persName ref="#lunardinil">Lorenzo Lunardini</persName><roleName
@@ -6372,7 +6372,7 @@
                </list> Non avendo <persName ref="#michelie">il fratello Eugenio<lb/>
                   Micheli</persName> adempito l suo dovere come prescriv-<lb/> ono i nostri
                regolamenti. Capitolo IV. art. 21.<lb/> l’assemblea delibero’ di pagarli dal 26
-               Luglio<lb/> al 5 Agosto cioe’ 11 giorni. <list type="committee" subtype="picnic"><date when="1924-09"/>
+               Luglio<lb/> al 5 Agosto cioe’ 11 giorni. <list type="committee" subtype="picnic"><date when-custom="1924-08 1924-09"/>
                   <note>Essendo al processo<lb/> verbale di fare 2 pic-nic in quest’anno, <rs
                         ref="#pellegrinic">il<lb/> presidente</rs> dopo una lunga e vivace
                      discussione nomino’ il seguente comitato. per farlo la<lb/> seconda domenica di
@@ -6444,7 +6444,7 @@
                      <persName ref="#marconic" role="supporter">dal Carlo Marconi</persName>
                   accetto’ All’ora dopo una vivace discussione venne approvato<lb/> di andare in
                   parata in corpo, e piu’ di fare un<lb/> carro allegorico,</seg>
-               <list type="committee" subtype="parata"><date when="1924-10"/>
+               <list type="committee" subtype="parata"><date when-custom="1924-09 1924-10"/>
                   <note>all’uopo venne scielto il seguente<lb/> comitato.</note>
                   <item><persName ref="#fredianim">Muzio Frediani</persName><roleName type="committee" role="membro"/>.</item>
                   <item><persName ref="#maffeis">Stefano Maffei</persName><roleName type="committee" role="membro"/>.</item>
@@ -6992,7 +6992,7 @@
                   questa Lega, cominciando il giorno<lb/> 19 Marzo e terminando la sera del
                   banchetto ballo,<lb/> chesara’ dato al Neixson Restaurant di<lb/> domenica
                   sera.</seg>
-               <list type="committee" subtype="banchetto"><date when="1925-05"/>
+               <list type="committee" subtype="banchetto"><date when-custom="1925-02 1925-03 1925-04 1925-05"/>
                   <note>Alluopo fu staccato il seguente<lb/> comitato.</note>
                   <item><persName ref="#maffeis">Stefano Maffei</persName><roleName type="committee" role="membro"/>.</item>
                   <item><persName ref="#fredianim">Muzio Frediani</persName><roleName type="committee" role="membro"/>.</item>
@@ -7102,7 +7102,7 @@ l’assemblea accetto’ il prezzo stabilito $4.00<lb/>
                      role="proposer">Serafino De Simo</persName><lb/> e assecondata da <persName
                      ref="#fredianim" role="supporter">Muzio Frediani</persName> di nominare<lb/>
                   l’amministrazione per il banchetto ballo</seg>
-               <list type="committee" subtype="banchetto"><date when="1925-05"/>
+               <list type="committee" subtype="banchetto"><date when-custom="1925-03 1925-04 1925-05"/>
                   <note><rs ref="#simonettim">il<lb/> presidente</rs> nomino’ i seguenti soci</note>
                   <lb/>
                   <item><persName ref="#maffeis">Stefano Maffei</persName>
@@ -7295,7 +7295,7 @@ l’assemblea accetto’ il prezzo stabilito $4.00<lb/>
                      role="proposer">Modesto Zini</persName> e assecondato da<lb/>
                   <persName ref="#viganol" role="supporter">Lorenzo Vigano’</persName> di dare il
                   pec.nec. la<lb/> terza Domenica di Luglio. P.V.</seg>
-               <list type="committee" subtype="picnic"><date when="1925-07"/>
+               <list type="committee" subtype="picnic"><date when-custom="1925-05 1925-06 1925-07"/>
                   <note>all’uopo<lb/> fu scielto il seguente comitato.</note>
                   <item><roleName type="committee" role="pres">Prs.</roleName><lb/>
                      <persName ref="#simonettim">Michele Simonetti</persName>,</item>
