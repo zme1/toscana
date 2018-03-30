@@ -1472,90 +1472,132 @@
       </act>
       <act type="committee" ref="#maffeis">
          <date when="1920-12"/>
-         <date when="1921-01"/>
       </act>
       <act type="committee" ref="#lucchesiam">
          <date when="1920-12"/>
-         <date when="1921-01"/>
       </act>
       <act type="committee" ref="#marchettie">
          <date when="1920-12"/>
-         <date when="1921-01"/>
       </act>
       <act type="committee" ref="#pasquinellis">
          <date when="1920-12"/>
-         <date when="1921-01"/>
       </act>
       <act type="committee" ref="#viganol">
          <date when="1920-12"/>
-         <date when="1921-01"/>
       </act>
       <act type="committee" ref="#viganor">
          <date when="1920-12"/>
-         <date when="1921-01"/>
       </act>
       <act type="committee" ref="#pellegrinic">
          <date when="1920-12"/>
-         <date when="1921-01"/>
       </act>
       <act type="committee" ref="#maffeid">
          <date when="1920-12"/>
-         <date when="1921-01"/>
       </act>
       <act type="committee" ref="#silvionic">
          <date when="1920-12"/>
-         <date when="1921-01"/>
       </act>
       <act type="committee" ref="#sodinij">
          <date when="1920-12"/>
-         <date when="1921-01"/>
       </act>
       <act type="committee" ref="#zinim">
          <date when="1920-12"/>
-         <date when="1921-01"/>
       </act>
       <act type="committee" ref="#santarlascia">
          <date when="1920-12"/>
-         <date when="1921-01"/>
       </act>
       <act type="committee" ref="#marsilis">
          <date when="1920-12"/>
-         <date when="1921-01"/>
       </act>
       <act type="committee" ref="#quintigliog">
          <date when="1920-12"/>
-         <date when="1921-01"/>
       </act>
       <act type="committee" ref="#giomettic">
          <date when="1920-12"/>
-         <date when="1921-01"/>
       </act>
       <act type="committee" ref="#maffeigia">
          <date when="1920-12"/>
-         <date when="1921-01"/>
       </act>
       <act type="committee" ref="#cristofania">
          <date when="1920-12"/>
-         <date when="1921-01"/>
       </act>
       <act type="committee" ref="#battistiniv">
          <date when="1920-12"/>
-         <date when="1921-01"/>
       </act>
       <act type="committee" ref="#merciadrie">
          <date when="1920-12"/>
-         <date when="1921-01"/>
       </act>
       <act type="committee" ref="#carloe">
          <date when="1920-12"/>
-         <date when="1921-01"/>
       </act>
       <act type="committee" ref="#zinif">
          <date when="1920-12"/>
-         <date when="1921-01"/>
       </act>
    </year>
    <year when="1921">
+      <act type="committee" ref="#maffeis">
+         <date when="1921-01"/>
+      </act>
+      <act type="committee" ref="#lucchesiam">
+         <date when="1921-01"/>
+      </act>
+      <act type="committee" ref="#marchettie">
+         <date when="1921-01"/>
+      </act>
+      <act type="committee" ref="#pasquinellis">
+         <date when="1921-01"/>
+      </act>
+      <act type="committee" ref="#viganol">
+         <date when="1921-01"/>
+      </act>
+      <act type="committee" ref="#viganor">
+         <date when="1921-01"/>
+      </act>
+      <act type="committee" ref="#pellegrinic">
+         <date when="1921-01"/>
+      </act>
+      <act type="committee" ref="#maffeid">
+         <date when="1921-01"/>
+      </act>
+      <act type="committee" ref="#silvionic">
+         <date when="1921-01"/>
+      </act>
+      <act type="committee" ref="#sodinij">
+         <date when="1921-01"/>
+      </act>
+      <act type="committee" ref="#zinim">
+         <date when="1921-01"/>
+      </act>
+      <act type="committee" ref="#santarlascia">
+         <date when="1921-01"/>
+      </act>
+      <act type="committee" ref="#marsilis">
+         <date when="1921-01"/>
+      </act>
+      <act type="committee" ref="#quintigliog">
+         <date when="1921-01"/>
+      </act>
+      <act type="committee" ref="#giomettic">
+         <date when="1921-01"/>
+      </act>
+      <act type="committee" ref="#maffeigia">
+         <date when="1921-01"/>
+      </act>
+      <act type="committee" ref="#cristofania">
+         <date when="1921-01"/>
+      </act>
+      <act type="committee" ref="#battistiniv">
+         <date when="1921-01"/>
+      </act>
+      <act type="committee" ref="#merciadrie">
+         <date when="1921-01"/>
+      </act>
+      <act type="committee" ref="#carloe">
+         <date when="1921-01"/>
+      </act>
+      <act type="committee" ref="#zinif">
+         <date when="1921-01"/>
+      </act>
       <act type="officer" ref="#marsilis">
          <date when="1921-01"/>
       </act>
@@ -2310,145 +2352,204 @@
       <act type="committee" ref="#tambellinig">
          <date when="1921-11"/>
          <date when="1921-12"/>
-         <date when="1922-02"/>
       </act>
       <act type="committee" ref="#pacinic">
          <date when="1921-11"/>
          <date when="1921-12"/>
-         <date when="1922-02"/>
       </act>
       <act type="committee" ref="#marchettie">
          <date when="1921-11"/>
          <date when="1921-12"/>
-         <date when="1922-02"/>
       </act>
       <act type="committee" ref="#pasquinellis">
          <date when="1921-11"/>
          <date when="1921-12"/>
-         <date when="1922-02"/>
       </act>
       <act type="committee" ref="#simonettim">
          <date when="1921-11"/>
          <date when="1921-12"/>
-         <date when="1922-02"/>
       </act>
       <act type="committee" ref="#sodinij">
          <date when="1921-11"/>
          <date when="1921-12"/>
-         <date when="1922-02"/>
       </act>
       <act type="committee" ref="#fredianellig">
          <date when="1921-11"/>
          <date when="1921-12"/>
-         <date when="1922-02"/>
       </act>
       <act type="committee" ref="#zinim">
          <date when="1921-11"/>
          <date when="1921-12"/>
-         <date when="1922-02"/>
       </act>
       <act type="committee" ref="#merciadrie">
          <date when="1921-11"/>
          <date when="1921-12"/>
-         <date when="1922-02"/>
       </act>
       <act type="committee" ref="#battistiniv">
          <date when="1921-11"/>
          <date when="1921-12"/>
-         <date when="1922-02"/>
       </act>
       <act type="committee" ref="#carloe">
          <date when="1921-11"/>
          <date when="1921-12"/>
-         <date when="1922-02"/>
       </act>
       <act type="committee" ref="#giannig">
          <date when="1921-11"/>
          <date when="1921-12"/>
-         <date when="1922-02"/>
       </act>
       <act type="committee" ref="#zinif">
          <date when="1921-11"/>
          <date when="1921-12"/>
-         <date when="1922-02"/>
       </act>
       <act type="committee" ref="#micheluccis">
          <date when="1921-11"/>
          <date when="1921-12"/>
-         <date when="1922-02"/>
       </act>
       <act type="committee" ref="#vannuccie">
          <date when="1921-11"/>
          <date when="1921-12"/>
-         <date when="1922-02"/>
       </act>
       <act type="committee" ref="#cortopassig">
          <date when="1921-11"/>
          <date when="1921-12"/>
-         <date when="1922-02"/>
       </act>
       <act type="committee" ref="#marconic">
          <date when="1921-11"/>
          <date when="1921-12"/>
-         <date when="1922-02"/>
       </act>
       <act type="committee" ref="#datia">
          <date when="1921-12"/>
+      </act>
+      <act type="committee" ref="#pellegrinic">
+         <date when="1921-12"/>
+      </act>
+      <act type="committee" ref="#lunardinim">
+         <date when="1921-12"/>
+      </act>
+      <act type="committee" ref="#viganol">
+         <date when="1921-12"/>
+      </act>
+      <act type="committee" ref="#maffeigia">
+         <date when="1921-12"/>
+      </act>
+      <act type="committee" ref="#maffeid">
+         <date when="1921-12"/>
+      </act>
+      <act type="committee" ref="#silvionic">
+         <date when="1921-12"/>
+      </act>
+      <act type="committee" ref="#lunardinifr">
+         <date when="1921-12"/>
+      </act>
+      <act type="committee" ref="#pasquinelliam">
+         <date when="1921-12"/>
+      </act>
+      <act type="committee" ref="#sandronee">
+         <date when="1921-12"/>
+      </act>
+      <act type="committee" ref="#maffeigia">
+         <date when="1921-12"/>
+      </act>
+   </year>
+   <year when="1922">
+      <act type="committee" ref="#tambellinig">
+         <date when="1922-02"/>
+      </act>
+      <act type="committee" ref="#pacinic">
+         <date when="1922-02"/>
+      </act>
+      <act type="committee" ref="#marchettie">
+         <date when="1922-02"/>
+      </act>
+      <act type="committee" ref="#pasquinellis">
+         <date when="1922-02"/>
+      </act>
+      <act type="committee" ref="#simonettim">
+         <date when="1922-02"/>
+      </act>
+      <act type="committee" ref="#sodinij">
+         <date when="1922-02"/>
+      </act>
+      <act type="committee" ref="#fredianellig">
+         <date when="1922-02"/>
+      </act>
+      <act type="committee" ref="#zinim">
+         <date when="1922-02"/>
+      </act>
+      <act type="committee" ref="#merciadrie">
+         <date when="1922-02"/>
+      </act>
+      <act type="committee" ref="#battistiniv">
+         <date when="1922-02"/>
+      </act>
+      <act type="committee" ref="#carloe">
+         <date when="1922-02"/>
+      </act>
+      <act type="committee" ref="#giannig">
+         <date when="1922-02"/>
+      </act>
+      <act type="committee" ref="#zinif">
+         <date when="1922-02"/>
+      </act>
+      <act type="committee" ref="#micheluccis">
+         <date when="1922-02"/>
+      </act>
+      <act type="committee" ref="#vannuccie">
+         <date when="1921-12"/>
+         <date when="1922-02"/>
+      </act>
+      <act type="committee" ref="#cortopassig">
+         <date when="1921-12"/>
+         <date when="1922-02"/>
+      </act>
+      <act type="committee" ref="#marconic">
+         <date when="1921-12"/>
+         <date when="1922-02"/>
+      </act>
+      <act type="committee" ref="#datia">
          <date when="1922-01"/>
          <date when="1922-02"/>
       </act>
       <act type="committee" ref="#pellegrinic">
-         <date when="1921-12"/>
          <date when="1922-01"/>
          <date when="1922-02"/>
       </act>
       <act type="committee" ref="#lunardinim">
-         <date when="1921-12"/>
          <date when="1922-01"/>
          <date when="1922-02"/>
       </act>
       <act type="committee" ref="#viganol">
-         <date when="1921-12"/>
          <date when="1922-01"/>
          <date when="1922-02"/>
       </act>
       <act type="committee" ref="#maffeigia">
-         <date when="1921-12"/>
          <date when="1922-01"/>
          <date when="1922-02"/>
       </act>
       <act type="committee" ref="#maffeid">
-         <date when="1921-12"/>
          <date when="1922-01"/>
          <date when="1922-02"/>
       </act>
       <act type="committee" ref="#silvionic">
-         <date when="1921-12"/>
          <date when="1922-01"/>
          <date when="1922-02"/>
       </act>
       <act type="committee" ref="#lunardinifr">
-         <date when="1921-12"/>
          <date when="1922-01"/>
          <date when="1922-02"/>
       </act>
       <act type="committee" ref="#pasquinelliam">
-         <date when="1921-12"/>
          <date when="1922-01"/>
          <date when="1922-02"/>
       </act>
       <act type="committee" ref="#sandronee">
-         <date when="1921-12"/>
          <date when="1922-01"/>
          <date when="1922-02"/>
       </act>
       <act type="committee" ref="#maffeigia">
-         <date when="1921-12"/>
          <date when="1922-01"/>
          <date when="1922-02"/>
       </act>
-   </year>
-   <year when="1922">
       <act type="officer" ref="#marconic">
          <date when="1922-01"/>
       </act>
@@ -3126,88 +3227,126 @@
       <act type="committee" ref="#desimos">
          <date when="1922-11"/>
          <date when="1922-12"/>
-         <date when="1923-01"/>
       </act>
       <act type="committee" ref="#lunardinil">
          <date when="1922-11"/>
          <date when="1922-12"/>
-         <date when="1923-01"/>
       </act>
       <act type="committee" ref="#viganoe">
          <date when="1922-11"/>
          <date when="1922-12"/>
-         <date when="1923-01"/>
       </act>
       <act type="committee" ref="#pasquinellis">
          <date when="1922-11"/>
          <date when="1922-12"/>
-         <date when="1923-01"/>
       </act>
       <act type="committee" ref="#maffeis">
          <date when="1922-11"/>
          <date when="1922-12"/>
-         <date when="1923-01"/>
       </act>
       <act type="committee" ref="#giannig">
          <date when="1922-11"/>
          <date when="1922-12"/>
-         <date when="1923-01"/>
       </act>
       <act type="committee" ref="#zinim">
          <date when="1922-11"/>
          <date when="1922-12"/>
-         <date when="1923-01"/>
       </act>
       <act type="committee" ref="#marconic">
          <date when="1922-12"/>
-         <date when="1923-01"/>
       </act>
       <act type="committee" ref="#cappellinic">
          <date when="1922-12"/>
-         <date when="1923-01"/>
       </act>
       <act type="committee" ref="#fredianim">
          <date when="1922-12"/>
-         <date when="1923-01"/>
       </act>
       <act type="committee" ref="#battistiniv">
          <date when="1922-12"/>
-         <date when="1923-01"/>
       </act>
       <act type="committee" ref="#viganol">
          <date when="1922-12"/>
-         <date when="1923-01"/>
       </act>
       <act type="committee" ref="#pasquinelliam">
          <date when="1922-12"/>
-         <date when="1923-01"/>
       </act>
       <act type="committee" ref="#pasquinellie">
          <date when="1922-12"/>
-         <date when="1923-01"/>
       </act>
       <act type="committee" ref="#martinellig">
          <date when="1922-12"/>
-         <date when="1923-01"/>
       </act>
       <act type="committee" ref="#merciadrie">
          <date when="1922-12"/>
-         <date when="1923-01"/>
       </act>
       <act type="committee" ref="#pacinic">
          <date when="1922-12"/>
-         <date when="1923-01"/>
       </act>
       <act type="committee" ref="#piaggesia">
          <date when="1922-12"/>
-         <date when="1923-01"/>
       </act>
       <act type="committee" ref="#casalio">
          <date when="1922-12"/>
-         <date when="1923-01"/>
       </act>
    </year>
    <year when="1923">
+      <act type="committee" ref="#desimos">
+         <date when="1923-01"/>
+      </act>
+      <act type="committee" ref="#lunardinil">
+         <date when="1923-01"/>
+      </act>
+      <act type="committee" ref="#viganoe">
+         <date when="1923-01"/>
+      </act>
+      <act type="committee" ref="#pasquinellis">
+         <date when="1923-01"/>
+      </act>
+      <act type="committee" ref="#maffeis">
+         <date when="1923-01"/>
+      </act>
+      <act type="committee" ref="#giannig">
+         <date when="1923-01"/>
+      </act>
+      <act type="committee" ref="#zinim">
+         <date when="1923-01"/>
+      </act>
+      <act type="committee" ref="#marconic">
+         <date when="1923-01"/>
+      </act>
+      <act type="committee" ref="#cappellinic">
+         <date when="1923-01"/>
+      </act>
+      <act type="committee" ref="#fredianim">
+         <date when="1923-01"/>
+      </act>
+      <act type="committee" ref="#battistiniv">
+         <date when="1923-01"/>
+      </act>
+      <act type="committee" ref="#viganol">
+         <date when="1923-01"/>
+      </act>
+      <act type="committee" ref="#pasquinelliam">
+         <date when="1923-01"/>
+      </act>
+      <act type="committee" ref="#pasquinellie">
+         <date when="1923-01"/>
+      </act>
+      <act type="committee" ref="#martinellig">
+         <date when="1923-01"/>
+      </act>
+      <act type="committee" ref="#merciadrie">
+         <date when="1923-01"/>
+      </act>
+      <act type="committee" ref="#pacinic">
+         <date when="1923-01"/>
+      </act>
+      <act type="committee" ref="#piaggesia">
+         <date when="1923-01"/>
+      </act>
+      <act type="committee" ref="#casalio">
+         <date when="1923-01"/>
+      </act>
       <act type="officer" ref="#maffeis">
          <date when="1923-01"/>
       </act>
@@ -3725,154 +3864,204 @@
          <date when="1923-10"/>
          <date when="1923-11"/>
          <date when="1923-12"/>
-         <date when="1924-01"/>
       </act>
       <act type="committee" ref="#pellegrinic">
          <date when="1923-10"/>
          <date when="1923-11"/>
          <date when="1923-12"/>
-         <date when="1924-01"/>
       </act>
       <act type="committee" ref="#giannig">
          <date when="1923-10"/>
          <date when="1923-11"/>
          <date when="1923-12"/>
-         <date when="1924-01"/>
       </act>
       <act type="committee" ref="#pacinic">
          <date when="1923-10"/>
          <date when="1923-11"/>
          <date when="1923-12"/>
-         <date when="1924-01"/>
       </act>
       <act type="committee" ref="#sodinij">
          <date when="1923-10"/>
          <date when="1923-11"/>
          <date when="1923-12"/>
-         <date when="1924-01"/>
       </act>
       <act type="committee" ref="#marconic">
          <date when="1923-10"/>
          <date when="1923-11"/>
          <date when="1923-12"/>
-         <date when="1924-01"/>
       </act>
       <act type="committee" ref="#fredianim">
          <date when="1923-10"/>
          <date when="1923-11"/>
          <date when="1923-12"/>
-         <date when="1924-01"/>
       </act>
       <act type="committee" ref="#cappellinic">
          <date when="1923-10"/>
          <date when="1923-11"/>
          <date when="1923-12"/>
-         <date when="1924-01"/>
       </act>
       <act type="committee" ref="#simonettim">
          <date when="1923-10"/>
          <date when="1923-11"/>
          <date when="1923-12"/>
-         <date when="1924-01"/>
       </act>
       <act type="committee" ref="#pasquinellis">
          <date when="1923-10"/>
          <date when="1923-11"/>
          <date when="1923-12"/>
-         <date when="1924-01"/>
       </act>
       <act type="committee" ref="#lunardinil">
          <date when="1923-10"/>
          <date when="1923-11"/>
          <date when="1923-12"/>
-         <date when="1924-01"/>
       </act>
       <act type="committee" ref="#zinim">
          <date when="1923-10"/>
          <date when="1923-11"/>
          <date when="1923-12"/>
-         <date when="1924-01"/>
       </act>
       <act type="committee" ref="#borellim">
          <date when="1923-10"/>
          <date when="1923-11"/>
          <date when="1923-12"/>
-         <date when="1924-01"/>
       </act>
       <act type="committee" ref="#fredianellig">
          <date when="1923-10"/>
          <date when="1923-11"/>
          <date when="1923-12"/>
-         <date when="1924-01"/>
       </act>
       <act type="committee" ref="#vannuccie">
          <date when="1923-10"/>
          <date when="1923-11"/>
          <date when="1923-12"/>
-         <date when="1924-01"/>
       </act>
       <act type="committee" ref="#maffeip">
          <date when="1923-10"/>
          <date when="1923-11"/>
          <date when="1923-12"/>
-         <date when="1924-01"/>
       </act>
       <act type="committee" ref="#francesconia">
          <date when="1923-10"/>
          <date when="1923-11"/>
          <date when="1923-12"/>
-         <date when="1924-01"/>
       </act>
       <act type="committee" ref="#giomettic">
          <date when="1923-10"/>
          <date when="1923-11"/>
          <date when="1923-12"/>
-         <date when="1924-01"/>
       </act>
       <act type="committee" ref="#datia">
          <date when="1923-10"/>
          <date when="1923-11"/>
          <date when="1923-12"/>
-         <date when="1924-01"/>
       </act>
       <act type="committee" ref="#tambellinig">
          <date when="1923-10"/>
          <date when="1923-11"/>
          <date when="1923-12"/>
-         <date when="1924-01"/>
       </act>
       <act type="committee" ref="#martinellig">
          <date when="1923-10"/>
          <date when="1923-11"/>
          <date when="1923-12"/>
-         <date when="1924-01"/>
       </act>
       <act type="committee" ref="#incroccip">
          <date when="1923-10"/>
          <date when="1923-11"/>
          <date when="1923-12"/>
-         <date when="1924-01"/>
       </act>
       <act type="committee" ref="#miconin">
          <date when="1923-10"/>
          <date when="1923-11"/>
          <date when="1923-12"/>
-         <date when="1924-01"/>
       </act>
       <act type="committee" ref="#chioccad">
          <date when="1923-10"/>
          <date when="1923-11"/>
          <date when="1923-12"/>
-         <date when="1924-01"/>
       </act>
       <act type="committee" ref="#merciadrie">
          <date when="1923-10"/>
          <date when="1923-11"/>
          <date when="1923-12"/>
-         <date when="1924-01"/>
       </act>
    </year>
    <year when="1924">
+      <act type="committee" ref="#lucchesiam">
+         <date when="1924-01"/>
+      </act>
+      <act type="committee" ref="#pellegrinic">
+         <date when="1924-01"/>
+      </act>
+      <act type="committee" ref="#giannig">
+         <date when="1924-01"/>
+      </act>
+      <act type="committee" ref="#pacinic">
+         <date when="1924-01"/>
+      </act>
+      <act type="committee" ref="#sodinij">
+         <date when="1924-01"/>
+      </act>
+      <act type="committee" ref="#marconic">
+         <date when="1924-01"/>
+      </act>
+      <act type="committee" ref="#fredianim">
+         <date when="1924-01"/>
+      </act>
+      <act type="committee" ref="#cappellinic">
+         <date when="1924-01"/>
+      </act>
+      <act type="committee" ref="#simonettim">
+         <date when="1924-01"/>
+      </act>
+      <act type="committee" ref="#pasquinellis">
+         <date when="1924-01"/>
+      </act>
+      <act type="committee" ref="#lunardinil">
+         <date when="1924-01"/>
+      </act>
+      <act type="committee" ref="#zinim">
+         <date when="1924-01"/>
+      </act>
+      <act type="committee" ref="#borellim">
+         <date when="1924-01"/>
+      </act>
+      <act type="committee" ref="#fredianellig">
+         <date when="1924-01"/>
+      </act>
+      <act type="committee" ref="#vannuccie">
+         <date when="1924-01"/>
+      </act>
+      <act type="committee" ref="#maffeip">
+         <date when="1924-01"/>
+      </act>
+      <act type="committee" ref="#francesconia">
+         <date when="1924-01"/>
+      </act>
+      <act type="committee" ref="#giomettic">
+         <date when="1924-01"/>
+      </act>
+      <act type="committee" ref="#datia">
+         <date when="1924-01"/>
+      </act>
+      <act type="committee" ref="#tambellinig">
+         <date when="1924-01"/>
+      </act>
+      <act type="committee" ref="#martinellig">
+         <date when="1924-01"/>
+      </act>
+      <act type="committee" ref="#incroccip">
+         <date when="1924-01"/>
+      </act>
+      <act type="committee" ref="#miconin">
+         <date when="1924-01"/>
+      </act>
+      <act type="committee" ref="#chioccad">
+         <date when="1924-01"/>
+      </act>
+      <act type="committee" ref="#merciadrie">
+         <date when="1924-01"/>
+      </act>
       <act type="officer" ref="#pellegrinic">
          <date when="1924-01"/>
       </act>
