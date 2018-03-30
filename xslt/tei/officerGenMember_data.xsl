@@ -26,19 +26,19 @@
             select="ancestor::text/preceding-sibling::teiHeader/descendant::publicationStmt/date/tokenize(@when, '-')[2]"/>
         <xsl:variable name="yrmo" select="string-join(($yr, $mo), '-')"/>
         <xsl:choose>
-            <xsl:when test="count(descendant::*[@role = 'supporter'][not(@ref = '#legaT')]) gt 1">
-                <act type="proposal" ref="{descendant::*[@role='supporter'][1]/@ref}">
+            <xsl:when test="count(descendant::persName[@role = 'supporter']) gt 1">
+                <act type="proposal" ref="{descendant::persName[@role='supporter'][1]/@ref}">
                     <date when="{$yrmo}"/>
                 </act>
-                <act type="proposal" ref="{descendant::*[@role='supporter'][2]/@ref}">
+                <act type="proposal" ref="{descendant::persName[@role='supporter'][2]/@ref}">
                     <date when="{$yrmo}"/>
                 </act>
             </xsl:when>
             <xsl:otherwise>
-                <act type="proposal" ref="{descendant::*[@role='proposer']/@ref}">
+                <act type="proposal" ref="{descendant::persName[@role='proposer']/@ref}">
                     <date when="{$yrmo}"/>
                 </act>
-                <act type="proposal" ref="{descendant::*[@role='supporter']/@ref}">
+                <act type="proposal" ref="{descendant::persName[@role='supporter']/@ref}">
                     <date when="{$yrmo}"/>
                 </act>
             </xsl:otherwise>

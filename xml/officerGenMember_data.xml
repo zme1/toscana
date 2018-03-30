@@ -424,7 +424,7 @@
       <act type="proposal" ref="#pellegrinie">
          <date when="1919-05"/>
       </act>
-      <act type="proposal" ref="#lunardinil #legaT">
+      <act type="proposal" ref="#lunardinil">
          <date when="1919-05"/>
       </act>
       <act type="proposal" ref="#simonettim">
@@ -1077,7 +1077,7 @@
       <act type="proposal" ref="#simonettim">
          <date when="1920-02"/>
       </act>
-      <act type="proposal" ref="#legaT">
+      <act type="proposal" ref="">
          <date when="1920-02"/>
       </act>
       <act type="proposal" ref="#simonettim">
@@ -1104,7 +1104,7 @@
       <act type="proposal" ref="#simonettim">
          <date when="1920-03"/>
       </act>
-      <act type="proposal" ref="#legaT">
+      <act type="proposal" ref="">
          <date when="1920-03"/>
       </act>
       <act type="proposal" ref="#fredianellig">
@@ -1230,7 +1230,7 @@
       <act type="proposal" ref="#sodinij">
          <date when="1920-09"/>
       </act>
-      <act type="proposal" ref="#legaT">
+      <act type="proposal" ref="">
          <date when="1920-09"/>
       </act>
       <act type="proposal" ref="#fredianim">
