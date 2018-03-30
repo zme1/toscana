@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <years xmlns="http://toscana.newtfire.org">
    <year when="1919">
+      <meeting when="1919-01"/>
+      <meeting when="1919-02"/>
+      <meeting when="1919-03"/>
+      <meeting when="1919-04"/>
+      <meeting when="1919-05"/>
+      <meeting when="1919-06"/>
+      <meeting when="1919-07"/>
+      <meeting when="1919-08"/>
+      <meeting when="1919-09"/>
+      <meeting when="1919-10"/>
+      <meeting when="1919-11"/>
+      <meeting when="1919-12"/>
       <act type="officer" ref="#fredianim">
          <date when="1919-01"/>
       </act>
@@ -705,6 +717,18 @@
       </act>
    </year>
    <year when="1920">
+      <meeting when="1920-01"/>
+      <meeting when="1920-02"/>
+      <meeting when="1920-03"/>
+      <meeting when="1920-04"/>
+      <meeting when="1920-05"/>
+      <meeting when="1920-06"/>
+      <meeting when="1920-07"/>
+      <meeting when="1920-08"/>
+      <meeting when="1920-09"/>
+      <meeting when="1920-10"/>
+      <meeting when="1920-11"/>
+      <meeting when="1920-12"/>
       <act type="officer" ref="#maffeis">
          <date when="1920-01"/>
       </act>
@@ -1535,6 +1559,18 @@
       </act>
    </year>
    <year when="1921">
+      <meeting when="1921-01"/>
+      <meeting when="1921-02"/>
+      <meeting when="1921-03"/>
+      <meeting when="1921-04"/>
+      <meeting when="1921-05"/>
+      <meeting when="1921-06"/>
+      <meeting when="1921-07"/>
+      <meeting when="1921-08"/>
+      <meeting when="1921-09"/>
+      <meeting when="1921-10"/>
+      <meeting when="1921-11"/>
+      <meeting when="1921-12"/>
       <act type="committee" ref="#maffeis">
          <date when="1921-01"/>
       </act>
@@ -2452,6 +2488,16 @@
       </act>
    </year>
    <year when="1922">
+      <meeting when="1922-01"/>
+      <meeting when="1922-02"/>
+      <meeting when="1922-03"/>
+      <meeting when="1922-04"/>
+      <meeting when="1922-07"/>
+      <meeting when="1922-08"/>
+      <meeting when="1922-09"/>
+      <meeting when="1922-10"/>
+      <meeting when="1922-11"/>
+      <meeting when="1922-12"/>
       <act type="committee" ref="#tambellinig">
          <date when="1922-02"/>
       </act>
@@ -3290,6 +3336,17 @@
       </act>
    </year>
    <year when="1923">
+      <meeting when="1923-01"/>
+      <meeting when="1923-02"/>
+      <meeting when="1923-03"/>
+      <meeting when="1923-04"/>
+      <meeting when="1923-05"/>
+      <meeting when="1923-07"/>
+      <meeting when="1923-08"/>
+      <meeting when="1923-09"/>
+      <meeting when="1923-10"/>
+      <meeting when="1923-11"/>
+      <meeting when="1923-12"/>
       <act type="committee" ref="#desimos">
          <date when="1923-01"/>
       </act>
@@ -3987,6 +4044,18 @@
       </act>
    </year>
    <year when="1924">
+      <meeting when="1924-01"/>
+      <meeting when="1924-02"/>
+      <meeting when="1924-03"/>
+      <meeting when="1924-04"/>
+      <meeting when="1924-05"/>
+      <meeting when="1924-06"/>
+      <meeting when="1924-07"/>
+      <meeting when="1924-08"/>
+      <meeting when="1924-09"/>
+      <meeting when="1924-10"/>
+      <meeting when="1924-11"/>
+      <meeting when="1924-12"/>
       <act type="committee" ref="#lucchesiam">
          <date when="1924-01"/>
       </act>
@@ -4694,6 +4763,18 @@
       </act>
    </year>
    <year when="1925">
+      <meeting when="1925-01"/>
+      <meeting when="1925-02"/>
+      <meeting when="1925-03"/>
+      <meeting when="1925-04"/>
+      <meeting when="1925-05"/>
+      <meeting when="1925-06"/>
+      <meeting when="1925-07"/>
+      <meeting when="1925-08"/>
+      <meeting when="1925-09"/>
+      <meeting when="1925-10"/>
+      <meeting when="1925-11"/>
+      <meeting when="1925-12"/>
       <act type="officer" ref="#simonettim">
          <date when="1925-01"/>
       </act>
