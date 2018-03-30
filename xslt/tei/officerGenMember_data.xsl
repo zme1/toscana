@@ -11,6 +11,7 @@
     </xsl:template>
     <xsl:template match="teiCorpus/teiCorpus">
         <year when="{teiHeader/descendant::publicationStmt/date/@when}">
+            <xsl:apply-templates select="TEI"/>
             <xsl:apply-templates select="descendant::seg"/>
             <xsl:apply-templates select="descendant::list[@type = 'committee']"/>
             <xsl:apply-templates
@@ -20,9 +21,9 @@
     </xsl:template>
     <xsl:template match="seg[@type = 'proposal']">
         <xsl:variable name="yr"
-            select="ancestor::text/preceding-sibling::teiHeader/descendant::date/tokenize(@when, '-')[1]"/>
+            select="ancestor::text/preceding-sibling::teiHeader/descendant::publicationStmt/date/tokenize(@when, '-')[1]"/>
         <xsl:variable name="mo"
-            select="ancestor::text/preceding-sibling::teiHeader/descendant::date/tokenize(@when, '-')[2]"/>
+            select="ancestor::text/preceding-sibling::teiHeader/descendant::publicationStmt/date/tokenize(@when, '-')[2]"/>
         <xsl:variable name="yrmo" select="string-join(($yr, $mo), '-')"/>
         <xsl:choose>
             <xsl:when test="count(descendant::*[@role = 'supporter'][not(@ref = '#legaT')]) gt 1">
@@ -46,9 +47,9 @@
     <xsl:template match="seg[@type = 'proposalWritten']">
         <xsl:for-each select="*[@role = 'proposer']">
             <xsl:variable name="yr"
-                select="ancestor::text/preceding-sibling::teiHeader/descendant::date/tokenize(@when, '-')[1]"/>
+                select="ancestor::text/preceding-sibling::teiHeader/descendant::publicationStmt/date/tokenize(@when, '-')[1]"/>
             <xsl:variable name="mo"
-                select="ancestor::text/preceding-sibling::teiHeader/descendant::date/tokenize(@when, '-')[2]"/>
+                select="ancestor::text/preceding-sibling::teiHeader/descendant::publicationStmt/date/tokenize(@when, '-')[2]"/>
             <xsl:variable name="yrmo" select="string-join(($yr, $mo), '-')"/>
             <act type="proposal" ref="{@ref}">
                 <date when="{$yrmo}"/>
@@ -58,9 +59,9 @@
     <xsl:template match="seg[@type = 'proposalReject']">
         <xsl:for-each select="*[@role]">
             <xsl:variable name="yr"
-                select="ancestor::text/preceding-sibling::teiHeader/descendant::date/tokenize(@when, '-')[1]"/>
+                select="ancestor::text/preceding-sibling::teiHeader/descendant::publicationStmt/date/tokenize(@when, '-')[1]"/>
             <xsl:variable name="mo"
-                select="ancestor::text/preceding-sibling::teiHeader/descendant::date/tokenize(@when, '-')[2]"/>
+                select="ancestor::text/preceding-sibling::teiHeader/descendant::publicationStmt/date/tokenize(@when, '-')[2]"/>
             <xsl:variable name="yrmo" select="string-join(($yr, $mo), '-')"/>
             <act type="proposal" ref="{@ref}">
                 <date when="{$yrmo}"/>
@@ -69,9 +70,9 @@
     </xsl:template>
     <xsl:template match="seg[@type = 'comp']">
         <xsl:variable name="yr"
-            select="ancestor::text/preceding-sibling::teiHeader/descendant::date/tokenize(@when, '-')[1]"/>
+            select="ancestor::text/preceding-sibling::teiHeader/descendant::publicationStmt/date/tokenize(@when, '-')[1]"/>
         <xsl:variable name="mo"
-            select="ancestor::text/preceding-sibling::teiHeader/descendant::date/tokenize(@when, '-')[2]"/>
+            select="ancestor::text/preceding-sibling::teiHeader/descendant::publicationStmt/date/tokenize(@when, '-')[2]"/>
         <xsl:variable name="yrmo" select="string-join(($yr, $mo), '-')"/>
         <xsl:for-each select=".[@subtype = 'sick']">
             <act type="comp" ref="{*[@role='target']/@ref}">
@@ -86,9 +87,9 @@
     </xsl:template>
     <xsl:template match="list[@type = 'committee']">
         <xsl:variable name="yr"
-            select="ancestor::text/preceding-sibling::teiHeader/descendant::date/tokenize(@when, '-')[1]"/>
+            select="ancestor::text/preceding-sibling::teiHeader/descendant::publicationStmt/date/tokenize(@when, '-')[1]"/>
         <xsl:variable name="mo"
-            select="ancestor::text/preceding-sibling::teiHeader/descendant::date/tokenize(@when, '-')[2]"/>
+            select="ancestor::text/preceding-sibling::teiHeader/descendant::publicationStmt/date/tokenize(@when, '-')[2]"/>
         <xsl:variable name="yrmo" select="string-join(($yr, $mo), '-')"/>
         <xsl:if test="@subtype = 'regolamento'">
 
@@ -130,5 +131,17 @@
             </xsl:for-each>
         </act>
     </xsl:template>
-
+<xsl:template match="TEI">
+    <xsl:variable name="officer" select="./descendant::listPerson/person"/>
+    <xsl:variable name="yr" select="teiHeader/descendant::publicationStmt/date/tokenize(@when, '-')[1]"/>
+    <xsl:variable name="mo" select="teiHeader/descendant::publicationStmt/date/tokenize(@when, '-')[2]"/>
+    <xsl:variable name="yrmo" select="string-join(($yr, $mo), '-')"/>
+    <xsl:for-each select="$officer">
+        <xsl:if test="not(ancestor::TEI/descendant::list[@type='absent']/item/persName[matches(@ref, current()/persName/@ref)])">
+            <act type="officer" ref="{persName/@ref}">
+                <date when="{$yrmo}"/>
+            </act>
+        </xsl:if>
+    </xsl:for-each>
+</xsl:template>
 </xsl:stylesheet>
