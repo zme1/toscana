@@ -93,23 +93,25 @@
         <xsl:variable name="yrmo" select="string-join(($yr, $mo), '-')"/>
         <xsl:if test="@subtype = 'regolamento'">
 
-            <xsl:for-each select="descendant::item">
-                <act type="committee" ref="{persName/@ref}">
+            <xsl:for-each select="descendant::item[not(list)]">
+                <act type="committee" ref="{descendant::persName/@ref}">
                     <date when="{$yrmo}"/>
                 </act>
             </xsl:for-each>
         </xsl:if>
         <xsl:if test="@subtype = 'investigazione'">
-            <xsl:for-each select="item">
-                <act type="committee" ref="{persName/@ref}">
+            <xsl:for-each select="item[not(list)]">
+                <act type="committee" ref="{descendant::persName/@ref}">
                     <date when="{$yrmo}"/>
                 </act>
             </xsl:for-each>
         </xsl:if>
         <xsl:if test="@subtype = 'intrattenimento'">
-            <act type="committee" ref="{persName/@ref}">
-                <date when="{$yrmo}"/>
-            </act>
+            <xsl:for-each select="item[not(list)]">
+                <act type="committee" ref="{descendant::persName/@ref}">
+                    <date when="{$yrmo}"/>
+                </act>
+            </xsl:for-each>
         </xsl:if>
     </xsl:template>
     <xsl:template
@@ -131,17 +133,20 @@
             </xsl:for-each>
         </act>
     </xsl:template>
-<xsl:template match="TEI">
-    <xsl:variable name="officer" select="./descendant::listPerson/person"/>
-    <xsl:variable name="yr" select="teiHeader/descendant::publicationStmt/date/tokenize(@when, '-')[1]"/>
-    <xsl:variable name="mo" select="teiHeader/descendant::publicationStmt/date/tokenize(@when, '-')[2]"/>
-    <xsl:variable name="yrmo" select="string-join(($yr, $mo), '-')"/>
-    <xsl:for-each select="$officer">
-        <xsl:if test="not(ancestor::TEI/descendant::list[@type='absent']/item/persName[matches(@ref, current()/persName/@ref)])">
-            <act type="officer" ref="{persName/@ref}">
-                <date when="{$yrmo}"/>
-            </act>
-        </xsl:if>
-    </xsl:for-each>
-</xsl:template>
+    <xsl:template match="TEI">
+        <xsl:variable name="officer" select="./descendant::listPerson/person"/>
+        <xsl:variable name="yr"
+            select="teiHeader/descendant::publicationStmt/date/tokenize(@when, '-')[1]"/>
+        <xsl:variable name="mo"
+            select="teiHeader/descendant::publicationStmt/date/tokenize(@when, '-')[2]"/>
+        <xsl:variable name="yrmo" select="string-join(($yr, $mo), '-')"/>
+        <xsl:for-each select="$officer">
+            <xsl:if
+                test="not(ancestor::TEI/descendant::list[@type = 'absent']/item/persName[matches(@ref, current()/persName/@ref)])">
+                <act type="officer" ref="{persName/@ref}">
+                    <date when="{$yrmo}"/>
+                </act>
+            </xsl:if>
+        </xsl:for-each>
+    </xsl:template>
 </xsl:stylesheet>

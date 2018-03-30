@@ -3,7 +3,7 @@
     xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://www.w3.org/2000/svg"
     exclude-result-prefixes="xs" version="3.0">
     <xsl:output method="xml" indent="yes"/>
-    <xsl:variable name="meetingMos" select="distinct-values(//date/@when)"/>
+    <xsl:variable name="persons" as="xs:string+" select="distinct-values(//@ref)"/>
     <xsl:template match="/">
         <svg>
             <g transform="translate(20,690)">
