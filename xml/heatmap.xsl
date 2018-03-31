@@ -19,8 +19,9 @@
                         <xsl:variable name="currentDatePos" as="xs:integer" select="position()"/>
                         <xsl:variable name="count" as="xs:integer"
                             select="count($root//act[@ref eq $currentPerson and date/@when = $currentDate])"/>
+                        <xsl:variable name="saturation" as="xs:double" select="$count * 100 div 7"/>
                         <rect x="{$currentPersonPos * 5}" y="-{$currentDatePos * 5}" width="5"
-                            height="5" fill="{if ($count eq 0) then 'white' else 'pink'}"/>
+                            height="5" fill="hsl(240,{$saturation}%, 50%)"/>
                     </xsl:for-each>
                 </xsl:for-each>
             </g>
