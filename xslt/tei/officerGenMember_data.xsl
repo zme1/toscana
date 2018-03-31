@@ -116,22 +116,39 @@
     </xsl:template>
     <xsl:template
         match="list[@type = 'committee'][not(@subtype = 'investigazione')][not(@subtype = 'regolamento')][not(@subtype = 'intrattenimento')]/descendant::item[persName]">
+        <xsl:variable name="date" select="ancestor::list[@type]/date/@when"/>
         <xsl:variable name="dateToken"
             select="tokenize(ancestor::list[@type]/date/@when-custom, ' ')"/>
         <xsl:variable name="context" select="current()"/>
-        <act>
-            <xsl:attribute name="type">committee</xsl:attribute>
-            <xsl:attribute name="ref">
-                <xsl:value-of select="persName/@ref"/>
-            </xsl:attribute>
-            <xsl:for-each select="$dateToken">
-                <date>
-                    <xsl:attribute name="when">
-                        <xsl:value-of select="current()"/>
-                    </xsl:attribute>
-                </date>
-            </xsl:for-each>
-        </act>
+        <xsl:if test="ancestor::list[date/@when-custom]">
+            <act>
+                <xsl:attribute name="type">committee</xsl:attribute>
+                <xsl:attribute name="ref">
+                    <xsl:value-of select="persName/@ref"/>
+                </xsl:attribute>
+                <xsl:for-each select="$dateToken">
+                    <date>
+                        <xsl:attribute name="when">
+                            <xsl:value-of select="current()"/>
+                        </xsl:attribute>
+                    </date>
+                </xsl:for-each>
+            </act>
+        </xsl:if>
+        <xsl:if test="$date">
+            <act>
+                <xsl:attribute name="type">committee</xsl:attribute>
+                <xsl:attribute name="ref">
+                    <xsl:value-of select="persName/@ref"/>
+                </xsl:attribute>
+                    <date>
+                        <xsl:attribute name="when">
+                            <xsl:value-of select="$date"/>
+                        </xsl:attribute>
+                    </date>
+                
+            </act>
+        </xsl:if>
     </xsl:template>
     <xsl:template match="TEI">
         <xsl:variable name="officer" select="./descendant::listPerson/person"/>
