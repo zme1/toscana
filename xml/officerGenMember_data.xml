@@ -403,6 +403,9 @@
       <act type="proposal" ref="#pasquinellis">
          <date when="1919-03"/>
       </act>
+      <act type="proposal" ref="#simonettim">
+         <date when="1919-03"/>
+      </act>
       <act type="proposal" ref="#giomettic">
          <date when="1919-03"/>
       </act>
@@ -434,9 +437,6 @@
          <date when="1919-05"/>
       </act>
       <act type="proposal" ref="#pellegrinie">
-         <date when="1919-05"/>
-      </act>
-      <act type="proposal" ref="#lunardinil">
          <date when="1919-05"/>
       </act>
       <act type="proposal" ref="#simonettim">
@@ -728,6 +728,7 @@
       <meeting when="1920-09"/>
       <meeting when="1920-10"/>
       <meeting when="1920-11"/>
+      <meeting when="1920-12"/>
       <meeting when="1920-12"/>
       <act type="officer" ref="#maffeis">
          <date when="1920-01"/>
@@ -1101,9 +1102,6 @@
       <act type="proposal" ref="#simonettim">
          <date when="1920-02"/>
       </act>
-      <act type="proposal" ref="">
-         <date when="1920-02"/>
-      </act>
       <act type="proposal" ref="#simonettim">
          <date when="1920-03"/>
       </act>
@@ -1126,9 +1124,6 @@
          <date when="1920-03"/>
       </act>
       <act type="proposal" ref="#simonettim">
-         <date when="1920-03"/>
-      </act>
-      <act type="proposal" ref="">
          <date when="1920-03"/>
       </act>
       <act type="proposal" ref="#fredianellig">
@@ -1252,9 +1247,6 @@
          <date when="1920-09"/>
       </act>
       <act type="proposal" ref="#sodinij">
-         <date when="1920-09"/>
-      </act>
-      <act type="proposal" ref="">
          <date when="1920-09"/>
       </act>
       <act type="proposal" ref="#fredianim">
@@ -2504,7 +2496,6 @@
       <meeting when="1922-02"/>
       <meeting when="1922-03"/>
       <meeting when="1922-04"/>
-      <meeting when="1922-05"/>
       <meeting when="1922-07"/>
       <meeting when="1922-08"/>
       <meeting when="1922-09"/>

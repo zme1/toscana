@@ -11,6 +11,12 @@
     </xsl:template>
     <xsl:template match="teiCorpus/teiCorpus">
         <year when="{teiHeader/descendant::publicationStmt/date/@when}">
+            <xsl:for-each select="TEI">
+                <xsl:variable name="yr" as="xs:string" select="teiHeader/descendant::publicationStmt/date/tokenize(@when, '-')[1]"/>
+                <xsl:variable name="mo" as="xs:string" select="teiHeader/descendant::publicationStmt/date/tokenize(@when, '-')[2]"/>
+                <xsl:variable name="yrmo" select="string-join(($yr, $mo), '-')"/>
+                <meeting when="{$yrmo}"/>
+            </xsl:for-each>
             <xsl:apply-templates select="TEI"/>
             <xsl:apply-templates select="descendant::seg"/>
             <xsl:apply-templates select="descendant::list[@type = 'committee']"/>
@@ -26,7 +32,10 @@
             select="ancestor::text/preceding-sibling::teiHeader/descendant::publicationStmt/date/tokenize(@when, '-')[2]"/>
         <xsl:variable name="yrmo" select="string-join(($yr, $mo), '-')"/>
         <xsl:choose>
-            <xsl:when test="count(descendant::persName[@role = 'supporter']) gt 1">
+            <xsl:when test="count(descendant::persName[@role = 'supporter']) eq 2">
+                <act type="proposal" ref="{descendant::persName[@role='proposer']/@ref}">
+                    <date when="{$yrmo}"/>
+                </act>
                 <act type="proposal" ref="{descendant::persName[@role='supporter'][1]/@ref}">
                     <date when="{$yrmo}"/>
                 </act>
@@ -34,14 +43,19 @@
                     <date when="{$yrmo}"/>
                 </act>
             </xsl:when>
-            <xsl:otherwise>
+            <xsl:when test="descendant::*[@role='supporter'][@ref='#legaT']">
+                <act type="proposal" ref="{descendant::persName[@role='proposer']/@ref}">
+                    <date when="{$yrmo}"/>
+                </act>
+            </xsl:when>
+            <xsl:when test="count(descendant::persName[@role='supporter']) eq 1">
                 <act type="proposal" ref="{descendant::persName[@role='proposer']/@ref}">
                     <date when="{$yrmo}"/>
                 </act>
                 <act type="proposal" ref="{descendant::persName[@role='supporter']/@ref}">
                     <date when="{$yrmo}"/>
                 </act>
-            </xsl:otherwise>
+            </xsl:when>
         </xsl:choose>
     </xsl:template>
     <xsl:template match="seg[@type = 'proposalWritten']">
