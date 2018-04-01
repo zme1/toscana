@@ -29,7 +29,6 @@
                         <xsl:variable name="currentDatePos" as="xs:integer" select="position()"/>
                         <xsl:variable name="count" as="xs:integer"
                             select="count($root//act[@ref eq $currentPerson and date/@when = $currentDate])"/>
-                        <xsl:variable name="saturation" as="xs:double" select="$count * 100 div 7"/>
                         <xsl:choose>
                             <xsl:when test="$count eq 0">
                                 <rect stroke="black" stroke-width=".2" x="{$currentPersonPos * $xScale}"
@@ -63,7 +62,7 @@
                             </xsl:when>
                         </xsl:choose>
                         
-                        <!-- The <xsl:choose> above uses the variables declared yesterday to find the points in the graph
+                        <!-- The <xsl:choose> above uses the variables declared  to find the points in the graph
                         that pertain to a specific person on a specific day, and each of these <xsl:when> elements determines
                         the color of the rectangle based on the color. I tried to use variables to determine the color, but
                         with no luck. -->

@@ -89,7 +89,7 @@
             select="ancestor::text/preceding-sibling::teiHeader/descendant::publicationStmt/date/tokenize(@when, '-')[2]"/>
         <xsl:variable name="yrmo" select="string-join(($yr, $mo), '-')"/>
         <xsl:for-each select=".[@subtype = 'sick']">
-            <act type="comp" ref="{*[@role='target']/@ref}">
+            <act type="compensation" ref="{*[@role='target']/@ref}">
                 <date when="{$yrmo}"/>
             </act>
         </xsl:for-each>
@@ -108,21 +108,21 @@
         <xsl:if test="@subtype = 'regolamento'">
 
             <xsl:for-each select="descendant::item[not(list)]">
-                <act type="committee" ref="{descendant::persName/@ref}">
+                <act type="committee" subtype="regolamento" ref="{descendant::persName/@ref}">
                     <date when="{$yrmo}"/>
                 </act>
             </xsl:for-each>
         </xsl:if>
         <xsl:if test="@subtype = 'investigazione'">
             <xsl:for-each select="item[not(list)]">
-                <act type="committee" ref="{descendant::persName/@ref}">
+                <act type="committee" subtype="investigazione" ref="{descendant::persName/@ref}">
                     <date when="{$yrmo}"/>
                 </act>
             </xsl:for-each>
         </xsl:if>
         <xsl:if test="@subtype = 'intrattenimento'">
             <xsl:for-each select="item[not(list)]">
-                <act type="committee" ref="{descendant::persName/@ref}">
+                <act type="committee" subtype="intrattenimento" ref="{descendant::persName/@ref}">
                     <date when="{$yrmo}"/>
                 </act>
             </xsl:for-each>
@@ -137,6 +137,7 @@
         <xsl:if test="ancestor::list[date/@when-custom]">
             <act>
                 <xsl:attribute name="type">committee</xsl:attribute>
+                <xsl:attribute name="subtype"><xsl:value-of select="ancestor::list[@type]/@subtype"/></xsl:attribute>
                 <xsl:attribute name="ref">
                     <xsl:value-of select="persName/@ref"/>
                 </xsl:attribute>
@@ -152,6 +153,7 @@
         <xsl:if test="$date">
             <act>
                 <xsl:attribute name="type">committee</xsl:attribute>
+                <xsl:attribute name="subtype"><xsl:value-of select="ancestor::list[@type]/@subtype"/></xsl:attribute>
                 <xsl:attribute name="ref">
                     <xsl:value-of select="persName/@ref"/>
                 </xsl:attribute>
@@ -172,9 +174,12 @@
             select="teiHeader/descendant::publicationStmt/date/tokenize(@when, '-')[2]"/>
         <xsl:variable name="yrmo" select="string-join(($yr, $mo), '-')"/>
         <xsl:for-each select="$officer">
+            <!--<role type="officer" ref="{persName/@ref}">
+                <date when="{$yrmo}"/>
+            </role>-->
             <xsl:if
                 test="not(ancestor::TEI/descendant::list[@type = 'absent']/item/persName[matches(@ref, current()/persName/@ref)])">
-                <act type="officer" ref="{persName/@ref}">
+                <act type="officer" role="{roleName/@role}" ref="{persName/@ref}">
                     <date when="{$yrmo}"/>
                 </act>
             </xsl:if>
