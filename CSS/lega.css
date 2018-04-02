@@ -23,12 +23,11 @@ hr.maj{
 .menu{
     text-align: center;
     list-style-type: none;
-    font-family: "Great Vibes", cursive;
     font-size: 130%;
 }
 .dropdown{
     display: inline-block;
-    margin: 5px 10px;
+    margin: 5px 15px;
     font-size: 80%;
 }
 button.dropbtn{

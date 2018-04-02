@@ -22,7 +22,7 @@
         <hr class="min"/>
         <div class="sickCompContainer">
             <div class="sickCompSvg">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1250 650">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 130 1250 650">
                     <g transform="translate(70,600)">
                         <xsl:apply-templates select="teiCorpus/teiCorpus"/>
 
@@ -118,7 +118,7 @@
         </div>
     </xsl:template>
     <xsl:template match="teiCorpus/teiCorpus" xmlns="http://www.w3.org/2000/svg">
-        <xsl:variable name="year" select="TEI[1]/teiHeader/descendant::date/tokenize(@when, '-')[1]"/>
+        <xsl:variable name="year" select="TEI[1]/teiHeader/descendant::publicationStmt/date/tokenize(@when, '-')[1]"/>
         <g class="lineToggle">
             <line class="line{$year}" x1="0" y1="0" x2="{$dotInterval}"
                 y2="-{TEI[1]/sum(descendant::seg[@subtype = 'sick']/num/@value)}"/>
@@ -131,17 +131,17 @@
         </g>
     </xsl:template>
     <xsl:template match="TEI" xmlns="http://www.w3.org/2000/svg">
-        <xsl:variable name="year" select="teiHeader/descendant::date/tokenize(@when, '-')[1]"/>
+        <xsl:variable name="year" select="teiHeader/descendant::publicationStmt/date/tokenize(@when, '-')[1]"/>
         <xsl:variable name="compValue" select="sum(descendant::seg[@subtype = 'sick']/num/@value)"/>
         <xsl:variable name="runningTotal"
             select="sum(preceding-sibling::TEI/sum(descendant::seg[@subtype = 'sick']/num/@value))"/>
         <xsl:variable name="xPos"
-            select="(teiHeader/descendant::date/number(tokenize(@when, '-')[2])) * $dotInterval"/>
+            select="(teiHeader/descendant::publicationStmt/date/number(tokenize(@when, '-')[2])) * $dotInterval"/>
         <xsl:variable name="yPos" select="($runningTotal + $compValue) * $yScale"/>
         <circle class="line{$year}" cx="{$xPos}" cy="-{$yPos}" r="4"/>
-        <xsl:if test="following-sibling::TEI[not(teiHeader/descendant::date[@when = '1920-12-30'])]">
+        <xsl:if test="following-sibling::TEI[not(teiHeader/descendant::publicationStmt/date[@when = '1920-12-30'])]">
             <line class="line{$year}" x1="{$xPos}" y1="-{$yPos}"
-                x2="{following-sibling::TEI[1]/(teiHeader/descendant::date/number(tokenize(@when, '-')[2])) * $dotInterval}"
+                x2="{following-sibling::TEI[1]/(teiHeader/descendant::publicationStmt/date/number(tokenize(@when, '-')[2])) * $dotInterval}"
                 y2="-{($runningTotal + $compValue + following-sibling::TEI[1]/sum(descendant::seg[@subtype='sick']/num/@value)) * $yScale}"/>
         </xsl:if>
     </xsl:template>

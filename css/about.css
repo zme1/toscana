@@ -1,0 +1,25 @@
+h3.about{
+    text-align: left;
+    text-decoration: underline;
+}
+div.aboutMenu{
+    width: 250px;
+    position: fixed;
+    text-align: center;
+    padding-left: 20px;
+    float:left;
+}
+div.aboutDrop{
+    padding: 10px 0;
+    font-size: 130%;
+}
+a.drpbtn{
+    
+}
+div.intro{
+    width: 720px;
+    height: 100%;
+    margin: auto;
+    margin-left: 270px;
+	text-align: center;
+}
