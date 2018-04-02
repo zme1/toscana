@@ -1,6 +1,10 @@
-h3.about{
+h3.aboutMenu{
     text-align: left;
     text-decoration: underline;
+}
+h3.about{
+    text-decoration: underline;
+    
 }
 div.aboutMenu{
     width: 250px;
@@ -22,4 +26,5 @@ div.intro{
     margin: auto;
     margin-left: 270px;
 	text-align: center;
+	margin-top: 5%;
 }
