@@ -7,10 +7,9 @@ h3.about{
     
 }
 div.aboutMenu{
-    width: 250px;
+    width: 25%;
     position: fixed;
     text-align: center;
-    padding-left: 20px;
     float:left;
 }
 div.aboutDrop{
@@ -21,10 +20,10 @@ a.drpbtn{
     
 }
 div.intro{
-    width: 720px;
+    width: auto;
     height: 100%;
-    margin: auto;
-    margin-left: 270px;
+    margin-left: 26%;
+    margin-right: 5%;
 	text-align: center;
 	margin-top: 5%;
 }
