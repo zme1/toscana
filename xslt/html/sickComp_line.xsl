@@ -19,6 +19,7 @@
     -->
     <xsl:template match="/">
         <h3>Sick Compensation to Lega Members</h3>
+        <hr class="min"/>
         <div class="sickCompContainer">
             <div class="sickCompSvg">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1250 650">

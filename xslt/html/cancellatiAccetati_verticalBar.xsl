@@ -12,9 +12,10 @@
     <xsl:variable name="yrHeight" select="$barHeight + ($barInterval * 2)"/>
     <xsl:template match="/">
                 <h3>Cancellati and Accetati in the Lega Through the Years</h3>
+        <hr class="min"/>
                 <div class="cancellatiContainer">
                     <div class="cancellatiSvg">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1050 430">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 430">
                             <g transform="translate(400,400)">
                                 <xsl:apply-templates select="/teiCorpus/teiCorpus" mode="svg"/>
                                 <!-- Left vertical line -->
@@ -42,48 +43,48 @@
                                 <!-- Positive dashed y-axis lines, intervals of 10 -->
                                 <line x1="{$xScale *10}" y1="-{$yHeight}" x2="{$xScale * 10}" y2="0"
                                     stroke="white" stroke-width="0.5" stroke-dasharray="10, 5"/>
-                                <text x="{$xScale *10}" y="20" text-anchor="middle" style="color: white;">10</text>
+                                <text x="{$xScale *10}" y="20" text-anchor="middle" style="fill: white;">10</text>
                                 <line x1="{$xScale *20}" y1="-{$yHeight}" x2="{$xScale * 20}" y2="0"
                                     stroke="white" stroke-width="0.5" stroke-dasharray="10, 5"/>
-                                <text x="{$xScale *20}" y="20" text-anchor="middle" style="color: white;">20</text>
+                                <text x="{$xScale *20}" y="20" text-anchor="middle" style="fill: white;">20</text>
                                 <line x1="{$xScale *30}" y1="-{$yHeight}" x2="{$xScale * 30}" y2="0"
                                     stroke="white" stroke-width="0.5" stroke-dasharray="10, 5"/>
-                                <text x="{$xScale *30}" y="20" text-anchor="middle" style="color: white;">30</text>
+                                <text x="{$xScale *30}" y="20" text-anchor="middle" style="fill: white;">30</text>
                                 <line x1="{$xScale *40}" y1="-{$yHeight}" x2="{$xScale * 40}" y2="0"
                                     stroke="white" stroke-width="0.5" stroke-dasharray="10, 5"/>
-                                <text x="{$xScale *40}" y="20" text-anchor="middle" style="color: white;">40</text>
+                                <text x="{$xScale *40}" y="20" text-anchor="middle" style="fill: white;">40</text>
                                 <line x1="{$xScale *50}" y1="-{$yHeight}" x2="{$xScale * 50}" y2="0"
                                     stroke="white" stroke-width="0.5" stroke-dasharray="10, 5"/>
-                                <text x="{$xScale *50}" y="20" text-anchor="middle" style="color: white;">50</text>
+                                <text x="{$xScale *50}" y="20" text-anchor="middle" style="fill: white;">50</text>
                                 <line x1="{$xScale *60}" y1="-{$yHeight}" x2="{$xScale * 60}" y2="0"
                                     stroke="white" stroke-width="0.5" stroke-dasharray="10, 5"/>
-                                <text x="{$xScale *60}" y="20" text-anchor="middle" style="color: white;">60</text>
+                                <text x="{$xScale *60}" y="20" text-anchor="middle" style="fill: white;">60</text>
 
                                 <!-- Negative dashed y-axis lines, intervals of 10 -->
                                 <line x1="-{$xScale *10}" y1="-{$yHeight}" x2="-{$xScale * 10}"
                                     y2="0" stroke="white" stroke-width="0.5"
                                     stroke-dasharray="10, 5"/>
-                                <text x="-{$xScale *10}" y="20" text-anchor="middle" style="color: white;">10</text>
+                                <text x="-{$xScale *10}" y="20" text-anchor="middle" style="fill: white;">10</text>
                                 <line x1="-{$xScale *20}" y1="-{$yHeight}" x2="-{$xScale * 20}"
                                     y2="0" stroke="white" stroke-width="0.5"
                                     stroke-dasharray="10, 5"/>
-                                <text x="-{$xScale *20}" y="20" text-anchor="middle" style="color: white;">20</text>
+                                <text x="-{$xScale *20}" y="20" text-anchor="middle" style="fill: white;">20</text>
                                 <line x1="-{$xScale *30}" y1="-{$yHeight}" x2="-{$xScale * 30}"
                                     y2="0" stroke="white" stroke-width="0.5"
                                     stroke-dasharray="10, 5"/>
-                                <text x="-{$xScale *30}" y="20" text-anchor="middle" style="color: white;">30</text>
+                                <text x="-{$xScale *30}" y="20" text-anchor="middle" style="fill: white;">30</text>
                                 <line x1="-{$xScale *40}" y1="-{$yHeight}" x2="-{$xScale * 40}"
                                     y2="0" stroke="white" stroke-width="0.5"
                                     stroke-dasharray="10, 5"/>
-                                <text x="-{$xScale *40}" y="20" text-anchor="middle" style="color: white;">40</text>
+                                <text x="-{$xScale *40}" y="20" text-anchor="middle" style="fill: white;">40</text>
                                 <line x1="-{$xScale *50}" y1="-{$yHeight}" x2="-{$xScale * 50}"
                                     y2="0" stroke="white" stroke-width="0.5"
                                     stroke-dasharray="10, 5"/>
-                                <text x="-{$xScale *50}" y="20" text-anchor="middle" style="color: white;">50</text>
+                                <text x="-{$xScale *50}" y="20" text-anchor="middle" style="fill: white;">50</text>
                                 <line x1="-{$xScale *60}" y1="-{$yHeight}" x2="-{$xScale * 60}"
                                     y2="0" stroke="white" stroke-width="0.5"
                                     stroke-dasharray="10, 5"/>
-                                <text x="-{$xScale *60}" y="20" text-anchor="middle" style="color: white;">60</text>
+                                <text x="-{$xScale *60}" y="20" text-anchor="middle" style="fill: white;">60</text>
                             </g>
                         </svg>
                     </div>
@@ -107,7 +108,7 @@
             height="{$barHeight}" width="{$barWidthCan}" fill="#CE4B29"/>
         <!-- Date for each year -->
         <text class="toggle" id="textToggle{$date}" x="0" y="-{$yPos - $barHeight div 2 - 5}"
-            text-anchor="middle" style="color: white;"><xsl:value-of select="$date"/></text>
+            text-anchor="middle" style="fill: white;"><xsl:value-of select="$date"/></text>
     </xsl:template>
     <xsl:template match="teiCorpus/teiCorpus" mode="table">
         <xsl:variable name="date"

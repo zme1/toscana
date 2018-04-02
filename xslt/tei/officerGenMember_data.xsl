@@ -141,6 +141,7 @@
                 <xsl:attribute name="ref">
                     <xsl:value-of select="persName/@ref"/>
                 </xsl:attribute>
+                <xsl:attribute name="role"><xsl:value-of select="roleName/@role"/></xsl:attribute>
                 <xsl:for-each select="$dateToken">
                     <date>
                         <xsl:attribute name="when">

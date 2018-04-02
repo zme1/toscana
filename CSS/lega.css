@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes');
 body{
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/maybe.jpg);
     background-repeat: no-repeat;
@@ -22,7 +23,7 @@ hr.maj{
 .menu{
     text-align: center;
     list-style-type: none;
-    font-family: "Snell Roundhand", cursive;
+    font-family: "Great Vibes", cursive;
     font-size: 130%;
 }
 .dropdown{
@@ -32,7 +33,6 @@ hr.maj{
 }
 button.dropbtn{
     cursor: pointer;
-    font-family: "Snell Roundhand", cursive;
     font-size: 100%;
     font-weight: 900;
     color: #CE4B29;
@@ -52,10 +52,6 @@ button.dropbtn:hover{
     margin-left: 10px;
     margin-right: 10px;
 }
-.dropContent a{
-    display: block;
-    position: center;
-}
 .dropdown:hover .dropContent{
     display: block;
 }
@@ -73,7 +69,7 @@ a:hover{
 h1,
 h2,
 h3{
-    font-family: "Snell Roundhand", cursive;
+    font-family: "Great Vibes", cursive;
     text-align: center;
     color: white;
     letter-spacing: 4px;
@@ -87,8 +83,8 @@ h2{
     margin-top: 0;
 }
 h3{
-    font-size: 20px;
-    text-align: left;
+    font-size: 30px;
+    padding-top: 40px;
 }
 code{
     color: #58A378;
