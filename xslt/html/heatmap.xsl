@@ -104,7 +104,7 @@
                         <line x1="8.892" y1="-{$meetingTotal * $yScale}" x2="{$xLength + 8.892}"
                             y2="-{$meetingTotal * $yScale}" stroke="black" stroke-width="2"/>
                         <text x="-25" y="-{(($meetingCount div 2) + $prevMeetingCount) * $yScale}"
-                            text-anchor="middle">
+                            text-anchor="middle" style="fill: white;">
                             <xsl:value-of select="@when"/>
                         </text>
                     </xsl:for-each>

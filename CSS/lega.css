@@ -67,7 +67,8 @@ a:hover{
 }
 h1,
 h2,
-h3{
+h3,
+h4{
     font-family: "Great Vibes", cursive;
     text-align: center;
     color: white;
@@ -75,15 +76,18 @@ h3{
     margin-bottom: 0;
 }
 h1{
-    font-size: 40px;
+    font-size: 45px;
 }
 h2{
-    font-size: 30px;
+    font-size: 37px;
     margin-top: 0;
 }
 h3{
-    font-size: 30px;
+    font-size: 35px;
     padding-top: 40px;
+}
+h4{
+    font-size: 30px;
 }
 code{
     color: #58A378;
