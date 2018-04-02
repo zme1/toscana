@@ -1,29 +1,29 @@
-h3.aboutMenu{
+h3.aboutMenu {
     text-align: left;
     text-decoration: underline;
 }
-h3.about{
+h3.about {
     text-decoration: underline;
-    
+
 }
-div.aboutMenu{
+div.aboutMenu {
     width: 25%;
     position: fixed;
     text-align: center;
-    float:left;
+    float: left;
 }
-div.aboutDrop{
-    padding: 10px 0;
-    font-size: 130%;
-}
-a.drpbtn{
-    
-}
-div.intro{
+div.intro {
     width: auto;
     height: 100%;
     margin-left: 26%;
     margin-right: 5%;
-	text-align: center;
-	margin-top: 5%;
+    text-align: center;
+    margin-top: 5%;
+}
+div.aboutDrop {
+    padding: 10px 0;
+    font-size: 130%;
+}
+a.drpbtn {
+
 }
