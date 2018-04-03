@@ -19,52 +19,51 @@
     <xsl:variable name="yScale" as="xs:double" select="$yLength div count($dates)"/>
     <!-- These variables will be used to create the graph's proportions and scale the rectangles' width and height. -->
     <xsl:template match="/">
-        <h3>Member and Officer Activity</h3>
-        <hr class="min"/>
-        <div class="heatmapSvg">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700">
                 <g transform="translate(60,{$yLength + 30})">
                     <xsl:for-each select="$persons">
                         <xsl:variable name="currentPerson" as="xs:string" select="."/>
+                        <xsl:variable name="idPerson" select="$root//act[@ref eq $currentPerson]/substring-after(@ref, '#')"/>
                         <xsl:variable name="currentPersonPos" as="xs:integer" select="position()"/>
                         <xsl:for-each select="$dates">
                             <xsl:variable name="currentDate" as="xs:string" select="."/>
+                            <xsl:variable name="idDate" select="$root//act[date/@when eq $currentDate]/translate(date/@when, '-', '')"/>
                             <xsl:variable name="currentDatePos" as="xs:integer" select="position()"/>
                             <xsl:variable name="count" as="xs:integer"
                                 select="count($root//act[@ref eq $currentPerson and date/@when = $currentDate])"/>
                             <xsl:choose>
                                 <xsl:when test="$count eq 0">
-                                    <rect stroke="black" stroke-width=".2"
+                                    <rect class="{$idPerson[1]}{$idDate[1]}" stroke="black" stroke-width=".2"
                                         x="{$currentPersonPos * $xScale}"
                                         y="-{$currentDatePos * $yScale}" width="{$xScale}"
                                         height="{$yScale}" fill="rgb(255, 255, 212)"/>
                                 </xsl:when>
                                 <xsl:when test="$count eq 1">
-                                    <rect stroke="black" stroke-width=".2"
+                                    <rect class="{$idPerson[1]}{$idDate[1]}" stroke="black" stroke-width=".2"
                                         x="{$currentPersonPos * $xScale}"
                                         y="-{$currentDatePos * $yScale}" width="{$xScale}"
                                         height="{$yScale}" fill="rgb(254, 227, 145)"/>
                                 </xsl:when>
                                 <xsl:when test="$count eq 2">
-                                    <rect stroke="black" stroke-width=".2"
+                                    <rect class="{$idPerson[1]}{$idDate[1]}" stroke="black" stroke-width=".2"
                                         x="{$currentPersonPos * $xScale}"
                                         y="-{$currentDatePos * $yScale}" width="{$xScale}"
                                         height="{$yScale}" fill="rgb(254, 196, 79)"/>
                                 </xsl:when>
                                 <xsl:when test="$count eq 3">
-                                    <rect stroke="black" stroke-width=".2"
+                                    <rect class="{$idPerson[1]}{$idDate[1]}" stroke="black" stroke-width=".2"
                                         x="{$currentPersonPos * $xScale}"
                                         y="-{$currentDatePos * $yScale}" width="{$xScale}"
                                         height="{$yScale}" fill="rgb(254, 153, 41)"/>
                                 </xsl:when>
                                 <xsl:when test="$count eq 4">
-                                    <rect stroke="black" stroke-width=".2"
+                                    <rect class="{$idPerson[1]}{$idDate[1]}" stroke="black" stroke-width=".2"
                                         x="{$currentPersonPos * $xScale}"
                                         y="-{$currentDatePos * $yScale}" width="{$xScale}"
                                         height="{$yScale}" fill="rgb(217, 95, 14)"/>
                                 </xsl:when>
                                 <xsl:when test="$count eq 5">
-                                    <rect stroke="black" stroke-width=".2"
+                                    <rect class="{$idPerson[1]}{$idDate[1]}" stroke="black" stroke-width=".2"
                                         x="{$currentPersonPos * $xScale}"
                                         y="-{$currentDatePos * $yScale}" width="{$xScale}"
                                         height="{$yScale}" fill="rgb(153, 52, 4)"/>
@@ -113,6 +112,5 @@
                 cells are still quite small, and I'm unsure how I will label the axes for people without using JavaScript. -->
                 </g>
             </svg>
-        </div>
     </xsl:template>
 </xsl:stylesheet>
