@@ -8,12 +8,5 @@
 4. Officer vs. General member activity in meetings by year
 	- Stacked bar chart?
 	- Heat map (first add committee termination dates)
-5. Some form of analysis of officer absenteeism
+5. Stacked bar chart to show differences in officer vs. Gen member activity
 
-
-
-6?. Activity of Presidents during administrative year and off-year
-	- Line graph with values of president superimposed over another
-		- Select a year, or select a person
-		- Year will illuminate all presidents in different colors, person will illuminate all that individual’s years in different colors (no way to easily compare different presidents when their values are not all illuminated simultaneously)
-	- Line graph formatted in the same manner as the previous one that compares committee activity or proposals?

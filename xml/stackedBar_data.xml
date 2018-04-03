@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<years xmlns="http://toscana.newtfire.org">
+   <year when="1919">
+      <officers>
+         <officer ref="#fredianim">14</officer>
+         <officer ref="#maffeis">27</officer>
+         <officer ref="#simonettim">22</officer>
+         <officer ref="#pasquinellis">19</officer>
+         <officer ref="#pasquinelliam">11</officer>
+         <officer ref="#silvionic">9</officer>
+         <officer ref="#bertonie">4</officer>
+         <officer ref="#marsilia">16</officer>
+         <officer ref="#giomettic">9</officer>
+         <officer ref="#merciadrie">13</officer>
+         <officer ref="#fontanaan">9</officer>
+         <officer ref="#paganuccis">12</officer>
+         <officer ref="#lunardinil">13</officer>
+      </officers>
+      <total>214</total>
+   </year>
+   <year when="1920">
+      <officers>
+         <officer ref="#maffeis">17</officer>
+         <officer ref="#sodinij">23</officer>
+         <officer ref="#fredianim">17</officer>
+         <officer ref="#pellegrinic">23</officer>
+         <officer ref="#pasquinellis">16</officer>
+         <officer ref="#lunardinil">15</officer>
+         <officer ref="#silvionic">13</officer>
+         <officer ref="#fredianellig">15</officer>
+         <officer ref="#paganuccis">5</officer>
+         <officer ref="#piaggesia">12</officer>
+         <officer ref="#viganol">4</officer>
+         <officer ref="#merciadrie">13</officer>
+         <officer ref="#buchignianil">4</officer>
+      </officers>
+      <total>248</total>
+   </year>
+   <year when="1921">
+      <officers>
+         <officer ref="#marsilis">15</officer>
+         <officer ref="#sodinij">17</officer>
+         <officer ref="#marchettie">15</officer>
+         <officer ref="#piaggesia">12</officer>
+         <officer ref="#pasquinellis">19</officer>
+         <officer ref="#pasquinelliam">12</officer>
+         <officer ref="#lucchesiam">10</officer>
+         <officer ref="#fredianellig">10</officer>
+         <officer ref="#merciadrie">29</officer>
+         <officer ref="#battistiniv">13</officer>
+         <officer ref="#silvionic">5</officer>
+         <officer ref="#cappellinic">12</officer>
+      </officers>
+      <total>280</total>
+   </year>
+   <year when="1922">
+      <officers>
+         <officer ref="#marconic">9</officer>
+         <officer ref="#cappellinic">18</officer>
+         <officer ref="#marchettie">14</officer>
+         <officer ref="#maffeigia">6</officer>
+         <officer ref="#lucchesiam">10</officer>
+         <officer ref="#pasquinellis">21</officer>
+         <officer ref="#lunardinil">4</officer>
+         <officer ref="#sodinij">18</officer>
+         <officer ref="#marsilis">8</officer>
+         <officer ref="#merciadrie">20</officer>
+         <officer ref="#maffeir">1</officer>
+         <officer ref="#buchignianil">6</officer>
+         <officer ref="#fredianim">12</officer>
+      </officers>
+      <total>252</total>
+   </year>
+   <year when="1923">
+      <officers>
+         <officer ref="#maffeis">15</officer>
+         <officer ref="#pacinic">11</officer>
+         <officer ref="#merciadrie">5</officer>
+         <officer ref="#lucchesiam">18</officer>
+         <officer ref="#pasquinellis">15</officer>
+         <officer ref="#desimos">9</officer>
+         <officer ref="#giannig">13</officer>
+         <officer ref="#carloe">7</officer>
+         <officer ref="#viganol">10</officer>
+         <officer ref="#zinim">14</officer>
+         <officer ref="#sodinij">10</officer>
+         <officer ref="#fredianellig">14</officer>
+         <officer ref="#borellim">8</officer>
+      </officers>
+      <total>214</total>
+   </year>
+   <year when="1924">
+      <officers>
+         <officer ref="#pellegrinic">10</officer>
+         <officer ref="#sodinij">14</officer>
+         <officer ref="#giannig">15</officer>
+         <officer ref="#pasquinellie">12</officer>
+         <officer ref="#pasquinellis">16</officer>
+         <officer ref="#borellim">10</officer>
+         <officer ref="#lucchesiam">11</officer>
+         <officer ref="#viganol">4</officer>
+         <officer ref="#fredianellig">13</officer>
+         <officer ref="#merciadrie">13</officer>
+         <officer ref="#marconic">9</officer>
+         <officer ref="#vannuccie">11</officer>
+      </officers>
+      <total>219</total>
+   </year>
+   <year when="1925">
+      <officers>
+         <officer ref="#simonettim">14</officer>
+         <officer ref="#desantie">11</officer>
+         <officer ref="#giannig">16</officer>
+         <officer ref="#pasquinellie">14</officer>
+         <officer ref="#pasquinellis">17</officer>
+         <officer ref="#marconic">12</officer>
+         <officer ref="#borellim">12</officer>
+         <officer ref="#lucchesiam">12</officer>
+         <officer ref="#viganol">20</officer>
+         <officer ref="#vannuccie">3</officer>
+         <officer ref="#merciadrie">11</officer>
+         <officer ref="#vannuccia">8</officer>
+      </officers>
+      <total>225</total>
+   </year>
+</years>

@@ -550,167 +550,248 @@
       <act type="committee" subtype="investigazione" ref="#marsilia">
          <date when="1919-06"/>
       </act>
-      <act type="committee" subtype="picnic" ref="#fredianim">
+      <act type="committee" subtype="picnic" ref="#fredianim" role="pres">
          <date when="1919-07"/>
          <date when="1919-08"/>
       </act>
-      <act type="committee" subtype="picnic" ref="#zinim">
+      <act type="committee" subtype="picnic" ref="#zinim" role="vice">
          <date when="1919-07"/>
          <date when="1919-08"/>
       </act>
-      <act type="committee" subtype="picnic" ref="#pellegrinic">
+      <act type="committee"
+           subtype="picnic"
+           ref="#pellegrinic"
+           role="finanza">
          <date when="1919-07"/>
          <date when="1919-08"/>
       </act>
-      <act type="committee" subtype="picnic" ref="#simonettim">
+      <act type="committee"
+           subtype="picnic"
+           ref="#simonettim"
+           role="corresp">
          <date when="1919-07"/>
          <date when="1919-08"/>
       </act>
-      <act type="committee" subtype="picnic" ref="#pasquinellis">
+      <act type="committee"
+           subtype="picnic"
+           ref="#pasquinellis"
+           role="tes">
          <date when="1919-07"/>
          <date when="1919-08"/>
       </act>
-      <act type="committee" subtype="picnic" ref="#viganol">
+      <act type="committee"
+           subtype="picnic"
+           ref="#viganol"
+           role="chairman">
          <date when="1919-07"/>
          <date when="1919-08"/>
       </act>
-      <act type="committee" subtype="picnic" ref="#merciadrie">
+      <act type="committee"
+           subtype="picnic"
+           ref="#merciadrie"
+           role="assistente">
          <date when="1919-07"/>
          <date when="1919-08"/>
       </act>
-      <act type="committee" subtype="picnic" ref="#danesiv">
+      <act type="committee"
+           subtype="picnic"
+           ref="#danesiv"
+           role="assistente">
          <date when="1919-07"/>
          <date when="1919-08"/>
       </act>
-      <act type="committee" subtype="picnic" ref="#paganuccis">
+      <act type="committee"
+           subtype="picnic"
+           ref="#paganuccis"
+           role="assistente">
          <date when="1919-07"/>
          <date when="1919-08"/>
       </act>
-      <act type="committee" subtype="picnic" ref="#paternim">
+      <act type="committee"
+           subtype="picnic"
+           ref="#paternim"
+           role="assistente">
          <date when="1919-07"/>
          <date when="1919-08"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#boninif">
+      <act type="committee" subtype="ballo" ref="#boninif" role="pres">
          <date when="1919-08"/>
          <date when="1919-09"/>
          <date when="1919-10"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#silvionic">
+      <act type="committee" subtype="ballo" ref="#silvionic" role="vice">
          <date when="1919-08"/>
          <date when="1919-09"/>
          <date when="1919-10"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#sodinij">
+      <act type="committee" subtype="ballo" ref="#sodinij" role="vice">
          <date when="1919-08"/>
          <date when="1919-09"/>
          <date when="1919-10"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#fredianim">
+      <act type="committee"
+           subtype="ballo"
+           ref="#fredianim"
+           role="corresp">
          <date when="1919-08"/>
          <date when="1919-09"/>
          <date when="1919-10"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#pellegrinic">
+      <act type="committee"
+           subtype="ballo"
+           ref="#pellegrinic"
+           role="assistente">
          <date when="1919-08"/>
          <date when="1919-09"/>
          <date when="1919-10"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#desimos">
+      <act type="committee" subtype="ballo" ref="#desimos" role="tes">
          <date when="1919-08"/>
          <date when="1919-09"/>
          <date when="1919-10"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#bertonie">
+      <act type="committee"
+           subtype="ballo"
+           ref="#bertonie"
+           role="assistente">
          <date when="1919-08"/>
          <date when="1919-09"/>
          <date when="1919-10"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#cappellinic">
+      <act type="committee"
+           subtype="ballo"
+           ref="#cappellinic"
+           role="assistente">
          <date when="1919-08"/>
          <date when="1919-09"/>
          <date when="1919-10"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#tambellinig">
+      <act type="committee"
+           subtype="ballo"
+           ref="#tambellinig"
+           role="assistente">
          <date when="1919-08"/>
          <date when="1919-09"/>
          <date when="1919-10"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#serafinio">
+      <act type="committee"
+           subtype="ballo"
+           ref="#serafinio"
+           role="assistente">
          <date when="1919-08"/>
          <date when="1919-09"/>
          <date when="1919-10"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#marsilia">
+      <act type="committee"
+           subtype="ballo"
+           ref="#marsilia"
+           role="assistente">
          <date when="1919-08"/>
          <date when="1919-09"/>
          <date when="1919-10"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#simonettim">
+      <act type="committee"
+           subtype="ballo"
+           ref="#simonettim"
+           role="manager">
          <date when="1919-08"/>
          <date when="1919-09"/>
          <date when="1919-10"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#lunardinil">
+      <act type="committee"
+           subtype="ballo"
+           ref="#lunardinil"
+           role="manager">
          <date when="1919-08"/>
          <date when="1919-09"/>
          <date when="1919-10"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#viganol">
+      <act type="committee" subtype="ballo" ref="#viganol" role="manager">
          <date when="1919-08"/>
          <date when="1919-09"/>
          <date when="1919-10"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#pistelliu">
+      <act type="committee"
+           subtype="ballo"
+           ref="#pistelliu"
+           role="manager">
          <date when="1919-08"/>
          <date when="1919-09"/>
          <date when="1919-10"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#maffeis">
+      <act type="committee"
+           subtype="ballo"
+           ref="#maffeis"
+           role="assistente">
          <date when="1919-08"/>
          <date when="1919-09"/>
          <date when="1919-10"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#fredianellig">
+      <act type="committee"
+           subtype="ballo"
+           ref="#fredianellig"
+           role="assistente">
          <date when="1919-08"/>
          <date when="1919-09"/>
          <date when="1919-10"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#paganuccis">
+      <act type="committee"
+           subtype="ballo"
+           ref="#paganuccis"
+           role="assistente">
          <date when="1919-08"/>
          <date when="1919-09"/>
          <date when="1919-10"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#zinim">
+      <act type="committee" subtype="ballo" ref="#zinim" role="assistente">
          <date when="1919-08"/>
          <date when="1919-09"/>
          <date when="1919-10"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#merciadrie">
+      <act type="committee"
+           subtype="ballo"
+           ref="#merciadrie"
+           role="assistente">
          <date when="1919-08"/>
          <date when="1919-09"/>
          <date when="1919-10"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#diriccoe">
+      <act type="committee"
+           subtype="ballo"
+           ref="#diriccoe"
+           role="assistente">
          <date when="1919-08"/>
          <date when="1919-09"/>
          <date when="1919-10"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#giomettic">
+      <act type="committee"
+           subtype="ballo"
+           ref="#giomettic"
+           role="assistente">
          <date when="1919-08"/>
          <date when="1919-09"/>
          <date when="1919-10"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#pasquinelliam">
+      <act type="committee"
+           subtype="ballo"
+           ref="#pasquinelliam"
+           role="assistente">
          <date when="1919-08"/>
          <date when="1919-09"/>
          <date when="1919-10"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#giangranedif">
+      <act type="committee"
+           subtype="ballo"
+           ref="#giangranedif"
+           role="assistente">
          <date when="1919-08"/>
          <date when="1919-09"/>
          <date when="1919-10"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#pasquinellis">
+      <act type="committee"
+           subtype="ballo"
+           ref="#pasquinellis"
+           role="assistente">
          <date when="1919-08"/>
          <date when="1919-09"/>
          <date when="1919-10"/>
@@ -1324,251 +1405,335 @@
       <act type="committee" subtype="investigazione" ref="#lucchesiam">
          <date when="1920-11"/>
       </act>
-      <act type="committee" subtype="picnic" ref="#lunardinil">
+      <act type="committee" subtype="picnic" ref="#lunardinil" role="pres">
          <date when="1920-05"/>
          <date when="1920-06"/>
          <date when="1920-07"/>
          <date when="1920-08"/>
       </act>
-      <act type="committee" subtype="picnic" ref="#datia">
+      <act type="committee" subtype="picnic" ref="#datia" role="vice">
          <date when="1920-05"/>
          <date when="1920-06"/>
          <date when="1920-07"/>
          <date when="1920-08"/>
       </act>
-      <act type="committee" subtype="picnic" ref="#fredianim">
+      <act type="committee"
+           subtype="picnic"
+           ref="#fredianim"
+           role="corresp">
          <date when="1920-05"/>
          <date when="1920-06"/>
          <date when="1920-07"/>
          <date when="1920-08"/>
       </act>
-      <act type="committee" subtype="picnic" ref="#pellegrinic">
+      <act type="committee"
+           subtype="picnic"
+           ref="#pellegrinic"
+           role="finanza">
          <date when="1920-05"/>
          <date when="1920-06"/>
          <date when="1920-07"/>
          <date when="1920-08"/>
       </act>
-      <act type="committee" subtype="picnic" ref="#lucchesiam">
+      <act type="committee" subtype="picnic" ref="#lucchesiam" role="tes">
          <date when="1920-05"/>
          <date when="1920-06"/>
          <date when="1920-07"/>
          <date when="1920-08"/>
       </act>
-      <act type="committee" subtype="picnic" ref="#pasquinellis">
+      <act type="committee"
+           subtype="picnic"
+           ref="#pasquinellis"
+           role="chairman">
          <date when="1920-05"/>
          <date when="1920-06"/>
          <date when="1920-07"/>
          <date when="1920-08"/>
       </act>
-      <act type="committee" subtype="picnic" ref="#sodinij">
+      <act type="committee"
+           subtype="picnic"
+           ref="#sodinij"
+           role="assistente">
          <date when="1920-05"/>
          <date when="1920-06"/>
          <date when="1920-07"/>
          <date when="1920-08"/>
       </act>
-      <act type="committee" subtype="picnic" ref="#zinim">
+      <act type="committee"
+           subtype="picnic"
+           ref="#zinim"
+           role="assistente">
          <date when="1920-05"/>
          <date when="1920-06"/>
          <date when="1920-07"/>
          <date when="1920-08"/>
       </act>
-      <act type="committee" subtype="picnic" ref="#silvionic">
+      <act type="committee"
+           subtype="picnic"
+           ref="#silvionic"
+           role="assistente">
          <date when="1920-05"/>
          <date when="1920-06"/>
          <date when="1920-07"/>
          <date when="1920-08"/>
       </act>
-      <act type="committee" subtype="picnic" ref="#robertice">
+      <act type="committee"
+           subtype="picnic"
+           ref="#robertice"
+           role="assistente">
          <date when="1920-05"/>
          <date when="1920-06"/>
          <date when="1920-07"/>
          <date when="1920-08"/>
       </act>
-      <act type="committee" subtype="picnic" ref="#bevilacquas">
+      <act type="committee"
+           subtype="picnic"
+           ref="#bevilacquas"
+           role="assistente">
          <date when="1920-05"/>
          <date when="1920-06"/>
          <date when="1920-07"/>
          <date when="1920-08"/>
       </act>
-      <act type="committee" subtype="picnic" ref="#merciadrie">
+      <act type="committee"
+           subtype="picnic"
+           ref="#merciadrie"
+           role="assistente">
          <date when="1920-05"/>
          <date when="1920-06"/>
          <date when="1920-07"/>
          <date when="1920-08"/>
       </act>
-      <act type="committee" subtype="picnic" ref="#fontanaan">
+      <act type="committee"
+           subtype="picnic"
+           ref="#fontanaan"
+           role="assistente">
          <date when="1920-05"/>
          <date when="1920-06"/>
          <date when="1920-07"/>
          <date when="1920-08"/>
       </act>
-      <act type="committee" subtype="picnic" ref="#danesiv">
+      <act type="committee"
+           subtype="picnic"
+           ref="#danesiv"
+           role="assistente">
          <date when="1920-05"/>
          <date when="1920-06"/>
          <date when="1920-07"/>
          <date when="1920-08"/>
       </act>
-      <act type="committee" subtype="picnic" ref="#denricoc">
+      <act type="committee"
+           subtype="picnic"
+           ref="#denricoc"
+           role="assistente">
          <date when="1920-05"/>
          <date when="1920-06"/>
          <date when="1920-07"/>
          <date when="1920-08"/>
       </act>
-      <act type="committee" subtype="stendardo" ref="#pellegrinic">
+      <act type="committee"
+           subtype="stendardo"
+           ref="#pellegrinic"
+           role="chairman">
          <date when="1920-07"/>
          <date when="1920-08"/>
          <date when="1920-09"/>
          <date when="1920-10"/>
          <date when="1920-11"/>
       </act>
-      <act type="committee" subtype="stendardo" ref="#desimos">
+      <act type="committee"
+           subtype="stendardo"
+           ref="#desimos"
+           role="membro">
          <date when="1920-07"/>
          <date when="1920-08"/>
          <date when="1920-09"/>
          <date when="1920-10"/>
          <date when="1920-11"/>
       </act>
-      <act type="committee" subtype="stendardo" ref="#silvionic">
+      <act type="committee"
+           subtype="stendardo"
+           ref="#silvionic"
+           role="membro">
          <date when="1920-07"/>
          <date when="1920-08"/>
          <date when="1920-09"/>
          <date when="1920-10"/>
          <date when="1920-11"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#sodinij">
+      <act type="committee" subtype="ballo" ref="#sodinij" role="pres">
          <date when="1920-09"/>
          <date when="1920-10"/>
          <date when="1920-11"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#marchettie">
+      <act type="committee" subtype="ballo" ref="#marchettie" role="vice">
          <date when="1920-09"/>
          <date when="1920-10"/>
          <date when="1920-11"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#zinim">
+      <act type="committee" subtype="ballo" ref="#zinim" role="tes">
          <date when="1920-09"/>
          <date when="1920-10"/>
          <date when="1920-11"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#pellegrinic">
+      <act type="committee" subtype="ballo" ref="#pellegrinic" role="seg">
          <date when="1920-09"/>
          <date when="1920-10"/>
          <date when="1920-11"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#maffeis">
+      <act type="committee" subtype="ballo" ref="#maffeis" role="chairman">
          <date when="1920-09"/>
          <date when="1920-10"/>
          <date when="1920-11"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#simonettim">
+      <act type="committee"
+           subtype="ballo"
+           ref="#simonettim"
+           role="manager">
          <date when="1920-09"/>
          <date when="1920-10"/>
          <date when="1920-11"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#fredianellig">
+      <act type="committee"
+           subtype="ballo"
+           ref="#fredianellig"
+           role="chairman">
          <date when="1920-09"/>
          <date when="1920-10"/>
          <date when="1920-11"/>
       </act>
-      <act type="committee" subtype="stendardo" ref="#marchettie">
+      <act type="committee"
+           subtype="stendardo"
+           ref="#marchettie"
+           role="chairman">
          <date when="1920-10"/>
          <date when="1920-11"/>
       </act>
-      <act type="committee" subtype="banchetto" ref="#maffeis">
+      <act type="committee"
+           subtype="banchetto"
+           ref="#maffeis"
+           role="membro">
          <date when="1920-10"/>
          <date when="1920-11"/>
       </act>
-      <act type="committee" subtype="banchetto" ref="#fredianellig">
+      <act type="committee"
+           subtype="banchetto"
+           ref="#fredianellig"
+           role="membro">
          <date when="1920-10"/>
          <date when="1920-11"/>
       </act>
-      <act type="committee" subtype="banchetto" ref="#pasquinelliam">
+      <act type="committee"
+           subtype="banchetto"
+           ref="#pasquinelliam"
+           role="membro">
          <date when="1920-10"/>
          <date when="1920-11"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#maffeis">
+      <act type="committee" subtype="ballo" ref="#maffeis" role="pres">
          <date when="1920-12"/>
-         <date when="1921-01"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#lucchesiam">
+      <act type="committee" subtype="ballo" ref="#lucchesiam" role="vice">
          <date when="1920-12"/>
-         <date when="1921-01"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#marchettie">
+      <act type="committee" subtype="ballo" ref="#marchettie" role="seg">
          <date when="1920-12"/>
-         <date when="1921-01"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#pasquinellis">
+      <act type="committee" subtype="ballo" ref="#pasquinellis" role="tes">
          <date when="1920-12"/>
-         <date when="1921-01"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#viganol">
+      <act type="committee" subtype="ballo" ref="#viganol" role="chairman">
          <date when="1920-12"/>
-         <date when="1921-01"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#viganor">
+      <act type="committee"
+           subtype="ballo"
+           ref="#viganor"
+           role="assistente">
          <date when="1920-12"/>
-         <date when="1921-01"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#pellegrinic">
+      <act type="committee"
+           subtype="ballo"
+           ref="#pellegrinic"
+           role="assistente">
          <date when="1920-12"/>
-         <date when="1921-01"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#maffeid">
+      <act type="committee"
+           subtype="ballo"
+           ref="#maffeid"
+           role="assistente">
          <date when="1920-12"/>
-         <date when="1921-01"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#silvionic">
+      <act type="committee"
+           subtype="ballo"
+           ref="#silvionic"
+           role="chairman">
          <date when="1920-12"/>
-         <date when="1921-01"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#sodinij">
+      <act type="committee"
+           subtype="ballo"
+           ref="#sodinij"
+           role="assistente">
          <date when="1920-12"/>
-         <date when="1921-01"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#zinim">
+      <act type="committee" subtype="ballo" ref="#zinim" role="assistente">
          <date when="1920-12"/>
-         <date when="1921-01"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#santarlascia">
+      <act type="committee"
+           subtype="ballo"
+           ref="#santarlascia"
+           role="assistente">
          <date when="1920-12"/>
-         <date when="1921-01"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#marsilis">
+      <act type="committee"
+           subtype="ballo"
+           ref="#marsilis"
+           role="chairman">
          <date when="1920-12"/>
-         <date when="1921-01"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#quintigliog">
+      <act type="committee"
+           subtype="ballo"
+           ref="#quintigliog"
+           role="assistente">
          <date when="1920-12"/>
-         <date when="1921-01"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#giomettic">
+      <act type="committee"
+           subtype="ballo"
+           ref="#giomettic"
+           role="assistente">
          <date when="1920-12"/>
-         <date when="1921-01"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#maffeigia">
+      <act type="committee"
+           subtype="ballo"
+           ref="#maffeigia"
+           role="assistente">
          <date when="1920-12"/>
-         <date when="1921-01"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#cristofania">
+      <act type="committee"
+           subtype="ballo"
+           ref="#cristofania"
+           role="assistente">
          <date when="1920-12"/>
-         <date when="1921-01"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#battistiniv">
+      <act type="committee"
+           subtype="ballo"
+           ref="#battistiniv"
+           role="assistente">
          <date when="1920-12"/>
-         <date when="1921-01"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#merciadrie">
+      <act type="committee"
+           subtype="ballo"
+           ref="#merciadrie"
+           role="assistente">
          <date when="1920-12"/>
-         <date when="1921-01"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#carloe">
+      <act type="committee"
+           subtype="ballo"
+           ref="#carloe"
+           role="assistente">
          <date when="1920-12"/>
-         <date when="1921-01"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#zinif">
+      <act type="committee" subtype="ballo" ref="#zinif" role="assistente">
          <date when="1920-12"/>
-         <date when="1921-01"/>
       </act>
    </year>
    <year when="1921">
@@ -1953,6 +2118,111 @@
       <act type="officer" role="guardia" ref="#merciadrie">
          <date when="1921-12"/>
       </act>
+      <act type="committee" subtype="ballo" ref="#maffeis" role="pres">
+         <date when="1921-01"/>
+      </act>
+      <act type="committee" subtype="ballo" ref="#lucchesiam" role="vice">
+         <date when="1921-01"/>
+      </act>
+      <act type="committee" subtype="ballo" ref="#marchettie" role="seg">
+         <date when="1921-01"/>
+      </act>
+      <act type="committee" subtype="ballo" ref="#pasquinellis" role="tes">
+         <date when="1921-01"/>
+      </act>
+      <act type="committee" subtype="ballo" ref="#viganol" role="chairman">
+         <date when="1921-01"/>
+      </act>
+      <act type="committee"
+         subtype="ballo"
+         ref="#viganor"
+         role="assistente">
+         <date when="1921-01"/>
+      </act>
+      <act type="committee"
+         subtype="ballo"
+         ref="#pellegrinic"
+         role="assistente">
+         <date when="1921-01"/>
+      </act>
+      <act type="committee"
+         subtype="ballo"
+         ref="#maffeid"
+         role="assistente">
+         <date when="1921-01"/>
+      </act>
+      <act type="committee"
+         subtype="ballo"
+         ref="#silvionic"
+         role="chairman">
+         <date when="1921-01"/>
+      </act>
+      <act type="committee"
+         subtype="ballo"
+         ref="#sodinij"
+         role="assistente">
+         <date when="1921-01"/>
+      </act>
+      <act type="committee" subtype="ballo" ref="#zinim" role="assistente">
+         <date when="1921-01"/>
+      </act>
+      <act type="committee"
+         subtype="ballo"
+         ref="#santarlascia"
+         role="assistente">
+         <date when="1921-01"/>
+      </act>
+      <act type="committee"
+         subtype="ballo"
+         ref="#marsilis"
+         role="chairman">
+         <date when="1921-01"/>
+      </act>
+      <act type="committee"
+         subtype="ballo"
+         ref="#quintigliog"
+         role="assistente">
+         <date when="1921-01"/>
+      </act>
+      <act type="committee"
+         subtype="ballo"
+         ref="#giomettic"
+         role="assistente">
+         <date when="1921-01"/>
+      </act>
+      <act type="committee"
+         subtype="ballo"
+         ref="#maffeigia"
+         role="assistente">
+         <date when="1921-01"/>
+      </act>
+      <act type="committee"
+         subtype="ballo"
+         ref="#cristofania"
+         role="assistente">
+         <date when="1921-01"/>
+      </act>
+      <act type="committee"
+         subtype="ballo"
+         ref="#battistiniv"
+         role="assistente">
+         <date when="1921-01"/>
+      </act>
+      <act type="committee"
+         subtype="ballo"
+         ref="#merciadrie"
+         role="assistente">
+         <date when="1921-01"/>
+      </act>
+      <act type="committee"
+         subtype="ballo"
+         ref="#carloe"
+         role="assistente">
+         <date when="1921-01"/>
+      </act>
+      <act type="committee" subtype="ballo" ref="#zinif" role="assistente">
+         <date when="1921-01"/>
+      </act>
       <act type="compensation" ref="#pacinio">
          <date when="1921-01"/>
       </act>
@@ -2151,344 +2421,470 @@
       <act type="committee" subtype="investigazione" ref="#cappellinic">
          <date when="1921-10"/>
       </act>
-      <act type="committee" subtype="picnic" ref="#pacinic">
+      <act type="committee" subtype="picnic" ref="#pacinic" role="pres">
          <date when="1921-04"/>
          <date when="1921-05"/>
          <date when="1921-06"/>
       </act>
-      <act type="committee" subtype="picnic" ref="#papid">
+      <act type="committee" subtype="picnic" ref="#papid" role="vice">
          <date when="1921-04"/>
          <date when="1921-05"/>
          <date when="1921-06"/>
       </act>
-      <act type="committee" subtype="picnic" ref="#cristofania">
+      <act type="committee" subtype="picnic" ref="#cristofania" role="seg">
          <date when="1921-04"/>
          <date when="1921-05"/>
          <date when="1921-06"/>
       </act>
-      <act type="committee" subtype="picnic" ref="#lucchesiam">
+      <act type="committee" subtype="picnic" ref="#lucchesiam" role="tes">
          <date when="1921-04"/>
          <date when="1921-05"/>
          <date when="1921-06"/>
       </act>
-      <act type="committee" subtype="picnic" ref="#viganol">
+      <act type="committee"
+           subtype="picnic"
+           ref="#viganol"
+           role="chairman">
          <date when="1921-04"/>
          <date when="1921-05"/>
          <date when="1921-06"/>
       </act>
-      <act type="committee" subtype="picnic" ref="#puccettia">
+      <act type="committee"
+           subtype="picnic"
+           ref="#puccettia"
+           role="assistente">
          <date when="1921-04"/>
          <date when="1921-05"/>
          <date when="1921-06"/>
       </act>
-      <act type="committee" subtype="picnic" ref="#puccettil">
+      <act type="committee"
+           subtype="picnic"
+           ref="#puccettil"
+           role="assistente">
          <date when="1921-04"/>
          <date when="1921-05"/>
          <date when="1921-06"/>
       </act>
-      <act type="committee" subtype="picnic" ref="#robertig">
+      <act type="committee"
+           subtype="picnic"
+           ref="#robertig"
+           role="assistente">
          <date when="1921-04"/>
          <date when="1921-05"/>
          <date when="1921-06"/>
       </act>
-      <act type="committee" subtype="picnic" ref="#meconin">
+      <act type="committee"
+           subtype="picnic"
+           ref="#meconin"
+           role="assistente">
          <date when="1921-04"/>
          <date when="1921-05"/>
          <date when="1921-06"/>
       </act>
-      <act type="committee" subtype="picnic" ref="#merciadrie">
+      <act type="committee"
+           subtype="picnic"
+           ref="#merciadrie"
+           role="assistente">
          <date when="1921-04"/>
          <date when="1921-05"/>
          <date when="1921-06"/>
       </act>
-      <act type="committee" subtype="picnic" ref="#lunardinil">
+      <act type="committee"
+           subtype="picnic"
+           ref="#lunardinil"
+           role="manager">
          <date when="1921-04"/>
          <date when="1921-05"/>
          <date when="1921-06"/>
       </act>
-      <act type="committee" subtype="picnic" ref="#santarlascia">
+      <act type="committee"
+           subtype="picnic"
+           ref="#santarlascia"
+           role="assistente">
          <date when="1921-05"/>
          <date when="1921-06"/>
       </act>
-      <act type="committee" subtype="picnic" ref="#simonettim">
+      <act type="committee"
+           subtype="picnic"
+           ref="#simonettim"
+           role="assistente">
          <date when="1921-05"/>
          <date when="1921-06"/>
       </act>
-      <act type="committee" subtype="picnic" ref="#zinim">
+      <act type="committee"
+           subtype="picnic"
+           ref="#zinim"
+           role="assistente">
          <date when="1921-05"/>
          <date when="1921-06"/>
       </act>
-      <act type="committee" subtype="picnic" ref="#ragghiantir">
+      <act type="committee"
+           subtype="picnic"
+           ref="#ragghiantir"
+           role="assistente">
          <date when="1921-05"/>
          <date when="1921-06"/>
       </act>
-      <act type="committee" subtype="picnic" ref="#malfattip">
+      <act type="committee"
+           subtype="picnic"
+           ref="#malfattip"
+           role="assistente">
          <date when="1921-05"/>
          <date when="1921-06"/>
       </act>
-      <act type="committee" subtype="picnic" ref="#giannig">
+      <act type="committee"
+           subtype="picnic"
+           ref="#giannig"
+           role="assistente">
          <date when="1921-05"/>
          <date when="1921-06"/>
       </act>
-      <act type="committee" subtype="picnic" ref="#martinellia">
+      <act type="committee"
+           subtype="picnic"
+           ref="#martinellia"
+           role="assistente">
          <date when="1921-05"/>
          <date when="1921-06"/>
       </act>
-      <act type="committee" subtype="picnic" ref="#maffeis">
+      <act type="committee"
+           subtype="picnic"
+           ref="#maffeis"
+           role="assistente">
          <date when="1921-05"/>
          <date when="1921-06"/>
       </act>
-      <act type="committee" subtype="picnic" ref="#cappellinic">
+      <act type="committee"
+           subtype="picnic"
+           ref="#cappellinic"
+           role="assistente">
          <date when="1921-05"/>
          <date when="1921-06"/>
       </act>
-      <act type="committee" subtype="picnic" ref="#fredianim">
+      <act type="committee"
+           subtype="picnic"
+           ref="#fredianim"
+           role="assistente">
          <date when="1921-05"/>
          <date when="1921-06"/>
       </act>
-      <act type="committee" subtype="picnic" ref="#marianir">
+      <act type="committee"
+           subtype="picnic"
+           ref="#marianir"
+           role="assistente">
          <date when="1921-05"/>
          <date when="1921-06"/>
       </act>
-      <act type="committee" subtype="picnic" ref="#marconic">
+      <act type="committee" subtype="picnic" ref="#marconic" role="pres">
          <date when="1921-06"/>
          <date when="1921-07"/>
          <date when="1921-08"/>
       </act>
-      <act type="committee" subtype="picnic" ref="#cappellinic">
+      <act type="committee"
+           subtype="picnic"
+           ref="#cappellinic"
+           role="vice">
          <date when="1921-06"/>
          <date when="1921-07"/>
          <date when="1921-08"/>
       </act>
-      <act type="committee" subtype="picnic" ref="#pasquinellis">
+      <act type="committee"
+           subtype="picnic"
+           ref="#pasquinellis"
+           role="tes">
          <date when="1921-06"/>
          <date when="1921-07"/>
          <date when="1921-08"/>
       </act>
-      <act type="committee" subtype="picnic" ref="#giannig">
+      <act type="committee" subtype="picnic" ref="#giannig" role="seg">
          <date when="1921-06"/>
          <date when="1921-07"/>
          <date when="1921-08"/>
       </act>
-      <act type="committee" subtype="picnic" ref="#simonettim">
+      <act type="committee"
+           subtype="picnic"
+           ref="#simonettim"
+           role="chairman">
          <date when="1921-06"/>
          <date when="1921-07"/>
          <date when="1921-08"/>
       </act>
-      <act type="committee" subtype="picnic" ref="#maffeis">
+      <act type="committee"
+           subtype="picnic"
+           ref="#maffeis"
+           role="assistente">
          <date when="1921-06"/>
          <date when="1921-07"/>
          <date when="1921-08"/>
       </act>
-      <act type="committee" subtype="picnic" ref="#viganor">
+      <act type="committee" subtype="picnic" ref="#viganor" role="manager">
          <date when="1921-06"/>
          <date when="1921-07"/>
          <date when="1921-08"/>
       </act>
-      <act type="committee" subtype="picnic" ref="#fredianellig">
+      <act type="committee"
+           subtype="picnic"
+           ref="#fredianellig"
+           role="assistente">
          <date when="1921-06"/>
          <date when="1921-07"/>
          <date when="1921-08"/>
       </act>
-      <act type="committee" subtype="picnic" ref="#marsilis">
+      <act type="committee"
+           subtype="picnic"
+           ref="#marsilis"
+           role="assistente">
          <date when="1921-06"/>
          <date when="1921-07"/>
          <date when="1921-08"/>
       </act>
-      <act type="committee" subtype="picnic" ref="#lucchesiam">
+      <act type="committee"
+           subtype="picnic"
+           ref="#lucchesiam"
+           role="assistente">
          <date when="1921-06"/>
          <date when="1921-07"/>
          <date when="1921-08"/>
       </act>
-      <act type="committee" subtype="picnic" ref="#pacinic">
+      <act type="committee"
+           subtype="picnic"
+           ref="#pacinic"
+           role="assistente">
          <date when="1921-06"/>
          <date when="1921-07"/>
          <date when="1921-08"/>
       </act>
-      <act type="committee" subtype="picnic" ref="#vannuccie">
+      <act type="committee"
+           subtype="picnic"
+           ref="#vannuccie"
+           role="assistente">
          <date when="1921-06"/>
          <date when="1921-07"/>
          <date when="1921-08"/>
       </act>
-      <act type="committee" subtype="picnic" ref="#papid">
+      <act type="committee"
+           subtype="picnic"
+           ref="#papid"
+           role="assistente">
          <date when="1921-06"/>
          <date when="1921-07"/>
          <date when="1921-08"/>
       </act>
-      <act type="committee" subtype="picnic" ref="#puccettia">
+      <act type="committee"
+           subtype="picnic"
+           ref="#puccettia"
+           role="assistente">
          <date when="1921-06"/>
          <date when="1921-07"/>
          <date when="1921-08"/>
       </act>
-      <act type="committee" subtype="picnic" ref="#merciadrie">
+      <act type="committee"
+           subtype="picnic"
+           ref="#merciadrie"
+           role="assistente">
          <date when="1921-06"/>
          <date when="1921-07"/>
          <date when="1921-08"/>
       </act>
-      <act type="committee" subtype="picnic" ref="#pasquinelliam">
+      <act type="committee"
+           subtype="picnic"
+           ref="#pasquinelliam"
+           role="assistente">
          <date when="1921-06"/>
          <date when="1921-07"/>
          <date when="1921-08"/>
       </act>
-      <act type="committee" subtype="picnic" ref="#datia">
+      <act type="committee"
+           subtype="picnic"
+           ref="#datia"
+           role="assistente">
          <date when="1921-06"/>
          <date when="1921-07"/>
          <date when="1921-08"/>
       </act>
-      <act type="committee" subtype="picnic" ref="#martinellia">
+      <act type="committee"
+           subtype="picnic"
+           ref="#martinellia"
+           role="assistente">
          <date when="1921-06"/>
          <date when="1921-07"/>
          <date when="1921-08"/>
       </act>
-      <act type="committee" subtype="picnic" ref="#olivieriam">
+      <act type="committee"
+           subtype="picnic"
+           ref="#olivieriam"
+           role="assistente">
          <date when="1921-06"/>
          <date when="1921-07"/>
          <date when="1921-08"/>
       </act>
-      <act type="committee" subtype="picnic" ref="#cinellio">
+      <act type="committee"
+           subtype="picnic"
+           ref="#cinellio"
+           role="assistente">
          <date when="1921-06"/>
          <date when="1921-07"/>
          <date when="1921-08"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#tambellinig">
+      <act type="committee" subtype="ballo" ref="#tambellinig" role="pres">
          <date when="1921-11"/>
          <date when="1921-12"/>
-         <date when="1922-02"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#pacinic">
+      <act type="committee" subtype="ballo" ref="#pacinic" role="vice">
          <date when="1921-11"/>
          <date when="1921-12"/>
-         <date when="1922-02"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#marchettie">
+      <act type="committee" subtype="ballo" ref="#marchettie" role="seg">
          <date when="1921-11"/>
          <date when="1921-12"/>
-         <date when="1922-02"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#pasquinellis">
+      <act type="committee" subtype="ballo" ref="#pasquinellis" role="tes">
          <date when="1921-11"/>
          <date when="1921-12"/>
-         <date when="1922-02"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#simonettim">
+      <act type="committee"
+           subtype="ballo"
+           ref="#simonettim"
+           role="chairman">
          <date when="1921-11"/>
          <date when="1921-12"/>
-         <date when="1922-02"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#sodinij">
+      <act type="committee" subtype="ballo" ref="#sodinij" role="chairman">
          <date when="1921-11"/>
          <date when="1921-12"/>
-         <date when="1922-02"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#fredianellig">
+      <act type="committee"
+           subtype="ballo"
+           ref="#fredianellig"
+           role="assistente">
          <date when="1921-11"/>
          <date when="1921-12"/>
-         <date when="1922-02"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#zinim">
+      <act type="committee" subtype="ballo" ref="#zinim" role="assistente">
          <date when="1921-11"/>
          <date when="1921-12"/>
-         <date when="1922-02"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#merciadrie">
+      <act type="committee"
+           subtype="ballo"
+           ref="#merciadrie"
+           role="assistente">
          <date when="1921-11"/>
          <date when="1921-12"/>
-         <date when="1922-02"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#battistiniv">
+      <act type="committee"
+           subtype="ballo"
+           ref="#battistiniv"
+           role="assistente">
          <date when="1921-11"/>
          <date when="1921-12"/>
-         <date when="1922-02"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#carloe">
+      <act type="committee"
+           subtype="ballo"
+           ref="#carloe"
+           role="assistente">
          <date when="1921-11"/>
          <date when="1921-12"/>
-         <date when="1922-02"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#giannig">
+      <act type="committee"
+           subtype="ballo"
+           ref="#giannig"
+           role="assistente">
          <date when="1921-11"/>
          <date when="1921-12"/>
-         <date when="1922-02"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#zinif">
+      <act type="committee" subtype="ballo" ref="#zinif" role="assistente">
          <date when="1921-11"/>
          <date when="1921-12"/>
-         <date when="1922-02"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#micheluccis">
+      <act type="committee"
+           subtype="ballo"
+           ref="#micheluccis"
+           role="assistente">
          <date when="1921-11"/>
          <date when="1921-12"/>
-         <date when="1922-02"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#vannuccie">
+      <act type="committee"
+           subtype="ballo"
+           ref="#vannuccie"
+           role="assistente">
          <date when="1921-11"/>
          <date when="1921-12"/>
-         <date when="1922-02"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#cortopassig">
+      <act type="committee"
+           subtype="ballo"
+           ref="#cortopassig"
+           role="assistente">
          <date when="1921-11"/>
          <date when="1921-12"/>
-         <date when="1922-02"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#marconic">
+      <act type="committee"
+           subtype="ballo"
+           ref="#marconic"
+           role="chairman">
          <date when="1921-11"/>
          <date when="1921-12"/>
-         <date when="1922-02"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#datia">
+      <act type="committee" subtype="ballo" ref="#datia" role="assistente">
          <date when="1921-12"/>
-         <date when="1922-01"/>
-         <date when="1922-02"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#pellegrinic">
+      <act type="committee"
+           subtype="ballo"
+           ref="#pellegrinic"
+           role="assistente">
          <date when="1921-12"/>
-         <date when="1922-01"/>
-         <date when="1922-02"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#lunardinim">
+      <act type="committee"
+           subtype="ballo"
+           ref="#lunardinim"
+           role="assistente">
          <date when="1921-12"/>
-         <date when="1922-01"/>
-         <date when="1922-02"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#viganol">
+      <act type="committee"
+           subtype="ballo"
+           ref="#viganol"
+           role="assistente">
          <date when="1921-12"/>
-         <date when="1922-01"/>
-         <date when="1922-02"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#maffeigia">
+      <act type="committee"
+           subtype="ballo"
+           ref="#maffeigia"
+           role="assistente">
          <date when="1921-12"/>
-         <date when="1922-01"/>
-         <date when="1922-02"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#maffeid">
+      <act type="committee"
+           subtype="ballo"
+           ref="#maffeid"
+           role="assistente">
          <date when="1921-12"/>
-         <date when="1922-01"/>
-         <date when="1922-02"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#silvionic">
+      <act type="committee"
+           subtype="ballo"
+           ref="#silvionic"
+           role="assistente">
          <date when="1921-12"/>
-         <date when="1922-01"/>
-         <date when="1922-02"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#lunardinifr">
+      <act type="committee"
+           subtype="ballo"
+           ref="#lunardinifr"
+           role="assistente">
          <date when="1921-12"/>
-         <date when="1922-01"/>
-         <date when="1922-02"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#pasquinelliam">
+      <act type="committee"
+           subtype="ballo"
+           ref="#pasquinelliam"
+           role="assistente">
          <date when="1921-12"/>
-         <date when="1922-01"/>
-         <date when="1922-02"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#sandronee">
+      <act type="committee"
+           subtype="ballo"
+           ref="#sandronee"
+           role="assistente">
          <date when="1921-12"/>
-         <date when="1922-01"/>
-         <date when="1922-02"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#maffeigia">
+      <act type="committee"
+           subtype="ballo"
+           ref="#maffeigia"
+           role="assistente">
          <date when="1921-12"/>
-         <date when="1922-01"/>
-         <date when="1922-02"/>
       </act>
    </year>
    <year when="1922">
@@ -2781,6 +3177,161 @@
       <act type="officer" role="guardia" ref="#merciadrie">
          <date when="1922-12"/>
       </act>
+      <act type="committee" subtype="ballo" ref="#tambellinig" role="pres">
+         <date when="1922-02"/>
+      </act>
+      <act type="committee" subtype="ballo" ref="#pacinic" role="vice">
+         <date when="1922-02"/>
+      </act>
+      <act type="committee" subtype="ballo" ref="#marchettie" role="seg">
+         <date when="1922-02"/>
+      </act>
+      <act type="committee" subtype="ballo" ref="#pasquinellis" role="tes">
+         <date when="1922-02"/>
+      </act>
+      <act type="committee"
+         subtype="ballo"
+         ref="#simonettim"
+         role="chairman">
+         <date when="1922-02"/>
+      </act>
+      <act type="committee" subtype="ballo" ref="#sodinij" role="chairman">
+         <date when="1922-02"/>
+      </act>
+      <act type="committee"
+         subtype="ballo"
+         ref="#fredianellig"
+         role="assistente">
+         <date when="1922-02"/>
+      </act>
+      <act type="committee" subtype="ballo" ref="#zinim" role="assistente">
+         <date when="1922-02"/>
+      </act>
+      <act type="committee"
+         subtype="ballo"
+         ref="#merciadrie"
+         role="assistente">
+         <date when="1922-02"/>
+      </act>
+      <act type="committee"
+         subtype="ballo"
+         ref="#battistiniv"
+         role="assistente">
+         <date when="1922-02"/>
+      </act>
+      <act type="committee"
+         subtype="ballo"
+         ref="#carloe"
+         role="assistente">
+         <date when="1922-02"/>
+      </act>
+      <act type="committee"
+         subtype="ballo"
+         ref="#giannig"
+         role="assistente">
+         <date when="1922-02"/>
+      </act>
+      <act type="committee" subtype="ballo" ref="#zinif" role="assistente">
+         <date when="1922-02"/>
+      </act>
+      <act type="committee"
+         subtype="ballo"
+         ref="#micheluccis"
+         role="assistente">
+         <date when="1922-02"/>
+      </act>
+      <act type="committee"
+         subtype="ballo"
+         ref="#vannuccie"
+         role="assistente">
+         <date when="1922-02"/>
+      </act>
+      <act type="committee"
+         subtype="ballo"
+         ref="#cortopassig"
+         role="assistente">
+         <date when="1922-02"/>
+      </act>
+      <act type="committee"
+         subtype="ballo"
+         ref="#marconic"
+         role="chairman">
+         <date when="1922-02"/>
+      </act>
+      <act type="committee" subtype="ballo" ref="#datia" role="assistente">
+         <date when="1922-01"/>
+         <date when="1922-02"/>
+      </act>
+      <act type="committee"
+         subtype="ballo"
+         ref="#pellegrinic"
+         role="assistente">
+         <date when="1922-01"/>
+         <date when="1922-02"/>
+      </act>
+      <act type="committee"
+         subtype="ballo"
+         ref="#lunardinim"
+         role="assistente">
+         <date when="1922-01"/>
+         <date when="1922-02"/>
+      </act>
+      <act type="committee"
+         subtype="ballo"
+         ref="#viganol"
+         role="assistente">
+         <date when="1922-01"/>
+         <date when="1922-02"/>
+      </act>
+      <act type="committee"
+         subtype="ballo"
+         ref="#maffeigia"
+         role="assistente">
+         <date when="1922-01"/>
+         <date when="1922-02"/>
+      </act>
+      <act type="committee"
+         subtype="ballo"
+         ref="#maffeid"
+         role="assistente">
+         <date when="1922-01"/>
+         <date when="1922-02"/>
+      </act>
+      <act type="committee"
+         subtype="ballo"
+         ref="#silvionic"
+         role="assistente">
+         <date when="1922-01"/>
+         <date when="1922-02"/>
+      </act>
+      <act type="committee"
+         subtype="ballo"
+         ref="#lunardinifr"
+         role="assistente">
+         <date when="1922-01"/>
+         <date when="1922-02"/>
+      </act>
+      <act type="committee"
+         subtype="ballo"
+         ref="#pasquinelliam"
+         role="assistente">
+         <date when="1922-01"/>
+         <date when="1922-02"/>
+      </act>
+      <act type="committee"
+         subtype="ballo"
+         ref="#sandronee"
+         role="assistente">
+         <date when="1922-01"/>
+         <date when="1922-02"/>
+      </act>
+      <act type="committee"
+         subtype="ballo"
+         ref="#maffeigia"
+         role="assistente">
+         <date when="1922-01"/>
+         <date when="1922-02"/>
+      </act>
       <act type="compensation" ref="#marsilis">
          <date when="1922-01"/>
       </act>
@@ -3009,255 +3560,356 @@
       <act type="committee" subtype="investigazione" ref="#viganol">
          <date when="1922-11"/>
       </act>
-      <act type="committee" subtype="picnic" ref="#lucchesiam">
+      <act type="committee" subtype="picnic" ref="#lucchesiam" role="pres">
          <date when="1922-03"/>
          <date when="1922-04"/>
          <date when="1922-05"/>
       </act>
-      <act type="committee" subtype="picnic" ref="#datia">
+      <act type="committee" subtype="picnic" ref="#datia" role="vice">
          <date when="1922-03"/>
          <date when="1922-04"/>
          <date when="1922-05"/>
       </act>
-      <act type="committee" subtype="picnic" ref="#zinim">
+      <act type="committee" subtype="picnic" ref="#zinim" role="seg">
          <date when="1922-03"/>
          <date when="1922-04"/>
          <date when="1922-05"/>
       </act>
-      <act type="committee" subtype="picnic" ref="#fredianim">
+      <act type="committee" subtype="picnic" ref="#fredianim" role="tes">
          <date when="1922-03"/>
          <date when="1922-04"/>
          <date when="1922-05"/>
       </act>
-      <act type="committee" subtype="picnic" ref="#pellegrinie">
+      <act type="committee"
+           subtype="picnic"
+           ref="#pellegrinie"
+           role="chairman">
          <date when="1922-03"/>
          <date when="1922-04"/>
          <date when="1922-05"/>
       </act>
-      <act type="committee" subtype="picnic" ref="#maffeigio">
+      <act type="committee"
+           subtype="picnic"
+           ref="#maffeigio"
+           role="assistente">
          <date when="1922-03"/>
          <date when="1922-04"/>
          <date when="1922-05"/>
       </act>
-      <act type="committee" subtype="picnic" ref="#viganol">
+      <act type="committee" subtype="picnic" ref="#viganol" role="manager">
          <date when="1922-03"/>
          <date when="1922-04"/>
          <date when="1922-05"/>
       </act>
-      <act type="committee" subtype="picnic" ref="#quintigliog">
+      <act type="committee"
+           subtype="picnic"
+           ref="#quintigliog"
+           role="assistente">
          <date when="1922-04"/>
          <date when="1922-05"/>
       </act>
-      <act type="committee" subtype="picnic" ref="#viganoe">
+      <act type="committee"
+           subtype="picnic"
+           ref="#viganoe"
+           role="assistente">
          <date when="1922-04"/>
          <date when="1922-05"/>
       </act>
-      <act type="committee" subtype="picnic" ref="#pasquinellie">
+      <act type="committee"
+           subtype="picnic"
+           ref="#pasquinellie"
+           role="assistente">
          <date when="1922-04"/>
          <date when="1922-05"/>
       </act>
-      <act type="committee" subtype="picnic" ref="#danesiv">
+      <act type="committee"
+           subtype="picnic"
+           ref="#danesiv"
+           role="assistente">
          <date when="1922-04"/>
          <date when="1922-05"/>
       </act>
-      <act type="committee" subtype="picnic" ref="#vannuccia">
+      <act type="committee"
+           subtype="picnic"
+           ref="#vannuccia"
+           role="assistente">
          <date when="1922-04"/>
          <date when="1922-05"/>
       </act>
-      <act type="committee" subtype="picnic" ref="#maffeis">
+      <act type="committee"
+           subtype="picnic"
+           ref="#maffeis"
+           role="assistente">
          <date when="1922-04"/>
          <date when="1922-05"/>
       </act>
-      <act type="committee" subtype="picnic" ref="#pasquinellis">
+      <act type="committee"
+           subtype="picnic"
+           ref="#pasquinellis"
+           role="assistente">
          <date when="1922-04"/>
          <date when="1922-05"/>
       </act>
-      <act type="committee" subtype="picnic" ref="#lunardinil">
+      <act type="committee"
+           subtype="picnic"
+           ref="#lunardinil"
+           role="assistente">
          <date when="1922-04"/>
          <date when="1922-05"/>
       </act>
-      <act type="committee" subtype="picnic" ref="#merciadrie">
+      <act type="committee"
+           subtype="picnic"
+           ref="#merciadrie"
+           role="assistente">
          <date when="1922-04"/>
          <date when="1922-05"/>
       </act>
-      <act type="committee" subtype="picnic" ref="#battistiniv">
+      <act type="committee"
+           subtype="picnic"
+           ref="#battistiniv"
+           role="assistente">
          <date when="1922-04"/>
          <date when="1922-05"/>
       </act>
-      <act type="committee" subtype="picnic" ref="#giannig">
+      <act type="committee"
+           subtype="picnic"
+           ref="#giannig"
+           role="assistente">
          <date when="1922-04"/>
          <date when="1922-05"/>
       </act>
-      <act type="committee" subtype="picnic" ref="#cappellinic">
+      <act type="committee"
+           subtype="picnic"
+           ref="#cappellinic"
+           role="assistente">
          <date when="1922-04"/>
          <date when="1922-05"/>
       </act>
-      <act type="committee" subtype="picnic" ref="#pacinic">
+      <act type="committee"
+           subtype="picnic"
+           ref="#pacinic"
+           role="assistente">
          <date when="1922-04"/>
          <date when="1922-05"/>
       </act>
-      <act type="committee" subtype="picnic" ref="#cappellinic">
+      <act type="committee"
+           subtype="picnic"
+           ref="#cappellinic"
+           role="pres">
          <date when="1922-07"/>
          <date when="1922-08"/>
          <date when="1922-09"/>
       </act>
-      <act type="committee" subtype="picnic" ref="#vannuccia">
+      <act type="committee" subtype="picnic" ref="#vannuccia" role="vice">
          <date when="1922-07"/>
          <date when="1922-08"/>
          <date when="1922-09"/>
       </act>
-      <act type="committee" subtype="picnic" ref="#marchettie">
+      <act type="committee" subtype="picnic" ref="#marchettie" role="seg">
          <date when="1922-07"/>
          <date when="1922-08"/>
          <date when="1922-09"/>
       </act>
-      <act type="committee" subtype="picnic" ref="#pasquinellis">
+      <act type="committee"
+           subtype="picnic"
+           ref="#pasquinellis"
+           role="tes">
          <date when="1922-07"/>
          <date when="1922-08"/>
          <date when="1922-09"/>
       </act>
-      <act type="committee" subtype="picnic" ref="#lucchesiam">
+      <act type="committee"
+           subtype="picnic"
+           ref="#lucchesiam"
+           role="chairman">
          <date when="1922-07"/>
          <date when="1922-08"/>
          <date when="1922-09"/>
       </act>
-      <act type="committee" subtype="picnic" ref="#giannig">
+      <act type="committee"
+           subtype="picnic"
+           ref="#giannig"
+           role="assistente">
          <date when="1922-07"/>
          <date when="1922-08"/>
          <date when="1922-09"/>
       </act>
-      <act type="committee" subtype="picnic" ref="#viganol">
+      <act type="committee" subtype="picnic" ref="#viganol" role="manager">
          <date when="1922-07"/>
          <date when="1922-08"/>
          <date when="1922-09"/>
       </act>
-      <act type="committee" subtype="picnic" ref="#mungaia">
+      <act type="committee"
+           subtype="picnic"
+           ref="#mungaia"
+           role="assistente">
          <date when="1922-07"/>
          <date when="1922-08"/>
          <date when="1922-09"/>
       </act>
-      <act type="committee" subtype="picnic" ref="#zinif">
+      <act type="committee"
+           subtype="picnic"
+           ref="#zinif"
+           role="assistente">
          <date when="1922-07"/>
          <date when="1922-08"/>
          <date when="1922-09"/>
       </act>
-      <act type="committee" subtype="picnic" ref="#pacinig">
+      <act type="committee"
+           subtype="picnic"
+           ref="#pacinig"
+           role="assistente">
          <date when="1922-07"/>
          <date when="1922-08"/>
          <date when="1922-09"/>
       </act>
-      <act type="committee" subtype="picnic" ref="#merciadrie">
+      <act type="committee"
+           subtype="picnic"
+           ref="#merciadrie"
+           role="assistente">
          <date when="1922-07"/>
          <date when="1922-08"/>
          <date when="1922-09"/>
       </act>
-      <act type="committee" subtype="picnic" ref="#zinim">
+      <act type="committee"
+           subtype="picnic"
+           ref="#zinim"
+           role="assistente">
          <date when="1922-07"/>
          <date when="1922-08"/>
          <date when="1922-09"/>
       </act>
-      <act type="committee" subtype="picnic" ref="#pasquinellie">
+      <act type="committee"
+           subtype="picnic"
+           ref="#pasquinellie"
+           role="assistente">
          <date when="1922-07"/>
          <date when="1922-08"/>
          <date when="1922-09"/>
       </act>
-      <act type="committee" subtype="picnic" ref="#viganoe">
+      <act type="committee"
+           subtype="picnic"
+           ref="#viganoe"
+           role="assistente">
          <date when="1922-07"/>
          <date when="1922-08"/>
          <date when="1922-09"/>
       </act>
-      <act type="committee" subtype="picnic" ref="#giomettio">
+      <act type="committee"
+           subtype="picnic"
+           ref="#giomettio"
+           role="assistente">
          <date when="1922-07"/>
          <date when="1922-08"/>
          <date when="1922-09"/>
       </act>
-      <act type="committee" subtype="picnic" ref="#cortopassig">
+      <act type="committee"
+           subtype="picnic"
+           ref="#cortopassig"
+           role="assistente">
          <date when="1922-07"/>
          <date when="1922-08"/>
          <date when="1922-09"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#desimos">
+      <act type="committee" subtype="ballo" ref="#desimos" role="pres">
          <date when="1922-11"/>
          <date when="1922-12"/>
-         <date when="1923-01"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#lunardinil">
+      <act type="committee" subtype="ballo" ref="#lunardinil" role="vice">
          <date when="1922-11"/>
          <date when="1922-12"/>
-         <date when="1923-01"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#viganoe">
+      <act type="committee" subtype="ballo" ref="#viganoe" role="seg">
          <date when="1922-11"/>
          <date when="1922-12"/>
-         <date when="1923-01"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#pasquinellis">
+      <act type="committee" subtype="ballo" ref="#pasquinellis" role="tes">
          <date when="1922-11"/>
          <date when="1922-12"/>
-         <date when="1923-01"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#maffeis">
+      <act type="committee" subtype="ballo" ref="#maffeis" role="chairman">
          <date when="1922-11"/>
          <date when="1922-12"/>
-         <date when="1923-01"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#giannig">
+      <act type="committee" subtype="ballo" ref="#giannig" role="manager">
          <date when="1922-11"/>
          <date when="1922-12"/>
-         <date when="1923-01"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#zinim">
+      <act type="committee" subtype="ballo" ref="#zinim" role="chairman">
          <date when="1922-11"/>
          <date when="1922-12"/>
-         <date when="1923-01"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#marconic">
+      <act type="committee"
+           subtype="ballo"
+           ref="#marconic"
+           role="assistente">
          <date when="1922-12"/>
-         <date when="1923-01"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#cappellinic">
+      <act type="committee"
+           subtype="ballo"
+           ref="#cappellinic"
+           role="assistente">
          <date when="1922-12"/>
-         <date when="1923-01"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#fredianim">
+      <act type="committee"
+           subtype="ballo"
+           ref="#fredianim"
+           role="assistente">
          <date when="1922-12"/>
-         <date when="1923-01"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#battistiniv">
+      <act type="committee"
+           subtype="ballo"
+           ref="#battistiniv"
+           role="assistente">
          <date when="1922-12"/>
-         <date when="1923-01"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#viganol">
+      <act type="committee"
+           subtype="ballo"
+           ref="#viganol"
+           role="assistente">
          <date when="1922-12"/>
-         <date when="1923-01"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#pasquinelliam">
+      <act type="committee"
+           subtype="ballo"
+           ref="#pasquinelliam"
+           role="assistente">
          <date when="1922-12"/>
-         <date when="1923-01"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#pasquinellie">
+      <act type="committee"
+           subtype="ballo"
+           ref="#pasquinellie"
+           role="assistente">
          <date when="1922-12"/>
-         <date when="1923-01"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#martinellig">
+      <act type="committee"
+           subtype="ballo"
+           ref="#martinellig"
+           role="assistente">
          <date when="1922-12"/>
-         <date when="1923-01"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#merciadrie">
+      <act type="committee"
+           subtype="ballo"
+           ref="#merciadrie"
+           role="assistente">
          <date when="1922-12"/>
-         <date when="1923-01"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#pacinic">
+      <act type="committee"
+           subtype="ballo"
+           ref="#pacinic"
+           role="assistente">
          <date when="1922-12"/>
-         <date when="1923-01"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#piaggesia">
+      <act type="committee"
+           subtype="ballo"
+           ref="#piaggesia"
+           role="assistente">
          <date when="1922-12"/>
-         <date when="1923-01"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#casalio">
+      <act type="committee"
+           subtype="ballo"
+           ref="#casalio"
+           role="assistente">
          <date when="1922-12"/>
-         <date when="1923-01"/>
       </act>
    </year>
    <year when="1923">
@@ -3560,6 +4212,99 @@
       <act type="officer" role="guardia" ref="#fredianellig">
          <date when="1923-12"/>
       </act>
+      <act type="committee" subtype="ballo" ref="#desimos" role="pres">
+         <date when="1923-01"/>
+      </act>
+      <act type="committee" subtype="ballo" ref="#lunardinil" role="vice">
+         <date when="1923-01"/>
+      </act>
+      <act type="committee" subtype="ballo" ref="#viganoe" role="seg">
+         <date when="1923-01"/>
+      </act>
+      <act type="committee" subtype="ballo" ref="#pasquinellis" role="tes">
+         <date when="1923-01"/>
+      </act>
+      <act type="committee" subtype="ballo" ref="#maffeis" role="chairman">
+         <date when="1923-01"/>
+      </act>
+      <act type="committee" subtype="ballo" ref="#giannig" role="manager">
+         <date when="1923-01"/>
+      </act>
+      <act type="committee" subtype="ballo" ref="#zinim" role="chairman">
+         <date when="1923-01"/>
+      </act>
+      <act type="committee"
+         subtype="ballo"
+         ref="#marconic"
+         role="assistente">
+         <date when="1923-01"/>
+      </act>
+      <act type="committee"
+         subtype="ballo"
+         ref="#cappellinic"
+         role="assistente">
+         <date when="1923-01"/>
+      </act>
+      <act type="committee"
+         subtype="ballo"
+         ref="#fredianim"
+         role="assistente">
+         <date when="1923-01"/>
+      </act>
+      <act type="committee"
+         subtype="ballo"
+         ref="#battistiniv"
+         role="assistente">
+         <date when="1923-01"/>
+      </act>
+      <act type="committee"
+         subtype="ballo"
+         ref="#viganol"
+         role="assistente">
+         <date when="1923-01"/>
+      </act>
+      <act type="committee"
+         subtype="ballo"
+         ref="#pasquinelliam"
+         role="assistente">
+         <date when="1923-01"/>
+      </act>
+      <act type="committee"
+         subtype="ballo"
+         ref="#pasquinellie"
+         role="assistente">
+         <date when="1923-01"/>
+      </act>
+      <act type="committee"
+         subtype="ballo"
+         ref="#martinellig"
+         role="assistente">
+         <date when="1923-01"/>
+      </act>
+      <act type="committee"
+         subtype="ballo"
+         ref="#merciadrie"
+         role="assistente">
+         <date when="1923-01"/>
+      </act>
+      <act type="committee"
+         subtype="ballo"
+         ref="#pacinic"
+         role="assistente">
+         <date when="1923-01"/>
+      </act>
+      <act type="committee"
+         subtype="ballo"
+         ref="#piaggesia"
+         role="assistente">
+         <date when="1923-01"/>
+      </act>
+      <act type="committee"
+         subtype="ballo"
+         ref="#casalio"
+         role="assistente">
+         <date when="1923-01"/>
+      </act>
       <act type="compensation" ref="#martinellig">
          <date when="1923-01"/>
       </act>
@@ -3773,167 +4518,205 @@
       <act type="committee" subtype="investigazione" ref="#lucchesiam">
          <date when="1923-09"/>
       </act>
-      <act type="committee" subtype="banchetto" ref="#cinellio">
+      <act type="committee"
+           subtype="banchetto"
+           ref="#cinellio"
+           role="assistente">
          <date when="1923-08"/>
          <date when="1923-09"/>
       </act>
-      <act type="committee" subtype="banchetto" ref="#lucchesiam">
+      <act type="committee"
+           subtype="banchetto"
+           ref="#lucchesiam"
+           role="assistente">
          <date when="1923-08"/>
          <date when="1923-09"/>
       </act>
-      <act type="committee" subtype="banchetto" ref="#pardinib">
+      <act type="committee"
+           subtype="banchetto"
+           ref="#pardinib"
+           role="assistente">
          <date when="1923-08"/>
          <date when="1923-09"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#lucchesiam">
+      <act type="committee" subtype="ballo" ref="#lucchesiam" role="pres">
          <date when="1923-10"/>
          <date when="1923-11"/>
          <date when="1923-12"/>
-         <date when="1924-01"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#pellegrinic">
+      <act type="committee" subtype="ballo" ref="#pellegrinic" role="vice">
          <date when="1923-10"/>
          <date when="1923-11"/>
          <date when="1923-12"/>
-         <date when="1924-01"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#giannig">
+      <act type="committee" subtype="ballo" ref="#giannig" role="seg">
          <date when="1923-10"/>
          <date when="1923-11"/>
          <date when="1923-12"/>
-         <date when="1924-01"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#pacinic">
+      <act type="committee" subtype="ballo" ref="#pacinic" role="chairman">
          <date when="1923-10"/>
          <date when="1923-11"/>
          <date when="1923-12"/>
-         <date when="1924-01"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#sodinij">
+      <act type="committee"
+           subtype="ballo"
+           ref="#sodinij"
+           role="assistente">
          <date when="1923-10"/>
          <date when="1923-11"/>
          <date when="1923-12"/>
-         <date when="1924-01"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#marconic">
+      <act type="committee"
+           subtype="ballo"
+           ref="#marconic"
+           role="chairman">
          <date when="1923-10"/>
          <date when="1923-11"/>
          <date when="1923-12"/>
-         <date when="1924-01"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#fredianim">
+      <act type="committee"
+           subtype="ballo"
+           ref="#fredianim"
+           role="assistente">
          <date when="1923-10"/>
          <date when="1923-11"/>
          <date when="1923-12"/>
-         <date when="1924-01"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#cappellinic">
+      <act type="committee"
+           subtype="ballo"
+           ref="#cappellinic"
+           role="assistente">
          <date when="1923-10"/>
          <date when="1923-11"/>
          <date when="1923-12"/>
-         <date when="1924-01"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#simonettim">
+      <act type="committee"
+           subtype="ballo"
+           ref="#simonettim"
+           role="assistente">
          <date when="1923-10"/>
          <date when="1923-11"/>
          <date when="1923-12"/>
-         <date when="1924-01"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#pasquinellis">
+      <act type="committee" subtype="ballo" ref="#pasquinellis" role="tes">
          <date when="1923-10"/>
          <date when="1923-11"/>
          <date when="1923-12"/>
-         <date when="1924-01"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#lunardinil">
+      <act type="committee"
+           subtype="ballo"
+           ref="#lunardinil"
+           role="chairman">
          <date when="1923-10"/>
          <date when="1923-11"/>
          <date when="1923-12"/>
-         <date when="1924-01"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#zinim">
+      <act type="committee" subtype="ballo" ref="#zinim" role="assistente">
          <date when="1923-10"/>
          <date when="1923-11"/>
          <date when="1923-12"/>
-         <date when="1924-01"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#borellim">
+      <act type="committee"
+           subtype="ballo"
+           ref="#borellim"
+           role="assistente">
          <date when="1923-10"/>
          <date when="1923-11"/>
          <date when="1923-12"/>
-         <date when="1924-01"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#fredianellig">
+      <act type="committee"
+           subtype="ballo"
+           ref="#fredianellig"
+           role="assistente">
          <date when="1923-10"/>
          <date when="1923-11"/>
          <date when="1923-12"/>
-         <date when="1924-01"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#vannuccie">
+      <act type="committee"
+           subtype="ballo"
+           ref="#vannuccie"
+           role="assistente">
          <date when="1923-10"/>
          <date when="1923-11"/>
          <date when="1923-12"/>
-         <date when="1924-01"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#maffeip">
+      <act type="committee"
+           subtype="ballo"
+           ref="#maffeip"
+           role="assistente">
          <date when="1923-10"/>
          <date when="1923-11"/>
          <date when="1923-12"/>
-         <date when="1924-01"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#francesconia">
+      <act type="committee"
+           subtype="ballo"
+           ref="#francesconia"
+           role="assistente">
          <date when="1923-10"/>
          <date when="1923-11"/>
          <date when="1923-12"/>
-         <date when="1924-01"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#giomettic">
+      <act type="committee"
+           subtype="ballo"
+           ref="#giomettic"
+           role="assistente">
          <date when="1923-10"/>
          <date when="1923-11"/>
          <date when="1923-12"/>
-         <date when="1924-01"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#datia">
+      <act type="committee" subtype="ballo" ref="#datia" role="assistente">
          <date when="1923-10"/>
          <date when="1923-11"/>
          <date when="1923-12"/>
-         <date when="1924-01"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#tambellinig">
+      <act type="committee"
+           subtype="ballo"
+           ref="#tambellinig"
+           role="assistente">
          <date when="1923-10"/>
          <date when="1923-11"/>
          <date when="1923-12"/>
-         <date when="1924-01"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#martinellig">
+      <act type="committee"
+           subtype="ballo"
+           ref="#martinellig"
+           role="assistente">
          <date when="1923-10"/>
          <date when="1923-11"/>
          <date when="1923-12"/>
-         <date when="1924-01"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#incroccip">
+      <act type="committee"
+           subtype="ballo"
+           ref="#incroccip"
+           role="assistente">
          <date when="1923-10"/>
          <date when="1923-11"/>
          <date when="1923-12"/>
-         <date when="1924-01"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#miconin">
+      <act type="committee"
+           subtype="ballo"
+           ref="#miconin"
+           role="assistente">
          <date when="1923-10"/>
          <date when="1923-11"/>
          <date when="1923-12"/>
-         <date when="1924-01"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#chioccad">
+      <act type="committee"
+           subtype="ballo"
+           ref="#chioccad"
+           role="assistente">
          <date when="1923-10"/>
          <date when="1923-11"/>
          <date when="1923-12"/>
-         <date when="1924-01"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#merciadrie">
+      <act type="committee"
+           subtype="ballo"
+           ref="#merciadrie"
+           role="assistente">
          <date when="1923-10"/>
          <date when="1923-11"/>
          <date when="1923-12"/>
-         <date when="1924-01"/>
       </act>
    </year>
    <year when="1924">
@@ -4255,6 +5038,135 @@
       <act type="officer" role="guardia" ref="#merciadrie">
          <date when="1924-12"/>
       </act>
+      <act type="committee" subtype="ballo" ref="#lucchesiam" role="pres">
+         <date when="1924-01"/>
+      </act>
+      <act type="committee" subtype="ballo" ref="#pellegrinic" role="vice">
+         <date when="1924-01"/>
+      </act>
+      <act type="committee" subtype="ballo" ref="#giannig" role="seg">
+         <date when="1924-01"/>
+      </act>
+      <act type="committee" subtype="ballo" ref="#pacinic" role="chairman">
+         <date when="1924-01"/>
+      </act>
+      <act type="committee"
+         subtype="ballo"
+         ref="#sodinij"
+         role="assistente">
+         <date when="1924-01"/>
+      </act>
+      <act type="committee"
+         subtype="ballo"
+         ref="#marconic"
+         role="chairman">
+         <date when="1924-01"/>
+      </act>
+      <act type="committee"
+         subtype="ballo"
+         ref="#fredianim"
+         role="assistente">
+         <date when="1924-01"/>
+      </act>
+      <act type="committee"
+         subtype="ballo"
+         ref="#cappellinic"
+         role="assistente">
+         <date when="1924-01"/>
+      </act>
+      <act type="committee"
+         subtype="ballo"
+         ref="#simonettim"
+         role="assistente">
+         <date when="1924-01"/>
+      </act>
+      <act type="committee" subtype="ballo" ref="#pasquinellis" role="tes">
+         <date when="1924-01"/>
+      </act>
+      <act type="committee"
+         subtype="ballo"
+         ref="#lunardinil"
+         role="chairman">
+         <date when="1924-01"/>
+      </act>
+      <act type="committee" subtype="ballo" ref="#zinim" role="assistente">
+         <date when="1924-01"/>
+      </act>
+      <act type="committee"
+         subtype="ballo"
+         ref="#borellim"
+         role="assistente">
+         <date when="1924-01"/>
+      </act>
+      <act type="committee"
+         subtype="ballo"
+         ref="#fredianellig"
+         role="assistente">
+         <date when="1924-01"/>
+      </act>
+      <act type="committee"
+         subtype="ballo"
+         ref="#vannuccie"
+         role="assistente">
+         <date when="1924-01"/>
+      </act>
+      <act type="committee"
+         subtype="ballo"
+         ref="#maffeip"
+         role="assistente">
+         <date when="1924-01"/>
+      </act>
+      <act type="committee"
+         subtype="ballo"
+         ref="#francesconia"
+         role="assistente">
+         <date when="1924-01"/>
+      </act>
+      <act type="committee"
+         subtype="ballo"
+         ref="#giomettic"
+         role="assistente">
+         <date when="1924-01"/>
+      </act>
+      <act type="committee" subtype="ballo" ref="#datia" role="assistente">
+         <date when="1924-01"/>
+      </act>
+      <act type="committee"
+         subtype="ballo"
+         ref="#tambellinig"
+         role="assistente">
+         <date when="1924-01"/>
+      </act>
+      <act type="committee"
+         subtype="ballo"
+         ref="#martinellig"
+         role="assistente">
+         <date when="1924-01"/>
+      </act>
+      <act type="committee"
+         subtype="ballo"
+         ref="#incroccip"
+         role="assistente">
+         <date when="1924-01"/>
+      </act>
+      <act type="committee"
+         subtype="ballo"
+         ref="#miconin"
+         role="assistente">
+         <date when="1924-01"/>
+      </act>
+      <act type="committee"
+         subtype="ballo"
+         ref="#chioccad"
+         role="assistente">
+         <date when="1924-01"/>
+      </act>
+      <act type="committee"
+         subtype="ballo"
+         ref="#merciadrie"
+         role="assistente">
+         <date when="1924-01"/>
+      </act>
       <act type="proposal" ref="#lunardinil">
          <date when="1924-01"/>
       </act>
@@ -4429,152 +5341,224 @@
       <act type="committee" subtype="investigazione" ref="#borellim">
          <date when="1924-09"/>
       </act>
-      <act type="committee" subtype="picnic" ref="#lunardinil">
+      <act type="committee"
+           subtype="picnic"
+           ref="#lunardinil"
+           role="assistente">
          <date when="1924-05"/>
          <date when="1924-06"/>
       </act>
-      <act type="committee" subtype="picnic" ref="#zinim">
+      <act type="committee"
+           subtype="picnic"
+           ref="#zinim"
+           role="assistente">
          <date when="1924-05"/>
          <date when="1924-06"/>
       </act>
-      <act type="committee" subtype="picnic" ref="#vannuccie">
+      <act type="committee"
+           subtype="picnic"
+           ref="#vannuccie"
+           role="assistente">
          <date when="1924-05"/>
          <date when="1924-06"/>
       </act>
-      <act type="committee" subtype="picnic" ref="#pasquinellis">
+      <act type="committee"
+           subtype="picnic"
+           ref="#pasquinellis"
+           role="assistente">
          <date when="1924-05"/>
          <date when="1924-06"/>
       </act>
-      <act type="committee" subtype="picnic" ref="#lucchesiam">
+      <act type="committee"
+           subtype="picnic"
+           ref="#lucchesiam"
+           role="assistente">
          <date when="1924-05"/>
          <date when="1924-06"/>
       </act>
-      <act type="committee" subtype="picnic" ref="#fredianim">
+      <act type="committee"
+           subtype="picnic"
+           ref="#fredianim"
+           role="assistente">
          <date when="1924-08"/>
          <date when="1924-09"/>
       </act>
-      <act type="committee" subtype="picnic" ref="#cinellio">
+      <act type="committee"
+           subtype="picnic"
+           ref="#cinellio"
+           role="assistente">
          <date when="1924-08"/>
          <date when="1924-09"/>
       </act>
-      <act type="committee" subtype="picnic" ref="#danesiv">
+      <act type="committee"
+           subtype="picnic"
+           ref="#danesiv"
+           role="assistente">
          <date when="1924-08"/>
          <date when="1924-09"/>
       </act>
-      <act type="committee" subtype="picnic" ref="#viganol">
+      <act type="committee"
+           subtype="picnic"
+           ref="#viganol"
+           role="assistente">
          <date when="1924-08"/>
          <date when="1924-09"/>
       </act>
-      <act type="committee" subtype="picnic" ref="#merciadrie">
+      <act type="committee"
+           subtype="picnic"
+           ref="#merciadrie"
+           role="assistente">
          <date when="1924-08"/>
          <date when="1924-09"/>
       </act>
-      <act type="committee" subtype="picnic" ref="#vannuccie">
+      <act type="committee"
+           subtype="picnic"
+           ref="#vannuccie"
+           role="assistente">
          <date when="1924-08"/>
          <date when="1924-09"/>
       </act>
-      <act type="committee" subtype="picnic" ref="#datia">
+      <act type="committee"
+           subtype="picnic"
+           ref="#datia"
+           role="assistente">
          <date when="1924-08"/>
          <date when="1924-09"/>
       </act>
-      <act type="committee" subtype="parata" ref="#fredianim">
+      <act type="committee"
+           subtype="parata"
+           ref="#fredianim"
+           role="membro">
          <date when="1924-09"/>
          <date when="1924-10"/>
       </act>
-      <act type="committee" subtype="parata" ref="#maffeis">
+      <act type="committee" subtype="parata" ref="#maffeis" role="membro">
          <date when="1924-09"/>
          <date when="1924-10"/>
       </act>
-      <act type="committee" subtype="parata" ref="#desantie">
+      <act type="committee" subtype="parata" ref="#desantie" role="membro">
          <date when="1924-09"/>
          <date when="1924-10"/>
       </act>
-      <act type="committee" subtype="parata" ref="#pistelliu">
+      <act type="committee"
+           subtype="parata"
+           ref="#pistelliu"
+           role="membro">
          <date when="1924-09"/>
          <date when="1924-10"/>
       </act>
-      <act type="committee" subtype="parata" ref="#zinim">
+      <act type="committee" subtype="parata" ref="#zinim" role="membro">
          <date when="1924-09"/>
          <date when="1924-10"/>
       </act>
-      <act type="committee" subtype="parata" ref="#zinif">
+      <act type="committee" subtype="parata" ref="#zinif" role="membro">
          <date when="1924-09"/>
          <date when="1924-10"/>
       </act>
-      <act type="committee" subtype="parata" ref="#zinib">
+      <act type="committee" subtype="parata" ref="#zinib" role="membro">
          <date when="1924-09"/>
          <date when="1924-10"/>
       </act>
-      <act type="committee" subtype="parata" ref="#pacinic">
+      <act type="committee" subtype="parata" ref="#pacinic" role="membro">
          <date when="1924-09"/>
          <date when="1924-10"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#tambellinig">
+      <act type="committee" subtype="ballo" ref="#tambellinig" role="pres">
          <date when="1924-10"/>
          <date when="1924-11"/>
          <date when="1924-12"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#zinib">
+      <act type="committee" subtype="ballo" ref="#zinib" role="vice">
          <date when="1924-10"/>
          <date when="1924-11"/>
          <date when="1924-12"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#giannig">
+      <act type="committee" subtype="ballo" ref="#giannig" role="seg">
          <date when="1924-10"/>
          <date when="1924-11"/>
          <date when="1924-12"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#datia">
+      <act type="committee" subtype="ballo" ref="#datia" role="tes">
          <date when="1924-10"/>
          <date when="1924-11"/>
          <date when="1924-12"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#lunardinil">
+      <act type="committee"
+           subtype="ballo"
+           ref="#lunardinil"
+           role="manager">
          <date when="1924-10"/>
          <date when="1924-11"/>
          <date when="1924-12"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#fontanae">
+      <act type="committee"
+           subtype="ballo"
+           ref="#fontanae"
+           role="assistente">
          <date when="1924-10"/>
          <date when="1924-11"/>
          <date when="1924-12"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#maffeigio">
+      <act type="committee"
+           subtype="ballo"
+           ref="#maffeigio"
+           role="chairman">
          <date when="1924-10"/>
          <date when="1924-11"/>
          <date when="1924-12"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#vannuccia">
+      <act type="committee"
+           subtype="ballo"
+           ref="#vannuccia"
+           role="assistente">
          <date when="1924-10"/>
          <date when="1924-11"/>
          <date when="1924-12"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#chioccad">
+      <act type="committee"
+           subtype="ballo"
+           ref="#chioccad"
+           role="assistente">
          <date when="1924-10"/>
          <date when="1924-11"/>
          <date when="1924-12"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#cinellio">
+      <act type="committee"
+           subtype="ballo"
+           ref="#cinellio"
+           role="chairman">
          <date when="1924-10"/>
          <date when="1924-11"/>
          <date when="1924-12"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#danesiv">
+      <act type="committee"
+           subtype="ballo"
+           ref="#danesiv"
+           role="assistente">
          <date when="1924-10"/>
          <date when="1924-11"/>
          <date when="1924-12"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#merciadrie">
+      <act type="committee"
+           subtype="ballo"
+           ref="#merciadrie"
+           role="assistente">
          <date when="1924-10"/>
          <date when="1924-11"/>
          <date when="1924-12"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#maffeip">
+      <act type="committee"
+           subtype="ballo"
+           ref="#maffeip"
+           role="assistente">
          <date when="1924-10"/>
          <date when="1924-11"/>
          <date when="1924-12"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#lunardial">
+      <act type="committee"
+           subtype="ballo"
+           ref="#lunardial"
+           role="assistente">
          <date when="1924-10"/>
          <date when="1924-11"/>
          <date when="1924-12"/>
@@ -5091,133 +6075,190 @@
       <act type="committee" subtype="investigazione" ref="#cinellio">
          <date when="1925-08"/>
       </act>
-      <act type="committee" subtype="banchetto" ref="#maffeis">
+      <act type="committee"
+           subtype="banchetto"
+           ref="#maffeis"
+           role="membro">
          <date when="1925-02"/>
          <date when="1925-03"/>
          <date when="1925-04"/>
          <date when="1925-05"/>
       </act>
-      <act type="committee" subtype="banchetto" ref="#fredianim">
+      <act type="committee"
+           subtype="banchetto"
+           ref="#fredianim"
+           role="membro">
          <date when="1925-02"/>
          <date when="1925-03"/>
          <date when="1925-04"/>
          <date when="1925-05"/>
       </act>
-      <act type="committee" subtype="banchetto" ref="#bertonie">
+      <act type="committee"
+           subtype="banchetto"
+           ref="#bertonie"
+           role="membro">
          <date when="1925-02"/>
          <date when="1925-03"/>
          <date when="1925-04"/>
          <date when="1925-05"/>
       </act>
-      <act type="committee" subtype="banchetto" ref="#pasquinellis">
+      <act type="committee"
+           subtype="banchetto"
+           ref="#pasquinellis"
+           role="membro">
          <date when="1925-02"/>
          <date when="1925-03"/>
          <date when="1925-04"/>
          <date when="1925-05"/>
       </act>
-      <act type="committee" subtype="banchetto" ref="#giannig">
+      <act type="committee"
+           subtype="banchetto"
+           ref="#giannig"
+           role="membro">
          <date when="1925-02"/>
          <date when="1925-03"/>
          <date when="1925-04"/>
          <date when="1925-05"/>
       </act>
-      <act type="committee" subtype="banchetto" ref="#lunardinil">
+      <act type="committee"
+           subtype="banchetto"
+           ref="#lunardinil"
+           role="membro">
          <date when="1925-02"/>
          <date when="1925-03"/>
          <date when="1925-04"/>
          <date when="1925-05"/>
       </act>
-      <act type="committee" subtype="banchetto" ref="#maffeis">
+      <act type="committee" subtype="banchetto" ref="#maffeis" role="pres">
          <date when="1925-03"/>
          <date when="1925-04"/>
          <date when="1925-05"/>
       </act>
-      <act type="committee" subtype="banchetto" ref="#viganol">
+      <act type="committee" subtype="banchetto" ref="#viganol" role="vice">
          <date when="1925-03"/>
          <date when="1925-04"/>
          <date when="1925-05"/>
       </act>
-      <act type="committee" subtype="banchetto" ref="#pasquinellis">
+      <act type="committee"
+           subtype="banchetto"
+           ref="#pasquinellis"
+           role="tes">
          <date when="1925-03"/>
          <date when="1925-04"/>
          <date when="1925-05"/>
       </act>
-      <act type="committee" subtype="banchetto" ref="#giannig">
+      <act type="committee" subtype="banchetto" ref="#giannig" role="seg">
          <date when="1925-03"/>
          <date when="1925-04"/>
          <date when="1925-05"/>
       </act>
-      <act type="committee" subtype="banchetto" ref="#datia">
+      <act type="committee"
+           subtype="banchetto"
+           ref="#datia"
+           role="assistente">
          <date when="1925-03"/>
          <date when="1925-04"/>
          <date when="1925-05"/>
       </act>
-      <act type="committee" subtype="banchetto" ref="#fredianim">
+      <act type="committee"
+           subtype="banchetto"
+           ref="#fredianim"
+           role="assistente">
          <date when="1925-03"/>
          <date when="1925-04"/>
          <date when="1925-05"/>
       </act>
-      <act type="committee" subtype="picnic" ref="#simonettim">
+      <act type="committee" subtype="picnic" ref="#simonettim" role="pres">
          <date when="1925-05"/>
          <date when="1925-06"/>
          <date when="1925-07"/>
       </act>
-      <act type="committee" subtype="picnic" ref="#desantie">
+      <act type="committee" subtype="picnic" ref="#desantie" role="vice">
          <date when="1925-05"/>
          <date when="1925-06"/>
          <date when="1925-07"/>
       </act>
-      <act type="committee" subtype="picnic" ref="#giannig">
+      <act type="committee" subtype="picnic" ref="#giannig" role="corresp">
          <date when="1925-05"/>
          <date when="1925-06"/>
          <date when="1925-07"/>
       </act>
-      <act type="committee" subtype="picnic" ref="#scarpellinis">
+      <act type="committee"
+           subtype="picnic"
+           ref="#scarpellinis"
+           role="finanza">
          <date when="1925-05"/>
          <date when="1925-06"/>
          <date when="1925-07"/>
       </act>
-      <act type="committee" subtype="picnic" ref="#pasquinellis">
+      <act type="committee"
+           subtype="picnic"
+           ref="#pasquinellis"
+           role="tes">
          <date when="1925-05"/>
          <date when="1925-06"/>
          <date when="1925-07"/>
       </act>
-      <act type="committee" subtype="picnic" ref="#viganol">
+      <act type="committee"
+           subtype="picnic"
+           ref="#viganol"
+           role="chairman">
          <date when="1925-05"/>
          <date when="1925-06"/>
          <date when="1925-07"/>
       </act>
-      <act type="committee" subtype="picnic" ref="#baccellim">
+      <act type="committee"
+           subtype="picnic"
+           ref="#baccellim"
+           role="assistente">
          <date when="1925-05"/>
          <date when="1925-06"/>
          <date when="1925-07"/>
       </act>
-      <act type="committee" subtype="picnic" ref="#pellegrinie">
+      <act type="committee"
+           subtype="picnic"
+           ref="#pellegrinie"
+           role="assistente">
          <date when="1925-05"/>
          <date when="1925-06"/>
          <date when="1925-07"/>
       </act>
-      <act type="committee" subtype="picnic" ref="#piaggesia">
+      <act type="committee"
+           subtype="picnic"
+           ref="#piaggesia"
+           role="assistente">
          <date when="1925-05"/>
          <date when="1925-06"/>
          <date when="1925-07"/>
       </act>
-      <act type="committee" subtype="picnic" ref="#merciadrie">
+      <act type="committee"
+           subtype="picnic"
+           ref="#merciadrie"
+           role="assistente">
          <date when="1925-05"/>
          <date when="1925-06"/>
          <date when="1925-07"/>
       </act>
-      <act type="committee" subtype="picnic" ref="#barsottigiu">
+      <act type="committee"
+           subtype="picnic"
+           ref="#barsottigiu"
+           role="assistente">
          <date when="1925-05"/>
          <date when="1925-06"/>
          <date when="1925-07"/>
       </act>
-      <act type="committee" subtype="picnic" ref="#zinim">
+      <act type="committee"
+           subtype="picnic"
+           ref="#zinim"
+           role="assistente">
          <date when="1925-05"/>
          <date when="1925-06"/>
          <date when="1925-07"/>
       </act>
-      <act type="committee" subtype="picnic" ref="#datia">
+      <act type="committee"
+           subtype="picnic"
+           ref="#datia"
+           role="assistente">
          <date when="1925-05"/>
          <date when="1925-06"/>
          <date when="1925-07"/>
@@ -5258,91 +6299,139 @@
       <act type="committee" subtype="picnic" ref="#pasquinellie">
          <date when="1925-07"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#desantie">
+      <act type="committee" subtype="ballo" ref="#desantie" role="pres">
          <date when="1925-11"/>
          <date when="1925-12"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#cinellio">
+      <act type="committee" subtype="ballo" ref="#cinellio" role="vice">
          <date when="1925-11"/>
          <date when="1925-12"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#zinim">
+      <act type="committee" subtype="ballo" ref="#zinim" role="tes">
          <date when="1925-11"/>
          <date when="1925-12"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#barontinid">
+      <act type="committee"
+           subtype="ballo"
+           ref="#barontinid"
+           role="corresp">
          <date when="1925-11"/>
          <date when="1925-12"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#pasquinellie">
+      <act type="committee"
+           subtype="ballo"
+           ref="#pasquinellie"
+           role="finanza">
          <date when="1925-11"/>
          <date when="1925-12"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#silvionic">
+      <act type="committee"
+           subtype="ballo"
+           ref="#silvionic"
+           role="chairman">
          <date when="1925-11"/>
          <date when="1925-12"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#tambellinig">
+      <act type="committee"
+           subtype="ballo"
+           ref="#tambellinig"
+           role="assistente">
          <date when="1925-11"/>
          <date when="1925-12"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#puccettia">
+      <act type="committee"
+           subtype="ballo"
+           ref="#puccettia"
+           role="assistente">
          <date when="1925-11"/>
          <date when="1925-12"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#martinellig">
+      <act type="committee"
+           subtype="ballo"
+           ref="#martinellig"
+           role="assistente">
          <date when="1925-11"/>
          <date when="1925-12"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#pasquinelliam">
+      <act type="committee"
+           subtype="ballo"
+           ref="#pasquinelliam"
+           role="assistente">
          <date when="1925-11"/>
          <date when="1925-12"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#vannuccia">
+      <act type="committee"
+           subtype="ballo"
+           ref="#vannuccia"
+           role="assistente">
          <date when="1925-11"/>
          <date when="1925-12"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#vannuccie">
+      <act type="committee"
+           subtype="ballo"
+           ref="#vannuccie"
+           role="assistente">
          <date when="1925-11"/>
          <date when="1925-12"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#guidottie">
+      <act type="committee"
+           subtype="ballo"
+           ref="#guidottie"
+           role="assistente">
          <date when="1925-11"/>
          <date when="1925-12"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#baggianig">
+      <act type="committee"
+           subtype="ballo"
+           ref="#baggianig"
+           role="assistente">
          <date when="1925-11"/>
          <date when="1925-12"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#merciadrie">
+      <act type="committee"
+           subtype="ballo"
+           ref="#merciadrie"
+           role="assistente">
          <date when="1925-11"/>
          <date when="1925-12"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#maffeis">
+      <act type="committee"
+           subtype="ballo"
+           ref="#maffeis"
+           role="assistente">
          <date when="1925-11"/>
          <date when="1925-12"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#datia">
+      <act type="committee" subtype="ballo" ref="#datia" role="assistente">
          <date when="1925-11"/>
          <date when="1925-12"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#fredianellig">
+      <act type="committee"
+           subtype="ballo"
+           ref="#fredianellig"
+           role="assistente">
          <date when="1925-11"/>
          <date when="1925-12"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#giannig">
+      <act type="committee"
+           subtype="ballo"
+           ref="#giannig"
+           role="assistente">
          <date when="1925-11"/>
          <date when="1925-12"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#viganol">
+      <act type="committee" subtype="ballo" ref="#viganol" role="chairman">
          <date when="1925-11"/>
          <date when="1925-12"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#lunardinil">
+      <act type="committee"
+           subtype="ballo"
+           ref="#lunardinil"
+           role="chairman">
          <date when="1925-11"/>
          <date when="1925-12"/>
       </act>
-      <act type="committee" subtype="ballo" ref="#maffeir">
+      <act type="committee" subtype="ballo" ref="#maffeir" role="chairman">
          <date when="1925-11"/>
          <date when="1925-12"/>
       </act>
