@@ -105,10 +105,10 @@ div.text{
     margin-top: -50px;
 }
 q:before{
-content: open-quote;
+content: "open-quote";
 }
 q:after{
-    content: close-quote;
+    content: "close-quote";
 }
 #cc{
 float: left;
