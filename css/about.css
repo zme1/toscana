@@ -6,6 +6,10 @@ h3.about {
     text-decoration: underline;
 
 }
+span.name{
+    font-family: "Great Vibes", cursive;
+    font-size: 30px;
+}
 div.aboutMenu {
     width: 25%;
     position: fixed;
@@ -19,6 +23,7 @@ div.intro {
     margin-right: 5%;
     text-align: center;
     margin-top: 5%;
+    margin-bottom: 10%;
 }
 div.aboutDrop {
     padding: 10px 0;
