@@ -33,14 +33,15 @@ function toggleLine() {
 }
 
 function hide_table() {
-    tbody.style.display = "none";
+    tbody.style.display == "table-row-group";
 }
+
 function showHide() {
-hide_table();
-    var tbody = document.getElementById('tbody-' + this.id);
-    if (tbody.style.display == "none") {
-        tbody.style.display = "table-row-group"
-    } else {
-        tbody.style.display = "none"
+    var recId = this.id;
+    var allHeatTables = document.getElementsByClassName("heatToggle");
+    for (var i = 0, length = allHeatTables.length; i < length; i++) {
+    allHeatTables[i].style.display = "none";
     }
+    var onTable = document.getElementById('tbody-' + recId);
+    onTable.style.display = 'table-row-group';
 }

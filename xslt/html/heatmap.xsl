@@ -36,37 +36,43 @@
                                     <rect class="heatRec" id="{$idPerson[1]}{$idDate[1]}" stroke="black" stroke-width=".2"
                                         x="{$currentPersonPos * $xScale}"
                                         y="-{$currentDatePos * $yScale}" width="{$xScale}"
-                                        height="{$yScale}" fill="rgb(255, 255, 212)"/>
+                                        height="{$yScale}" fill="rgb(255, 255, 204)"/>
                                 </xsl:when>
                                 <xsl:when test="$count eq 1">
                                     <rect class="heatRec" id="{$idPerson[1]}{$idDate[1]}" stroke="black" stroke-width=".2"
                                         x="{$currentPersonPos * $xScale}"
                                         y="-{$currentDatePos * $yScale}" width="{$xScale}"
-                                        height="{$yScale}" fill="rgb(254, 227, 145)"/>
+                                        height="{$yScale}" fill="rgb(255, 237, 160)"/>
                                 </xsl:when>
                                 <xsl:when test="$count eq 2">
                                     <rect class="heatRec" id="{$idPerson[1]}{$idDate[1]}" stroke="black" stroke-width=".2"
                                         x="{$currentPersonPos * $xScale}"
                                         y="-{$currentDatePos * $yScale}" width="{$xScale}"
-                                        height="{$yScale}" fill="rgb(254, 196, 79)"/>
+                                        height="{$yScale}" fill="rgb(254, 217, 118)"/>
                                 </xsl:when>
                                 <xsl:when test="$count eq 3">
                                     <rect class="heatRec" id="{$idPerson[1]}{$idDate[1]}" stroke="black" stroke-width=".2"
                                         x="{$currentPersonPos * $xScale}"
                                         y="-{$currentDatePos * $yScale}" width="{$xScale}"
-                                        height="{$yScale}" fill="rgb(254, 153, 41)"/>
+                                        height="{$yScale}" fill="rgb(254, 178, 76)"/>
                                 </xsl:when>
                                 <xsl:when test="$count eq 4">
                                     <rect class="heatRec" id="{$idPerson[1]}{$idDate[1]}" stroke="black" stroke-width=".2"
                                         x="{$currentPersonPos * $xScale}"
                                         y="-{$currentDatePos * $yScale}" width="{$xScale}"
-                                        height="{$yScale}" fill="rgb(217, 95, 14)"/>
+                                        height="{$yScale}" fill="rgb(253, 141, 60)"/>
                                 </xsl:when>
                                 <xsl:when test="$count eq 5">
                                     <rect class="heatRec" id="{$idPerson[1]}{$idDate[1]}" stroke="black" stroke-width=".2"
                                         x="{$currentPersonPos * $xScale}"
                                         y="-{$currentDatePos * $yScale}" width="{$xScale}"
-                                        height="{$yScale}" fill="rgb(153, 52, 4)"/>
+                                        height="{$yScale}" fill="rgb(252, 78, 42)"/>
+                                </xsl:when>
+                                <xsl:when test="$count eq 7">
+                                    <rect class="heatRec" id="{$idPerson[1]}{$idDate[1]}" stroke="black" stroke-width=".2"
+                                        x="{$currentPersonPos * $xScale}"
+                                        y="-{$currentDatePos * $yScale}" width="{$xScale}"
+                                        height="{$yScale}" fill="rgb(177, 0, 38)"/>
                                 </xsl:when>
                             </xsl:choose>
 

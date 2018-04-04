@@ -83,7 +83,11 @@ div.sickCompContainer{
 
 /* End of Sick Comp SVG properties */
 
-/* Beginning of Heatmap SVG properties */
+/* Beginning of Heatmap Table SVG properties */
 
- 
+tbody.heatToggle{
+    display: none;
+}
+
+
 

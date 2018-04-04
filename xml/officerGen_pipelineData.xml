@@ -849,7 +849,6 @@
       <meeting when="1920-10"/>
       <meeting when="1920-11"/>
       <meeting when="1920-12"/>
-      <meeting when="1920-12"/>
       <act type="officer" role="pres" ref="#maffeis">
          <date when="1920-01"/>
       </act>
@@ -2949,6 +2948,7 @@
       <meeting when="1922-02"/>
       <meeting when="1922-03"/>
       <meeting when="1922-04"/>
+      <meeting when="1922-05"/>
       <meeting when="1922-07"/>
       <meeting when="1922-08"/>
       <meeting when="1922-09"/>
