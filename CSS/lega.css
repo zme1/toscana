@@ -104,9 +104,11 @@ div.text{
     height: 50px;
     margin-top: -50px;
 }
-span.name{
-    font-family: "Great Vibes", cursive;
-    font-size: 30px;
+q:before{
+content: open-quote;
+}
+q:after{
+    content: close-quote;
 }
 #cc{
 float: left;
