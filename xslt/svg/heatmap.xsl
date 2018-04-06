@@ -19,8 +19,8 @@
     <xsl:variable name="yScale" as="xs:double" select="$yLength div count($dates)"/>
     <!-- These variables will be used to create the graph's proportions and scale the rectangles' width and height. -->
     <xsl:template match="/">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700">
-                <g transform="translate(60,{$yLength + 30})">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 650">
+                <g transform="translate(200,{$yLength + 10})">
                     <xsl:for-each select="$persons">
                         <xsl:variable name="currentPerson" as="xs:string" select="."/>
                         <xsl:variable name="idPerson" select="$root//act[@ref eq $currentPerson]/substring-after(@ref, '#')"/>

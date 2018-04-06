@@ -3,7 +3,7 @@ div.cancellatiContainer {
     display: flex;
     flex-flow: row nowrap;
     width: 100%;
-    margin-bottom: 70px;
+    margin-bottom: 3%;
 }
 div.cancellatiSvg {
     flex: 1 75%;
@@ -87,7 +87,8 @@ div.sickCompContainer {
 
 table.heatTable {
     width: 50%;
-    margin-left: 5.5%;
+    margin-left: 14.8%;
+    margin-right: auto;
     margin-top: 0;
 }
 table.heatTable > tbody,
