@@ -15,8 +15,8 @@
         <hr class="min"/>
                 <div class="cancellatiContainer">
                     <div class="cancellatiSvg">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1250 430">
-                            <g transform="translate(400,400)">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1250 380">
+                            <g transform="translate(400,350)">
                                 <xsl:apply-templates select="/teiCorpus/teiCorpus" mode="svg"/>
                                 <!-- Left vertical line -->
                                 <line x1="-{$xLength div 2}" y1="-{$yHeight}" x2="-{$xLength div 2}"
