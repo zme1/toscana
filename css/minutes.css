@@ -26,3 +26,6 @@ div.translation {
     text-align: center;
     flex: 0 1 auto;
 }
+span.del{
+    text-decoration: line-through;
+}

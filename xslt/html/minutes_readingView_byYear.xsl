@@ -14,6 +14,11 @@
                     /></title>
             </head>
             <body>
+                <xsl:comment>#include virtual="../ssi/ssi_minutes_menu.html" </xsl:comment>
+                <h3>Minute logs from <xsl:value-of
+                        select="/teiCorpus/teiCorpus[7]/teiHeader/descendant::publicationStmt/date/@when"
+                    />.</h3>
+                <hr class="min"/>
                 <xsl:apply-templates select="/teiCorpus/teiCorpus[7]"/>
             </body>
         </html>
@@ -58,7 +63,10 @@
             select="ancestor::teiCorpus[not(teiCorpus)]/teiHeader/descendant::publicationStmt/date/@when"/>
         <xsl:variable name="meetingDate" as="xs:string"
             select="ancestor::text/preceding-sibling::teiHeader/descendant::publicationStmt/date/@when"/>
-        <a target="_blank" href="../../img/meetingMinutes/{$year}/{$meetingDate}/{@n}.png"><img class="manuscript" src="../../img/meetingMinutes/{$year}/{$meetingDate}/{@n}.png" alt="Manuscript scan."/></a>
+        <a target="_blank" href="../../img/meetingMinutes/{$year}/{$meetingDate}/{@n}.png">
+            <img class="manuscript" src="../../img/meetingMinutes/{$year}/{$meetingDate}/{@n}.png"
+                alt="Manuscript scan."/>
+        </a>
     </xsl:template>
     <xsl:template match="pb">
         <xsl:if test="preceding-sibling::*">
@@ -67,5 +75,20 @@
             </p>
         </xsl:if>
     </xsl:template>
-    <xsl:template match="note[@resp]"> </xsl:template>
+    <xsl:template match="note[@resp]">
+        <span class="note">
+            <xsl:text> [ </xsl:text>
+            <xsl:apply-templates/>
+            <xsl:text> ] </xsl:text>
+        </span>
+    </xsl:template>
+    <xsl:template match="signed">
+        <xsl:apply-templates/><span class="sig"> [ firmato ]</span>
+    </xsl:template>
+    <xsl:template match="(persName | rs)">
+        <span class="{@ref}"><xsl:apply-templates/></span>
+    </xsl:template>
+    <xsl:template match="del">
+        <span class="del"><xsl:apply-templates/></span>
+    </xsl:template>
 </xsl:stylesheet>
