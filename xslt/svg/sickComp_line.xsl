@@ -22,7 +22,7 @@
         <hr class="min"/>
         <div class="sickCompContainer">
             <div class="sickCompSvg">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 130 1450 500">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1450 500">
                     <g transform="translate(70,470)">
                         <xsl:apply-templates select="teiCorpus/teiCorpus"/>
 
