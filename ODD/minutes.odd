@@ -14,7 +14,7 @@
       <publicationStmt>
         <authority>Prepared in TEI 5 by Zachary Enick for the Italian research assistantship at the
           University of Pittsburgh. Github repository: <ref target="http://github.com/zme1/toscana"
-          />. Date last worked on: <date when="2018-03-27"/></authority>
+          />. Date last worked on: <date when="2018-04-07"/></authority>
         <availability>
           <licence><!-- licence to go here --></licence>
         </availability>
@@ -31,7 +31,7 @@
         <moduleRef key="core"
           include="add address addrLine author bibl date del item lb list note num p pb resp respStmt rs teiCorpus title unclear"/>
         <moduleRef key="tei"/>
-        <moduleRef key="textstructure" include="TEI body closer signed text"/>
+        <moduleRef key="textstructure" include="div TEI body closer signed text"/>
         <moduleRef key="corpus" except="activity locale"/>
         <moduleRef key="linking" include="ab seg"/>
         <moduleRef key="msdescription"
@@ -90,6 +90,7 @@
                 <valItem ident="#bianchinif"/>
                 <valItem ident="#bianchinigio"/>
                 <valItem ident="#bianchinigiu"/>
+                <valItem ident="#birnbaumd"/>
                 <valItem ident="#boninif"/>
                 <valItem ident="#bondare"/>
                 <valItem ident="#borellie"/>
@@ -294,8 +295,8 @@
                 <valItem ident="#serafinig"/>
                 <valItem ident="#serafinina"/>
                 <valItem ident="#serafinini"/>
-                <valItem ident="#serafinio"/> 
-                <valItem ident="#silvionic"/>   
+                <valItem ident="#serafinio"/>
+                <valItem ident="#silvionic"/>
                 <valItem ident="#simie"/>
                 <valItem ident="#simonettim"/>
                 <valItem ident="#sodinig"/>
@@ -327,7 +328,7 @@
                 <valItem ident="#zinim"/>
                 <!-- Unknown valItem -->
                 <valItem ident="unknown"/>
-              </valList> 
+              </valList>
             </attDef>
             <!-- The mandatory attribute @role is attached to participants in an interaction, nested in the seg element.
             Depending on their specific role in the specific interaction, the value for the attribute will label them
@@ -413,6 +414,24 @@
             </attDef>
           </attList>
         </elementSpec>
+        <elementSpec ident="body" mode="change" module="textstructure">
+          <content>
+            <elementRef minOccurs="1" maxOccurs="2" key="div"/>
+          </content>
+        </elementSpec>
+        <elementSpec ident="div" mode="change" module="textstructure">
+          <content>
+            <elementRef key="ab"/>
+          </content>
+          <attList>
+            <attDef ident="type" mode="replace" usage="req">
+              <valList type="closed">
+                <valItem ident="transcription"/>
+                <valItem ident="translation"/>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
         <elementSpec ident="ab" mode="change" module="linking">
           <!-- <ab> is the higher-level structural element that contains meeting minute logs in their entirety
           immediately within the <body> element. In my document analysis, I am isolating the closing portion of 
@@ -480,7 +499,7 @@
             </attDef>
           </attList>
         </elementSpec>
-        <elementSpec ident="person" mode="change"  module="namesdates">
+        <elementSpec ident="person" mode="change" module="namesdates">
           <content>
             <alternate maxOccurs="unbounded" minOccurs="2">
               <elementRef key="persName"/>
@@ -546,42 +565,53 @@
                 <valItem ident="#clubM"/>
                 <valItem ident="#terremoto"/>
                 <valItem ident="#forest"/>
-                <valItem ident="#fratSic"></valItem>
+                <valItem ident="#fratSic"/>
               </valList>
             </attDef>
           </attList>
         </elementSpec>
-        <elementSpec ident="porticDesc" mode="change" module="corpus"></elementSpec>
+        <elementSpec ident="porticDesc" mode="change" module="corpus"/>
         <constraintSpec ident="seg_proposal" scheme="schematron">
           <constraint>
             <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
               context="tei:seg[@type='proposal']">
               <sch:assert test="descendant::tei:persName[@role='proposer']">Every seg of @type
                 "proposal" must have a persName with a @role value of "proposer."</sch:assert>
-              <sch:assert test="descendant::tei:persName[@role='supporter'] or descendant::tei:rs[@role='supporter']">Every seg of @type
-                "proposal" must have a persName or an rs with a @role value of "supporter."</sch:assert>
-              <sch:assert test="@subtype">Every seg of @type "proposal" must have a @subtype value that describes the nature of the proposal.</sch:assert>
+              <sch:assert
+                test="descendant::tei:persName[@role='supporter'] or descendant::tei:rs[@role='supporter']"
+                >Every seg of @type "proposal" must have a persName or an rs with a @role value of
+                "supporter."</sch:assert>
+              <sch:assert test="@subtype">Every seg of @type "proposal" must have a @subtype value
+                that describes the nature of the proposal.</sch:assert>
             </sch:rule>
           </constraint>
         </constraintSpec>
         <constraintSpec ident="seg_proposal_rejected" scheme="schematron">
           <constraint>
-            <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron" context="tei:seg[@type='proposalReject']">
-              <sch:assert test="descendant::tei:persName[@role='proposer']">Every seg of @type "proposalReject" must have a persName descendant with a @role value of "proposer."</sch:assert>
+            <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+              context="tei:seg[@type='proposalReject']">
+              <sch:assert test="descendant::tei:persName[@role='proposer']">Every seg of @type
+                "proposalReject" must have a persName descendant with a @role value of
+                "proposer."</sch:assert>
             </sch:rule>
           </constraint>
         </constraintSpec>
         <constraintSpec ident="seg_proposal_written" scheme="schematron">
           <constraint>
-            <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron" context="tei:seg[@type='proposalWritten']">
-              <sch:assert test="descendant::tei:persName[@role='proposer']">Every seg of @type "proposalWritten" must have at least one (probably more) persName descendant with a @role value of "proposer."</sch:assert>
+            <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+              context="tei:seg[@type='proposalWritten']">
+              <sch:assert test="descendant::tei:persName[@role='proposer']">Every seg of @type
+                "proposalWritten" must have at least one (probably more) persName descendant with a
+                @role value of "proposer."</sch:assert>
             </sch:rule>
           </constraint>
         </constraintSpec>
         <constraintSpec ident="seg_comp_subtype" scheme="schematron">
           <constraint>
-            <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron" context="tei:seg[@type='comp']">
-              <sch:assert test="@subtype">Every seg element of @type "comp" must have a @subtype value of either "sick," "charity," "donation," or "fondoM."</sch:assert>
+            <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+              context="tei:seg[@type='comp']">
+              <sch:assert test="@subtype">Every seg element of @type "comp" must have a @subtype
+                value of either "sick," "charity," "donation," or "fondoM."</sch:assert>
             </sch:rule>
           </constraint>
         </constraintSpec>
@@ -589,7 +619,9 @@
           <constraint>
             <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
               context="tei:seg[@subtype='sick']">
-              <sch:assert test="descendant::tei:persName[@role='target']">Every seg element of @subtypetype "sick" must have persName element with @role value of "target.".</sch:assert>
+              <sch:assert test="descendant::tei:persName[@role='target']">Every seg element of
+                @subtypetype "sick" must have persName element with @role value of
+                "target.".</sch:assert>
               <sch:assert test="descendant::tei:num[@type='monetary']">Every seg of @type "comp"
                 must have a num with a @type value of "monetary."</sch:assert>
               <sch:assert test="descendant::tei:num[@value]">Every seg of @type "comp" must have a
@@ -602,7 +634,9 @@
           <constraint>
             <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
               context="tei:seg[@subtype='fondoM']">
-              <sch:assert test="descendant::tei:persName[@role='target']">Every seg element of @subtype "fondoM" must have persName element with @role value of "target.".</sch:assert>
+              <sch:assert test="descendant::tei:persName[@role='target']">Every seg element of
+                @subtype "fondoM" must have persName element with @role value of
+                "target.".</sch:assert>
               <sch:assert test="descendant::tei:num[@type='monetary']">Every seg of @type "comp"
                 must have a num with a @type value of "monetary."</sch:assert>
               <sch:assert test="descendant::tei:num[@value]">Every seg of @type "comp" must have a
@@ -615,7 +649,9 @@
           <constraint>
             <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
               context="tei:seg[@subtype='regale']">
-              <sch:assert test="descendant::tei:persName[@role='target']">Every seg element of @subtype "regale" must have persName element with @role value of "target.".</sch:assert>
+              <sch:assert test="descendant::tei:persName[@role='target']">Every seg element of
+                @subtype "regale" must have persName element with @role value of
+                "target.".</sch:assert>
               <sch:assert test="descendant::tei:num[@type='monetary']">Every seg of @type "comp"
                 must have a num with a @type value of "monetary."</sch:assert>
               <sch:assert test="descendant::tei:num[@value]">Every seg of @type "comp" must have a
@@ -628,15 +664,20 @@
           <constraint>
             <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
               context="tei:seg[@subtype='charity']">
-              <sch:assert test="descendant::tei:persName[@role='target'] or descendant::tei:orgName[@role='target'] or descendant::tei:rs[@role='target']">Every seg of @type "comp"
-                must have a persName, an orgName, or an rs element with a @role value of "target." </sch:assert>
+              <sch:assert
+                test="descendant::tei:persName[@role='target'] or descendant::tei:orgName[@role='target'] or descendant::tei:rs[@role='target']"
+                >Every seg of @type "comp" must have a persName, an orgName, or an rs element with a
+                @role value of "target." </sch:assert>
             </sch:rule>
           </constraint>
         </constraintSpec>
         <constraintSpec ident="seg_donation" scheme="schematron">
           <constraint>
-            <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron" context="tei:seg[@subtype='donation']">
-              <sch:assert test="descendant::tei:persName[@role='source']">Every seg element of @subtype "donation" must have a descendant persName element with @role value of "source."</sch:assert>
+            <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+              context="tei:seg[@subtype='donation']">
+              <sch:assert test="descendant::tei:persName[@role='source']">Every seg element of
+                @subtype "donation" must have a descendant persName element with @role value of
+                "source."</sch:assert>
             </sch:rule>
           </constraint>
         </constraintSpec>
@@ -644,8 +685,10 @@
           <constraint>
             <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
               context="tei:seg[@type='delegation']">
-              <sch:assert test="descendant::tei:persName[@role='source'] or descendant::tei:rs[@role='source']">Every seg of @type
-                "delegation" must have a persName or rs with a @role value of "source."</sch:assert>
+              <sch:assert
+                test="descendant::tei:persName[@role='source'] or descendant::tei:rs[@role='source']"
+                >Every seg of @type "delegation" must have a persName or rs with a @role value of
+                "source."</sch:assert>
               <sch:assert test="descendant::tei:persName[@role='target']">Every seg of @type
                 "delegation" must have a persName with a @role value of "target."</sch:assert>
             </sch:rule>
@@ -661,49 +704,61 @@
         <constraintSpec ident="del_rend" scheme="schematron">
           <constraint>
             <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron" context="tei:del">
-              <sch:assert test="@rend">Every strike element must have a @rend attribute of value "strike."</sch:assert>
+              <sch:assert test="@rend">Every strike element must have a @rend attribute of value
+                "strike."</sch:assert>
             </sch:rule>
           </constraint>
         </constraintSpec>
         <constraintSpec ident="item_persName" scheme="schematron">
           <constraint>
-            <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron" context="tei:item[not(tei:list)]">
-              <sch:assert test="tei:persName or tei:rs">Every item element must have a child element of persName</sch:assert>
+            <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+              context="tei:item[not(tei:list)]">
+              <sch:assert test="tei:persName or tei:rs">Every item element must have a child element
+                of persName</sch:assert>
             </sch:rule>
           </constraint>
         </constraintSpec>
         <constraintSpec ident="list_type" scheme="schematron">
           <constraint>
-            <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron" context="tei:list[not(ancestor::tei:list)]">
+            <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+              context="tei:list[not(ancestor::tei:list)]">
               <sch:assert test="@type">Every list element must have @type attribute</sch:assert>
             </sch:rule>
           </constraint>
         </constraintSpec>
         <constraintSpec ident="list_committee_date" scheme="schematron">
           <constraint>
-            <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron" context="tei:list[@type='committee']">
-              <sch:assert test="tei:date">Every list element of a committee must have child date element</sch:assert>
+            <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+              context="tei:list[@type='committee']">
+              <sch:assert test="tei:date">Every list element of a committee must have child date
+                element</sch:assert>
             </sch:rule>
           </constraint>
         </constraintSpec>
         <constraintSpec ident="list_committee_roleName" scheme="schematron">
           <constraint>
-            <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron" context="tei:item[ancestor::tei:list[@type='committee']][not(tei:list)]">
-              <sch:assert test="tei:roleName">Every item of a committee list must have a roleName element.</sch:assert>
+            <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+              context="tei:item[ancestor::tei:list[@type='committee']][not(tei:list)]">
+              <sch:assert test="tei:roleName">Every item of a committee list must have a roleName
+                element.</sch:assert>
             </sch:rule>
           </constraint>
         </constraintSpec>
         <constraintSpec ident="officer_scaduto_date" scheme="schematron">
           <constraint>
-            <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron" context="tei:person/tei:persName[@role='scaduto']">
-              <sch:assert test="following-sibling::tei:date">Every demoted officer must have a date of relief.</sch:assert>
+            <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+              context="tei:person/tei:persName[@role='scaduto']">
+              <sch:assert test="following-sibling::tei:date">Every demoted officer must have a date
+                of relief.</sch:assert>
             </sch:rule>
           </constraint>
         </constraintSpec>
         <constraintSpec ident="officer_replacement_date" scheme="schematron">
           <constraint>
-            <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron" context="tei:person/tei:persName[@role='replacement']">
-              <sch:assert test="following-sibling::tei:date">Every promoted officer must have a date of commencement.</sch:assert>
+            <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+              context="tei:person/tei:persName[@role='replacement']">
+              <sch:assert test="following-sibling::tei:date">Every promoted officer must have a date
+                of commencement.</sch:assert>
             </sch:rule>
           </constraint>
         </constraintSpec>

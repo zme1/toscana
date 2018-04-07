@@ -5,7 +5,7 @@
          xmlns:teix="http://www.tei-c.org/ns/Examples"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2018-03-28T22:52:47Z. .
+Schema generated from ODD source 2018-04-07T17:27:58Z. .
 TEI Edition: Version 3.3.0. Last updated on
 	31st January 2018, revision f4d8439
 TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.3.0/
@@ -542,6 +542,47 @@ belongs, but this <sch:name/> element has no textual content.</sch:assert>
                <a:documentation>(medial) this is a medial part of a fragmented element</a:documentation>
                <value>F</value>
                <a:documentation>(final) this is the final part of a fragmented element</a:documentation>
+            </choice>
+         </attribute>
+      </optional>
+   </define>
+   <define name="att.divLike.attributes">
+      <ref name="att.fragmentable.attributes"/>
+      <ref name="att.divLike.attribute.org"/>
+      <ref name="att.divLike.attribute.sample"/>
+   </define>
+   <define name="att.divLike.attribute.org">
+      <optional>
+         <attribute xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
+                    name="org"
+                    a:defaultValue="uniform">
+            <a:documentation>(organization) specifies how the content of the division is organized.</a:documentation>
+            <choice>
+               <value>composite</value>
+               <a:documentation>no claim is made about the sequence in which the immediate contents of this division are to be processed, or their inter-relationships.</a:documentation>
+               <value>uniform</value>
+               <a:documentation>the immediate contents of this element are regarded as forming a logical unit, to be processed in sequence.</a:documentation>
+            </choice>
+         </attribute>
+      </optional>
+   </define>
+   <define name="att.divLike.attribute.sample">
+      <optional>
+         <attribute xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
+                    name="sample"
+                    a:defaultValue="complete">
+            <a:documentation>indicates whether this division is a sample of the original source and if so, from which part.</a:documentation>
+            <choice>
+               <value>initial</value>
+               <a:documentation>division lacks material present at end in source.</a:documentation>
+               <value>medial</value>
+               <a:documentation>division lacks material at start and end.</a:documentation>
+               <value>final</value>
+               <a:documentation>division lacks material at start.</a:documentation>
+               <value>unknown</value>
+               <a:documentation>position of sampled material within original unknown.</a:documentation>
+               <value>complete</value>
+               <a:documentation>division is not a sample.</a:documentation>
             </choice>
          </attribute>
       </optional>
@@ -1337,21 +1378,6 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
    <define name="model.egLike">
       <notAllowed/>
    </define>
-   <define name="model.egLike_alternation">
-      <notAllowed/>
-   </define>
-   <define name="model.egLike_sequence">
-      <empty/>
-   </define>
-   <define name="model.egLike_sequenceOptional">
-      <empty/>
-   </define>
-   <define name="model.egLike_sequenceOptionalRepeatable">
-      <empty/>
-   </define>
-   <define name="model.egLike_sequenceRepeatable">
-      <notAllowed/>
-   </define>
    <define name="model.graphicLike">
       <notAllowed/>
    </define>
@@ -1473,21 +1499,6 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
    <define name="model.oddDecl">
       <notAllowed/>
    </define>
-   <define name="model.oddDecl_alternation">
-      <notAllowed/>
-   </define>
-   <define name="model.oddDecl_sequence">
-      <empty/>
-   </define>
-   <define name="model.oddDecl_sequenceOptional">
-      <empty/>
-   </define>
-   <define name="model.oddDecl_sequenceOptionalRepeatable">
-      <empty/>
-   </define>
-   <define name="model.oddDecl_sequenceRepeatable">
-      <notAllowed/>
-   </define>
    <define name="model.phrase.xml">
       <notAllowed/>
    </define>
@@ -1501,85 +1512,10 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
          <ref name="msDesc"/>
       </choice>
    </define>
-   <define name="model.biblLike_alternation">
-      <choice>
-         <ref name="bibl"/>
-         <ref name="biblFull"/>
-         <ref name="msDesc"/>
-      </choice>
-   </define>
-   <define name="model.biblLike_sequence">
-      <ref name="bibl"/>
-      <ref name="biblFull"/>
-      <ref name="msDesc"/>
-   </define>
-   <define name="model.biblLike_sequenceOptional">
-      <optional>
-         <ref name="bibl"/>
-      </optional>
-      <optional>
-         <ref name="biblFull"/>
-      </optional>
-      <optional>
-         <ref name="msDesc"/>
-      </optional>
-   </define>
-   <define name="model.biblLike_sequenceOptionalRepeatable">
-      <zeroOrMore>
-         <ref name="bibl"/>
-      </zeroOrMore>
-      <zeroOrMore>
-         <ref name="biblFull"/>
-      </zeroOrMore>
-      <zeroOrMore>
-         <ref name="msDesc"/>
-      </zeroOrMore>
-   </define>
-   <define name="model.biblLike_sequenceRepeatable">
-      <oneOrMore>
-         <ref name="bibl"/>
-      </oneOrMore>
-      <oneOrMore>
-         <ref name="biblFull"/>
-      </oneOrMore>
-      <oneOrMore>
-         <ref name="msDesc"/>
-      </oneOrMore>
-   </define>
    <define name="model.headLike">
       <notAllowed/>
    </define>
-   <define name="model.headLike_alternation">
-      <notAllowed/>
-   </define>
-   <define name="model.headLike_sequence">
-      <empty/>
-   </define>
-   <define name="model.headLike_sequenceOptional">
-      <empty/>
-   </define>
-   <define name="model.headLike_sequenceOptionalRepeatable">
-      <empty/>
-   </define>
-   <define name="model.headLike_sequenceRepeatable">
-      <notAllowed/>
-   </define>
    <define name="model.labelLike">
-      <notAllowed/>
-   </define>
-   <define name="model.labelLike_alternation">
-      <notAllowed/>
-   </define>
-   <define name="model.labelLike_sequence">
-      <empty/>
-   </define>
-   <define name="model.labelLike_sequenceOptional">
-      <empty/>
-   </define>
-   <define name="model.labelLike_sequenceOptionalRepeatable">
-      <empty/>
-   </define>
-   <define name="model.labelLike_sequenceRepeatable">
       <notAllowed/>
    </define>
    <define name="model.listLike">
@@ -1587,40 +1523,6 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
          <ref name="list"/>
          <ref name="listPerson"/>
       </choice>
-   </define>
-   <define name="model.listLike_alternation">
-      <choice>
-         <ref name="list"/>
-         <ref name="listPerson"/>
-      </choice>
-   </define>
-   <define name="model.listLike_sequence">
-      <ref name="list"/>
-      <ref name="listPerson"/>
-   </define>
-   <define name="model.listLike_sequenceOptional">
-      <optional>
-         <ref name="list"/>
-      </optional>
-      <optional>
-         <ref name="listPerson"/>
-      </optional>
-   </define>
-   <define name="model.listLike_sequenceOptionalRepeatable">
-      <zeroOrMore>
-         <ref name="list"/>
-      </zeroOrMore>
-      <zeroOrMore>
-         <ref name="listPerson"/>
-      </zeroOrMore>
-   </define>
-   <define name="model.listLike_sequenceRepeatable">
-      <oneOrMore>
-         <ref name="list"/>
-      </oneOrMore>
-      <oneOrMore>
-         <ref name="listPerson"/>
-      </oneOrMore>
    </define>
    <define name="model.noteLike">
       <choice>
@@ -1630,77 +1532,13 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
    <define name="model.lLike">
       <notAllowed/>
    </define>
-   <define name="model.lLike_alternation">
-      <notAllowed/>
-   </define>
-   <define name="model.lLike_sequence">
-      <empty/>
-   </define>
-   <define name="model.lLike_sequenceOptional">
-      <empty/>
-   </define>
-   <define name="model.lLike_sequenceOptionalRepeatable">
-      <empty/>
-   </define>
-   <define name="model.lLike_sequenceRepeatable">
-      <notAllowed/>
-   </define>
    <define name="model.pLike">
       <choice>
          <ref name="p"/>
          <ref name="ab"/>
       </choice>
    </define>
-   <define name="model.pLike_alternation">
-      <choice>
-         <ref name="p"/>
-         <ref name="ab"/>
-      </choice>
-   </define>
-   <define name="model.pLike_sequence">
-      <ref name="p"/>
-      <ref name="ab"/>
-   </define>
-   <define name="model.pLike_sequenceOptional">
-      <optional>
-         <ref name="p"/>
-      </optional>
-      <optional>
-         <ref name="ab"/>
-      </optional>
-   </define>
-   <define name="model.pLike_sequenceOptionalRepeatable">
-      <zeroOrMore>
-         <ref name="p"/>
-      </zeroOrMore>
-      <zeroOrMore>
-         <ref name="ab"/>
-      </zeroOrMore>
-   </define>
-   <define name="model.pLike_sequenceRepeatable">
-      <oneOrMore>
-         <ref name="p"/>
-      </oneOrMore>
-      <oneOrMore>
-         <ref name="ab"/>
-      </oneOrMore>
-   </define>
    <define name="model.stageLike">
-      <notAllowed/>
-   </define>
-   <define name="model.stageLike_alternation">
-      <notAllowed/>
-   </define>
-   <define name="model.stageLike_sequence">
-      <empty/>
-   </define>
-   <define name="model.stageLike_sequenceOptional">
-      <empty/>
-   </define>
-   <define name="model.stageLike_sequenceOptionalRepeatable">
-      <empty/>
-   </define>
-   <define name="model.stageLike_sequenceRepeatable">
       <notAllowed/>
    </define>
    <define name="model.global.edit">
@@ -1812,29 +1650,6 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
          <ref name="model.quoteLike"/>
       </choice>
    </define>
-   <define name="model.qLike_alternation">
-      <choice>
-         <ref name="model.quoteLike_alternation"/>
-      </choice>
-   </define>
-   <define name="model.qLike_sequence">
-      <ref name="model.quoteLike_sequence"/>
-   </define>
-   <define name="model.qLike_sequenceOptional">
-      <optional>
-         <ref name="model.quoteLike_sequenceOptional"/>
-      </optional>
-   </define>
-   <define name="model.qLike_sequenceOptionalRepeatable">
-      <zeroOrMore>
-         <ref name="model.quoteLike_sequenceOptionalRepeatable"/>
-      </zeroOrMore>
-   </define>
-   <define name="model.qLike_sequenceRepeatable">
-      <oneOrMore>
-         <ref name="model.quoteLike_sequenceRepeatable"/>
-      </oneOrMore>
-   </define>
    <define name="model.respLike">
       <choice>
          <ref name="author"/>
@@ -1842,33 +1657,6 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
          <ref name="sponsor"/>
          <ref name="funder"/>
          <ref name="principal"/>
-      </choice>
-   </define>
-   <define name="model.divWrapper">
-      <notAllowed/>
-   </define>
-   <define name="model.divTopPart">
-      <choice>
-         <ref name="model.headLike"/>
-         <ref name="signed"/>
-      </choice>
-   </define>
-   <define name="model.divTop">
-      <choice>
-         <ref name="model.divWrapper"/>
-         <ref name="model.divTopPart"/>
-      </choice>
-   </define>
-   <define name="model.divBottomPart">
-      <choice>
-         <ref name="closer"/>
-         <ref name="signed"/>
-      </choice>
-   </define>
-   <define name="model.divBottom">
-      <choice>
-         <ref name="model.divWrapper"/>
-         <ref name="model.divBottomPart"/>
       </choice>
    </define>
    <define name="model.imprintPart">
@@ -2044,12 +1832,6 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
          <ref name="model.qLike"/>
       </choice>
    </define>
-   <define name="model.common">
-      <choice>
-         <ref name="model.divPart"/>
-         <ref name="model.inter"/>
-      </choice>
-   </define>
    <define name="model.phrase">
       <choice>
          <ref name="model.segLike"/>
@@ -2074,15 +1856,6 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
          <ref name="model.phrase.xml"/>
          <ref name="model.pPart.data"/>
       </choice>
-   </define>
-   <define name="model.divLike">
-      <notAllowed/>
-   </define>
-   <define name="model.divGenLike">
-      <notAllowed/>
-   </define>
-   <define name="model.div1Like">
-      <notAllowed/>
    </define>
    <define name="model.applicationLike">
       <choice>
@@ -2491,8 +2264,6 @@ Measures]</a:documentation>
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                <choice>
                   <value>ballo</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-                  <value>fondoM</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                   <value>picnic</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
@@ -4148,165 +3919,54 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
       <element name="body">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(text body) contains the whole body of a single unitary text, excluding any front or back matter. [4. Default Text Structure]</a:documentation>
          <group>
-      
-      
-            <zeroOrMore>
-               <ref name="model.global"/>
-            </zeroOrMore>
-      
-      
-      
+            <ref name="div"/>
             <optional>
-               <group>
-          
-                  <ref name="model.divTop"/>
-          
-          
-                  <zeroOrMore>
-                     <choice>
-                        <ref name="model.global"/>
-                        <ref name="model.divTop"/>
-                     </choice>
-                  </zeroOrMore>
-          
-               </group>
+               <ref name="div"/>
             </optional>
-      
-      
-      
-            <optional>
-               <group>
-          
-                  <ref name="model.divGenLike"/>
-          
-          
-                  <zeroOrMore>
-                     <choice>
-                        <ref name="model.global"/>
-                        <ref name="model.divGenLike"/>
-                     </choice>
-                  </zeroOrMore>
-          
-               </group>
-            </optional>
-      
-      
-        
-            <choice>
-          
-          
-               <oneOrMore>
-                  <group>
-              
-                     <ref name="model.divLike"/>
-              
-              
-                     <zeroOrMore>
-                        <choice>
-                           <ref name="model.global"/>
-                           <ref name="model.divGenLike"/>
-                        </choice>
-                     </zeroOrMore>
-              
-                  </group>
-               </oneOrMore>
-          
-          
-          
-               <oneOrMore>
-                  <group>
-              
-                     <ref name="model.div1Like"/>
-              
-              
-                     <zeroOrMore>
-                        <choice>
-                           <ref name="model.global"/>
-                           <ref name="model.divGenLike"/>
-                        </choice>
-                     </zeroOrMore>
-              
-                  </group>
-               </oneOrMore>
-          
-          
-               <group>
-                  <oneOrMore>
-                     <group>
-              
-                        <ref name="model.common"/>
-              
-              
-                        <zeroOrMore>
-                           <ref name="model.global"/>
-                        </zeroOrMore>
-              
-                     </group>
-                  </oneOrMore>
-            
-                  <optional>
-                     <choice>
-                
-                
-                        <oneOrMore>
-                           <group>
-                    
-                              <ref name="model.divLike"/>
-                    
-                    
-                              <zeroOrMore>
-                                 <choice>
-                                    <ref name="model.global"/>
-                                    <ref name="model.divGenLike"/>
-                                 </choice>
-                              </zeroOrMore>
-                    
-                           </group>
-                        </oneOrMore>
-                
-                
-                
-                        <oneOrMore>
-                           <group>
-                    
-                              <ref name="model.div1Like"/>
-                    
-                    
-                              <zeroOrMore>
-                                 <choice>
-                                    <ref name="model.global"/>
-                                    <ref name="model.divGenLike"/>
-                                 </choice>
-                              </zeroOrMore>
-                    
-                           </group>
-                        </oneOrMore>
-                
-                     </choice>
-                  </optional>
-            
-               </group>
-            </choice>
-        
-      
-      
-      
-            <zeroOrMore>
-               <group>
-          
-                  <ref name="model.divBottom"/>
-          
-          
-                  <zeroOrMore>
-                     <ref name="model.global"/>
-                  </zeroOrMore>
-          
-               </group>
-            </zeroOrMore>
-      
          </group>
          <ref name="att.global.attributes"/>
          <ref name="att.declaring.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="div">
+      <element name="div">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(text division) contains a subdivision of the front, body, or back of a text. [4.1. Divisions of the Body]</a:documentation>
+         <ref name="ab"/>
+         <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
+                  id="oddex1-div-abstractModel-structure-l-constraint-report-7">
+            <rule context="tei:div">
+               <report xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                       xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                       test="ancestor::tei:l">
+        Abstract model violation: Lines may not contain higher-level structural elements such as div.
+      </report>
+            </rule>
+         </pattern>
+         <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
+                  id="oddex1-div-abstractModel-structure-p-constraint-report-8">
+            <rule context="tei:div">
+               <report xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                       xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                       test="ancestor::tei:p or ancestor::tei:ab and not(ancestor::tei:floatingText)">
+        Abstract model violation: p and ab may not contain higher-level structural elements such as div.
+      </report>
+            </rule>
+         </pattern>
+         <ref name="att.global.attributes"/>
+         <ref name="att.divLike.attributes"/>
+         <ref name="att.typed.attribute.subtype"/>
+         <ref name="att.declaring.attributes"/>
+         <ref name="att.written.attributes"/>
+         <attribute name="type">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+            <choice>
+               <value>transcription</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               <value>translation</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+            </choice>
+         </attribute>
          <empty/>
       </element>
    </define>
@@ -4777,7 +4437,7 @@ Suggested values include: 1] persuade; 2] express; 3] inform; 4] entertain</a:do
             </choice>
          </zeroOrMore>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="oddex1-ab-abstractModel-structure-ab-constraint-report-7">
+                  id="oddex1-ab-abstractModel-structure-ab-constraint-report-9">
             <rule context="tei:ab">
                <report xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                        xmlns:rng="http://relaxng.org/ns/structure/1.0"
@@ -4787,7 +4447,7 @@ Suggested values include: 1] persuade; 2] express; 3] inform; 4] entertain</a:do
             </rule>
          </pattern>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="oddex1-ab-abstractModel-structure-l-constraint-report-8">
+                  id="oddex1-ab-abstractModel-structure-l-constraint-report-10">
             <rule context="tei:ab">
                <report xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                        xmlns:rng="http://relaxng.org/ns/structure/1.0"
@@ -4929,7 +4589,7 @@ Suggested values include: 1] persuade; 2] express; 3] inform; 4] entertain</a:do
       
          </group>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="oddex1-msIdentifier-msId_minimal-constraint-report-9">
+                  id="oddex1-msIdentifier-msId_minimal-constraint-report-11">
             <rule context="tei:msIdentifier">
                <report xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                        xmlns:rng="http://relaxng.org/ns/structure/1.0"
@@ -5463,6 +5123,8 @@ Suggested values include: 1] persuade; 2] express; 3] inform; 4] entertain</a:do
                <value>#bianchinigio</value>
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                <value>#bianchinigiu</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               <value>#birnbaumd</value>
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                <value>#boninif</value>
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
@@ -6076,9 +5738,10 @@ Suggested values include: 1] persuade; 2] express; 3] inform; 4] entertain</a:do
                 context="tei:seg[@type='proposal']">
               <sch:assert test="descendant::tei:persName[@role='proposer']">Every seg of @type
                 "proposal" must have a persName with a @role value of "proposer."</sch:assert>
-              <sch:assert test="descendant::tei:persName[@role='supporter'] or descendant::tei:rs[@role='supporter']">Every seg of @type
-                "proposal" must have a persName or an rs with a @role value of "supporter."</sch:assert>
-              <sch:assert test="@subtype">Every seg of @type "proposal" must have a @subtype value that describes the nature of the proposal.</sch:assert>
+              <sch:assert test="descendant::tei:persName[@role='supporter'] or descendant::tei:rs[@role='supporter']">Every seg of @type "proposal" must have a persName or an rs with a @role value of
+                "supporter."</sch:assert>
+              <sch:assert test="@subtype">Every seg of @type "proposal" must have a @subtype value
+                that describes the nature of the proposal.</sch:assert>
             </sch:rule>
    </pattern>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
@@ -6087,7 +5750,9 @@ Suggested values include: 1] persuade; 2] express; 3] inform; 4] entertain</a:do
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
                 context="tei:seg[@type='proposalReject']">
-              <sch:assert test="descendant::tei:persName[@role='proposer']">Every seg of @type "proposalReject" must have a persName descendant with a @role value of "proposer."</sch:assert>
+              <sch:assert test="descendant::tei:persName[@role='proposer']">Every seg of @type
+                "proposalReject" must have a persName descendant with a @role value of
+                "proposer."</sch:assert>
             </sch:rule>
    </pattern>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
@@ -6096,7 +5761,9 @@ Suggested values include: 1] persuade; 2] express; 3] inform; 4] entertain</a:do
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
                 context="tei:seg[@type='proposalWritten']">
-              <sch:assert test="descendant::tei:persName[@role='proposer']">Every seg of @type "proposalWritten" must have at least one (probably more) persName descendant with a @role value of "proposer."</sch:assert>
+              <sch:assert test="descendant::tei:persName[@role='proposer']">Every seg of @type
+                "proposalWritten" must have at least one (probably more) persName descendant with a
+                @role value of "proposer."</sch:assert>
             </sch:rule>
    </pattern>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
@@ -6105,7 +5772,8 @@ Suggested values include: 1] persuade; 2] express; 3] inform; 4] entertain</a:do
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
                 context="tei:seg[@type='comp']">
-              <sch:assert test="@subtype">Every seg element of @type "comp" must have a @subtype value of either "sick," "charity," "donation," or "fondoM."</sch:assert>
+              <sch:assert test="@subtype">Every seg element of @type "comp" must have a @subtype
+                value of either "sick," "charity," "donation," or "fondoM."</sch:assert>
             </sch:rule>
    </pattern>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
@@ -6114,7 +5782,9 @@ Suggested values include: 1] persuade; 2] express; 3] inform; 4] entertain</a:do
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
                 context="tei:seg[@subtype='sick']">
-              <sch:assert test="descendant::tei:persName[@role='target']">Every seg element of @subtypetype "sick" must have persName element with @role value of "target.".</sch:assert>
+              <sch:assert test="descendant::tei:persName[@role='target']">Every seg element of
+                @subtypetype "sick" must have persName element with @role value of
+                "target.".</sch:assert>
               <sch:assert test="descendant::tei:num[@type='monetary']">Every seg of @type "comp"
                 must have a num with a @type value of "monetary."</sch:assert>
               <sch:assert test="descendant::tei:num[@value]">Every seg of @type "comp" must have a
@@ -6128,7 +5798,9 @@ Suggested values include: 1] persuade; 2] express; 3] inform; 4] entertain</a:do
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
                 context="tei:seg[@subtype='fondoM']">
-              <sch:assert test="descendant::tei:persName[@role='target']">Every seg element of @subtype "fondoM" must have persName element with @role value of "target.".</sch:assert>
+              <sch:assert test="descendant::tei:persName[@role='target']">Every seg element of
+                @subtype "fondoM" must have persName element with @role value of
+                "target.".</sch:assert>
               <sch:assert test="descendant::tei:num[@type='monetary']">Every seg of @type "comp"
                 must have a num with a @type value of "monetary."</sch:assert>
               <sch:assert test="descendant::tei:num[@value]">Every seg of @type "comp" must have a
@@ -6142,7 +5814,9 @@ Suggested values include: 1] persuade; 2] express; 3] inform; 4] entertain</a:do
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
                 context="tei:seg[@subtype='regale']">
-              <sch:assert test="descendant::tei:persName[@role='target']">Every seg element of @subtype "regale" must have persName element with @role value of "target.".</sch:assert>
+              <sch:assert test="descendant::tei:persName[@role='target']">Every seg element of
+                @subtype "regale" must have persName element with @role value of
+                "target.".</sch:assert>
               <sch:assert test="descendant::tei:num[@type='monetary']">Every seg of @type "comp"
                 must have a num with a @type value of "monetary."</sch:assert>
               <sch:assert test="descendant::tei:num[@value]">Every seg of @type "comp" must have a
@@ -6156,8 +5830,8 @@ Suggested values include: 1] persuade; 2] express; 3] inform; 4] entertain</a:do
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
                 context="tei:seg[@subtype='charity']">
-              <sch:assert test="descendant::tei:persName[@role='target'] or descendant::tei:orgName[@role='target'] or descendant::tei:rs[@role='target']">Every seg of @type "comp"
-                must have a persName, an orgName, or an rs element with a @role value of "target." </sch:assert>
+              <sch:assert test="descendant::tei:persName[@role='target'] or descendant::tei:orgName[@role='target'] or descendant::tei:rs[@role='target']">Every seg of @type "comp" must have a persName, an orgName, or an rs element with a
+                @role value of "target." </sch:assert>
             </sch:rule>
    </pattern>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
@@ -6166,7 +5840,9 @@ Suggested values include: 1] persuade; 2] express; 3] inform; 4] entertain</a:do
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
                 context="tei:seg[@subtype='donation']">
-              <sch:assert test="descendant::tei:persName[@role='source']">Every seg element of @subtype "donation" must have a descendant persName element with @role value of "source."</sch:assert>
+              <sch:assert test="descendant::tei:persName[@role='source']">Every seg element of
+                @subtype "donation" must have a descendant persName element with @role value of
+                "source."</sch:assert>
             </sch:rule>
    </pattern>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
@@ -6175,8 +5851,8 @@ Suggested values include: 1] persuade; 2] express; 3] inform; 4] entertain</a:do
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
                 context="tei:seg[@type='delegation']">
-              <sch:assert test="descendant::tei:persName[@role='source'] or descendant::tei:rs[@role='source']">Every seg of @type
-                "delegation" must have a persName or rs with a @role value of "source."</sch:assert>
+              <sch:assert test="descendant::tei:persName[@role='source'] or descendant::tei:rs[@role='source']">Every seg of @type "delegation" must have a persName or rs with a @role value of
+                "source."</sch:assert>
               <sch:assert test="descendant::tei:persName[@role='target']">Every seg of @type
                 "delegation" must have a persName with a @role value of "target."</sch:assert>
             </sch:rule>
@@ -6196,7 +5872,8 @@ Suggested values include: 1] persuade; 2] express; 3] inform; 4] entertain</a:do
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
                 context="tei:del">
-              <sch:assert test="@rend">Every strike element must have a @rend attribute of value "strike."</sch:assert>
+              <sch:assert test="@rend">Every strike element must have a @rend attribute of value
+                "strike."</sch:assert>
             </sch:rule>
    </pattern>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
@@ -6205,7 +5882,8 @@ Suggested values include: 1] persuade; 2] express; 3] inform; 4] entertain</a:do
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
                 context="tei:item[not(tei:list)]">
-              <sch:assert test="tei:persName or tei:rs">Every item element must have a child element of persName</sch:assert>
+              <sch:assert test="tei:persName or tei:rs">Every item element must have a child element
+                of persName</sch:assert>
             </sch:rule>
    </pattern>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
@@ -6223,7 +5901,8 @@ Suggested values include: 1] persuade; 2] express; 3] inform; 4] entertain</a:do
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
                 context="tei:list[@type='committee']">
-              <sch:assert test="tei:date">Every list element of a committee must have child date element</sch:assert>
+              <sch:assert test="tei:date">Every list element of a committee must have child date
+                element</sch:assert>
             </sch:rule>
    </pattern>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
@@ -6232,7 +5911,8 @@ Suggested values include: 1] persuade; 2] express; 3] inform; 4] entertain</a:do
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
                 context="tei:item[ancestor::tei:list[@type='committee']][not(tei:list)]">
-              <sch:assert test="tei:roleName">Every item of a committee list must have a roleName element.</sch:assert>
+              <sch:assert test="tei:roleName">Every item of a committee list must have a roleName
+                element.</sch:assert>
             </sch:rule>
    </pattern>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
@@ -6241,7 +5921,8 @@ Suggested values include: 1] persuade; 2] express; 3] inform; 4] entertain</a:do
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
                 context="tei:person/tei:persName[@role='scaduto']">
-              <sch:assert test="following-sibling::tei:date">Every demoted officer must have a date of relief.</sch:assert>
+              <sch:assert test="following-sibling::tei:date">Every demoted officer must have a date
+                of relief.</sch:assert>
             </sch:rule>
    </pattern>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
@@ -6250,7 +5931,8 @@ Suggested values include: 1] persuade; 2] express; 3] inform; 4] entertain</a:do
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
                 context="tei:person/tei:persName[@role='replacement']">
-              <sch:assert test="following-sibling::tei:date">Every promoted officer must have a date of commencement.</sch:assert>
+              <sch:assert test="following-sibling::tei:date">Every promoted officer must have a date
+                of commencement.</sch:assert>
             </sch:rule>
    </pattern>
 </grammar>
