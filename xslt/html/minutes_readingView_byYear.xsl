@@ -8,7 +8,9 @@
         <html>
             <head>
                 <link rel="stylesheet" type="text/css" href="../../css/lega.css"/>
-                <title>Minutes: <xsl:value-of select="/teiCorpus/teiCorpus[7]/teiHeader/descendant::publicationStmt/date/@when"/></title>
+                <title>Minutes: <xsl:value-of
+                        select="/teiCorpus/teiCorpus[7]/teiHeader/descendant::publicationStmt/date/@when"
+                    /></title>
             </head>
             <body>
                 <xsl:apply-templates select="/teiCorpus/teiCorpus[7]"/>
@@ -23,20 +25,33 @@
     </xsl:template>
     <xsl:template match="TEI">
         <xsl:variable name="date" as="xs:string" select="descendant::publicationStmt/date/@when"/>
+        <xsl:variable name="transcription" select="descendant::div[@type = 'transcription']"/>
+        <xsl:variable name="translation" select="descendant::div[@type = 'translation']"/>
         <section id="meeting_{$date}">
             <div class="manuscript">
                 <xsl:apply-templates select="descendant::pb" mode="img"/>
             </div>
-            <div class="transcription"><span class="mainTitle">
+            <div class="transcription">
+                <span class="mainTitle">
+                    <xsl:apply-templates select="descendant::title[@type = 'main']"/>
+                </span>
+                <span class="subTitle">
+                    <xsl:apply-templates select="descendant::title[@type = 'sub']"/>
+                </span>
+                <xsl:apply-templates select="$transcription"/>
+            </div>
+        </section>
+        <div class="translation">
+            <span class="mainTitle">
                 <xsl:apply-templates select="descendant::title[@type = 'main']"/>
             </span>
             <span class="subTitle">
                 <xsl:apply-templates select="descendant::title[@type = 'sub']"/>
             </span>
-            <xsl:apply-templates select="text"/></div>
-        </section>
+            <xsl:apply-templates select="$translation"/>
+        </div>
     </xsl:template>
-    <xsl:template match="pb" mode="img">
+    <xsl:template match="pb[ancestor::div[@type='transcription']]" mode="img">
         <xsl:variable name="year" as="xs:string"
             select="ancestor::teiCorpus[not(teiCorpus)]/teiHeader/descendant::publicationStmt/date/@when"/>
         <xsl:variable name="meetingDate" as="xs:string"
@@ -44,7 +59,7 @@
         <img src="../../img/meetingMinutes/{$year}/{$meetingDate}/{@n}.png"/>
     </xsl:template>
     <xsl:template match="pb">
-        <hr class="min"/>
+        <hr class="pb"/>
     </xsl:template>
     <xsl:template match="note[@resp]"> </xsl:template>
 </xsl:stylesheet>
