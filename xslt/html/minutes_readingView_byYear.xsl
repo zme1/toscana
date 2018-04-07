@@ -8,6 +8,7 @@
         <html>
             <head>
                 <link rel="stylesheet" type="text/css" href="../../css/lega.css"/>
+                <link rel="stylesheet" type="text/css" href="../../css/minutes.css"/>
                 <title>Minutes: <xsl:value-of
                         select="/teiCorpus/teiCorpus[7]/teiHeader/descendant::publicationStmt/date/@when"
                     /></title>
@@ -40,26 +41,31 @@
                 </span>
                 <xsl:apply-templates select="$transcription"/>
             </div>
+            <div class="translation">
+                <span class="mainTitle">
+                    <xsl:apply-templates select="descendant::title[@type = 'main']"/>
+                </span>
+                <span class="subTitle">
+                    <xsl:apply-templates select="descendant::title[@type = 'sub']"/>
+                </span>
+                <xsl:apply-templates select="$translation"/>
+            </div>
         </section>
-        <div class="translation">
-            <span class="mainTitle">
-                <xsl:apply-templates select="descendant::title[@type = 'main']"/>
-            </span>
-            <span class="subTitle">
-                <xsl:apply-templates select="descendant::title[@type = 'sub']"/>
-            </span>
-            <xsl:apply-templates select="$translation"/>
-        </div>
+        <hr class="maj"/>
     </xsl:template>
-    <xsl:template match="pb[ancestor::div[@type='transcription']]" mode="img">
+    <xsl:template match="pb[ancestor::div[@type = 'transcription']]" mode="img">
         <xsl:variable name="year" as="xs:string"
             select="ancestor::teiCorpus[not(teiCorpus)]/teiHeader/descendant::publicationStmt/date/@when"/>
         <xsl:variable name="meetingDate" as="xs:string"
             select="ancestor::text/preceding-sibling::teiHeader/descendant::publicationStmt/date/@when"/>
-        <img src="../../img/meetingMinutes/{$year}/{$meetingDate}/{@n}.png"/>
+        <a target="_blank" href="../../img/meetingMinutes/{$year}/{$meetingDate}/{@n}.png"><img class="manuscript" src="../../img/meetingMinutes/{$year}/{$meetingDate}/{@n}.png" alt="Manuscript scan."/></a>
     </xsl:template>
     <xsl:template match="pb">
-        <hr class="pb"/>
+        <xsl:if test="preceding-sibling::*">
+            <p class="pb">
+                <em>[ Page break ]</em>
+            </p>
+        </xsl:if>
     </xsl:template>
     <xsl:template match="note[@resp]"> </xsl:template>
 </xsl:stylesheet>
