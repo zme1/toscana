@@ -96,6 +96,10 @@ code{
 div.text{
     margin: 5% 10%;
 }
+pre{
+    border: dashed;
+    width: 90%;
+}
 #footer{
     width: 40%;
     margin: auto;
