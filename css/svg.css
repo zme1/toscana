@@ -108,3 +108,14 @@ tbody.heatToggle > td {
 thead {
     border: 3px solid white;
 }
+
+/* End of Heatmap Table SVG properties */
+
+/* Beginning of Social Network Visualization graphs */
+
+.social{
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
