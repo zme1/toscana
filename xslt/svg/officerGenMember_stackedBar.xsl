@@ -10,7 +10,7 @@
     <xsl:variable name="xScale" as="xs:double" select="0.51"/>
     <xsl:template match="/">
         <div class="activityStacked">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 600">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 730">
                 <g transform="translate(100,600)">
                     <xsl:apply-templates select="//year"/>
                     <line x1="0" y1="-{$yLength}" x2="{$xLength}" y2="-{$yLength}" stroke="white"
@@ -53,6 +53,10 @@
                         stroke-width="2"/>
                     <text x="{20 + $xScale * 50}" y="80" text-anchor="middle" fill="white">100 Units
                         of Activity</text>
+                    <rect x="200" y="40" height="25" width="25" stroke="white" stroke-width="1" fill="#3E6E63"/>
+                    <text x="235" y="57" text-anchor="start" fill="white">Officer Activity</text>
+                    <rect x="200" y="90" height="25" width="25" stroke="white" stroke-width="1" fill="#CE4B29"/>
+                    <text x="235" y="107" text-anchor="start" fill="white">General Member Activity</text>
                 </g>
             </svg>
         </div>
