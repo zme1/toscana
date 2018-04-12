@@ -6,7 +6,8 @@ div.cancellatiContainer {
     margin-bottom: 3%;
 }
 div.cancellatiSvg {
-    flex: 1 75%;
+    flex: 0 0 65%;
+    height: auto;
 }
 table,
 th,
