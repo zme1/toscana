@@ -23,7 +23,7 @@
         <div class="sickCompContainer">
             <div class="sickCompSvg">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1450 500">
-                    <g transform="translate(70,470)">
+                    <g transform="translate(150,470)">
                         <xsl:apply-templates select="teiCorpus/teiCorpus"/>
 
                         <!-- Main axis lines -->
