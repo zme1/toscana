@@ -11,7 +11,7 @@
     <xsl:template match="/">
         <div class="activityStacked">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 730">
-                <g transform="translate(100,600)">
+                <g transform="translate(220,600)">
                     <xsl:apply-templates select="//year"/>
                     <line x1="0" y1="-{$yLength}" x2="{$xLength}" y2="-{$yLength}" stroke="white"
                         stroke-width="1"/>
