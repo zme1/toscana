@@ -49,22 +49,22 @@
                 a lack of complete documentation on affiliates of the Lega. A sample portion of code
                 below shows how proposals were tagged throughout the volume:</p>
             <pre>
-     <code>&lt;seg type="proposal" subtype="evento">Fu proposto da &lt;persName ref="#zinim"
-                role="proposer">Modesto Zini&lt;/persName> e assecondato da&lt;lb/>
-             &lt;persName ref="#marconic" role="supporter">Carlo Marconi&lt;/persName> di dare
-             un ballo ma non fu definita&lt;lb/> la data&lt;/seg>
-          &lt;list type="committee" subtype="investigazione">
-             &lt;date when="1924-10"/>
-             &lt;note>Allora &lt;rs ref="#pellegrinic">il presidente&lt;/rs> scielse il seguente
-                comitato&lt;lb/> per trovare il locale.&lt;/note>
-             &lt;item>&lt;persName ref="#pasquinellis">Santino Pasquinelli&lt;/persName>&lt;roleName
-                   type="committee" role="investigatore"/>.&lt;/item>
-             &lt;item>&lt;persName ref="#marconic">Carlo Marconi&lt;/persName>&lt;roleName
-                   type="committee" role="investigatore"/>&lt;/item>
-             &lt;lb/>
-             &lt;item>e &lt;persName ref="#borellim">Martino Borelli&lt;/persName>&lt;roleName
-                   type="committee" role="investigatore"/>.&lt;/item>
-          &lt;/list></code>
+  <code>&lt;seg type="proposal" subtype="evento">Fu proposto da &lt;persName ref="#zinim"
+     role="proposer">Modesto Zini&lt;/persName> e assecondato da&lt;lb/>
+          &lt;persName ref="#marconic" role="supporter">Carlo Marconi&lt;/persName> di dare
+          un ballo ma non fu definita&lt;lb/> la data&lt;/seg>
+       &lt;list type="committee" subtype="investigazione">
+          &lt;date when="1924-10"/>
+          &lt;note>Allora &lt;rs ref="#pellegrinic">il presidente&lt;/rs> scielse il seguente
+             comitato&lt;lb/> per trovare il locale.&lt;/note>
+          &lt;item>&lt;persName ref="#pasquinellis">Santino Pasquinelli&lt;/persName>&lt;roleName
+                type="committee" role="investigatore"/>.&lt;/item>
+          &lt;item>&lt;persName ref="#marconic">Carlo Marconi&lt;/persName>&lt;roleName
+                type="committee" role="investigatore"/>&lt;/item>
+          &lt;lb/>
+          &lt;item>e &lt;persName ref="#borellim">Martino Borelli&lt;/persName>&lt;roleName
+                type="committee" role="investigatore"/>.&lt;/item>
+       &lt;/list></code>
             </pre>
             <p>In the code sample above, we show an example of how both <em>proposals</em> and
                     <em>lists</em> are formulated. The participants in proposals were given
@@ -79,9 +79,9 @@
                 formations, officer elections and absences, member acceptances or departures, and
                 sometimes member compensation.</p>
             <p>As noted earlier, the TEI All schema contains about 570 total elements, of which only
-                20 to 25 should actually appear in a DH project like this. As such, a customized
+                20 to 25 typically should appear in a DH project like this. As such, a customized
                     <em>ODD</em>, or "One Document Does it all" file, was drafted to generate and
-                enforce customized rules that applied to this project. Additionally, another
+                enforce customized rules that applied specifically to this project. Additionally, another
                 technology named <em>Schematron</em> was employed in the same document, which is
                 another schema language that permits further constraint of possible values,
                 patterns, and element hierarchies within the encoded document. Both the ODD file and
@@ -90,14 +90,16 @@
                 an introductory reading on our <a
                     href="https://github.com/zme1/toscana/wiki/Coding-in-TEI">Wiki page</a>.</p>
             <h4 class="about">Social Network Analysis</h4>
-            <p>In addition to the XML flavors that were used to analyze the volume of minutes, the social network
-            analysis program Cytoscape was used as a supplemental technology to generate social network graphs that
-            plotted specific types of activity of members, both those who participated in meeting proposals</p>
-            <p>Maecenas iaculis quam ac lacinia sagittis. Duis risus augue, accumsan ut nibh vel,
-                ullamcorper porttitor leo. Duis sed est augue. Nullam vel quam convallis, vehicula
-                purus in, egestas magna. Ut vel odio vel nisi gravida placerat. Integer congue
-                fringilla rhoncus. Class aptent taciti sociosqu ad litora torquent per conubia
-                nostra, per inceptos himenaeos.</p>
+            <p>In addition to the XML flavors that were used to analyze the volume of minutes quantitatively, the social network
+                analysis program <em>Cytoscape</em> was used as a supplemental technology to generate social network graphs that
+            plotted shared activity of members, specifically of those who were co-participants in a
+            proposal during a meeting. The social networks generated for this research were primarily focused on identifying
+            individuals who contributed or supported proposals during the meetings, and seeing if there were any notable trends
+            or patterns among those members.</p>
+            <p>Social network analysis can potentially evoke three separate forms of netowrk importance, or centrality, with these computations:
+            Degree centrality, betweenness centrality, and closeness centrality. Of the three, the first is probably the most intuitive and the
+            most prominent in the networks developed in this project. Those three concepts, among other modes of network analysis, are explained
+            in more depth in our <a href="keyMembers.html/#social">Key Members</a> webpage.</p>
             <p>Etiam non posuere leo. Praesent sit amet est semper, accumsan felis a, venenatis
                 neque.</p>
             <p>Cras efficitur, eros et vulputate dictum, orci sem auctor lorem, eu egestas lorem est

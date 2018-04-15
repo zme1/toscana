@@ -97,7 +97,7 @@ div.text{
     margin: 5% 10%;
 }
 pre{
-    border: dashed;
+    border: dashed 2px;
     width: 90%;
 }
 #footer{
