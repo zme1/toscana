@@ -81,56 +81,79 @@
             <p>As noted earlier, the TEI All schema contains about 570 total elements, of which only
                 20 to 25 typically should appear in a DH project like this. As such, a customized
                     <em>ODD</em>, or "One Document Does it all" file, was drafted to generate and
-                enforce customized rules that applied specifically to this project. Additionally, another
-                technology named <em>Schematron</em> was employed in the same document, which is
-                another schema language that permits further constraint of possible values,
+                enforce customized rules that applied specifically to this project. Additionally,
+                another technology named <em>Schematron</em> was employed in the same document,
+                which is another schema language that permits further constraint of possible values,
                 patterns, and element hierarchies within the encoded document. Both the ODD file and
                 the encoded transcription of the minutes are available in full at <a
                     href="http://www.github.com/zme1/toscana">our GitHub repository</a>, along with
                 an introductory reading on our <a
                     href="https://github.com/zme1/toscana/wiki/Coding-in-TEI">Wiki page</a>.</p>
+            <h4 class="about">Transformations with XSLT</h4>
+            <p>When encoding texts with XML, there are other flavors of the XML language that can be
+                used for a number of different purposes, from identity or text transformation to
+                file conversion to visualization design. The central transformation language that
+                was used in this project is XSLT, which wields incredible power in processing texts
+                in innumerable ways. XSLT is a file that receives an input file and performs
+                transformations according to protocols that are written into the program, and it can
+                output the information into a host of different file types. In this specific
+                research project, XSLT was used to transform the volume of minutes into other XML
+                files that were used for the generation of a personography and data compilation,
+                into HTML webpages that contained the Lega minute scans, transcriptions, and
+                translations, and into graphic visualizations that help to narrate the different
+                trends and traits expressed at the individual and group level in the organization.
+                An example of some XSLT code is below.</p>
+            <pre>
+                <code>
+                  &lt;xsl:template match="TEI">
+   &lt;xsl:variable name="date" as="xs:string" select="descendant::publicationStmt/date/@when"/>
+   &lt;xsl:variable name="transcription" select="descendant::div[@type = 'transcription']"/>
+   &lt;xsl:variable name="translation" select="descendant::div[@type = 'translation']"/>
+   &lt;section id="meeting_{$date}">
+       &lt;div class="manuscript">
+           &lt;xsl:apply-templates select="descendant::pb" mode="img"/>
+       &lt;/div>
+       &lt;div class="transcription">
+           &lt;span class="mainTitle">
+               &lt;xsl:apply-templates select="descendant::title[@type = 'main']"/>
+           &lt;/span>
+           &lt;span class="subTitle">
+               &lt;xsl:apply-templates select="descendant::title[@type = 'sub']"/>
+           &lt;/span>
+           &lt;xsl:apply-templates select="$transcription"/>
+       &lt;/div>
+       &lt;div class="translation">
+           &lt;span class="mainTitle">
+               &lt;xsl:apply-templates select="descendant::title[@type = 'main']"/>
+           &lt;/span>
+           &lt;span class="subTitle">
+               &lt;xsl:apply-templates select="descendant::title[@type = 'sub']"/>
+           &lt;/span>
+           &lt;xsl:apply-templates select="$translation"/>
+       &lt;/div>
+   &lt;/section>
+   &lt;hr class="maj"/>
+&lt;/xsl:template>
+                </code>
+            </pre>
+            <p>The code snippet above is an example from the XSLT file that tranformed the volume of
+                minutes into an HTML reading view of the three different versions that we produced
+                for this project -- the scanned images, transcription, and translation. This entire
+                file, along with all other XSLT files, is availab on our GitHub page for study.</p>
             <h4 class="about">Social Network Analysis</h4>
-            <p>In addition to the XML flavors that were used to analyze the volume of minutes quantitatively, the social network
-                analysis program <em>Cytoscape</em> was used as a supplemental technology to generate social network graphs that
-            plotted shared activity of members, specifically of those who were co-participants in a
-            proposal during a meeting. The social networks generated for this research were primarily focused on identifying
-            individuals who contributed or supported proposals during the meetings, and seeing if there were any notable trends
-            or patterns among those members.</p>
-            <p>Social network analysis can potentially evoke three separate forms of netowrk importance, or centrality, with these computations:
-            Degree centrality, betweenness centrality, and closeness centrality. Of the three, the first is probably the most intuitive and the
-            most prominent in the networks developed in this project. Those three concepts, among other modes of network analysis, are explained
-            in more depth in our <a href="keyMembers.html/#social">Key Members</a> webpage.</p>
-            <p>Etiam non posuere leo. Praesent sit amet est semper, accumsan felis a, venenatis
-                neque.</p>
-            <p>Cras efficitur, eros et vulputate dictum, orci sem auctor lorem, eu egestas lorem est
-                vel ligula. Ut sit amet eleifend ligula. Donec consectetur faucibus sapien eu
-                dictum. Proin et ex in ligula rhoncus placerat. Sed dignissim, lacus et consequat
-                facilisis, massa tortor congue metus, sed tempus augue nulla nec diam. Quisque ac
-                gravida nibh. Suspendisse tempus lacinia leo id semper. Nam tellus tellus, blandit
-                ut metus eu, suscipit sollicitudin turpis. Maecenas viverra vel odio sit amet
-                rhoncus. In mauris dolor, pretium ac gravida ut, sollicitudin at urna. Ut malesuada
-                felis porta, pharetra ligula vitae, cursus nulla. Donec eu hendrerit quam, eu
-                vestibulum eros. Pellentesque tristique pellentesque sapien non maximus. Quisque id
-                est a velit tincidunt gravida vel sit amet erat. Duis faucibus scelerisque metus a
-                molestie.</p>
-            <p>Quisque consequat convallis rhoncus. Sed quis nunc vitae quam dapibus accumsan.
-                Vivamus et ipsum sit amet velit aliquam suscipit sit amet sed magna. Nunc vitae diam
-                at libero sagittis accumsan sit amet vulputate turpis. Mauris nisi nisl, gravida eu
-                odio nec, elementum interdum massa. Nulla eget tellus consequat, aliquet lorem id,
-                posuere libero. Fusce rutrum mi lacinia lorem lacinia, vitae convallis arcu
-                facilisis. Sed sollicitudin malesuada hendrerit. Donec eu enim ligula. Vivamus et
-                dapibus velit. Suspendisse sollicitudin urna ut ligula pharetra, ut semper ante
-                ornare. Quisque efficitur, ante id bibendum porta, eros magna viverra magna, eu
-                condimentum quam leo id mi. Maecenas consequat arcu ac tincidunt tristique. Morbi in
-                sodales lorem. In eu bibendum lorem. Duis et lorem sit amet elit suscipit varius
-                quis sed risus. Mauris tristique suscipit nibh a accumsan. Aliquam sit amet ligula
-                in sapien lacinia pulvinar. Sed in erat lorem. Suspendisse accumsan diam sit amet
-                risus feugiat, ac vulputate nunc venenatis. Fusce consectetur velit ante.
-                Suspendisse nec pharetra magna, a tempor odio. In hac habitasse platea dictumst.
-                Praesent diam arcu, condimentum ac auctor eu, blandit nec lorem. Morbi ac auctor
-                dolor, nec condimentum tortor. Mauris mauris libero, mattis in justo sit amet,
-                posuere scelerisque lectus.</p>
-
+            <p>In addition to the XML flavors that were used to analyze the volume of minutes
+                quantitatively, the social network analysis program <em>Cytoscape</em> was used as a
+                supplemental technology to generate social network graphs that plotted shared
+                activity of members, specifically of those who were co-participants in a proposal
+                during a meeting. The social networks generated for this research were primarily
+                focused on identifying individuals who contributed or supported proposals during the
+                meetings, and seeing if there were any notable trends or patterns among those
+                members.</p>
+            <p>Social network analysis can potentially evoke three separate forms of netowrk
+                importance, or centrality, with these computations: Degree centrality, betweenness
+                centrality, and closeness centrality. Those three concepts, among other modes of
+                network analysis, are explained in more depth in our <a
+                    href="keyMembers.html#social">Key Members</a> webpage.</p>
         </div>
         <!--#include virtual="ssi/ssi_footer.html"  -->
     </body>
