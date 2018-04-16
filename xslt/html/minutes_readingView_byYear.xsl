@@ -83,11 +83,11 @@
         </span>
     </xsl:template>
     <xsl:template match="signed">
-        <xsl:apply-templates/><span class="sig"> [ firmato ]</span>
+        <xsl:apply-templates/><span class="sig"><xsl:text>[ firmato ]</xsl:text></span>
     </xsl:template>
-    <xsl:template match="(persName | rs)">
+<!--    <xsl:template match="(persName | rs)">
         <span class="{@ref}"><xsl:apply-templates/></span>
-    </xsl:template>
+    </xsl:template>-->
     <xsl:template match="del">
         <span class="del"><xsl:apply-templates/></span>
     </xsl:template>
