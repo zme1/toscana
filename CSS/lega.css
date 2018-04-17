@@ -101,12 +101,13 @@ pre{
     width: 90%;
 }
 #footer{
-    width: 40%;
+    width: 55%;
     margin: auto;
     padding: 1rem;
-    text-align: center;
-    height: 50px;
-    margin-top: -50px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 q:before{
 content: open-quote;
@@ -116,9 +117,14 @@ q:after{
 }
 #cc{
 float: left;
+width: 100%;
+text-align: center;
+vertical-align: middle;
+height: 100%;
 }
-#github{
-float: right;
+#ccImg{
+    margin-left: 4%;
+    margin-right: 4%;
 }
 #githubimg{
     width: 50px;
