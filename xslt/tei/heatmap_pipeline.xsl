@@ -17,4 +17,9 @@
             </act>
         </xsl:for-each>
     </xsl:template>
+    <xsl:template match="act[not(@role)][@type='committee']">
+        <act type="{@type}" subtype="{@subtype}" ref="{@ref}" role="membro">
+            <date when="{date/@when}"/>
+        </act>
+    </xsl:template>
 </xsl:stylesheet>
