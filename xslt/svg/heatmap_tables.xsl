@@ -32,7 +32,7 @@
                             <xsl:variable name="subtype" select="@subtype"/>
                             <xsl:variable name="role" select="@role"/>
                             <xsl:variable name="concat">
-                                <xsl:if test="$type eq 'proposal' or $type eq 'officer'">
+                                <xsl:if test="$type eq 'proposal' or $type eq 'officer' or $type eq 'compensation'">
                                     <xsl:value-of select="$type"/>
                                 </xsl:if>
                                 <xsl:if test="$type eq 'committee'">
