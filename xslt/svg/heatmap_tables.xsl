@@ -26,9 +26,24 @@
                     <xsl:variable name="idDate"
                         select="$root//act[date/@when eq $currentDate]/translate(date/@when, '-', '')"/>
                     <xsl:variable name="currentDatePos" as="xs:integer" select="position()"/>
-                    <xsl:variable name="activity"
-                        select="$root//act[@ref eq $currentPerson and $currentDate eq date/@when]"/>
-                    <tbody class="heatToggle" id="tbody-{$idPerson[1]}{$idDate[1]}" style="display: none;">
+                    <xsl:variable name="activity">
+                        <xsl:for-each select="$root//act[@ref eq $currentPerson and $currentDate eq date/@when]">
+                            <xsl:variable name="type" select="@type"/>
+                            <xsl:variable name="subtype" select="@subtype"/>
+                            <xsl:variable name="role" select="@role"/>
+                            <xsl:variable name="concat">
+                                <xsl:if test="$type eq 'proposal' or $type eq 'officer'">
+                                    <xsl:value-of select="$type"/>
+                                </xsl:if>
+                                <xsl:if test="$type eq 'committee'">
+                                    <xsl:value-of select="concat($subtype, ' ', $type, ', ', $role)"/>
+                                </xsl:if>
+                            </xsl:variable>
+                                <xsl:value-of select="concat($concat, '; ')"/>
+                        </xsl:for-each>
+                    </xsl:variable>
+                    <tbody class="heatToggle" id="tbody-{$idPerson[1]}{$idDate[1]}"
+                        style="display: none;">
                         <tr>
                             <td>
                                 <xsl:value-of select="$currentPerson"/>
@@ -36,9 +51,9 @@
                             <td>
                                 <xsl:value-of select="$currentDate"/>
                             </td>
-                            <td>
+                            <td class="activity">
                                 <xsl:for-each select="$activity">
-                                    <xsl:value-of select="@type"/>
+                                        <xsl:value-of select="."/>
                                 </xsl:for-each>
                             </td>
                             <!-- I still need to format table cells with multiple units of
