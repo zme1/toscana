@@ -26,20 +26,24 @@
                     <xsl:variable name="idDate"
                         select="$root//act[date/@when eq $currentDate]/translate(date/@when, '-', '')"/>
                     <xsl:variable name="currentDatePos" as="xs:integer" select="position()"/>
-                    <xsl:variable name="activity">
-                        <xsl:for-each select="$root//act[@ref eq $currentPerson and $currentDate eq date/@when]">
-                            <xsl:variable name="type" select="@type"/>
-                            <xsl:variable name="subtype" select="@subtype"/>
-                            <xsl:variable name="role" select="@role"/>
-                            <xsl:variable name="concat">
-                                <xsl:if test="$type eq 'proposal' or $type eq 'officer' or $type eq 'compensation'">
-                                    <xsl:value-of select="$type"/>
-                                </xsl:if>
-                                <xsl:if test="$type eq 'committee'">
-                                    <xsl:value-of select="concat($subtype, ' ', $type, ', ', $role)"/>
-                                </xsl:if>
+                    <xsl:variable as="xs:string*" name="activity">
+                        <xsl:for-each
+                            select="$root//act[@ref eq $currentPerson and $currentDate eq date/@when]">
+                            <xsl:variable name="type" select="@type" as="xs:string"/>
+                            <xsl:variable name="subtype" select="@subtype" as="xs:string?"/>
+                            <xsl:variable name="role" select="@role" as="xs:string?"/>
+                            <xsl:variable name="concat" as="xs:string">
+                                <xsl:choose>
+                                    <xsl:when test="$type eq 'committee'">
+                                        <xsl:sequence
+                                            select="concat($subtype, ' ', $type, ', ', $role)"/>
+                                    </xsl:when>
+                                    <xsl:otherwise>
+                                        <xsl:sequence select="$type"/>
+                                    </xsl:otherwise>
+                                </xsl:choose>
                             </xsl:variable>
-                            <xsl:value-of select="$concat"/>
+                            <xsl:sequence select="$concat"/>
                         </xsl:for-each>
                     </xsl:variable>
                     <tbody class="heatToggle" id="tbody-{$idPerson[1]}{$idDate[1]}"
@@ -52,8 +56,13 @@
                                 <xsl:value-of select="$currentDate"/>
                             </td>
                             <td>
-                                
-                                <xsl:value-of select="$activity"/>
+                                <xsl:value-of
+                                    select="
+                                        if (count($activity) gt 0) then
+                                            string-join($activity, '; ')
+                                        else
+                                            '[No activity]'"
+                                />
                             </td>
                         </tr>
                     </tbody>
