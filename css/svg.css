@@ -97,7 +97,9 @@ tHead,
 th,
 td {
     border: 3px solid white;
-    max-width: 200px;
+    max-width: 300px;
+    text-align: left;
+    padding: 0 10px;
 }
 
 
