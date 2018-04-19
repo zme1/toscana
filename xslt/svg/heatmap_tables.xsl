@@ -39,25 +39,22 @@
                                     <xsl:value-of select="concat($subtype, ' ', $type, ', ', $role)"/>
                                 </xsl:if>
                             </xsl:variable>
-                                <xsl:value-of select="concat($concat, '; ')"/>
+                            <xsl:value-of select="concat($concat, '; ')"/>
                         </xsl:for-each>
                     </xsl:variable>
                     <tbody class="heatToggle" id="tbody-{$idPerson[1]}{$idDate[1]}"
                         style="display: none;">
                         <tr>
                             <td>
-                                <xsl:value-of select="$currentPerson"/>
+                                <xsl:value-of select="$idPerson[1]"/>
                             </td>
                             <td>
                                 <xsl:value-of select="$currentDate"/>
                             </td>
-                            <td class="activity">
-                                <xsl:for-each select="$activity">
-                                        <xsl:value-of select="."/>
-                                </xsl:for-each>
+                            <td>
+                                
+                                <xsl:value-of select="$activity"/>
                             </td>
-                            <!-- I still need to format table cells with multiple units of
-                                activity, but all the information is there. -->
                         </tr>
                     </tbody>
                 </xsl:for-each>
