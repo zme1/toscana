@@ -39,7 +39,7 @@
                                     <xsl:value-of select="concat($subtype, ' ', $type, ', ', $role)"/>
                                 </xsl:if>
                             </xsl:variable>
-                            <xsl:value-of select="concat($concat, '; ')"/>
+                            <xsl:value-of select="$concat"/>
                         </xsl:for-each>
                     </xsl:variable>
                     <tbody class="heatToggle" id="tbody-{$idPerson[1]}{$idDate[1]}"
