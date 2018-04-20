@@ -1,4 +1,7 @@
 /* DOES THIS LOAD!!!!! */
+rect.toggle:hover {
+    cursor: pointer;
+}
 div.cancellatiContainer {
     display: flex;
     flex-flow: row nowrap;
@@ -84,7 +87,9 @@ div.sickCompContainer {
 /* End of Sick Comp SVG properties */
 
 /* Beginning of Heatmap Table SVG properties */
-
+rect.heatRec:hover {
+    cursor: pointer;
+}
 table.heatTable {
     width: 50%;
     margin-left: 14.8%;
@@ -115,12 +120,12 @@ thead {
 
 /* Beginning of Social Network Visualization graphs */
 
-.social{
+.social {
     width: 70%;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
-div.activityStacked{
+div.activityStacked {
     margin-bottom: 10%;
 }
