@@ -123,8 +123,5 @@ thead {
 .social {
     width: 70%;
     display: block;
-    margin: 5% auto;
-}
-div.activityStacked {
-    margin-bottom: 10%;
+    margin:auto;
 }
