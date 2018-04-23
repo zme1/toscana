@@ -7996,7 +7996,7 @@
             <body>
                <div type="transcription">
                   <ab> Giovedi 15 Marzo 1923 alle ore <del rend="strike">ore</del> 8.30 P.M. Venne
-                     Tenute la seduta<lb/> regolare ordinaria preseduta <persName ref="#maffeis"
+                     Tenuta la seduta<lb/> regolare ordinaria preseduta <persName ref="#maffeis"
                         >dal<lb/> Presidente Stefano Maffei</persName>
                      <list type="absent">
                         <note>all’appello<lb/> nominale degli ufficiali risultavano<lb/> assenti i
@@ -8007,7 +8007,7 @@
                         <item><persName ref="#sodinij">Jacopo Sodin</persName>i.</item>
                      </list> Il Preces-<lb/> so verbale venne approvato come letto.<lb/> Fu
                      presentata il rendiconto della fasta<lb/> ballo e fu di Entrata $430.25 ed
-                     Uscita<lb/> $310.25 rimane in cassa per la societa<lb/> $120.00 di guadagno.<lb/>
+                     Uscita<lb/> $310.25 rimane incassa per la societa<lb/> $120.00 di guadagno.<lb/>
                      <seg type="proposal" subtype="status">Proposto da <persName ref="#desimos"
                            role="proposer">Serafino De simo</persName> ass. da <persName
                            ref="#pacinic" role="supporter">Candito<lb/> Pacini</persName> di
@@ -8020,14 +8020,14 @@
                      <seg type="comp" subtype="fondoM">La spesa del funerale al fratello<lb/>
                         <persName ref="#pasquinellial" role="target">Alfredo Psquinelli</persName>
                         ammunta<lb/> a <num type="monetary" value="170.2">$170.20</num> ed al numero
-                        dei soci aspetta<lb/> di pagare $1.60 per ciascuno e quanti<lb/> devono
+                        dei soci aspetta<lb/> di pagare $1.60 per ciascuno e questi<lb/> devono
                         essere pagati in seduta<lb/> oppore non piu’ tardi della seduta<lb/> di
                         Maggio Altrimenti il socio perdera<lb/> i diritti come prescrive il
                         nostro<lb/> regolamento.</seg><lb/>
                      <seg type="proposal" subtype="evento">Proposto da <persName ref="#marconic"
                            role="proposer">Carlo Marconi</persName> ass da<lb/>
                         <persName ref="#zinim" role="supporter">Modesto Zini</persName> di
-                        investicare se si<lb/> puole avere il permesso per dare<lb/> il Pic-Nic nell
+                        investicare se si<lb/> puole avere il permesso per dare<lb/> il Pic-Nic nell'
                         avvenire.</seg>
                      <list type="committee" subtype="investigazione">
                         <date when="1923-04"/>
@@ -8071,7 +8071,7 @@
                            glianetti</persName>.</item>
                         <item><persName ref="#tambellinian">Angelo Tambellini</persName>.</item>
                         <lb/>
-                        <item><persName ref="#viganor">Ramialdo Vigano’</persName>.</item>
+                        <item><persName ref="#viganor">Romualdo Vigano’</persName>.</item>
                         <item><persName ref="#francesconio">Orlando Francesco-<lb/>
                            ni</persName>.</item>
                         <item><persName ref="#puccettil">Lorenzo Puccetti</persName></item>
