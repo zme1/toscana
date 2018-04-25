@@ -14,7 +14,7 @@
       <publicationStmt>
         <authority>Prepared in TEI 5 by Zachary Enick for the Italian research assistantship at the
           University of Pittsburgh. Github repository: <ref target="http://github.com/zme1/toscana"
-          />. Date last worked on: <date when="2018-04-07"/></authority>
+          />. Date last worked on: <date when="2018-04-24"/></authority>
         <availability>
           <licence><!-- licence to go here --></licence>
         </availability>
@@ -28,6 +28,7 @@
     <body>
       <schemaSpec ident="oddex1" source="tei:current" start="teiCorpus">
         <moduleRef key="header"/>
+        <moduleRef key="transcr"/>
         <moduleRef key="core"
           include="add address addrLine author bibl date del item lb list note num p pb resp respStmt rs teiCorpus title unclear"/>
         <moduleRef key="tei"/>
