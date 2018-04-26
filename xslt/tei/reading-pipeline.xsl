@@ -13,11 +13,23 @@
         </year>
     </xsl:template>
     <xsl:template match="div">
-        <div type="{@type}" when="{ancestor::text/preceding-sibling::teiHeader//publicationStmt/date/@when}"/>
+        <div type="{@type}" when="{ancestor::text/preceding-sibling::teiHeader//publicationStmt/date/@when}">
         <xsl:apply-templates/>
+        </div>
+    </xsl:template>
+    <xsl:template match="TEI//body">
+        <div type="meeting" when="{../preceding-sibling::teiHeader//publicationStmt/date/@when}">
+            <xsl:apply-templates/>
+        </div>
     </xsl:template>
     <xsl:template match="pb">
         <pb n="{@n}" facs="{@facs}" when="{ancestor::text/preceding-sibling::teiHeader//publicationStmt/date/@when}"/>
+    </xsl:template>
+    <xsl:template match="unclear">
+        <unclear/>
+    </xsl:template>
+    <xsl:template match="del">
+        <del><xsl:apply-templates/></del>
     </xsl:template>
     <xsl:template match="lb">
         <lb/>
