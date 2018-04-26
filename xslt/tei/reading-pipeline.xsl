@@ -17,7 +17,7 @@
         <xsl:apply-templates/>
     </xsl:template>
     <xsl:template match="pb">
-        <pb n="{@n}" facs="{@facs}"/>
+        <pb n="{@n}" facs="{@facs}" when="{ancestor::text/preceding-sibling::teiHeader//publicationStmt/date/@when}"/>
     </xsl:template>
     <xsl:template match="lb">
         <lb/>
