@@ -5,7 +5,7 @@
          xmlns:teix="http://www.tei-c.org/ns/Examples"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2018-04-25T01:02:47Z. .
+Schema generated from ODD source 2018-04-25T23:46:50Z. .
 TEI Edition: Version 3.3.0. Last updated on
 	31st January 2018, revision f4d8439
 TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.3.0/
@@ -5405,6 +5405,7 @@ Suggested values include: 1] persuade; 2] express; 3] inform; 4] entertain</a:do
                <ref name="unclear"/>
                <ref name="list"/>
                <ref name="note"/>
+               <ref name="signed"/>
             </choice>
          </zeroOrMore>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"

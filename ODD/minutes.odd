@@ -14,7 +14,7 @@
       <publicationStmt>
         <authority>Prepared in TEI 5 by Zachary Enick for the Italian research assistantship at the
           University of Pittsburgh. Github repository: <ref target="http://github.com/zme1/toscana"
-          />. Date last worked on: <date when="2018-04-24"/></authority>
+          />. Date last worked on: <date when="2018-04-25"/></authority>
         <availability>
           <licence><!-- licence to go here --></licence>
         </availability>
@@ -455,6 +455,7 @@
               <elementRef key="unclear"/>
               <elementRef key="list"/>
               <elementRef key="note"/>
+              <elementRef key="signed"/>
             </alternate>
           </content>
         </elementSpec>
