@@ -19,11 +19,22 @@
     </xsl:template>
     <xsl:template match="TEI//body">
         <div type="meeting" when="{../preceding-sibling::teiHeader//publicationStmt/date/@when}">
+            <xsl:if test="../preceding-sibling::teiHeader//titleStmt/title/@type">
+                <mainTitle><xsl:apply-templates select="../preceding-sibling::teiHeader//titleStmt/title[@type='main']"/></mainTitle>
+                <subTitle><xsl:apply-templates select="../preceding-sibling::teiHeader//titleStmt/title[@type='sub']"/></subTitle>
+            </xsl:if>
             <xsl:apply-templates/>
         </div>
     </xsl:template>
     <xsl:template match="pb">
-        <pb n="{@n}" facs="{@facs}" when="{ancestor::text/preceding-sibling::teiHeader//publicationStmt/date/@when}"/>
+        <xsl:choose>
+            <xsl:when test="@type">
+                <pb n="{@n}" type="false" facs="{@facs}" when="{ancestor::text/preceding-sibling::teiHeader//publicationStmt/date/@when}"/>
+            </xsl:when>
+            <xsl:otherwise>
+                <pb n="{@n}" facs="{@facs}" when="{ancestor::text/preceding-sibling::teiHeader//publicationStmt/date/@when}"/>
+            </xsl:otherwise>
+        </xsl:choose>
     </xsl:template>
     <xsl:template match="unclear">
         <unclear/>

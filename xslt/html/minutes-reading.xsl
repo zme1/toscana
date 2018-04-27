@@ -21,14 +21,13 @@
         </section>
     </xsl:template>
     <xsl:template match="div[@type = 'meeting']">
-        <xsl:variable name="precedePb" select="preceding::pb[1]"/>
         <div class="meeting">
             <div class="img">
                 <xsl:apply-templates select="descendant::pb[parent::div[@type = 'transcription']]"
                     mode="thumbnail"/>
             </div>
+            <xsl:apply-templates/>
         </div>
-        <xsl:apply-templates/>
     </xsl:template>
     <xsl:template match="pb" mode="thumbnail">
         <a target="_blank" href="{@facs}">
@@ -36,8 +35,8 @@
         </a>
     </xsl:template>
     <xsl:template match="div[@type = 'transcription' or @type = 'translation']">
-        <div class="{@type}-{@when}">
-            <xsl:apply-templates/>
+        <div id="{@type}-{@when}">
+                <xsl:apply-templates/>
         </div>
     </xsl:template>
     <xsl:template match="lb">
@@ -55,7 +54,10 @@
             <xsl:apply-templates/>
         </span>
     </xsl:template>
-    <xsl:template match="pb">
-        <hr/>
+    <xsl:template match="mainTitle">
+        <h1 class="main"><xsl:apply-templates/></h1>
+    </xsl:template>
+    <xsl:template match="subTitle">
+        <h2 class="sub"><xsl:apply-templates/></h2>
     </xsl:template>
 </xsl:stylesheet>
