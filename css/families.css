@@ -1,0 +1,76 @@
+div.families {
+    margin: 3% 10%;
+}
+div.map{
+    margin: 10% 10%;
+}
+img.news {
+    width: 30%;
+    float: right;
+    margin-left: 2%;
+    margin-bottom: 2%;
+}
+div.bio {
+    flex-direction: row;
+}
+div.familiesMenu {
+    margin: 6% 2% 0;
+    float: left;
+    display: flex;
+    flex-direction: column;
+}
+div.famDrop {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 115%;
+    width: 100px;
+}
+div.famWrite{
+    margin-left: 10%;
+}
+h3.families,
+h3.fam {
+    margin: 0;
+    padding: 0;
+}
+div.famDrop {
+    float: left;
+}
+p.drpbtn {
+    margin: 5% 0;
+    color: #CE4B29;
+}
+p.drpbtn > span:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    color: #E1CAAB;
+}
+div.bio {
+    float: right;
+}
+p.news {
+    margin-left: 10%;
+}
+p.note {
+    margin-top: 6%;
+    text-align: center;
+    font-size: 115%;
+}
+div.mapping{
+    margin-left: 10%;
+}
+img.gis{
+    width: 60%;
+}
+img#house{
+    float: right;
+    margin-left: 3%
+}
+img#cluster{
+    float: left;
+    margin-right: 3%;
+}
+p.para-gis{
+    margin: 5%;
+    overflow: auto;
+}
