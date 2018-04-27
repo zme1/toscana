@@ -23,14 +23,19 @@
     <xsl:template match="div[@type = 'meeting']">
         <xsl:variable name="precedePb" select="preceding::pb[1]"/>
         <div class="meeting">
-            <div class="img"><xsl:apply-templates select="descendant::pb[parent::div[@type = 'transcription']]" mode="thumbnail"/></div>
+            <div class="img">
+                <xsl:apply-templates select="descendant::pb[parent::div[@type = 'transcription']]"
+                    mode="thumbnail"/>
+            </div>
         </div>
         <xsl:apply-templates/>
     </xsl:template>
     <xsl:template match="pb" mode="thumbnail">
-        <img target="_blank" class="thumbnail" src="{@facs}"/>
+        <a target="_blank" href="{@facs}">
+            <img class="thumbnail" src="{@facs}"/>
+        </a>
     </xsl:template>
-    <xsl:template match="div[@type='transcription' or @type='translation']">
+    <xsl:template match="div[@type = 'transcription' or @type = 'translation']">
         <div class="{@type}-{@when}">
             <xsl:apply-templates/>
         </div>
@@ -39,13 +44,16 @@
         <br/>
     </xsl:template>
     <xsl:template match="signed">
-    <xsl:apply-templates/><xsl:text> [ signed ]</xsl:text>
+        <xsl:apply-templates/>
+        <xsl:text> [ signed ]</xsl:text>
     </xsl:template>
     <xsl:template match="unclear">
         <xsl:text>[ unclear ]</xsl:text>
     </xsl:template>
     <xsl:template match="del">
-        <span class="del"><xsl:apply-templates/></span>
+        <span class="del">
+            <xsl:apply-templates/>
+        </span>
     </xsl:template>
     <xsl:template match="pb">
         <hr/>
