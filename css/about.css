@@ -2,11 +2,6 @@ h3.aboutMenu {
     text-align: left;
     text-decoration: underline;
 }
-h3.about,
-h4.about {
-    text-decoration: underline;
-
-}
 span.name {
     font-family: "Great Vibes", cursive;
     font-size: 30px;
