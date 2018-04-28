@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <minutes xmlns="http://toscana.newtfire.org">
-   <year when="1919">
-      <div type="meeting" when="1919-01-21">
-               <div type="transcription" when="1919-01-21">
+   <year when="1919"/>
+   <div type="meeting" when="1919-01-21"/>
+   <mainTitle>Lega Toscana di Protezione</mainTitle>
+   <subTitle>Seduta generale Ordinaria del 21 gennaio 1919</subTitle>
+               <div type="transcription" when="1919-01-21"/>
                   
                      <pb n="1" facs="../../img/meetingMinutes/1.png" when="1919-01-21"/> Alle Ore 930 P.M. Il Presidente<lb/> M. Simonetti dichiara la
                      seduta aperta e dopo Lettura<lb/> Processo Verbale il
@@ -108,8 +110,8 @@
                         <signed>M. Simonetti</signed>
                         <signed>Muzio Frediani</signed>
                   
-               </div>
-               <div type="translation" when="1919-01-21">
+               
+               <div type="translation" when="1919-01-21"/>
                   
                      <pb n="1" facs="../../img/meetingMinutes/1.png" when="1919-01-21"/> At 9:30 pm President<lb/> M.
                      Simonetti calls the meeting to order and after reading<lb/> the minutes the
@@ -126,9 +128,9 @@
                      Michele Simonetti<lb/> Finance Secretary Santino Pasquinelli<lb/> Treasurer
                      Americo Pasquinelli<lb/> Administrators L. Lunardini <del>Carlo
                         Silvione</del>
-            <lb/> Sam Paganucci <del>Eugenio
+   <lb/> Sam Paganucci <del>Eugenio
                      Bertoni</del>
-            <lb/> Abramo Marsili<lb/> Health Officers Carlo Giovinetti<lb/>
+   <lb/> Abramo Marsili<lb/> Health Officers Carlo Giovinetti<lb/>
                      Eugenio Merciadri<lb/> Room Guard Angelo Fontana<lb/>
                      <pb n="2" facs="../../img/meetingMinutes/2.png" when="1919-01-21"/> After the installation of
                      President Muzio Frediani,<lb/> he called the meeting to perfect order and in
@@ -162,11 +164,12 @@
                      members.<lb/> Having nothing else to attend to, President<lb/> Muzio Frediani
                      declared the meeting<lb/> adjourned at 11:15 p.m.<lb/> Secretary President<lb/>
                      <signed>M. Simonetti</signed>  
-            <signed>Muzio Frediani</signed>  
-               </div>
-            </div>
-      <div type="meeting" when="1919-02-18">
-               <div type="transcription" when="1919-02-18">
+   <signed>Muzio Frediani</signed>  
+               
+            <div type="meeting" when="1919-02-18"/>
+   <mainTitle>Lega Toscana di Protezione</mainTitle>
+   <subTitle>Seduta regolare Ordinaria 18 Febbraio 1919</subTitle>
+               <div type="transcription" when="1919-02-18"/>
                   <pb n="4" facs="../../img/meetingMinutes/4.png" when="1919-02-18"/> Alle Ore 930 P.M. Il Presidente M. Frediani<lb/> dichiarava la
                      Seduta aperta.<lb/>
                      
@@ -224,8 +227,8 @@
                         <signed>Muzio Frediani</signed>
                      
                   
-               </div>
-               <div type="translation" when="1919-02-18">
+               
+               <div type="translation" when="1919-02-18"/>
                   
                      <pb n="4" facs="../../img/meetingMinutes/4.png" when="1919-02-18"/> At 9:30 p.m. President M.
                      Frediani<lb/> brought the meeting to order.<lb/> He then ordered the roll-call
@@ -261,13 +264,14 @@
                      Deposited: $8.00<lb/> Balance: $499.42<lb/> Total Expenditures: $8.00<lb/>
                      Having nothing else to attend to,<lb/> President Muzio Frediani declared<lb/>
                      the meeting adjourned at 11:15 p.m.<lb/> Secretary President<lb/>  
-            <signed>M.G.
+   <signed>M.G.
                      Simonetti</signed>  
-            <signed>Muzio Frediani</signed> 
-               </div>
-            </div>
-      <div type="meeting" when="1919-03-18">
-               <div type="transcription" when="1919-03-18">
+   <signed>Muzio Frediani</signed> 
+               
+            <div type="meeting" when="1919-03-18"/>
+   <mainTitle>Lega Toscana di Protezione</mainTitle>
+   <subTitle>Seduta Regolare Ordinaria 18 Marzo 1919</subTitle>
+               <div type="transcription" when="1919-03-18"/>
                   
                      <pb n="11" facs="../../img/meetingMinutes/11.png" when="1919-03-18"/> Alle Ore 930 P.M. Il Presidente Muzio Frediani<lb/> dichiarava la
                      Seduta Aperta.<lb/>
@@ -340,8 +344,8 @@
                         <signed>M Frediani</signed>
                         <signed>M Simonetti</signed>
                   
-               </div>
-               <div type="translation" when="1919-03-18">
+               
+               <div type="translation" when="1919-03-18"/>
                   
                      <pb n="11" facs="../../img/meetingMinutes/11.png" when="1919-03-18"/> At 9:30 p.m. President
                      Muzio Frediani<lb/> called the meeting to order.<lb/> Then the roll call of the
@@ -392,10 +396,11 @@
                      <signed>M. Frediani</signed>
                      <signed>M. Simonetti</signed>
                   
-               </div>
-            </div>
-      <div type="meeting" when="1919-04-15">
-               <div type="transcription" when="1919-04-15">
+               
+            <div type="meeting" when="1919-04-15"/>
+   <mainTitle>Lega Toscana di Protezione</mainTitle>
+   <subTitle>Seduta Regolare Ordinaria 15 Aprile 1919</subTitle>
+               <div type="transcription" when="1919-04-15"/>
                   
                      <pb n="15" facs="../../img/meetingMinutes/15.png" when="1919-04-15"/>Alle Ore 9 –
                         Preciseil Presidente Muzio
@@ -483,11 +488,11 @@
                      <lb/>Non Avendo Altro da Fareil<lb/>Presidente Muzio Fredianialle Ore<lb/>11 Precise
                         dichiarava sciolta<lb/>La Seduta<lb/>Il Presidente Il
                            Segretario<lb/>
-            <signed>M Frediani</signed>
+   <signed>M Frediani</signed>
                         <signed>M Simonetti</signed>
                   
-               </div>
-               <div type="translation" when="1919-04-15">
+               
+               <div type="translation" when="1919-04-15"/>
                   
                      <pb n="15" facs="../../img/meetingMinutes/15.png" when="1919-04-15"/> At 9:00 p.m. President
                      Muzio Frediani<lb/> called the meeting to order.<lb/> The roll returned the
@@ -537,13 +542,14 @@
                      Fredianelli,<lb/> Carlo Silvioni, and M. Simonetti.<lb/> Having nothing else to
                      attend to,<lb/> President Muzio Frediani declared the<lb/> meeting adjourned at
                      11:00 p.m.<lb/> President Secretary<lb/> 
-            <signed>M. Frediani</signed>  
-            <signed>M Simonetti</signed>
+   <signed>M. Frediani</signed>  
+   <signed>M Simonetti</signed>
                       
-               </div>
-            </div>
-      <div type="meeting" when="1919-05-20">
-               <div type="transcription" when="1919-05-20">
+               
+            <div type="meeting" when="1919-05-20"/>
+   <mainTitle>La Lega Toscana di Protezione</mainTitle>
+   <subTitle>Seduta Ordinaria maggio 20 - 1919</subTitle>
+               <div type="transcription" when="1919-05-20"/>
                   <pb n="19" facs="../../img/meetingMinutes/19.png" when="1919-05-20"/>Alle ore 930 P.M.Presidente M Frediani<lb/>dichiarò la Seduta Aperta<lb/>
                      Ordinò L’apello Nominato il Curatore<lb/>
                      Sam Paganucci<lb/>quindi Si Passò Alla
@@ -597,8 +603,8 @@
                            Prest<lb/>Muzio Frediani alle ore 11 pm<lb/>dichiarava la
                         Seduta Sciolta<lb/>Il Preste Il Segno <signed> M. Frediani</signed>
                         <signed>M. Simonetti</signed>
-               </div>
-               <div type="translation" when="1919-05-20">
+               
+               <div type="translation" when="1919-05-20"/>
                   
                      <pb n="19" facs="../../img/meetingMinutes/19.png" when="1919-05-20"/> At 9:30 p.m. President M.
                      Frediani<lb/> called the meeting to order.<lb/> He ordered for the roll call,
@@ -625,12 +631,13 @@
                      meeting.<lb/> Having nothing else to discuss, President<lb/> Muzio Frediani
                      declared the<lb/> meeting adjourned at 11:15 p.m.<lb/> The President The
                      Secretary<lb/> 
-            <signed>M. Frediani</signed>  
-            <signed>M. Simonetti</signed>  
-               </div>
-            </div>
-      <div type="meeting" when="1919-06-17">
-               <div type="transcription" when="1919-06-17">
+   <signed>M. Frediani</signed>  
+   <signed>M. Simonetti</signed>  
+               
+            <div type="meeting" when="1919-06-17"/>
+   <mainTitle>Lega Toscana di Protezione</mainTitle>
+   <subTitle>Seduta Generale Ordinario 17 giugno 1919</subTitle>
+               <div type="transcription" when="1919-06-17"/>
                   
                      <pb n="21" facs="../../img/meetingMinutes/21.png" when="1919-06-17"/>Alle Ore 930 P.M.Il presidente Muzio Frediani<lb/>Dichiarava
                      aperta la Seduta<lb/>
@@ -686,8 +693,8 @@
                         Frediani<lb/>dichiarava la Seduta Sciolta<lb/>Il PresteIl
                            Segrio<signed>M. Frediani</signed>
                         <signed>M. Simonetti</signed>
-               </div>
-               <div type="translation" when="1919-06-17">
+               
+               <div type="translation" when="1919-06-17"/>
                   
                      <pb n="21" facs="../../img/meetingMinutes/21.png" when="1919-06-17"/> At 9:30 p.m. President
                      Muzio Frediani<lb/> brought the meeting to order.<lb/> The roll call of the
@@ -714,13 +721,14 @@
                      Brother<lb/> Cappellini and by the entire assembly.<lb/> Having nothing else to
                      attend to,<lb/> President Muzio Frediani declared<lb/> the meeting adjourned at
                      11:20 p.m.<lb/> President Secretary<lb/> 
-            <signed>M. Frediani</signed>  
-            <signed>M. Simonetti</signed>
+   <signed>M. Frediani</signed>  
+   <signed>M. Simonetti</signed>
                       
-               </div>
-            </div>
-      <div type="meeting" when="1919-07-15">
-               <div type="transcription" when="1919-07-15">
+               
+            <div type="meeting" when="1919-07-15"/>
+   <mainTitle>Lega Toscana di Protezione</mainTitle>
+   <subTitle>Seduta generale Ordinaria 15 Luglio 1919 -</subTitle>
+               <div type="transcription" when="1919-07-15"/>
                   <pb n="23" facs="../../img/meetingMinutes/23.png" when="1919-07-15"/>alle Ore 930 Minuti
                         P.M.Il Presidente<lb/>Muzio
                      Fredianidichiarava la Seduta<lb/>aperta. quindi 
@@ -791,8 +799,8 @@
                            Frediani Alle Ore 11:15<lb/>Minuti<lb/>Dichiarava la Seduta
                         Sciolta<lb/>Il Presidente Il Segretario <signed>Muzio Frediani</signed>
                         <signed>M G Simonetti</signed>
-               </div>
-               <div type="translation" when="1919-07-15">
+               
+               <div type="translation" when="1919-07-15"/>
                   
                      <pb n="23" facs="../../img/meetingMinutes/23.png" when="1919-07-15"/> At 9:30 p.m. President<lb/>
                      Muzio Frediani brought the meeting to<lb/> order. He then ordered for the roll
@@ -828,12 +836,13 @@
                      <pb n="25" facs="../../img/meetingMinutes/25.png" when="1919-07-15"/> Having nothing else to
                      attend to,<lb/> President Muzio Frediani<lb/> declared the meeting
                      adjourned<lb/> at 11:15 p.m.<lb/> President Secretary<lb/> 
-            <signed>Muzio Frediani</signed>
+   <signed>Muzio Frediani</signed>
                       <signed>M.G. Simonetti</signed>  
-               </div>
-            </div>
-      <div type="meeting" when="1919-08-18">
-               <div type="transcription" when="1919-08-18">
+               
+            <div type="meeting" when="1919-08-18"/>
+   <mainTitle>Lega Toscana di Protezione</mainTitle>
+   <subTitle>Seduta generale Ordinaria</subTitle>
+               <div type="transcription" when="1919-08-18"/>
                   <pb n="26" facs="../../img/meetingMinutes/26.png" when="1919-08-18"/> Alle Ore 930 PMPresidente Muzio<lb/> Fredianidichiarava la
                      Seduta Aperta<lb/>
                         quindi Ordinò l’appello Nominale
@@ -978,8 +987,8 @@
                            Frediani</signed>
                         <signed>M. S. Simonetti</signed>
                   
-               </div>
-               <div type="translation" when="1919-08-18">
+               
+               <div type="translation" when="1919-08-18"/>
                   
                      <pb n="26" facs="../../img/meetingMinutes/26.png" when="1919-08-18"/> At 9:30 p.m. President
                      Muzio<lb/> Frediani brought the meeting to order.<lb/> He then ordered [for]
@@ -1032,14 +1041,15 @@
                      the<lb/> entire general assembly.<lb/> Having nothing else on to attend
                      to,<lb/> President Muzio Frediani declared the<lb/> meeting adjourned at 11:15
                      p.m.<lb/> President Secretary<lb/> 
-            <signed>Muzio Frediani</signed>  
-            <signed>M.G. Simonetti</signed>
+   <signed>Muzio Frediani</signed>  
+   <signed>M.G. Simonetti</signed>
                      <lb/>
                   
-               </div>
-            </div>
-      <div type="meeting" when="1919-09-16">
-               <div type="transcription" when="1919-09-16">
+               
+            <div type="meeting" when="1919-09-16"/>
+   <mainTitle>Lega Toscana di Protezione</mainTitle>
+   <subTitle>Seduta Regolare Ordinaria</subTitle>
+               <div type="transcription" when="1919-09-16"/>
                   
                      <pb n="30" facs="../../img/meetingMinutes/30.png" when="1919-09-16"/> Alle Ore 9:15 Minuti
                         il Presidente<lb/> Muzio Frediani
@@ -1093,10 +1103,10 @@
                         la<lb/> Seduta Sciolta<lb/> Il Presidente Il Segretario<lb/>
                         <signed>M. Frediani</signed>
                         <signed>M. Simonetti</signed>
-            <lb/>
+   <lb/>
                   
-               </div>
-               <div type="translation" when="1919-09-16">
+               
+               <div type="translation" when="1919-09-16"/>
                   
                      <pb n="30" facs="../../img/meetingMinutes/30.png" when="1919-09-16"/> At 9:15 [p.m.]
                      President<lb/> Muzio Frediani brought the meeting to<lb/> order. The roll call
@@ -1128,12 +1138,13 @@
                      flower,<lb/> the lily.<lb/> Having nothing else to attend to,<lb/> President
                      Muzio Frediani declared<lb/> the meeting adjourned at 10:15 [p.m.]<lb/>
                      President Secretary<lb/> 
-            <signed>M. Frediani</signed>  
-            <signed>M. Simonetti</signed>  
-               </div>
-            </div>
-      <div type="meeting" when="1919-10-21">
-               <div type="transcription" when="1919-10-21">
+   <signed>M. Frediani</signed>  
+   <signed>M. Simonetti</signed>  
+               
+            <div type="meeting" when="1919-10-21"/>
+   <mainTitle>Lega Toscana di Protezione</mainTitle>
+   <subTitle>Seduta Regolare Ordinaria</subTitle>
+               <div type="transcription" when="1919-10-21"/>
                   
                      <pb n="32" facs="../../img/meetingMinutes/32.png" when="1919-10-21"/> Alle Ore 9:30 P.M.
                         Il Presidente<lb/> Muzio Frediani
@@ -1173,10 +1184,10 @@
                            Muzio Frediani alle ore<lb/> 1115 Minuti dichiarava la
                         Seduta<lb/> Sciolta<lb/> Il Presidente Il Segretario<lb/>
                         <signed> M.Simonetti</signed>
-            <lb/>
+   <lb/>
                   
-               </div>
-               <div type="translation" when="1919-10-21">
+               
+               <div type="translation" when="1919-10-21"/>
                   
                      <pb n="32" facs="../../img/meetingMinutes/32.png" when="1919-10-21"/> At 9:30 p.m. President<lb/>
                      Muzio Frediani brought the meeting<lb/> to order. He ordered for the roll
@@ -1199,11 +1210,12 @@
                      League.<lb/> Having nothing else to attend to, President<lb/> Muzio Frediani
                      declared the meeting<lb/> adjourned at 11:15 p.m.<lb/> The President The
                      Secretary<lb/> 
-            <signed>M. Simonetti</signed>  
-               </div>
-            </div>
-      <div type="meeting" when="1919-11-17">
-               <div type="transcription" when="1919-11-17">
+   <signed>M. Simonetti</signed>  
+               
+            <div type="meeting" when="1919-11-17"/>
+   <mainTitle>Lega Toscana di Protezione</mainTitle>
+   <subTitle>Seduta Regolare Ordinaria</subTitle>
+               <div type="transcription" when="1919-11-17"/>
                   
                      <pb n="34" facs="../../img/meetingMinutes/34.png" when="1919-11-17"/> Alle Ore 9:30 P.M.
                         Il Presidente<lb/> Muzio Frediani
@@ -1258,7 +1270,7 @@
                      Cor Muzio Frediani aclamazione<lb/>
                      Segretario Finanza Casimiro Pellegrini
                      <del>aclamazione</del>
-            <lb/>
+   <lb/>
                      modesto zini uno da elegersi<lb/> Tesoriere
                         Santino Pasquinelli
                      Aclamazione<lb/> Curatori Lorenzo
@@ -1269,7 +1281,7 @@
                      Olindo Cinelli
                      Emilio Pellegrini<lb/> 3 da Elergesi<lb/>
                      <del>Guardia Sala Eng</del>
-            <lb/> Ufficiali Sanitari<lb/>
+   <lb/> Ufficiali Sanitari<lb/>
                      Sam Paganucci
                      Aladino Piaggesi<lb/>
                      Enrico Sandrone 2 da elergesi<lb/>
@@ -1281,7 +1293,7 @@
                         Proposta che tutti Coloro che fanno<lb/> aplicazione per Apartenere
                         alla<lb/> Lega Toscana e dopo Essere avvertiti<lb/> che Sono Passati per
                         Mezzo di Cartolina<lb/> e alla Seduta Precedente non <unclear/>
-            <lb/> un Certificato Medico vanno Incontro<lb/>
+   <lb/> un Certificato Medico vanno Incontro<lb/>
                         <pb n="36" facs="../../img/meetingMinutes/36.png" when="1919-11-17"/> di Perdere $1.00 Come
                         Primo Versamento<lb/> di Nuovo Aplicante<lb/> la Proposta del Fratello Maffei fu<lb/> assecondata
                            dal Fratello C.
@@ -1291,8 +1303,8 @@
                         Ore 11:15 Minuti dichiara<lb/> la Seduta Sciolta<lb/> Il Presidente Il Segretario<lb/>
                         M. Simonetti<lb/>
                   
-               </div>
-               <div type="translation" when="1919-11-17">
+               
+               <div type="translation" when="1919-11-17"/>
                   
                      <pb n="34" facs="../../img/meetingMinutes/34.png" when="1919-11-17"/> At 9:30 p.m. President<lb/>
                      Muzio Frediani brought the meeting to<lb/> order. He then ordered the reading
@@ -1316,12 +1328,12 @@
                      Stefano Maffei, elected unanimously<lb/> Vice [President]: Jacopo Sodini and A.
                      Marsili, one to be elected<lb/> Secretary of Correspondence: Muzio Frediani,
                      elected unanimously<lb/> Secretary of Finance: Casimiro Pellegrini <del>selected unanimously</del>
-            <lb/> and Modesto Zini, one to be
+   <lb/> and Modesto Zini, one to be
                      elected<lb/> Treasurer: Santino Pasquinelli, elected unanimously<lb/>
                      Administrators: Lorenzo Lunardini, Carlo Silvioni,<lb/> Giuseppe Fredianelli,
                      Americo Pasquinelli,<lb/> Olindo Binelli, and Emilio Pellegrini,<lb/> 3 to be elected<lb/>
                      <del>Room guard Eug</del>
-            <lb/> Health Officers:<lb/> Sam
+   <lb/> Health Officers:<lb/> Sam
                      Paganucci, Aladino Piaggesi,<lb/> and Enrico Sandrone, 2 to be elected.<lb/>
                      Collector: Lorenzo Vigano’, elected unanimously<lb/> Room Guard: Angelo Fontana
                      and<lb/> Eugenio Merciadri, 1 to be elected.<lb/> The new administration
@@ -1336,13 +1348,12 @@
                      entire assembly.<lb/> Having nothing else to attend to,<lb/> President Muzio
                      Frediani<lb/> declared the meeting adjourned<lb/> at 11:15 p.m.<lb/> President
                      Secretary<lb/>
-            <signed> M. Simonetti</signed> 
-            <lb/>
+   <signed> M. Simonetti</signed> 
+   <lb/>
                   
-               </div>
-            </div>
-      <div type="meeting" when="1919-12-16">
-               <div type="transcription" when="1919-12-16">
+               
+            <div type="meeting" when="1919-12-16"/>
+               <div type="transcription" when="1919-12-16"/>
                   
                      <pb n="37" facs="../../img/meetingMinutes/37.png" when="1919-12-16"/> Martedi 16 Dicembre 1919
                      alle ore 8.40<lb/> ebbe principio la regolare seduta ordinaria<lb/> Presieduta
@@ -1400,10 +1411,10 @@
                      Non essendoci altro da disbrigare<lb/> si ordina la seduta
                         sciolta.<lb/> Il Seg Il Presidente<lb/>
                         <signed>Muzio Frediani</signed>
-            <lb/>
+   <lb/>
                   
-               </div>
-               <div type="translation" when="1919-12-16">
+               
+               <div type="translation" when="1919-12-16"/>
                   
                      <pb n="37" facs="../../img/meetingMinutes/37.png" when="1919-12-16"/> Tuesday December 16, 1919
                      at 8:40 p.m.<lb/> the regular general meeting commenced,<lb/> presided over by
@@ -1429,13 +1440,11 @@
                      <pb n="38" facs="../../img/meetingMinutes/38.png" when="1919-12-16"/> Having nothing else to
                      attend to,<lb/> the meeting was declared adjourned.<lb/> Secretary
                      President<lb/> 
-            <signed>Muzio Frediani</signed>  
-               </div>
-            </div>
-   </year>
-   <year when="1920">
-      <div type="meeting" when="1920-01-20">
-               <div type="transcription" when="1920-01-20">
+   <signed>Muzio Frediani</signed>  
+               
+            <year when="1920"/>
+   <div type="meeting" when="1920-01-20"/>
+               <div type="transcription" when="1920-01-20"/>
                    Martedi 20 Gennaio alle ore 8 p.m.<lb/> si tenne la seduta regolare ordinaria
                      presie-<lb/> duta dal Presidente S.
                      Maffei<lb/> Dietro lettura dei rendiconti annua-<lb/> li dalla
@@ -1451,7 +1460,7 @@
                         Antonio Serafini, somma re-<lb/>
                      siduale perche’ egli all’epoca della<lb/> accaduta malattia non si trovava
                         <unclear/>
-            <lb/> regola coi pagamenti<lb/>
+   <lb/> regola coi pagamenti<lb/>
                      Viene concesso il sussidio di $28<lb/>
                         al fratello Michele
                            Simonetti per 28<lb/> giorno di malattia.<lb/>
@@ -1486,10 +1495,10 @@
                      Non essendoci altro da discu-<lb/> tere il Presidente ordina chiusa
                         la<lb/> seduta<lb/> Il Segretario Il Presidente<lb/>
                         <signed>S. Maffei</signed>
-            <lb/>
+   <lb/>
                   
-               </div>
-               <div type="translation" when="1920-01-20">
+               
+               <div type="translation" when="1920-01-20"/>
                    Tuesday January 20 at 8 p.m.<lb/> the regular general meeting is held,<lb/>
                      presided over by President S. Maffei.<lb/> Following the reading of the
                      League’s annual<lb/> expense report, Brother S. Maffei brought<lb/> attention
@@ -1519,11 +1528,10 @@
                      fourth<lb/> to return to the regular schedule for<lb/> meetings.<lb/> Having
                      nothing else to discuss,<lb/> the President ordered the meeting<lb/>
                      adjourned.<lb/> Secretary President<lb/> 
-            <signed>S. Maffei</signed>  
-               </div>
-            </div>
-      <div type="meeting" when="1920-02-22">
-               <div type="transcription" when="1920-02-22">
+   <signed>S. Maffei</signed>  
+               
+            <div type="meeting" when="1920-02-22"/>
+               <div type="transcription" when="1920-02-22"/>
                   
                      <pb n="40" facs="../../img/meetingMinutes/40.png" when="1920-02-22"/> Domenica 22 Febbraio a ore
                      3:30 p.m.<lb/> nella solita sala sociale si tenne la ordi-<lb/> naria seduta
@@ -1565,10 +1573,10 @@
                       Non avendoci altro da discutere<lb/>
                         il Presidente ordine chiusa la seduta<lb/> Il Seg Il Presidente<lb/>
                         <signed>Muzio Frediani</signed>
-            <lb/>
+   <lb/>
                   
-               </div>
-               <div type="translation" when="1920-02-22">
+               
+               <div type="translation" when="1920-02-22"/>
                   
                      <pb n="40" facs="../../img/meetingMinutes/40.png" when="1920-02-22"/> Sunday February 22 at 3:30
                      p.m.<lb/> the general meeting is held in the usual<lb/> meeting room, presided
@@ -1594,11 +1602,10 @@
                      regulations.<lb/> Funds in the cashbox today: $ Having nothing else to
                      discuss,<lb/> the president ordered the meeting adjourned.<lb/> Secretary
                      President<lb/> 
-            <signed>Muzio Frediani</signed>  
-               </div>
-            </div>
-      <div type="meeting" when="1920-03-28">
-               <div type="transcription" when="1920-03-28">
+   <signed>Muzio Frediani</signed>  
+               
+            <div type="meeting" when="1920-03-28"/>
+               <div type="transcription" when="1920-03-28"/>
                    Domenica 28 Marzo 1920 alle ore<lb/> 4 p.m. alla solita sala sociale e
                      sotto<lb/> la presidenza di Stefano Maffei
                      si tenne<lb/> la seduta ordinaria. 
@@ -1655,10 +1662,10 @@
                         Seg. Il Presidente<lb/>
                         <signed>Muzio Frediani</signed>
                         <signed>Stefano Maffei</signed>
-            <lb/>
+   <lb/>
                   
-               </div>
-               <div type="translation" when="1920-03-28">
+               
+               <div type="translation" when="1920-03-28"/>
                    Sunday March 28, 1920 at<lb/> 4:00 p.m. the regular general meeting is
                      held<lb/> in the usual meeting room under the<lb/> presidency of Stefano
                      Maffei. The officers absent<lb/> were Lorenzo Lunardini, Carlo Silvioni,
@@ -1686,12 +1693,11 @@
                      distribute amongst the members<lb/> two applications for the Communal Mortuary
                      Fund in order<lb/> to familiarize themselves.<lb/> The President ordered the
                      meeting adjourned.<lb/> Secretary President<lb/> 
-            <signed>Muzio Frediani</signed> 
+   <signed>Muzio Frediani</signed> 
                      <signed>Stefano Maffei</signed>  
-               </div>
-            </div>
-      <div type="meeting" when="1920-04-25">
-               <div type="transcription" when="1920-04-25">
+               
+            <div type="meeting" when="1920-04-25"/>
+               <div type="transcription" when="1920-04-25"/>
                   
                      <pb n="43" facs="../../img/meetingMinutes/43.png" when="1920-04-25"/> Domenica 25 Aprile 1920
                      alle ore 4 pm<lb/> nella solita sala si ebbe la seduta rego-<lb/> lare
@@ -1730,10 +1736,10 @@
                      Non essendoci altro da trattare il<lb/> Presidente toglie la
                         seduta.<lb/> Il Seg. Il Presidente<lb/>
                         <signed>Muzio Fredian</signed>i <signed>S. Maffei</signed>
-            <lb/>
+   <lb/>
                   
-               </div>
-               <div type="translation" when="1920-04-25">
+               
+               <div type="translation" when="1920-04-25"/>
                   
                      <pb n="43" facs="../../img/meetingMinutes/43.png" when="1920-04-25"/> Sunday April 25, 1920 at 4
                      p.m.<lb/> the regular general meeting was held in the usual<lb/> room, presided
@@ -1754,12 +1760,11 @@
                      .<lb/> (over) <pb n="44" facs="../../img/meetingMinutes/44.png" when="1920-04-25"/> Petty cash at
                      the end of today: $1252.24<lb/> Having nothing else to attend to, the<lb/>
                      president ended the meeting.<lb/> Secretary President<lb/> 
-            <signed>Muzio Frediani</signed>
+   <signed>Muzio Frediani</signed>
                       <signed>S. Maffei</signed>  
-               </div>
-            </div>
-      <div type="meeting" when="1920-05-20">
-               <div type="transcription" when="1920-05-20">
+               
+            <div type="meeting" when="1920-05-20"/>
+               <div type="transcription" when="1920-05-20"/>
                    Giovedi 20 Maggio 1920 a ore 9 p.m.<lb/> nel solito locale venne tenuta
                      la<lb/> consueta seduta ordinaria presiedute<lb/>
                      dal Presidente Stefano Maffei. 
@@ -1815,10 +1820,10 @@
                         tutt'oggi $<lb/> Il Seg. Il Presidente<lb/>
                         <signed>Muzio Frediani</signed>
                         <signed>S. Maffei</signed>
-            <lb/>
+   <lb/>
                   
-               </div>
-               <div type="translation" when="1920-05-20">
+               
+               <div type="translation" when="1920-05-20"/>
                    Thursday May 20th, 1920 at 9:00 p.m.<lb/> (...) the usual general meeting was
                      held in the<lb/> usual locale, presided over<lb/> by President Stefano Maffei.
                      The roll call<lb/> of the officers returned the<lb/> absences of the following:
@@ -1841,12 +1846,11 @@
                      under<lb/> 10 years of age.<lb/> Having nothing else to discuss,<lb/> the
                      president ended the meeting<lb/> Petty cash at the end of today: $ Secretary
                      President<lb/> 
-            <signed>Muzio Frediani</signed>  
-            <signed>S. Maffei</signed>  
-               </div>
-            </div>
-      <div type="meeting" when="1920-06-17">
-               <div type="transcription" when="1920-06-17">
+   <signed>Muzio Frediani</signed>  
+   <signed>S. Maffei</signed>  
+               
+            <div type="meeting" when="1920-06-17"/>
+               <div type="transcription" when="1920-06-17"/>
                    Seduta ordinaria 17 Giugno 1920.<lb/>
                      Il Presidente S. Maffei alle 8.30
                      dichiara<lb/> aperta la seduta. 
@@ -1879,8 +1883,8 @@
                            G. Fredianelli
                         d’fare<lb/> lo stendardo sociale.<lb/>
                   
-               </div>
-               <div type="translation" when="1920-06-17">
+               
+               <div type="translation" when="1920-06-17"/>
                    General meeting June 17, 1920.<lb/> At 8:30 [p.m.] President S. Maffei called
                      the<lb/> meeting to order. The roll call of the officers<lb/> returned the
                      absences of Carlo<lb/> Silvioni and Sam Paganucci. Last meeting’s minutes<lb/>
@@ -1896,11 +1900,10 @@
                      he<lb/> was behind on monthly payments.<lb/> It was proposed by brother
                      Eugenio<lb/> Bertani and seconded by G. Fredianelli to<lb/> make a League
                      banner. 
-               </div>
-            </div>
-      <div type="meeting" when="1920-07-15">
+               
+            <div type="meeting" when="1920-07-15"/>
 
-               <div type="transcription" when="1920-07-15">
+               <div type="transcription" when="1920-07-15"/>
                    Il giorno 15 Luglio 1920 alle ore<lb/> 8.30 venne tenuta la consueta seduta
                      or-<lb/> dinaria presieduta dal Presidente
                         Stefano<lb/> Maffei. 
@@ -1975,8 +1978,8 @@
                         dichiarazione che in casse<lb/> la tutta aggi vi $1378.17<lb/>
                         <signed>Muzio Frediani</signed> Il Presidente<lb/> Seg.<lb/>
                   
-               </div>
-               <div type="translation" when="1920-07-15">
+               
+               <div type="translation" when="1920-07-15"/>
                    On July 15, 1920 at 8:30 [p.m.]<lb/> the usual general meeting was held,
                      presided<lb/> over by President Stefano Maffei.<lb/> The roll call of the
                      officers returned the absences<lb/> of Giuseppe Fredianelli, Sam Paganucci<lb/>
@@ -2011,11 +2014,10 @@
                      candy.<lb/> Having nothing else to<lb/> discuss, the president ended the
                      meeting<lb/> with the stern affirmation that the<lb/> cashbox held $1378.17
                      today.<lb/> 
-            <signed>Muzio Frediani</signed>  President<lb/> Secretary 
-               </div>
-            </div>
-      <div type="meeting" when="1920-08-19">
-               <div type="transcription" when="1920-08-19">
+   <signed>Muzio Frediani</signed>  President<lb/> Secretary 
+               
+            <div type="meeting" when="1920-08-19"/>
+               <div type="transcription" when="1920-08-19"/>
                   
                      <pb n="49" facs="../../img/meetingMinutes/49.png" when="1920-08-19"/> Giovedi – 19 Agosto 1920
                      venne tenuta<lb/> la ­­­consueta seduta ordinaria alla so-<lb/> lita ora e
@@ -2056,17 +2058,17 @@
                         prossima seduta no-<lb/> minare il Comitato addetto.<lb/>
                      Muzio Frediani ass. da Zini<lb/> Modesto di cambiare la sala
                            <unclear/>
-            <lb/> dalle piccole passare alla grande
+   <lb/> dalle piccole passare alla grande
                         ed<lb/> il medesimo Frediani resto
                         incaricato<lb/> per fisserla.<lb/> Fondo casse a tutt’oggi $1657.91<lb/>
                      Non essendo altro da discutere<lb/>
                         il presidente toglie la Seduta<lb/> Il Presidente Il Segratario<lb/>
                         <signed> Muzio Frediani</signed>
                         <signed>S. Maffei</signed>
-            <lb/>
+   <lb/>
                   
-               </div>
-               <div type="translation" when="1920-08-19">
+               
+               <div type="translation" when="1920-08-19"/>
                   
                      <pb n="49" facs="../../img/meetingMinutes/49.png" when="1920-08-19"/> Thursday August 19, 1920
                      the usual<lb/> general meeting was held at the regular time<lb/> and place,
@@ -2095,12 +2097,11 @@
                      with<lb/> securing it.<lb/> Petty cash today: $1657.91<lb/> Having nothing else
                      to discuss,<lb/> the president ended the meeting<lb/> President<lb/>
                      Secretary<lb/> 
-            <signed>Muzio Frediani</signed>  
-            <signed>S. Maffei</signed>  
-               </div>
-            </div>
-      <div type="meeting" when="1920-09-16">
-               <div type="transcription" when="1920-09-16">
+   <signed>Muzio Frediani</signed>  
+   <signed>S. Maffei</signed>  
+               
+            <div type="meeting" when="1920-09-16"/>
+               <div type="transcription" when="1920-09-16"/>
                    Giovedi 16 Settembre 1920 alle ore 9:30 li<lb/> ebbe la nostra seduta
                      ordinaria presieduta<lb/> da presidente Stefano
                         Maffei.<lb/>
@@ -2169,10 +2170,10 @@
                         il presidente chiuse la seduta alle<lb/> 11.15.<lb/>
                         Fondo costa <unclear/>
                         <signed>S. Maffei</signed>
-            <lb/>
+   <lb/>
                   
-               </div>
-               <div type="translation" when="1920-09-16">
+               
+               <div type="translation" when="1920-09-16"/>
                    Thursday, September 16 1920, at 9:30 [p.m.] our<lb/> general meeting was held
                      and presided over<lb/> by President Stefano Maffei.<lb/> With the absence of
                      the Secretary<lb/> of Correspondence, the president<lb/> asked for opinions to
@@ -2208,10 +2209,9 @@
                      assistants will be chosen during the<lb/> next meeting.<lb/> Having nothing
                      else to attend to,<lb/> the president ended the meeting at<lb/> 11:15
                      [p.m.].<lb/> Petty Cash: $ <signed>S. Maffei</signed>  
-               </div>
-            </div>
-      <div type="meeting" when="1920-10-21">
-               <div type="transcription" when="1920-10-21">
+               
+            <div type="meeting" when="1920-10-21"/>
+               <div type="transcription" when="1920-10-21"/>
                   <pb n="53" facs="../../img/meetingMinutes/53.png" when="1920-10-21"/> Giovedi alle 8.40 del 21
                      Ottobre 1920<lb/> si ebbe la consueta seduta ordinaria presie-<lb/> duta
                         dal presidente Stefano Maffei: Non
@@ -2252,9 +2252,9 @@
                         Presidente tagliò la seduta<lb/> Il segretario Il Presidente<lb/>
                         <signed>A. Frediani</signed>
                         <signed>S. Maffei</signed>
-            <lb/>
-               </div>
-               <div type="translation" when="1920-10-21">
+   <lb/>
+               
+               <div type="translation" when="1920-10-21"/>
                   
                      <pb n="53" facs="../../img/meetingMinutes/53.png" when="1920-10-21"/> Thursday at 8:40 [p.m.] on
                      October 21, 1920<lb/> the usual general meeting was held, presided<lb/> over by
@@ -2277,13 +2277,12 @@
                      Fredianelli, and A. Pasquinelli.<lb/> Having nothing else to discuss the<lb/>
                      <pb n="54" facs="../../img/meetingMinutes/54.png" when="1920-10-21"/> President ended the
                      meeting.<lb/> Secretary President<lb/> 
-            <signed>A. Frediani</signed>  
-            <signed>S. Maffei</signed> 
+   <signed>A. Frediani</signed>  
+   <signed>S. Maffei</signed> 
                   
-               </div>
-            </div>
-      <div type="meeting" when="1920-11-02">
-               <div type="transcription" when="1920-11-02">
+               
+            <div type="meeting" when="1920-11-02"/>
+               <div type="transcription" when="1920-11-02"/>
                    Il 2 Novembre 1920 alle ore 8 p.m. ed<lb/> al solito locale al No 607 Webster
                      Ave. Si<lb/> tenne la consueta seduta ordinaria presieduto<lb/>
                      dal Presidente Stefano Maffei. 
@@ -2374,10 +2373,10 @@
                      Il Presidente dichiaro’ chiuso la seduta<lb/>
                         Il Presidente<lb/>
                         <signed>Muzio Frediani</signed>
-            <lb/> seg.<lb/>
+   <lb/> seg.<lb/>
                   
-               </div>
-               <div type="translation" when="1920-11-02">
+               
+               <div type="translation" when="1920-11-02"/>
                    November 2, 1920 at 8:00 p.m. and<lb/> at the regular place at No. 607
                      Webster Ave.<lb/> the usual general meeting is held, presided<lb/> over by
                      President Stefano Maffei. Almost everybody<lb/> responded present to the
@@ -2409,12 +2408,11 @@
                      <pb n="56" facs="../../img/meetingMinutes/56.png" when="1920-11-02"/> Petty cash at the end of
                      the day: $1549.76<lb/> The President declared the meeting adjourned.<lb/>
                      President<lb/> 
-            <signed>Muzio Frediani</signed> 
-            <lb/> Sec. 
-               </div>
-            </div>
-      <div type="meeting" when="1920-12-16">
-               <div type="transcription" when="1920-12-16">
+   <signed>Muzio Frediani</signed> 
+   <lb/> Sec. 
+               
+            <div type="meeting" when="1920-12-16"/>
+               <div type="transcription" when="1920-12-16"/>
                    Seduta regolare 16 Decembre 1920 alle<lb/> ore 8.40 p.m. nelle sala sociale. Presiedeva<lb/>
                      il Presidente Stefano Maffei. 
                         Fra gli ufficiali<lb/> assenti si notavano 
@@ -2537,8 +2535,8 @@
                            Presidente chiuse le sedute<lb/>
                         <signed>Muzio Frediani</signed>, Seg<lb/>
                   
-               </div>
-               <div type="translation" when="1920-12-16">
+               
+               <div type="translation" when="1920-12-16"/>
                    December 16, 1920 at 8:40 p.m. the regular<lb/> meeting was held in the
                      meeting room, presided<lb/> over by President Stefano Maffei. Sam
                      Paganucci<lb/> and Eugenio Merciadri were found to<lb/> be absent.<lb/> The
@@ -2573,11 +2571,10 @@
                      as Treasurer, and Eugenio<lb/> Merciadri as Room Guard.<lb/> Petty cash as of
                      today $.......<lb/> Having nothing else to attend to, the<lb/> president
                      adjourned the meeting.<lb/> 
-            <signed>Muzio Frediani</signed> , Secretary 
-               </div>
-            </div>
-      <div type="meeting" when="1920-12-30">
-               <div type="transcription" when="1920-12-30">
+   <signed>Muzio Frediani</signed> , Secretary 
+               
+            <div type="meeting" when="1920-12-30"/>
+               <div type="transcription" when="1920-12-30"/>
                   
                      <pb n="58" facs="../../img/meetingMinutes/58.png" when="1920-12-30"/> La sera di Giovedi 30
                      Dicembre 1920<lb/> Si tenne la seduta straordinaria richiesta sola-<lb/> mente
@@ -2599,8 +2596,8 @@
                      fare il<lb/> Presidente ordine chiusa la Seduta<lb/> M
                      Frediani Seg. Presidente<lb/>
                   
-               </div>
-               <div type="translation" when="1920-12-30">
+               
+               <div type="translation" when="1920-12-30"/>
                   
                      <pb n="58" facs="../../img/meetingMinutes/58.png" when="1920-12-30"/> The evening of Thursday
                      December 30, 1920<lb/> this extraordinary meeting was held, called
@@ -2615,14 +2612,14 @@
                      Eugenio Bertoni was nominated for<lb/> Grand Marshal of the Inauguration<lb/>
                      Speakers: Aw. P. Bell, English.<lb/> C. Lucci, Italian.<lb/> Having nothing
                      else to attend to, the<lb/> President ordered the meeting adjourned.<lb/> 
-            <signed>M
+   <signed>M
                      Frediani</signed> , Sec. President 
-               </div>
-            </div>
-   </year>
-   <year when="1921">
-      <div type="meeting" when="1921-01-20">
-               <div type="transcription" when="1921-01-20">
+               
+            <year when="1921"/>
+   <div type="meeting" when="1921-01-20"/>
+   <mainTitle>Seduta Ordinaria del 20 Gennaio 1921</mainTitle>
+   <subTitle/>
+               <div type="transcription" when="1921-01-20"/>
                   <pb n="59" facs="../../img/meetingMinutes/59.png" when="1921-01-20"/> Alle ore 830 P.M.
                         il Presidente Stefano Maffei<lb/>
                      dichiara aperta la seduta e dopo lettura<lb/> del processo verbale il Presidente lo messe<lb/> all’aprovazione
@@ -2711,7 +2708,7 @@
                         lultima<lb/> La<lb/>
                         <pb n="61" facs="../../img/meetingMinutes/61.png" when="1921-01-20"/> Domenica di Luglio à la prima<lb/>
                         <unclear/>
-            <lb/> Domenica di Agosto, 
+   <lb/> Domenica di Agosto, 
                         
                         il comitato e cosi<lb/> Composto
                         Michele Simonetti
@@ -2723,9 +2720,9 @@
                         chiusa la Seduta. Fondo in cassa tutto oggi $1553.48<lb/> il Segretario il Presidente<lb/>
                         <signed>E. Marchetti</signed>
                         <signed>Sam Marsili</signed>
-            <lb/>
-               </div>
-               <div type="translation" when="1921-01-20">
+   <lb/>
+               
+               <div type="translation" when="1921-01-20"/>
                   
                      <pb n="59" facs="../../img/meetingMinutes/59.png" when="1921-01-20"/> General Meeting of January
                      20, 1921.<lb/> At 8:30 p.m. President Stefano Maffei<lb/> called the meeting to
@@ -2771,12 +2768,13 @@
                      -------------------- President Sam<lb/> Marsili declared the meeting adjourned
                      at 10:30 p.m.<lb/> Petty cash as of today: $1553.48<lb/> Secretary
                      President<lb/> 
-            <signed>E. Marchetti</signed>  
-            <signed>Sam Marsili</signed>  
-               </div>
-            </div>
-      <div type="meeting" when="1921-02-17">
-               <div type="transcription" when="1921-02-17">
+   <signed>E. Marchetti</signed>  
+   <signed>Sam Marsili</signed>  
+               
+            <div type="meeting" when="1921-02-17"/>
+   <mainTitle>Seduta Ordinaria del 17 Febbraio 1921</mainTitle>
+   <subTitle/>
+               <div type="transcription" when="1921-02-17"/>
                    Alle ore 8.30 P.M. Il Presidente Sam
                         Marsili<lb/> dichiara aperta la seduta. 
                         Fra gli ufficiali<lb/> assenti fu 
@@ -2865,10 +2863,10 @@
                         la Seduta. Fondo in bassa $1494.90<lb/> Il Segretario Il Presidente<lb/>
                         <signed>E. Marchetti</signed>
                         <signed>Sam Marsili</signed>
-            <lb/>
+   <lb/>
                   
-               </div>
-               <div type="translation" when="1921-02-17">
+               
+               <div type="translation" when="1921-02-17"/>
                    At 8:30 p.m President Sam Marsili<lb/> brought the meeting to order. Among
                      the absent<lb/> officers was Americo Lucchesi, and after reading<lb/> last
                      meeting’s minutes, they were put to a vote<lb/> and were approved as
@@ -2910,11 +2908,10 @@
                      nothing else to discuss,<lb/> President Sam Marsili declared the<lb/> meeting
                      adjourned at 10:45 p.m. Petty cash: $1494.90<lb/> President<lb/> Secretary<lb/>
                      <signed>E. Marchetti</signed>  
-            <signed>Sam Marsili</signed>  
-               </div>
-            </div>
-      <div type="meeting" when="1921-03-17">
-               <div type="transcription" when="1921-03-17">
+   <signed>Sam Marsili</signed>  
+               
+            <div type="meeting" when="1921-03-17"/>
+               <div type="transcription" when="1921-03-17"/>
                   
                      <pb n="64" facs="../../img/meetingMinutes/64.png" when="1921-03-17"/> Giovedi 17 Marzo alle ore
                      9:30 P.M.si ebbe la nostra seduta<lb/> Ordinaria preseduta dal nostro presidente<lb/> Sam Marsili. 
@@ -2977,12 +2974,12 @@
                         il presidente Sam Marsili alle ore
                         10:30 P.M.<lb/> dischiara sciolta la seduta<lb/> Il Segretario Il Presidente<lb/>
                         <signed>Emilio Marchetti</signed>
-            <lb/>
+   <lb/>
                         <signed>Sam Marsili</signed>
-            <lb/>
+   <lb/>
                   
-               </div>
-               <div type="translation" when="1921-03-17">
+               
+               <div type="translation" when="1921-03-17"/>
                   
                      <pb n="64" facs="../../img/meetingMinutes/64.png" when="1921-03-17"/> Thursday March 17th at 9:30
                      p.m. our general<lb/> meeting was held, presided over by our President<lb/> Sam
@@ -3006,14 +3003,13 @@
                      <pb n="65" facs="../../img/meetingMinutes/65.png" when="1921-03-17"/> Having nothing else to
                      attend to,<lb/> President Sam Marsili declared the<lb/> meeting adjourned at
                      10:30 p.m.<lb/> Secretary President<lb/> 
-            <signed>Emilio Marchetti</signed> 
-            <lb/> 
-            <signed>Sam
+   <signed>Emilio Marchetti</signed> 
+   <lb/> 
+   <signed>Sam
                      Marsili</signed>  
-               </div>
-            </div>
-      <div type="meeting" when="1921-04-21">
-               <div type="transcription" when="1921-04-21">
+               
+            <div type="meeting" when="1921-04-21"/>
+               <div type="transcription" when="1921-04-21"/>
                    Giovedi 21 Aprile 1921 alle ore 9. P.M. venne<lb/> tenuta la consueta seduta
                      ordinaria<lb/> preseduta dal nostro presidente
                         Sam<lb/> Marsili
@@ -3071,12 +3067,12 @@
                       e i<lb/> suoi assistenti verranno scelti nella prossima<lb/> seduta.<lb/>
                      Non avendo altro da fare alle ore<lb/> 10.35 P.M. il presidente dichiara sciolta la<lb/> seduta. Il segretario Il Presidente<lb/>
                         <signed>E. Marchetti</signed>
-            <lb/>
+   <lb/>
                         <signed>Sam Marsili</signed>
-            <lb/>
+   <lb/>
                   
-               </div>
-               <div type="translation" when="1921-04-21">
+               
+               <div type="translation" when="1921-04-21"/>
                    Thursday April 21, 1921 at 9 p.m.<lb/> the usual general meeting was
                      held,<lb/> presided over by our President Sam<lb/> Marsili. Roll call of
                      the<lb/> officers returned the absences of brothers<lb/> Americo Pasquinelli,
@@ -3094,13 +3090,12 @@
                      Lorenzo Lunardini, and his<lb/> assistants will be chosen during the next<lb/>
                      meeting.<lb/> Having nothing else to attend to, the<lb/> president declared the
                      meeting adjourned<lb/> at 10:35 p.m. Secretary President<lb/> 
-            <signed>E. Marchetti</signed>
+   <signed>E. Marchetti</signed>
                      <lb/> 
-            <signed>Sam Marsili</signed>  
-               </div>
-            </div>
-      <div type="meeting" when="1921-05-19">
-               <div type="transcription" when="1921-05-19">
+   <signed>Sam Marsili</signed>  
+               
+            <div type="meeting" when="1921-05-19"/>
+               <div type="transcription" when="1921-05-19"/>
                    Giovedi 19 Maggio alle ore 9.15. P.M.<lb/> venne tenuta la consueta
                      seduta<lb/> ordinaria preseduta dal nostro<lb/>
                         presidente Sam Marsili
@@ -3126,7 +3121,7 @@
                      Castruccio Cappellini
                         $17.00.<lb/>
                      <del>Antonio Serafini</del>
-            <lb/> Vi fu una discuzione di sopra
+   <lb/> Vi fu una discuzione di sopra
                      il<lb/> dovere del socio che bisogno metterlo<lb/> alle votazione per
                      modificare<lb/> l’articolo 21 Capitolo 4. La pallina<lb/> biancha sarebbe stata
                      per rimodifar-<lb/> lo <del>e la nera</del> per quelli che<lb/>
@@ -3156,10 +3151,10 @@
                         Il Segretario Il Presidente<lb/>
                         <signed>E. Marchetti</signed>
                         <signed>Sam Marsili</signed>
-            <lb/>
+   <lb/>
                   
-               </div>
-               <div type="translation" when="1921-05-19">
+               
+               <div type="translation" when="1921-05-19"/>
                    Thursday May 19, at 9:15 p.m.<lb/> the usual general meeting is held,<lb/>
                      presided over by our<lb/> President Sam Marsili. The roll call<lb/> of the
                      officers returned the<lb/> absences of Santino Pasquinelli,<lb/> Americo
@@ -3169,7 +3164,7 @@
                      Medical subsidies were granted to [the following]<lb/> brothers: Angelo Fontana
                      $46.00<lb/> Castruccio Cappellini $17.00<lb/>
                      <del>Antonio Serafini</del>
-            <lb/> There was then a discussion<lb/>
+   <lb/> There was then a discussion<lb/>
                      regarding duties of each member, from which<lb/> resulted the need to put the
                      modification of<lb/> Article 21 Title 4 to a vote.<lb/> The white ball would
                      signify the need to<lb/> modify the article <del>and the
@@ -3184,13 +3179,12 @@
                      Mariani,<lb/> and it was decided to give the committee full discretion.<lb/>
                      Having nothing else to discuss,<lb/> the president declared the<lb/> meeting
                      adjourned at 11:45 p.m.<lb/> Secretary President<lb/> 
-            <signed>E. Marchetti</signed>  
-            <signed>Sam
+   <signed>E. Marchetti</signed>  
+   <signed>Sam
                      Marsili</signed>  
-               </div>
-            </div>
-      <div type="meeting" when="1921-06-16">
-               <div type="transcription" when="1921-06-16">
+               
+            <div type="meeting" when="1921-06-16"/>
+               <div type="transcription" when="1921-06-16"/>
                   
                      <pb n="68" facs="../../img/meetingMinutes/68.png" when="1921-06-16"/> Giovedi 16 Giugno alle ore
                      8.45 P.M.<lb/> Venne tenuta la nostra seduta Regolare<lb/> Ordinaria preseduta
@@ -3220,7 +3214,7 @@
                         che gli<lb/> aspiranti che presenteranno domanda<lb/> di ammissione
                         anticedente a questa<lb/> seduta, non presentandola alla<lb/> prossima
                         seduta verranno annullate<lb/> le loro domande e gli ascritti <del>della</del>
-            <lb/> perderanno il diritto di rimborso<lb/>
+   <lb/> perderanno il diritto di rimborso<lb/>
                         della moneta versata, giusto nostre leggi.<lb/>
                      Il Presidente Sam Marsili
                      apri la<lb/> nomina per un collettore, fu proposto<lb/> il fratello Castruccio Cappellini<lb/>
@@ -3239,7 +3233,7 @@
                         1921<lb/> E di non passare i $10.00 e non<lb/> sotto $1.00.
                      Castruccio Cappellini e<lb/>
                      <del>Muzio Frediani</del>
-            <lb/>
+   <lb/>
                      Michele Simonetti nominati di
                      compera-<lb/> re il premio.<lb/>
                      
@@ -3301,10 +3295,10 @@
                         dichiara schiusa la seduta<lb/> Il Segretario Il Presidente<lb/>
                         <signed>E. Marchetti</signed>
                         <signed>Sam Marsili</signed>
-            <lb/>
+   <lb/>
                   
-               </div>
-               <div type="translation" when="1921-06-16">
+               
+               <div type="translation" when="1921-06-16"/>
                   
                      <pb n="68" facs="../../img/meetingMinutes/68.png" when="1921-06-16"/> Thursday June 16 at 8:45
                      p.m.<lb/> our regular general meeting is held,<lb/> presided over by our
@@ -3348,13 +3342,12 @@
                      Lernioni, and<lb/> Olinto Cinelli.<lb/> Having nothing else to attend to,
                      the<lb/> President declared the meeting adjourned.<lb/> The Secretary The
                      President<lb/> 
-            <signed>E. Marchetti</signed> 
-            <lb/> 
-            <signed>Sam Marsili</signed>  
-               </div>
-            </div>
-      <div type="meeting" when="1921-07-21">
-               <div type="transcription" when="1921-07-21">
+   <signed>E. Marchetti</signed> 
+   <lb/> 
+   <signed>Sam Marsili</signed>  
+               
+            <div type="meeting" when="1921-07-21"/>
+               <div type="transcription" when="1921-07-21"/>
                   
                      <pb n="71" facs="../../img/meetingMinutes/71.png" when="1921-07-21"/> Giovedi 21 Luglio alle ore
                      9.30 P.M.<lb/> fu tenute la nostra seduta regolare<lb/> ordinaria, preseduta
@@ -3376,10 +3369,10 @@
                         scolta la seduta<lb/> Il Segretario Il Presidente<lb/>
                         <signed>E. Marchetti</signed>
                         <signed>Sam Marsili</signed>
-            <lb/>
+   <lb/>
                   
-               </div>
-               <div type="translation" when="1921-07-21">
+               
+               <div type="translation" when="1921-07-21"/>
                   
                      <pb n="71" facs="../../img/meetingMinutes/71.png" when="1921-07-21"/> Thursday July 21 at 9:30
                      p.m.<lb/> our regular general meeting was held,<lb/> presided over by our<lb/>
@@ -3390,13 +3383,12 @@
                      old.<lb/> Giovanni Marsili age [not given]<lb/> [Since] there were no other
                      proposals presented<lb/> that evening, the president declared<lb/> the meeting
                      adjourned at 10:30 p.m.<lb/> Secretary President<lb/> 
-            <signed>E. Marchetti</signed>  
-            <signed>Sam
+   <signed>E. Marchetti</signed>  
+   <signed>Sam
                      Marsili</signed>  
-               </div>
-            </div>
-      <div type="meeting" when="1921-08-18">
-               <div type="transcription" when="1921-08-18">
+               
+            <div type="meeting" when="1921-08-18"/>
+               <div type="transcription" when="1921-08-18"/>
                    Giovedi 18 agosto 1921 alle ore 9.30 P.M.<lb/> fu tenuta la nostra seduta
                      ordinaria<lb/> preseduta dal nostro presidente
                         Sam<lb/> Marsili. 
@@ -3425,10 +3417,10 @@
                         Segretario Il Presidente<lb/>
                         <signed>E. Marchetti</signed>
                         <signed>Sam Marsili</signed>
-            <lb/>
+   <lb/>
                   
-               </div>
-               <div type="translation" when="1921-08-18">
+               
+               <div type="translation" when="1921-08-18"/>
                    Thursday, August 18, 1921. At 9:30 p.m.<lb/> our general meeting was
                      held,<lb/> presided over by our President Sam<lb/> Marsili. The roll call
                      returned the<lb/> absences of the following officers:<lb/> Administrators
@@ -3445,13 +3437,12 @@
                      League,<lb/> and the other two for his accompaniments.<lb/> Having nothing else
                      to attend to, the<lb/> President declared the meeting adjourned at 11:00
                      p.m.<lb/> Secretary President<lb/> 
-            <signed>E. Marchetti</signed>  
-            <signed>Sam Marsili</signed> 
+   <signed>E. Marchetti</signed>  
+   <signed>Sam Marsili</signed> 
                   
-               </div>
-            </div>
-      <div type="meeting" when="1921-09-15">
-               <div type="transcription" when="1921-09-15">
+               
+            <div type="meeting" when="1921-09-15"/>
+               <div type="transcription" when="1921-09-15"/>
                    Giovedi 15 Settembre 1921 alle ore 8.45 P.M.<lb/> fu tenuta la consueta
                      seduta regolare ordinaria<lb/> preseduta dal nostro
                         presidente<lb/> Sam Marsili. 
@@ -3484,10 +3475,10 @@
                         Il Segretario Il Presidente<lb/>
                         <signed>E. Marchetti</signed>
                         <signed>Sam Marsili</signed>
-            <lb/>
+   <lb/>
                   
-               </div>
-               <div type="translation" when="1921-09-15">
+               
+               <div type="translation" when="1921-09-15"/>
                    Thursday September 15, 1921 at 8:45 p.m.<lb/> the usual general meeting was
                      held,<lb/> presided over by our President<lb/> Sam Marsili. Among the absent
                      officers<lb/> were the Vice President Jacopo Sodini<lb/> who found himself ill.
@@ -3505,12 +3496,11 @@
                      the entire assembly. So,<lb/> our President Sam Marsili<lb/> declared the
                      meeting adjourned<lb/> at 9:30 p.m.. Funds in the cashbox $.<lb/> Secretary
                      President<lb/> 
-            <signed>E. Marchetti</signed>  
-            <signed>Sam Marsili</signed>  
-               </div>
-            </div>
-      <div type="meeting" when="1921-10-20">
-               <div type="transcription" when="1921-10-20">
+   <signed>E. Marchetti</signed>  
+   <signed>Sam Marsili</signed>  
+               
+            <div type="meeting" when="1921-10-20"/>
+               <div type="transcription" when="1921-10-20"/>
                    Giovedi 20 Ottobre 1921 alle ore 9.00 P.M.<lb/> tenutasi la nostra seduta
                      Regolare Ordina-<lb/> ria preseduta dal nostro
                         Presidente Sam<lb/> Marsili. 
@@ -3553,10 +3543,10 @@
                         dichiava sciolta la<lb/> Seduta. Il Presidente<lb/>
                         <signed>Sam Marsili</signed> Il segretario<lb/>
                         <signed>E. Marchetti</signed>
-            <lb/>
+   <lb/>
                   
-               </div>
-               <div type="translation" when="1921-10-20">
+               
+               <div type="translation" when="1921-10-20"/>
                    Thursday October 20, 1921 at 9:00 p.m.<lb/> we held our regular general
                      meeting,<lb/> presided over by our President Sam<lb/> Marsili. The roll call of
                      the officers found absent the following:<lb/> Curators Americo Lucchesi and
@@ -3579,13 +3569,12 @@
                      the [youngster],<lb/> who operates the elevator, for whom 4.00 was
                      collected.<lb/> Having nothing else to discuss for tonight,<lb/> President Sam
                      Marsili declared the meeting adjourned<lb/> at 11:00 p.m. President<lb/> 
-            <signed>Sam
+   <signed>Sam
                      Marsili</signed>  Secretary<lb/> 
-            <signed>E. Marchetti</signed>  
-               </div>
-            </div>
-      <div type="meeting" when="1921-11-17">
-               <div type="transcription" when="1921-11-17">
+   <signed>E. Marchetti</signed>  
+               
+            <div type="meeting" when="1921-11-17"/>
+               <div type="transcription" when="1921-11-17"/>
                   
                      <pb n="75" facs="../../img/meetingMinutes/75.png" when="1921-11-17"/> Giovedi 17 Novembre 1921
                      alle ore 9.00 P.M.<lb/> Tenutasi la nostra seduta regolare<lb/> Ordinaria,
@@ -3648,7 +3637,7 @@
                         Giuseppe Fredianelli
                            ^Vice
                            <del>assestenti</del>
-            <lb/> Arrangement Commitee,
+   <lb/> Arrangement Commitee,
                         
                               e i suoi<lb/> Assistenti.
 
@@ -3675,7 +3664,7 @@
                            Chairman of Floor<lb/>
                               Managers,
                       gli assistenti verranno <del>schelti</del>
-            <lb/> Cielti
+   <lb/> Cielti
                      nell prossima Seduta. <lb/> Terminato tutto gli affari sociali il<lb/> Presidente apri la nomina per i<lb/> Candidati
                      per l’amministrazione per<lb/> L’anno 1922.<lb/> A Presidente Carlo Marconi, Casimirro<lb/> Pellegrini uno da elergessi.<lb/> Vice Presidente
                         Castruccio Cappellini<lb/>
@@ -3692,12 +3681,12 @@
                         il presidente dichiarava sciolta la seduta.<lb/>
                         <pb n="77" facs="../../img/meetingMinutes/77.png" when="1921-11-17"/> Alle ore 10.30 P.M. Il
                         Presidente<lb/> Il Segretario <signed>Americo Lucchesi</signed>
-            <lb/>
+   <lb/>
                         <signed>E. Marchetti</signed>
-            <lb/>
+   <lb/>
                   
-               </div>
-               <div type="translation" when="1921-11-17">
+               
+               <div type="translation" when="1921-11-17"/>
                   
                      <pb n="75" facs="../../img/meetingMinutes/75.png" when="1921-11-17"/> Thursday November 17, 1921
                      at 9:00 p.m.<lb/> we held our regular general meeting,<lb/> presided over by
@@ -3737,12 +3726,11 @@
                      declared the meeting adjourned<lb/>
                      <pb n="77" facs="../../img/meetingMinutes/77.png" when="1921-11-17"/> at 10:30 P.M President<lb/>
                      Secretary <signed>Americo Lucchesi</signed> 
-            <lb/> 
-            <signed>E. Marchetti</signed>  
-               </div>
-            </div>
-      <div type="meeting" when="1921-12-15">
-               <div type="transcription" when="1921-12-15">
+   <lb/> 
+   <signed>E. Marchetti</signed>  
+               
+            <div type="meeting" when="1921-12-15"/>
+               <div type="transcription" when="1921-12-15"/>
                    Giovedi 15 Decembre alle ore 9.00 P.M.<lb/> Tenutasi la nostra seduta
                      regolare ordinaria,<lb/>
                      
@@ -3846,12 +3834,12 @@
                      Non avendo altro da fare il Presidente<lb/>
                         dichiara sciolta la seduta. Il Presidente<lb/> Il Segretario <signed>Sam
                            Marsili</signed>
-            <lb/>
+   <lb/>
                         <signed>E. Marchetti</signed>
-            <lb/>
+   <lb/>
                   
-               </div>
-               <div type="translation" when="1921-12-15">
+               
+               <div type="translation" when="1921-12-15"/>
                    Thursday December 15, at 9:00 p.m.<lb/> we held our regular general
                      meeting.<lb/> In the absence of the President, the<lb/> meeting was presided
                      over by Curator Americo Lucchesi.<lb/> The minutes was approved as read.<lb/>
@@ -3876,14 +3864,12 @@
                      Collector Romeo Maffei.<lb/> Having nothing else to attend to, the
                      President<lb/> declared the meeting adjourned. President<lb/> Secretary <signed>Sam
                      Marsili</signed> 
-            <lb/> 
-            <signed>E. Marchetti</signed>  
-               </div>
-            </div>
-   </year>
-   <year when="1922">
-      <div type="meeting" when="1922-01-19">
-               <div type="transcription" when="1922-01-19">
+   <lb/> 
+   <signed>E. Marchetti</signed>  
+               
+            <year when="1922"/>
+   <div type="meeting" when="1922-01-19"/>
+               <div type="transcription" when="1922-01-19"/>
                    Giovedi 19 Gennaio 1922 alle ore 9.00 P.M.<lb/>
                      il Presidente Sam Marsili dichiara<lb/>
                      aperta la seduta, e dopo lettura de processo<lb/> verbale lo messe
@@ -3952,10 +3938,10 @@
                            il Presidente Carlo<lb/> Marconi
                         dischiara sciolta la seduta.<lb/> Il Segretario Il Presidente<lb/>
                         <signed>E. Marchett</signed>i <signed>Chass Marconi</signed>
-            <lb/>
+   <lb/>
                   
-               </div>
-               <div type="translation" when="1922-01-19">
+               
+               <div type="translation" when="1922-01-19"/>
                    Thursday January 19, 1922 at 9.00 p.m.<lb/> President Sam Marsili brought
                      the<lb/> meeting to order, and after the previous meeting’s<lb/> minutes were
                      read they were put to a vote and<lb/> are not approved as read because there
@@ -3990,12 +3976,11 @@
                      regulations, those of the common<lb/> mortuary fund.<lb/> Having nothing else
                      to attend to tonight,<lb/> President Carlo Marconi declared<lb/> the meeting
                      adjourned at 11:20 p.m.<lb/> Secretary President<lb/> 
-            <signed>E. Marchetti</signed> 
+   <signed>E. Marchetti</signed> 
                      <signed>Carlo Marconi</signed>  
-               </div>
-            </div>
-      <div type="meeting" when="1922-02-16">
-               <div type="transcription" when="1922-02-16">
+               
+            <div type="meeting" when="1922-02-16"/>
+               <div type="transcription" when="1922-02-16"/>
                   
                      <pb n="80" facs="../../img/meetingMinutes/80.png" when="1922-02-16"/> Giovedi 16 Febbraio 1922
                      alle ore 9.00 P.M.<lb/> tenutasi la nostra seduta Ordinaria<lb/> preseduta
@@ -4056,10 +4041,10 @@
                         in<lb/> Cassa $______<lb/> Il Segretario Il Presidente<lb/>
                         <signed>Emilio Marchetti</signed>
                         <signed>Carlo Marconi</signed>
-            <lb/>
+   <lb/>
                   
-               </div>
-               <div type="translation" when="1922-02-16">
+               
+               <div type="translation" when="1922-02-16"/>
                   
                      <pb n="80" facs="../../img/meetingMinutes/80.png" when="1922-02-16"/> Thursday February 16, 1922
                      at 9.00 p.m.<lb/> we held our usual meeting,<lb/> presided over by our
@@ -4088,12 +4073,11 @@
                      Having nothing else to attend to tonight,<lb/> the President declared the
                      meeting<lb/> adjourned at 10:30 p.m.. Petty cash<lb/> today $ Secretary
                      President<lb/> 
-            <signed>Emilio Marchetti</signed>  
-            <signed>Carlo Marconi</signed>  
-               </div>
-            </div>
-      <div type="meeting" when="1922-03-16">
-               <div type="transcription" when="1922-03-16">
+   <signed>Emilio Marchetti</signed>  
+   <signed>Carlo Marconi</signed>  
+               
+            <div type="meeting" when="1922-03-16"/>
+               <div type="transcription" when="1922-03-16"/>
                    Giovedi 16 Marzo 1922 alle ore 9 P.M.<lb/> venne tenuta la nostra seduta
                      regolare<lb/> ordinaria preseduta del nostro
                         presidente<lb/> Carlo Marconi. 
@@ -4169,10 +4153,10 @@
                         seduta<lb/> Il Segretario Il Presidente<lb/>
                         <signed>Emil Marchetti</signed>
                         <signed>C. Marconi</signed>
-            <lb/>
+   <lb/>
                   
-               </div>
-               <div type="translation" when="1922-03-16">
+               
+               <div type="translation" when="1922-03-16"/>
                    Thursday March 16, 1922 at 9 p.m<lb/> our usual regular general meeting is
                      held,<lb/> presided over by our President<lb/> Carlo Marconi. The roll
                      call<lb/> of the officers returned the absences<lb/> of brothers Lorenzo
@@ -4207,12 +4191,11 @@
                      the next meeting.<lb/> Having nothing else to attend to<lb/> tonight, President
                      Carlo<lb/> Marconi declared the meeting adjourned.<lb/> Secretary
                      President<lb/> 
-            <signed>Emil Marchetti</signed>  
-            <signed>C. Marconi</signed>  
-               </div>
-            </div>
-      <div type="meeting" when="1922-04-20">
-               <div type="transcription" when="1922-04-20">
+   <signed>Emil Marchetti</signed>  
+   <signed>C. Marconi</signed>  
+               
+            <div type="meeting" when="1922-04-20"/>
+               <div type="transcription" when="1922-04-20"/>
                    Giovedi 20 Aprile alle ore 9.15 P.M.<lb/> venne tenuta la nostra seduta
                      rego-<lb/> lare ordinaria preseduta dal nostro<lb/>
                         Presidente Carlo Marconi. 
@@ -4292,10 +4275,10 @@
                            Presdiente dichiara sciolta la<lb/> seduta<lb/> Il Segretario Il Presidente<lb/>
                         <signed>E. Marchetti</signed>
                         <signed>C Cappellini Vice Pres</signed>
-            <lb/>
+   <lb/>
                   
-               </div>
-               <div type="translation" when="1922-04-20">
+               
+               <div type="translation" when="1922-04-20"/>
                    Thursday April 20 at 9.15 p.m.<lb/> our usual regular meeting was held,<lb/>
                      presided over by our<lb/> President Carlo Marconi. The roll call<lb/> of the
                      officers returned the absences<lb/> of the following Brothers: Eugenio<lb/>
@@ -4319,10 +4302,9 @@
                      Cappellini,<lb/> and Candito Pasini.<lb/> Having nothing else to attend to
                      tonight,<lb/> the President declared the meeting<lb/> adjourned.<lb/> Secretary
                      President<lb/> E. Marchetti [signed[ <signed>C. Cappellini</signed>  Vice Pres. 
-               </div>
-            </div>
-      <div type="meeting" when="1922-07-20">
-               <div type="transcription" when="1922-07-20">
+               
+            <div type="meeting" when="1922-07-20"/>
+               <div type="transcription" when="1922-07-20"/>
                   
                      <pb n="87" facs="../../img/meetingMinutes/87.png" when="1922-07-20"/> Giovedi 20 Luglio alle ore
                      9 P.M.<lb/> fu tenuta la nostra seduta ordina-<lb/> ria preseduta dal vice Presidente<lb/> Castruccio
@@ -4395,10 +4377,10 @@
                         Il Presidente<lb/>
                         <signed>Emil Marchetti</signed>
                         <signed>C Cappellini</signed>
-            <lb/>
+   <lb/>
                   
-               </div>
-               <div type="translation" when="1922-07-20">
+               
+               <div type="translation" when="1922-07-20"/>
                   
                      <pb n="87" facs="../../img/meetingMinutes/87.png" when="1922-07-20"/> Thursday July 20 at 9
                      p.m.<lb/> our usual regular meeting was held,<lb/> presided over by Vice
@@ -4419,20 +4401,19 @@
                      Giometti, and<lb/> Giovanni Cortopassi. Having nothing else<lb/> to attend to,
                      at the Vice President declared the<lb/> meeting adjourned at 10:00 p.m. The
                      Secretary The President<lb/> 
-            <signed>Emil Marchetti</signed>  
-            <signed>C. Cappellini</signed> 
+   <signed>Emil Marchetti</signed>  
+   <signed>C. Cappellini</signed> 
                   
-               </div>
-            </div>
-      <div type="meeting" when="1922-08-17">
-               <div type="transcription" when="1922-08-17">
+               
+            <div type="meeting" when="1922-08-17"/>
+               <div type="transcription" when="1922-08-17"/>
                   
                      <pb n="88" facs="../../img/meetingMinutes/88.png" when="1922-08-17"/> Giovedi 17 Agosto 1922 alle
                      ore 9 P.M.<lb/> venne tenuta la nostra seduta regolare<lb/> Ordinaria preseduta
                         dal Vice Presidente<lb/> Castruccio
                         Cappellini, 
                         all’appello <del>mo</del>
-            <lb/> nominale degli ufficiali
+   <lb/> nominale degli ufficiali
                            risultava-<lb/> no assenti i seguenti fratelli
                         <lb/>
                         Carlo Marconi,
@@ -4508,10 +4489,10 @@
                         Seduta<lb/> Il Segretario Il Presidente<lb/>
                         <signed>E. Marchetti</signed>
                         <signed>Char Marconi</signed>
-            <lb/>
+   <lb/>
                   
-               </div>
-               <div type="translation" when="1922-08-17">
+               
+               <div type="translation" when="1922-08-17"/>
                   
                      <pb n="88" facs="../../img/meetingMinutes/88.png" when="1922-08-17"/> Thursday August 17, 1922 at
                      9 p.m.<lb/> our usual regular general meeting is held,<lb/> presided over by
@@ -4544,11 +4525,10 @@
                      F.<lb/> Having nothing else to attend to<lb/> tonight, the Vice President
                      declared<lb/> the meeting adjourned at 10:15 p.m.<lb/> Secretary President<lb/>
                      <signed>E. Marchetti</signed>  
-            <signed>Carlo Marconi</signed>  
-               </div>
-            </div>
-      <div type="meeting" when="1922-09-21">
-               <div type="transcription" when="1922-09-21">
+   <signed>Carlo Marconi</signed>  
+               
+            <div type="meeting" when="1922-09-21"/>
+               <div type="transcription" when="1922-09-21"/>
                   
                      <pb n="90" facs="../../img/meetingMinutes/90.png" when="1922-09-21"/> Giovedi 21 Settembre 1922
                      alle<lb/> ore 9 P.M. venne tenuta la<lb/> consueta seduta regolare
@@ -4601,10 +4581,10 @@
                         Il Segretario Il Presidente<lb/>
                         <signed>E. Marchetti</signed>
                         <signed>Char Marconi</signed>
-            <lb/>
+   <lb/>
                   
-               </div>
-               <div type="translation" when="1922-09-21">
+               
+               <div type="translation" when="1922-09-21"/>
                   
                      <pb n="90" facs="../../img/meetingMinutes/90.png" when="1922-09-21"/> Thursday September 21, 1922
                      at<lb/> 9 p.m. our usual regular general<lb/> meeting was held, presided<lb/>
@@ -4630,12 +4610,11 @@
                      Collector Jacopo Sodini.<lb/> Having nothing else to attend to<lb/> tonight,
                      the President declared<lb/> the meeting adjourned at 11:30 p.m.<lb/> Secretary
                      President<lb/> 
-            <signed>E. Marchetti</signed>  
-            <signed>Carlo Marconi</signed>  
-               </div>
-            </div>
-      <div type="meeting" when="1922-10-19">
-               <div type="transcription" when="1922-10-19">
+   <signed>E. Marchetti</signed>  
+   <signed>Carlo Marconi</signed>  
+               
+            <div type="meeting" when="1922-10-19"/>
+               <div type="transcription" when="1922-10-19"/>
                   
                      <pb n="92" facs="../../img/meetingMinutes/92.png" when="1922-10-19"/> Giovedi 19 Ottobre alle ore
                      9 P.M.<lb/> 1922. Venne tenuta la nostra seduta<lb/> regolare Ordinaria
@@ -4673,10 +4652,10 @@
                      Non avendo altro da fare per quella<lb/> sera alle ore 10.15 P.M. il presidente<lb/> dichiara sciolta la seduta. Il
                         Presidente<lb/> Il Segretario <signed>E. Marchetti</signed>
                         <signed>M Frediani</signed>
-            <lb/>
+   <lb/>
                   
-               </div>
-               <div type="translation" when="1922-10-19">
+               
+               <div type="translation" when="1922-10-19"/>
                   
                      <pb n="92" facs="../../img/meetingMinutes/92.png" when="1922-10-19"/> Thursday October 19, 1922
                      at 9 p.m.<lb/> our usual regular general meeting was held,<lb/> presided over
@@ -4687,7 +4666,7 @@
                      <del> Proposed by Casimirro Pellegrini,<lb/> seconded by Giuseppe
                         Tambellini, that the $1.50<lb/> that brother Giorgio Barsotti owed be<lb/>
                         paid by the League.</del>
-            <lb/> Proposed by Casimiro Pellegrini,<lb/>
+   <lb/> Proposed by Casimiro Pellegrini,<lb/>
                      seconded by Castruccio Cappellini, to set<lb/> aside a ticket to the ball
                      worth<lb/> $1.00 for Brother Silvio Michelucci.<lb/> Proposed by Giuseppe
                      Tambellini, and<lb/> seconded by Angelo Tambellini, to hold<lb/> the annual
@@ -4698,11 +4677,10 @@
                      Pasquinelli<lb/> Having nothing else to attend to<lb/> tonight, he President
                      declared the<lb/> meeting adjourned at 10:15 p.m. President<lb/> The Secretary
                      <signed>E. Marchetti</signed>  
-            <signed>M. Frediani</signed>  
-               </div>
-            </div>
-      <div type="meeting" when="1922-11-16">
-               <div type="transcription" when="1922-11-16">
+   <signed>M. Frediani</signed>  
+               
+            <div type="meeting" when="1922-11-16"/>
+               <div type="transcription" when="1922-11-16"/>
                   
                      <pb n="93" facs="../../img/meetingMinutes/93.png" when="1922-11-16"/> Giovedi 16 Novembre 1922
                      alle ore 9 P.M.<lb/> Venne tenuta la seduta Ordinaria<lb/> preseduta dal Curatore Muzio Frediani<lb/>
@@ -4786,7 +4764,7 @@
                      Non avendo da fare altro per<lb/> qualla sera il
                            Presidente dichiare<lb/> sciolta la seduda.<lb/> Il Segretario Il Presidente<lb/>
                         <signed>E. Marchetti</signed>
-            <lb/>
+   <lb/>
                      Cancello la frase che riguarda<lb/> gli statuti e cioe
                         in nuovi dovran-<lb/> no pagare 50c ed i vecchi<lb/> solo 25c<lb/> Carlo
                         Marconi<lb/> E. Marchetti Segretario<lb/>
@@ -4794,8 +4772,8 @@
                         president, Carlo Marconi, who was absent at this meeting. I attributed the
                         presiding officer, Stefano Maffei, with having done so instead.
                   
-               </div>
-               <div type="translation" when="1922-11-16">
+               
+               <div type="translation" when="1922-11-16"/>
                   
                      <pb n="93" facs="../../img/meetingMinutes/93.png" when="1922-11-16"/> Thursday November 16th,
                      1922 at 9 p.m.<lb/> the usual meeting was held,<lb/> presided over by Curator
@@ -4838,17 +4816,16 @@
                      ought report [to the League] with<lb/> regards to the Club at their
                      convenience.<lb/> Having nothing else to attend to<lb/> tonight, the President
                      declared<lb/> the meeting adjourned.<lb/> Secretary President<lb/> 
-            <signed>E. Marchetti</signed>
+   <signed>E. Marchetti</signed>
                      <lb/> I am striking out the sentence regarding the<lb/> charters, as
                      the new members will<lb/> pay 50c and the elderly<lb/> only 25c.<lb/> 
-            <signed>Carlo
+   <signed>Carlo
                      Marconi</signed> 
-            <lb/> 
-            <signed>E. Marchetti</signed>  Secretary 
-               </div>
-            </div>
-      <div type="meeting" when="1922-12-21">
-               <div type="transcription" when="1922-12-21">
+   <lb/> 
+   <signed>E. Marchetti</signed>  Secretary 
+               
+            <div type="meeting" when="1922-12-21"/>
+               <div type="transcription" when="1922-12-21"/>
                   
                      <pb n="96" facs="../../img/meetingMinutes/96.png" when="1922-12-21"/> Giovedi 21 Dicembre 1922
                      alle ore<lb/> 9 P.M. venne tenuta la consueta<lb/> seduta regolare Ordinaria preseduta<lb/>
@@ -4960,10 +4937,10 @@
                         ra sciolta la seduta.<lb/> Il Segretario Il Presidente<lb/>
                         <signed>E. J. Marchetti</signed>
                         <signed>C. Marconi</signed>
-            <lb/>
+   <lb/>
                   
-               </div>
-               <div type="translation" when="1922-12-21">
+               
+               <div type="translation" when="1922-12-21"/>
                   
                      <pb n="96" facs="../../img/meetingMinutes/96.png" when="1922-12-21"/> Thursday December 21, 1922
                      at<lb/> 9 p.m. the usual regular general meeting was<lb/> held, presided over
@@ -4994,14 +4971,12 @@
                      $5.05 was collected. Having nothing<lb/> else to attend tonight, the<lb/>
                      president declared the meeting<lb/> adjourned at 10:45 p.m.<lb/> Secretary
                      President<lb/> 
-            <signed>E. J. Marchetti</signed>  
-            <signed>C. Marconi</signed>  
-               </div>
-            </div>
-   </year>
-   <year when="1923">
-      <div type="meeting" when="1923-01-18">
-               <div type="transcription" when="1923-01-18">
+   <signed>E. J. Marchetti</signed>  
+   <signed>C. Marconi</signed>  
+               
+            <year when="1923"/>
+   <div type="meeting" when="1923-01-18"/>
+               <div type="transcription" when="1923-01-18"/>
                   
                      <pb n="98" facs="../../img/meetingMinutes/98.png" when="1923-01-18"/> Giovedi 18 Gennaio 1923
                      alle ore 8.45 P.M.<lb/> venne tenute la seduta ordinaria<lb/> preseduta
@@ -5037,12 +5012,12 @@
                      non avendo da fare altro per<lb/> quella sera il Presidente Stefano<lb/> Maffei dichiara sciolta la
                         seduta.<lb/> Il Presidente<lb/> Il Segretario <signed>Stefano
                            Maffei</signed>
-            <lb/>
+   <lb/>
                         <signed>E. Marchetti</signed>
-            <lb/>
+   <lb/>
                   
-               </div>
-               <div type="translation" when="1923-01-18">
+               
+               <div type="translation" when="1923-01-18"/>
                   
                      <pb n="98" facs="../../img/meetingMinutes/98.png" when="1923-01-18"/> Thursday January 18, 1923
                      at 8.45 P.M.<lb/> the usual meeting is held,<lb/> presided over by President
@@ -5068,13 +5043,12 @@
                      meeting and that<lb/> he is faithful to all Tuscans.<lb/> Having nothing else
                      to attend to<lb/> tonight, President Stefano<lb/> Maffei declared the meeting
                      adjourned.<lb/> President<lb/> Secretary <signed>Stefano Maffei</signed> 
-            <lb/> 
-            <signed>E.
+   <lb/> 
+   <signed>E.
                      Marchetti</signed>  
-               </div>
-            </div>
-      <div type="meeting" when="1923-02-15">
-               <div type="transcription" when="1923-02-15">
+               
+            <div type="meeting" when="1923-02-15"/>
+               <div type="transcription" when="1923-02-15"/>
                    Giovedi 15 Febbraio 1923 alle ore 8.45 P.M.<lb/> venne tenuta la consueta
                      seduta<lb/> regolare ordinaria preseduta dal
                         nostro<lb/> Presidente Stefano Maffei, 
@@ -5114,10 +5088,10 @@
                            il Presidente<lb/> Stefano Maffei
                         dichiara sciolta la<lb/> seduta.<lb/> Il Segretario Il Presidente<lb/>
                         <signed>E.J. Marchett</signed>i <signed>S. Maffei</signed>
-            <lb/>
+   <lb/>
                   
-               </div>
-               <div type="translation" when="1923-02-15">
+               
+               <div type="translation" when="1923-02-15"/>
                    Thursday February 15, 1923 at 8.45 P.M.<lb/> the usual regular general
                      meeting is held,<lb/> presIded over by our<lb/> president Stefano Maffei. The
                      roll call<lb/> of the officers returned the absences<lb/> of the following:
@@ -5140,12 +5114,11 @@
                      Marsili.<lb/> Having nothing else to attend to<lb/> tonight, President Stefano
                      Maffei<lb/> declared the meeting adjourned<lb/> at 10:30 p.m.<lb/> Secretary
                      President<lb/> 
-            <signed>E.J.Marchetti</signed>  
-            <signed>S. Maffei</signed>  
-               </div>
-            </div>
-      <div type="meeting" when="1923-03-15">
-               <div type="transcription" when="1923-03-15">
+   <signed>E.J.Marchetti</signed>  
+   <signed>S. Maffei</signed>  
+               
+            <div type="meeting" when="1923-03-15"/>
+               <div type="transcription" when="1923-03-15"/>
                    Giovedi 15 Marzo 1923 alle ore <del>ore</del> 8.30 P.M. Venne
                      Tenuta la seduta<lb/> regolare ordinaria preseduta dal<lb/> Presidente Stefano Maffei
                      
@@ -5226,10 +5199,10 @@
                         Il Presidente<lb/>
                         <signed>Il Segretario</signed>
                         <signed>S. Maffei</signed>
-            <lb/> E.J. Marchetti<lb/>
+   <lb/> E.J. Marchetti<lb/>
                   
-               </div>
-               <div type="translation" when="1923-03-15">
+               
+               <div type="translation" when="1923-03-15"/>
                    Thursday March 15, 1923 at<lb/> 8.30 p.m. the regular general meeting<lb/> is
                      held, presided over by<lb/> President Stefano Maffei. The roll<lb/> call of the
                      officers returned the<lb/> absences of the following brothers: Modesto
@@ -5264,12 +5237,11 @@
                      and Giovanni<lb/> Giampaoli. Having nothing else to attend<lb/> to tonight, the
                      president declared<lb/> the meeting adjourned at 10:30 p.m.<lb/> Secretary
                      President<lb/> 
-            <signed>E.J. Marchetti</signed>  
-            <signed>S. Maffei</signed>  
-               </div>
-            </div>
-      <div type="meeting" when="1923-04-19">
-               <div type="transcription" when="1923-04-19">
+   <signed>E.J. Marchetti</signed>  
+   <signed>S. Maffei</signed>  
+               
+            <div type="meeting" when="1923-04-19"/>
+               <div type="transcription" when="1923-04-19"/>
                    Giovedi 19 Aprile 1923 alle ore 8.30<lb/> di sera venne tenuta la seduta<lb/>
                      regolare Ordinaria preseduta dal<lb/> nostro
                         presidente Stefano Maffei.<lb/>
@@ -5322,10 +5294,10 @@
                         Segretario Il Presidente<lb/>
                         <signed>E.J. Marchetti</signed>
                         <signed>S. Maffei</signed>
-            <lb/>
+   <lb/>
                   
-               </div>
-               <div type="translation" when="1923-04-19">
+               
+               <div type="translation" when="1923-04-19"/>
                    Thursday April 19, 1923 at 8.30<lb/> t night the regular general meeting
                      is<lb/> held, presided over by<lb/> our president Stefano Maffei.<lb/> The roll
                      call of the officers<lb/> returned the absences of the following officers:<lb/>
@@ -5348,12 +5320,11 @@
                      meeting<lb/> of July. Having nothing else to attend<lb/> to tonight, the
                      president declared the meeting<lb/> adjourned at 10:30 p.m.<lb/> Secretary
                      President<lb/> 
-            <signed>E.J. Marchetti</signed>  
-            <signed>S. Maffei</signed>  
-               </div>
-            </div>
-      <div type="meeting" when="1923-05-17">
-               <div type="transcription" when="1923-05-17">
+   <signed>E.J. Marchetti</signed>  
+   <signed>S. Maffei</signed>  
+               
+            <div type="meeting" when="1923-05-17"/>
+               <div type="transcription" when="1923-05-17"/>
                   
                      <pb n="104" facs="../../img/meetingMinutes/104.png" when="1923-05-17"/> Giovedi 17 Maggio alle
                      ore 8.30<lb/> di sera venne tenuta la consueta<lb/> seduta regolare ordinaria preseduta<lb/>
@@ -5384,7 +5355,7 @@
                      allor gli fu dato tempo fino alla prossima<lb/> seduta.<lb/> Fu presentata le
                      dimessioni del<lb/> Segretario di
                         Corrispondenza a motivo<lb/> che non poteva piu’ mandare <del>avanti</del>
-            <lb/> avanti la sua carica, da poco tempo<lb/>
+   <lb/> avanti la sua carica, da poco tempo<lb/>
                      disponibile, e questa venne accettata<lb/> da tutta la semblea generale.<lb/>
                      Poi si apri la nomina del Segretario<lb/> di corrispondenza ed un curatore<lb/>
                      <pb n="105" facs="../../img/meetingMinutes/105.png" when="1923-05-17"/> fu proposto Giuseppe Gianni<lb/> a
@@ -5397,12 +5368,12 @@
                         ciolta<lb/> la seduta.<lb/> Il Segretario Il Presidente<lb/>
                         <signed>E.J. Marchetti</signed>
                         <signed>Stefano Maffei</signed>
-            <lb/>
+   <lb/>
                         <del>G. Gianni</del>
-            <lb/>
+   <lb/>
                   
-               </div>
-               <div type="translation" when="1923-05-17">
+               
+               <div type="translation" when="1923-05-17"/>
                   
                      <pb n="104" facs="../../img/meetingMinutes/104.png" when="1923-05-17"/> Thursday May 17 at
                      8.30<lb/> at night the usual regular meeting<lb/> is held, presided over
@@ -5429,15 +5400,14 @@
                      of our late brother Alfredo<lb/> Pasquinelli, and this is approved.<lb/> Having
                      nothing else to attend to<lb/> tonight, President Stefano Maffei<lb/> declared
                      the meeting adjourned at 10:30 p.m.<lb/> Secretary President<lb/> 
-            <signed>E.J.Marchetti</signed>
+   <signed>E.J.Marchetti</signed>
                       <signed>Stefano Maffei</signed> 
-            <lb/>
+   <lb/>
                      <del>G. Gianni</del>
                   
-               </div>
-            </div>
-      <div type="meeting" when="1923-07-19">
-               <div type="transcription" when="1923-07-19">
+               
+            <div type="meeting" when="1923-07-19"/>
+               <div type="transcription" when="1923-07-19"/>
                    Giovedi 19 Luglio 1923. Alle ore 9. Di sera venne<lb/> Tenuta la consueta
                      seduta regolare,<lb/> Presieduta dal nostro presidente
                         Stefano Maffei.<lb/>
@@ -5479,10 +5449,10 @@
                         la seduta. Ore 11.30 P.M.<lb/> Il Segretario Il Presidente<lb/>
                         <signed>G. Gianni</signed>
                         <signed>S. Maffei</signed>
-            <lb/>
+   <lb/>
                   
-               </div>
-               <div type="translation" when="1923-07-19">
+               
+               <div type="translation" when="1923-07-19"/>
                    Thursday July 19, 1923 at 9 at night the<lb/> usual regular meeting is
                      held,<lb/> presided over by our president Stefano Maffei.<lb/> The roll call of
                      the officers returned the<lb/> absences of the following officials: Second
@@ -5509,12 +5479,11 @@
                      that they had not done so. Having nothing else to attend to<lb/> that night the
                      president declared the meeting<lb/> adjourned. Time 11.30 p.m.<lb/> Secretary
                      President<lb/> 
-            <signed>G. Gianni</signed>  
-            <signed>S. Maffei</signed>  
-               </div>
-            </div>
-      <div type="meeting" when="1923-08-16">
-               <div type="transcription" when="1923-08-16">
+   <signed>G. Gianni</signed>  
+   <signed>S. Maffei</signed>  
+               
+            <div type="meeting" when="1923-08-16"/>
+               <div type="transcription" when="1923-08-16"/>
                   
                      <pb n="107" facs="../../img/meetingMinutes/107.png" when="1923-08-16"/> Giovedi 16 Agosto 1923
                      alle ore 9 P.M. venne<lb/> aperta la consueta seduta regolare, presieduta
@@ -5571,10 +5540,10 @@
                         dichiara<lb/> sciolta la seduta. ore 10.45 P.M.<lb/> Il Segretario Il Presidente<lb/>
                         <signed>G. Gianni</signed>
                         <signed>S. Maffei</signed>
-            <lb/>
+   <lb/>
                   
-               </div>
-               <div type="translation" when="1923-08-16">
+               
+               <div type="translation" when="1923-08-16"/>
                   
                      <pb n="107" facs="../../img/meetingMinutes/107.png" when="1923-08-16"/> Thursday August 16, 1923
                      at 9 p.m. the<lb/> usual regular meeting is opened, presided over<lb/> by our
@@ -5607,12 +5576,11 @@
                      cashbox today: $3194.20<lb/> Having nothing else to attend to, the president
                      declared<lb/> the meeting adjourned. Time 10:45 p.m.<lb/> Secretary
                      President<lb/> 
-            <signed>G. Gianni</signed>  
-            <signed>S. Maffei</signed>  
-               </div>
-            </div>
-      <div type="meeting" when="1923-09-20">
-               <div type="transcription" when="1923-09-20">
+   <signed>G. Gianni</signed>  
+   <signed>S. Maffei</signed>  
+               
+            <div type="meeting" when="1923-09-20"/>
+               <div type="transcription" when="1923-09-20"/>
                    Giovedi 20 Settembre 1923 alle ore 9 P.M.<lb/> venne aperta la seduta
                      regolare presieduta<lb/>
                      dal nostro Presidente. S Maffei.<lb/>
@@ -5683,10 +5651,10 @@
                         10.45 P.M.<lb/> Il Seg Il Presidente<lb/>
                         <signed>G. Gianni</signed>
                         <signed>Candito Pacini</signed>
-            <lb/>
+   <lb/>
                   
-               </div>
-               <div type="translation" when="1923-09-20">
+               
+               <div type="translation" when="1923-09-20"/>
                    Thursday September 20, 1923 at 9 p.m.<lb/> the regular meeting is opened,
                      presided<lb/> over by our president S. Maffei.<lb/> The roll call of the
                      officers returned the absences<lb/> of the following officers: Vice President
@@ -5712,13 +5680,12 @@
                      Incrocci.<lb/> In the cashbox today: $3332.17. Having nothing else<lb/> to
                      attend to, the president declared the meeting adjourned.<lb/> Time 10:45
                      P.M.<lb/> Secretary President<lb/> 
-            <signed>G. Gianni</signed>  
-            <signed>Candito Pacini</signed> 
+   <signed>G. Gianni</signed>  
+   <signed>Candito Pacini</signed> 
                   
-               </div>
-            </div>
-      <div type="meeting" when="1923-10-18">
-               <div type="transcription" when="1923-10-18">
+               
+            <div type="meeting" when="1923-10-18"/>
+               <div type="transcription" when="1923-10-18"/>
                    Giovedi 18 Ottobre 1923 alle ore 9 P.M. venne<lb/> aperta la seduta regolare
                      ordinaria presieduta<lb/>
                      dal nostro vice presidente Candito Pacini.<lb/>
@@ -5829,10 +5796,10 @@
                         dichiara<lb/> sciolta la seduta ore 10.45<lb/> Il Segretario Il Presidente<lb/>
                         <signed>G. Gianni</signed>
                         <signed>Stefano Maffei</signed>
-            <lb/>
+   <lb/>
                   
-               </div>
-               <div type="translation" when="1923-10-18">
+               
+               <div type="translation" when="1923-10-18"/>
                    Thursday October 18, 1923 at 9 P.M.<lb/> the regular general meeting is
                      brought to order, presided over<lb/> by our vice president Candito Pacini.<lb/>
                      The roll call returned the the following officers<lb/> absent: President
@@ -5869,13 +5836,12 @@
                      to them.<lb/> The Secretary of Finance deposited $62.45.<lb/> In the cashbox
                      today: $3412.57.<lb/> Having nothing else to attend to, the president
                      declared<lb/> the meeting adjourned at 10:45.<lb/> Secretary President<lb/> 
-            <signed>G.
+   <signed>G.
                      Gianni</signed>  
-            <signed>Stefano Maffei</signed>  
-               </div>
-            </div>
-      <div type="meeting" when="1923-11-15">
-               <div type="transcription" when="1923-11-15">
+   <signed>Stefano Maffei</signed>  
+               
+            <div type="meeting" when="1923-11-15"/>
+               <div type="transcription" when="1923-11-15"/>
                    Giovedi 15 Novembre 1923 alle ore. 9. P.M.<lb/> venne aperta la seduta
                      regolare presieduta<lb/>
                      dal nostro presidente Stefano Maffei.<lb/>
@@ -5929,10 +5895,10 @@
                         dichiara sciolta la seduta alle ore 11 P.M.<lb/> Il Seg Il Presidente<lb/>
                         <signed>G. Gianni</signed>
                         <signed>S. Maffei</signed>
-            <lb/>
+   <lb/>
                   
-               </div>
-               <div type="translation" when="1923-11-15">
+               
+               <div type="translation" when="1923-11-15"/>
                    Thursday November 15, 1923 at 9:00 p.m.<lb/> the regular meeting is brought
                      to order, presided over<lb/> by our president Stefano Maffei.<lb/> The roll
                      call returned the absences of the<lb/> following officers: First Curator
@@ -5968,13 +5934,12 @@
                      secretary of finance: $21.00.<lb/> In the cashbox today: $3412.57<lb/> Having
                      nothing else to attend to, the president<lb/> declared the meeting adjourned at
                      11 P.M.<lb/> The Secretary The President<lb/> 
-            <signed>G. Gianni</signed>  
-            <signed>S. Maffei</signed>
+   <signed>G. Gianni</signed>  
+   <signed>S. Maffei</signed>
                       
-               </div>
-            </div>
-      <div type="meeting" when="1923-12-20">
-               <div type="transcription" when="1923-12-20">
+               
+            <div type="meeting" when="1923-12-20"/>
+               <div type="transcription" when="1923-12-20"/>
                    Giovedi 20 Dicembre 1923 alle ore 9. P.M.<lb/> venne aperta la seduta
                      regolare presieduta<lb/>
                      dal nostro presidente Stefano Maffei<lb/>
@@ -6041,10 +6006,10 @@
                         dichiara<lb/> sciolta la seduta. Il presidente<lb/> Il Seg <signed>G.
                            Gianni</signed>
                         <signed>S. Maffei</signed>
-            <lb/>
+   <lb/>
                   
-               </div>
-               <div type="translation" when="1923-12-20">
+               
+               <div type="translation" when="1923-12-20"/>
                    Thursday December 20, 1923 at 9 p.m.<lb/> the regular meeting is brought to
                      order, presided over<lb/> by our president Stefano Maffei.<lb/> The roll call
                      of the officers returned the absence of<lb/> the following officers: First
@@ -6071,14 +6036,12 @@
                      finance: $160.65.<lb/> In the cashbox today: $3522.55.<lb/> Having nothing else
                      to attend to, the president declared<lb/> the meeting adjourned.<lb/> Secretary
                      President<lb/> 
-            <signed>G. Gianni</signed>  
-            <signed>S. Maffei</signed>  
-               </div>
-            </div>
-   </year>
-   <year when="1924">
-      <div type="meeting" when="1924-01-17">
-               <div type="transcription" when="1924-01-17">
+   <signed>G. Gianni</signed>  
+   <signed>S. Maffei</signed>  
+               
+            <year when="1924"/>
+   <div type="meeting" when="1924-01-17"/>
+               <div type="transcription" when="1924-01-17"/>
                   
                      <pb n="115" facs="../../img/meetingMinutes/115.png" when="1924-01-17"/> Giovedi 17 Gennaio 1924
                      alle ore .9. PM venne aperta la seduta regolare ordinaria<lb/> presieduta
@@ -6126,8 +6089,8 @@
                      dal Segretario di finanza $.143.50. -<lb/> In cassa oggi $.3611.85. -<lb/>
                      <del>Non avendo altro da fare il presidente dichiara<lb/> che
                            <unclear/>
-            </del>
-            <lb/> Fu presentato il certificato
+   </del>
+   <lb/> Fu presentato il certificato
                      medico del fratello<lb/> Santino Gambogi
                      per malattia. qualche membro<lb/> trovo’ che non era giusto di pagare ha
                         Santino<lb/> Gambogi il sussidio e
@@ -6137,10 +6100,10 @@
                         dichiara<lb/> sciolta la seduta ore 11.30. P.M.<lb/> Il Seg Il Presidente<lb/>
                         <signed>G. Gianni</signed>
                         <signed>Carlo Marconi</signed>
-            <lb/>
+   <lb/>
                   
-               </div>
-               <div type="translation" when="1924-01-17">
+               
+               <div type="translation" when="1924-01-17"/>
                   
                      <pb n="115" facs="../../img/meetingMinutes/115.png" when="1924-01-17"/> Thursday January 17, 1924
                      at 9 p.m.<lb/> the regular general meeting is brought to order,<lb/> presided
@@ -6175,20 +6138,19 @@
                      $143.50.<lb/> In the cashbox today: $3611.85.<lb/>
                      <del>Having nothing else to attend to, the president
                         declared<lb/> that <unclear/>
-            </del>
-            <lb/> The medical
+   </del>
+   <lb/> The medical
                      certificate of sickness of Brother Santino<lb/> Gambogi was presented. Some
                      members<lb/> noted that it was unjust to pay Santino<lb/> Gambogi his medical
                      subsidy and so the assembly<lb/> authorized the president to choose a
                      committee<lb/> to investigate [the matter] and to report on it next
                      meeting.<lb/> Having nothing else to attend to, the president declared<lb/> the
                      meeting adjourned at 11:30 p.m.<lb/> Secretary President<lb/> 
-            <signed>G. Gianni</signed>
+   <signed>G. Gianni</signed>
                       <signed>Carlo Marconi</signed>  
-               </div>
-            </div>
-      <div type="meeting" when="1924-02-17">
-               <div type="transcription" when="1924-02-17">
+               
+            <div type="meeting" when="1924-02-17"/>
+               <div type="transcription" when="1924-02-17"/>
                   
                      <pb n="117" facs="../../img/meetingMinutes/117.png" when="1924-02-17"/> Giovedi 21 Febbraio alle
                      ore 9. P.M.<lb/> venne aperta la seduta regolare ordinaria<lb/> presieduta
@@ -6223,10 +6185,10 @@
                         la seduta. 10.30<lb/> P.M.<lb/> Il Seg Il Pres.<lb/>
                         <signed>G. Gianni</signed>
                         <signed>C. Pellegrini</signed>
-            <lb/>
+   <lb/>
                   
-               </div>
-               <div type="translation" when="1924-02-17">
+               
+               <div type="translation" when="1924-02-17"/>
                   
                      <pb n="117" facs="../../img/meetingMinutes/117.png" when="1924-02-17"/> Thursday February 21 at 9
                      p.m.<lb/> the regular meeting is brought to order,<lb/> presided over by our
@@ -6246,12 +6208,11 @@
                      deposited. In the cashbox today:<lb/> $3907.90. Having nothing else to attend
                      to, our<lb/> first curator declared the meeting adjourned at 10:30 p.m.<lb/>
                      Secretary President<lb/> 
-            <signed>G. Gianni</signed>  
-            <signed>C. Pellegrini</signed>  
-               </div>
-            </div>
-      <div type="meeting" when="1924-03-20">
-               <div type="transcription" when="1924-03-20">
+   <signed>G. Gianni</signed>  
+   <signed>C. Pellegrini</signed>  
+               
+            <div type="meeting" when="1924-03-20"/>
+               <div type="transcription" when="1924-03-20"/>
                   
                      <pb n="118" facs="../../img/meetingMinutes/118.png" when="1924-03-20"/> Giovedi 20 Marzo 1924
                      alle ore. 9. P.M.<lb/> venne aperta la nostra seduta regolare<lb/> ordinaria
@@ -6301,12 +6262,12 @@
                         il presidente dichiara sciolta la seduta. 11.
                         P.M.<lb/> Il Seg Il Pres<lb/>
                         <signed>G. Gianni</signed>
-            <lb/>
+   <lb/>
                         <signed>C. Pellegrini</signed>
-            <lb/>
+   <lb/>
                   
-               </div>
-               <div type="translation" when="1924-03-20">
+               
+               <div type="translation" when="1924-03-20"/>
                   
                      <pb n="118" facs="../../img/meetingMinutes/118.png" when="1924-03-20"/> Thursday March 20, 1924
                      at 9 p.m.<lb/> our regular general meeting is brought to order,<lb/> presided
@@ -6339,13 +6300,12 @@
                      deposited $105.90. In the<lb/> cashbox today: $3875.75. Having nothing else to
                      attend to,<lb/> the president declared the meeting adjourned. [Time] 11:00
                      p.m.<lb/> Secretary President<lb/> 
-            <signed>G. Gianni</signed>  
-            <signed>C. Pellegrini</signed> 
+   <signed>G. Gianni</signed>  
+   <signed>C. Pellegrini</signed> 
                   
-               </div>
-            </div>
-      <div type="meeting" when="1924-04-19">
-               <div type="transcription" when="1924-04-19">
+               
+            <div type="meeting" when="1924-04-19"/>
+               <div type="transcription" when="1924-04-19"/>
                    Giovedi 19 Aprile 1924 alle ore 9 P.M.<lb/> venne aperta la nostra seduta
                      regolare<lb/> ordinaria presieduta dal nostro
                         presidente<lb/> Casimiro Pellegrini. 
@@ -6388,10 +6348,10 @@
                         10.45. P.M.<lb/> Il Seg Il Pres<lb/>
                         <signed>G. Gianni</signed>
                         <signed>Carlo Marconi</signed>
-            <lb/>
+   <lb/>
                   
-               </div>
-               <div type="translation" when="1924-04-19">
+               
+               <div type="translation" when="1924-04-19"/>
                    Thursday April 19, 1924 at 9 p.m.<lb/> our regular general meeting is brought
                      to order,<lb/> presided over by our president<lb/> Casimiro Pellegrini. The
                      roll call<lb/> returned the absences of the following officers:<lb/> Vice
@@ -6411,12 +6371,11 @@
                      $122.00. In the cashbox<lb/> today: $3916.40. Having nothing else to attend to,
                      the<lb/> president declared the meeting adjourned. [Time] 10:45 p.m.<lb/>
                      Secretary President<lb/> 
-            <signed>G. Gianni</signed>  
-            <signed>Carlo Marconi</signed>  
-               </div>
-            </div>
-      <div type="meeting" when="1924-05-15">
-               <div type="transcription" when="1924-05-15">
+   <signed>G. Gianni</signed>  
+   <signed>Carlo Marconi</signed>  
+               
+            <div type="meeting" when="1924-05-15"/>
+               <div type="transcription" when="1924-05-15"/>
                    Giovedi 15 Maggio 1924 alle ore 9 P.M.<lb/> venne aperta la nostra seduta
                      regolare<lb/> ordinaria, presieduta dal nostro
                         primo<lb/> curatore Carlo Marconi. 
@@ -6462,11 +6421,11 @@
                      Non avendo altro da fare il presdiente
                         dichiara<lb/> chiusa la seduta ore 10.45 P.M.<lb/> Il Seg <signed>C.
                            Pellegrini</signed>
-            <lb/>
+   <lb/>
                         <signed>G. Gianni</signed> Pres<lb/>
                   
-               </div>
-               <div type="translation" when="1924-05-15">
+               
+               <div type="translation" when="1924-05-15"/>
                    Thursday May 15, 1924 at 9 p.m.<lb/> our regular general meeting is brought
                      to order,<lb/> presided over by our first<lb/> curator Carlo Marconi. The roll
                      call<lb/> returned the absences of the following officers:<lb/> President
@@ -6492,11 +6451,10 @@
                      finance: $47.25<lb/> Having nothing else to attend to , the president
                      declared<lb/> the meeting adjourned at 10:45 p.m.<lb/> Secretary <signed>C. Pellegrini</signed>
                      <lb/> 
-            <signed>G. Gianni</signed>  President 
-               </div>
-            </div>
-      <div type="meeting" when="1924-06-19">
-               <div type="transcription" when="1924-06-19">
+   <signed>G. Gianni</signed>  President 
+               
+            <div type="meeting" when="1924-06-19"/>
+               <div type="transcription" when="1924-06-19"/>
                   
                      <pb n="122" facs="../../img/meetingMinutes/122.png" when="1924-06-19"/> Giovedi 19 Giugno 1924
                      alle ore 9. P.M.<lb/> venne aperta la nostra seduta regolare<lb/> ordinaria
@@ -6524,10 +6482,10 @@
                      Non avendo altro da fare il presidente
                         dichiara<lb/> sciolta la seduta ore. 10.30 P.M.<lb/> Il Seg Cas. Pellegrini<lb/>
                         <signed>G. Gianni</signed>
-            <lb/>
+   <lb/>
                   
-               </div>
-               <div type="translation" when="1924-06-19">
+               
+               <div type="translation" when="1924-06-19"/>
                   
                      <pb n="122" facs="../../img/meetingMinutes/122.png" when="1924-06-19"/> Thursday June 19, 1924 at
                      9 p.m.<lb/> our regular general meeting brought to order,<lb/> presided over by
@@ -6545,12 +6503,11 @@
                      today: $3911.08.<lb/> Having nothing else to attend to, the president
                      declared<lb/> the meeting adjourned at 10:30 p.m.<lb/> Secretary
                      [President]<lb/> 
-            <signed>G. Gianni</signed>  
-            <signed>Cas. Pellegrini</signed>  
-               </div>
-            </div>
-      <div type="meeting" when="1924-07-17">
-               <div type="transcription" when="1924-07-17">
+   <signed>G. Gianni</signed>  
+   <signed>Cas. Pellegrini</signed>  
+               
+            <div type="meeting" when="1924-07-17"/>
+               <div type="transcription" when="1924-07-17"/>
                   
                      <pb n="123" facs="../../img/meetingMinutes/123.png" when="1924-07-17"/> Giovedi 17 Luglio 1924
                      alle ore 9. P.M.<lb/> venne aperta la nostra seduta regolare<lb/> ordinaria
@@ -6610,10 +6567,10 @@
                         dichiara<lb/> sciolta la seduta ore 10.30. P.M.<lb/> Il Seg<lb/>
                         <signed>G. Gianni</signed>
                         <signed>C. Pellegrini</signed>
-            <lb/>
+   <lb/>
                   
-               </div>
-               <div type="translation" when="1924-07-17">
+               
+               <div type="translation" when="1924-07-17"/>
                   
                      <pb n="123" facs="../../img/meetingMinutes/123.png" when="1924-07-17"/> Thursday July 17. 1924 at
                      9 p.m.<lb/> our regular general meeting is brought to order,<lb/> presided over
@@ -6645,12 +6602,11 @@
                      today: $3952.63.<lb/> Having nothing else to attend to, the president
                      declared<lb/> the meeting adjourned at 10:30 p.m.<lb/> Secretary
                      [President]<lb/> 
-            <signed>G. Gianni</signed>  
-            <signed>C. Pellegrini</signed>  
-               </div>
-            </div>
-      <div type="meeting" when="1924-08-21">
-               <div type="transcription" when="1924-08-21">
+   <signed>G. Gianni</signed>  
+   <signed>C. Pellegrini</signed>  
+               
+            <div type="meeting" when="1924-08-21"/>
+               <div type="transcription" when="1924-08-21"/>
                   
                      <pb n="125" facs="../../img/meetingMinutes/125.png" when="1924-08-21"/> Giovedi 21 Agosto 1924
                      alle ore 9. P.M.<lb/> venne aperta la nostra seduta regolare<lb/> ordinaria,
@@ -6708,12 +6664,12 @@
                         dichiara<lb/> sciolta la seduta. ore 10.30. P.M.<lb/> Il Seg Il Pres<lb/>
                         <signed>G. Gianni</signed>
                         <signed>Chaz Marconi</signed>
-            <lb/>
+   <lb/>
                         <signed>C. Pellegrini</signed>
                      <lb/>
                   
-               </div>
-               <div type="translation" when="1924-08-21">
+               
+               <div type="translation" when="1924-08-21"/>
                   
                      <pb n="125" facs="../../img/meetingMinutes/125.png" when="1924-08-21"/> Thursday August 21, 1924
                      at 9 p.m.<lb/> our regular general meeting is brought to order,<lb/> presided
@@ -6741,14 +6697,13 @@
                      the Secretary of Finance: $44.25.<lb/> In the cashbox today: $3933.78.<lb/>
                      Having nothing else to attend to, the president declared<lb/> the meeting
                      adjourned. Time 10:30 p.m.<lb/> Secretary President<lb/> 
-            <signed>G. Gianni</signed> 
+   <signed>G. Gianni</signed> 
                      <signed>Chas Marconi</signed> 
-            <lb/> 
-            <signed>C. Pellegrini</signed>  
-               </div>
-            </div>
-      <div type="meeting" when="1924-09-18">
-               <div type="transcription" when="1924-09-18">
+   <lb/> 
+   <signed>C. Pellegrini</signed>  
+               
+            <div type="meeting" when="1924-09-18"/>
+               <div type="transcription" when="1924-09-18"/>
                    Giovedi 18 Settembre 1924 alle ore . 9 P.M venne<lb/> aperta la nostra seduta
                      regolare ordinaria presieduta<lb/>
                      dal nostro presidente Casimiro
@@ -6795,11 +6750,11 @@
                      $3965.53. non avendo alto<lb/> da fare il presidente dichira sciolta la
                         seduta ore.<lb/> .11. P.M.<lb/> Il Seg.<lb/>
                         <signed>G Gianni</signed>
-            <lb/>
+   <lb/>
                         <signed>C. Pellegrini</signed> Pres.<lb/>
                   
-               </div>
-               <div type="translation" when="1924-09-18">
+               
+               <div type="translation" when="1924-09-18"/>
                    Thursday September 18, 1924 at 9 p.m. our<lb/> regular general meeting is
                      brought to order, presided over<lb/> by our president Casimiro Pellegrini.<lb/>
                      The roll call returned no absent<lb/> officers. The previous meeting’s minutes
@@ -6822,14 +6777,13 @@
                      Martino Borelli. Deposited by the Secretary of Finance: $61.50.<lb/> In the
                      cashbox today: $3965.53. Having nothing<lb/> else to attend to, the president
                      declared the meeting adjourned.<lb/> Time 11 P.M.<lb/> The Secretary<lb/> 
-            <signed>G.
+   <signed>G.
                      Gianni</signed> 
-            <lb/> 
-            <signed>C. J. Pellegrini</signed>  Pres. 
-               </div>
-            </div>
-      <div type="meeting" when="1924-10-16">
-               <div type="transcription" when="1924-10-16">
+   <lb/> 
+   <signed>C. J. Pellegrini</signed>  Pres. 
+               
+            <div type="meeting" when="1924-10-16"/>
+               <div type="transcription" when="1924-10-16"/>
                   
                      <pb n="128" facs="../../img/meetingMinutes/128.png" when="1924-10-16"/> Giovedi 16 Ottobre 1924,
                      alle ore 8.30 P.M.<lb/> venne aperta la nostra seduta regolare<lb/> ordinaria
@@ -6932,10 +6886,10 @@
                      $338.26. Non avendo altro da fare il<lb/>
                            presidente dichiara sciolt la seduta 11.30 PM Il Seg <signed>G.
                            Gianni</signed>. <signed>C Pellegrini</signed>
-            <lb/> Pres.<lb/>
+   <lb/> Pres.<lb/>
                   
-               </div>
-               <div type="translation" when="1924-10-16">
+               
+               <div type="translation" when="1924-10-16"/>
                   
                      <pb n="128" facs="../../img/meetingMinutes/128.png" when="1924-10-16"/> Thursday October 16, 1924
                      at 8:30 p.m.<lb/> our regular general meeting is brought to order,<lb/>
@@ -6974,12 +6928,11 @@
                      the rent for the room.<lb/> Total: $338.26. Having nothing else to attend to,
                      the<lb/> president declared the meeting adjourned. Time 11:30 p.m.<lb/> The
                      Secretary <signed>G. Gianni</signed>  
-            <signed>C. J. Pellegrini</signed> 
-            <lb/> Pres. 
-               </div>
-            </div>
-      <div type="meeting" when="1924-11-20">
-               <div type="transcription" when="1924-11-20">
+   <signed>C. J. Pellegrini</signed> 
+   <lb/> Pres. 
+               
+            <div type="meeting" when="1924-11-20"/>
+               <div type="transcription" when="1924-11-20"/>
                   
                      <pb n="130" facs="../../img/meetingMinutes/130.png" when="1924-11-20"/> Giovedi 20 Novembre 1924,
                      alle ore 9.15. P.M.<lb/> venne aperta la nostra seduta ordinaria<lb/>
@@ -7056,10 +7009,10 @@
                         dichiara<lb/> sciolta la seduta ore 11.00. P.M.<lb/> Il Seg Il Pres.<lb/>
                         <signed>G. Gianni</signed>
                         <signed>Jacopo Sodini</signed>
-            <lb/>
+   <lb/>
                   
-               </div>
-               <div type="translation" when="1924-11-20">
+               
+               <div type="translation" when="1924-11-20"/>
                   
                      <pb n="130" facs="../../img/meetingMinutes/130.png" when="1924-11-20"/> Thursday November 20,
                      1924 at 9:15 p.m.<lb/> our usual general meeting is brought to order,<lb/>
@@ -7095,13 +7048,12 @@
                      Adelmo Dati,<lb/> Olinto Cinelli, and Ettore Fontana.<lb/> Having nothing else
                      to attend to, the president declared<lb/> the meeting adjourned. Time 11:00
                      p.m.<lb/> Secretary President<lb/> 
-            <signed>G. Gianni</signed>  
-            <signed>Jacopo Sodini</signed> 
+   <signed>G. Gianni</signed>  
+   <signed>Jacopo Sodini</signed> 
                   
-               </div>
-            </div>
-      <div type="meeting" when="1924-12-18">
-               <div type="transcription" when="1924-12-18">
+               
+            <div type="meeting" when="1924-12-18"/>
+               <div type="transcription" when="1924-12-18"/>
                   
                      <pb n="132" facs="../../img/meetingMinutes/132.png" when="1924-12-18"/> Giovedi 18 Dicembre 1924
                      alle ore 9.15. P.M.<lb/> venne aperta la nostra seduta regolare ordinaria<lb/>
@@ -7170,10 +7122,10 @@
                         10.30.P.M.<lb/> Il Seg Il Pres<lb/>
                         <signed>G. Gianni</signed>
                         <signed>J Sodini</signed>
-            <lb/>
+   <lb/>
                   
-               </div>
-               <div type="translation" when="1924-12-18">
+               
+               <div type="translation" when="1924-12-18"/>
                   
                      <pb n="132" facs="../../img/meetingMinutes/132.png" when="1924-12-18"/> Thursday December 18th,
                      1924 at 9:15 p.m.<lb/> our regular general meeting is brought to order,<lb/>
@@ -7211,14 +7163,12 @@
                      complimentary refreshments<lb/> to all members. Having nothing else to attend
                      to,<lb/> the president declared the meeting adjourned. Time 10:30 p.m.<lb/>
                      Secretary President<lb/> 
-            <signed>G. Gianni</signed>  
-            <signed>J Sodini</signed>  
-               </div>
-            </div>
-   </year>
-   <year when="1925">
-      <div type="meeting" when="1925-01-15">
-               <div type="transcription" when="1925-01-15">
+   <signed>G. Gianni</signed>  
+   <signed>J Sodini</signed>  
+               
+            <year when="1925"/>
+   <div type="meeting" when="1925-01-15"/>
+               <div type="transcription" when="1925-01-15"/>
                   
                      <pb n="134" facs="../../img/meetingMinutes/134.png" when="1925-01-15"/> Giovedi 15 Gennaio 1925
                      alle ore. 9. P.M.<lb/> venne aperta la nostra seduta regolare<lb/> ordinaria
@@ -7270,10 +7220,10 @@
                         Il Seg Il Pres<lb/>
                         <signed>G. Gianni</signed>
                         <signed>M. Simonetti</signed>
-            <lb/>
+   <lb/>
                   
-               </div>
-               <div type="translation" when="1925-01-15">
+               
+               <div type="translation" when="1925-01-15"/>
                   
                      <pb n="134" facs="../../img/meetingMinutes/134.png" when="1925-01-15"/> Thursday January 15,1925
                      at 9 p.m.<lb/> our regular general meeting is brought to order,<lb/> presided
@@ -7297,17 +7247,16 @@
                      operates the elevator.<lb/> Proposed by Michele Simonetti and seconded<lb/> by
                      Stefano Maffei to host a paid banquet<lb/>
                      <pb n="135" facs="../../img/meetingMinutes/135.png" when="1925-01-15"/>
-            <lb/> with the date not
+   <lb/> with the date not
                      yet fixed. Deposited by the<lb/> Secretary of Finance: 128.25. Total in the
                      cashbox<lb/> today: $3837.40. Having nothing else to attend to, the
                      president<lb/> declared the meeting adjourned. Time 11:15 p.m.<lb/> Secretary
                      President<lb/> 
-            <signed>G. Gianni</signed>  
-            <signed>M. Simonetti</signed>  
-               </div>
-            </div>
-      <div type="meeting" when="1925-02-19">
-               <div type="transcription" when="1925-02-19">
+   <signed>G. Gianni</signed>  
+   <signed>M. Simonetti</signed>  
+               
+            <div type="meeting" when="1925-02-19"/>
+               <div type="transcription" when="1925-02-19"/>
                    Giovedi 19 Febbraio 1925 alle ore. 9. P.M. venne<lb/> aperta la nostra seduta
                      regolare ordinaria<lb/> presieduta dal nostro
                         presidente Michele<lb/> Simonetti. 
@@ -7363,15 +7312,15 @@
                         ore. 11. P.M.<lb/>
                         <signed>Il Seg G. Gianni</signed> Il Pres.<lb/>
                         <signed>M. Simonetti</signed>
-            <lb/> Avendo il comitato banchetto
+   <lb/> Avendo il comitato banchetto
                      ballo saputo e<lb/> informato il presidente che il padrone del<lb/> Nixson
                      Restaurant voleva $3.50 e colla<lb/> musica andava a costare $4.00 dollari
                      il<lb/> presidente chiamo’ una seduta straordinaria<lb/> per decidere, il
                      giorno. 8. Marzo 1925 e<lb/> l’assemblea accetto’ il prezzo stabilito
                      $4.00<lb/> M. Simonetti [firmato]<lb/>
                   
-               </div>
-               <div type="translation" when="1925-02-19">
+               
+               <div type="translation" when="1925-02-19"/>
                    Thursday February 19, 1925 at 9 P.M.<lb/> our regular general meeting is
                      brought to order,<lb/> presided over by our president Michele<lb/> Simonetti.
                      The roll call returned the<lb/> sole absence of Curator Ermete Vannucci.<lb/>
@@ -7387,7 +7336,7 @@
                      Maffei, it was approved<lb/> to host the (ball-banquet) in parallel with the
                      exemption for<lb/>
                      <pb n="136" facs="../../img/meetingMinutes/136.png" when="1925-02-19"/>
-            <lb/> those between 18 and
+   <lb/> those between 18 and
                      35 years of age who wish<lb/> to join this League, effective the day of<lb/>
                      March 19th and terminating the night of the ball,<lb/> which will be hosted at
                      the Nixon Restaurant on<lb/> Sunday night. For this the following
@@ -7404,18 +7353,17 @@
                      Finance: $55.50. In the cashbox today: $3837.40.<lb/> Having nothing else to
                      attend to, the president declared<lb/> the meeting adjourned. Time 11:00
                      p.m.<lb/> Secretary <signed>G. Gianni</signed>  President<lb/> 
-            <signed>M. Simonetti</signed>
+   <signed>M. Simonetti</signed>
                      <lb/> Since the Ball Committee was aware of the fact, and<lb/> had
                      informed the president, that the manager of the<lb/> Nixon Restaurant wanted
                      [to charge] $3.50, and with<lb/> music included it would cost $4.00, the<lb/>
                      president called an extraordinary meeting for the day<lb/> of March 8, 1925 to
                      make a decision, [but] the<lb/> assembly accepted the fixed price of
                      $4.00.<lb/> 
-            <signed>M. Simonetti</signed>  
-               </div>
-            </div>
-      <div type="meeting" when="1925-03-19">
-               <div type="transcription" when="1925-03-19">
+   <signed>M. Simonetti</signed>  
+               
+            <div type="meeting" when="1925-03-19"/>
+               <div type="transcription" when="1925-03-19"/>
                   
                      <pb n="137" facs="../../img/meetingMinutes/137.png" when="1925-03-19"/> Giovedi 19 Marzo 1925
                      alle ore 8.45. P.M.<lb/> venne aperta la nostra seduta regolare ordinaria<lb/>
@@ -7528,10 +7476,10 @@
                         ore. 11.15. P.M.<lb/> Il Seg Il Pres<lb/>
                         <signed>G. Gianni</signed>
                         <signed>M. Simonetti</signed>
-            <lb/>
+   <lb/>
                   
-               </div>
-               <div type="translation" when="1925-03-19">
+               
+               <div type="translation" when="1925-03-19"/>
                   
                      <pb n="137" facs="../../img/meetingMinutes/137.png" when="1925-03-19"/> Thursday March 19, 1925
                      at 8:45 p.m.<lb/> our regular general meeting is brought to order,<lb/>
@@ -7556,7 +7504,7 @@
                      nominate the administration for the banquet,<lb/> the president nominated the
                      following members:<lb/> President Stefano Maffei, Vice President Lorenzo<lb/>
                      <pb n="138" facs="../../img/meetingMinutes/138.png" when="1925-03-19"/>
-            <lb/> Vigano’, Treasurer
+   <lb/> Vigano’, Treasurer
                      Santino Pasquinelli, and<lb/> Secretary Giuseppe Gianni. For the
                      reception,<lb/> the president nominated Adelmo Dati and<lb/> Muzio Frediani.
                      Having two proposals for the<lb/> date of the ball, the first for the
@@ -7572,13 +7520,12 @@
                      Finance: $82.25<lb/> In the cashbox today: $3844.90. Having nothing else<lb/>
                      to attend to, the president declared the meeting<lb/> adjourned. Time 11:15
                      p.m.<lb/> Secretary President<lb/> 
-            <signed>G. Gianni</signed>  
-            <signed>M.Simonetti</signed> 
+   <signed>G. Gianni</signed>  
+   <signed>M.Simonetti</signed> 
                   
-               </div>
-            </div>
-      <div type="meeting" when="1925-04-16">
-               <div type="transcription" when="1925-04-16">
+               
+            <div type="meeting" when="1925-04-16"/>
+               <div type="transcription" when="1925-04-16"/>
                   
                      <pb n="139" facs="../../img/meetingMinutes/139.png" when="1925-04-16"/> Giovedi 16 Aprile 1925,
                      alle ore .9. P.M.<lb/> venne aperta la nostra seduta regolare<lb/> ordinaria
@@ -7646,8 +7593,8 @@
                         <signed>E De Santi</signed>
                      
                   
-               </div>
-               <div type="translation" when="1925-04-16">
+               
+               <div type="translation" when="1925-04-16"/>
                   
                      <pb n="139" facs="../../img/meetingMinutes/139.png" when="1925-04-16"/> Thursday April 16, 1925
                      at 9 p.m.<lb/> our regular general meeting is brought to order,<lb/> presided
@@ -7672,19 +7619,18 @@
                      28th were accepted. The head curator gave the<lb/> expense report of the first
                      trimester, reporting<lb/>
                      <pb n="140" facs="../../img/meetingMinutes/140.png" when="1925-04-16"/>
-            <lb/> to have found the
+   <lb/> to have found the
                      books to be in perfect order.<lb/> Deposited by the Secretary of Finance:
                      $114.25.<lb/> In the cashbox today: $3903.43. Having nothing else<lb/> to
                      attend to, the president declared the meeting adjourned.<lb/> Time 11:00
                      p.m.<lb/> Secretary President<lb/> 
-            <signed>G. Gianni</signed> 
-            <lb/> 
-            <signed>E. DeSanti</signed> 
+   <signed>G. Gianni</signed> 
+   <lb/> 
+   <signed>E. DeSanti</signed> 
                   
-               </div>
-            </div>
-      <div type="meeting" when="1925-05-21">
-               <div type="transcription" when="1925-05-21">
+               
+            <div type="meeting" when="1925-05-21"/>
+               <div type="transcription" when="1925-05-21"/>
                    Giovedi 21 Maggio 1925, alle ore 9 P.M venne aperta la nostra seduta
                      regolare<lb/> ordinaria presieduta dal nostro
                         presidente<lb/> Michele Simonetti. 
@@ -7792,10 +7738,10 @@
                         dichiara sciolta la seduta. 11. P.M.<lb/> Il Seg<lb/>
                         <signed>G. Gianni</signed>
                         <signed>M. G. Simonetti</signed>
-            <lb/>
+   <lb/>
                   
-               </div>
-               <div type="translation" when="1925-05-21">
+               
+               <div type="translation" when="1925-05-21"/>
                    Thursday May 21, 1925 at 9 p.m.<lb/> our regular general meeting is brought
                      to order,<lb/> presided over by our president<lb/> Michele Simonetti. The roll
                      call<lb/> returned the absences of the following officers:<lb/> Third Curator
@@ -7807,7 +7753,7 @@
                      Franchini,<lb/> Enrico De Luca, Gino Ghinacci, Olindo<lb/> Pacini, Giuseppe
                      Sodini, Giuseppe<lb/> Tambellini, Dino Barontini, Pietro<lb/>
                      <pb n="141" facs="../../img/meetingMinutes/141.png" when="1925-05-21"/>
-            <lb/> Giorgetti, Archise
+   <lb/> Giorgetti, Archise
                      Ragghianti, and Giuseppe<lb/> Francesconi. At this moment the vice
                      president<lb/> stood up and thanked all the members<lb/> for the good outcome
                      of the banquet,<lb/> and furthermore he explained the manner in which we
@@ -7827,7 +7773,7 @@
                      Pasquinelli: 3 members<lb/> Giuseppe Fredianelli: 5 members<lb/> Giuseppe
                      Gianni: 3 members<lb/> Lorenzo Lunardini: 8 members<lb/> Adelmo Dati: 5 members<lb/>
                      <pb n="142" facs="../../img/meetingMinutes/142.png" when="1925-05-21"/>
-            <lb/> Ezio Dini: 4
+   <lb/> Ezio Dini: 4
                      members<lb/> Francesco Lunardini: 4 members<lb/> Aladino Piaggesi: 4
                      members<lb/> Jacopo Sodini: 4 members<lb/> In addition to the banquet, the
                      following<lb/> members are entitled to a prize as was outlined<lb/> in the
@@ -7839,13 +7785,12 @@
                      of Finance: $130.00<lb/> In the cashbox today: $3952.16.<lb/> Having nothing
                      else to attend to, the president<lb/> declared the meeting adjourned. Time
                      11:00 p.m.<lb/> Secretary [President]<lb/>
-            <signed>G. Gianni</signed>  
-            <signed>M.G. Simonetti</signed>
+   <signed>G. Gianni</signed>  
+   <signed>M.G. Simonetti</signed>
                       
-               </div>
-            </div>
-      <div type="meeting" when="1925-06-18">
-               <div type="transcription" when="1925-06-18">
+               
+            <div type="meeting" when="1925-06-18"/>
+               <div type="transcription" when="1925-06-18"/>
                   
                      <pb n="143" facs="../../img/meetingMinutes/143.png" when="1925-06-18"/> Giovedi 18 Giugno 1925
                      alle ore 9 .P.M.<lb/> venne aperta la nostra seduta regolare ordinaria<lb/>
@@ -7892,8 +7837,8 @@
                      la firma di presidente Michele Simonetti si trova scritto
                         in matita sopra le ultimi righe del verbale, in fondo a pagina 143
                   
-               </div>
-               <div type="translation" when="1925-06-18">
+               
+               <div type="translation" when="1925-06-18"/>
                   
                      <pb n="143" facs="../../img/meetingMinutes/143.png" when="1925-06-18"/> Thursday June 18, 1925 at
                      9 p.m.<lb/> our regular general meeting is brought to order,<lb/> presided over
@@ -7917,12 +7862,11 @@
                      Finance: $89.00<lb/> Having nothing else to attend to, the president
                      declared<lb/> the meeting adjourned. Time 10:45 p.m.<lb/> The Secretary <signed>G.
                      Gianni</signed> 
-            <lb/> 
-            <signed>Michele Simonetti</signed>  
-               </div>
-            </div>
-      <div type="meeting" when="1925-07-16">
-               <div type="transcription" when="1925-07-16">
+   <lb/> 
+   <signed>Michele Simonetti</signed>  
+               
+            <div type="meeting" when="1925-07-16"/>
+               <div type="transcription" when="1925-07-16"/>
                   
                      <pb n="144" facs="../../img/meetingMinutes/144.png" when="1925-07-16"/> Giovedi 16 Luglio 1925
                      alle ore .9 P.M.<lb/> venne aperta la nostra seduta regolare<lb/> ordinaria
@@ -7988,10 +7932,10 @@
                         sciolta<lb/> la seduta ore 11.15 P.M.<lb/> Il Seg Il Pres<lb/>
                         <signed>G. Gianni</signed>
                         <signed>O A Cinelli</signed>
-            <lb/>
+   <lb/>
                   
-               </div>
-               <div type="translation" when="1925-07-16">
+               
+               <div type="translation" when="1925-07-16"/>
                   
                      <pb n="144" facs="../../img/meetingMinutes/144.png" when="1925-07-16"/> Thursday July 16, 1925 at
                      9 p.m.<lb/> our regular general meeting is brought to order,<lb/> presided over
@@ -8014,17 +7958,16 @@
                      Enrico Sandroni for illness : $60.00<lb/> Lorenzo Vigano’ was refunded $0.75
                      that<lb/> his nephew Ernesto Vigano had paid<lb/>
                      <pb n="145" facs="../../img/meetingMinutes/145.png" when="1925-07-16"/>
-            <lb/> in advance at the
+   <lb/> in advance at the
                      time of his death.<lb/> Deposited by the Secretary of Finance: $215.75<lb/> In
                      the cashbox today: $3926.01. Having nothing else<lb/> to attend to, the
                      president declared the meeting<lb/> adjourned. Time 11:15 p.m.<lb/> Secretary
                      President<lb/> 
-            <signed>G. Gianni</signed>  
-            <signed>O. A. Cinelli</signed>  
-               </div>
-            </div>
-      <div type="meeting" when="1925-08-20">
-               <div type="transcription" when="1925-08-20">
+   <signed>G. Gianni</signed>  
+   <signed>O. A. Cinelli</signed>  
+               
+            <div type="meeting" when="1925-08-20"/>
+               <div type="transcription" when="1925-08-20"/>
                    Giovedi 20 Agosto 1925 alle ore 9.30 P.M.<lb/> venne aperta la nostra seduta
                      regolare<lb/> ordinaria presiduta dal primo
                         curatore<lb/> Olinto Cinelli. 
@@ -8061,14 +8004,14 @@
                      Non avendo altro da fare il presidente
                         dichiara<lb/> sciolta la seduta ore .11. PM.<lb/> Il Seg Il Pres<lb/>
                         <signed>G. Gianni</signed>
-            <signed>M. G. Simonetti</signed>
-            <lb/>
+   <signed>M. G. Simonetti</signed>
+   <lb/>
                      The meeting was said to have been adjourned by the
                         president, Mike Simonetti, who was absent at this meeting. I attributed the
                         presiding officer, Olinto Cinelli, with having done so instead.
                   
-               </div>
-               <div type="translation" when="1925-08-20">
+               
+               <div type="translation" when="1925-08-20"/>
                    Thursday August 20, 1925 at 9:30 p.m.<lb/> our regular general meeting is
                      brought to order,<lb/> presided over by the First Curator<lb/> Olinto Cinelli.
                      The roll call<lb/> returned the absences of the following officers:<lb/>
@@ -8082,17 +8025,16 @@
                      committee<lb/> was selected to find a location:<lb/> Michele Simonetti,
                      Giuseppe Fredianelli,<lb/> Santino Pasquinelli, Stefano Maffei, and<lb/> Olinto Cinelli.<lb/>
                      <pb n="146" facs="../../img/meetingMinutes/146.png" when="1925-08-20"/>
-            <lb/> Deposited by the
+   <lb/> Deposited by the
                      Secretary of Finance: $71.25<lb/> In the cashbox today: $4027.27<lb/> Having
                      nothing else to attend to, the president declared<lb/> the meeting adjourned.
                      Time 11:00 p.m.<lb/> Secretary President<lb/> 
-            <signed>G. Gianni</signed>  
-            <signed>M.G. Simonetti</signed>
+   <signed>G. Gianni</signed>  
+   <signed>M.G. Simonetti</signed>
                       
-               </div>
-            </div>
-      <div type="meeting" when="1925-09-17">
-               <div type="transcription" when="1925-09-17">
+               
+            <div type="meeting" when="1925-09-17"/>
+               <div type="transcription" when="1925-09-17"/>
                    Giovedi 17 Settembre 1925 alle ore .9. P.M.<lb/> venne aperta la nostra
                      seduta regolare ordinar-<lb/> ia presieduta dal
                         nostro presidente Michele<lb/> Simonetti
@@ -8132,10 +8074,10 @@
                         dichiara<lb/> sciolta la seduta ore .11. P.M.<lb/> Il Seg Il Pres.<lb/>
                         <signed>G Gianni</signed>
                         <signed>MG Simonetti</signed>
-            <lb/>
+   <lb/>
                   
-               </div>
-               <div type="translation" when="1925-09-17">
+               
+               <div type="translation" when="1925-09-17"/>
                    Thursday September 17, 1925 at 9 p.m.<lb/> our regular general meeting was
                      brought to order,<lb/> presided over by our president Michele<lb/> Simonetti.
                      The roll call returned the<lb/> absences of the following officers: Third
@@ -8152,7 +8094,7 @@
                      playing: $0.50.<lb/> Total Income: $907.75.<lb/> Expenses: Car: $5.00, 5 rolls
                      of tickets for<lb/> drinks and other things: $3.00, Ice: $8.00,<lb/>
                      <pb n="147" facs="../../img/meetingMinutes/147.png" when="1925-09-17"/>
-            <lb/> Beer: $217.00,
+   <lb/> Beer: $217.00,
                      Locale: $85.00, Lost bottles: $10.00,<lb/> Car: $5.00, Stefano Maffei:
                      $8.85,<lb/> Police officers at the field: $10.00, [Angelo] Pascuzzi:
                      $6.00,<lb/> Enemia DeSanti: $47.63, Rama per poppa: $46.55,<lb/> Pasquinelli
@@ -8165,13 +8107,12 @@
                      the countryside party: $217.29<lb/> In the cashbox today: $4098.52<lb/> Having
                      nothing else to attend to, the president declared<lb/> the meeting adjourned.
                      Time 11:00 p.m.<lb/> Secretary President<lb/> 
-            <signed>G. Gianni</signed>  
-            <signed>M.G. Simonetti</signed>
+   <signed>G. Gianni</signed>  
+   <signed>M.G. Simonetti</signed>
                       
-               </div>
-            </div>
-      <div type="meeting" when="1925-10-15">
-               <div type="transcription" when="1925-10-15">
+               
+            <div type="meeting" when="1925-10-15"/>
+               <div type="transcription" when="1925-10-15"/>
                    Giovedi 15 Ottobre 1925 alle ore 9. P.M.<lb/> venne aperta la nostra seduta
                      regolare<lb/> ordinaria presieduta dal nostro
                         presidente<lb/> Michele Simonetti. 
@@ -8212,16 +8153,16 @@
                         dichiara sciolta la seduta ore 10.45 PM<lb/> Il Seg Il Pres<lb/>
                         <signed>G Gianni</signed>
                         <signed>M G Simonetti</signed>
-            <lb/>
+   <lb/>
                   
-               </div>
-               <div type="translation" when="1925-10-15">
+               
+               <div type="translation" when="1925-10-15"/>
                    Thursday October 15, 1925 at 9 p.m.<lb/> our regular general meeting is
                      brought to order,<lb/> presided over by our president<lb/> Michele Simonetti.
                      The roll call<lb/> returned the absences of the following officers:<lb/> Vice
                      President Enemia DeSanti, First<lb/> Curator Olinto Cinelli, and Room Guard<lb/>
                      <pb n="148" facs="../../img/meetingMinutes/148.png" when="1925-10-15"/>
-            <lb/> Eugenio Merciadri.
+   <lb/> Eugenio Merciadri.
                      Last meeting’s minutes<lb/> were approved as read. Since the<lb/> New Loggia
                      November 4th No. 1344 sent<lb/> 25 complimentary tickets to the League to<lb/>
                      participate in the commemoration of<lb/> the 4th of November, a historic day
@@ -8240,20 +8181,19 @@
                      the Secretary of Finance: $60.75<lb/> In the cashbox today: $4582.26.<lb/>
                      Having nothing else to attend to, the president<lb/> declared the meeting
                      adjourned. Time 10:45 p.m.<lb/> Secretary President<lb/> 
-            <signed>G. Gianni</signed>  
-            <signed>M G
+   <signed>G. Gianni</signed>  
+   <signed>M G
                      Simonetti</signed>  
-               </div>
-            </div>
-      <div type="meeting" when="1925-11-19">
-               <div type="transcription" when="1925-11-19">
+               
+            <div type="meeting" when="1925-11-19"/>
+               <div type="transcription" when="1925-11-19"/>
                   
                      <pb n="149" facs="../../img/meetingMinutes/149.png" when="1925-11-19"/> Giovedi 19 Novembre 1925
                      alle ore .9. P.M.<lb/> venne aperta la nostra seduta regolare<lb/> ordinaria
                      presieduta dal nostro presidente<lb/> Michele
                         Simonetti. All’appello nominale<lb/>
                      <del>risultavano assenti i seguenti ufficiali</del>
-            <lb/> non
+   <lb/> non
                      risultava assente nessuno ufficiale. Il<lb/> processo verbale venne approvato
                      come letto.<lb/>
                      
@@ -8361,18 +8301,18 @@
                         avendo altro da<lb/> fare il presidente dichiara
                         sciolta la seduta. ore<lb/> 11 P.M. Il Pres.<lb/> Il Seg. <signed>G
                            Gianni</signed>
-            <lb/>
+   <lb/>
                         <signed>M G Simonetti</signed>
-            <lb/>
+   <lb/>
                   
-               </div>
-               <div type="translation" when="1925-11-19">
+               
+               <div type="translation" when="1925-11-19"/>
                   
                      <pb n="149" facs="../../img/meetingMinutes/149.png" when="1925-11-19"/> Thursday November 19,
                      1925 at 9 p.m.<lb/> our regular general meeting is brought to order,<lb/>
                      presided over by our president<lb/> Michele Simonetti. The roll call<lb/>
                      <del>returned the absences of the following officers</del>
-            <lb/>
+   <lb/>
                      returned no absent officers. Last meeting’s<lb/> minutes were approved as
                      read.<lb/> Federigo Barsanti and Alfredo Tamburi<lb/> were admitted as new
                      members. After a long discussion<lb/> regarding the Zini-Vigano’ proposal to
@@ -8407,12 +8347,11 @@
                      Olinto Cinelli, and<lb/> Americo Pasquinelli. Having nothing else to
                      attend<lb/> to, the president declared the meeting adjourned.<lb/> Time 11:00
                      p.m.<lb/> The Secretary <signed>G Gianni</signed>  President<lb/> 
-            <signed>MG Simonetti</signed> 
+   <signed>MG Simonetti</signed> 
                   
-               </div>
-            </div>
-      <div type="meeting" when="1925-12-17">
-               <div type="transcription" when="1925-12-17">
+               
+            <div type="meeting" when="1925-12-17"/>
+               <div type="transcription" when="1925-12-17"/>
                    Giovedi 17 Dicembre 1925 alle ore 9. P.M. venne<lb/> aperta la nostra seduta
                      regolare ordinaria presie-<lb/> duta dal nostro
                         pres. Michele Simonetti. 
@@ -8477,10 +8416,10 @@
                         dichiara<lb/> sciolta la seduta ore 11.30 P.M.<lb/> Il Seg Il Pres<lb/>
                         <signed>G Gianni</signed>
                         <signed>M G Simonetti</signed>
-            <lb/>
+   <lb/>
                   
-               </div>
-               <div type="translation" when="1925-12-17">
+               
+               <div type="translation" when="1925-12-17"/>
                    Thursday December 17, 1925 at 9 p.m. our<lb/> regular general meeting is
                      brought to order, presided over<lb/> by our president Michele Simonetti. The
                      roll call<lb/> returned the absences of the following officers: Second<lb/>
@@ -8516,10 +8455,8 @@
                      <pb n="153" facs="../../img/meetingMinutes/153.png" when="1925-12-17"/> Having nothing else to
                      attend to, the president declared the<lb/> meeting adjourned. Time 11:30
                      p.m.<lb/> Secretary President<lb/> 
-            <signed>G. Gianni</signed>  
-            <signed>M G Simonetti</signed>
+   <signed>G. Gianni</signed>  
+   <signed>M G Simonetti</signed>
                      
-               </div>
-            </div>
-   </year>
-</minutes>
+               
+            </minutes>

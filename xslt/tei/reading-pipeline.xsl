@@ -8,33 +8,23 @@
 <minutes><xsl:apply-templates select="teiCorpus/teiCorpus"/></minutes>    
     </xsl:template>
     <xsl:template match="teiCorpus/teiCorpus">
-        <year when="{teiHeader//publicationStmt/date/@when}">
+        <year when="{teiHeader//publicationStmt/date/@when}"/>
             <xsl:apply-templates select="descendant::body"/>
-        </year>
     </xsl:template>
     <xsl:template match="div">
-        <div type="{@type}" when="{ancestor::text/preceding-sibling::teiHeader//publicationStmt/date/@when}">
+        <div type="{@type}" when="{ancestor::text/preceding-sibling::teiHeader//publicationStmt/date/@when}"/>
         <xsl:apply-templates/>
-        </div>
     </xsl:template>
     <xsl:template match="TEI//body">
-        <div type="meeting" when="{../preceding-sibling::teiHeader//publicationStmt/date/@when}">
+        <div type="meeting" when="{../preceding-sibling::teiHeader//publicationStmt/date/@when}"/>
             <xsl:if test="../preceding-sibling::teiHeader//titleStmt/title/@type">
                 <mainTitle><xsl:apply-templates select="../preceding-sibling::teiHeader//titleStmt/title[@type='main']"/></mainTitle>
                 <subTitle><xsl:apply-templates select="../preceding-sibling::teiHeader//titleStmt/title[@type='sub']"/></subTitle>
             </xsl:if>
             <xsl:apply-templates/>
-        </div>
     </xsl:template>
     <xsl:template match="pb">
-        <xsl:choose>
-            <xsl:when test="@type">
-                <pb n="{@n}" type="false" facs="{@facs}" when="{ancestor::text/preceding-sibling::teiHeader//publicationStmt/date/@when}"/>
-            </xsl:when>
-            <xsl:otherwise>
                 <pb n="{@n}" facs="{@facs}" when="{ancestor::text/preceding-sibling::teiHeader//publicationStmt/date/@when}"/>
-            </xsl:otherwise>
-        </xsl:choose>
     </xsl:template>
     <xsl:template match="unclear">
         <unclear/>
