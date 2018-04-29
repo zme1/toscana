@@ -145,14 +145,28 @@
                         <title>
                             <xsl:value-of select="concat('Minutes of ', current-grouping-key())"/>
                         </title>
-                        <link rel="stylesheet" type="text/css" href="../../css/lega.css"/>
+                        <link rel="stylesheet" type="text/css" href="../css/lega.css"/>
+                        <link rel="stylesheet" type="text/css" href="../css/minutes.css"/>
                     </head>
                     <body>
-                        <h1>
+                        <xsl:comment>#include virtual="ssi/ssi_menu.html </xsl:comment>
+                        <div class="custom-select">
+                            <select onchange="location.href=this.options[this.selectedIndex].value;">
+                                <option>Select Year</option>
+                                <option value="1919.xhtml">1919</option>
+                                <option value="1920.xhtml">1920</option>
+                                <option value="1921.xhtml">1921</option>
+                                <option value="1922.xhtml">1922</option>
+                                <option value="1923.xhtml">1923</option>
+                                <option value="1924.xhtml">1924</option>
+                                <option value="1925.xhtml">1925</option>
+                            </select>
+                        </div>
+                        <h3>
                             <xsl:value-of select="concat('Minutes of ', current-grouping-key())"/>
-                        </h1>
-                        <table>
-                            <tr>
+                        </h3>
+                        <table class="minutes">
+                            <tr class="minutes">
                                 <th>Image</th>
                                 <th>Transcription</th>
                                 <th>Translation</th>
@@ -162,7 +176,7 @@
                                     select="concat('http://toscana.newtfire.org/img/meetingMinutes/', current()/pb/@n, '.png')"/>
                                 <xsl:variable name="eng-page" as="element(tei:page)"
                                     select="$date//page[@lang eq 'eng' and pb/@n eq current()/pb/@n]"/>
-                                <tr>
+                                <tr class="minutes">
                                     <td>
                                         <a href="{$image-link}">
                                             <img src="{$image-link}"/>
@@ -261,7 +275,7 @@
         <br/>
     </xsl:template>
     <xsl:template match="title" mode="page-to-html" xmlns="http://www.w3.org/1999/xhtml">
-        <h1>
+        <h1 class="minute">
             <xsl:apply-templates mode="page-to-html"/>
         </h1>
     </xsl:template>
