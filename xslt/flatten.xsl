@@ -139,7 +139,7 @@
                 select="$date//tei:page[@lang eq 'it' and pb/@n = $page-numbers]"/>
             <xsl:result-document method="xml" indent="yes" doctype-system="about:legacy-compat"
                 xmlns="http://www.w3.org/1999/xhtml"
-                href="{concat('../html/',current-grouping-key(),'.xhtml')}">
+                href="{concat('../html/',current-grouping-key(),'.html')}">
                 <html>
                     <head>
                         <title>
