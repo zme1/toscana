@@ -70,6 +70,9 @@
             $date has been created, now do something with it
             create mapping of dates to pages first because it's needed to group dates by year 
         -->
+        <xsl:result-document href="debug.xml">
+            <xsl:sequence select="$date"/>
+        </xsl:result-document>
         <!-- 
             Create HTML file that points from dates to pages
             Store as $page-chooser and serialize as page-chooser.xhtml
@@ -274,7 +277,7 @@
     <xsl:template match="lb" mode="page-to-html" xmlns="http://www.w3.org/1999/xhtml">
         <br/>
     </xsl:template>
-    <xsl:template match="title" mode="page-to-html" xmlns="http://www.w3.org/1999/xhtml">
+    <xsl:template match="title[not(empty(node()))]" mode="page-to-html" xmlns="http://www.w3.org/1999/xhtml">
         <h1 class="minute">
             <xsl:apply-templates mode="page-to-html"/>
         </h1>
