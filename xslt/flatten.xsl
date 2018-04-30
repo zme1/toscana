@@ -153,6 +153,18 @@
                     </head>
                     <body>
                         <xsl:comment>#include virtual="ssi/ssi_menu.html" </xsl:comment>
+                        <div class="text">
+                            <p>Welcome to the reading view of the first volume of the Lega Toscana
+                                di Protezione's minute log; please feel free to browse any of the
+                                seven years currently included in our corpus. The original
+                                manuscript scans are to the left of the window, with the
+                                transcription of the log in the middle, and our translation
+                                occupying the rightmost column. <em>This is a current project in
+                                    progress, so any and all comments on the translation or
+                                    transcription of the minutes are warmly welcomed.</em> Please
+                                contact Zac Enick at zacharyenick@pitt.edu with any feedback on the
+                                rendering of the volume.</p>
+                        </div>
                         <div class="custom-select">
                             <select onchange="location.href=this.options[this.selectedIndex].value;">
                                 <option>Select Year</option>
@@ -277,7 +289,8 @@
     <xsl:template match="lb" mode="page-to-html" xmlns="http://www.w3.org/1999/xhtml">
         <br/>
     </xsl:template>
-    <xsl:template match="title[not(empty(node()))]" mode="page-to-html" xmlns="http://www.w3.org/1999/xhtml">
+    <xsl:template match="title[not(empty(node()))]" mode="page-to-html"
+        xmlns="http://www.w3.org/1999/xhtml">
         <h1 class="minute">
             <xsl:apply-templates mode="page-to-html"/>
         </h1>
