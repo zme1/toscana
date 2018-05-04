@@ -187,7 +187,7 @@
                         </h3>
                         <table class="minutes">
                             <tr class="minutes">
-                                <th>Image</th>
+                                <th>Manuscript scan</th>
                                 <th>Transcription</th>
                                 <th>Translation</th>
                             </tr>

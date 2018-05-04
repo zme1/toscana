@@ -8,6 +8,7 @@ table.minutes{
 }
 table.minutes > tr,th,td{
     border: 1px solid white;
+    vertical-align: top;
 }
 div.text{
     margin: 5% 20% 2% 20%;
