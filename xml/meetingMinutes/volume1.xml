@@ -1122,7 +1122,7 @@
                         di Malatea <num type="monetary" value="9">$9.00</num></seg><lb/><seg
                         type="comp" subtype="sick"><persName ref="#delmagrol" role="target">Luigi
                            Del Magro</persName> il Settimane <num type="monetary" value="28"
-                           >28.00</num></seg><lb/>Si Passo alla Lettura del Nuovo Regolame<lb/>Nto
+                           >28.00</num></seg><lb/>Si Passo alla Lettura del Nuovo Regolame-<lb/>Nto
                      Unico Fondo Mortuario per la prima<lb/>Volta e Fuì aprovato tutti gli
                      art<lb/>Da tutta l’assemblea Generale<lb/>
                      <seg type="proposal" subtype="evento"><persName ref="#silvionic"
@@ -1164,7 +1164,7 @@
                         <lb/>
                         <note>E di Raportare alla Prossima Seduta<lb/> il Loro Operato</note>
                      </list><lb/><closer>Non Avendo altro da Fare <persName ref="#fredianim">Il
-                           Prest<lb/>Muzio Frediani</persName> alle ore 11 pm<lb/>dichiarava la
+                           Prest<lb/>Muzio Frediani</persName> alle ore 1115 pm<lb/>dichiarava la
                         Seduta Sciolta<lb/>Il Preste Il Segno <signed> M. Frediani</signed>
                         <signed>M. Simonetti</signed></closer></ab>
                </div>
@@ -1277,17 +1277,17 @@
                         <note>Apello Nominale ufle<lb/>Risultarono Mancanti i Seguenti</note>
                         <lb/>
                         <item><list>
-                              <note>Curre</note>
+                              <note>Curri</note>
                               <item><persName ref="#paganuccis">Sam Paganucci</persName></item>
                               <item><persName ref="#marsilia">Abramo Marsili</persName></item>
                            </list></item>
-                        <item><persName ref="#giomettic">ufle Sanro<lb/>Carlo
+                        <item><persName ref="#giomettic">ufli Sanri<lb/>Carlo
                            Giometti</persName></item>
                         <item><persName ref="#fontanaan">Guadia Sala - Angelo
                            Fontana</persName></item>
                      </list><lb/>
-                     <add place="margin">Fu</add> Lettura Processo Verbale il quale
-                     Venne<lb/>aprovato Come e Scritto<lb/> anza la Societa M. S. Gugliermo Marconi
+                     <add place="margin">Fu</add>Lettura Processo Verbale il quale
+                     Venne<lb/>aprovato Come e Scritto<lb/> Corza la Societa M. S. Gugliermo Marconi
                      ci Invio’ una Lettera di Invito al loro gran ballo<lb/> 25 giugno 1919 - Nella
                      Sala da Ballo 6023 - Penn ava city Nella Medesima<lb/>vi era Incluso 5 Tickette
                      d’amissione Gratuite<lb/>Linvito della Societa M. S. G. M. Fu’ acetta<lb/>Per
@@ -1295,7 +1295,7 @@
                      Fu<lb/>aprovato da tutti per la Seconda Volta<lb/>
                      <seg type="proposal" subtype="evento"><persName ref="#simonettim"
                            role="proposer">Il Fratello M.Simonetti</persName> Fece una
-                        Proposta<lb/>di dare una Festa Campestre Famigliare Nel Mese<lb/>di Agosto
+                        Proposta<lb/>di dare una Festa Campestre e Famigliare Nel Mese<lb/>di Agosto
                         1919 Essendo stato inPossibile<lb/>a darla Nel Mese di Luglio la
                         Proposta<lb/>Fu’ assecondata<persName ref="#cappellinic" role="supporter"
                            >dal Flo Cappellini</persName><lb/>e Fu aprovato da tutta
@@ -1446,18 +1446,18 @@
                            Seguenti<lb/>Ufli</note>
                         <item><persName ref="#pasquinelliam">Tesoriere A.
                            Pasquinelli</persName></item>
-                        <item>a <persName ref="#marsilia">curatore<lb/>a Marsili</persName></item>
+                        <item>a <persName ref="#marsilia">curatore<lb/>A Marsili</persName></item>
                         <item>
                            <persName ref="#giomettic">ufle Sanitario Carlo
                            Giometti</persName></item>
-                        <item><persName ref="#fontanaan">Guardia<lb/>Sala Fontana</persName></item>
+                        <item><persName ref="#fontanaan">Guardia<lb/>Sala A Fontana</persName></item>
                      </list><lb/>E. Si passo alla Lettura Processo Verbale il<lb/>quale Fu aprovato
-                     come e’ scritto. Fu’<del rend="strike">Lettetto</del>dato<lb/>Lettura per la
-                     terza vorta Regolamento dell’unico Fondo<lb/>Mortuario e Fu aprovato da tutta
+                     Come e’ Scritto. Fu’<del rend="strike">Lettetto</del>dato<lb/>Lettura per la
+                     terza vorta Regolamento dell’unico Fonondo<lb/>Mortuario e Fu aprovato da tutta
                      la<lb/>assemblea generale come Legge<lb/>
                      <seg type="proposal" subtype="regolamento"><persName ref="#pellegrinic"
                            role="proposer">Il Fratello C.Pellegrini</persName> fece Come
-                        pro<lb/>poste che il Regolamento unico fondo<lb/>Mortuario fosse fatto
+                        pro-<lb/>poste che il Regolamento unico fondo<lb/>Mortuario fosse fatto
                         andare in Vigore<lb/>alla Prossima Seduta Ossia il 19<lb/>agosto 1919. La
                         Proposta del Frlo<lb/>Pelligrini fu assecondata<persName ref="#viganol"
                            role="supporter"> dal Frlo<lb/>L Vigano’</persName>.Non Essendovi
@@ -1474,8 +1474,8 @@
                      avevano trovato e ingaggiato<lb/>la Ross Farm Aspinwall Pa<lb/>per $20.00 e
                      avremmo potuto<lb/>farci la festa qualunque domenica<lb/>che Si avesse piaciuto
                      a Noi<lb/>Cosi fu’ accetta da tutta la<lb/>Assemblea Generale di dare
-                     la<lb/>Festa Campestre e Famigliare<lb/>a Ross Farm Aspinwall Pa<lb/>la 1a
-                     domenica di agosto<lb/><list type="committee" subtype="picnic">
+                     la<lb/>Festa Campestre e Famigliare<lb/>a Ross Farm Aspinwall Pa<lb/>la 1o
+                     domenica di Agosto<lb/><list type="committee" subtype="picnic">
                         <date when-custom="1919-07 1919-08"/>
                         <note>Aministrazione della Festa Campestre</note>
                         <lb/>
@@ -1486,7 +1486,7 @@
                               type="committee" role="vice">Vice</roleName></item>
                         <lb/>
                         <item><persName ref="#pellegrinic">Casimiro Pelligrini</persName><roleName
-                              type="committee" role="finanza">Segrodi Finanza</roleName></item>
+                              type="committee" role="finanza">Segro di Finanza</roleName></item>
                         <lb/>
                         <item><persName ref="#simonettim">Mike Simonetti</persName><roleName
                               type="committee" role="corresp">^ Cor.</roleName></item>
@@ -1518,7 +1518,7 @@
                      il<lb/>Necessario per la festa<lb/>
                      <pb n="25" facs="../../img/meetingMinutes/25.png"/><closer>Non Avendo Altro da
                            Fare<lb/><persName ref="#fredianim">Il Presidente<lb/>Muzio
-                           Frediani</persName> Alle Ore 11:15<lb/>Minuti<lb/>Dichiarava la Seduta
+                           Frediani</persName> Alle Ore 1115<lb/>Minuti<lb/>Dichiarava la Seduta
                         Sciolta<lb/>Il Presidente Il Segretario <signed>Muzio Frediani</signed>
                         <signed>M G Simonetti</signed></closer></ab>
                </div>
@@ -1636,7 +1636,7 @@
                         ref="#fredianim">Presidente Muzio<lb/> Frediani</persName>dichiarava la
                      Seduta Aperta<lb/><list type="absent">
                         <note>quindi <rs ref="#fredianim">Ordinò</rs> l’appello Nominale
-                           risulta<lb/>sono Mancanti I Seguenti</note>
+                           risulta<lb/>rono Mancanti I Seguenti</note>
                         <item>Uffli Sanitari<lb/>
                            <persName ref="#giomettic">Carlo Giometti</persName></item>
                      </list><lb/>Si Passo’ all’alettura Processo Verbale e<lb/>il quale fù aprovato
@@ -1654,15 +1654,15 @@
                            un Certificato<lb/>Medico di Sana Cotituzione</note>
                      </list><lb/>
                      <persName ref="#fredianim"> Il Prte Muzio Frediani</persName>parlo’ in Riguardo
-                     alla<lb/> Nistia come l’assemblea avesse intenzio<lb/>ne di fare.<seg
+                     alla<lb/> nistia come l’assemblea avesse intenzio<lb/>ne di fare.<seg
                         type="proposal" subtype="amnistia"><persName ref="#maffeis" role="proposer"
                            >Il fratello Stefano Maffei</persName>fece<lb/>la Proposta che la Nistia
                         fosse stata in<lb/>Vigore fino alla prossima seduta e poi<lb/>Fosse stata
                         tolta la Proposta del Fratello<lb/>Maffei Fu Asecondata<persName
-                           ref="#silvionic" role="supporter"> dal Fratello Silvione</persName><lb/> È
+                           ref="#silvionic" role="supporter">dal Fratello Silvione</persName><lb/> e
                         fu aprovata da tutta L’assemblea Generale</seg><lb/>Fu risolta una grande
                      disculzione in<lb/>riguardo dei fratelli che si Trovano Aretrati<lb/>Coi
-                     Pagamenti tasse Mensili dopo lunga<lb/>Disculzione<seg type="proposal"
+                     Pagamenti tasse Mensili dopo lunga<lb/>disculzione<seg type="proposal"
                         subtype="regolamento"><persName ref="#simonettim" role="proposer">Il
                            Fratello M. Simonetti</persName><lb/>Fece la Proposta che tutti Coloro
                         che<lb/>Si trovano aretrati piu’ di un<lb/>
@@ -1682,7 +1682,7 @@
                         Cancellati<lb/>dai ruoli <orgName ref="#legaT">della Lega Toscana</orgName>
                         la Proposta<lb/><persName ref="#maffeis">del fratello Maffei</persName> fu
                         Assecondata da<lb/>
-                        <persName ref="#silvionic" role="supporter">Carlo Silvione</persName>è fu
+                        <persName ref="#silvionic" role="supporter">Carlo Silvione</persName>e fu
                         aprovata da tutta<lb/>l’assemblea generale<lb/></seg>
                      <seg type="proposal" subtype="evento"><persName ref="#maffeis" role="proposer"
                            >Il fratello Stefano Maffei</persName>fece Come<lb/>Proposta a dare un
@@ -1950,7 +1950,7 @@
                         <note>Si passo’ alle Proposte dei Nuovi<lb/> Membri le quali furono
                            Sei</note>
                         <lb/>
-                        <item><persName ref="#lombardia">Aladino Lombardi</persName></item>
+                        <item><persName ref="#lombardia">Aladino Lombardi</persName> 22</item>
                         <item><persName ref="#cappellinim">Morello Cappellini</persName><lb/> di
                            Anni 23-</item>
                         <item><persName ref="#fontanaf">Francesco Fontana</persName> di anni
@@ -1962,15 +1962,15 @@
                            Cinelli</persName></item>
                         <lb/>
                         <note>tutti furono Passati a unanimita altro<lb/> che <persName
-                              ref="#cinellio">il Sig. Olinto Cinelli</persName> fu Rincesso<lb/>
-                           Alla prossima Seduta per non avre<lb/> Spacificato leta’</note>
+                              ref="#cinellio">il Sig. Olinto Cinelli</persName> fu Rimesso<lb/>
+                           Alla prossima Seduta per non avere<lb/> Spacificato leta’</note>
                      </list><lb/>
                      <seg type="proposal" subtype="amnistia">dopo Una Lunga disculzione in
                         rigua<lb/> rdo all’anistia <persName ref="#pasquinellis" role="proposer">il
                            fratello Santino Pasquinelli</persName><lb/> fece la Proposta che
                         l’anistia fosse prolungata<lb/> ancora per due Mesi Ossia fino alla
                         Seduta<lb/> Ordinaria di Novembre la Proposta del<lb/> Pasquinelli fu
-                        asecondata dal fratello<lb/>
+                        asecondata dal Fratello<lb/>
                         <persName ref="#marsilia" role="supporter">A Marsili</persName> e fu
                         aprovata da tutta<lb/> L’assemblea generale</seg><lb/>
                      <pb n="31" facs="../../img/meetingMinutes/31.png"/> Raporto <persName
@@ -8419,7 +8419,7 @@
                         non venne passato.</seg><lb/>
                      <seg type="proposal" subtype="regolamento">Proposto da <persName
                            ref="#pellegrinic" role="proposer">Casimirro Pellegrini</persName><lb/>
-                        ass” da<lb/> <persName ref="#zinif" role="supporter">Fioravante Zini</persName>
+                        ass” da <persName ref="#zinif" role="supporter">Fioravante Zini</persName>
                         di dare<lb/> il 10.100 per cente <rs ref="#maffeir">al collettore</rs> che
                         colletta<lb/> la moneta dei soci che sono addietra-<lb/> ti coi pagamenti a
                         di darli tempo<lb/> fino alla seduta di dicembre, la lista<lb/> dei
@@ -8581,7 +8581,7 @@
                      </list><lb/>
                      <del rend="strike">Proposto da Casimirro Pellegrini ass” da<lb/> Giuseppe
                         Tambellini che $1.50 che<lb/> doveva pagare il fratello Giogio<lb/> Bassotti
-                        sia pagato dalla Lega.</del><lb/>
+                        sia pagato dalla Lega.</del>
                      <seg type="proposal" subtype="evento">Proposto da <persName ref="#pellegrinic"
                            role="proposer">Casimirro Pellegrini</persName> ass.<lb/> da <persName
                            ref="#cappellinic" role="supporter">Castruccio Cappellini</persName> di
@@ -8967,7 +8967,7 @@
                      <seg type="comp" subtype="sick">Fu concesso sussidio malatia <persName
                            ref="#zinif" role="target">al<lb/> fratello Fioravante Zini</persName> di
                            <num type="monetary" value="10">$10.00</num></seg><lb/> Il Comitato ballo
-                     fisso la sala del<lb/> monte fiore per il 24 gennaio 1923<lb/> a $75.00 e pago un
+                     fisso la sala del<lb/> monte fiore per il 24 gennaio 1923 a $75.00 e pago un
                      acconto di $10.00 il rima-<lb/> nente la sera del ballo.<lb/>
                      <list type="officers">
                         <note>Poi si passo alle elezzioni amministrativi<lb/> e furono eletti i
@@ -9303,7 +9303,7 @@
                      parole e ringrazziando tutta la Lega<lb/> per averlo Eletto presidente ad
                      esclama-<lb/> zzione, ed di ubidire a quello che dice<lb/> durando la seduta, e
                      che la seduta<lb/> sia aperta alla ore 8.30 P.M. precise<lb/> e se l’ufficiale
-                     non e’ presente sia<lb/> marcate assente, e il socio sentira’<lb/> quello che vi
+                     non e’ presente sia<lb/> marcate assente, e il socio sentira’ quello che vi
                      sara’ di fare.<lb/>
                      <pb n="99" facs="../../img/meetingMinutes/99.png"/>
                      <persName ref="#pacinic">Il Vice Presidente Candito Pacini</persName><lb/>
@@ -9562,7 +9562,7 @@
          <text>
             <body>
                <div type="transcription">
-                  <ab> Giovedi 15 Marzo 1923 alle ore <del rend="strike">ore</del><lb/> 8.30 P.M. Venne
+                  <ab> Giovedi 15 Marzo 1923 alle ore <del rend="strike">ore</del> 8.30 P.M. Venne
                      Tenuta la seduta<lb/> regolare ordinaria preseduta <persName ref="#maffeis"
                         >dal<lb/> Presidente Stefano Maffei</persName>
                      <list type="absent">
