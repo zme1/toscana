@@ -227,7 +227,8 @@
     <xsl:template match="note[@resp]" mode="flatten"/>
     <!-- The note template above supresses all annotated transcription notes made by
     Archie Millar and Zachary Enick during the digitization process. Notes will be
-    added in at a later point-->
+    added in at a later point if their addition is decided to be of importance or relevence
+    to the reading view output. 2018-05-04 zme -->
     <xsl:template match="date" mode="flatten"/>
     <xsl:template match="*" mode="flatten">
         <xsl:element name="{name()}">
@@ -236,10 +237,10 @@
             <xsl:copy-of select="@*"/>
             <xsl:choose>
                 <xsl:when test="self::pb[ancestor::div[@type = 'transcription']]">
-                    <xsl:attribute name="lang">it</xsl:attribute>
+                    <xsl:attribute name="lang" select="'it'"/>
                 </xsl:when>
                 <xsl:when test="self::pb[ancestor::div[@type = 'translation']]">
-                    <xsl:attribute name="lang">eng</xsl:attribute>
+                    <xsl:attribute name="lang" select="'eng'"/>
                 </xsl:when>
             </xsl:choose>
         </xsl:element>

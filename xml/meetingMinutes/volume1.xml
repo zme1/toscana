@@ -1286,7 +1286,7 @@
                         <item><persName ref="#fontanaan">Guadia Sala - Angelo
                            Fontana</persName></item>
                      </list><lb/>
-                     <add place="margin">Fu</add>Lettura Processo Verbale il quale
+                     <add place="margin">Fu</add> Lettura Processo Verbale il quale
                      Venne<lb/>aprovato Come e Scritto<lb/> anza la Societa M. S. Gugliermo Marconi
                      ci Invio’ una Lettera di Invito al loro gran ballo<lb/> 25 giugno 1919 - Nella
                      Sala da Ballo 6023 - Penn ava city Nella Medesima<lb/>vi era Incluso 5 Tickette
@@ -1659,8 +1659,8 @@
                            >Il fratello Stefano Maffei</persName>fece<lb/>la Proposta che la Nistia
                         fosse stata in<lb/>Vigore fino alla prossima seduta e poi<lb/>Fosse stata
                         tolta la Proposta del Fratello<lb/>Maffei Fu Asecondata<persName
-                           ref="#silvionic" role="supporter">dal Fratello Silvione</persName><lb/> È
-                        fu aprovata da tutta L’’assemblea Generale</seg><lb/>Fu risolta una grande
+                           ref="#silvionic" role="supporter"> dal Fratello Silvione</persName><lb/> È
+                        fu aprovata da tutta L’assemblea Generale</seg><lb/>Fu risolta una grande
                      disculzione in<lb/>riguardo dei fratelli che si Trovano Aretrati<lb/>Coi
                      Pagamenti tasse Mensili dopo lunga<lb/>Disculzione<seg type="proposal"
                         subtype="regolamento"><persName ref="#simonettim" role="proposer">Il
@@ -8419,7 +8419,7 @@
                         non venne passato.</seg><lb/>
                      <seg type="proposal" subtype="regolamento">Proposto da <persName
                            ref="#pellegrinic" role="proposer">Casimirro Pellegrini</persName><lb/>
-                        ass” da <persName ref="#zinif" role="supporter">Fioravante Zini</persName>
+                        ass” da<lb/> <persName ref="#zinif" role="supporter">Fioravante Zini</persName>
                         di dare<lb/> il 10.100 per cente <rs ref="#maffeir">al collettore</rs> che
                         colletta<lb/> la moneta dei soci che sono addietra-<lb/> ti coi pagamenti a
                         di darli tempo<lb/> fino alla seduta di dicembre, la lista<lb/> dei
@@ -8581,7 +8581,7 @@
                      </list><lb/>
                      <del rend="strike">Proposto da Casimirro Pellegrini ass” da<lb/> Giuseppe
                         Tambellini che $1.50 che<lb/> doveva pagare il fratello Giogio<lb/> Bassotti
-                        sia pagato dalla Lega.</del>
+                        sia pagato dalla Lega.</del><lb/>
                      <seg type="proposal" subtype="evento">Proposto da <persName ref="#pellegrinic"
                            role="proposer">Casimirro Pellegrini</persName> ass.<lb/> da <persName
                            ref="#cappellinic" role="supporter">Castruccio Cappellini</persName> di
@@ -8967,7 +8967,7 @@
                      <seg type="comp" subtype="sick">Fu concesso sussidio malatia <persName
                            ref="#zinif" role="target">al<lb/> fratello Fioravante Zini</persName> di
                            <num type="monetary" value="10">$10.00</num></seg><lb/> Il Comitato ballo
-                     fisso la sala del<lb/> monte fiore per il 24 gennaio 1923 a $75.00 e pago un
+                     fisso la sala del<lb/> monte fiore per il 24 gennaio 1923<lb/> a $75.00 e pago un
                      acconto di $10.00 il rima-<lb/> nente la sera del ballo.<lb/>
                      <list type="officers">
                         <note>Poi si passo alle elezzioni amministrativi<lb/> e furono eletti i
@@ -9303,7 +9303,7 @@
                      parole e ringrazziando tutta la Lega<lb/> per averlo Eletto presidente ad
                      esclama-<lb/> zzione, ed di ubidire a quello che dice<lb/> durando la seduta, e
                      che la seduta<lb/> sia aperta alla ore 8.30 P.M. precise<lb/> e se l’ufficiale
-                     non e’ presente sia<lb/> marcate assente, e il socio sentira’ quello che vi
+                     non e’ presente sia<lb/> marcate assente, e il socio sentira’<lb/> quello che vi
                      sara’ di fare.<lb/>
                      <pb n="99" facs="../../img/meetingMinutes/99.png"/>
                      <persName ref="#pacinic">Il Vice Presidente Candito Pacini</persName><lb/>
@@ -9562,7 +9562,7 @@
          <text>
             <body>
                <div type="transcription">
-                  <ab> Giovedi 15 Marzo 1923 alle ore <del rend="strike">ore</del> 8.30 P.M. Venne
+                  <ab> Giovedi 15 Marzo 1923 alle ore <del rend="strike">ore</del><lb/> 8.30 P.M. Venne
                      Tenuta la seduta<lb/> regolare ordinaria preseduta <persName ref="#maffeis"
                         >dal<lb/> Presidente Stefano Maffei</persName>
                      <list type="absent">
