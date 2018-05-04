@@ -20,7 +20,7 @@
                 Description: group contents of each page in <page> element
                 Input: $flattened:
                 Output: $grouped
-                Mode: templates are in ''grouped' mode
+                Mode: templates are in 'grouped' mode
                 Notes: dates and titles are sometimes in the wrong pages
             3.  Date fix
                 Description: move dates and titles into correct pages
@@ -125,8 +125,8 @@
         </xsl:result-document>
         <!-- 
             Create HTML output for each year
-            Output is a three-column table, with image, Italian, English columns (in that order)
-            English is currently a placeholder, image is pointer in the form of 
+            Output is a three-column table, with image, Italian, English columns (in that order),
+             image is pointer in the form of 
                 http://toscana.newtfire.org/img/meetingMinutes/5.png
             Variables:
                 $page-numbers: page numbers for current year
@@ -164,6 +164,11 @@
                                     transcription of the minutes are warmly welcomed.</em> Please
                                 contact Zac Enick at zacharyenick@pitt.edu with any feedback on the
                                 rendering of the volume.</p>
+                            <p><strong>Note</strong>: The transcription in the middle column is
+                                documented so as to replicate the original scan as closely as possible,
+                                but, as was described in our methodology, bracketed words and
+                                phrases and additional punctuation were included in the translation
+                                to improve legibility in the target language.</p>
                         </div>
                         <div class="custom-select">
                             <select onchange="location.href=this.options[this.selectedIndex].value;">
@@ -219,6 +224,10 @@
         <xsl:copy-of select="ancestor::TEI//titleStmt/title[not(empty(.))]"/>
         <xsl:apply-templates mode="flatten"/>
     </xsl:template>
+    <xsl:template match="note[@resp]" mode="flatten"/>
+    <!-- The note template above supresses all annotated transcription notes made by
+    Archie Millar and Zachary Enick during the digitization process. Notes will be
+    added in at a later point-->
     <xsl:template match="date" mode="flatten"/>
     <xsl:template match="*" mode="flatten">
         <xsl:element name="{name()}">
