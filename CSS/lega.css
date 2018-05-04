@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Great+Vibes');
+@import url('https://fonts.googleapis.com/css?family=Maven+Pro');
 body{
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/maybe.jpg);
     background-repeat: no-repeat;
@@ -6,6 +7,7 @@ body{
     background-size: 100% 100%;
     background-attachment: fixed;
     margin: 0 auto;
+    font-family: 'Maven Pro', sans-serif;
     color: white;
 }
 hr.min{
