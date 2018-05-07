@@ -2302,7 +2302,7 @@
                      <del rend="strike">Guardia Sala Eng</del><lb/> Ufficiali Sanitari<lb/>
                      <persName ref="#paganuccis">Sam Paganucci</persName>
                      <persName ref="#piaggesia">Aladino Piaggesi</persName><lb/>
-                     <persName ref="#sandronee">Enrico Sandrone</persName> 2 da elergesi<lb/>
+                     <persName ref="#sandronee">Enrico Sandrone</persName> 2 da Elergesi<lb/>
                      Collettore <persName ref="#viganol">Lorenzo Vigano</persName> Aclamazione<lb/>
                      Guardia Sala <persName ref="#fontanaan">Angelo Fontana</persName><lb/>
                      <persName ref="#merciadrie">Eugenio Merciadri</persName> 1 da elergesi<lb/> la
@@ -2310,10 +2310,10 @@
                         reason="illegible">SCutignio</unclear> alla<lb/> Seduta di dicembre 1919<lb/>
                      <seg type="proposal" subtype="regolamento"><persName ref="#maffeis"
                            role="proposer">Il fratello Stefano Maffei</persName> Fece Una<lb/>
-                        Proposta che tutti Coloro che fanno<lb/> aplicazione per Apartenere
+                        Proposta che tutti Coloro che fanno<lb/> Aplicazione per Apartenere
                         alla<lb/> Lega Toscana e dopo Essere avvertiti<lb/> che Sono Passati per
-                        Mezzo di Cartolina<lb/> e alla Seduta Precedente non <unclear
-                           reason="illegible">inveranno</unclear><lb/> un Certificato Medico vanno Incontro<lb/>
+                        Mezzo di Cartolina<lb/> e alla Seduta Precedente non invieranno
+                           <lb/> un Certificato Medico vanno Incontro<lb/>
                         <pb n="36" facs="../../img/meetingMinutes/36.png"/> di Perdere $1.00 Come
                         Primo Versamento<lb/> di Nuovo Aplicante<lb/> la Proposta <persName
                            ref="#maffeis">del Fratello Maffei</persName> fu<lb/> assecondata
@@ -2449,7 +2449,7 @@
                         <note>in mancanza </note>
                         <item><rs ref="#simonettim">del segretario di cor-<lb/>
                            rispondenza</rs></item>
-                     </list> della lettura del processo ver-<lb/> bale ed il medesimo venne
+                     </list> delle lettura del processo ver-<lb/> bale ed il medesimo venne
                      approvato<lb/> senza ritocco.<lb/>
                      <list type="officers">
                         <note>Dopo di aver disbrigato affari am-<lb/> ministrativi si dichiaro
@@ -2491,9 +2491,9 @@
                            role="supporter">da Piaggesi</persName><lb/> propone di tenere la seduta
                         durante l’in-<lb/> verno di Domenica. Tale proposta fu<lb/> approvata e si
                         diede incarico <rs ref="#fredianim">al Presidente</rs><lb/> per domandare al
-                        padrone sala quale<lb/> Domenica si potrebbe tenere la seduta.</seg><lb/> Fu
+                        padrone sala quale<lb/> Domenica si potrebbe tenere le sedute.</seg><lb/> Su
                      proposto del fratello Stefano<lb/> Maffei si delibera di tenere una seduta<lb/>
-                     del comitato ballo avanti la seduta.<lb/>
+                     del Comitato ballo avanti la seduta.<lb/>
                      <!-- Since there was nobody to support this specific "proposal" I did not mark it as an interaction.
                Given the context, it seems more like a suggestion or announcement than an actual proposal.-->
                      <pb n="38" facs="../../img/meetingMinutes/38.png"/>
@@ -2683,20 +2683,20 @@
                   <ab> Martedi 20 Gennaio alle ore 8 p.m.<lb/> si tenne la seduta regolare ordinaria
                      presie-<lb/> duta <persName ref="#maffeis">dal Presidente S.
                      Maffei</persName><lb/> Dietro lettura dei rendiconti annua-<lb/> li dalla
-                     Societa <persName ref="#maffeis">Il fratello S. Maffei</persName> fece<lb/>
+                     Societa <persName ref="#maffeis">il fratello S. Maffei</persName> fece<lb/>
                      osservare un’ingiustizia fatta in riguardo<lb/> allo stipendio <rs
                         ref="#pellegrinic">del Seg. di finanza</rs> e ciò-<lb/> invece del 4 per
                      cento fu concesso il 5. La<lb/> decisioni per tale stato di cose viene ri-<lb/>
                      mandato alla prossima seduta.<lb/>
                      <seg type="proposal" subtype="evento">Proposta da <persName ref="#fredianim"
                            role="proposer">M. Frediani</persName>; ass. da<lb/>
-                        <persName ref="#marsilis" role="supporter">Sam Marsili</persName> de i
+                        <persName ref="#marsilis" role="supporter">Sam Marsili</persName> che i
                         possesori di biglietti<lb/> del ballo non portandoli indietro alla<lb/>
                         prossima seduta verranno calcolati co-<lb/> me somma spettanti per tasse
                         men-<lb/> sili</seg><lb/> Si cancella $4.00 di sussidio al<lb/> fratello
                         <persName ref="#serafinia">Antonio Serafini</persName>, somma re-<lb/>
                      siduale perche’ egli all’epoca della<lb/> accaduta malattia non si trovava
-                        <unclear reason="illegible">in</unclear><lb/> regola coi pagamenti<lb/>
+                        in<lb/> regola coi pagamenti<lb/>
                      <seg type="comp" subtype="sick">Viene concesso il sussidio di <num
                            type="monetary" value="28">$28</num><lb/>
                         <persName ref="#simonettim" role="target">al fratello Michele
@@ -2736,7 +2736,7 @@
                         <item><persName ref="#silvionic">Carlo<lb/> Silvioni.</persName><roleName
                               type="committee" role="investigatore"/></item>
                      </list><lb/> In ultimo viene riconfermata<lb/> la deliberazione di tenere per
-                     tre se-<lb/> dute la Domenica e cioè la quarta<lb/> si regola ad un rapporto
+                     tre se-<lb/> dute la Domenica e cioè la quarta<lb/> in regola ad un rapporto
                      avuto per<lb/> la medesima<lb/>
                      <closer>Non essendoci altro da discu-<lb/> tere il Presidente ordina chiusa
                         la<lb/> seduta<lb/> Il Segretario Il Presidente<lb/>
