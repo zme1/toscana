@@ -3194,8 +3194,8 @@
                               Giuseppe</persName> ass. da <persName ref="#sodinij" role="supporter"
                               >Jacopo<lb/> Sodini</persName> propone di dare <num type="monetary"
                               value="35">$35.00</num> agli<lb/> orfani di guerra italiani di
-                              <persName ref="#padre" role="target">Padre <unclear reason="illegible"
-                                 >se-<lb/> meria</unclear></persName>. Tale proposta fu approvata
+                              <persName ref="#padre" role="target">Padre 
+                                 Se-<lb/> meria</persName>. Tale proposta fu approvata
                            ad<lb/> acclamazione.</seg></seg>
                      <seg type="comp" subtype="charity">Viene definitivamente<lb/> approvato di
                         sottoscrivere al <orgName ref="#presito" role="target">Prestito<lb/>
@@ -3213,7 +3213,7 @@
                         medi-<lb/> co scelto <orgName ref="#legaT">dalla Lega</orgName>. Tale
                         proposta<lb/> venne rigettato facendo valida la<lb/> legge in
                      vigore.</seg><lb/> Si da facolta al comitato Pic-<lb/> nic di fissare il campo
-                     e di non<lb/> oltrepassare la somma di $100.00.<lb/>
+                     e di non<lb/> oltrepassare alla somma di $100.00.<lb/>
                      <seg type="proposal" subtype="evento">Proposto da <persName ref="#lunardinil"
                            role="proposer">Lunardini Lorenzo</persName><lb/> ed ass. da <persName
                            ref="#pellegrinic" role="supporter">C. Pellegrini</persName> di
@@ -3320,7 +3320,7 @@
             <body>
                <div type="transcription">
                   <ab> Giovedi 20 Maggio 1920 a ore 9 p.m.<lb/> nel solito locale venne tenuta
-                     la<lb/> consueta seduta ordinaria presiedute<lb/>
+                     le<lb/> consueta seduta ordinaria presiedute<lb/>
                      <persName ref="#maffeis">dal Presidente Stefano Maffei</persName>. <list
                         type="absent">
                         <note>Dall'ap-<lb/> pello nominale degli ufficiali risultarono<lb/> assenti
@@ -3330,12 +3330,12 @@
                         <item><persName ref="#fredianellig">Fredianelli Giuseppe</persName></item>
                         <item>e <persName ref="#viganol" role="scaduto">Lorenzo<lb/>
                               Vigano'</persName>;</item>
-                        <note>quest'ultimo veine dichiarato<lb/> scaduto dal suo ufficio.</note>
+                        <note>quest'ultimo venne dichiarato<lb/> scaduto dal suo ufficio.</note>
                      </list> Il processo<lb/> verbale venne approvato senza osservazio-<lb/>
                      ni.<lb/> Viene messo al registro <persName ref="#bevilacquas">il nuovo<lb/>
                         fratello Samuele Bevilacqua</persName> dietro<lb/> formale presentazione del
                      certificato<lb/> medico. Dopo di certi affari ammini-<lb/> strativi si passa
-                     alla discussione<lb/> del prossimo Pic-nic che fisso'<lb/> il comitato per la
+                     alla discussione<lb/> sul prossimo Pic-nic che fisso'<lb/> il comitato per la
                      prima Domeni-<lb/> ca di Agosto. <list type="committee" subtype="picnic">
                         <date when-custom="1920-05 1920-06 1920-07 1920-08"/>
                         <note>Venne nominato il<lb/> comitato ed e' cosi composto:</note>
@@ -3358,7 +3358,7 @@
                         <item><persName ref="#sodinij">Jacopo Sodini</persName>, <roleName
                               type="committee" role="assistente">vice<lb/> capo</roleName>;</item>
                         <item><list>
-                              <note>Gli assistenti scelti furono</note>
+                              <note>Gli assistenti scelti furano</note>
                               <lb/>
                               <item><persName ref="#zinim">Modesto Zini</persName><roleName
                                     type="committee" role="assistente"/>,</item>
@@ -3492,22 +3492,22 @@
                   <ab> Seduta ordinaria 17 Giugno 1920.<lb/>
                      <persName ref="#maffeis">Il Presidente S. Maffei</persName> alle 8.30
                      dichiara<lb/> aperta la seduta. <list type="absent">
-                        <note>Dall’appello nominale<lb/> degli ufficiale risultarono assenti</note>
-                        <item><persName ref="#silvionic">Carlo<lb/> Silvione</persName></item>
+                        <note>Dall’appello nominale<lb/> degli ufficiali risultarano assenti</note>
+                        <item><persName ref="#silvionic">Carlo<lb/> Silvioni</persName></item>
                         <item>e <persName ref="#paganuccis">Sam Paganucci</persName>.</item>
-                     </list> Il processo<lb/> verbale venne approvato come letto. L’indice<lb/> le
+                     </list> Il processo<lb/> verbale venne approvato come letto. S’indica<lb/> le
                      votazioni per il collettore al posto<lb/> dello scaduto <persName
                         ref="#viganol">Lorenzo Viganò’</persName> e venne<lb/> nominato ad unanimità
                         <persName ref="#buchignianil" role="replacement">Luigi Buchi-<lb/>
-                        guani.</persName><lb/>
+                        gnani.</persName><lb/>
                      <list type="applicants">
-                        <note>Vengono presentato le domande<lb/> di nuovi membri e sono</note>
+                        <note>Vengano presentate le domande<lb/> di nuovi membri e sono</note>
                         <item><persName ref="#darrigop">Pietro D’Arrigo</persName>,</item>
                         <lb/>
                         <item><persName ref="#paternic">Cesare Paterni</persName>
                         </item>
                         <item>e <persName ref="#zinif">Fioravanti Zini</persName></item>
-                        <lb/>
+                        le<lb/>
                         <pb n="46" facs="../../img/meetingMinutes/46.png"/>
                         <note> quali vennero messe a votazione che ri-<lb/> sulto favorevole.</note>
                      </list><lb/>
