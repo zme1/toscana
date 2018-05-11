@@ -19,6 +19,7 @@ td {
     border: 1px solid white;
     border-collapse: collapse;
     margin: 20px 30px;
+    vertical-align: top;
 }
 div.table {
     flex: 1 35%;
