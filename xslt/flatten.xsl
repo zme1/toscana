@@ -143,13 +143,14 @@
             <xsl:result-document method="xml" indent="yes" doctype-system="about:legacy-compat"
                 xmlns="http://www.w3.org/1999/xhtml"
                 href="{concat('../html/',current-grouping-key(),'.html')}">
-                <html>
+                <html lang="it">
                     <head>
                         <title>
                             <xsl:value-of select="concat('Minutes of ', current-grouping-key())"/>
                         </title>
                         <link rel="stylesheet" type="text/css" href="../css/lega.css"/>
                         <link rel="stylesheet" type="text/css" href="../css/minutes.css"/>
+                        <meta charset="UTF-8" />
                     </head>
                     <body>
                         <xsl:comment>#include virtual="ssi/ssi_menu.html" </xsl:comment>
@@ -199,7 +200,7 @@
                                 <tr class="minutes">
                                     <td class="min-img">
                                         <a target="_blank" href="{$image-link}">
-                                            <img src="{$image-link}"/>
+                                            <img src="{$image-link}" alt="manuscript-img"/>
                                         </a>
                                     </td>
                                     <td>
