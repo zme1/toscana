@@ -1,5 +1,5 @@
 img {
-    max-width: 80%;
+    max-width: 90%;
     height: auto;
 }
 table.minutes{
@@ -9,6 +9,7 @@ table.minutes{
 table.minutes > tr,th,td{
     border: 1px solid white;
     vertical-align: top;
+    margin: auto;
 }
 div.text{
     margin: 5% 20% 2% 20%;

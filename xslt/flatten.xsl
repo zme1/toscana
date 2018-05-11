@@ -155,24 +155,24 @@
                         <xsl:comment>#include virtual="ssi/ssi_menu.html" </xsl:comment>
                         <div class="text">
                             <p>Welcome to the reading view of the first volume of the Lega Toscana
-                                di Protezione's minute log; please feel free to browse any of the
-                                seven years currently included in our corpus. The original
-                                manuscript scans are to the left of the window, with the
-                                transcription of the log in the middle, and our translation
-                                occupying the rightmost column. <em>This is a current project in
-                                    progress, so any and all comments on the translation or
-                                    transcription of the minutes are warmly welcomed.</em> Please
-                                contact Zac Enick at zacharyenick@pitt.edu with any feedback on the
-                                rendering of the volume.</p>
+                                di Protezione's minute log, which spans from January of 1919 to
+                                December of 1925; please feel free to browse any of the seven years
+                                currently included in our corpus. The original manuscript scans are
+                                to the left of the window, with the transcription of the log in the
+                                middle, and our translation occupying the rightmost column. <em>This
+                                    is a current project in progress, so any and all comments on the
+                                    translation or transcription of the minutes are warmly
+                                    welcomed.</em> Please contact Zac Enick at zacharyenick@pitt.edu
+                                with any feedback on the rendering of the volume.</p>
                             <p><strong>Note</strong>: The transcription in the middle column is
-                                documented so as to replicate the original scan as closely as possible,
-                                but, as was described in our methodology, bracketed words and
-                                phrases and additional punctuation were included in the translation
-                                to improve legibility in the target language.</p>
+                                documented so as to replicate the original scan as closely as
+                                possible, but, as was described in our methodology, bracketed words
+                                and phrases and additional punctuation were included in the
+                                translation to improve legibility in the target language.</p>
                         </div>
                         <div class="custom-select">
                             <select onchange="location.href=this.options[this.selectedIndex].value;">
-                                <option>Select Year</option>
+                                <option>(Select Year)</option>
                                 <option value="1919.html">1919</option>
                                 <option value="1920.html">1920</option>
                                 <option value="1921.html">1921</option>
@@ -197,8 +197,8 @@
                                 <xsl:variable name="eng-page" as="element(tei:page)"
                                     select="$date//page[@lang eq 'eng' and pb/@n eq current()/pb/@n]"/>
                                 <tr class="minutes">
-                                    <td>
-                                        <a href="{$image-link}">
+                                    <td class="min-img">
+                                        <a target="_blank" href="{$image-link}">
                                             <img src="{$image-link}"/>
                                         </a>
                                     </td>
