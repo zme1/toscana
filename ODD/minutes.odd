@@ -2,7 +2,7 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_odds.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_odds.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<!-- Thanks to Dr. Elisa Beshero-Bondar for her consultation in creating this ODD file, especially those parts concerned with drafting Schematron rules. -->
+<!-- Thanks to Dr. Elisa Beshero-Bondar for her consultation in creating this ODD file, especially with those parts concerned with drafting Schematron rules. -->
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron"
   xmlns:rng="http://relaxng.org/ns/structure/1.0" version="2.9.1" xml:lang="en">
   <teiHeader>
@@ -14,7 +14,7 @@
       <publicationStmt>
         <authority>Prepared in TEI 5 by Zachary Enick for the Italian research assistantship at the
           University of Pittsburgh. Github repository: <ref target="http://github.com/zme1/toscana"
-          />. Date last worked on: <date when="2018-04-25"/></authority>
+          />. Date last worked on: <date when="2018-09-08"/></authority>
         <availability>
           <licence><!-- licence to go here --></licence>
         </availability>
@@ -27,6 +27,7 @@
   <text>
     <body>
       <schemaSpec ident="oddex1" source="tei:current" start="teiCorpus">
+        <moduleRef key="analysis" include="w"/>
         <moduleRef key="header"/>
         <moduleRef key="transcr"/>
         <moduleRef key="core"
@@ -126,6 +127,7 @@
                 <valItem ident="#deldebbiog"/>
                 <valItem ident="#delmagrol"/>
                 <valItem ident="#delucae"/>
+                <valItem ident="#denmanl"/>
                 <valItem ident="#denricoc"/>
                 <valItem ident="#denricop"/>
                 <valItem ident="#desantie"/>
@@ -402,7 +404,7 @@
         <elementSpec ident="rs" mode="change" module="core">
           <!-- Sometimes, a reference is made to a Lega member without explicitly listing his name.
           In cases like these, rs elements are used to point to the agent in question. The rs element
-          is subject to the same rule system as the persName element.-->
+          is subject to the same structural constraints as the persName element.-->
           <attList>
             <attDef ident="role" mode="replace" usage="rec">
               <valList type="closed">
@@ -442,6 +444,7 @@
           <content>
             <alternate maxOccurs="unbounded" minOccurs="0">
               <textNode/>
+              <elementRef key="w"/>
               <elementRef key="closer"/>
               <elementRef key="persName"/>
               <elementRef key="lb"/>
