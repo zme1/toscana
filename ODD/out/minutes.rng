@@ -5,7 +5,7 @@
          xmlns:teix="http://www.tei-c.org/ns/Examples"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2018-09-08T19:27:10Z. .
+Schema generated from ODD source 2018-09-11T01:26:20Z. .
 TEI Edition: Version 3.4.0. Last updated on
 	23rd July 2018, revision 1fa0b54
 TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.4.0/
@@ -2473,6 +2473,7 @@ Measures]</a:documentation>
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains any sequence of items organized as a list. [3.7. Lists]</a:documentation>
          <zeroOrMore>
             <choice>
+               <ref name="w"/>
                <ref name="item"/>
                <ref name="lb"/>
                <ref name="pb"/>
@@ -2847,9 +2848,6 @@ Sample values include: 1] main; 2] sub (subordinate) ; 3] alt (alternate) ; 4] s
                <ref name="model.gLike"/>
                <ref name="seg"/>
                <ref name="w"/>
-      
-      
-      
                <ref name="model.global"/>
                <ref name="model.lPart"/>
                <ref name="model.hiLike"/>
@@ -2861,6 +2859,17 @@ Sample values include: 1] main; 2] sub (subordinate) ; 3] alt (alternate) ; 4] s
          <ref name="att.typed.attributes"/>
          <ref name="att.linguistic.attributes"/>
          <ref name="att.notated.attributes"/>
+         <optional>
+            <attribute name="gender" ns="http://toscana.newtfire.org">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">This attribute identifies the gender of any anglicisms that are nouns.</a:documentation>
+               <choice>
+                  <value>m</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                  <value>f</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               </choice>
+            </attribute>
+         </optional>
          <empty/>
       </element>
    </define>

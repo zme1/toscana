@@ -14,7 +14,7 @@
       <publicationStmt>
         <authority>Prepared in TEI 5 by Zachary Enick for the Italian research assistantship at the
           University of Pittsburgh. Github repository: <ref target="http://github.com/zme1/toscana"
-          />. Date last worked on: <date when="2018-09-08"/></authority>
+          />. Date last worked on: <date when="2018-09-10"/></authority>
         <availability>
           <licence><!-- licence to go here --></licence>
         </availability>
@@ -39,6 +39,20 @@
         <moduleRef key="msdescription"
           include="accMat acquisition handDesc history institution msDesc msIdentifier msName origin physDesc repository"/>
         <moduleRef key="namesdates" include="listPerson orgName persName person roleName"/>
+        <elementSpec ident="w" mode="change" module="analysis">
+          <attList>
+            <attDef ident="gender" ns="http://toscana.newtfire.org" mode="add" usage="rec">
+              <desc>This attribute identifies the gender of any anglicisms that are nouns.</desc>
+              <datatype>
+                <dataRef key="teidata.word"/>
+              </datatype>
+              <valList type="closed">
+                <valItem ident="m"/>
+                <valItem ident="f"/>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
         <elementSpec ident="persName" mode="change" module="namesdates">
 
           <!-- Example of a Schematron rule obliging every persName element to have a surname descendant element in a format nested within the <elementSpec> element directly. -->
@@ -521,6 +535,7 @@
           added to the <list> content model that did not originally appear in it in the TEI All schema. -->
           <content>
             <alternate maxOccurs="unbounded" minOccurs="0">
+              <elementRef key="w"/>
               <elementRef key="item"/>
               <elementRef key="lb"/>
               <elementRef key="pb"/>
