@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../../ODD/out/minutes.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="../../ODD/out/minutes.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<teiCorpus xmlns="http://www.tei-c.org/ns/1.0">
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xmlns:tos="http://toscana.newtfire.org">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -272,7 +272,7 @@
                      seduta aperta e dopo Lettura<lb/> Processo Verbale <rs ref="#simonettim">il
                         Presidente</rs> lo messe all’aprovazione<lb/> all’assemblea e viene aprovato
                      Come e Scritto.<lb/> Si Passo ai Reso Conti generale dopo che furono<lb/>
-                     pagati tutti <w gender="m">i billi</w> in Pieno resto in Cassa al tesoriere<lb/> Bilancio Netto
+                     pagati tutti <w tos:gender="m">i billi</w> in Pieno resto in Cassa al tesoriere<lb/> Bilancio Netto
                      $484.07 Compreso Interesse $19.27<lb/> Il quale amontare del danaro fu
                      Consegnato <persName ref="#pasquinelliam">al nuovo Tesoriere<lb/> (Americo
                         Pasquinelli)</persName><lb/>

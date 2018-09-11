@@ -43,9 +43,6 @@
           <attList>
             <attDef ident="gender" ns="http://toscana.newtfire.org" mode="add" usage="rec">
               <desc>This attribute identifies the gender of any anglicisms that are nouns.</desc>
-              <datatype>
-                <dataRef key="teidata.word"/>
-              </datatype>
               <valList type="closed">
                 <valItem ident="m"/>
                 <valItem ident="f"/>
