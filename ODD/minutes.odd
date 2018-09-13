@@ -628,6 +628,9 @@
             </attDef>
           </attList>
         </elementSpec>
+        
+        <!-- BEGIN FALL 2018 SCHEMATRON RULES -->
+        
         <constraintSpec ident="preserve-eng" scheme="schematron">
           <constraint>
             <sch:ns uri="http://toscana.newtfire.org" prefix="tos"/>
@@ -648,6 +651,9 @@
             </sch:rule>
           </constraint>
         </constraintSpec>
+        
+        <!-- END FALL 2018 SCHEMATRON RULES -->
+        
         <constraintSpec ident="seg_proposal" scheme="schematron">
           <constraint>
             <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
