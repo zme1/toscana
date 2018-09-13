@@ -41,6 +41,12 @@
         <moduleRef key="namesdates" include="listPerson orgName persName person roleName"/>
         <elementSpec ident="w" mode="change" module="analysis">
           <attList>
+            <attDef ident="pos" mode="change" usage="req">
+              <valList type="closed">
+                <valItem ident="noun"/>
+                <valItem ident="verb"/>
+              </valList>
+            </attDef>
             <attDef ident="add" ns="http://toscana.newtfire.org" mode="add" usage="req">
               <desc>This required attribute specifies whether or not anglicisms received an italianized ending (final vowel,
                 final preceding consonant when applicable).</desc>
