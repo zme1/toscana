@@ -12,9 +12,9 @@
         <author>Zachary Enick</author>
       </titleStmt>
       <publicationStmt>
-        <authority>Prepared in TEI 5 by Zachary Enick for the Italian research assistantship at the
+        <authority>Prepared in TEI 5 by Zachary Enick for the Spring 2018 Italian research assistantship and Fall 2018 THINK research fellowship at the
           University of Pittsburgh. Github repository: <ref target="http://github.com/zme1/toscana"
-          />. Date last worked on: <date when="2018-09-10"/></authority>
+          />. Date last worked on: <date when="2018-09-13"/></authority>
         <availability>
           <licence><!-- licence to go here --></licence>
         </availability>
@@ -41,6 +41,14 @@
         <moduleRef key="namesdates" include="listPerson orgName persName person roleName"/>
         <elementSpec ident="w" mode="change" module="analysis">
           <attList>
+            <attDef ident="add" ns="http://toscana.newtfire.org" mode="add" usage="req">
+              <desc>This required attribute specifies whether or not anglicisms received an italianized ending (final vowel,
+                final preceding consonant when applicable).</desc>
+              <valList type="closed">
+                <valItem ident="suffix"/>
+                <valItem ident="none"/>
+              </valList>
+            </attDef>
             <attDef ident="gender" ns="http://toscana.newtfire.org" mode="add" usage="rec">
               <desc>This attribute identifies the gender of any anglicisms that are nouns.</desc>
               <valList type="closed">
@@ -48,19 +56,46 @@
                 <valItem ident="f"/>
               </valList>
             </attDef>
+            <attDef ident="preserve" ns="http://toscana.newtfire.org" mode="add" usage="rec">
+              <desc>This attribute is used when English-exclusive orthography (i.e. non-Italian letters or sequences of
+                letters) is either retained ('y') or italianized ('n') in an anglicism.</desc>
+              <valList type="closed">
+                <valItem ident="y"/>
+                <valItem ident="n"/>
+              </valList>
+            </attDef>
+            <attDef ident="eng" ns="http://toscana.newtfire.org" mode="add" usage="rec">
+              <desc>When @preserve='y', this attribute will specify whether the preserved characters are any of 
+                the five un-Italian characters ('y'), or if it was an italianization of English orthography ('n').</desc>
+              <valList type="closed">
+                <valItem ident="y"/>
+                <valItem ident="n"/>
+              </valList>
+            </attDef>
+            <attDef ident="char" ns="http://toscana.newtfire.org" mode="add" usage="rec">
+              <desc>When @preserve='y' and @eng='y', this attribute will specify which of the un-Italian characters
+                was preserved in the anglicism.</desc>
+              <valList type="closed">
+                <valItem ident="k"/>
+                <valItem ident="j"/>
+                <valItem ident="x"/>
+                <valItem ident="w"/>
+                <valItem ident="y"/>
+              </valList>
+            </attDef>
           </attList>
         </elementSpec>
+        
+        <!-- 
+            Whereas all of the following elements were used in the Spring of 2018 to research member activity and
+        interactions in the Lega Toscana di Protezione, the above element, <w>, serves as the chief tag used in the
+        research project during the Fall of 2018 with the Honors College's THINK research fellowship. The <w> tag will
+        be used to track anglicisms, and custom, non-TEI attributes were added to evoke linguistic information from each
+        anglicism that appears in the volume. Each custom attribute has its own <desc> tag that describes the nature of what
+        it represents. 
+        -->
+        
         <elementSpec ident="persName" mode="change" module="namesdates">
-
-          <!-- Example of a Schematron rule obliging every persName element to have a surname descendant element in a format nested within the <elementSpec> element directly. -->
-
-          <!-- <constraintSpec ident="persName_surname" scheme="isoschematron">
-          <constraint>
-            <sch:assert test="descendant::tei:surname">Every persName element must have a
-              surname element on the child or descendant axis</sch:assert>
-          </constraint>
-        </constraintSpec> -->
-
           <attList>
             <attDef ident="ref" mode="replace" usage="req">
               <valList type="closed">
@@ -587,7 +622,26 @@
             </attDef>
           </attList>
         </elementSpec>
-        <elementSpec ident="porticDesc" mode="change" module="corpus"/>
+        <constraintSpec ident="preserve-eng" scheme="schematron">
+          <constraint>
+            <sch:ns uri="http://toscana.newtfire.org" prefix="tos"/>
+            <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+              context="tei:w[@tos:preserve='y']">
+              <sch:assert test="@tos:eng">If there are non-Italian characters preserved in an anglicism,
+                you must specify whether it's an un-Italian character ('y'), or an ungrammatical sequence of letters ('n').</sch:assert>
+            </sch:rule>
+          </constraint>
+        </constraintSpec>
+        <constraintSpec ident="eng-orthography" scheme="schematron">
+          <constraint>
+            <sch:ns uri="http://toscana.newtfire.org" prefix="tos"/>
+            <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron" 
+              context="tei:w[@tos:eng='y']">
+              <sch:assert test="@tos:char">If the anglicism preserves English-exclusive orthography, you must specify which
+                of the un-Italian letters appears in the word.</sch:assert>
+            </sch:rule>
+          </constraint>
+        </constraintSpec>
         <constraintSpec ident="seg_proposal" scheme="schematron">
           <constraint>
             <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
