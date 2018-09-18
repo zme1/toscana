@@ -14,7 +14,7 @@
       <publicationStmt>
         <authority>Prepared in TEI 5 by Zachary Enick for the Spring 2018 Italian research assistantship and Fall 2018 THINK research fellowship at the
           University of Pittsburgh. Github repository: <ref target="http://github.com/zme1/toscana"
-          />. Date last worked on: <date when="2018-09-13"/></authority>
+          />. Date last worked on: <date when="2018-09-18"/></authority>
         <availability>
           <licence><!-- licence to go here --></licence>
         </availability>
@@ -31,10 +31,10 @@
         <moduleRef key="header"/>
         <moduleRef key="transcr"/>
         <moduleRef key="core"
-          include="add address addrLine author bibl date del item lb list note num p pb resp respStmt rs teiCorpus title unclear"/>
+          include="add address addrLine author bibl choice corr date del item lb list note num p pb resp respStmt rs sic teiCorpus title unclear"/>
         <moduleRef key="tei"/>
         <moduleRef key="textstructure" include="div TEI body closer signed text"/>
-        <moduleRef key="corpus" except="activity locale"/>
+        <moduleRef key="corpus" except="activity locale"/> 
         <moduleRef key="linking" include="ab seg"/>
         <moduleRef key="msdescription"
           include="accMat acquisition handDesc history institution msDesc msIdentifier msName origin physDesc repository"/>
@@ -496,6 +496,7 @@
           <content>
             <alternate maxOccurs="unbounded" minOccurs="0">
               <textNode/>
+              <elementRef key="choice"/>
               <elementRef key="w"/>
               <elementRef key="closer"/>
               <elementRef key="persName"/>
@@ -636,7 +637,7 @@
             <sch:ns uri="http://toscana.newtfire.org" prefix="tos"/>
             <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
               context="tei:w[@tos:preserve='y']">
-              <sch:assert test="@tos:eng">If there are non-Italian characters preserved in an anglicism,
+              <sch:assert test="@tos:eng">If there are non-Italian phonemes preserved in an anglicism,
                 you must specify whether it's an un-Italian character ('y'), or an ungrammatical sequence of letters ('n').</sch:assert>
             </sch:rule>
           </constraint>
@@ -653,6 +654,10 @@
         </constraintSpec>
         
         <!-- END FALL 2018 SCHEMATRON RULES -->
+        
+        
+        
+        <!-- BEGIN SPRING 2018 SCHEMATRON RULES -->
         
         <constraintSpec ident="seg_proposal" scheme="schematron">
           <constraint>
@@ -845,6 +850,10 @@
             </sch:rule>
           </constraint>
         </constraintSpec>
+        
+        <!-- END SPRING 2018 SCHEMATRON RULES -->
+        
+        
         <!--<constraintSpec ident="list_roleName" scheme="isoschematron">
           <constraint>
             <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron" context="tei:list[@type='committee'][not(@subtype='investigazione')][not(@subtype='regolamento')]/tei:item[tei:persName]">
