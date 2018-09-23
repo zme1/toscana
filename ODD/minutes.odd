@@ -14,7 +14,7 @@
       <publicationStmt>
         <authority>Prepared in TEI 5 by Zachary Enick for the Spring 2018 Italian research assistantship and Fall 2018 THINK research fellowship at the
           University of Pittsburgh. Github repository: <ref target="http://github.com/zme1/toscana"
-          />. Date last worked on: <date when="2018-09-18"/></authority>
+          />. Date last worked on: <date when="2018-09-23"/></authority>
         <availability>
           <licence><!-- licence to go here --></licence>
         </availability>
@@ -45,6 +45,7 @@
               <valList type="closed">
                 <valItem ident="noun"/>
                 <valItem ident="verb"/>
+                <valItem ident="adj"/>
               </valList>
             </attDef>
             <attDef ident="add" ns="http://toscana.newtfire.org" mode="add" usage="req">
@@ -59,6 +60,7 @@
               <desc>This attribute identifies the gender of any anglicisms that are nouns.</desc>
               <valList type="closed">
                 <valItem ident="m"/>
+                <valItem ident="ambig"/>
                 <valItem ident="f"/>
               </valList>
             </attDef>
@@ -646,9 +648,18 @@
           <constraint>
             <sch:ns uri="http://toscana.newtfire.org" prefix="tos"/>
             <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron" 
-              context="tei:w[@tos:eng='y']">
+              context="tei:w[@pos='y']">
               <sch:assert test="@tos:char">If the anglicism preserves English-exclusive orthography, you must specify which
                 of the un-Italian letters appears in the word.</sch:assert>
+            </sch:rule>
+          </constraint>
+        </constraintSpec>
+        <constraintSpec ident="eng-orthography" scheme="schematron">
+          <constraint>
+            <sch:ns uri="http://toscana.newtfire.org" prefix="tos"/>
+            <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron" 
+              context="tei:w[@pos='noun']">
+              <sch:assert test="@tos:gender">If the anglicism is a noun, you must specify its gender.</sch:assert>
             </sch:rule>
           </constraint>
         </constraintSpec>
