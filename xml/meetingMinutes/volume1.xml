@@ -4632,8 +4632,8 @@
                            </list></item>
                         <lb/>
                         <item><persName ref="#silvionic">Carlo Silvioni</persName>
-                           <roleName type="committee" role="chairman">Chairman of Reception<lb/>
-                              Committee</roleName></item>
+                           <roleName type="committee" role="chairman"><w pos="noun" tos:add="none" tos:gender="ambig">Chairman of Reception<lb/>
+                              Committee</w></roleName></item>
                         <item><list>
                               <note>ed i suoi assistenti:</note>
                               <item><persName ref="#sodinij">Jacopo<lb/> Sodini</persName><roleName
@@ -4646,8 +4646,8 @@
                            </list></item>
                         <lb/>
                         <item><persName ref="#marsilis">Sam Marsili</persName>
-                           <roleName type="committee" role="chairman">Chairman of Arrange-<lb/> ment
-                              Committee</roleName></item>
+                           <roleName type="committee" role="chairman"><w pos="noun" tos:add="none" tos:gender="ambig">Chairman of Arrange-<lb/> ment
+                              Committee</w></roleName></item>
                         <item><list>
                               <note>ed i suoi assistenti:</note>
                               <lb/>
@@ -4686,7 +4686,7 @@
                         <lb/>
                         <item><roleName type="officer" role="pres">Presidente</roleName>
                            <persName ref="#marsilis">Sam Marsili</persName>,</item>
-                        <item><roleName type="officer" role="vice">Vice President</roleName><lb/>
+                        <item><roleName type="officer" role="vice">Vice Presidente</roleName><lb/>
                            <persName ref="#sodinij">Jacopo Sodini</persName>,</item>
                         <item><list>
                               <note>Curatori</note>
@@ -5050,20 +5050,20 @@
                         type="applicants">
                         <note> Poi furono ammessi come nuovi membri e<lb/> di fare parte a questa
                            Lega, i seguenti<lb/> sono</note>
-                        <item><persName ref="#bianchinigiu">Giuseppe Bianchini</persName> 1311 Seitz
+                        <item><persName ref="#bianchinigiu">Giuseppe Bianchini</persName><!-- zme: street names/proper nouns... not anglicisms, I think --> 1311 Seitz
                            it City<lb/> di anni 30</item>
                         <item>e <persName ref="#polif">Francesco Poli</persName></item>
                         <note> il quale mando anche<lb/> il artificato medico.</note>
                      </list><lb/>
-                     <seg type="comp" subtype="sick">Si delibera a fragare al fratello <persName
+                     <seg type="comp" subtype="sick">Si delibera a pagare al fratello <persName
                            ref="#pacinio" role="target">Olindo Pacini</persName><lb/>
                         <num type="monetary" value="8">$8.00</num> di sussidio come regola di
-                        regolamento il<lb/> qui era nato? ammalato <del rend="strike">di
+                        regolamento il<lb/> qui era stato ammalato <del rend="strike">di
                            influenza</del> 8 giorni<lb/> di influenza</seg>, <seg type="comp"
                         subtype="sick">e <persName ref="#buchignianil" role="target">al fratello
                            Luigi Buchignani</persName><lb/>
                         <num type="monetary" value="55">$55.00</num> il qui era stato Ammalato 55
-                        giorni<lb/> con desiperá.</seg><lb/>
+                        giorni<lb/> <!-- zme: I don't recognize this term. --> con desiperá.</seg><lb/>
                      <seg type="proposal" subtype="evento">Venne fatta una proposta da <persName
                            ref="#simonettim" role="proposer">Michele<lb/> Simonetti</persName> e
                         assecondata da <persName ref="#zinim" role="supporter">Modesto
