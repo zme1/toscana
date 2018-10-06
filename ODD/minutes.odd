@@ -56,19 +56,19 @@
                 <valItem ident="verb"/>
                 <valItem ident="adj"/>
                 <valItem ident="prep"/>
+                <valItem ident="art"/>
               </valList>
             </attDef>
-            <attDef ident="add" ns="http://toscana.newtfire.org" mode="add" usage="req">
+            <attDef ident="add" ns="http://toscana.newtfire.org" mode="add" usage="opt">
               <desc>This required attribute specifies whether or not anglicisms received an italianized ending (final vowel,
                 final preceding consonant when applicable).</desc>
               <valList type="closed">
                 <valItem ident="itSuffix"/>
                 <valItem ident="engInflection"/>
                 <valItem ident="vbStem"/>
-                <valItem ident="none"/>
               </valList>
             </attDef>
-            <attDef ident="gender" ns="http://toscana.newtfire.org" mode="add" usage="rec">
+            <attDef ident="gender" ns="http://toscana.newtfire.org" mode="add" usage="opt">
               <desc>This attribute identifies the gender of any anglicisms that are nouns.</desc>
               <valList type="closed">
                 <valItem ident="m"/>
@@ -76,7 +76,7 @@
                 <valItem ident="f"/>
               </valList>
             </attDef>
-            <attDef ident="modification" ns="http://toscana.newtfire.org" mode="add" usage="rec">
+            <attDef ident="modification" ns="http://toscana.newtfire.org" mode="add" usage="opt">
               <desc>This attribute is used when English-exclusive orthography (i.e. non-Italian letters or sequences of
                 letters) is either retained ('y') or italianized ('n') in an anglicism.</desc>
               <valList type="closed">
@@ -84,7 +84,7 @@
                 <valItem ident="n"/>
               </valList>
             </attDef>
-            <attDef ident="eng" ns="http://toscana.newtfire.org" mode="add" usage="rec">
+            <attDef ident="eng" ns="http://toscana.newtfire.org" mode="add" usage="opt">
               <desc>When @preserve='y', this attribute will specify whether the preserved characters are any of 
                 the five un-Italian characters ('y'), or if it was an italianization of English orthography ('n').</desc>
               <valList type="closed">
@@ -92,7 +92,7 @@
                 <valItem ident="n"/>
               </valList>
             </attDef>
-            <attDef ident="char" ns="http://toscana.newtfire.org" mode="add" usage="rec">
+            <attDef ident="char" ns="http://toscana.newtfire.org" mode="add" usage="opt">
               <desc>When @preserve='y' and @eng='y', this attribute will specify which of the un-Italian characters
                 was preserved in the anglicism.</desc>
               <valList type="closed">
@@ -658,8 +658,8 @@
             <sch:ns uri="http://toscana.newtfire.org" prefix="tos"/>
             <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
               context="tei:w[@tos:modification='n']">
-              <sch:assert test="@tos:eng">If there are non-Italian phonemes preserved in an anglicism,
-                you must specify whether it's an un-Italian character ('y'), or whether the word was simply spelled exactly as it is in English ('n').</sch:assert>
+              <sch:assert test="@tos:eng">If there the loanword is not modified at all (including English inflection),
+                you must specify whether it still contains an un-Italian character ('y'), or whether the word was simply spelled exactly as it is in English ('n').</sch:assert>
             </sch:rule>
           </constraint>
         </constraintSpec>
@@ -682,12 +682,21 @@
             </sch:rule>
           </constraint>
         </constraintSpec>
-        <constraintSpec ident="noun-modification" scheme="schematron">
+        <constraintSpec ident="w-modification-explanation" scheme="schematron">
           <constraint>
             <sch:ns uri="http://toscana.newtfire.org" prefix="tos"/>
             <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron" 
-              context="tei:w[@pos='noun']">
-              <sch:assert test="@tos:modification">If the anglicism is a noun, you must specify whether or not its orthography was modified in production.</sch:assert>
+              context="tei:w[tos:modification='y']">
+              <sch:assert test="@tos:modification">With all modified anglicisms, you must speificy how the term was modified.</sch:assert>
+            </sch:rule>
+          </constraint>
+        </constraintSpec>
+        <constraintSpec ident="w-modification-confirmation" scheme="schematron">
+          <constraint>
+            <sch:ns uri="http://toscana.newtfire.org" prefix="tos"/>
+            <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron" 
+              context="tei:w[not(@pos='prep')]">
+              <sch:assert test="@tos:modification">With this anglicism, you must speificy whether or not it was modified by the author in any way.</sch:assert>
             </sch:rule>
           </constraint>
         </constraintSpec>
