@@ -5300,7 +5300,7 @@ teidata.xpath = text</pre></td></tr><tr><td class="wovenodd-col1"><span lang="en
 &lt;/sch:rule&gt;</div></td></tr><tr><td class="wovenodd-col1"><span lang="en" class="label">Schematron</span></td><td class="wovenodd-col2"><div class="pre">
 &lt;sch:ns uri="http://toscana.newtfire.org"
  prefix="tos"/&gt;
-&lt;sch:rule context="tei:w[not(@pos='prep')]"&gt;
+&lt;sch:rule context="tei:w[not(@pos='prep') and not(@pos='itArt')]"&gt;
 &lt;sch:assert test="@tos:modification"&gt;With this anglicism, you must speificy whether or not it was modified by the author in any way.&lt;/sch:assert&gt;
 &lt;/sch:rule&gt;</div></td></tr><tr><td class="wovenodd-col1"><span lang="en" class="label">Schematron</span></td><td class="wovenodd-col2"><div class="pre">
 &lt;sch:ns uri="http://toscana.newtfire.org"
@@ -5313,6 +5313,6 @@ teidata.xpath = text</pre></td></tr><tr><td class="wovenodd-col1"><span lang="en
 
 
 	       based on http://www.tei-c.org/Stylesheets/
-	       on 2018-10-06T20:17:57Z.
+	       on 2018-10-06T20:44:55Z.
 	       SAXON PE 9.8.0.12.
 		 --></address></div></body></html>

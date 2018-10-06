@@ -56,7 +56,7 @@
                 <valItem ident="verb"/>
                 <valItem ident="adj"/>
                 <valItem ident="prep"/>
-                <valItem ident="art"/>
+                <valItem ident="itArt"/>
               </valList>
             </attDef>
             <attDef ident="add" ns="http://toscana.newtfire.org" mode="add" usage="opt">
@@ -511,6 +511,7 @@
             <alternate maxOccurs="unbounded" minOccurs="0">
               <textNode/>
               <elementRef key="choice"/>
+              <elementRef key="phr"/>
               <elementRef key="w"/>
               <elementRef key="closer"/>
               <elementRef key="persName"/>
@@ -695,7 +696,7 @@
           <constraint>
             <sch:ns uri="http://toscana.newtfire.org" prefix="tos"/>
             <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron" 
-              context="tei:w[not(@pos='prep')]">
+              context="tei:w[not(@pos='prep') and not(@pos='itArt')]">
               <sch:assert test="@tos:modification">With this anglicism, you must speificy whether or not it was modified by the author in any way.</sch:assert>
             </sch:rule>
           </constraint>
