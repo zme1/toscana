@@ -14,7 +14,7 @@
       <publicationStmt>
         <authority>Prepared in TEI 5 by Zachary Enick for the Spring 2018 Italian research assistantship and Fall 2018 THINK research fellowship at the
           University of Pittsburgh. Github repository: <ref target="http://github.com/zme1/toscana"
-          />. Date last worked on: <date when="2018-09-23"/></authority>
+          />. Date last worked on: <date when="2018-10-06"/></authority>
         <availability>
           <licence><!-- licence to go here --></licence>
         </availability>
@@ -27,7 +27,7 @@
   <text>
     <body>
       <schemaSpec ident="oddex1" source="tei:current" start="teiCorpus">
-        <moduleRef key="analysis" include="w"/>
+        <moduleRef key="analysis" include="phr w"/>
         <moduleRef key="header"/>
         <moduleRef key="transcr"/>
         <moduleRef key="core"
@@ -39,6 +39,15 @@
         <moduleRef key="msdescription"
           include="accMat acquisition handDesc history institution msDesc msIdentifier msName origin physDesc repository"/>
         <moduleRef key="namesdates" include="listPerson orgName persName person roleName"/>
+        <elementSpec ident="phr" mode="change" module="analysis">
+          <attList>
+            <attDef ident="type" mode="change" usage="req">
+              <valList type="closed">
+                <valItem ident="noun"/>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
         <elementSpec ident="w" mode="change" module="analysis">
           <attList>
             <attDef ident="pos" mode="change" usage="req">
@@ -46,13 +55,16 @@
                 <valItem ident="noun"/>
                 <valItem ident="verb"/>
                 <valItem ident="adj"/>
+                <valItem ident="prep"/>
               </valList>
             </attDef>
             <attDef ident="add" ns="http://toscana.newtfire.org" mode="add" usage="req">
               <desc>This required attribute specifies whether or not anglicisms received an italianized ending (final vowel,
                 final preceding consonant when applicable).</desc>
               <valList type="closed">
-                <valItem ident="suffix"/>
+                <valItem ident="itSuffix"/>
+                <valItem ident="engInflection"/>
+                <valItem ident="vbStem"/>
                 <valItem ident="none"/>
               </valList>
             </attDef>
@@ -64,7 +76,7 @@
                 <valItem ident="f"/>
               </valList>
             </attDef>
-            <attDef ident="preserve" ns="http://toscana.newtfire.org" mode="add" usage="rec">
+            <attDef ident="modification" ns="http://toscana.newtfire.org" mode="add" usage="rec">
               <desc>This attribute is used when English-exclusive orthography (i.e. non-Italian letters or sequences of
                 letters) is either retained ('y') or italianized ('n') in an anglicism.</desc>
               <valList type="closed">
@@ -97,7 +109,7 @@
         <!-- 
             Whereas all of the following elements were used in the Spring of 2018 to research member activity and
         interactions in the Lega Toscana di Protezione, the above element, <w>, serves as the chief tag used in the
-        research project during the Fall of 2018 with the Honors College's THINK research fellowship. The <w> tag will
+        research project during the Fall of 2018 with the Honors College's THINK research fellowship. The <w> and <phr> tags will
         be used to track anglicisms, and custom, non-TEI attributes were added to evoke linguistic information from each
         anglicism that appears in the volume. Each custom attribute has its own <desc> tag that describes the nature of what
         it represents. 
@@ -633,14 +645,21 @@
         </elementSpec>
         
         <!-- BEGIN FALL 2018 SCHEMATRON RULES -->
-        
+        <constraintSpec ident="phr-w-count" scheme="schematron">
+          <constraint>
+            <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+              context="tei:phr">
+              <sch:assert test="count(tei:w) ge 2">In order to use a phr tag, it must contain at least two w tags.</sch:assert>
+            </sch:rule>
+          </constraint>
+        </constraintSpec>
         <constraintSpec ident="preserve-eng" scheme="schematron">
           <constraint>
             <sch:ns uri="http://toscana.newtfire.org" prefix="tos"/>
             <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-              context="tei:w[@tos:preserve='y']">
+              context="tei:w[@tos:modification='n']">
               <sch:assert test="@tos:eng">If there are non-Italian phonemes preserved in an anglicism,
-                you must specify whether it's an un-Italian character ('y'), or an ungrammatical sequence of letters ('n').</sch:assert>
+                you must specify whether it's an un-Italian character ('y'), or whether the word was simply spelled exactly as it is in English ('n').</sch:assert>
             </sch:rule>
           </constraint>
         </constraintSpec>
@@ -648,7 +667,7 @@
           <constraint>
             <sch:ns uri="http://toscana.newtfire.org" prefix="tos"/>
             <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron" 
-              context="tei:w[@pos='y']">
+              context="tei:w[@tos:eng='y']">
               <sch:assert test="@tos:char">If the anglicism preserves English-exclusive orthography, you must specify which
                 of the un-Italian letters appears in the word.</sch:assert>
             </sch:rule>
@@ -660,6 +679,15 @@
             <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron" 
               context="tei:w[@pos='noun']">
               <sch:assert test="@tos:gender">If the anglicism is a noun, you must specify its gender.</sch:assert>
+            </sch:rule>
+          </constraint>
+        </constraintSpec>
+        <constraintSpec ident="noun-modification" scheme="schematron">
+          <constraint>
+            <sch:ns uri="http://toscana.newtfire.org" prefix="tos"/>
+            <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron" 
+              context="tei:w[@pos='noun']">
+              <sch:assert test="@tos:modification">If the anglicism is a noun, you must specify whether or not its orthography was modified in production.</sch:assert>
             </sch:rule>
           </constraint>
         </constraintSpec>

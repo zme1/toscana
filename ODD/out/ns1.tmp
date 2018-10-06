@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="http://toscana.newtfire.org" xmlns:dcr="http://www.isocat.org/ns/dcr" xmlns:ns1="http://toscana.newtfire.org" xmlns:tei="http://www.tei-c.org/ns/1.0">
+  <xs:import namespace="http://www.isocat.org/ns/dcr" schemaLocation="dcr.tmp"/>
+  <xs:import namespace="http://www.tei-c.org/ns/1.0" schemaLocation="minutes.xsd.tmp"/>
+  <xs:import namespace="http://www.w3.org/XML/1998/namespace" schemaLocation="xml.tmp"/>
+  <xs:attribute name="add">
+    <xs:annotation>
+      <xs:documentation>This required attribute specifies whether or not anglicisms received an italianized ending (final vowel, final preceding consonant when applicable).</xs:documentation>
+    </xs:annotation>
+    <xs:simpleType>
+      <xs:restriction base="xs:token">
+        <xs:enumeration value="suffix">
+          <xs:annotation>
+            <xs:documentation/>
+          </xs:annotation>
+        </xs:enumeration>
+        <xs:enumeration value="none">
+          <xs:annotation>
+            <xs:documentation/>
+          </xs:annotation>
+        </xs:enumeration>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:attribute>
+  <xs:attribute name="gender">
+    <xs:annotation>
+      <xs:documentation>This attribute identifies the gender of any anglicisms that are nouns.</xs:documentation>
+    </xs:annotation>
+    <xs:simpleType>
+      <xs:restriction base="xs:token">
+        <xs:enumeration value="m">
+          <xs:annotation>
+            <xs:documentation/>
+          </xs:annotation>
+        </xs:enumeration>
+        <xs:enumeration value="ambig">
+          <xs:annotation>
+            <xs:documentation/>
+          </xs:annotation>
+        </xs:enumeration>
+        <xs:enumeration value="f">
+          <xs:annotation>
+            <xs:documentation/>
+          </xs:annotation>
+        </xs:enumeration>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:attribute>
+  <xs:attribute name="preserve">
+    <xs:annotation>
+      <xs:documentation>This attribute is used when English-exclusive orthography (i.e. non-Italian letters or sequences of letters) is either retained ('y') or italianized ('n') in an anglicism.</xs:documentation>
+    </xs:annotation>
+    <xs:simpleType>
+      <xs:restriction base="xs:token">
+        <xs:enumeration value="y">
+          <xs:annotation>
+            <xs:documentation/>
+          </xs:annotation>
+        </xs:enumeration>
+        <xs:enumeration value="n">
+          <xs:annotation>
+            <xs:documentation/>
+          </xs:annotation>
+        </xs:enumeration>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:attribute>
+  <xs:attribute name="eng">
+    <xs:annotation>
+      <xs:documentation>When @preserve='y', this attribute will specify whether the preserved characters are any of the five un-Italian characters ('y'), or if it was an italianization of English orthography ('n').</xs:documentation>
+    </xs:annotation>
+    <xs:simpleType>
+      <xs:restriction base="xs:token">
+        <xs:enumeration value="y">
+          <xs:annotation>
+            <xs:documentation/>
+          </xs:annotation>
+        </xs:enumeration>
+        <xs:enumeration value="n">
+          <xs:annotation>
+            <xs:documentation/>
+          </xs:annotation>
+        </xs:enumeration>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:attribute>
+  <xs:attribute name="char">
+    <xs:annotation>
+      <xs:documentation>When @preserve='y' and @eng='y', this attribute will specify which of the un-Italian characters was preserved in the anglicism.</xs:documentation>
+    </xs:annotation>
+    <xs:simpleType>
+      <xs:restriction base="xs:token">
+        <xs:enumeration value="k">
+          <xs:annotation>
+            <xs:documentation/>
+          </xs:annotation>
+        </xs:enumeration>
+        <xs:enumeration value="j">
+          <xs:annotation>
+            <xs:documentation/>
+          </xs:annotation>
+        </xs:enumeration>
+        <xs:enumeration value="x">
+          <xs:annotation>
+            <xs:documentation/>
+          </xs:annotation>
+        </xs:enumeration>
+        <xs:enumeration value="w">
+          <xs:annotation>
+            <xs:documentation/>
+          </xs:annotation>
+        </xs:enumeration>
+        <xs:enumeration value="y">
+          <xs:annotation>
+            <xs:documentation/>
+          </xs:annotation>
+        </xs:enumeration>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:attribute>
+</xs:schema>
