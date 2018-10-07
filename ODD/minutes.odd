@@ -77,24 +77,22 @@
               </valList>
             </attDef>
             <attDef ident="modification" ns="http://toscana.newtfire.org" mode="add" usage="opt">
-              <desc>This attribute is used when English-exclusive orthography (i.e. non-Italian letters or sequences of
-                letters) is either retained ('y') or italianized ('n') in an anglicism.</desc>
+              <desc>This attribute is used to identify whether the word was modified at all to appear more Italian ('y'), or whether no italianized adaptations were made to the word ('n').</desc>
               <valList type="closed">
                 <valItem ident="y"/>
                 <valItem ident="n"/>
               </valList>
             </attDef>
-            <attDef ident="eng" ns="http://toscana.newtfire.org" mode="add" usage="opt">
-              <desc>When @preserve='y', this attribute will specify whether the preserved characters are any of 
-                the five un-Italian characters ('y'), or if it was an italianization of English orthography ('n').</desc>
+            <attDef ident="orth" ns="http://toscana.newtfire.org" mode="add" usage="opt">
+              <desc>When @modification='y', this attribute will specify whether the word was spelled using English ('eng') or Italian ('it') orthographic conventions.</desc>
               <valList type="closed">
-                <valItem ident="y"/>
-                <valItem ident="n"/>
+                <valItem ident="it"/>
+                <valItem ident="eng"/>
               </valList>
             </attDef>
             <attDef ident="char" ns="http://toscana.newtfire.org" mode="add" usage="opt">
-              <desc>When @preserve='y' and @eng='y', this attribute will specify which of the un-Italian characters
-                was preserved in the anglicism.</desc>
+              <desc>When @modification='y' and @orth='eng', this attribute will specify which of the un-Italian characters
+                was preserved in the anglicism, if there are any.</desc>
               <valList type="closed">
                 <valItem ident="k"/>
                 <valItem ident="j"/>
@@ -654,26 +652,30 @@
             </sch:rule>
           </constraint>
         </constraintSpec>
-        <constraintSpec ident="preserve-eng" scheme="schematron">
+        <constraintSpec ident="orth-eng" scheme="schematron">
           <constraint>
             <sch:ns uri="http://toscana.newtfire.org" prefix="tos"/>
             <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-              context="tei:w[@tos:modification='n']">
-              <sch:assert test="@tos:eng">If there the loanword is not modified at all (including English inflection),
-                you must specify whether it still contains an un-Italian character ('y'), or whether the word was simply spelled exactly as it is in English ('n').</sch:assert>
+              context="tei:w[not(@pos='prep') and not(@pos='itArt')]">
+              <sch:assert test="@tos:orth">With every loanword that is not a preposition or article, you must specifiy whether the orthography complies with 
+                English or Italian grammar.</sch:assert>
             </sch:rule>
           </constraint>
         </constraintSpec>
-        <constraintSpec ident="eng-orthography" scheme="schematron">
+        <!--
+          zme: This Schematron rul is temporarily being commented out, since I don't think I need it to be obligatory with every instance in which English orthography
+          is preserved. Not every case in which English spelling is used will there be an un-Italian letter.
+          
+          <constraintSpec ident="eng-orthography" scheme="schematron">
           <constraint>
             <sch:ns uri="http://toscana.newtfire.org" prefix="tos"/>
             <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron" 
-              context="tei:w[@tos:eng='y']">
+              context="tei:w[@tos:orth='eng']">
               <sch:assert test="@tos:char">If the anglicism preserves English-exclusive orthography, you must specify which
                 of the un-Italian letters appears in the word.</sch:assert>
             </sch:rule>
           </constraint>
-        </constraintSpec>
+        </constraintSpec>-->
         <constraintSpec ident="eng-orthography" scheme="schematron">
           <constraint>
             <sch:ns uri="http://toscana.newtfire.org" prefix="tos"/>
@@ -688,7 +690,7 @@
             <sch:ns uri="http://toscana.newtfire.org" prefix="tos"/>
             <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron" 
               context="tei:w[tos:modification='y']">
-              <sch:assert test="@tos:modification">With all modified anglicisms, you must speificy how the term was modified.</sch:assert>
+              <sch:assert test="@tos:orth and @tos:add">With all modified anglicisms, you must specify how it was modified.</sch:assert>
             </sch:rule>
           </constraint>
         </constraintSpec>

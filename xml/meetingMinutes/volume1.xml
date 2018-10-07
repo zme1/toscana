@@ -272,7 +272,7 @@
                      seduta aperta e dopo Lettura<lb/> Processo Verbale <rs ref="#simonettim">il
                         Presidente</rs> lo messe all’aprovazione<lb/> all’assemblea e viene aprovato
                      Come e Scritto.<lb/> Si Passo ai Reso Conti generale dopo che furono<lb/>
-                     pagati tutti <phr type="noun"><w pos="itArt">i</w> <w pos="noun"  tos:gender="m" tos:add="itSuffix" tos:modification="y">billi</w></phr> in Pieno resto in Cassa al tesoriere<lb/> Bilancio Netto
+                     pagati tutti <phr type="noun"><w pos="itArt">i</w> <w pos="noun"  tos:gender="m" tos:add="itSuffix" tos:modification="y" tos:orth="eng">billi</w></phr> in Pieno resto in Cassa al tesoriere<lb/> Bilancio Netto
                      $484.07 Compreso Interesse $19.27<lb/> Il quale amontare del danaro fu
                      Consegnato <persName ref="#pasquinelliam">al nuovo Tesoriere<lb/> (Americo
                         Pasquinelli)</persName><lb/>
@@ -913,12 +913,12 @@
                         Mano Furono aprovati con<lb/>tutti Favorevole. Nessun Contrario</seg><lb/>la
                      Loggia Cittadini Italo Americani #31<lb/>ordine Figli d’italia ci inviò una
                      lettera<lb/>nelle quale ci Invitava al Gran Ballo del<lb/>23 Aprile 1919 – e
-                     Nella Medesimia ci Inviò<lb/>3. <w pos="noun" tos:gender="f" tos:modification="n" tos:eng="y" tos:char="k">ticket</w> per L’ingresso all Ballo una<lb/>Per il
+                     Nella Medesimia ci Inviò<lb/>3. <w pos="noun" tos:gender="f" tos:modification="n" tos:orth="eng" tos:char="k">ticket</w> per L’ingresso all Ballo una<lb/>Per il
                      Presidente e 2 per formare una<lb/>Comitato di Rapresentanza.-<lb/>
                      <pb n="16" facs="../../img/meetingMinutes/16.png"/>
                      <persName ref="#fredianim">Il Presidente Muzio
                         Frediani</persName>dichiarò<lb/>Che<del rend="strike">ch</del>non Poteva
-                     andarci a rapresentare<lb/> La Lega Toscana e allora Offri <w pos="noun" tos:gender="f" tos:add="engInflection" tos:modification="y" tos:eng="y" tos:char="k">le Tickets</w><lb/>alla
+                     andarci a rapresentare<lb/> La Lega Toscana e allora Offri <phr type="noun"><w pos="itArt">le</w> <w pos="noun" tos:gender="f" tos:add="engInflection" tos:modification="y" tos:orth="eng" tos:char="k">Tickets</w></phr><lb/>alla
                      Samblea. le quali furono Consegnate<lb/>ai fratelli<persName ref="#marsilia">A.
                         Marsili</persName>
                      <persName ref="#robertice">C. Robert</persName>
@@ -1298,7 +1298,7 @@
                      <add place="margin">Fu</add>Lettura Processo Verbale il quale
                      Venne<lb/>aprovato Come e Scritto<lb/> Corza la Societa M. S. Gugliermo Marconi
                      ci Invio’ una Lettera di Invito al loro gran ballo<lb/> 25 giugno 1919 - Nella
-                     Sala da Ballo 6023 - Penn ava city Nella Medesima<lb/>vi era Incluso 5 <w pos="noun" tos:gender="f" tos:add="itSuffix" tos:modification="n" tos:eng="y" tos:char="k">Tickette</w>
+                     Sala da Ballo 6023 - Penn ava city Nella Medesima<lb/>vi era Incluso 5 <w pos="noun" tos:gender="f" tos:add="itSuffix" tos:modification="y" tos:orth="eng" tos:char="k">Tickette</w>
                      d’amissione Gratuite<lb/>Linvito della Societa M. S. G. M. Fu’ acetta<lb/>Per
                      La Seconda volta Fu dato Lettura dello<lb/>Statuto Unica Fondo Mortuario e
                      Fu<lb/>aprovato da tutti per la Seconda Volta<lb/>
@@ -1480,7 +1480,7 @@
                      Sorelle dei Soci<lb/>Apartenenti Alla Lega Toscana<lb/>
                      <pb n="24" facs="../../img/meetingMinutes/24.png"/>
                      <persName ref="#fredianim"> Il Presidente M Frediani</persName>Chiese<lb/>il
-                     Raporto del Comto Scelto per<lb/>trovare <w pos="noun" tos:gender="f" tos:modification="n" tos:eng="n">la farm</w> per darci la
+                     Raporto del Comto Scelto per<lb/>trovare <phr type="noun"><w pos="itArt">la</w> <w pos="noun" tos:gender="f" tos:modification="n" tos:orth="eng">farm</w></phr> per darci la
                      festa<lb/>Campestre e Famigliare<lb/>
                      <persName ref="#maffeis">Il Capo Comto S Maffei</persName>Raporto<lb/>che
                      avevano trovato e ingaggiato<lb/>la Ross Farm Aspinwall Pa<lb/>per $20.00 e
@@ -2898,7 +2898,7 @@
                         <item>e <persName ref="#zambellinic" role="rejected">Cesare
                               Zambellini</persName>.</item>
                         <note>I primi<lb/> furano ammessi per acclamazione<lb/> ma il quarto, avendo
-                           <w pos="adj" tos:add="itSuffix" tos:modification="y">certini</w> fatte<lb/> delle osservazioni si procedette a rego-<lb/> la di
+                           <w pos="adj" tos:add="itSuffix" tos:modification="y" tos:orth="it">certini</w> fatte<lb/> delle osservazioni si procedette a rego-<lb/> la di
                            legga e cioe’ si messe ai voti<lb/> e risulto rigettato con 9 voti
                            contra-<lb/> ri e quindi non ammesso.</note>
                      </list><lb/> Viene rimandata alla prossima<lb/> seduta la discussione sul da
@@ -3047,7 +3047,7 @@
                            reason="illegible">bottone</unclear> a giglio<lb/> e che questi venghino
                         pagati da singoli soci<lb/>
                         <pb n="42" facs="../../img/meetingMinutes/42.png"/> Come pure si decise far
-                        fare 20 <w pos="noun" tos:gender="ambig" tos:add="engInflection" tos:modification="n" tos:eng="n">badges</w><lb/> che dovranno servire ai rappresentanti la Lega<lb/>
+                        fare 20 <w pos="noun" tos:gender="ambig" tos:add="engInflection" tos:modification="n" tos:orth="eng">badges</w><lb/> che dovranno servire ai rappresentanti la Lega<lb/>
                         nelle diversi occasioni.</seg> Per tali fabbisogni<lb/> fu scielto un
                      comitato per la ricerca dei<lb/> prezzi migliori. Gli incaricati sono <persName
                         ref="#fredianim">Muzio Fre-<lb/> diani</persName> e <persName
@@ -3065,7 +3065,7 @@
                            >Eugenio Bertoni</persName>, ass. da <persName ref="#zinim"
                            role="supporter">Modesto Zini</persName>,<lb/> propone sia prelevato dal
                         fondo cassa-<lb/> $500.00 per investirli al <orgName ref="#presito">Prestito
-                           Italiano</orgName><lb/> in <w pos="noun" tos:add="itSuffix" tos:modification="y" tos:gender="m">dollari</w>.</seg><lb/>
+                           Italiano</orgName><lb/> in <w pos="noun" tos:add="itSuffix" tos:modification="y" tos:orth="it" tos:gender="m">dollari</w>.</seg><lb/>
                      <seg type="proposal" subtype="evento">
                         <persName ref="#simonettim" role="proposer">M. Simonetti</persName> ass. <rs
                            ref="#legaT" role="supporter">ad unanimita</rs><lb/> propone dare un
@@ -3090,7 +3090,7 @@
                         <item><persName ref="#pellegrinic">C. Pellegrini</persName><roleName
                               type="committee" role="investigatore"/></item>
                      </list><lb/> Fu dato ordine spedire ai soci<lb/> due applicazioni per il F.U.M
-                     per<lb/> <w pos="verb" tos:add="vbStem" tos:modification="y">famigliarsi</w>.<lb/>
+                     per<lb/> <w pos="verb" tos:add="vbStem" tos:orth="it" tos:modification="y">famigliarsi</w>.<lb/>
                      <closer><rs ref="#maffeis">Il Presidente</rs> ordine chiusa la seduta<lb/> Il
                         Seg. Il Presidente<lb/>
                         <signed>Muzio Frediani</signed>
@@ -3225,7 +3225,7 @@
                            Tale proposta fu approvata ad<lb/> acclamazione.</seg></seg>
                      <seg type="comp" subtype="charity">Viene definitivamente<lb/> approvato di
                         sottoscrivere al <orgName ref="#presito" role="target">Prestito<lb/>
-                           Italiano</orgName> in <w pos="noun" tos:gender="m" tos:add="itSuffix" tos:modification="y">Dollari</w> <num type="monetary" value="500"
+                           Italiano</orgName> in <w pos="noun" tos:gender="m" tos:add="itSuffix" tos:modification="y" tos:orth="it">Dollari</w> <num type="monetary" value="500"
                            >$500.00</num>.</seg><lb/>
                      <seg type="proposalReject">I fratelli <persName ref="#bertonie" role="proposer"
                            >E. Bertoni</persName>, <persName ref="#simonettim" role="proposer">M.
@@ -3725,22 +3725,22 @@
                      accettato.</seg><lb/> Sorsero a parlare altri sempre in<lb/> riguardo al Picnic
                      e da tale discussio-<lb/> ne sorse una vera gara per offrire og-<lb/> getti per
                      la vendita a beneficio so-<lb/> ciale e cosi fu formata la lista:<lb/>
-                     <persName ref="#maffeis">Stefano Maffei</persName>, <w pos="noun" tos:gender="f" tos:modification="n" tos:eng="y" tos:char="x">una box</w> di sigari;<lb/>
+                     <persName ref="#maffeis">Stefano Maffei</persName>, <phr type="noun"><w pos="itArt">una</w> <w pos="noun" tos:gender="f" tos:modification="n" tos:orth="eng" tos:char="x">box</w></phr> di sigari;<lb/>
                      <persName ref="#pasquinellis">Santino Pasquinelli</persName>, un bel salame;<lb/>
-                     <persName ref="#gambogis">Santino Gambogi</persName>, 5 box <w pos="noun" tos:gender="ambig" tos:modification="n" tos:eng="y" tos:char="w">Chew-gum</w>;<lb/>
-                     <persName ref="#silvionic">Carlo Silvioni</persName>, 1 box di <w pos="noun" tos:gender="ambig" tos:modification="n" tos:eng="y" tos:char="y">candy</w>; <persName
-                        ref="#palig">Giuseppe<lb/> Poli</persName>, una box di <w pos="noun" tos:gender="ambig" tos:modification="n" tos:eng="y" tos:char="y">candy</w>; <persName
+                     <persName ref="#gambogis">Santino Gambogi</persName>, <phr type="noun">5 <w pos="noun" tos:gender="f" tos:modification="n" tos:orth="eng" tos:char="x">box</w> <w pos="noun" tos:gender="ambig" tos:modification="n" tos:orth="eng" tos:char="w">Chew-gum</w></phr>;<lb/>
+                     <persName ref="#silvionic">Carlo Silvioni</persName>, <phr type="noun">1 <w pos="noun" tos:gender="f" tos:modification="n" tos:orth="eng" tos:char="x">box</w> di <w pos="noun" tos:gender="ambig" tos:modification="n" tos:orth="eng" tos:char="y">candy</w></phr>; <persName
+                        ref="#palig">Giuseppe<lb/> Poli</persName>, <phr type="noun"><w pos="itArt">una</w> <w pos="noun" tos:gender="f" tos:modification="n" tos:orth="eng" tos:char="x">box</w> di <w pos="noun" tos:gender="ambig" tos:modification="n" tos:orth="eng" tos:char="y">candy</w></phr>; <persName
                         ref="#vannuccie">Ernesto Van-<lb/> nucci</persName> 10 pezzi artistici;
-                        <persName ref="#marchettie">Emilio Mar-<lb/> chetti</persName>, un <w pos="noun" tos:gender="ambig" tos:modification="n" tos:eng="y" tos:char="y">baby</w>;
+                        <persName ref="#marchettie">Emilio Mar-<lb/> chetti</persName>, un <w pos="noun" tos:gender="ambig" tos:modification="n" tos:orth="eng" tos:char="y">baby</w>;
                         <persName ref="#piaggesia">Aladino Piaggesi</persName>,<lb/> ½ doz. di
-                     retine per capelli; Sodini<lb/> e Piaggesi 5 casse di <w pos="noun" tos:add="engInflection" tos:modification="n" tos:eng="n" tos:gender="ambig">pops</w>; <persName
+                     retine per capelli; Sodini<lb/> e Piaggesi 5 casse di <w pos="noun" tos:add="engInflection" tos:modification="n" tos:orth="eng" tos:gender="ambig">pops</w>; <persName
                         ref="#lucchesiam">Americo<lb/> Lucchesi</persName>, 1 box di sigari De Nobili;<lb/>
                      <persName ref="#lunardinil">Lorenzo Lunardini</persName>, 1 box di sigari;<lb/>
                      <pb n="48" facs="../../img/meetingMinutes/48.png"/>
                      <persName ref="#maffeip">Pasquale Maffei</persName>, 1 box di Big Havana;<lb/>
                      <persName ref="#desimos">Serafino de Simo</persName>, 12 box di Steak candy;<lb/>
                      <persName ref="#darrigop">Pietro d’Arrigo</persName>, 5 Buccellati; <persName
-                        ref="#giangranedif">Francesco<lb/> Giangrandi</persName>, 1 box <w pos="noun" tos:gender="ambig" tos:modification="n" tos:eng="y" tos:char="y">candy</w>.<lb/>
+                        ref="#giangranedif">Francesco<lb/> Giangrandi</persName>, 1 box <w pos="noun" tos:gender="ambig" tos:modification="n" tos:orth="eng" tos:char="y">candy</w>.<lb/>
                      <closer>Non essendoci altro da discutere<lb/>
                         <rs ref="#maffeis">il presidente</rs> toglie la seduta con<lb/> ferma
                         dichiarazione che in casse<lb/> a tutto oggi vi $1378.17<lb/>
@@ -4087,7 +4087,7 @@
                         <item><roleName type="committee" role="chairman">Chairman di
                               ricevimento</roleName><lb/>
                            <persName ref="#maffeis">S. Maffei</persName>,</item>
-                        <item><roleName type="committee" role="manager"><phr type="noun"><w pos="noun" tos:modification="n" tos:eng="n" tos:gender="ambig">floor</w> <w pos="noun" tos:modification="n" tos:eng="n" tos:gender="ambig">manager</w></phr></roleName>
+                        <item><roleName type="committee" role="manager"><phr type="noun"><w pos="noun" tos:modification="n" tos:orth="eng" tos:gender="ambig">floor</w> <w pos="noun" tos:modification="n" tos:orth="eng" tos:gender="ambig">manager</w></phr></roleName>
                            <persName ref="#simonettim">M Simonetti</persName>,</item>
                         <lb/>
                         <item>
@@ -4377,7 +4377,7 @@
                            Buchignani</persName></item>
                         <note> il quale ultimo trovasi ammalato.</note>
                      </list><lb/> Il processo verbale venne approvato come<lb/> letto.<lb/>
-                     <seg type="proposal" subtype="evento">Dopo di <w pos="verb" tos:add="vbStem" tos:modification="y">avere splitato</w> affari am-<lb/>
+                     <seg type="proposal" subtype="evento">Dopo di <w pos="verb" tos:add="vbStem" tos:modification="y" tos:orth="it">avere splitato</w> affari am-<lb/>
                         ministrati il fratello<persName ref="#fredianim" role="proposer"> M.
                            Frediani</persName> ass.<lb/> Da Lui <persName ref="#zinim"
                            role="supporter">Modesto</persName> di dare un Ballo masche-<lb/> rato
@@ -4595,7 +4595,7 @@
                         la Lega fu fatta da <persName ref="#fredianellig" role="proposer"
                            >Giuseppe<lb/> Fredianelli</persName> assecondato da <persName
                            ref="#zinim" role="supporter">Zini Modesto</persName><lb/> Se i dieci
-                        <w pos="noun" tos:add="itSuffix" tos:modification="y" tos:gender="ambig">dollari</w> gli siano concessi co-<lb/> me Beneficenza e non come diritto.</seg><lb/>
+                        <w pos="noun" tos:add="itSuffix" tos:modification="y" tos:orth="it" tos:gender="ambig">dollari</w> gli siano concessi co-<lb/> me Beneficenza e non come diritto.</seg><lb/>
                      <list type="committee" subtype="ballo">
                         <date when-custom="1920-12 1921-01"/>
                         <note>L’inizio il disbrigo su da fare<lb/> sul nostro ballo e venne deciso
@@ -4616,8 +4616,8 @@
                               <roleName type="committee" role="tes">Tesoriere</roleName></item>
                         <lb/>
                         <item><persName ref="#viganol">Lorenzo Vigano’</persName>, <roleName
-                              type="committee" role="chairman"> <phr type="noun"><w pos="noun" tos:gender="ambig" tos:modification="n" tos:eng="n">Chairman</w> <w pos="prep">of</w><lb/> <w pos="adj" tos:modification="n" tos:eng="n">Floor</w>
-                              <w pos="noun" tos:gender="ambig" tos:modification="n" tos:eng="n" tos:add="engInflection">Managers</w></phr></roleName></item>
+                              type="committee" role="chairman"> <phr type="noun"><w pos="noun" tos:gender="ambig" tos:modification="n" tos:orth="eng">Chairman</w> <w pos="prep">of</w><lb/> <w pos="adj" tos:modification="n" tos:orth="eng">Floor</w>
+                              <w pos="noun" tos:gender="ambig" tos:modification="n" tos:orth="eng" tos:add="engInflection">Managers</w></phr></roleName></item>
                         <item><list>
                               <note>ed i suoi assistenti:</note>
                               <lb/>
