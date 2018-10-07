@@ -4632,8 +4632,8 @@
                            </list></item>
                         <lb/>
                         <item><persName ref="#silvionic">Carlo Silvioni</persName>
-                           <roleName type="committee" role="chairman"><phr type="noun"><w pos="noun" tos:modification="n" tos:eng="n" tos:gender="ambig">Chairman</w> <w pos="prep">of</w> <w pos="adj" tos:modification="n" tos:eng="n">Reception</w><lb/>
-                              <w pos="noun" tos:gender="ambig" tos:modification="n" tos:eng="n">Committee</w></phr></roleName></item>
+                           <roleName type="committee" role="chairman"><phr type="noun"><w pos="noun" tos:modification="n" tos:orth="eng" tos:gender="ambig">Chairman</w> <w pos="prep">of</w> <w pos="adj" tos:modification="n" tos:orth="eng">Reception</w><lb/>
+                              <w pos="noun" tos:gender="ambig" tos:modification="n" tos:orth="eng">Committee</w></phr></roleName></item>
                         <item><list>
                               <note>ed i suoi assistenti:</note>
                               <item><persName ref="#sodinij">Jacopo<lb/> Sodini</persName><roleName
@@ -4646,8 +4646,8 @@
                            </list></item>
                         <lb/>
                         <item><persName ref="#marsilis">Sam Marsili</persName>
-                           <roleName type="committee" role="chairman"><phr type="noun"><w pos="noun" tos:modification="n" tos:eng="n" tos:gender="ambig">Chairman</w> <w pos="prep">of</w> <w pos="adj" tos:modification="n" tos:eng="n">Arrange-<lb/>ment</w>
-                              <w pos="noun" tos:modification="n" tos:eng="n" tos:gender="ambig">Committee</w></phr></roleName></item>
+                           <roleName type="committee" role="chairman"><phr type="noun"><w pos="noun" tos:modification="n" tos:orth="eng" tos:gender="ambig">Chairman</w> <w pos="prep">of</w> <w pos="adj" tos:modification="n" tos:orth="eng">Arrange-<lb/>ment</w>
+                              <w pos="noun" tos:modification="n" tos:orth="eng" tos:gender="ambig">Committee</w></phr></roleName></item>
                         <item><list>
                               <note>ed i suoi assistenti:</note>
                               <lb/>
@@ -5050,7 +5050,7 @@
                         type="applicants">
                         <note> Poi furono ammessi come nuovi membri e<lb/> di fare parte a questa
                            Lega, i seguenti<lb/> sono</note>
-                        <item><persName ref="#bianchinigiu">Giuseppe Bianchini</persName><!-- zme: street names/proper nouns... not anglicisms, I think --> 1311 Seitz
+                        <item><persName ref="#bianchinigiu">Giuseppe Bianchini</persName> 1311 Seitz
                            it City<lb/> di anni 30</item>
                         <item>e <persName ref="#polif">Francesco Poli</persName></item>
                         <note> il quale mando anche<lb/> il artificato medico.</note>
@@ -5672,7 +5672,7 @@
                         <lb/>
                         <item>segue<lb/>
                            <pb n="66" facs="../../img/meetingMinutes/66.png"/>
-                           <roleName type="committee" role="manager">Floor manager</roleName>
+                           <roleName type="committee" role="manager"><phr type="noun"><w pos="adj" tos:modification="n" tos:orth="eng">Floor</w> <w pos="noun" tos:modification="n" tos:orth="eng" tos:gender="ambig">manager</w></phr></roleName>
                            <persName ref="#lunardinil">Lorenzo Lunardini</persName></item>
                      </list> e i<lb/> suoi assistenti verranno scelti nella prossima<lb/> seduta.<lb/>
                      <closer>Non avendo altro da fare alle ore<lb/> 10.35 P.M. <rs ref="#marsilis"
@@ -5808,7 +5808,7 @@
                      <del rend="strike">Antonio Serafini</del><lb/> Vi fu una discuzione di sopra
                      il<lb/> dovere del socio che bisogno metterlo<lb/> alle votazione per
                      modificare<lb/> l’articolo 21 Capitolo 4. La pallina<lb/> biancha sarebbe stata
-                     per rimodifar-<lb/> lo <del rend="strike">e la nera</del> per quelli che<lb/>
+                     per <w pos="verb" tos:add="vbStem" tos:modification="y" tos:orth="it">rimodifar-<lb/>lo</w> <del rend="strike">e la nera</del> per quelli che<lb/>
                      <pb n="67" facs="../../img/meetingMinutes/67.png"/> non avessero inteso
                      l’articolo 21<lb/> e la nera di lasciarlo come si<lb/> trova nel regolamento le
                      votazio-<lb/> ni risultarono cosi Nere 13. bianche<lb/> 11. <list
@@ -6034,7 +6034,7 @@
                            <persName ref="#simonettim">Michele Simonetti</persName></item>
                         <item><roleName type="committee" role="assistente">Vice Capo</roleName>,
                               <persName ref="#maffeis">Stefano<lb/> Maffei</persName>,</item>
-                        <item><roleName type="committee" role="manager">Floor Maneger</roleName><lb/>
+                        <item><roleName type="committee" role="manager"><phr type="noun"><w pos="adj" tos:modification="n" tos:orth="eng">Floor</w> <w pos="noun" tos:gender="ambig" tos:modification="n" tos:orth="eng">Maneger</w></phr></roleName><lb/>
                            <persName ref="#viganor">Ramialdo Vigano’</persName></item>
                         <lb/>
                         <item><list>
@@ -6789,8 +6789,8 @@
                            <roleName type="committee" role="tes">Tesoriere</roleName></item>
                         <lb/>
                         <item><persName ref="#simonettim">Michele Simonetti</persName>
-                           <roleName type="committee" role="chairman">Chairman of Reception<lb/>
-                              Commitee</roleName></item>
+                           <roleName type="committee" role="chairman"><w pos="n" tos:modification="n" tos:orth="eng">Chairman</w> <phr type="prep"><w pos="prep">of</w> <w pos="adj" tos:modification="n" tos:orth="eng">Reception</w><lb/>
+                              <w pos="noun" tos:modification="n" tos:gender="ambig" tos:orth="eng">Commitee</w></phr></roleName></item>
                         <note>, gli assistenti verranno fatti<lb/> Nella prossima seduta.</note>
                         <lb/>
 
@@ -6802,11 +6802,11 @@
                         <pb n="76" facs="../../img/meetingMinutes/76.png"/>
 
                         <item><persName ref="#sodinij">Jacopo Sodini</persName>
-                           <roleName type="committee" role="chairman">Chairman of arrangement<lb/>
-                              Commitee</roleName>,</item>
+                           <roleName type="committee" role="chairman"><w pos="noun" tos:modification="n" tos:orth="eng" tos:gender="ambig">Chairman</w> <phr type="prep"><w pos="prep">of</w> <w pos="adj" tos:modification="n" tos:orth="eng">arrangement</w><lb/>
+                              <w pos="noun" tos:modification="n" tos:orth="eng" tos:gender="ambig">Commitee</w></phr></roleName>,</item>
                         <item><persName ref="#fredianellig">Giuseppe Fredianelli</persName>
                            <roleName type="committee" role="assistente">^Vice</roleName>
-                           <del rend="strike">assestenti</del><lb/> Arrangement Commitee,</item>
+                           <del rend="strike">assestenti</del><lb/> <phr type="noun"><w pos="adj" tos:modification="n" tos:orth="eng">Arrangement</w> <w pos="noun" tos:gender="ambig" tos:modification="n" tos:orth="eng">Commitee</w></phr>,</item>
                         <item><list>
                               <note>e i suoi<lb/> Assistenti.</note>
 
