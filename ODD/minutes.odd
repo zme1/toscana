@@ -14,7 +14,7 @@
       <publicationStmt>
         <authority>Prepared in TEI 5 by Zachary Enick for the Spring 2018 Italian research assistantship and Fall 2018 THINK research fellowship at the
           University of Pittsburgh. Github repository: <ref target="http://github.com/zme1/toscana"
-          />. Date last worked on: <date when="2018-10-06"/></authority>
+          />. Date last worked on: <date when="2018-10-18"/></authority>
         <availability>
           <licence><!-- licence to go here --></licence>
         </availability>
@@ -58,6 +58,7 @@
                 <valItem ident="adj"/>
                 <valItem ident="prep"/>
                 <valItem ident="itArt"/>
+                <valItem ident="num"/>
               </valList>
             </attDef>
             <attDef ident="add" ns="http://toscana.newtfire.org" mode="add" usage="opt">
@@ -89,6 +90,7 @@
               <valList type="closed">
                 <valItem ident="it"/>
                 <valItem ident="eng"/>
+                <valItem ident="both"/>
               </valList>
             </attDef>
             <attDef ident="char" ns="http://toscana.newtfire.org" mode="add" usage="opt">
@@ -657,7 +659,7 @@
           <constraint>
             <sch:ns uri="http://toscana.newtfire.org" prefix="tos"/>
             <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-              context="tei:w[not(@pos='prep') and not(@pos='itArt')]">
+              context="tei:w[not(@pos='prep') and not(@pos='itArt') and not(@pos='num')]">
               <sch:assert test="@tos:orth">With every loanword that is not a preposition or article, you must specifiy whether the orthography complies with 
                 English or Italian grammar.</sch:assert>
             </sch:rule>
@@ -699,7 +701,7 @@
           <constraint>
             <sch:ns uri="http://toscana.newtfire.org" prefix="tos"/>
             <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron" 
-              context="tei:w[not(@pos='prep') and not(@pos='itArt')]">
+              context="tei:w[not(@pos='prep') and not(@pos='itArt') and not(@pos='num')]">
               <sch:assert test="@tos:modification">With this anglicism, you must speificy whether or not it was modified by the author in any way.</sch:assert>
             </sch:rule>
           </constraint>

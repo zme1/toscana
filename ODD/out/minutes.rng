@@ -5,7 +5,7 @@
          xmlns:teix="http://www.tei-c.org/ns/Examples"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2018-10-07T03:30:12Z. .
+Schema generated from ODD source 2018-10-18T18:01:40Z. .
 TEI Edition: Version 3.4.0. Last updated on
 	23rd July 2018, revision 1fa0b54
 TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.4.0/
@@ -2992,6 +2992,8 @@ Sample values include: 1] main; 2] sub (subordinate) ; 3] alt (alternate) ; 4] s
                   <value>it</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                   <value>eng</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                  <value>both</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                </choice>
             </attribute>
@@ -7046,7 +7048,7 @@ Suggested values include: 1] persuade; 2] express; 3] inform; 4] entertain</a:do
       <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                context="tei:w[not(@pos='prep') and not(@pos='itArt')]">
+                context="tei:w[not(@pos='prep') and not(@pos='itArt') and not(@pos='num')]">
               <sch:assert test="@tos:orth">With every loanword that is not a preposition or article, you must specifiy whether the orthography complies with 
                 English or Italian grammar.</sch:assert>
             </sch:rule>
@@ -7083,7 +7085,7 @@ Suggested values include: 1] persuade; 2] express; 3] inform; 4] entertain</a:do
       <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                context="tei:w[not(@pos='prep') and not(@pos='itArt')]">
+                context="tei:w[not(@pos='prep') and not(@pos='itArt') and not(@pos='num')]">
               <sch:assert test="@tos:modification">With this anglicism, you must speificy whether or not it was modified by the author in any way.</sch:assert>
             </sch:rule>
    </pattern>

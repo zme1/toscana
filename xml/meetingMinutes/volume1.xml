@@ -8742,7 +8742,7 @@
                      <seg type="proposal" subtype="evento">Proposto da <persName ref="#pellegrinic"
                            role="proposer">Casimirro Pellegrini</persName> ass.<lb/> da <persName
                            ref="#cappellinic" role="supporter">Castruccio Cappellini</persName> di
-                        mettere a<lb/> credito una ticcetta del ballo del valore<lb/> di $1.00
+                        mettere a<lb/> credito <phr type="noun"><w pos="itArt">una</w> <w pos="noun" tos:gender="f" tos:modification="y" tos:orth="it" tos:add="itSuffix">ticcetta</w></phr> del ballo del valore<lb/> di $1.00
                            <persName ref="#micheluccis">al fratello Silvio
                         Michelucci</persName></seg><lb/>
                      <seg type="proposal" subtype="evento">Proposto da <persName ref="#tambellinig"
@@ -8932,17 +8932,17 @@
                            <roleName type="committee" role="tes">Tesoriere</roleName>.</item>
                         <lb/>
                         <item><persName ref="#maffeis">Stefano Maffei</persName>
-                           <roleName type="committee" role="chairman">Chairman of Reception<lb/>
-                              Committee</roleName>.</item>
+                           <roleName type="committee" role="chairman"><w pos="noun" tos:gender="ambig" tos:modification="n" tos:orth="eng">Chairman</w> <phr type="prep"><w pos="prep">of</w> <w pos="adj" tos:modification="n" tos:orth="eng">Reception</w><lb/>
+                              <w pos="noun" tos:gender="ambig" tos:modification="n" tos:orth="eng">Committee</w></phr></roleName>.</item>
                         <note>gli assistenti verranno<lb/> shelti nella prossima seduta.</note>
                         <lb/>
-                        <item><roleName type="committee" role="manager">Floor Maneger</roleName>
+                        <item><roleName type="committee" role="manager"><phr type="noun"><w pos="adj" tos:modification="n" tos:orth="eng">Floor</w> <w pos="noun" tos:gender="ambig" tos:modification="n" tos:orth="eng">Maneger</w></phr></roleName>
                            <persName ref="#giannig">Giuseppe Gianni</persName></item>
                         <lb/>
                         <item>
                            <persName ref="#zinim">Modesto Zini</persName>
-                           <roleName type="committee" role="chairman">Chairman of Arrangement<lb/>
-                              Committee</roleName>.</item>
+                           <roleName type="committee" role="chairman"><w pos="noun" tos:gender="ambig" tos:modification="n" tos:orth="eng">Chairman</w> <phr type="prep"><w pos="prep">of</w> <w pos="adj" tos:modification="n" tos:orth="eng">Arrangement</w><lb/>
+                              <w pos="noun" tos:gender="ambig" tos:modification="n" tos:orth="eng">Committee</w></phr></roleName>.</item>
                         <note>gli assistenti verranno<lb/> shelti nella prossima seduta.</note>
                      </list><lb/>
                      <del rend="strike">Proposto da Vi fu due proposte di<lb/> fare pagare gli
@@ -8956,7 +8956,7 @@
                            role="proposer">Muzio Frediani</persName> ass. da<lb/>
                         <persName ref="#zinim" role="supporter">Modesto Zini</persName> di Levare un
                         comitato<lb/> di investicare in riguardo di fare<lb/>
-                        <pb n="95" facs="../../img/meetingMinutes/95.png"/> il club della
+                        <pb n="95" facs="../../img/meetingMinutes/95.png"/><!-- zme: this word was in use before the Lega logs, but it's clearly an unosbtructed loanword --> <phr type="noun"><w pos="itArt">il</w> <w pos="noun" tos:gender="m" tos:modification="n" tos:orth="eng">club</w></phr> della
                         Lega.</seg>
                      <list type="committee" subtype="investigazione">
                         <date when="1922-12"/>
@@ -8973,7 +8973,7 @@
                               type="committee" role="investigatore"/>,</item>
                         <item><persName ref="#viganol">Lorenzo Vigano’</persName><roleName
                               type="committee" role="investigatore"/></item>
-                     </list> e di rapportare a loro comodo in<lb/> riguardo al Club.<lb/>
+                     </list> e di rapportare a loro comodo in<lb/> riguardo <phr type="noun"><w pos="itArt">al</w> <w pos="noun" tos:gender="m" tos:modification="n" tos:orth="eng">Club</w></phr>.<lb/>
                      <closer>Non avendo da fare altro per<lb/> qualla sera <rs ref="#maffeis">il
                            Presidente</rs> dichiare<lb/> sciolta la seduda.<lb/> Il Segretario Il Presidente<lb/>
                         <signed>E. Marchetti</signed></closer><lb/>
@@ -9190,7 +9190,7 @@
                         <date when-custom="1922-12 1923-01"/>
                         <note>fu aperta la nomina degli assistenti<lb/> ballo.</note>
                         <item><list>
-                              <note>Reception Commitee.</note>
+                              <note><phr type="noun"><w pos="adj" tos:modification="n" tos:orth="eng">Reception</w> <w pos="noun" tos:gender="ambig" tos:modification="n" tos:orth="eng">Commitee</w></phr>.</note>
                               <item><persName ref="#marconic">Carlo Marconi</persName><roleName
                                     type="committee" role="assistente"/>,</item>
                               <lb/>
@@ -9202,7 +9202,7 @@
                            </list></item>
                         <lb/>
                         <item><list>
-                              <note>Floor Manager</note>
+                              <note><phr type="noun"><w pos="adj" tos:modification="n" tos:orth="eng">Floor</w> <w pos="noun" tos:gender="ambig" tos:modification="n" tos:orth="eng">Manager</w></phr></note>
                               <item><persName ref="#battistiniv">Vincenzo
                                     Battistini</persName><roleName type="committee"
                                     role="assistente"/></item>
@@ -9212,7 +9212,7 @@
                            </list></item>
                         <lb/>
                         <item><list>
-                              <note>Arrangement Commitee</note>
+                              <note><phr type="noun"><w pos="adj" tos:modification="n" tos:orth="eng">Arrangement</w> <w pos="noun" tos:gender="ambig" tos:modification="n" tos:orth="eng">Commitee</w></phr></note>
                               <item><persName ref="#pasquinelliam">Americo
                                     Pasquinelli</persName><roleName type="committee"
                                     role="assistente"/></item>
@@ -9608,7 +9608,7 @@
                         <note>e il certificato<lb/> medico <persName ref="#giomettic">del fratello
                               Carlo giometti</persName> che<lb/> e ritornato dall’Italia ed ora vi e
                            in<lb/> regola colla Lega.</note>
-                     </list><lb/> Il comitato Club trovo un posto in<lb/> warrington ave. ma non
+                     </list><lb/> Il comitato <w pos="adj" tos:modification="n" tos:orth="eng">Club</w> trovo un posto in<lb/> warrington ave. ma non
                      pote sapere<lb/> quanto volevano. Vi fu da ridire di sopra<lb/> il diario
                         <persName ref="#pardinib">del fratello Benedetto Pardini</persName> a<lb/>
                      motivo che aveva ritardato a presentare<lb/>
@@ -10272,7 +10272,7 @@
                         <note>Venne presentata l’applicazione a nuovo<lb/> Socio di</note>
                         <item><persName ref="#francionig">Giuseppe Francioni</persName></item>
                         <note>e fu’ approvata.</note>
-                     </list><lb/> Avendo >la Lega Toscana ricevuto dalla Loggia<lb/> S. Amato n.
+                     </list><lb/> Avendo La Lega Toscana ricevuto dalla Loggia<lb/> S. Amato n.
                      248. Ordine Indipendente Figli d’Italia<lb/>
                      <pb n="106" facs="../../img/meetingMinutes/106.png"/> 3 libretti riffa, <seg
                         type="proposalReject">venne fatta la proposta<lb/>
@@ -10611,7 +10611,7 @@
                      <seg type="proposal" subtype="status">Proposto da <persName ref="#marconic"
                            role="proposer">Carlo Marconi</persName> assecondato da<lb/>
                         <persName ref="#cinellio" role="supporter">Olindo Cinelli</persName> di
-                        aggiungere 5 membri ancora<lb/> al comitato club</seg> e <list
+                        aggiungere 5 membri ancora<lb/> al comitato <w pos="adj" tos:modification="n" tos:orth="eng">club</w></seg> e <list
                         type="committee" subtype="investigazione">
                         <date when="1923-10"/>
                         <note>furono nominati i seguenti<lb/> soci</note>
@@ -10632,7 +10632,7 @@
                            role="proposer">Michele Simonetti</persName> assecondato da<lb/>
                         <persName ref="#pasquinellis" role="supporter">Santino
                            Pasquinelli</persName> di dare tre mesi di tempo<lb/>
-                        <pb n="109" facs="../../img/meetingMinutes/109.png"/> al comitato club di
+                        <pb n="109" facs="../../img/meetingMinutes/109.png"/> al comitato <w pos="adj" tos:modification="n" tos:orth="eng">club</w> di
                         portare alla luce quache<lb/> cosa. caso diverso di fare un nuovo
                         comitato</seg><lb/>
                      <seg type="proposal" subtype="comitato">Proposto da <persName ref="#marconic"
@@ -10673,7 +10673,7 @@
                               type="committee" role="investigatore"/></item>
                         <item><persName ref="#lucchesiam">Amerigo Lucchesi</persName><roleName
                               type="committee" role="investigatore"/></item>
-                     </list><lb/> Fu approvato il sussidio di 32 dollari al socio<lb/> Pietro
+                     </list><lb/> Fu approvato il sussidio di 32 <w pos="noun" tos:gender="ambig" tos:add="itSuffix" tos:modification="y" tos:orth="it">dollari</w> al socio<lb/> Pietro
                      Incrocci.<lb/> In cassa oggi $3332.17. <closer>Non avendo altro<lb/> da fare
                            <rs ref="#maffeis">il presidente</rs> dichiara sciolta la seduta<lb/>
                         10.45 P.M.<lb/> Il Seg Il Presidente<lb/>
@@ -10821,15 +10821,15 @@
                            <roleName type="committee" role="seg">segretario</roleName></item>
                         <lb/>
                         <item><persName ref="#pacinic">Candito Pacini</persName>
-                           <roleName type="committee" role="chairman">Charman di
+                           <roleName type="committee" role="chairman"><w pos="noun" tos:gender="ambig" tos:modification="n" tos:orth="eng">Charman</w> di
                               arrangiamento</roleName></item>
                         <lb/>
                         <item><persName ref="#sodinij">Jacopo Sodini</persName>
-                           <roleName type="committee" role="assistente">assistente charman di
+                           <roleName type="committee" role="assistente">assistente <w pos="noun" tos:gender="ambig" tos:modification="n" tos:orth="it">charman</w> di
                               arrangiamento</roleName></item>
                         <lb/>
                         <item><persName ref="#marconic">Carlo Marconi</persName>
-                           <roleName type="committee" role="chairman">charman di
+                           <roleName type="committee" role="chairman"><w pos="noun" tos:gender="ambig" tos:modification="n" tos:orth="it">charman</w> di
                               ricevimento</roleName>.</item>
                         <item><list>
                               <item><persName ref="#fredianim">Muzio<lb/>
@@ -10901,14 +10901,14 @@
                      <seg type="proposal" subtype="evento">Fu proposto da <persName ref="#fredianim"
                            role="proposer">Muzio Frediani</persName> e assecondato da<lb/>
                         <persName ref="#marconic" role="supporter">Carlo Marconi</persName> che
-                        tutti i membri che vendono<lb/> 5 Ticchette gli viene abbonata la sua, che
-                        e’ del<lb/> valore di un dollaro.</seg><lb/>
+                        tutti i membri che vendono<lb/> <phr type="noun"><w pos="num">5</w> <w pos="noun" tos:gender="f" tos:modification="y" tos:add="itSuffix" tos:orth="it">Ticchette</w></phr> gli viene abbonata la sua, che
+                        e’ del<lb/> valore di <phr type="noun"><w pos="itArt">un</w> <w pos="noun" tos:modification="y" tos:add="itSuffix" tos:orth="it" tos:gender="m">dollaro</w></phr>.</seg><lb/>
                      <seg type="proposal" subtype="evento">Proposto da <persName ref="#lombardia"
                            role="proposer">Aladino Lombardi</persName> assecondato da<lb/>
                         <persName ref="#maffeis" role="supporter">Stefano Maffei</persName> di dare
                         un banchetto al comitato<lb/> ballo.</seg><lb/> Fu presentata e letta una
                      lettera che la Fratellanza<lb/> Siciliana mandava invitando la lega Toscana
-                     al<lb/> ballo e piu’ inviava 3 ticchette gratuite. <seg type="proposal"
+                     al<lb/> ballo e piu’ inviava <phr type="noun"><w pos="num">3</w> <w pos="noun" tos:gender="f" tos:modification="y" tos:add="itSuffix" tos:orth="it">ticchette</w></phr> gratuite. <seg type="proposal"
                         subtype="denaro">Il fratello<lb/>
                         <persName ref="#fredianim" role="proposer">Muzio Frediani</persName> fece la
                         proposta e <persName ref="#maffeis" role="supporter">Stefano
