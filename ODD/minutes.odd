@@ -14,7 +14,7 @@
       <publicationStmt>
         <authority>Prepared in TEI 5 by Zachary Enick for the Spring 2018 Italian research assistantship and Fall 2018 THINK research fellowship at the
           University of Pittsburgh. Github repository: <ref target="http://github.com/zme1/toscana"
-          />. Date last worked on: <date when="2018-10-18"/></authority>
+          />. Date last worked on: <date when="2018-10-21"/></authority>
         <availability>
           <licence><!-- licence to go here --></licence>
         </availability>
@@ -58,7 +58,7 @@
                 <valItem ident="adj"/>
                 <valItem ident="prep"/>
                 <valItem ident="itArt"/>
-                <valItem ident="num"/>
+                <valItem ident="conj"/>
               </valList>
             </attDef>
             <attDef ident="add" ns="http://toscana.newtfire.org" mode="add" usage="opt">
@@ -651,7 +651,7 @@
           <constraint>
             <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
               context="tei:phr">
-              <sch:assert test="count(tei:w) ge 2">In order to use a phr tag, it must contain at least two w tags.</sch:assert>
+              <sch:assert test="count(tei:w) ge 2 or tei:phr">In order to use a phr tag, it must contain at least two w tags or another phr tag.</sch:assert>
             </sch:rule>
           </constraint>
         </constraintSpec>
@@ -659,8 +659,8 @@
           <constraint>
             <sch:ns uri="http://toscana.newtfire.org" prefix="tos"/>
             <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-              context="tei:w[not(@pos='prep') and not(@pos='itArt') and not(@pos='num')]">
-              <sch:assert test="@tos:orth">With every loanword that is not a preposition or article, you must specifiy whether the orthography complies with 
+              context="tei:w[not(@pos='prep') and not(@pos='itArt') and not(@pos='conj')]">
+              <sch:assert test="@tos:orth">With every loanword that is not a preposition, conjunction, or article, you must specifiy whether the orthography complies with 
                 English or Italian grammar.</sch:assert>
             </sch:rule>
           </constraint>
@@ -701,7 +701,7 @@
           <constraint>
             <sch:ns uri="http://toscana.newtfire.org" prefix="tos"/>
             <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron" 
-              context="tei:w[not(@pos='prep') and not(@pos='itArt') and not(@pos='num')]">
+              context="tei:w[not(@pos='prep') and not(@pos='itArt') and not(@pos='conj')]">
               <sch:assert test="@tos:modification">With this anglicism, you must speificy whether or not it was modified by the author in any way.</sch:assert>
             </sch:rule>
           </constraint>
