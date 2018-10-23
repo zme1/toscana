@@ -13063,6 +13063,7 @@
                               >material</w></phr></phr> 50.00<lb/>
                      <phr type="noun"><w pos="adj" tos:modification="y" tos:add="engInflection"
                            tos:orth="eng">Painters</w>
+                        <!-- zme: I tagged this as an adjective with English inflection, although it's really a possessive, as well as "superintendents" below -->
                         <w pos="noun" tos:gender="ambig" tos:modification="n" tos:orth="eng"
                            >time</w></phr> 25.00<lb/> Silvios <w pos="noun" tos:gender="ambig"
                         tos:modification="n" tos:orth="eng">time</w> 24.50<lb/>
@@ -13079,10 +13080,46 @@
                            tos:orth="eng">use</w>
                         <phr type="prep"><w pos="prep">of</w>
                            <w pos="noun" tos:gender="ambig" tos:modification="n" tos:orth="eng"
-                              >machine</w></phr></phr><!-- zme: I read that, at one point, h was an un-italian letter... -->
-                     7.00<lb/> Use of driver and truck for banling 10.00<lb/> Superintendents labor
-                     execution<lb/> and use of machine for buying<lb/> supplies and directing same
-                     50.00<lb/> Watchman 5.00<lb/> Tax bill 4.00<lb/> Totale 315.76<lb/>
+                              >machine</w></phr></phr><!-- zme: I read that, at one point, h was an un-italian letter... --> 7.00<lb/>
+                     <phr type="noun"><w pos="noun" tos:gender="ambig" tos:modification="n"
+                           tos:orth="eng">Use</w>
+                        <phr type="prep"><w pos="prep">of</w>
+                           <w pos="noun" tos:gender="ambig" tos:modification="n" tos:orth="eng"
+                              >driver</w>
+                           <w pos="conj">and</w>
+                           <w pos="noun" tos:gender="ambig" tos:modification="n" tos:orth="eng"
+                              >truck</w></phr>
+                        <phr type="prep"><w pos="prep">for</w>
+                           <w pos="noun" tos:gender="ambig" tos:modification="n" tos:orth="eng"
+                              >banling</w></phr></phr> 10.00<lb/>
+                     <phr type="noun"><w pos="adj" tos:modification="n" tos:orth="eng"
+                           tos:add="engInflection">Superintendents</w>
+                        <w pos="noun" tos:gender="ambig" tos:modification="n" tos:orth="eng"
+                           >labor</w>
+                        <w pos="noun" tos:gender="ambig" tos:modification="n" tos:orth="eng"
+                           tos:char="x">execution</w></phr><lb/>
+                     <w pos="conj">and</w>
+                     <phr type="noun"><w pos="noun" tos:gender="ambig" tos:modification="n"
+                           tos:orth="eng">use</w>
+                        <phr type="phr"><w pos="prep">of</w>
+                           <w pos="noun" tos:gender="ambig" tos:modification="n" tos:orth="eng"
+                              >machine</w><!-- zme: h --></phr></phr>
+                     <phr type="prep"><w pos="prep">for</w>
+                        <w pos="noun" tos:gender="ambig" tos:modification="n" tos:orth="eng"
+                           tos:char="y">buying</w><lb/>
+                        <w pos="noun" tos:gender="ambig" tos:modification="n" tos:orth="eng"
+                           >supplies</w>
+                        <w pos="conj">and</w>
+                        <w pos="noun" tos:gender="ambig" tos:modification="n" tos:orth="eng"
+                           >directing</w>
+                        <w pos="noun" tos:gender="ambig" tos:modification="n" tos:orth="eng"
+                           >same</w></phr> 50.00<lb/>
+                     <w pos="noun" tos:gender="ambig" tos:modification="n" tos:orth="eng"
+                        tos:char="w">Watchman</w> 5.00<lb/>
+                     <w pos="noun" tos:gender="ambig" tos:modification="n" tos:orth="eng"
+                        tos:char="x">Tax</w>
+                     <w pos="noun" tos:gender="ambig" tos:modification="n" tos:orth="eng">bill</w>
+                     4.00<lb/> Totale 315.76<lb/>
                      <pb n="129" facs="../../img/meetingMinutes/129.png"/>
                      <list type="cancellati">
                         <note>Fu approvato di cancellare <del rend="strike">i</del> i seguenti
@@ -13115,12 +13152,16 @@
                         <item><persName ref="#datia">Adelmo Dati</persName><lb/>
                            <roleName type="committee" role="tes">tesoriere</roleName>.</item>
                         <item><persName ref="#lunardinil">Lorenzo Lunardini</persName>
-                           <roleName type="committee" role="manager">floor manager</roleName></item>
+                           <roleName type="committee" role="manager"><phr type="noun"><w pos="adj"
+                                    tos:modification="n" tos:orth="eng">floor</w>
+                                 <w pos="noun" tos:gender="ambig" tos:modification="n"
+                                    tos:orth="eng">manager</w></phr></roleName></item>
                         <lb/>
                         <item><roleName type="committee" role="assistente">assistente</roleName>
                            <persName ref="#fontanae">Ettore Fontana</persName>.</item>
                         <lb/>
-                        <item><roleName type="committee" role="chairman">Charman
+                        <item><roleName type="committee" role="chairman"><w pos="noun"
+                                 tos:gender="ambig" tos:modification="n" tos:orth="eng">Charman</w>
                               ricevimento</roleName>
                            <persName ref="#maffeigio">Giovacchino Maffei</persName>.</item>
                         <lb/>
@@ -13132,7 +13173,7 @@
                                     type="committee" role="assistente"/>.</item>
                            </list></item>
                         <lb/>
-                        <item><roleName type="committee" role="chairman">Charman di
+                        <item><roleName type="committee" role="chairman"><w pos="noun" tos:gender="ambig" tos:modification="n" tos:orth="eng">Charman</w> di
                               arrangiamento</roleName>
                            <persName ref="#cinellio">Olindo Cinelli</persName></item>
                         <lb/>
@@ -13155,7 +13196,7 @@
                      <persName ref="#giannig">Giuseppe Gianni</persName> e <persName ref="#pardinia"
                         >Benedetto Pardini</persName><lb/> Incassato dal segretario di finanza
                      170.05<lb/> Interesse dei soldi alla banca 75.14<lb/> Totale 245.19<lb/>
-                     Incassa oggi $4027.03.<lb/> Furono pagati i billi del carro per
+                     Incassa oggi $4027.03.<lb/> Furono pagati i <w pos="noun" tos:gender="m" tos:modification="y" tos:add="itSuffix" tos:orth="it">billi</w> del carro per
                      l’ammontare<lb/> di $315.76 e l’affito per la sala’ di $22.50<lb/> totale
                      $338.26. <closer>Non avendo altro da fare <rs ref="#pellegrinic">il<lb/>
                            presidente</rs> dichiara sciolt la seduta 11.30 PM Il Seg <signed>G.
@@ -13297,19 +13338,20 @@
                         <item>e <persName ref="#fredianellig">Giuseppe Fredianell</persName>
                            ufficiale<lb/> sanitario.</item>
                      </list> Apertasi la discussione riguardo al<lb/> carro allegorico <rs
-                        ref="#pellegrinic">il presidente</rs> mostra all’assemblea<lb/> un billo di
+                        ref="#pellegrinic">il presidente</rs> mostra all’assemblea<lb/> un <w pos="noun" tos:gender="m" tos:modification="y" tos:add="itSuffix" tos:orth="it">billo</w> di
                      $20.40. da lui ricevuto, e tenuto<lb/>
                      <del rend="strike">tenuto</del> responsabile, riguardo all’accidente che<lb/>
-                     il carro allegorico ebbe il giorno della parata<lb/> 12 Ottobre, Columbus day,
+                     il carro allegorico ebbe il giorno della parata<lb/> 12 Ottobre, <w pos="noun" tos:gender="ambig" tos:modification="n" tos:orth="eng"
+                        tos:char="y">Columbus day</w>,
                      che per raggiungire<lb/> la parata cozzo’ un’altra automobile producendole<lb/>
                      dei guasti. Dopo una vivace discussione <rs ref="#pellegrinic">il<lb/>
                         presidente</rs> si prende l’incarico di aggiustare<lb/> la questione. Non
                      avendo il comitato ballo<lb/> fatto il suo dovere la societa’ e tenuta a
-                     perdere<lb/> i .25.00 dollari sborsati per l’affito del Moose<lb/> Temple il 2
+                     perdere<lb/> i .25.00 <w pos="noun" tos:gender="m" tos:modification="y" tos:add="itSuffix" tos:orth="it">dollari</w> sborsati per l’affito del Moose<lb/> Temple il 2
                      Dicembre .U.S. Dal rapporto degli<lb/> ufficiali sanitari risultava che i soci<lb/>
                      <persName ref="#pardinib">Benedetto Pardini</persName>, e <persName
                         ref="#lunardinip">Pietro Lunardini</persName> si<lb/> Trovavano ancora
-                     ammalati.<lb/> Furono approvati e pagati i seguenti billi.<lb/> Sam Marsili per
+                     ammalati.<lb/> Furono approvati e pagati i seguenti <w pos="noun" tos:gender="m" tos:modification="y" tos:orth="it" tos:add="itSuffix">billi</w>.<lb/> Sam Marsili per
                      serratura al banco delle<lb/> bandiere $3.25 <seg type="comp" subtype="sick"
                            ><persName ref="#giannig" role="target">Giuseppe Gianni</persName> per sussidio<lb/>
                         <num type="monetary" value="16">$16.00</num>.</seg>
@@ -13512,7 +13554,8 @@
                      </list> Il processo verbale venne approvato<lb/> come letto. Avendo l’assemblea
                      dimandato se<lb/> qualcuno fosse stato incaricato <rs ref="#pellegrinic">dal
                         presidente</rs><lb/> riguardo al danno causato dal carro allegorico<lb/> il
-                     giorno .12. Ottobre 1924 Columbus day, <persName ref="#simonettim">il<lb/>
+                     giorno .12. Ottobre 1924 <w pos="noun" tos:gender="ambig" tos:modification="n" tos:orth="eng"
+                        tos:char="y">Columbus day</w>, <persName ref="#simonettim">il<lb/>
                         fratello Michele Simonetti</persName>, si alza e dice, che<lb/>
                      <rs ref="#pellegrinic">il presidente</rs> era andato a trovarlo e le aveva<lb/>
                      detto che essendo lui <rs ref="#simonettim">il nuovo presidente</rs>,

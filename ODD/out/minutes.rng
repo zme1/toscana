@@ -5,7 +5,7 @@
          xmlns:teix="http://www.tei-c.org/ns/Examples"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2018-10-22T00:44:17Z. .
+Schema generated from ODD source 2018-10-23T11:55:33Z. .
 TEI Edition: Version 3.4.0. Last updated on
 	23rd July 2018, revision 1fa0b54
 TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.4.0/
@@ -7037,7 +7037,8 @@ Suggested values include: 1] persuade; 2] express; 3] inform; 4] entertain</a:do
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
                 context="tei:phr">
-              <sch:assert test="count(tei:w) ge 2 or tei:phr">In order to use a phr tag, it must contain at least two w tags or another phr tag.</sch:assert>
+              <sch:assert test="count(tei:w) ge 2 or tei:phr">In order to use a phr tag, it must
+                contain at least two w tags or another phr tag.</sch:assert>
             </sch:rule>
    </pattern>
    <ns xmlns="http://purl.oclc.org/dsdl/schematron"
@@ -7049,7 +7050,8 @@ Suggested values include: 1] persuade; 2] express; 3] inform; 4] entertain</a:do
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
                 context="tei:w[not(@pos='prep') and not(@pos='itArt') and not(@pos='conj')]">
-              <sch:assert test="@tos:orth">With every loanword that is not a preposition, conjunction, or article, you must specifiy whether the orthography complies with 
+              <sch:assert test="@tos:orth">With every loanword that is not a preposition,
+                conjunction, or article, you must specifiy whether the orthography complies with
                 English or Italian grammar.</sch:assert>
             </sch:rule>
    </pattern>
@@ -7062,7 +7064,8 @@ Suggested values include: 1] persuade; 2] express; 3] inform; 4] entertain</a:do
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
                 context="tei:w[@pos='noun']">
-              <sch:assert test="@tos:gender">If the anglicism is a noun, you must specify its gender.</sch:assert>
+              <sch:assert test="@tos:gender">If the anglicism is a noun, you must specify its
+                gender.</sch:assert>
             </sch:rule>
    </pattern>
    <ns xmlns="http://purl.oclc.org/dsdl/schematron"
@@ -7074,7 +7077,8 @@ Suggested values include: 1] persuade; 2] express; 3] inform; 4] entertain</a:do
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
                 context="tei:w[tos:modification='y']">
-              <sch:assert test="@tos:orth and @tos:add">With all modified anglicisms, you must specify how it was modified.</sch:assert>
+              <sch:assert test="@tos:orth and @tos:add">With all modified anglicisms, you must
+                specify how it was modified.</sch:assert>
             </sch:rule>
    </pattern>
    <ns xmlns="http://purl.oclc.org/dsdl/schematron"
@@ -7086,7 +7090,8 @@ Suggested values include: 1] persuade; 2] express; 3] inform; 4] entertain</a:do
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
                 context="tei:w[not(@pos='prep') and not(@pos='itArt') and not(@pos='conj')]">
-              <sch:assert test="@tos:modification">With this anglicism, you must speificy whether or not it was modified by the author in any way.</sch:assert>
+              <sch:assert test="@tos:modification">With this anglicism, you must speificy whether or
+                not it was modified by the author in any way.</sch:assert>
             </sch:rule>
    </pattern>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
