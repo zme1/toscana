@@ -13835,7 +13835,7 @@
                      <persName ref="#casalio">Omero Casali</persName>, e <persName ref="#marsilie"
                         >Ernesto Marsili</persName> debbono<lb/> portare il certificato medico se
                      vogliano essere<lb/> riammessi a fare parte di questa societa’.<lb/> Furono
-                     approvati e pagati i seguenti bill.<lb/>
+                     approvati e pagati i seguenti <w pos="noun" tos:gender="m" tos:modification="n" tos:orth="eng">bill</w>.<lb/>
                      <persName ref="#fredianim">Frediani</persName> per stampa $16.00.<lb/>
                      <seg type="comp" subtype="sick"><persName ref="#pardinib" role="target"
                            >Benedetto Pardini</persName> sussidio per malattia <num type="monetary"
@@ -14024,7 +14024,7 @@
                         <signed>Il Seg G. Gianni</signed> Il Pres.<lb/>
                         <signed>M. Simonetti</signed></closer><lb/> Avendo il comitato banchetto
                      ballo saputo e<lb/> informato il presidente che il padrone del<lb/> Nixson
-                     Restaurant voleva $3.50 e colla<lb/> musica andava a costare $4.00 dollari
+                     Restaurant voleva $3.50 e colla<lb/> musica andava a costare $4.00 <w pos="noun" tos:gender="m" tos:modification="y" tos:add="itSuffix" tos:orth="it">dollari</w>
                      il<lb/> presidente chiamo’ una seduta straordinaria<lb/> per decidere, il
                      giorno. 8. Marzo 1925 e<lb/> l’assemblea accetto’ il prezzo stabilito
                      $4.00<lb/> M. Simonetti [firmato]<lb/>
@@ -14434,8 +14434,8 @@
                      <seg type="proposal" subtype="denaro">Su proposta di <persName ref="#zinim"
                            role="proposer">Modesto Zini</persName> e<lb/> assecondata da <persName
                            ref="#maffeis" role="supporter">Stefano Maffei</persName> fu
-                        approvato<lb/> di mandare $10.00. dollari alle Dame di<lb/> Carita’ per il
-                        ballo dato pro’ orfani<lb/> Furano accettate tre tichette che il Club
+                        approvato<lb/> di mandare $10.00. <w pos="noun" tos:gender="m" tos:modification="y" tos:add="itSuffix" tos:orth="it">dollari</w> alle Dame di<lb/> Carita’ per il
+                        ballo dato pro’ orfani<lb/> Furano accettate tre <w pos="noun" tos:gender="f" tos:modification="y" tos:add="itSuffix" tos:orth="it">tichette</w> che il <w pos="noun" tos:gender="m" tos:modification="n" tos:orth="eng">Club</w>
                         Indipen-<lb/> dente di Bloomfield mando’ alla Lega di<lb/>
                         <del rend="strike">di</del> rappresentarla al suo grande ballo del<lb/> 28
                         Aprile. U.S.</seg>
@@ -14617,9 +14617,9 @@
                         <lb/>
                         <item><roleName type="committee" role="tes">Tes.</roleName>
                            <persName ref="#pasquinellis">Santino Pasquinelli</persName>.</item>
-                        <item><roleName type="committee" role="chairman">Capo charman</roleName><lb/>
+                        <item><roleName type="committee" role="chairman">Capo <w pos="noun" tos:gender="ambig" tos:modification="n" tos:orth="eng">charman</w></roleName><lb/>
                            <persName ref="#viganol">Lorenzo Vigano’</persName>.</item>
-                        <item><roleName type="committee" role="assistente">ass. Charman.</roleName>
+                        <item><roleName type="committee" role="assistente">ass. <w pos="noun" tos:gender="ambig" tos:modification="n" tos:orth="eng">Charman</w>.</roleName>
                            <persName ref="#baccellim">Michele<lb/> Baccelli</persName>.</item>
                         <item><list>
                               <note>Assistenti,</note>
