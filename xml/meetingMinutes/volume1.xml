@@ -4407,8 +4407,8 @@
                            Buchignani</persName></item>
                         <note> il quale ultimo trovasi ammalato.</note>
                      </list><lb/> Il processo verbale venne approvato come<lb/> letto.<lb/>
-                     <seg type="proposal" subtype="evento">Dopo di <w pos="verb" tos:add="vbStem"
-                           tos:modification="y" tos:orth="it">avere splitato</w> affari am-<lb/>
+                     <seg type="proposal" subtype="evento">Dopo di avere <w pos="verb" tos:add="vbStem"
+                        tos:modification="y" tos:orth="it">splitato</w> affari am-<lb/>
                         ministrati il fratello<persName ref="#fredianim" role="proposer"> M.
                            Frediani</persName> ass.<lb/> Da Lui <persName ref="#zinim"
                            role="supporter">Modesto</persName> di dare un Ballo masche-<lb/> rato
@@ -6847,9 +6847,9 @@
                            <roleName type="committee" role="tes">Tesoriere</roleName></item>
                         <lb/>
                         <item><persName ref="#simonettim">Michele Simonetti</persName>
-                           <roleName type="committee" role="chairman"><w pos="n"
+                           <roleName type="committee" role="chairman"><phr type="noun"><w pos="n"
                                  tos:modification="n" tos:orth="eng">Chairman</w>
-                              <phr type="prep"><w pos="prep">of</w>
+                              <w pos="prep">of</w>
                                  <w pos="adj" tos:modification="n" tos:orth="eng">Reception</w><lb/>
                                  <w pos="noun" tos:modification="n" tos:gender="ambig"
                                     tos:orth="eng">Commitee</w></phr></roleName></item>
@@ -6864,9 +6864,9 @@
                         <pb n="76" facs="../../img/meetingMinutes/76.png"/>
 
                         <item><persName ref="#sodinij">Jacopo Sodini</persName>
-                           <roleName type="committee" role="chairman"><w pos="noun"
+                           <roleName type="committee" role="chairman"><phr type="noun"><w pos="noun"
                                  tos:modification="n" tos:orth="eng" tos:gender="ambig">Chairman</w>
-                              <phr type="prep"><w pos="prep">of</w>
+                              <w pos="prep">of</w>
                                  <w pos="adj" tos:modification="n" tos:orth="eng">arrangement</w><lb/>
                                  <w pos="noun" tos:modification="n" tos:orth="eng"
                                     tos:gender="ambig">Commitee</w></phr></roleName>,</item>
@@ -6909,9 +6909,9 @@
                            </list></item>
                         <lb/>
                         <item><persName ref="#marconic">Carlo Marconi</persName>
-                           <roleName type="committee" role="chairman"><w pos="noun"
+                           <roleName type="committee" role="chairman"><phr  type="noun"><w pos="noun"
                                  tos:gender="ambig" tos:modification="n" tos:orth="eng">Chairman</w>
-                              <phr type="prep"><w pos="prep">of</w>
+                              <w pos="prep">of</w>
                                  <w pos="adj" tos:modification="n" tos:orth="eng">Floor</w><lb/>
                                  <w pos="noun" tos:gender="ambig" tos:add="engInflection"
                                     tos:modification="n" tos:orth="eng"
