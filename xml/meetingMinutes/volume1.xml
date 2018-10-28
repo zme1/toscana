@@ -14801,7 +14801,7 @@
                      <list type="absent">
                         <note>all’appello nominale risultavano assenti i seguenti<lb/>
                            ufficiali</note>
-                        <item><persName ref="#lunardinil">Lorenzo Lunardini</persName> 3.rd.
+                        <item><persName ref="#lunardinil">Lorenzo Lunardini</persName> <w pos="adj" tos:modification="n" tos:orth="eng">3.rd.</w>
                            curatore.</item>
                         <lb/>
                         <item><persName ref="#fredianellig">Giuseppe Fredianelli</persName>
@@ -14830,7 +14830,7 @@
                            Zini</persName> di rifondare $4.00 a<lb/>
                         <persName ref="#fontanaam">Amando Fontana</persName> non avendo potuto
                         trovarsi<lb/> presente al banchetto.</seg> Furono pagati i seguenti<lb/>
-                     bill <persName ref="#fredianim">Muzio Frediani</persName> per stampa
+                     <w pos="noun" tos:gender="m" tos:modification="n" tos:orth="eng">bill</w> <persName ref="#fredianim">Muzio Frediani</persName> per stampa
                      $39.65<lb/> Rimessa del banchetto $31.50<lb/> Rifondati ai membri che avevano
                      portati<lb/> 3 membri o piu’ $44.00<lb/> In cassa oggi $3952.16<lb/> In cassato
                         <rs ref="#pasquinellie">dal segretario di finanza</rs> $89.00<lb/>
@@ -14975,7 +14975,7 @@
                               <item>e <persName ref="#vannuccia">Alfredo
                                     Vannucci</persName><roleName type="committee" role="assistente"
                                  /></item>
-                              <note>a<lb/> vendere le ticchette per il ballo.</note>
+                              <note>a<lb/> vendere le <w pos="noun" tos:gender="m" tos:add="itSuffix" tos:modification="y" tos:orth="it">ticchette</w> per il ballo.</note>
                            </list></item>
                         <item><list>
                               <item><persName ref="#lunardinifr">Francesco<lb/>
@@ -15003,9 +15003,9 @@
                               <item>e <persName ref="#pasquinellie">Emilio
                                     Pasquinelli</persName><roleName type="committee"
                                     role="assistente"/></item>
-                              <note>a<lb/> vendere le ticchette per la bevanda.</note>
+                           <note>a<lb/> vendere le <w pos="noun" tos:gender="m" tos:add="itSuffix" tos:modification="y" tos:orth="it">ticchette</w> per la bevanda.</note>
                            </list></item>
-                     </list><lb/> Furono pagati i seguenti bill. <persName ref="#simonettim">Michele
+                     </list><lb/> Furono pagati i seguenti <w pos="noun" tos:gender="m" tos:modification="n" tos:orth="eng">bill</w>. <persName ref="#simonettim">Michele
                         Simonetti</persName><lb/> per francobolli $4.00. <persName ref="#giannig"
                         >giuseppe Gianni</persName><lb/> per francobolli $2.94 <persName
                         ref="#giannig">Giuseppe Gianni</persName><lb/> per il trimestre
@@ -15147,7 +15147,8 @@
                         assecondato da <persName ref="#maffeis" role="supporter">Stefano
                            Maffei</persName> di<lb/> dare un banchetto in campagna il giorno<lb/>
                         <del rend="strike">11</del> di domenica .11 Ottobre 1925, per
-                        festeggiare<lb/> il Colombus day.</seg>
+                           festeggiare<lb/> il <w pos="noun" tos:gender="m" tos:modification="n" tos:orth="eng"
+                              tos:char="y">Colombus day</w>.</seg>
                      <list type="committee" subtype="investigazione">
                         <date when="1925-09"/>
                         <note>All’uopo fu nominato<lb/> il seguente comitato per trovare il
@@ -15285,19 +15286,19 @@
                      un quarto di vino a testa. e caffe’.<lb/> Venne pure approvato di lasciare in
                      carica il comitato<lb/> che aveva trovato il locale. <rs ref="#pasquinellis">Il
                         tesoriere</rs> da il resoconto<lb/> dellultima festa campestre col seguente
-                     risultato<lb/> Entrata senguicci e bevanda $636.00 tichette<lb/> entrata
+                     risultato<lb/> Entrata senguicci e bevanda $636.00 <w pos="noun" tos:gender="f" tos:modification="y" tos:add="itSuffix" tos:orth="it">tichette</w><lb/> entrata
                      $189.75. Ballo $75.00. Kandi $5.00<lb/> Borsa da donna $1.50. Checher per
-                     giocare<lb/> $0.50. Totale entrata $907.75<lb/> Spese Automobile $5.00. 5. Roll
-                     di ticchette per<lb/> bevanda e altro $3.00. Ghiaccio $8.00. Birra<lb/>
+                     giocare<lb/> $0.50. Totale entrata $907.75<lb/> Spese Automobile $5.00. 5. <w pos="noun" tos:gender="ambig" tos:modification="n" tos:orth="eng">Roll</w>
+                     di <w pos="noun" tos:gender="f" tos:modification="y" tos:add="itSuffix" tos:orth="it">ticchette</w> per<lb/> bevanda e altro $3.00. Ghiaccio $8.00. Birra<lb/>
                      <pb n="147" facs="../../img/meetingMinutes/147.png"/> $217.00. Campo $85.00.
                      Bottiglie perse $10.00<lb/> Automobile $5.00. <persName ref="#maffeis">Stefano
                         Maffei</persName> $8.85<lb/> Poliziotti al campo $10.00. Pascuzzi $6.00<lb/>
                      <persName ref="#desantie">Enemia De Santi</persName> $47.63. Rama per
-                     poppa<lb/> $46.55. <persName ref="unknown">Pasquinelli. Bros.</persName> $28.18
+                     poppa<lb/> $46.55. <persName ref="unknown">Pasquinelli. <w pos="noun" tos:gender="ambig" tos:modification="y" tos:add="engInflection" tos:orth="eng">Bros.</w></persName> $28.18
                      Musica<lb/> $50.00. <persName ref="#fredianim">Frediani</persName> per stampa
-                     45.80. <persName ref="unknown">Pacini<lb/> e bros</persName> $9.20. Pane $8.80.
-                        <persName ref="unknown">Serafnini</persName> per Candy<lb/> $10.00. Trocco
-                     $25.00. Bambocci $4.60<lb/> Pittsburgh Ice cream $41.85. <persName
+                     45.80. <persName ref="unknown">Pacini<lb/> e <w pos="noun" tos:gender="ambig" tos:modification="y" tos:add="engInflection" tos:orth="eng">bros</w></persName> $9.20. Pane $8.80.
+                        <persName ref="unknown">Serafnini</persName> per <w pos="noun" tos:gender="ambig" tos:modification="n" tos:orth="eng" tos:char="y">Candy</w><lb/> $10.00. Trocco
+                     $25.00. Bambocci $4.60<lb/> Pittsburgh Ice cream <!-- zme: This is a proper noun, I believe. Pittsburgh Ice Cream Company --> $41.85. <persName
                         ref="unknown">Barsotti</persName> $5.00<lb/>
                      <persName ref="unknown">Emilio</persName> $5.00. Totale Spese $690.46<lb/>
                      Sottraendo $690 46 da $907.75. resta un<lb/> avanzo netto di $217.29.<lb/>
@@ -15427,8 +15428,8 @@
                         <item>e <persName ref="#merciadrie">Eugenio Merciadri</persName><lb/>
                            <pb n="148" facs="../../img/meetingMinutes/148.png"/> guarda sala.</item>
                      </list> Il processo verbale venne<lb/> approvato come letto. Avendo la
-                     Loggia<lb/> Nuova .4. Novembre No 1344. inviate 25<lb/> ticchette di
-                     complimento alla Lega per<lb/> partecipare alla commemorazione del<lb/> 4
+                     Loggia<lb/> Nuova .4. Novembre No 1344. inviate 25<lb/> <w pos="noun" tos:gender="f" tos:modification="y" tos:add="itSuffix" tos:orth="it">ticchette</w> di
+                     complimento <!-- zme: di complimento vuol dire complimentary, of which there are other Italian terms to use. Is this an instance similar to billo? --> alla Lega per<lb/> partecipare alla commemorazione del<lb/> 4
                      Novembre data memorabile a tutti l’Italiani<lb/>
                      <rs ref="#simonettim">Il presidente</rs> fa appello all’assemblea. che<lb/>
                      approva di accettare l’invito. <rs ref="#simonettim">il presidente</rs><lb/>
