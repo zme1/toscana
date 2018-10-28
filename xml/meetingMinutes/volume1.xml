@@ -6847,7 +6847,7 @@
                            <roleName type="committee" role="tes">Tesoriere</roleName></item>
                         <lb/>
                         <item><persName ref="#simonettim">Michele Simonetti</persName>
-                           <roleName type="committee" role="chairman"><phr type="noun"><w pos="n"
+                           <roleName type="committee" role="chairman"><phr type="noun"><w pos="noun" tos:gender="ambig"
                                  tos:modification="n" tos:orth="eng">Chairman</w>
                               <w pos="prep">of</w>
                                  <w pos="adj" tos:modification="n" tos:orth="eng">Reception</w><lb/>
@@ -7847,9 +7847,9 @@
                            <roleName type="committee" role="tes">Tesoriere</roleName></item>
                         <lb/>
                         <item><persName ref="#pellegrinie">Emilio Pellegrini</persName>
-                           <roleName type="committee" role="chairman"><w pos="noun"
+                           <roleName type="committee" role="chairman"><phr type="noun"><w pos="noun"
                                  tos:gender="ambig" tos:modification="n" tos:orth="eng">Chairman</w>
-                              <phr type="noun"><w pos="prep">of</w>
+                              <w pos="prep">of</w>
                                  <w pos="adj" tos:modification="n" tos:orth="eng"
                                     >Arrangement</w><lb/><w pos="noun" tos:gender="ambig"
                                     tos:modification="n" tos:orth="eng"
@@ -8250,7 +8250,7 @@
                         <lb/>
                         <item><list>
                               <!-- zme: See the comment just below. -->
-                              <note>Assistenti <phr type="prep"><w pos="itArt">a</w>
+                           <note><phr type="noun">Assistenti <w pos="itArt">a</w>
                                     <w pos="adj" tos:modification="n" tos:orth="eng">floor</w>
                                     <w pos="noun" tos:gender="ambig" tos:modification="n"
                                        tos:orth="eng">Manager</w></phr>.</note>
@@ -8966,9 +8966,9 @@
                            <roleName type="committee" role="tes">Tesoriere</roleName>.</item>
                         <lb/>
                         <item><persName ref="#maffeis">Stefano Maffei</persName>
-                           <roleName type="committee" role="chairman"><w pos="noun"
+                           <roleName type="committee" role="chairman"><phr type="noun"><w pos="noun"
                                  tos:gender="ambig" tos:modification="n" tos:orth="eng">Chairman</w>
-                              <phr type="prep"><w pos="prep">of</w>
+                              <w pos="prep">of</w>
                                  <w pos="adj" tos:modification="n" tos:orth="eng">Reception</w><lb/>
                                  <w pos="noun" tos:gender="ambig" tos:modification="n"
                                     tos:orth="eng">Committee</w></phr></roleName>.</item>
@@ -8982,9 +8982,9 @@
                         <lb/>
                         <item>
                            <persName ref="#zinim">Modesto Zini</persName>
-                           <roleName type="committee" role="chairman"><w pos="noun"
+                           <roleName type="committee" role="chairman"><phr type="noun"><w pos="noun"
                                  tos:gender="ambig" tos:modification="n" tos:orth="eng">Chairman</w>
-                              <phr type="prep"><w pos="prep">of</w>
+                              <w pos="prep">of</w>
                                  <w pos="adj" tos:modification="n" tos:orth="eng">Arrangement</w><lb/>
                                  <w pos="noun" tos:gender="ambig" tos:modification="n"
                                     tos:orth="eng">Committee</w></phr></roleName>.</item>
@@ -13055,12 +13055,12 @@
                      <w pos="noun" tos:gender="ambig" tos:modification="n" tos:orth="eng">Lumber</w> 8.50<lb/>
                      <w pos="noun" tos:gender="ambig" tos:modification="y" tos:add="engInflection"
                         tos:orth="eng">Costumes</w> 25.65<lb/>
-                     <phr type="noun">Rental <phr type="noun"><w pos="prep">of</w>
+                     <phr type="noun">Rental <w pos="prep">of</w>
                            <w pos="noun" tos:gender="ambig" tos:modification="n" tos:orth="eng"
                               tos:char="k">truck</w>, <w pos="noun" tos:gender="ambig"
                               tos:modification="n" tos:orth="eng">space</w>, <w pos="conj">and</w>
                            <w pos="noun" tos:gender="ambig" tos:modification="n" tos:orth="eng"
-                              >material</w></phr></phr> 50.00<lb/>
+                              >material</w></phr> 50.00<lb/>
                      <phr type="noun"><w pos="adj" tos:modification="y" tos:add="engInflection"
                            tos:orth="eng">Painters</w>
                         <!-- zme: I tagged this as an adjective with English inflection, although it's really a possessive, as well as "superintendents" below -->
@@ -13078,20 +13078,20 @@
                      <w pos="conj">and</w>
                      <phr type="noun"><w pos="noun" tos:gender="ambig" tos:modification="n"
                            tos:orth="eng">use</w>
-                        <phr type="prep"><w pos="prep">of</w>
+                        <w pos="prep">of</w>
                            <w pos="noun" tos:gender="ambig" tos:modification="n" tos:orth="eng"
-                              >machine</w></phr></phr><!-- zme: I read that, at one point, h was an un-italian letter... --> 7.00<lb/>
+                              >machine</w></phr><!-- zme: I read that, at one point, h was an un-italian letter... --> 7.00<lb/>
                      <phr type="noun"><w pos="noun" tos:gender="ambig" tos:modification="n"
                            tos:orth="eng">Use</w>
-                        <phr type="prep"><w pos="prep">of</w>
+                        <w pos="prep">of</w>
                            <w pos="noun" tos:gender="ambig" tos:modification="n" tos:orth="eng"
                               >driver</w>
                            <w pos="conj">and</w>
                            <w pos="noun" tos:gender="ambig" tos:modification="n" tos:orth="eng"
-                              >truck</w></phr>
-                        <phr type="prep"><w pos="prep">for</w>
+                              >truck</w>
+                        <w pos="prep">for</w>
                            <w pos="noun" tos:gender="ambig" tos:modification="n" tos:orth="eng"
-                              >banling</w></phr></phr> 10.00<lb/>
+                              >banling</w></phr> 10.00<lb/>
                      <phr type="noun"><w pos="adj" tos:modification="n" tos:orth="eng"
                            tos:add="engInflection">Superintendents</w>
                         <w pos="noun" tos:gender="ambig" tos:modification="n" tos:orth="eng"
@@ -13101,10 +13101,10 @@
                      <w pos="conj">and</w>
                      <phr type="noun"><w pos="noun" tos:gender="ambig" tos:modification="n"
                            tos:orth="eng">use</w>
-                        <phr type="phr"><w pos="prep">of</w>
+                        <w pos="prep">of</w>
                            <w pos="noun" tos:gender="ambig" tos:modification="n" tos:orth="eng"
-                              >machine</w><!-- zme: h --></phr></phr>
-                     <phr type="prep"><w pos="prep">for</w>
+                              >machine</w><!-- zme: h --></phr>
+                     <w pos="prep">for</w>
                         <w pos="noun" tos:gender="ambig" tos:modification="n" tos:orth="eng"
                            tos:char="y">buying</w><lb/>
                         <w pos="noun" tos:gender="ambig" tos:modification="n" tos:orth="eng"
@@ -13113,7 +13113,7 @@
                         <w pos="noun" tos:gender="ambig" tos:modification="n" tos:orth="eng"
                            >directing</w>
                         <w pos="noun" tos:gender="ambig" tos:modification="n" tos:orth="eng"
-                           >same</w></phr> 50.00<lb/>
+                           >same</w> 50.00<lb/>
                      <w pos="noun" tos:gender="ambig" tos:modification="n" tos:orth="eng"
                         tos:char="w">Watchman</w> 5.00<lb/>
                      <w pos="noun" tos:gender="ambig" tos:modification="n" tos:orth="eng"

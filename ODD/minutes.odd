@@ -15,7 +15,7 @@
         <authority>Prepared in TEI 5 by Zachary Enick for the Spring 2018 Italian research
           assistantship and Fall 2018 THINK research fellowship at the University of Pittsburgh.
           Github repository: <ref target="http://github.com/zme1/toscana"/>. Date last worked on:
-            <date when="2018-10-23"/></authority>
+            <date when="2018-10-28"/></authority>
         <availability>
           <licence><!-- licence to go here --></licence>
         </availability>
@@ -42,17 +42,16 @@
         <moduleRef key="namesdates" include="listPerson orgName persName person roleName"/>
         <elementSpec ident="phr" mode="change" module="analysis">
           <attList>
-            <attDef ident="type" mode="change" usage="req">
+            <attDef ident="type" mode="replace" usage="req">
               <valList type="closed">
                 <valItem ident="noun"/>
-                <valItem ident="prep"/>
               </valList>
             </attDef>
           </attList>
         </elementSpec>
         <elementSpec ident="w" mode="change" module="analysis">
           <attList>
-            <attDef ident="pos" mode="change" usage="req">
+            <attDef ident="pos" mode="replace" usage="req">
               <valList type="closed">
                 <valItem ident="noun"/>
                 <valItem ident="verb"/>
