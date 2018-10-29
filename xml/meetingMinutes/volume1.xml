@@ -1778,7 +1778,7 @@
                            </list></item>
                         <lb/>
                         <item><list>
-                              <note><!-- zme: What word is this? Translated as "chairmen" -->Chiarma
+                              <note><w pos="noun" tos:gender="ambig" tos:modification="n" tos:orth="eng">Chiarma</w>
                                  d’arangiomento</note>
                               <lb/>
 
@@ -7169,7 +7169,7 @@
                                     type="officer" role="curatore"/>,</item>
                            </list></item>
                         <item>Senza<lb/>
-                           <!-- zme: This is an Italian term, but I'm unsure as to when it became one. It says the etymological origin is Latin, so it's probably not a loanword. -->Competitori
+                           Competitori
                               <roleName type="officer" role="vice">Vice Pres</roleName>
                            <persName ref="#cappellinic">Castruccio Cappellini</persName></item>
                         <lb/>
@@ -8262,7 +8262,7 @@
                            </list></item>
                         <item><list>
                               <!-- zme: This phrase is an interesting instance of code-switching. An Italian word (?) and unarticulated article with an outright loanword. To code Assistent, or not to code it? -->
-                              <note>Assistent a Chairman</note>
+                              <note>Assistent a <w pos="noun" tos:gender="ambig" tos:modification="n" tos:orth="eng">Chairman</w></note>
                               <lb/>
                               <item><persName ref="#pacinig">Giuseppe Pacini</persName><roleName
                                     type="committee" role="assistente"/>,</item>
@@ -15429,7 +15429,7 @@
                            <pb n="148" facs="../../img/meetingMinutes/148.png"/> guarda sala.</item>
                      </list> Il processo verbale venne<lb/> approvato come letto. Avendo la
                      Loggia<lb/> Nuova .4. Novembre No 1344. inviate 25<lb/> <w pos="noun" tos:gender="f" tos:modification="y" tos:add="itSuffix" tos:orth="it">ticchette</w> di
-                     complimento <!-- zme: di complimento vuol dire complimentary, of which there are other Italian terms to use. Is this an instance similar to billo? --> alla Lega per<lb/> partecipare alla commemorazione del<lb/> 4
+                     complimento <!-- zme: di complimento vuol dire complimentary, of which there are other Italian terms to use. Is this an instance similar to billo, i.e. an americanized use of an italian word? --> alla Lega per<lb/> partecipare alla commemorazione del<lb/> 4
                      Novembre data memorabile a tutti l’Italiani<lb/>
                      <rs ref="#simonettim">Il presidente</rs> fa appello all’assemblea. che<lb/>
                      approva di accettare l’invito. <rs ref="#simonettim">il presidente</rs><lb/>
