@@ -5,7 +5,7 @@
          xmlns:teix="http://www.tei-c.org/ns/Examples"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2018-11-01T11:22:10Z. .
+Schema generated from ODD source 2018-11-01T16:21:36Z. .
 TEI Edition: Version 3.4.0. Last updated on
 	23rd July 2018, revision 1fa0b54
 TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.4.0/
@@ -2966,7 +2966,7 @@ Sample values include: 1] main; 2] sub (subordinate) ; 3] alt (alternate) ; 4] s
          </attribute>
          <optional>
             <attribute name="accordo" ns="http://toscana.newtfire.org">
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">This optional attribute will be used for noun, verb, and adjective forms to describe whether or not the syntactical form employed was used grammatically (with respect to whichever grammatical system prevails with the word in question.)</a:documentation>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">This optional attribute will be used for noun, verb, and adjective forms to describe whether or not the syntactical form employed (i.e. morphological agreement) was used grammatically with respect to whichever grammatical system prevails with the word in question.</a:documentation>
                <choice>
                   <value>y</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
@@ -7075,8 +7075,8 @@ Suggested values include: 1] persuade; 2] express; 3] inform; 4] entertain</a:do
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
                 context="tei:phr">
-              <sch:assert test="count(tei:w) ge 2 or tei:phr">In order to use a phr tag, it must
-                contain at least two w tags or another phr tag.</sch:assert>
+              <sch:assert test="tei:w or tei:phr">In order to use a phr tag, it must
+                contain either a w tag or another phr tag.</sch:assert>
             </sch:rule>
    </pattern>
    <ns xmlns="http://purl.oclc.org/dsdl/schematron"

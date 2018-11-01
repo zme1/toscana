@@ -5221,8 +5221,8 @@ teidata.xpath = text</pre></td></tr><tr><td class="wovenodd-col1"><span lang="en
  English or Italian grammar.&lt;/sch:assert&gt;
 &lt;/sch:rule&gt;</div></td></tr><tr><td class="wovenodd-col1"><span lang="en" class="label">Schematron</span></td><td class="wovenodd-col2"><div class="pre">
 &lt;sch:rule context="tei:phr"&gt;
-&lt;sch:assert test="count(tei:w) ge 2 or tei:phr"&gt;In order to use a phr tag, it must
- contain at least two w tags or another phr tag.&lt;/sch:assert&gt;
+&lt;sch:assert test="tei:w or tei:phr"&gt;In order to use a phr tag, it must
+ contain either a w tag or another phr tag.&lt;/sch:assert&gt;
 &lt;/sch:rule&gt;</div></td></tr><tr><td class="wovenodd-col1"><span lang="en" class="label">Schematron</span></td><td class="wovenodd-col2"><div class="pre">
 &lt;sch:rule context="tei:rs"&gt;
 &lt;sch:assert test="@ref"&gt;Every rs element must have a @ref attribute.&lt;/sch:assert&gt;
@@ -5317,6 +5317,6 @@ teidata.xpath = text</pre></td></tr><tr><td class="wovenodd-col1"><span lang="en
 
 
 	       based on http://www.tei-c.org/Stylesheets/
-	       on 2018-11-01T11:21:05Z.
+	       on 2018-11-01T16:21:22Z.
 	       SAXON PE 9.8.0.12.
 		 --></address></div></body></html>

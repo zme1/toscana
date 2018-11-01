@@ -673,8 +673,8 @@
         <constraintSpec ident="phr-w-count" scheme="schematron">
           <constraint>
             <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron" context="tei:phr">
-              <sch:assert test="count(tei:w) ge 2 or tei:phr">In order to use a phr tag, it must
-                contain at least two w tags or another phr tag.</sch:assert>
+              <sch:assert test="tei:w or tei:phr">In order to use a phr tag, it must
+                contain either a w tag or another phr tag.</sch:assert>
             </sch:rule>
           </constraint>
         </constraintSpec>
