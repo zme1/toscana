@@ -15,7 +15,7 @@
         <authority>Prepared in TEI 5 by Zachary Enick for the Spring 2018 Italian research
           assistantship and Fall 2018 THINK research fellowship at the University of Pittsburgh.
           Github repository: <ref target="http://github.com/zme1/toscana"/>. Date last worked on:
-            <date when="2018-10-29"/></authority>
+            <date when="2018-11-01"/></authority>
         <availability>
           <licence><!-- licence to go here --></licence>
         </availability>
@@ -62,8 +62,17 @@
                 <valItem ident="conj"/>
               </valList>
             </attDef>
+            <attDef ident="accordo" ns="http://toscana.newtfire.org" mode="add" usage="opt">
+              <desc>This optional attribute will be used for noun, verb, and adjective forms to
+                describe whether or not the syntactical form employed (i.e. morphological agreement) was used grammatically with
+                respect to whichever grammatical system prevails with the word in question.</desc>
+              <valList type="closed">
+                <valItem ident="y"/>
+                <valItem ident="n"/>
+              </valList>
+            </attDef>
             <attDef ident="add" ns="http://toscana.newtfire.org" mode="add" usage="opt">
-              <desc>This required attribute specifies whether or not anglicisms received an
+              <desc>This optional attribute specifies whether or not anglicisms received an
                 italianized ending (final vowel, final preceding consonant when applicable).</desc>
               <valList type="closed">
                 <valItem ident="itSuffix"/>
@@ -651,6 +660,16 @@
         </elementSpec>
 
         <!-- BEGIN FALL 2018 SCHEMATRON RULES -->
+        <constraintSpec ident="w-accordo" scheme="schematron">
+          <constraint>
+            <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+              context="tei:w[@pos='ns' or @pos='npl' or @pos='verb' or @pos='adj']">
+              <sch:assert test="@tos:accordo">With all noun, verb, and adjective forms, you must
+                determine whether or not the form in question was employed grammatically (with
+                respect to either Italian or English grammar).</sch:assert>
+            </sch:rule>
+          </constraint>
+        </constraintSpec>
         <constraintSpec ident="phr-w-count" scheme="schematron">
           <constraint>
             <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron" context="tei:phr">

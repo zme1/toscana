@@ -5,7 +5,7 @@
          xmlns:teix="http://www.tei-c.org/ns/Examples"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2018-10-30T00:27:02Z. .
+Schema generated from ODD source 2018-11-01T11:22:10Z. .
 TEI Edition: Version 3.4.0. Last updated on
 	23rd July 2018, revision 1fa0b54
 TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.4.0/
@@ -2965,8 +2965,19 @@ Sample values include: 1] main; 2] sub (subordinate) ; 3] alt (alternate) ; 4] s
             </choice>
          </attribute>
          <optional>
+            <attribute name="accordo" ns="http://toscana.newtfire.org">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">This optional attribute will be used for noun, verb, and adjective forms to describe whether or not the syntactical form employed was used grammatically (with respect to whichever grammatical system prevails with the word in question.)</a:documentation>
+               <choice>
+                  <value>y</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                  <value>n</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               </choice>
+            </attribute>
+         </optional>
+         <optional>
             <attribute name="add" ns="http://toscana.newtfire.org">
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">This required attribute specifies whether or not anglicisms received an italianized ending (final vowel, final preceding consonant when applicable).</a:documentation>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">This optional attribute specifies whether or not anglicisms received an italianized ending (final vowel, final preceding consonant when applicable).</a:documentation>
                <choice>
                   <value>itSuffix</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
@@ -7048,7 +7059,18 @@ Suggested values include: 1] persuade; 2] express; 3] inform; 4] entertain</a:do
       </choice>
    </start>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-            id="oddex1-phr-w-count-constraint-rule-12">
+            id="oddex1-w-accordo-constraint-rule-12">
+      <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
+                xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                context="tei:w[@pos='ns' or @pos='npl' or @pos='verb' or @pos='adj']">
+              <sch:assert test="@tos:accordo">With all noun, verb, and adjective forms, you must
+                determine whether or not the form in question was employed grammatically (with
+                respect to either Italian or English grammar).</sch:assert>
+            </sch:rule>
+   </pattern>
+   <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
+            id="oddex1-phr-w-count-constraint-rule-13">
       <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
@@ -7061,7 +7083,7 @@ Suggested values include: 1] persuade; 2] express; 3] inform; 4] entertain</a:do
        prefix="tos"
        uri="http://toscana.newtfire.org"/> 
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-            id="oddex1-orth-eng-constraint-rule-13">
+            id="oddex1-orth-eng-constraint-rule-14">
       <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
@@ -7075,7 +7097,7 @@ Suggested values include: 1] persuade; 2] express; 3] inform; 4] entertain</a:do
        prefix="tos"
        uri="http://toscana.newtfire.org"/> 
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-            id="oddex1-eng-orthography-constraint-rule-14">
+            id="oddex1-eng-orthography-constraint-rule-15">
       <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
@@ -7088,7 +7110,7 @@ Suggested values include: 1] persuade; 2] express; 3] inform; 4] entertain</a:do
        prefix="tos"
        uri="http://toscana.newtfire.org"/> 
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-            id="oddex1-w-modification-explanation-constraint-rule-15">
+            id="oddex1-w-modification-explanation-constraint-rule-16">
       <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
@@ -7101,7 +7123,7 @@ Suggested values include: 1] persuade; 2] express; 3] inform; 4] entertain</a:do
        prefix="tos"
        uri="http://toscana.newtfire.org"/> 
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-            id="oddex1-w-modification-confirmation-constraint-rule-16">
+            id="oddex1-w-modification-confirmation-constraint-rule-17">
       <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
@@ -7111,7 +7133,7 @@ Suggested values include: 1] persuade; 2] express; 3] inform; 4] entertain</a:do
             </sch:rule>
    </pattern>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-            id="oddex1-seg_proposal-constraint-rule-17">
+            id="oddex1-seg_proposal-constraint-rule-18">
       <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
@@ -7125,7 +7147,7 @@ Suggested values include: 1] persuade; 2] express; 3] inform; 4] entertain</a:do
             </sch:rule>
    </pattern>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-            id="oddex1-seg_proposal_rejected-constraint-rule-18">
+            id="oddex1-seg_proposal_rejected-constraint-rule-19">
       <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
@@ -7136,7 +7158,7 @@ Suggested values include: 1] persuade; 2] express; 3] inform; 4] entertain</a:do
             </sch:rule>
    </pattern>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-            id="oddex1-seg_proposal_written-constraint-rule-19">
+            id="oddex1-seg_proposal_written-constraint-rule-20">
       <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
@@ -7147,7 +7169,7 @@ Suggested values include: 1] persuade; 2] express; 3] inform; 4] entertain</a:do
             </sch:rule>
    </pattern>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-            id="oddex1-seg_comp_subtype-constraint-rule-20">
+            id="oddex1-seg_comp_subtype-constraint-rule-21">
       <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
@@ -7157,7 +7179,7 @@ Suggested values include: 1] persuade; 2] express; 3] inform; 4] entertain</a:do
             </sch:rule>
    </pattern>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-            id="oddex1-seg_comp_sick-constraint-rule-21">
+            id="oddex1-seg_comp_sick-constraint-rule-22">
       <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
@@ -7173,7 +7195,7 @@ Suggested values include: 1] persuade; 2] express; 3] inform; 4] entertain</a:do
             </sch:rule>
    </pattern>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-            id="oddex1-seg_comp_morte-constraint-rule-22">
+            id="oddex1-seg_comp_morte-constraint-rule-23">
       <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
@@ -7189,7 +7211,7 @@ Suggested values include: 1] persuade; 2] express; 3] inform; 4] entertain</a:do
             </sch:rule>
    </pattern>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-            id="oddex1-seg_comp_regale-constraint-rule-23">
+            id="oddex1-seg_comp_regale-constraint-rule-24">
       <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
@@ -7205,7 +7227,7 @@ Suggested values include: 1] persuade; 2] express; 3] inform; 4] entertain</a:do
             </sch:rule>
    </pattern>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-            id="oddex1-seg_comp_charity-constraint-rule-24">
+            id="oddex1-seg_comp_charity-constraint-rule-25">
       <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
@@ -7215,7 +7237,7 @@ Suggested values include: 1] persuade; 2] express; 3] inform; 4] entertain</a:do
             </sch:rule>
    </pattern>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-            id="oddex1-seg_donation-constraint-rule-25">
+            id="oddex1-seg_donation-constraint-rule-26">
       <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
@@ -7226,7 +7248,7 @@ Suggested values include: 1] persuade; 2] express; 3] inform; 4] entertain</a:do
             </sch:rule>
    </pattern>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-            id="oddex1-seg_delegation-constraint-rule-26">
+            id="oddex1-seg_delegation-constraint-rule-27">
       <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
@@ -7238,7 +7260,7 @@ Suggested values include: 1] persuade; 2] express; 3] inform; 4] entertain</a:do
             </sch:rule>
    </pattern>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-            id="oddex1-rs_ref-constraint-rule-27">
+            id="oddex1-rs_ref-constraint-rule-28">
       <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
@@ -7247,7 +7269,7 @@ Suggested values include: 1] persuade; 2] express; 3] inform; 4] entertain</a:do
             </sch:rule>
    </pattern>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-            id="oddex1-del_rend-constraint-rule-28">
+            id="oddex1-del_rend-constraint-rule-29">
       <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
@@ -7257,7 +7279,7 @@ Suggested values include: 1] persuade; 2] express; 3] inform; 4] entertain</a:do
             </sch:rule>
    </pattern>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-            id="oddex1-item_persName-constraint-rule-29">
+            id="oddex1-item_persName-constraint-rule-30">
       <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
@@ -7267,7 +7289,7 @@ Suggested values include: 1] persuade; 2] express; 3] inform; 4] entertain</a:do
             </sch:rule>
    </pattern>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-            id="oddex1-list_type-constraint-rule-30">
+            id="oddex1-list_type-constraint-rule-31">
       <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
@@ -7276,7 +7298,7 @@ Suggested values include: 1] persuade; 2] express; 3] inform; 4] entertain</a:do
             </sch:rule>
    </pattern>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-            id="oddex1-list_committee_date-constraint-rule-31">
+            id="oddex1-list_committee_date-constraint-rule-32">
       <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
@@ -7286,7 +7308,7 @@ Suggested values include: 1] persuade; 2] express; 3] inform; 4] entertain</a:do
             </sch:rule>
    </pattern>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-            id="oddex1-list_committee_roleName-constraint-rule-32">
+            id="oddex1-list_committee_roleName-constraint-rule-33">
       <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
@@ -7296,7 +7318,7 @@ Suggested values include: 1] persuade; 2] express; 3] inform; 4] entertain</a:do
             </sch:rule>
    </pattern>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-            id="oddex1-officer_scaduto_date-constraint-rule-33">
+            id="oddex1-officer_scaduto_date-constraint-rule-34">
       <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
@@ -7306,7 +7328,7 @@ Suggested values include: 1] persuade; 2] express; 3] inform; 4] entertain</a:do
             </sch:rule>
    </pattern>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-            id="oddex1-officer_replacement_date-constraint-rule-34">
+            id="oddex1-officer_replacement_date-constraint-rule-35">
       <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
