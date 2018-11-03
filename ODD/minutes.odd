@@ -72,8 +72,8 @@
               </valList>
             </attDef>
             <attDef ident="add" ns="http://toscana.newtfire.org" mode="add" usage="opt">
-              <desc>This optional attribute specifies whether or not anglicisms received an
-                italianized ending (final vowel, final preceding consonant when applicable).</desc>
+              <desc>This optional attribute specifies whether or not anglicisms received any sort of ending
+                (final vowel, final preceding consonant when applicable, English inflection, etc.).</desc>
               <valList type="closed">
                 <valItem ident="itSuffix"/>
                 <valItem ident="engInflection"/>

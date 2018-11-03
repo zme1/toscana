@@ -921,7 +921,7 @@
                      <persName ref="#fredianim">Il Presidente Muzio
                         Frediani</persName>dichiarò<lb/>Che<del rend="strike">ch</del>non Poteva
                      andarci a rapresentare<lb/> La Lega Toscana e allora Offri le <w pos="npl" tos:accordo="y" 
-                        tos:gender="f" tos:add="engInflection" tos:modification="y" tos:orth="eng"
+                        tos:gender="f" tos:add="engInflection" tos:modification="n" tos:orth="eng"
                         tos:char="k">Tickets</w><lb/>alla Samblea. le quali furono Consegnate<lb/>ai
                         fratelli<persName ref="#marsilia">A. Marsili</persName>
                      <persName ref="#robertice">C. Robert</persName>
@@ -1778,8 +1778,7 @@
                            </list></item>
                         <lb/>
                         <item><list>
-                           <note><w pos="ns" tos:accordo="y" tos:gender="ambig" tos:modification="n"
-                                    tos:orth="eng">Chiarma</w> d’arangiomento</note>
+                           <note>Chiarma d’arangiomento</note>
                               <lb/>
 
                               <item><roleName type="committee" role="assistente"/><persName
@@ -8261,8 +8260,8 @@
                            </list></item>
                         <item><list>
                               <!-- zme: This phrase is an interesting instance of code-switching. An Italian word (?) and unarticulated article with an outright loanword. To code Assistent, or not to code it? -->
-                           <note>Assistent a <w pos="ns" tos:accordo="y" tos:gender="ambig" tos:modification="n"
-                                    tos:orth="eng">Chairman</w></note>
+                           <note><phr type="noun">Assistent a <w pos="ns" tos:accordo="y" tos:gender="ambig" tos:modification="n"
+                                    tos:orth="eng">Chairman</w></phr></note>
                               <lb/>
                               <item><persName ref="#pacinig">Giuseppe Pacini</persName><roleName
                                     type="committee" role="assistente"/>,</item>
@@ -11919,7 +11918,7 @@
                      Altri com-<lb/> itati niente Curatori niente di nuovo<lb/> non essendo ancora
                      scaduto il trimestre<lb/>
                      <seg type="comp" subtype="sick">Al pagamento dei <w pos="npl" tos:accordo="y"
-                           tos:modification="y" tos:gender="m" tos:add="engInflection"
+                           tos:modification="n" tos:gender="m" tos:add="engInflection"
                            tos:orth="eng">bills</w> fu approvato di<lb/> pagare <num type="monetary"
                            value="29">$29.00 </num><persName ref="#zinif" role="target">al fratello
                            Fioravanti Zini</persName></seg><lb/> $25.00 ha <persName ref="#gambogis"
@@ -13045,19 +13044,19 @@
                            curatore.</item>
                      </list><lb/> Fu approvato ad’unanimita’ di pagare<lb/> le spese che il comitato
                      per il carro era<lb/> andato in contro, e cosi ripartiti<lb/>
-                     <w pos="npl" tos:accordo="y" tos:gender="ambig" tos:modification="y" tos:add="engInflection"
+                     <w pos="npl" tos:accordo="y" tos:gender="ambig" tos:modification="n" tos:add="engInflection"
                         tos:orth="eng">Supplies</w>, <w pos="ns" tos:accordo="y" tos:gender="ambig"
                         tos:modification="n" tos:orth="eng">bunting</w> etc $32.31<lb/>
-                     <w pos="npl" tos:accordo="y" tos:gender="ambig" tos:modification="y" tos:add="engInflection"
+                     <w pos="npl" tos:accordo="y" tos:gender="ambig" tos:modification="n" tos:add="engInflection"
                         tos:orth="eng">Flags</w>, <w pos="npl" tos:accordo="y" tos:gender="ambig"
-                        tos:modification="y" tos:add="engInflection" tos:orth="eng">straps</w>, e <w
+                        tos:modification="n" tos:add="engInflection" tos:orth="eng">straps</w>, e <w
                            pos="ns" tos:accordo="y" tos:gender="ambig" tos:modification="n" tos:orth="eng">ribbon</w> 11.30<lb/>
                      <w pos="ns" tos:accordo="y" tos:gender="ambig" tos:modification="n" tos:orth="eng">Plaster</w>,
                      <w pos="ns" tos:accordo="y" tos:gender="ambig" tos:modification="n" tos:orth="eng">lath</w>,
-                     <w pos="npl" tos:accordo="y" tos:gender="ambig" tos:modification="y" tos:add="engInflection"
+                     <w pos="npl" tos:accordo="y" tos:gender="ambig" tos:modification="n" tos:add="engInflection"
                         tos:orth="eng">colors</w>, etc 8.00<lb/>
                      <w pos="ns" tos:accordo="y" tos:gender="ambig" tos:modification="n" tos:orth="eng">Lumber</w> 8.50<lb/>
-                     <w pos="npl" tos:accordo="y" tos:gender="ambig" tos:modification="y" tos:add="engInflection"
+                     <w pos="npl" tos:accordo="y" tos:gender="ambig" tos:modification="n" tos:add="engInflection"
                         tos:orth="eng">Costumes</w> 25.65<lb/>
                      <phr type="noun">Rental <w pos="prep">of</w>
                         <w pos="ns" tos:accordo="y" tos:gender="ambig" tos:modification="n" tos:orth="eng"
@@ -13065,7 +13064,7 @@
                            tos:modification="n" tos:orth="eng">space</w>, <w pos="conj">and</w>
                         <w pos="ns" tos:accordo="y" tos:gender="ambig" tos:modification="n" tos:orth="eng"
                            >material</w></phr> 50.00<lb/>
-                     <phr type="noun"><w pos="adj" tos:accordo="y" tos:modification="y" tos:add="engInflection"
+                     <phr type="noun"><w pos="adj" tos:accordo="y" tos:modification="n" tos:add="engInflection"
                            tos:orth="eng">Painters</w>
                         <!-- zme: I tagged this as an adjective with English inflection, although it's really a possessive, as well as "superintendents" below -->
                         <w pos="ns" tos:accordo="y" tos:gender="ambig" tos:modification="n" tos:orth="eng"
@@ -15324,11 +15323,11 @@
                         Maffei</persName> $8.85<lb/> Poliziotti al campo $10.00. Pascuzzi $6.00<lb/>
                      <persName ref="#desantie">Enemia De Santi</persName> $47.63. Rama per
                      poppa<lb/> $46.55. <persName ref="unknown">Pasquinelli. <w pos="npl" tos:accordo="y"
-                           tos:gender="ambig" tos:modification="y" tos:add="engInflection"
+                           tos:gender="ambig" tos:modification="n" tos:add="engInflection"
                            tos:orth="eng">Bros.</w></persName> $28.18 Musica<lb/> $50.00. <persName
                         ref="#fredianim">Frediani</persName> per stampa 45.80. <persName
                            ref="unknown">Pacini<lb/> e <w pos="npl" tos:accordo="y" tos:gender="ambig"
-                           tos:modification="y" tos:add="engInflection" tos:orth="eng"
+                           tos:modification="n" tos:add="engInflection" tos:orth="eng"
                         >bros</w></persName> $9.20. Pane $8.80. <persName ref="unknown"
                            >Serafnini</persName> per <w pos="ns" tos:accordo="n" tos:gender="ambig"
                         tos:modification="n" tos:orth="eng" tos:char="y">Candy</w><lb/> $10.00.
