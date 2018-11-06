@@ -2,6 +2,7 @@ Questions to Analyze on anglicisms in the volume:
 
 How did the gross appearance of anglicisms change over time?
     * Raw count of the appearance of w elements over time
+    * Token analysis of ratio Italian terms to English in each year
     - Simple histogram or line graph
     - Distinguish different secretaries (in all visualizations?)
 How did the functional use of anglicisms change over time (i.e. The use of anglicisms in prose or in titles)
