@@ -15,7 +15,7 @@
         <authority>Prepared in TEI 5 by Zachary Enick for the Spring 2018 Italian research
           assistantship and Fall 2018 THINK research fellowship at the University of Pittsburgh.
           Github repository: <ref target="http://github.com/zme1/toscana"/>. Date last worked on:
-            <date when="2018-11-01"/></authority>
+            <date when="2018-11-07"/></authority>
         <availability>
           <licence><!-- licence to go here --></licence>
         </availability>
@@ -58,7 +58,6 @@
                 <valItem ident="verb"/>
                 <valItem ident="adj"/>
                 <valItem ident="prep"/>
-                <valItem ident="itArt"/>
                 <valItem ident="conj"/>
               </valList>
             </attDef>
