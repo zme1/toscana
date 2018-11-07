@@ -9376,7 +9376,7 @@
                   <person>
                      <persName ref="#giannig" role="replacement">Giuseppe Gianni</persName>
                      <roleName type="officer" role="corresp"/>
-                     <date when="1923-05"/>
+                     <date when="1923-06"/>
                   </person>
                   <person>
                      <persName ref="#lucchesiam">Americo Lucchesi</persName>
@@ -10110,7 +10110,7 @@
                         <roleName type="officer" role="vice"/>
                      </person>
                      <person>
-                        <persName ref="#giannig">Giuseppe Gianni</persName>
+                        <persName ref="#merciadrie">Eugenio Merciadri</persName>
                         <roleName type="officer" role="corresp"/>
                      </person>
                      <person>
