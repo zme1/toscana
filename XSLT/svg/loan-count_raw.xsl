@@ -27,25 +27,39 @@
                             <xsl:variable name="meetingAuthor" select="descendant::listPerson/descendant::persName[following-sibling::roleName[@role='corresp']]"/>
                             <xsl:choose>
                                 <xsl:when test="$currentAuthor eq $meetingAuthor and $currentAuthorPos eq 1">
-                                    <rect x="{$mtPos * $rectInterval}" y="-{$yLength}" height="{$yLength}" width="{$rectInterval}" stroke="pink" fill="pink" fill-opacity="0.4" stroke-opacity="0.4"/>
+                                    <rect x="{$mtPos * $rectInterval}" y="-{$yLength}" height="{$yLength}" width="{$rectInterval}" fill="pink" fill-opacity="0.4"/>
                                 </xsl:when>
                                 <xsl:when test="$currentAuthor eq $meetingAuthor and $currentAuthorPos eq 2">
-                                    <rect x="{$mtPos * $rectInterval}" y="-{$yLength}" height="{$yLength}" width="{$rectInterval}" stroke="purple" fill="purple" fill-opacity="0.4" stroke-opacity="0.4"/>
+                                    <rect x="{$mtPos * $rectInterval}" y="-{$yLength}" height="{$yLength}" width="{$rectInterval}" fill="purple" fill-opacity="0.4"/>
                                 </xsl:when>
                                 <xsl:when test="$currentAuthor eq $meetingAuthor and $currentAuthorPos eq 3">
-                                    <rect x="{$mtPos * $rectInterval}" y="-{$yLength}" height="{$yLength}" width="{$rectInterval}" stroke="orange" fill="orange" fill-opacity="0.4" stroke-opacity="0.4"/>
+                                    <rect x="{$mtPos * $rectInterval}" y="-{$yLength}" height="{$yLength}" width="{$rectInterval}" fill="orange" fill-opacity="0.4"/>
                                 </xsl:when>
                                 <xsl:when test="$currentAuthor eq $meetingAuthor and $currentAuthorPos eq 4">
-                                    <rect x="{$mtPos * $rectInterval}" y="-{$yLength}" height="{$yLength}" width="{$rectInterval}" stroke="yellow" fill="yellow" fill-opacity="0.4" stroke-opacity="0.4"/>
+                                    <rect x="{$mtPos * $rectInterval}" y="-{$yLength}" height="{$yLength}" width="{$rectInterval}" fill="yellow" fill-opacity="0.4"/>
                                 </xsl:when>
                                 <xsl:when test="$currentAuthor eq $meetingAuthor and $currentAuthorPos eq 5">
-                                    <rect x="{$mtPos * $rectInterval}" y="-{$yLength}" height="{$yLength}" width="{$rectInterval}" stroke="gray" fill="gray" fill-opacity="0.4" stroke-opacity="0.4"/>
+                                    <rect x="{$mtPos * $rectInterval}" y="-{$yLength}" height="{$yLength}" width="{$rectInterval}" fill="gray" fill-opacity="0.4"/>
                                 </xsl:when>
                             </xsl:choose>
                         </xsl:for-each>
                     </xsl:for-each>
                     <xsl:apply-templates select="//TEI"/>
                     <xsl:apply-templates select="/teiCorpus/teiCorpus"/>
+                    <line x1="0" y1="-{$yScale * 50}" x2="{$xLength}" y2="-{$yScale * 50}" stroke="gray" stroke-dasharray="10,5" stroke-width="1"/>
+                    <text x="-20" y="-{$yScale * 50 - 5}" text-anchor="middle">50</text>
+                    <line x1="0" y1="-{$yScale * 40}" x2="{$xLength}" y2="-{$yScale * 40}" stroke="gray" stroke-dasharray="10,5" stroke-width="1"/>
+                    <text x="-20" y="-{$yScale * 40 - 5}" text-anchor="middle">40</text>
+                    <line x1="0" y1="-{$yScale * 30}" x2="{$xLength}" y2="-{$yScale * 30}" stroke="gray" stroke-dasharray="10,5" stroke-width="1"/>
+                    <text x="-20" y="-{$yScale * 30 - 5}" text-anchor="middle">30</text>
+                    <line x1="0" y1="-{$yScale * 20}" x2="{$xLength}" y2="-{$yScale * 20}" stroke="gray" stroke-dasharray="10,5" stroke-width="1"/>
+                    <text x="-20" y="-{$yScale * 20 - 5}" text-anchor="middle">20</text>
+                    <line x1="0" y1="-{$yScale * 15}" x2="{$xLength}" y2="-{$yScale * 15}" stroke="gray" stroke-dasharray="10,5" stroke-width="1"/>
+                    <text x="-20" y="-{$yScale * 15 - 5}" text-anchor="middle">15</text>
+                    <line x1="0" y1="-{$yScale * 10}" x2="{$xLength}" y2="-{$yScale * 10}" stroke="gray" stroke-dasharray="10,5" stroke-width="1"/>
+                    <text x="-20" y="-{$yScale * 10 - 5}" text-anchor="middle">10</text>
+                    <line x1="0" y1="-{$yScale * 5}" x2="{$xLength}" y2="-{$yScale * 5}" stroke="gray" stroke-dasharray="10,5" stroke-width="1"/>
+                    <text x="-20" y="-{$yScale * 5 - 5}" text-anchor="middle">5</text>
                 </g>
             </svg>
         </div>
