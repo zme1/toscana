@@ -4825,6 +4825,60 @@
                   <p>Source description.</p>
                </sourceDesc>
             </fileDesc>
+            <profileDesc>
+               <particDesc>
+                  <listPerson>
+                     <person>
+                        <persName ref="#maffeis">Stefano Maffei</persName>
+                        <roleName type="officer" role="pres"/>
+                     </person>
+                     <person>
+                        <persName ref="#sodinij">Jacopo Sodini</persName>
+                        <roleName type="officer" role="vice"/>
+                     </person>
+                     <person>
+                        <persName ref="#fredianim">Muzio Frediani</persName>
+                        <roleName type="officer" role="corresp"/>
+                     </person>
+                     <person>
+                        <persName ref="#pellegrinic">Casimiro Pellegrini</persName>
+                        <roleName type="officer" role="finanza"/>
+                     </person>
+                     <person>
+                        <persName ref="#pasquinellis">Santino Pasquinelli</persName>
+                        <roleName type="officer" role="tes"/>
+                     </person>
+                     <person>
+                        <persName ref="#lunardinil">Lorenzo Lunardini</persName>
+                        <roleName type="officer" role="curatore"/>
+                     </person>
+                     <person>
+                        <persName ref="#silvionic">Carlo Silvioni</persName>
+                        <roleName type="officer" role="curatore"/>
+                     </person>
+                     <person>
+                        <persName ref="#fredianellig">Giuseppe Fredianelli</persName>
+                        <roleName type="officer" role="curatore"/>
+                     </person>
+                     <person>
+                        <persName ref="#paganuccis">Sam Paganucci</persName>
+                        <roleName type="officer" role="sanitario"/>
+                     </person>
+                     <person>
+                        <persName ref="#piaggesia">Aladino Piaggesi</persName>
+                        <roleName type="officer" role="sanitario"/>
+                     </person>
+                     <person>
+                        <persName ref="#buchignianil">Luigi Buchigniani</persName>
+                        <roleName type="officer" role="colletore"/>
+                     </person>
+                     <person>
+                        <persName ref="#merciadrie">Eugenio Merciardri</persName>
+                        <roleName type="officer" role="guardia"/>
+                     </person>
+                  </listPerson>
+               </particDesc>
+            </profileDesc>
          </teiHeader>
          <text>
             <body>
