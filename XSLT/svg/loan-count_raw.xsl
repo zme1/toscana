@@ -3,8 +3,6 @@
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
     xpath-default-namespace="http://www.tei-c.org/ns/1.0" exclude-result-prefixes="xs" version="3.0">
     <xsl:output method="xml" indent="yes" omit-xml-declaration="yes"/>
-    <!-- zme: rectangle interval: 4.47154
-    rectangle length: 8.94308-->
     <xsl:variable name="root" select="/"/>
     <xsl:variable name="interval" as="xs:double" select="2.47154"/>
     <xsl:variable name="rectLength" as="xs:double" select="10.94308"/>
@@ -14,7 +12,7 @@
     <xsl:variable name="maxAng" as="xs:integer" select="max(//TEI/count(descendant::w))"/>
     <xsl:variable name="yLength" as="xs:integer" select="$maxAng * $yScale + 20"/>
     <xsl:variable name="xLength" as="xs:double" select="$rectInterval * $meetingCount"/>
-    <xsl:variable name="authors" as="xs:string+" select="distinct-values(//TEI/descendant::listPerson/descendant::persName[following-sibling::roleName[@role='corresp']]/@ref)"/>
+    <xsl:variable name="authors" as="xs:string+" select="distinct-values(//TEI/descendant::listPerson/descendant::persName[following-sibling::roleName[@role='corresp']])"/>
     <xsl:template match="/">
         <div class="loan-raw">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 640">
@@ -26,22 +24,22 @@
                         <xsl:variable name="currentAuthorPos" as="xs:integer" select="position()"/>
                         <xsl:for-each select="$root//TEI">
                             <xsl:variable name="mtPos" select="count(preceding::TEI)"/>
-                            <xsl:variable name="meetingAuthor" select="descendant::listPerson/descendant::persName[following-sibling::roleName[@role='corresp']]/@ref"/>
+                            <xsl:variable name="meetingAuthor" select="descendant::listPerson/descendant::persName[following-sibling::roleName[@role='corresp']]"/>
                             <xsl:choose>
                                 <xsl:when test="$currentAuthor eq $meetingAuthor and $currentAuthorPos eq 1">
-                                    <rect x="{$mtPos * $rectInterval}" y="-{$yLength}" height="{$yLength}" width="{$rectInterval}" stroke="pink" fill="pink"/>
+                                    <rect x="{$mtPos * $rectInterval}" y="-{$yLength}" height="{$yLength}" width="{$rectInterval}" stroke="pink" fill="pink" fill-opacity="0.4" stroke-opacity="0.4"/>
                                 </xsl:when>
                                 <xsl:when test="$currentAuthor eq $meetingAuthor and $currentAuthorPos eq 2">
-                                    <rect x="{$mtPos * $rectInterval}" y="-{$yLength}" height="{$yLength}" width="{$rectInterval}" stroke="purple" fill="purple"/>
+                                    <rect x="{$mtPos * $rectInterval}" y="-{$yLength}" height="{$yLength}" width="{$rectInterval}" stroke="purple" fill="purple" fill-opacity="0.4" stroke-opacity="0.4"/>
                                 </xsl:when>
                                 <xsl:when test="$currentAuthor eq $meetingAuthor and $currentAuthorPos eq 3">
-                                    <rect x="{$mtPos * $rectInterval}" y="-{$yLength}" height="{$yLength}" width="{$rectInterval}" stroke="orange" fill="orange"/>
+                                    <rect x="{$mtPos * $rectInterval}" y="-{$yLength}" height="{$yLength}" width="{$rectInterval}" stroke="orange" fill="orange" fill-opacity="0.4" stroke-opacity="0.4"/>
                                 </xsl:when>
                                 <xsl:when test="$currentAuthor eq $meetingAuthor and $currentAuthorPos eq 4">
-                                    <rect x="{$mtPos * $rectInterval}" y="-{$yLength}" height="{$yLength}" width="{$rectInterval}" stroke="yellow" fill="yellow"/>
+                                    <rect x="{$mtPos * $rectInterval}" y="-{$yLength}" height="{$yLength}" width="{$rectInterval}" stroke="yellow" fill="yellow" fill-opacity="0.4" stroke-opacity="0.4"/>
                                 </xsl:when>
                                 <xsl:when test="$currentAuthor eq $meetingAuthor and $currentAuthorPos eq 5">
-                                    <rect x="{$mtPos * $rectInterval}" y="-{$yLength}" height="{$yLength}" width="{$rectInterval}" stroke="gray" fill="gray"/>
+                                    <rect x="{$mtPos * $rectInterval}" y="-{$yLength}" height="{$yLength}" width="{$rectInterval}" stroke="gray" fill="gray" fill-opacity="0.4" stroke-opacity="0.4"/>
                                 </xsl:when>
                             </xsl:choose>
                         </xsl:for-each>
@@ -73,10 +71,12 @@
         </xsl:choose>
     </xsl:template>
     <xsl:template match="teiCorpus/teiCorpus" xmlns="http://www.w3.org/2000/svg">
+        <xsl:variable name="year" as="xs:string" select="teiHeader/fileDesc/descendant::date/tokenize(@when, '-')[1]"/>
         <xsl:variable name="lastMeeting" select="descendant::TEI[last()]"/>
         <xsl:variable name="lastMeetingPos" as="xs:integer" select="$lastMeeting/count(preceding::TEI) + 1"/>
         <g>
             <line x1="{($lastMeetingPos * $rectInterval) + $interval div 2}" y1="0" x2="{($lastMeetingPos * $rectInterval)}" y2="-{$yLength}" stroke="black" stroke-width="1"/>
+            <text x="{(count(preceding::TEI) * $rectInterval) + ((count(descendant::TEI) div 2) * $rectInterval)}" y="20" text-anchor="middle"><xsl:value-of select="$year"/></text>
         </g>
     </xsl:template>
 </xsl:stylesheet>
