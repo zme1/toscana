@@ -5,7 +5,7 @@
          xmlns:teix="http://www.tei-c.org/ns/Examples"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2018-11-07T21:31:23Z. .
+Schema generated from ODD source 2018-11-12T20:47:20Z. .
 TEI Edition: Version 3.4.0. Last updated on
 	23rd July 2018, revision 1fa0b54
 TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.4.0/
@@ -1349,28 +1349,40 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
    </define>
    <define name="model.emphLike">
       <choice>
+         <ref name="foreign"/>
          <ref name="title"/>
       </choice>
    </define>
    <define name="model.emphLike_alternation">
       <choice>
+         <ref name="foreign"/>
          <ref name="title"/>
       </choice>
    </define>
    <define name="model.emphLike_sequence">
+      <ref name="foreign"/>
       <ref name="title"/>
    </define>
    <define name="model.emphLike_sequenceOptional">
+      <optional>
+         <ref name="foreign"/>
+      </optional>
       <optional>
          <ref name="title"/>
       </optional>
    </define>
    <define name="model.emphLike_sequenceOptionalRepeatable">
       <zeroOrMore>
+         <ref name="foreign"/>
+      </zeroOrMore>
+      <zeroOrMore>
          <ref name="title"/>
       </zeroOrMore>
    </define>
    <define name="model.emphLike_sequenceRepeatable">
+      <oneOrMore>
+         <ref name="foreign"/>
+      </oneOrMore>
       <oneOrMore>
          <ref name="title"/>
       </oneOrMore>
@@ -2336,6 +2348,14 @@ Suggested values include: 1] page; 2] column; 3] line; 4] book; 5] poem; 6] cant
          <ref name="att.declaring.attributes"/>
          <ref name="att.fragmentable.attributes"/>
          <ref name="att.written.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="foreign">
+      <element name="foreign">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">identifies a word or phrase as belonging to some language other than that of the surrounding text. [3.3.2.1. Foreign Words or Expressions]</a:documentation>
+         <ref name="macro.phraseSeq"/>
+         <ref name="att.global.attributes"/>
          <empty/>
       </element>
    </define>
@@ -5741,6 +5761,7 @@ Suggested values include: 1] persuade; 2] express; 3] inform; 4] entertain</a:do
          <zeroOrMore>
             <choice>
                <text/>
+               <ref name="foreign"/>
                <ref name="choice"/>
                <ref name="phr"/>
                <ref name="w"/>

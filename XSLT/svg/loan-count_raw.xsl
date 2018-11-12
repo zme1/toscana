@@ -8,9 +8,9 @@
     <xsl:variable name="rectLength" as="xs:double" select="10.94308"/>
     <xsl:variable name="rectInterval" as="xs:double" select="$interval + $rectLength"/>
     <xsl:variable name="meetingCount" as="xs:integer" select="count(//TEI)"/>
-    <xsl:variable name="yScale" as="xs:integer" select="10"/>
-    <xsl:variable name="maxAng" as="xs:integer" select="max(//TEI/count(descendant::w))"/>
-    <xsl:variable name="yLength" as="xs:integer" select="$maxAng * $yScale + 20"/>
+    <xsl:variable name="yScale" as="xs:integer" select="35"/>
+    <xsl:variable name="maxAng" as="xs:integer" select="max(//TEI/count(descendant::w[not(ancestor::foreign)]))"/>
+    <xsl:variable name="yLength" as="xs:integer" select="$yScale * 16"/>
     <xsl:variable name="xLength" as="xs:double" select="$rectInterval * $meetingCount"/>
     <xsl:variable name="authors" as="xs:string+" select="distinct-values(//TEI/descendant::listPerson/descendant::persName[following-sibling::roleName[@role='corresp']])"/>
     <xsl:template match="/">
@@ -46,27 +46,30 @@
                     </xsl:for-each>
                     <xsl:apply-templates select="//TEI"/>
                     <xsl:apply-templates select="/teiCorpus/teiCorpus"/>
-                    <line x1="0" y1="-{$yScale * 50}" x2="{$xLength}" y2="-{$yScale * 50}" stroke="gray" stroke-dasharray="10,5" stroke-width="1"/>
-                    <text x="-20" y="-{$yScale * 50 - 5}" text-anchor="middle">50</text>
-                    <line x1="0" y1="-{$yScale * 40}" x2="{$xLength}" y2="-{$yScale * 40}" stroke="gray" stroke-dasharray="10,5" stroke-width="1"/>
-                    <text x="-20" y="-{$yScale * 40 - 5}" text-anchor="middle">40</text>
-                    <line x1="0" y1="-{$yScale * 30}" x2="{$xLength}" y2="-{$yScale * 30}" stroke="gray" stroke-dasharray="10,5" stroke-width="1"/>
-                    <text x="-20" y="-{$yScale * 30 - 5}" text-anchor="middle">30</text>
-                    <line x1="0" y1="-{$yScale * 20}" x2="{$xLength}" y2="-{$yScale * 20}" stroke="gray" stroke-dasharray="10,5" stroke-width="1"/>
-                    <text x="-20" y="-{$yScale * 20 - 5}" text-anchor="middle">20</text>
-                    <line x1="0" y1="-{$yScale * 15}" x2="{$xLength}" y2="-{$yScale * 15}" stroke="gray" stroke-dasharray="10,5" stroke-width="1"/>
-                    <text x="-20" y="-{$yScale * 15 - 5}" text-anchor="middle">15</text>
+                    <line x1="0" y1="-{$yScale * 16}" x2="{$xLength}" y2="-{$yScale * 16}" stroke="gray" stroke-dasharray="10,5" stroke-width="1"/>
+                    <text x="-20" y="-{$yScale * 16 - 5}" text-anchor="middle">16</text>
+                    <line x1="0" y1="-{$yScale * 14}" x2="{$xLength}" y2="-{$yScale * 14}" stroke="gray" stroke-dasharray="10,5" stroke-width="1"/>
+                    <text x="-20" y="-{$yScale * 14 - 5}" text-anchor="middle">14</text>
+                    <line x1="0" y1="-{$yScale * 12}" x2="{$xLength}" y2="-{$yScale * 12}" stroke="gray" stroke-dasharray="10,5" stroke-width="1"/>
+                    <text x="-20" y="-{$yScale * 12 - 5}" text-anchor="middle">12</text>
                     <line x1="0" y1="-{$yScale * 10}" x2="{$xLength}" y2="-{$yScale * 10}" stroke="gray" stroke-dasharray="10,5" stroke-width="1"/>
                     <text x="-20" y="-{$yScale * 10 - 5}" text-anchor="middle">10</text>
-                    <line x1="0" y1="-{$yScale * 5}" x2="{$xLength}" y2="-{$yScale * 5}" stroke="gray" stroke-dasharray="10,5" stroke-width="1"/>
-                    <text x="-20" y="-{$yScale * 5 - 5}" text-anchor="middle">5</text>
+                    <line x1="0" y1="-{$yScale * 8}" x2="{$xLength}" y2="-{$yScale * 8}" stroke="gray" stroke-dasharray="10,5" stroke-width="1"/>
+                    <text x="-20" y="-{$yScale * 8 - 5}" text-anchor="middle">8</text>
+                    <line x1="0" y1="-{$yScale * 6}" x2="{$xLength}" y2="-{$yScale * 6}" stroke="gray" stroke-dasharray="10,5" stroke-width="1"/>
+                    <text x="-20" y="-{$yScale * 6 - 5}" text-anchor="middle">6</text>
+                    <line x1="0" y1="-{$yScale * 4}" x2="{$xLength}" y2="-{$yScale * 4}" stroke="gray" stroke-dasharray="10,5" stroke-width="1"/>
+                    <text x="-20" y="-{$yScale * 4 - 5}" text-anchor="middle">4</text>
+                    <line x1="0" y1="-{$yScale * 2}" x2="{$xLength}" y2="-{$yScale * 2}" stroke="gray" stroke-dasharray="10,5" stroke-width="1"/>
+                    <text x="-20" y="-{$yScale * 2 - 5}" text-anchor="middle">2</text>
+                    
                 </g>
             </svg>
         </div>
     </xsl:template>
     <xsl:template match="TEI" xmlns="http://www.w3.org/2000/svg">
         <xsl:variable name="meetingPos" as="xs:integer" select="count(preceding::TEI)"/>
-        <xsl:variable name="angCount" as="xs:integer" select="count(descendant::w)"/>
+        <xsl:variable name="angCount" as="xs:integer" select="count(descendant::w[not(ancestor::foreign)])"/>
         <xsl:choose>
             <xsl:when test="descendant::list[@subtype = 'ballo' or @subtype = 'picnic']">
                 <g>
@@ -83,6 +86,11 @@
                 </g>
             </xsl:otherwise>
         </xsl:choose>
+        <xsl:if test="descendant::foreign">
+            <g>
+                <text x="{($meetingPos * $rectInterval) + $interval * 4}" y="-{$angCount * $yScale}" text-anchor="middle">*</text>
+            </g>
+        </xsl:if>
     </xsl:template>
     <xsl:template match="teiCorpus/teiCorpus" xmlns="http://www.w3.org/2000/svg">
         <xsl:variable name="year" as="xs:string" select="teiHeader/fileDesc/descendant::date/tokenize(@when, '-')[1]"/>
