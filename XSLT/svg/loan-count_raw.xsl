@@ -69,7 +69,8 @@
     </xsl:template>
     <xsl:template match="TEI" xmlns="http://www.w3.org/2000/svg">
         <xsl:variable name="meetingPos" as="xs:integer" select="count(preceding::TEI)"/>
-        <xsl:variable name="angCount" as="xs:integer" select="count(descendant::w[not(ancestor::foreign)])"/>
+        <xsl:variable name="angCount" as="xs:integer" select="count(descendant::w[not(ancestor::foreign)][not(ancestor::list[@subtype = 'ballo' or @subtype = 'picnic'])])"/>
+        <xsl:variable name="angEventCount" as="xs:integer" select="count(descendant::w[not(ancestor::foreign)][ancestor::list[@subtype = 'ballo' or @subtype = 'picnic']])"/>
         <xsl:choose>
             <xsl:when test="descendant::list[@subtype = 'ballo' or @subtype = 'picnic']">
                 <g>
