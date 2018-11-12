@@ -75,7 +75,9 @@
             <xsl:when test="descendant::list[@subtype = 'ballo' or @subtype = 'picnic']">
                 <g>
                     <rect x="{($meetingPos * $rectInterval) + $interval}"
-                        y="-{$angCount * $yScale}" height="{$angCount * $yScale}" width="{$rectLength}" fill="blue"/>
+                        y="-{$angCount * $yScale}" height="{$angCount * $yScale}" width="{$rectLength}" fill="red"/>
+                    <rect x="{($meetingPos * $rectInterval) + $interval}"
+                        y="-{($angEventCount + $angCount) * $yScale}" height="{$angEventCount * $yScale}" width="{$rectLength}" fill="blue"/>
                 </g>
             </xsl:when>
             <xsl:when test="$angCount eq 0">
