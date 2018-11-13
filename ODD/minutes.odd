@@ -15,7 +15,7 @@
         <authority>Prepared in TEI 5 by Zachary Enick for the Spring 2018 Italian research
           assistantship and Fall 2018 THINK research fellowship at the University of Pittsburgh.
           Github repository: <ref target="http://github.com/zme1/toscana"/>. Date last worked on:
-            <date when="2018-11-12"/></authority>
+            <date when="2018-11-13"/></authority>
         <availability>
           <licence><!-- licence to go here --></licence>
         </availability>
@@ -51,6 +51,13 @@
         </elementSpec>
         <elementSpec ident="w" mode="change" module="analysis">
           <attList>
+            <attDef ident="lemma" mode="replace" usage="opt">
+              <desc>This optional attribute will be used on noun, adjective, and verb forms to lemmatize them,
+              allowing for an analysis of distinct word forms in use, and how those forms are treated over time.</desc>
+              <datatype>
+                <dataRef key="teidata.word"/>
+              </datatype>
+            </attDef>
             <attDef ident="pos" mode="replace" usage="req">
               <valList type="closed">
                 <valItem ident="npl"/>
@@ -685,13 +692,23 @@
             </sch:rule>
           </constraint>
         </constraintSpec>-->
+        <constraintSpec ident="w-lemma" scheme="schematron">
+          <constraint>
+            <sch:ns uri="http://toscana.newtfire.org" prefix="tos"/>
+            <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+              context="tei:w[not(@pos='prep') and not(@pos='conj')]">
+              <sch:assert test="@lemma">With every loanword that is not a preposition or
+                conjunction, you must provide its lemmatized form.</sch:assert>
+            </sch:rule>
+          </constraint>
+        </constraintSpec>
         <constraintSpec ident="orth-eng" scheme="schematron">
           <constraint>
             <sch:ns uri="http://toscana.newtfire.org" prefix="tos"/>
             <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-              context="tei:w[not(@pos='prep') and not(@pos='itArt') and not(@pos='conj')]">
-              <sch:assert test="@tos:orth">With every loanword that is not a preposition,
-                conjunction, or article, you must specifiy whether the orthography complies with
+              context="tei:w[not(@pos='prep') and not(@pos='conj')]">
+              <sch:assert test="@tos:orth">With every loanword that is not a preposition or
+                conjunction, you must specifiy whether the orthography complies with
                 English or Italian grammar.</sch:assert>
             </sch:rule>
           </constraint>
