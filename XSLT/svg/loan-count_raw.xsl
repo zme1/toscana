@@ -89,10 +89,10 @@
                     <line x1="0" y1="-{$yScale * 2}" x2="{$xLength}" y2="-{$yScale * 2}"
                         stroke="white" stroke-dasharray="10,5" stroke-width="1"/>
                     <text x="-20" y="-{$yScale * 2 - 5}" text-anchor="middle" fill="white">2</text>
-                    <rect x="0" y="40" height="25" width="25" fill="#CE4B29"/>
+                    <rect x="0" y="40" height="25" width="25" stroke-width="0.5" stroke="white" fill="#CE4B29"/>
                     <text x="32" y="58" text-anchor="start" fill="white">Loanwords used in event-based
                         discussions</text>
-                    <rect x="0" y="70" height="25" width="25" fill="#3E6E63"/>
+                    <rect x="0" y="70" height="25" width="25" stroke="white" stroke-width="0.5" fill="#3E6E63"/>
                     <text x="32" y="88" text-anchor="start" fill="white">Loanwords used in any other
                         context</text>
                     <line x1="0" y1="0" x2="{$xLength}" y2="0" stroke="white" stroke-width="1"/>
@@ -111,10 +111,10 @@
             <xsl:when test="descendant::list[@subtype = 'ballo' or @subtype = 'picnic']">
                 <g>
                     <rect x="{($meetingPos * $rectInterval) + $interval}" y="-{$angCount * $yScale}"
-                        height="{$angCount * $yScale}" width="{$rectLength}" fill="#3E6E63"/>
+                        height="{$angCount * $yScale}" width="{$rectLength}" stroke-width="0.5" stroke="white" fill="#3E6E63"/>
                     <rect x="{($meetingPos * $rectInterval) + $interval}"
                         y="-{($angEventCount + $angCount) * $yScale}"
-                        height="{$angEventCount * $yScale}" width="{$rectLength}" fill="#CE4B29"/>
+                        height="{$angEventCount * $yScale}" width="{$rectLength}" stroke-width="0.5" stroke="white" fill="#CE4B29"/>
                 </g>
             </xsl:when>
             <!--            <xsl:when test="$angCount eq 0">
@@ -123,7 +123,7 @@
             <xsl:otherwise>
                 <g>
                     <rect x="{$meetingPos * $rectInterval + $interval}" y="-{$angCount * $yScale}"
-                        height="{$angCount * $yScale}" width="{$rectLength}" fill="#3E6E63"/>
+                        height="{$angCount * $yScale}" width="{$rectLength}" stroke-width="0.5" stroke="white" fill="#3E6E63"/>
                 </g>
             </xsl:otherwise>
         </xsl:choose>
