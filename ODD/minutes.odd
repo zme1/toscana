@@ -41,6 +41,12 @@
           include="accMat acquisition handDesc history institution msDesc msIdentifier msName origin physDesc repository"/>
         <moduleRef key="namesdates" include="listPerson orgName persName person roleName"/>
         <elementSpec ident="phr" mode="change" module="analysis">
+          <content>
+            <alternate maxOccurs="unbounded" minOccurs="1">
+              <elementRef key="w"/>
+              <elementRef key="phr"/>
+            </alternate>
+          </content>
           <attList>
             <attDef ident="type" mode="replace" usage="req">
               <valList type="closed">
@@ -674,14 +680,6 @@
               <sch:assert test="@tos:accordo">With all noun, verb, and adjective forms, you must
                 determine whether or not the form in question was employed grammatically (with
                 respect to either Italian or English grammar).</sch:assert>
-            </sch:rule>
-          </constraint>
-        </constraintSpec>
-        <constraintSpec ident="phr-w-count" scheme="schematron">
-          <constraint>
-            <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron" context="tei:phr">
-              <sch:assert test="tei:w or tei:phr">In order to use a phr tag, it must
-                contain either a w tag or another phr tag.</sch:assert>
             </sch:rule>
           </constraint>
         </constraintSpec>
