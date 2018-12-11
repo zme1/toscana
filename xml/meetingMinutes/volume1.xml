@@ -13249,7 +13249,7 @@
                         <item><persName ref="#datia">Adelmo Dati</persName><lb/>
                            <roleName type="committee" role="tes">tesoriere</roleName>.</item>
                         <item><persName ref="#lunardinil">Lorenzo Lunardini</persName>
-                           <roleName type="committee" role="manager"><phr type="noun"><w pos="adj" lemma="manger"
+                           <roleName type="committee" role="manager"><phr type="noun"><w pos="adj" lemma="manager"
                                     tos:accordo="y" tos:modification="n" tos:orth="eng">floor</w>
                                  <w pos="ns" lemma="manager" tos:accordo="y" tos:gender="ambig" tos:modification="n"
                                     tos:orth="eng">manager</w></phr></roleName></item>
