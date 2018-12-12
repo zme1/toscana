@@ -27,24 +27,35 @@
         <xsl:variable name="distLemmas" as="xs:string+" select="distinct-values($lemmas)"/>
        <xsl:comment>All Lemmas: <xsl:value-of select="$distLemmas"/></xsl:comment>
         <xsl:variable name="multiLemmas" as="xs:string+">
-            <xsl:value-of select="for $i in $distLemmas return $i[count($current//w[not(ancestor::foreign)]/@lemma = current()) gt 1]"/>
+            <xsl:for-each select="$distLemmas">
+                <xsl:if test="count($current//w[not(ancestor::foreign) and @lemma eq current()]) gt 1">
+                    <xsl:value-of select="current()"/>
+                </xsl:if>
+            </xsl:for-each>
         </xsl:variable>
+      
         <xsl:comment>MultiLemmas: <xsl:value-of select="$multiLemmas"/></xsl:comment>
-        <xsl:variable name="singleLemmas" as="xs:string+">
-            <xsl:value-of select="for $i in $distLemmas return $i[count($current//w[not(ancestor::foreign)]/@lemma = $i) eq 1]"/>
+        <xsl:variable name="singleLemmas" as="xs:string*">
+            <xsl:for-each select="$distLemmas">
+                <xsl:if test="count($current//w[not(ancestor::foreign) and @lemma eq current()]) eq 1">
+                    <xsl:value-of select="current()"/>
+                </xsl:if>
+            </xsl:for-each>
         </xsl:variable>
+        <xsl:comment>Single Lemmas: <xsl:value-of select="$singleLemmas"/></xsl:comment>
         <tr>
             <td><xsl:value-of select="$year"/></td> 
             <td>
                 <xsl:comment><xsl:value-of select="$multiLemmas"/></xsl:comment>
     <ul>
         <xsl:for-each select="$multiLemmas">
-            <xsl:variable name="countCurrML" as="xs:integer" select="count($current//w[not(ancestor::foreign)]/@lemma = current())"/>
+            <xsl:variable name="countCurrML" as="xs:integer" select="count($current//w[not(ancestor::foreign)][@lemma = current()])"/>
             <li>
-             <xsl:value-of select="concat(current(), $countCurrML)"/>
+             <xsl:value-of select="concat(current(), ': ', $countCurrML)"/>
             </li>
             
         </xsl:for-each>
+        <li>Singleton Lemmas: <xsl:value-of select="count($singleLemmas)"/></li>
         
     </ul>            
                 
