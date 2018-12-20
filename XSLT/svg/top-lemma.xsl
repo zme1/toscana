@@ -15,26 +15,31 @@
             </table>
         </div>
     </xsl:template>
-    <xsl:template match="teiCorpus/teiCorpus">
+    <xsl:template match="teiCorpus">
         <xsl:variable name="year" as="xs:string" select="teiHeader/fileDesc/descendant::date/@when"/>
         <xsl:variable name="currentYear" select="current()"/>
-        <xsl:variable name="lemmas" as="xs:string+"
-            select="distinct-values(descendant::w[not(ancestor::foreign)]/@lemma)"/>
-        <xsl:variable name="multiLemmas" as="xs:string+">
-            <xsl:for-each select="$lemmas">
+        <xsl:variable name="lemmas" as="node()+"
+            select="descendant::w[not(ancestor::foreign)]/@lemma"/>
+        <xsl:variable name="distinctLemmas" as="xs:string+" select="distinct-values($lemmas)"/>
+        <xsl:variable name="multiLemmas" as="xs:string*">
+            <xsl:for-each select="$distinctLemmas">
                 <xsl:if
                     test="count($currentYear/descendant::w[not(ancestor::foreign)][@lemma eq current()]) gt 1">
                     <xsl:value-of select="current()"/>
                 </xsl:if>
             </xsl:for-each>
         </xsl:variable>
-        <xsl:variable name="singleLemmas" as="xs:string+">
-            <xsl:for-each select="$lemmas">
+        <xsl:variable name="singleLemmas" as="xs:string*">
+            <xsl:for-each select="$distinctLemmas">
                 <xsl:if
-                    test="count($currentYear/descendant::w[not(ancestor::foreign)][@lemma eq current()]) eq 1"/>
-                <xsl:value-of select="current()"/>
+                    test="count($currentYear//w[not(ancestor::foreign) and @lemma eq current()]) eq 1">
+                    <xsl:value-of select="current()"/>
+                </xsl:if>
             </xsl:for-each>
         </xsl:variable>
+        <xsl:comment> All lemmas: <xsl:value-of select="$distinctLemmas"/></xsl:comment>
+        <xsl:comment> Multi lemmas: <xsl:value-of select="$multiLemmas"/></xsl:comment>
+        <xsl:comment> Single lemmas: <xsl:value-of select="$singleLemmas"/></xsl:comment>
         <tr>
             <td>
                 <xsl:value-of select="$year"/>
