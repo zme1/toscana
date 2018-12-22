@@ -7,11 +7,13 @@
     <xsl:template match="/">
         <div class="lemma-table">
             <table>
-                <tr>
-                    <th>Year</th>
-                    <th>Top Lemmas</th>
-                </tr>
-                <xsl:apply-templates select="/teiCorpus/teiCorpus"/>
+                <tbody class="lemma-table">
+                    <tr>
+                        <th>Year</th>
+                        <th>Top Lemmas</th>
+                    </tr>
+                    <xsl:apply-templates select="/teiCorpus/teiCorpus"/>
+                </tbody>
             </table>
         </div>
     </xsl:template>
