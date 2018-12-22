@@ -123,3 +123,11 @@ pre {
 #githubimg {
     width: 50px;
 }
+
+.lemma-table > table,
+tr,
+th,
+td {
+    border: 1px solid white;
+    border-collapse: collapse;
+}
