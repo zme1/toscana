@@ -1,19 +1,5 @@
 Questions to Analyze on anglicisms in the volume:
 
-How did the gross appearance of anglicisms change over time?
-    * Raw count of the appearance of w elements over time
-    * Token analysis of ratio Italian terms to English in each year
-    - Simple histogram or line graph
-    - Distinguish different secretaries (in all visualizations?)
-How did the functional use of anglicisms change over time (i.e. The use of anglicisms in prose or in titles)
-    * Comparison of w elements with ancestor roleName or note elements and w elements without those ancestors
-    - Same approach as above -- same graph?
-*Which orthography prevailed in the minutes, and in which contexts?
-    * Comparison of @tos:orth='eng' and @tos:orth='it' over time
-    - Line graph that compares the English and Italian orthographies 
-    - Anglicisms that appeared in prose, versus anglicisms that appeared in lists or titles
 **Were the anglicisms used grammatically (i.e. Were they inflected to agree in different lexical contexts?)? Was grammatical use more common with outright loans or italianized forms?
     * @tos:accordo='y' versus @tos:accordo='n'
-Were anglicisms gendered? Outright loans (@tos:modification='n') or italianized forms (@tos:modification='y')?
-***How many distinct words are used?
-    * ADD LEMMATIZED ATTRIBUTES AND ATTRIBUTE VALUES
+
