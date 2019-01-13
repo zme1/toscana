@@ -35,7 +35,7 @@
                         stroke="white" stroke-width="1" stroke-dasharray="8,4"/>
                     <text x="-60" y="-{$yLength div 2}"
                         transform="rotate(270,-60,-{$yLength div 2})" text-anchor="middle"
-                        font-size="30px" fill="white">Percentage of Member Activity</text>
+                        font-size="30px" fill="white">Percentage of member activity</text>
                     <text x="-20" y="-{$yScale * 80 - 7}" text-anchor="middle" fill="white"
                         >80%</text>
                     <text x="-20" y="-{$yScale * 60 - 7}" text-anchor="middle" fill="white"
@@ -51,12 +51,12 @@
                         stroke="white" stroke-width="1"/>
                     <line x1="20" y1="45" x2="{20 + $xScale * 100}" y2="45" stroke="white"
                         stroke-width="2"/>
-                    <text x="{20 + $xScale * 50}" y="80" text-anchor="middle" fill="white">100 Units
-                        of Activity</text>
+                    <text x="{20 + $xScale * 50}" y="80" text-anchor="middle" fill="white">100 units
+                        of activity</text>
                     <rect x="200" y="40" height="25" width="25" stroke="white" stroke-width="1" fill="#3E6E63"/>
-                    <text x="235" y="57" text-anchor="start" fill="white">Officer Activity</text>
+                    <text x="235" y="57" text-anchor="start" fill="white">Officer activity</text>
                     <rect x="200" y="90" height="25" width="25" stroke="white" stroke-width="1" fill="#CE4B29"/>
-                    <text x="235" y="107" text-anchor="start" fill="white">General Member Activity</text>
+                    <text x="235" y="107" text-anchor="start" fill="white">General member activity</text>
                 </g>
             </svg>
         </div>

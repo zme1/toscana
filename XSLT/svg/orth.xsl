@@ -25,10 +25,10 @@
                     
                     <text x="-50" y="-{$yLength div 2 - 15}"
                         transform="rotate(270,-60,-{$yLength div 2})" text-anchor="middle"
-                        fill="white" font-size="20px">English Orthography</text>
+                        fill="white" font-size="20px">English orthography</text>
                     <text x="-50" y="{$yLength div 2 + 15}" fill="white"
                         transform="rotate(270,-60,{$yLength div 2})" text-anchor="middle"
-                        font-size="20px">Italian Orthography</text>
+                        font-size="20px">Italian orthography</text>
                     <xsl:apply-templates select="/teiCorpus/teiCorpus"/>
                     
                     <text x="-15" y="-{$yScale * 32 - 5}" fill="white" text-anchor="middle">32</text>

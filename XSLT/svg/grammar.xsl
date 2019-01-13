@@ -10,19 +10,19 @@
     <xsl:variable name="xLength" as="xs:double" select="$angCount * $angXValue"/>
     <xsl:template match="/">
         <div class="grammar">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 670">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680">
                 <g transform="translate(120,550)">
                     <xsl:apply-templates select="/teiCorpus/teiCorpus"/>
                     
                     <!-- X- and y-axis labels, with legend -->
                     <text x="-70" y="-{$yLength div 2}" transform="rotate(270, -70, -{$yLength div 2})" font-size="30px" text-anchor="middle" fill="white">Proportions by year</text>
                     <text x="{$xLength div 2}" y="50" font-size="30px" text-anchor="middle" fill="white">Proportions over the years</text>
-                    <rect x="0" y="10" width="25" height="25" fill="#CE4B29" stroke="white"/>
-                    <text x="32" y="28" text-anchor="start" fill="white">Ungrammatical use</text>
-                    <rect x="0" y="40" width="25" height="25" fill="#3E6E63" stroke="white"/>
-                    <text x="32" y="58" text-anchor="start" fill="white">Grammatical use</text>
-                    <rect x="0" y="70" width="25" height="25" fill="#BFA179" stroke="white"/>
-                    <text x="32" y="88" text-anchor="start" fill="white">Appears outside sentential context (does not apply)</text>
+                    <rect x="0" y="20" width="25" height="25" fill="#CE4B29" stroke="white"/>
+                    <text x="32" y="38" text-anchor="start" fill="white">Ungrammatical use</text>
+                    <rect x="0" y="50" width="25" height="25" fill="#3E6E63" stroke="white"/>
+                    <text x="32" y="68" text-anchor="start" fill="white">Grammatical use</text>
+                    <rect x="0" y="80" width="25" height="25" fill="#BFA179" stroke="white"/>
+                    <text x="32" y="98" text-anchor="start" fill="white">Appears outside sentential context (does not apply)</text>
                     
                     <!-- Graph borders -->
                     <line x1="0" y1="0" x2="{$xLength}" y2="0" stroke="white" stroke-width="1"/>
@@ -41,10 +41,10 @@
                     <line x1="{$xLength * .8}" y1="0" x2="{$xLength * .8}" y2="-10" stroke="white" stroke-width="1"/>
                     <line x1="{$xLength * .9}" y1="0" x2="{$xLength * .9}" y2="-10" stroke="white" stroke-width="1"/>
                     
-                    <text x="{$xLength * .2 + 8}" y="20" text-anchor="middle">20%</text>
-                    <text x="{$xLength * .4 + 8}" y="20" text-anchor="middle">40%</text>
-                    <text x="{$xLength * .6 + 8}" y="20" text-anchor="middle">60%</text>
-                    <text x="{$xLength * .8 + 8}" y="20" text-anchor="middle">80%</text>
+                    <text x="{$xLength * .2 + 8}" y="20" text-anchor="middle" fill="white">20%</text>
+                    <text x="{$xLength * .4 + 8}" y="20" text-anchor="middle" fill="white">40%</text>
+                    <text x="{$xLength * .6 + 8}" y="20" text-anchor="middle" fill="white">60%</text>
+                    <text x="{$xLength * .8 + 8}" y="20" text-anchor="middle" fill="white">80%</text>
                     
                     <!-- Y-axis milestones -->
                     <line x1="0" y1="-{$yLength * .1}" x2="10" y2="-{$yLength * .1}" stroke="white" stroke-width="1"/>
@@ -57,10 +57,10 @@
                     <line x1="0" y1="-{$yLength * .8}" x2="10" y2="-{$yLength * .8}" stroke="white" stroke-width="1"/>
                     <line x1="0" y1="-{$yLength * .9}" x2="10" y2="-{$yLength * .9}" stroke="white" stroke-width="1"/>
                     
-                    <text x="-10" y="-{$yLength * .2 - 8}" text-anchor="end">20%</text>
-                    <text x="-10" y="-{$yLength * .4 - 8}" text-anchor="end">40%</text>
-                    <text x="-10" y="-{$yLength * .6 - 8}" text-anchor="end">60%</text>
-                    <text x="-10" y="-{$yLength * .8 - 8}" text-anchor="end">80%</text>
+                    <text x="-10" y="-{$yLength * .2 - 8}" text-anchor="end" fill="white">20%</text>
+                    <text x="-10" y="-{$yLength * .4 - 8}" text-anchor="end" fill="white">40%</text>
+                    <text x="-10" y="-{$yLength * .6 - 8}" text-anchor="end" fill="white">60%</text>
+                    <text x="-10" y="-{$yLength * .8 - 8}" text-anchor="end" fill="white">80%</text>
                 </g>
             </svg>
         </div>
