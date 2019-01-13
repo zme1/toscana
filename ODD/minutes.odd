@@ -15,7 +15,7 @@
         <authority>Prepared in TEI 5 by Zachary Enick for the Spring 2018 Italian research
           assistantship and Fall 2018 THINK research fellowship at the University of Pittsburgh.
           Github repository: <ref target="http://github.com/zme1/toscana"/>. Date last worked on:
-            <date when="2018-11-13"/></authority>
+            <date when="2010-01-13"/></authority>
         <availability>
           <licence><!-- licence to go here --></licence>
         </availability>
@@ -43,7 +43,9 @@
         <elementSpec ident="phr" mode="change" module="analysis">
           <content>
             <alternate maxOccurs="unbounded" minOccurs="1">
+              <textNode/>
               <elementRef key="w"/>
+              <elementRef key="lb"/>
               <elementRef key="phr"/>
             </alternate>
           </content>
@@ -74,13 +76,14 @@
                 <valItem ident="conj"/>
               </valList>
             </attDef>
-            <attDef ident="accordo" ns="http://toscana.newtfire.org" mode="add" usage="opt">
+            <attDef ident="accordo" ns="http://toscana.newtfire.org" mode="add" usage="req">
               <desc>This optional attribute will be used for noun, verb, and adjective forms to
                 describe whether or not the syntactical form employed (i.e. morphological agreement) was used grammatically with
                 respect to whichever grammatical system prevails with the word in question.</desc>
               <valList type="closed">
                 <valItem ident="y"/>
                 <valItem ident="n"/>
+                <valItem ident="na"/>
               </valList>
             </attDef>
             <attDef ident="add" ns="http://toscana.newtfire.org" mode="add" usage="opt">
@@ -109,7 +112,7 @@
                 <valItem ident="n"/>
               </valList>
             </attDef>
-            <attDef ident="orth" ns="http://toscana.newtfire.org" mode="add" usage="opt">
+            <attDef ident="orth" ns="http://toscana.newtfire.org" mode="add" usage="req">
               <desc>When @modification='y', this attribute will specify whether the word was spelled
                 using English ('eng') or Italian ('it') orthographic conventions.</desc>
               <valList type="closed">

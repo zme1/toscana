@@ -4654,9 +4654,9 @@
                         <lb/>
                         <item><persName ref="#viganol">Lorenzo Vigano’</persName>, <roleName
                               type="committee" role="chairman">
-                              <phr type="noun"><w pos="ns" lemma="chairman" tos:accordo="y" tos:gender="ambig"
+                              <phr type="noun"><w pos="ns" lemma="chairman" tos:accordo="na" tos:gender="ambig"
                                     tos:modification="n" tos:orth="eng">Chairman</w>
-                                 <w pos="prep">of</w><lb/>
+                                 <w pos="prep" tos:accordo="na" tos:orth="eng">of</w><lb/>
                                  <w pos="adj" lemma="floor" tos:accordo="y" tos:modification="n" tos:orth="eng"
                                     >Floor</w>
                                  <w pos="npl" lemma="manager" tos:accordo="y" tos:gender="ambig"
@@ -4679,7 +4679,7 @@
                            <roleName type="committee" role="chairman"><phr type="noun"><w pos="ns" lemma="chairman"
                                     tos:accordo="y" tos:modification="n" tos:orth="eng"
                                     tos:gender="ambig">Chairman</w>
-                                 <w pos="prep">of</w>
+                                 <w pos="prep" tos:accordo="na" tos:orth="eng">of</w>
                                  <w pos="adj" lemma="reception" tos:accordo="y" tos:modification="n" tos:orth="eng"
                                     >Reception</w><lb/>
                                  <w pos="ns" lemma="committee" tos:accordo="y" tos:gender="ambig" tos:modification="n"
@@ -4699,7 +4699,7 @@
                            <roleName type="committee" role="chairman"><phr type="noun"><w pos="ns" lemma="chairman"
                                     tos:accordo="y" tos:modification="n" tos:orth="eng"
                                     tos:gender="ambig">Chairman</w>
-                                 <w pos="prep">of</w>
+                                 <w pos="prep" tos:accordo="na" tos:orth="eng">of</w>
                                  <w pos="adj" lemma="arrangement" tos:accordo="y" tos:modification="n" tos:orth="eng"
                                     >Arrange-<lb/>ment</w>
                                  <w pos="ns" lemma="committee" tos:accordo="y" tos:modification="n" tos:orth="eng"
@@ -6911,7 +6911,7 @@
                            <roleName type="committee" role="chairman"><phr type="noun"><w pos="ns" lemma="chairman"
                                     tos:accordo="y" tos:gender="ambig" tos:modification="n"
                                     tos:orth="eng">Chairman</w>
-                                 <w pos="prep">of</w>
+                              <w pos="prep" tos:accordo="na" tos:orth="eng">of</w>
                                  <w pos="adj" lemma="reception" tos:accordo="y" tos:modification="n" tos:orth="eng"
                                     >Reception</w><lb/>
                                  <w pos="ns" lemma="committee" tos:accordo="y" tos:modification="n" tos:gender="ambig"
@@ -6930,7 +6930,7 @@
                            <roleName type="committee" role="chairman"><phr type="noun"><w pos="ns" lemma="chairman"
                                     tos:accordo="y" tos:modification="n" tos:orth="eng"
                                     tos:gender="ambig">Chairman</w>
-                                 <w pos="prep">of</w>
+                                 <w pos="prep" tos:accordo="na" tos:orth="eng">of</w>
                                  <w pos="adj" lemma="arrangement" tos:accordo="y" tos:modification="n" tos:orth="eng"
                                     >arrangement</w><lb/>
                                  <w pos="ns" lemma="committee" tos:accordo="y" tos:modification="n" tos:orth="eng"
@@ -6977,7 +6977,7 @@
                            <roleName type="committee" role="chairman"><phr type="noun"><w pos="ns" lemma="chairman"
                                     tos:accordo="y" tos:gender="ambig" tos:modification="n"
                                     tos:orth="eng">Chairman</w>
-                                 <w pos="prep">of</w>
+                              <w pos="prep" tos:accordo="na" tos:orth="eng">of</w>
                                  <w pos="adj" lemma="floor" tos:accordo="y" tos:modification="n" tos:orth="eng"
                                     >Floor</w><lb/>
                                  <w pos="npl" lemma="manager" tos:accordo="y" tos:gender="ambig"
@@ -7917,7 +7917,7 @@
                            <roleName type="committee" role="chairman"><phr type="noun"><w pos="ns" lemma="chairman"
                                     tos:accordo="y" tos:gender="ambig" tos:modification="n"
                                     tos:orth="eng">Chairman</w>
-                                 <w pos="prep">of</w>
+                              <w pos="prep" tos:accordo="na" tos:orth="eng">of</w>
                                  <w pos="adj" lemma="arrangement" tos:accordo="y" tos:modification="n" tos:orth="eng"
                                     >Arrangement</w><lb/><w pos="ns" lemma="committee" tos:accordo="y"
                                     tos:gender="ambig" tos:modification="n" tos:orth="eng"
@@ -9039,7 +9039,7 @@
                            <roleName type="committee" role="chairman"><phr type="noun"><w pos="ns" lemma="chairman"
                                     tos:accordo="y" tos:gender="ambig" tos:modification="n"
                                     tos:orth="eng">Chairman</w>
-                                 <w pos="prep">of</w>
+                              <w pos="prep" tos:accordo="na" tos:orth="eng">of</w>
                                  <w pos="adj" lemma="rerception" tos:accordo="y" tos:modification="n" tos:orth="eng"
                                     >Reception</w><lb/>
                                  <w pos="ns" lemma="committee" tos:accordo="y" tos:gender="ambig" tos:modification="n"
@@ -9058,7 +9058,7 @@
                            <roleName type="committee" role="chairman"><phr type="noun"><w pos="ns" lemma="chairman"
                                     tos:accordo="y" tos:gender="ambig" tos:modification="n"
                                     tos:orth="eng">Chairman</w>
-                                 <w pos="prep">of</w>
+                              <w pos="prep" tos:accordo="na" tos:orth="eng">of</w>
                                  <w pos="adj" lemma="arrangement" tos:accordo="y" tos:modification="n" tos:orth="eng"
                                     >Arrangement</w><lb/>
                                  <w pos="ns" lemma="committee" tos:accordo="y" tos:gender="ambig" tos:modification="n"
@@ -13144,11 +13144,11 @@
                            tos:orth="eng">Lumber</w> 8.50<lb/>
                         <w pos="npl" lemma="costume" tos:accordo="y" tos:gender="ambig" tos:modification="n"
                            tos:add="engInflection" tos:orth="eng">Costumes</w> 25.65<lb/>
-                        <phr type="noun"><w pos="ns" lemma="rental" tos:modification="n" tos:gender="ambig" tos:accordo="y" tos:orth="eng">Rental</w> <w pos="prep">of</w>
+                        <phr type="noun"><w pos="ns" lemma="rental" tos:modification="n" tos:gender="ambig" tos:accordo="y" tos:orth="eng">Rental</w> <w pos="prep" tos:accordo="na" tos:orth="eng">of</w>
                            <w pos="ns" lemma="truck" tos:accordo="y" tos:gender="ambig" tos:modification="n"
                               tos:orth="eng" tos:char="k">truck</w>, <w pos="ns" lemma="space" tos:accordo="y"
                               tos:gender="ambig" tos:modification="n" tos:orth="eng">space</w>, <w
-                              pos="conj">and</w>
+                                 pos="conj" tos:accordo="y" tos:orth="eng">and</w>
                            <w pos="ns" lemma="material" tos:accordo="y" tos:gender="ambig" tos:modification="n"
                               tos:orth="eng">material</w></phr> 50.00<lb/>
                         <phr type="noun"><w pos="adj" lemma="painter" tos:accordo="y" tos:modification="n"
@@ -13171,22 +13171,22 @@
                         <persName ref="#pacinic">Candito Pacini</persName>
                         <w pos="ns" lemma="time" tos:accordo="y" tos:gender="ambig" tos:modification="n"
                            tos:orth="eng">time</w>
-                        <w pos="conj">and</w>
+                        <w pos="conj" tos:accordo="y" tos:orth="eng">and</w>
                         <phr type="noun"><w pos="ns" lemma="use" tos:accordo="y" tos:gender="ambig"
                               tos:modification="n" tos:orth="eng">use</w>
-                           <w pos="prep">of</w>
+                           <w pos="prep" tos:accordo="y" tos:orth="eng">of</w>
                            <w pos="ns" lemma="machine" tos:accordo="y" tos:gender="ambig" tos:modification="n"
                               tos:orth="eng"
                         >machine</w></phr><!-- zme: I read that, at one point, h was an un-italian letter... --> 7.00<lb/>
                         <phr type="noun"><w pos="ns" lemma="use" tos:accordo="y" tos:gender="ambig"
                               tos:modification="n" tos:orth="eng">Use</w>
-                           <w pos="prep">of</w>
+                           <w pos="prep" tos:accordo="y" tos:orth="eng">of</w>
                            <w pos="ns" lemma="driver" tos:accordo="y" tos:gender="ambig" tos:modification="n"
                               tos:orth="eng">driver</w>
-                           <w pos="conj">and</w>
+                           <w pos="conj" tos:accordo="y" tos:orth="eng">and</w>
                            <w pos="ns" lemma="truck" tos:accordo="y" tos:gender="ambig" tos:modification="n"
                               tos:orth="eng">truck</w>
-                           <w pos="prep">for</w>
+                           <w pos="prep" tos:accordo="y" tos:orth="eng">for</w>
                            <w pos="ns" lemma="banling" tos:accordo="y" tos:gender="ambig" tos:modification="n"
                               tos:orth="eng">banling</w></phr> 10.00<lb/>
                         <phr type="noun"><w pos="adj" lemma="superintendent" tos:accordo="y" tos:modification="n"
@@ -13195,18 +13195,18 @@
                               tos:orth="eng">labor</w>
                            <w pos="ns" lemma="execution" tos:accordo="y" tos:gender="ambig" tos:modification="n"
                               tos:orth="eng" tos:char="x">execution</w></phr><lb/>
-                        <w pos="conj">and</w>
+                        <w pos="conj" tos:accordo="y" tos:orth="eng">and</w>
                         <phr type="noun"><w pos="ns" lemma="use" tos:accordo="y" tos:gender="ambig"
                               tos:modification="n" tos:orth="eng">use</w>
-                           <w pos="prep">of</w>
+                           <w pos="prep" tos:accordo="y" tos:orth="eng">of</w>
                            <w pos="ns" lemma="machine" tos:accordo="y" tos:gender="ambig" tos:modification="n"
                               tos:orth="eng">machine</w><!-- zme: h --></phr>
-                        <w pos="prep">for</w>
+                        <w pos="prep" tos:accordo="y" tos:orth="eng">for</w>
                         <w pos="ns" lemma="buying" tos:accordo="y" tos:gender="ambig" tos:modification="n"
                            tos:orth="eng" tos:char="y">buying</w><lb/>
                         <w pos="npl" lemma="supplies" tos:accordo="y" tos:gender="ambig" tos:modification="n"
                            tos:orth="eng">supplies</w>
-                        <w pos="conj">and</w>
+                        <w pos="conj" tos:accordo="y" tos:orth="eng">and</w>
                         <w pos="ns" lemma="dirrecting" tos:accordo="y" tos:gender="ambig" tos:modification="n"
                            tos:orth="eng">directing</w>
                         <w pos="ns" lemma="same" tos:accordo="y" tos:gender="ambig" tos:modification="n"
