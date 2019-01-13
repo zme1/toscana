@@ -4118,9 +4118,9 @@
                               ricevimento</roleName><lb/>
                            <persName ref="#maffeis">S. Maffei</persName>,</item>
                         <item><roleName type="committee" role="manager"><phr type="noun"><w
-                                    pos="adj" lemma="floor" tos:accordo="y" tos:modification="n" tos:orth="eng"
+                                    pos="adj" lemma="floor" tos:accordo="na" tos:modification="n" tos:orth="eng"
                                     >floor</w>
-                                 <w pos="ns" lemma="manager" tos:accordo="y" tos:modification="n" tos:orth="eng"
+                                 <w pos="ns" lemma="manager" tos:accordo="na" tos:modification="n" tos:orth="eng"
                                     tos:gender="ambig">manager</w></phr></roleName>
                            <persName ref="#simonettim">M Simonetti</persName>,</item>
                         <lb/>
@@ -4657,9 +4657,9 @@
                               <phr type="noun"><w pos="ns" lemma="chairman" tos:accordo="na" tos:gender="ambig"
                                     tos:modification="n" tos:orth="eng">Chairman</w>
                                  <w pos="prep" tos:accordo="na" tos:orth="eng">of</w><lb/>
-                                 <w pos="adj" lemma="floor" tos:accordo="y" tos:modification="n" tos:orth="eng"
+                                 <w pos="adj" lemma="floor" tos:accordo="na" tos:modification="n" tos:orth="eng"
                                     >Floor</w>
-                                 <w pos="npl" lemma="manager" tos:accordo="y" tos:gender="ambig"
+                                 <w pos="npl" lemma="manager" tos:accordo="na" tos:gender="ambig"
                                     tos:modification="n" tos:orth="eng" tos:add="engInflection"
                                     >Managers</w></phr></roleName></item>
                         <item><list>
@@ -4677,12 +4677,12 @@
                         <lb/>
                         <item><persName ref="#silvionic">Carlo Silvioni</persName>
                            <roleName type="committee" role="chairman"><phr type="noun"><w pos="ns" lemma="chairman"
-                                    tos:accordo="y" tos:modification="n" tos:orth="eng"
+                                    tos:accordo="na" tos:modification="n" tos:orth="eng"
                                     tos:gender="ambig">Chairman</w>
                                  <w pos="prep" tos:accordo="na" tos:orth="eng">of</w>
-                                 <w pos="adj" lemma="reception" tos:accordo="y" tos:modification="n" tos:orth="eng"
+                                 <w pos="adj" lemma="reception" tos:accordo="na" tos:modification="n" tos:orth="eng"
                                     >Reception</w><lb/>
-                                 <w pos="ns" lemma="committee" tos:accordo="y" tos:gender="ambig" tos:modification="n"
+                                 <w pos="ns" lemma="committee" tos:accordo="na" tos:gender="ambig" tos:modification="n"
                                     tos:orth="eng">Committee</w></phr></roleName></item>
                         <item><list>
                               <note>ed i suoi assistenti:</note>
@@ -4697,12 +4697,12 @@
                         <lb/>
                         <item><persName ref="#marsilis">Sam Marsili</persName>
                            <roleName type="committee" role="chairman"><phr type="noun"><w pos="ns" lemma="chairman"
-                                    tos:accordo="y" tos:modification="n" tos:orth="eng"
+                                    tos:accordo="na" tos:modification="n" tos:orth="eng"
                                     tos:gender="ambig">Chairman</w>
                                  <w pos="prep" tos:accordo="na" tos:orth="eng">of</w>
-                                 <w pos="adj" lemma="arrangement" tos:accordo="y" tos:modification="n" tos:orth="eng"
+                                 <w pos="adj" lemma="arrangement" tos:accordo="na" tos:modification="n" tos:orth="eng"
                                     >Arrange-<lb/>ment</w>
-                                 <w pos="ns" lemma="committee" tos:accordo="y" tos:modification="n" tos:orth="eng"
+                                 <w pos="ns" lemma="committee" tos:accordo="na" tos:modification="n" tos:orth="eng"
                                     tos:gender="ambig">Committee</w></phr></roleName></item>
                         <item><list>
                               <note>ed i suoi assistenti:</note>
@@ -5783,8 +5783,8 @@
                         <item>segue<lb/>
                            <pb n="66" facs="../../img/meetingMinutes/66.png"/>
                            <roleName type="committee" role="manager"><phr type="noun"><w pos="adj" lemma="manager"
-                                    tos:accordo="y" tos:modification="n" tos:orth="eng">Floor</w>
-                                 <w pos="ns" lemma="manager" tos:accordo="y" tos:modification="n" tos:orth="eng"
+                                    tos:accordo="na" tos:modification="n" tos:orth="eng">Floor</w>
+                                 <w pos="ns" lemma="manager" tos:accordo="na" tos:modification="n" tos:orth="eng"
                                     tos:gender="ambig">manager</w></phr></roleName>
                            <persName ref="#lunardinil">Lorenzo Lunardini</persName></item>
                      </list> e i<lb/> suoi assistenti verranno scelti nella prossima<lb/> seduta.<lb/>
@@ -6150,9 +6150,9 @@
                         <item><roleName type="committee" role="assistente">Vice Capo</roleName>,
                               <persName ref="#maffeis">Stefano<lb/> Maffei</persName>,</item>
                         <item><roleName type="committee" role="manager"><phr type="noun"><w
-                                    pos="adj" lemma="floor" tos:accordo="y" tos:modification="n" tos:orth="eng"
+                                    pos="adj" lemma="floor" tos:accordo="na" tos:modification="n" tos:orth="eng"
                                     >Floor</w>
-                                 <w pos="ns" lemma="manager" tos:accordo="y" tos:gender="ambig" tos:modification="n"
+                                 <w pos="ns" lemma="manager" tos:accordo="na" tos:gender="ambig" tos:modification="n"
                                     tos:orth="eng">Maneger</w></phr></roleName><lb/>
                            <persName ref="#viganor">Ramialdo Vigano’</persName></item>
                         <lb/>
@@ -6909,12 +6909,12 @@
                         <lb/>
                         <item><persName ref="#simonettim">Michele Simonetti</persName>
                            <roleName type="committee" role="chairman"><phr type="noun"><w pos="ns" lemma="chairman"
-                                    tos:accordo="y" tos:gender="ambig" tos:modification="n"
+                                    tos:accordo="na" tos:gender="ambig" tos:modification="n"
                                     tos:orth="eng">Chairman</w>
                               <w pos="prep" tos:accordo="na" tos:orth="eng">of</w>
-                                 <w pos="adj" lemma="reception" tos:accordo="y" tos:modification="n" tos:orth="eng"
+                                 <w pos="adj" lemma="reception" tos:accordo="na" tos:modification="n" tos:orth="eng"
                                     >Reception</w><lb/>
-                                 <w pos="ns" lemma="committee" tos:accordo="y" tos:modification="n" tos:gender="ambig"
+                                 <w pos="ns" lemma="committee" tos:accordo="na" tos:modification="n" tos:gender="ambig"
                                     tos:orth="eng">Commitee</w></phr></roleName></item>
                         <note>, gli assistenti verranno fatti<lb/> Nella prossima seduta.</note>
                         <lb/>
@@ -6928,19 +6928,19 @@
 
                         <item><persName ref="#sodinij">Jacopo Sodini</persName>
                            <roleName type="committee" role="chairman"><phr type="noun"><w pos="ns" lemma="chairman"
-                                    tos:accordo="y" tos:modification="n" tos:orth="eng"
+                                    tos:accordo="na" tos:modification="n" tos:orth="eng"
                                     tos:gender="ambig">Chairman</w>
                                  <w pos="prep" tos:accordo="na" tos:orth="eng">of</w>
-                                 <w pos="adj" lemma="arrangement" tos:accordo="y" tos:modification="n" tos:orth="eng"
+                                 <w pos="adj" lemma="arrangement" tos:accordo="na" tos:modification="n" tos:orth="eng"
                                     >arrangement</w><lb/>
-                                 <w pos="ns" lemma="committee" tos:accordo="y" tos:modification="n" tos:orth="eng"
+                                 <w pos="ns" lemma="committee" tos:accordo="na" tos:modification="n" tos:orth="eng"
                                     tos:gender="ambig">Commitee</w></phr></roleName>,</item>
                         <item><persName ref="#fredianellig">Giuseppe Fredianelli</persName>
                            <roleName type="committee" role="assistente">^Vice</roleName>
                            <del rend="strike">assestenti</del><lb/>
-                           <phr type="noun"><w pos="adj" lemma="arrangement" tos:accordo="n" tos:modification="n"
+                           <phr type="noun"><w pos="adj" lemma="arrangement" tos:accordo="na" tos:modification="n"
                                  tos:orth="eng">Arrangement</w>
-                              <w pos="ns" lemma="committee" tos:accordo="n" tos:gender="ambig" tos:modification="n"
+                              <w pos="ns" lemma="committee" tos:accordo="na" tos:gender="ambig" tos:modification="n"
                                  tos:orth="eng">Commitee</w></phr>,</item>
                         <item><list>
                               <note>e i suoi<lb/> Assistenti.</note>
@@ -6975,12 +6975,12 @@
                         <lb/>
                         <item><persName ref="#marconic">Carlo Marconi</persName>
                            <roleName type="committee" role="chairman"><phr type="noun"><w pos="ns" lemma="chairman"
-                                    tos:accordo="y" tos:gender="ambig" tos:modification="n"
+                                    tos:accordo="na" tos:gender="ambig" tos:modification="n"
                                     tos:orth="eng">Chairman</w>
                               <w pos="prep" tos:accordo="na" tos:orth="eng">of</w>
-                                 <w pos="adj" lemma="floor" tos:accordo="y" tos:modification="n" tos:orth="eng"
+                                 <w pos="adj" lemma="floor" tos:accordo="na" tos:modification="n" tos:orth="eng"
                                     >Floor</w><lb/>
-                                 <w pos="npl" lemma="manager" tos:accordo="y" tos:gender="ambig"
+                                 <w pos="npl" lemma="manager" tos:accordo="na" tos:gender="ambig"
                                     tos:add="engInflection" tos:modification="n" tos:orth="eng"
                                     >Managers</w></phr></roleName>,</item>
                      </list> gli assistenti verranno <del rend="strike">schelti</del><lb/> Cielti
@@ -7163,9 +7163,9 @@
                         <note>Poi si feri di sciegliere gli assistenti del<lb/> Comitato
                            ballo.</note>
                         <item><list>
-                              <note><phr type="noun"><w pos="adj" lemma="reception" tos:accordo="y"
+                              <note><phr type="noun"><w pos="adj" lemma="reception" tos:accordo="na"
                                        tos:modification="n" tos:orth="eng">Reception</w>
-                                    <w pos="ns" lemma="committee" tos:accordo="y" tos:gender="ambig"
+                                    <w pos="ns" lemma="committee" tos:accordo="na" tos:gender="ambig"
                                        tos:modification="n" tos:orth="eng"
                                  >Commitee</w></phr>.</note>
                               <lb/>
@@ -7184,9 +7184,9 @@
                                  />.</item>
                            </list></item>
                         <item><list>
-                              <note><phr type="noun"><w pos="adj" lemma="floor" tos:accordo="y"
+                              <note><phr type="noun"><w pos="adj" lemma="floor" tos:accordo="na"
                                        tos:modification="n" tos:orth="eng">Floor</w>
-                                    <w pos="ns" lemma="manager" tos:accordo="y" tos:gender="ambig"
+                                    <w pos="ns" lemma="manager" tos:accordo="na" tos:gender="ambig"
                                        tos:modification="n" tos:orth="eng">Manager</w></phr>.</note>
                               <item><persName ref="#maffeid">Dante Maffei</persName><roleName
                                     type="committee" role="assistente"/></item>
@@ -7199,9 +7199,9 @@
                            </list></item>
                         <lb/>
                         <item><list>
-                              <note><phr type="noun"><w pos="adj" lemma="arrangement" tos:accordo="y"
+                              <note><phr type="noun"><w pos="adj" lemma="arrangement" tos:accordo="na"
                                        tos:modification="n" tos:orth="eng">Arrengement</w>
-                                    <w pos="ns" lemma="committee" tos:accordo="y" tos:gender="ambig"
+                                    <w pos="ns" lemma="committee" tos:accordo="na" tos:gender="ambig"
                                        tos:modification="n" tos:orth="eng">commitee</w></phr></note>
                               <item><persName ref="#pasquinelliam">americo Pasqui-<lb/>
                                     nelli</persName><roleName type="committee" role="assistente"
@@ -7915,24 +7915,24 @@
                         <lb/>
                         <item><persName ref="#pellegrinie">Emilio Pellegrini</persName>
                            <roleName type="committee" role="chairman"><phr type="noun"><w pos="ns" lemma="chairman"
-                                    tos:accordo="y" tos:gender="ambig" tos:modification="n"
+                                    tos:accordo="na" tos:gender="ambig" tos:modification="n"
                                     tos:orth="eng">Chairman</w>
                               <w pos="prep" tos:accordo="na" tos:orth="eng">of</w>
-                                 <w pos="adj" lemma="arrangement" tos:accordo="y" tos:modification="n" tos:orth="eng"
-                                    >Arrangement</w><lb/><w pos="ns" lemma="committee" tos:accordo="y"
+                                 <w pos="adj" lemma="arrangement" tos:accordo="na" tos:modification="n" tos:orth="eng"
+                                    >Arrangement</w><lb/><w pos="ns" lemma="committee" tos:accordo="na"
                                     tos:gender="ambig" tos:modification="n" tos:orth="eng"
                                     >Committee</w></phr><lb/></roleName></item>
                         <item><persName ref="#maffeigio">Giovacchino Maffei</persName>
                            <roleName type="committee" role="assistente">Vice <phr type="noun"><w
-                                    pos="adj" lemma="arrangement" tos:accordo="y" tos:modification="n" tos:orth="eng"
+                                    pos="adj" lemma="arrangement" tos:accordo="na" tos:modification="n" tos:orth="eng"
                                     >Arrangement</w>
-                                 <w pos="ns" lemma="committee" tos:accordo="y" tos:gender="ambig" tos:modification="n"
+                                 <w pos="ns" lemma="committee" tos:accordo="na" tos:gender="ambig" tos:modification="n"
                                     tos:orth="eng">Com.</w></phr></roleName></item>
                         <lb/>
                         <item><persName ref="#viganol">Lorenzo Vigano’</persName>
                            <roleName type="committee" role="manager"><phr type="noun"><w pos="adj" lemma="floor"
-                                    tos:accordo="y" tos:modification="n" tos:orth="eng">Floor</w>
-                                 <w pos="ns" lemma="manager" tos:accordo="y" tos:gender="ambig" tos:modification="n"
+                                    tos:accordo="na" tos:modification="n" tos:orth="eng">Floor</w>
+                                 <w pos="ns" lemma="manager" tos:accordo="na" tos:gender="ambig" tos:modification="n"
                                     tos:orth="eng">Manager</w></phr></roleName></item>
                         <lb/>
                         <note>gli assistenti verranno scielti nella<lb/> prossima seduta.</note>
@@ -8106,9 +8106,9 @@
                         <note>Finito tutti l’affare sociale il<lb/> presidente apri la nomina
                            degli<lb/> assistenti Pic-Nic.</note>
                         <item><list>
-                              <note>ass <phr type="noun"><w pos="adj" lemma="floor" tos:accordo="y"
+                              <note>ass <phr type="noun"><w pos="adj" lemma="floor" tos:accordo="na"
                                        tos:modification="n" tos:orth="eng">Floor</w>
-                                    <w pos="ns" lemma="manager" tos:accordo="y" tos:gender="ambig"
+                                    <w pos="ns" lemma="manager" tos:accordo="na" tos:gender="ambig"
                                        tos:modification="n" tos:orth="eng">Manager</w></phr></note>
                               <lb/>
                               <item><persName ref="#quintigliog">Quintiglio
@@ -8119,9 +8119,9 @@
                            </list></item>
                         <lb/>
                         <item><list>
-                              <note>ass <phr type="noun"><w pos="adj" lemma="arrangement" tos:accordo="y"
+                              <note>ass <phr type="noun"><w pos="adj" lemma="arrangement" tos:accordo="na"
                                        tos:modification="n" tos:orth="eng">arrangement</w>
-                                    <w pos="ns" lemma="committee" tos:accordo="y" tos:gender="ambig"
+                                    <w pos="ns" lemma="committee" tos:accordo="na" tos:gender="ambig"
                                        tos:modification="n" tos:orth="eng"
                                  >Committee</w></phr>.</note>
                               <lb/>
@@ -8312,15 +8312,15 @@
                         <lb/>
                         <item><persName ref="#viganol">Lorenzo Vigano’</persName>, <roleName
                               type="committee" role="manager"><phr type="noun"><w pos="adj" lemma="floor"
-                                    tos:accordo="y" tos:modification="n" tos:orth="eng">Floor</w>
-                                 <w pos="ns" lemma="manager" tos:accordo="y" tos:gender="ambig" tos:modification="n"
+                                    tos:accordo="na" tos:modification="n" tos:orth="eng">Floor</w>
+                                 <w pos="ns" lemma="manager" tos:accordo="na" tos:gender="ambig" tos:modification="n"
                                     tos:orth="eng">Manager</w></phr>.</roleName></item>
                         <lb/>
                         <item><list>
                               <!-- zme: See the comment just below. -->
-                              <note><phr type="noun">Assistenti a <w pos="adj" lemma="floor" tos:accordo="y"
+                              <note><phr type="noun">Assistenti a <w pos="adj" lemma="floor" tos:accordo="na"
                                        tos:modification="n" tos:orth="eng">floor</w>
-                                    <w pos="ns" lemma="manager" tos:accordo="y" tos:gender="ambig"
+                                    <w pos="ns" lemma="manager" tos:accordo="na" tos:gender="ambig"
                                        tos:modification="n" tos:orth="eng">Manager</w></phr>.</note>
                               <item><persName ref="#mungaia">Angelo Mungai</persName><roleName
                                     type="committee" role="assistente"/></item>
@@ -8330,7 +8330,7 @@
                            </list></item>
                         <item><list>
                               <!-- zme: This phrase is an interesting instance of code-switching. An Italian word (?) and unarticulated article with an outright loanword. To code Assistent, or not to code it? -->
-                              <note><phr type="noun">Assistent a <w pos="ns" lemma="chairman" tos:accordo="y"
+                              <note><phr type="noun">Assistent a <w pos="ns" lemma="chairman" tos:accordo="na"
                                        tos:gender="ambig" tos:modification="n" tos:orth="eng"
                                        >Chairman</w></phr></note>
                               <lb/>
@@ -9037,31 +9037,31 @@
                         <lb/>
                         <item><persName ref="#maffeis">Stefano Maffei</persName>
                            <roleName type="committee" role="chairman"><phr type="noun"><w pos="ns" lemma="chairman"
-                                    tos:accordo="y" tos:gender="ambig" tos:modification="n"
+                                    tos:accordo="na" tos:gender="ambig" tos:modification="n"
                                     tos:orth="eng">Chairman</w>
                               <w pos="prep" tos:accordo="na" tos:orth="eng">of</w>
-                                 <w pos="adj" lemma="rerception" tos:accordo="y" tos:modification="n" tos:orth="eng"
+                                 <w pos="adj" lemma="rerception" tos:accordo="na" tos:modification="n" tos:orth="eng"
                                     >Reception</w><lb/>
-                                 <w pos="ns" lemma="committee" tos:accordo="y" tos:gender="ambig" tos:modification="n"
+                                 <w pos="ns" lemma="committee" tos:accordo="na" tos:gender="ambig" tos:modification="n"
                                     tos:orth="eng">Committee</w></phr></roleName>.</item>
                         <note>gli assistenti verranno<lb/> shelti nella prossima seduta.</note>
                         <lb/>
                         <item><roleName type="committee" role="manager"><phr type="noun"><w
-                                    pos="adj" lemma="floor" tos:accordo="y" tos:modification="n" tos:orth="eng"
+                                    pos="adj" lemma="floor" tos:accordo="na" tos:modification="n" tos:orth="eng"
                                     >Floor</w>
-                                 <w pos="ns" lemma="manager" tos:accordo="y" tos:gender="ambig" tos:modification="n"
+                                 <w pos="ns" lemma="manager" tos:accordo="na" tos:gender="ambig" tos:modification="n"
                                     tos:orth="eng">Maneger</w></phr></roleName>
                            <persName ref="#giannig">Giuseppe Gianni</persName></item>
                         <lb/>
                         <item>
                            <persName ref="#zinim">Modesto Zini</persName>
                            <roleName type="committee" role="chairman"><phr type="noun"><w pos="ns" lemma="chairman"
-                                    tos:accordo="y" tos:gender="ambig" tos:modification="n"
+                                    tos:accordo="na" tos:gender="ambig" tos:modification="n"
                                     tos:orth="eng">Chairman</w>
                               <w pos="prep" tos:accordo="na" tos:orth="eng">of</w>
-                                 <w pos="adj" lemma="arrangement" tos:accordo="y" tos:modification="n" tos:orth="eng"
+                                 <w pos="adj" lemma="arrangement" tos:accordo="na" tos:modification="n" tos:orth="eng"
                                     >Arrangement</w><lb/>
-                                 <w pos="ns" lemma="committee" tos:accordo="y" tos:gender="ambig" tos:modification="n"
+                                 <w pos="ns" lemma="committee" tos:accordo="na" tos:gender="ambig" tos:modification="n"
                                     tos:orth="eng">Committee</w></phr></roleName>.</item>
                         <note>gli assistenti verranno<lb/> shelti nella prossima seduta.</note>
                      </list><lb/>
@@ -9313,9 +9313,9 @@
                         <date when-custom="1922-12 1923-01"/>
                         <note>fu aperta la nomina degli assistenti<lb/> ballo.</note>
                         <item><list>
-                              <note><phr type="noun"><w pos="adj" lemma="reception" tos:accordo="y"
+                              <note><phr type="noun"><w pos="adj" lemma="reception" tos:accordo="na"
                                        tos:modification="n" tos:orth="eng">Reception</w>
-                                    <w pos="ns" lemma="committee" tos:accordo="y" tos:gender="ambig"
+                                    <w pos="ns" lemma="committee" tos:accordo="na" tos:gender="ambig"
                                        tos:modification="n" tos:orth="eng"
                                  >Commitee</w></phr>.</note>
                               <item><persName ref="#marconic">Carlo Marconi</persName><roleName
@@ -9329,9 +9329,9 @@
                            </list></item>
                         <lb/>
                         <item><list>
-                              <note><phr type="noun"><w pos="adj" lemma="floor" tos:accordo="y"
+                              <note><phr type="noun"><w pos="adj" lemma="floor" tos:accordo="na"
                                        tos:modification="n" tos:orth="eng">Floor</w>
-                                    <w pos="ns" lemma="manager" tos:accordo="y" tos:gender="ambig"
+                                    <w pos="ns" lemma="manager" tos:accordo="na" tos:gender="ambig"
                                        tos:modification="n" tos:orth="eng">Manager</w></phr></note>
                               <item><persName ref="#battistiniv">Vincenzo
                                     Battistini</persName><roleName type="committee"
@@ -9342,9 +9342,9 @@
                            </list></item>
                         <lb/>
                         <item><list>
-                              <note><phr type="noun"><w pos="adj" lemma="arrangement" tos:accordo="y"
+                              <note><phr type="noun"><w pos="adj" lemma="arrangement" tos:accordo="na"
                                        tos:modification="n" tos:orth="eng">Arrangement</w>
-                                    <w pos="ns" lemma="committee" tos:accordo="y" tos:gender="ambig"
+                                    <w pos="ns" lemma="committee" tos:accordo="na" tos:gender="ambig"
                                        tos:modification="n" tos:orth="eng">Commitee</w></phr></note>
                               <item><persName ref="#pasquinelliam">Americo
                                     Pasquinelli</persName><roleName type="committee"
@@ -10958,17 +10958,17 @@
                            <roleName type="committee" role="seg">segretario</roleName></item>
                         <lb/>
                         <item><persName ref="#pacinic">Candito Pacini</persName>
-                           <roleName type="committee" role="chairman"><w pos="ns" lemma="chairman" tos:accordo="y"
+                           <roleName type="committee" role="chairman"><w pos="ns" lemma="chairman" tos:accordo="na"
                                  tos:gender="ambig" tos:modification="n" tos:orth="eng">Charman</w>
                               di arrangiamento</roleName></item>
                         <lb/>
                         <item><persName ref="#sodinij">Jacopo Sodini</persName>
                            <roleName type="committee" role="assistente">assistente <w pos="ns" lemma="chairman"
-                                 tos:accordo="y" tos:gender="ambig" tos:modification="n"
+                                 tos:accordo="na" tos:gender="ambig" tos:modification="n"
                                  tos:orth="it">charman</w> di arrangiamento</roleName></item>
                         <lb/>
                         <item><persName ref="#marconic">Carlo Marconi</persName>
-                           <roleName type="committee" role="chairman"><w pos="ns" lemma="chairman" tos:accordo="y"
+                           <roleName type="committee" role="chairman"><w pos="ns" lemma="chairman" tos:accordo="na"
                                  tos:gender="ambig" tos:modification="n" tos:orth="it">charman</w>
                               di ricevimento</roleName>.</item>
                         <item><list>
@@ -13250,14 +13250,14 @@
                            <roleName type="committee" role="tes">tesoriere</roleName>.</item>
                         <item><persName ref="#lunardinil">Lorenzo Lunardini</persName>
                            <roleName type="committee" role="manager"><phr type="noun"><w pos="adj" lemma="manager"
-                                    tos:accordo="y" tos:modification="n" tos:orth="eng">floor</w>
-                                 <w pos="ns" lemma="manager" tos:accordo="y" tos:gender="ambig" tos:modification="n"
+                                    tos:accordo="na" tos:modification="n" tos:orth="eng">floor</w>
+                                 <w pos="ns" lemma="manager" tos:accordo="na" tos:gender="ambig" tos:modification="n"
                                     tos:orth="eng">manager</w></phr></roleName></item>
                         <lb/>
                         <item><roleName type="committee" role="assistente">assistente</roleName>
                            <persName ref="#fontanae">Ettore Fontana</persName>.</item>
                         <lb/>
-                        <item><roleName type="committee" role="chairman"><w pos="ns" lemma="chairman" tos:accordo="n"
+                        <item><roleName type="committee" role="chairman"><w pos="ns" lemma="chairman" tos:accordo="na"
                                  tos:gender="ambig" tos:modification="n" tos:orth="eng">Charman</w>
                               ricevimento</roleName>
                            <persName ref="#maffeigio">Giovacchino Maffei</persName>.</item>
@@ -13270,7 +13270,7 @@
                                     type="committee" role="assistente"/>.</item>
                            </list></item>
                         <lb/>
-                        <item><roleName type="committee" role="chairman"><w pos="ns" lemma="chairman" tos:accordo="y"
+                        <item><roleName type="committee" role="chairman"><w pos="ns" lemma="chairman" tos:accordo="na"
                                  tos:gender="ambig" tos:modification="n" tos:orth="eng">Charman</w>
                               di arrangiamento</roleName>
                            <persName ref="#cinellio">Olindo Cinelli</persName></item>
@@ -14731,11 +14731,11 @@
                         <item><roleName type="committee" role="tes">Tes.</roleName>
                            <persName ref="#pasquinellis">Santino Pasquinelli</persName>.</item>
                         <item><roleName type="committee" role="chairman">Capo <w pos="ns" lemma="chairman"
-                                 tos:accordo="y" tos:gender="ambig" tos:modification="n"
+                                 tos:accordo="na" tos:gender="ambig" tos:modification="n"
                                  tos:orth="eng">charman</w></roleName><lb/>
                            <persName ref="#viganol">Lorenzo Vigano’</persName>.</item>
                         <item><roleName type="committee" role="assistente">ass. <w pos="ns" lemma="chairman"
-                                 tos:accordo="y" tos:gender="ambig" tos:modification="n"
+                                 tos:accordo="na" tos:gender="ambig" tos:modification="n"
                                  tos:orth="eng">Charman</w>.</roleName>
                            <persName ref="#baccellim">Michele<lb/> Baccelli</persName>.</item>
                         <item><list>
