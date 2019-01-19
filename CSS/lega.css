@@ -81,6 +81,9 @@ h1 {
 }
 h2 {
     font-size: 37px;
+    margin-top: 50px;
+}
+h2#banner{
     margin-top: 0;
 }
 h3 {
