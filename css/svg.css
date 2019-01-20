@@ -7,6 +7,7 @@ div.cancellatiContainer {
     flex-flow: row nowrap;
     width: 100%;
     margin-bottom: 3%;
+    height: 60vh;
 }
 div.cancellatiSvg {
     flex: 0 0 65%;
@@ -25,6 +26,7 @@ div.table {
     flex: 1 35%;
     display: none; /* all tables are invisible initially */
     padding-right: 40px;
+    overflow-y: auto;
 }
 table {
     width: 100%;
