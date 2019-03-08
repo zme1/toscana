@@ -4,5 +4,3 @@ Questions to Analyze on anglicisms in the volume:
     * @tos:accordo='y' versus @tos:accordo='n'
 
 This is a test insertion, ignore me.
-
-this is another test insertion.
