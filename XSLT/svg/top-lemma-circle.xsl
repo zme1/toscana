@@ -34,6 +34,8 @@
                 <g transform="translate(120,650)">
                     <line x1="0" y1="0" x2="{$xLength}" y2="0" stroke="black" stroke-width="1"/>
                     <line x1="0" y1="0" x2="0" y2="-{$yLength}" stroke="black" stroke-width="1"/>
+                    <xsl:apply-templates select="/teiCorpus/teiCorpus"/>
+                    <text x="30" y="-30" text-anchor="start"><xsl:value-of select="string-join($graphLemmas, ', ')"/></text>
                 </g>
             </svg>
         </div>
@@ -42,10 +44,10 @@
         <xsl:variable name="currentYear" select="current()"/>
         <xsl:variable name="yearPos" select="position()"/>
         <xsl:variable name="year" as="xs:string" select="teiHeader/fileDesc/descendant::date/@when"/>
-        <xsl:for-each select="$distinctLemmas">
+        <xsl:for-each select="$graphLemmas">
             <xsl:variable name="lemmaPos" select="position()"/>
             <xsl:if test="$currentYear/descendant::w[not(ancestor::foreign) and @lemma eq current()]">
-                <circle cx="" cy="" r="{math:sqrt(count(.)* math:pi() )}" fill=""/>
+                <circle cx="{$yearPos * $xInterval}" cy="-{$lemmaPos * $yInterval}" r="{math:sqrt((count($currentYear/descendant::w[not(ancestor::foreign) and @lemma eq current()]) * 25) * math:pi() )}" fill="blue"/>
             </xsl:if>
         </xsl:for-each>
     </xsl:template>
