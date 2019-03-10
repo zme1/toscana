@@ -6,6 +6,16 @@
     exclude-result-prefixes="xs"
     version="3.0">
     <xsl:output method="xml" indent="yes" omit-xml-declaration="yes"/>
+    <xsl:variable name="root" select="/"/>
+    <xsl:variable name="lemmas" as="node()+" select="//w/@lemma"/>
+    <xsl:variable name="distinctLemmas" as="xs:string+" select="distinct-values($lemmas)"/>
+    <xsl:variable name="graphLemmas" as="xs:string+">
+        <for-each select="$distinctLemmas">
+            <xsl:if test="count($root//w[not(ancestor::foreign) and @lemma = current()]) ge 4">
+                <xsl:value-of select="current()"/>
+            </xsl:if>
+        </for-each>
+    </xsl:variable>
     <xsl:template match="/">
         <div class="lemma-circle">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680">
