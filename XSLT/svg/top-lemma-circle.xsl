@@ -33,13 +33,13 @@
         <div class="lemma-circle">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680">
                 <g transform="translate(120,650)">
-                    <line x1="0" y1="0" x2="{$xLength}" y2="0" stroke="black" stroke-width="1"/>
-                    <line x1="0" y1="0" x2="0" y2="-{$yLength}" stroke="black" stroke-width="1"/>
-                    <text x="{0}" y="-{$yLength + 20}" text-anchor="start" fill="black" font-size="30px" text-decoration="underline">Figure 4</text>
+                    <line x1="0" y1="0" x2="{$xLength}" y2="0" stroke="white" stroke-width="1"/>
+                    <line x1="0" y1="0" x2="0" y2="-{$yLength}" stroke="white" stroke-width="1"/>
+                    <text x="{0}" y="-{$yLength + 20}" text-anchor="start" fill="white" font-size="30px" text-decoration="underline">Figure 4</text>
                     <xsl:apply-templates select="/teiCorpus/teiCorpus"/>
                     <xsl:for-each select="$graphLemmas">
                         <xsl:variable name="lemmaPos" select="position()"/>
-                        <text x="-10" y="-{$lemmaPos * $yInterval - 5}" text-anchor="end" fill="black"><xsl:value-of select="."/></text>
+                        <text x="-10" y="-{$lemmaPos * $yInterval - 5}" text-anchor="end" fill="white"><xsl:value-of select="."/></text>
                         <line x1="0" y1="-{$lemmaPos * $yInterval}" x2="{$xLength}" y2="-{$lemmaPos * $yInterval}" stroke="gray" stroke-dasharray="5,10"/>
                     </xsl:for-each>
                     
@@ -53,13 +53,13 @@
         <xsl:variable name="currentYear" select="current()"/>
         <xsl:variable name="yearPos" select="position()"/>
         <xsl:variable name="year" as="xs:string" select="teiHeader/fileDesc/descendant::date/@when"/>
-        <text x="{$yearPos * $xInterval}" y="15" text-anchor="middle" fill="black"><xsl:value-of select="$year"/></text>
+        <text x="{$yearPos * $xInterval}" y="15" text-anchor="middle" fill="white"><xsl:value-of select="$year"/></text>
         <line x1="{$yearPos * $xInterval}" y1="0" x2="{$yearPos * $xInterval}" y2="-{$yLength}" stroke="gray" stroke-dasharray="5,10"/>
         <xsl:for-each select="$graphLemmas">
             <xsl:variable name="lemmaPos" select="position()"/>
             <xsl:if test="$currentYear/descendant::w[not(ancestor::foreign) and @lemma eq current()]">
-                <circle cx="{$yearPos * $xInterval}" cy="-{$lemmaPos * $yInterval}" r="{math:sqrt((count($currentYear/descendant::w[not(ancestor::foreign) and @lemma eq current()]) * 50) * math:pi() )}" fill="#3E6E63" fill-opacity=".7" stroke="black"/>
-                <text x="{$yearPos * $xInterval}" y="-{$lemmaPos * $yInterval - 7}" text-anchor="middle" fill="black"><xsl:value-of select="count($currentYear/descendant::w[not(ancestor::foreign) and @lemma eq current()])"/></text>
+                <circle cx="{$yearPos * $xInterval}" cy="-{$lemmaPos * $yInterval}" r="{math:sqrt((count($currentYear/descendant::w[not(ancestor::foreign) and @lemma eq current()]) * 50) * math:pi() )}" fill="#3E6E63" fill-opacity=".7" stroke="white"/>
+                <text x="{$yearPos * $xInterval}" y="-{$lemmaPos * $yInterval - 7}" text-anchor="middle" fill="white"><xsl:value-of select="count($currentYear/descendant::w[not(ancestor::foreign) and @lemma eq current()])"/></text>
             </xsl:if>
         </xsl:for-each>
     </xsl:template>
