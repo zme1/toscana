@@ -126,27 +126,14 @@ pre {
 #githubimg {
     width: 50px;
 }
-.lemma-table{
-    margin: 5% 7%;
+.lemma-flex{
     display: flex;
-    height:70vh;
-
+}
+.lemma-bar{
+    margin: 5%;
+    flex-grow: .75;
 }
 .lemma-text{
 flex: 1;
 overflow-y: auto;
-}
-tbody.lemma-table{
-    display: block;
-    overflow-y: auto;
-}
-.lemma-table > table,
-tr,
-th,
-td {
-    border: 1px solid white;
-    border-collapse: collapse;
-    margin: 0% 3%;
-    overflow-y: auto;
-    height: 0;
 }

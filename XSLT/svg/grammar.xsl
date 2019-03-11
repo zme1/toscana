@@ -15,6 +15,7 @@
                     <xsl:apply-templates select="/teiCorpus/teiCorpus"/>
                     
                     <!-- X- and y-axis labels, with legend -->
+                    <text x="0" y="-{$yLength + 20}" text-anchor="start" fill="white" font-size="30px" text-decoration="underline">Figure 3</text>
                     <text x="-70" y="-{$yLength div 2}" transform="rotate(270, -70, -{$yLength div 2})" font-size="30px" text-anchor="middle" fill="white">Proportions by year</text>
                     <text x="{$xLength div 2}" y="50" font-size="30px" text-anchor="middle" fill="white">Proportions over the years</text>
                     <rect x="0" y="20" width="25" height="25" fill="#CE4B29" stroke="white"/>

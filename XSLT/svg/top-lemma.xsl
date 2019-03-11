@@ -13,7 +13,7 @@
                         <th>Top Lemmas</th>
                     </tr>
                     <xsl:apply-templates select="/teiCorpus[teiCorpus]"/>
-                    <xsl:apply-templates select="/teiCorpus/teiCorpus"/>
+                    <xsl:apply-templates select="/teiCorpus[TEI]"/>
                 </tbody>
             </table>
             <div class="lemma-text">

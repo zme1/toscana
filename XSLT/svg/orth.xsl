@@ -13,11 +13,11 @@
     <xsl:variable name="rectInterval" as="xs:double" select="$yearLength * .1"/>
     <xsl:template match="/">
         <div class="grammar">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 640">
-                <g transform="translate(120,290)">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 650">
+                <g transform="translate(120,310)">
                     
                     <!-- Graph labels -->
-                    
+                    <text x="0" y="-{$yLength + 20}" text-anchor="start" fill="white" font-size="30px" text-decoration="underline">Figure 2</text>
                     <rect x="0" y="{$yLength + 15}" height="25" width="25" stroke="white" fill="#CE4B29"/>
                     <text x="32" y="{$yLength + 35}" fill="white" text-anchor="start">Loanwords used in event-based discussion</text>
                     <rect x="0" y="{$yLength + 45}" height="25" width="25" stroke="white" fill="#3E6E63"/>

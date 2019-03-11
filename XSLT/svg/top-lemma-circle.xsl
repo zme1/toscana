@@ -35,7 +35,7 @@
                 <g transform="translate(120,650)">
                     <line x1="0" y1="0" x2="{$xLength}" y2="0" stroke="white" stroke-width="1"/>
                     <line x1="0" y1="0" x2="0" y2="-{$yLength}" stroke="white" stroke-width="1"/>
-                    <text x="{0}" y="-{$yLength + 20}" text-anchor="start" fill="white" font-size="30px" text-decoration="underline">Figure 4</text>
+                    <text x="0" y="-{$yLength + 20}" text-anchor="start" fill="white" font-size="30px" text-decoration="underline">Figure 4</text>
                     <xsl:apply-templates select="/teiCorpus/teiCorpus"/>
                     <xsl:for-each select="$graphLemmas">
                         <xsl:variable name="lemmaPos" select="position()"/>

@@ -19,6 +19,7 @@
         <div class="loan-raw">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 640">
                 <g transform="translate(80,530)">
+                    <text x="0" y="-{$yLength + 20}" text-anchor="start" fill="white" font-size="30px" text-decoration="underline">Figure 1</text>
                     <text x="-60" y="-{$yLength div 2 - 15}"
                         transform="rotate(270,-60,-{$yLength div 2})" text-anchor="middle"
                         font-size="30px" fill="white">Number of loanwords used</text>
