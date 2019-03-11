@@ -30,6 +30,7 @@
     <xsl:variable name="lineTotal" as="xs:double" select="$lineWidth + $lineInterval"/>
 
     <xsl:template match="/">
+        <div class="lemma-flex">
             <div class="lemma-bar">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 520">
                     <g transform="translate(125, 490)">
@@ -56,6 +57,34 @@
                     </g>
                 </svg>
             </div>
-        
+            <div class="lemma-text">
+                <p>One final analysis of the perceived proficiency of the transcribers' use of
+                    English beyond the scope of orthography or grammaticality resides in the number
+                    of distinct <em>lemmas</em> (i.e. root word forms) used each each individual
+                    year. To the left, the table lists all of the lemmas used that were used more
+                    than one time in that year and the number of times each appeared. Additionally,
+                    there is a separate tally of all words that were found only once in a given
+                    year. Before any of the individual years are listed, a separate list tabulates
+                    holistic figures for the entire corpus, which effectively illustrates the
+                    restricted vocabulary throughout the years. Namely, the most commonly used words
+                    are chairman, ticket, manager, and committee, all of which clearly relate to
+                    event-based discussions. The inventory of words used in a single year is
+                    similarly restricted among all the transcribers, none of whom showed a tendency
+                    to experiment with many new word forms. Rather, aside from using the same
+                    cluster of lemmas, other words were used in isolation, not to be written
+                    again.</p>
+                <p><em>Productivity</em> (i.e. the use of one single word in multiple contexts) is a
+                    key indicator of effective apprenticeship of a language; the reuse of a small
+                    collection of terms and the isolated use of other words without employing them
+                    again are both indicators that these men were likely not actively exercising
+                    knowledge of English. Rather, it seems as though the entire Tuscan League may
+                    have regularly employed that subset of words reflexively, without a conscious
+                    intent to actively incorporate more English into their vocabulary. These are
+                    indicators that English was viewed in a prestigious light among the members of
+                    the Tuscan League, and that the language's prestige value led them to
+                    incorporate it into their writing, rather than their functional knowledge of the
+                    language itself.</p>
+            </div>
+        </div>
     </xsl:template>
 </xsl:stylesheet>
