@@ -42,7 +42,7 @@
                                 select="count($root/descendant::w[not(ancestor::foreign) and @lemma = $currentLemma])"/>
                             <line x1="0" y1="-{$position * $lineTotal - 7.5}"
                                 x2="{$xScale * $lemmaCount}" y2="-{$position * $lineTotal - 7.5}"
-                                stroke="#3E6E63" stroke-width="{$lineWidth}"/>
+                                stroke="#CE4B29" stroke-width="{$lineWidth}"/>
                             <text x="{$xScale * $lemmaCount + 10}"
                                 y="-{$position * $lineTotal - 10}" text-anchor="start" fill="white">
                                 <xsl:value-of select="$lemmaCount"/>
