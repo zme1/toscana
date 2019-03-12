@@ -130,7 +130,7 @@ pre {
     display: flex;
 }
 .lemma-bar{
-    margin: 5%;
+    margin: 2%;
     flex-grow: .75;
 }
 .lemma-text{
