@@ -107,6 +107,9 @@ code {
 div.text {
     margin: 0 20%;
 }
+p{
+    text-indent: 50px;
+}
 pre {
     border: dashed 2px;
     width: 90%;
