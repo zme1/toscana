@@ -83,7 +83,7 @@ h2 {
     font-size: 37px;
     margin-top: 50px;
 }
-h2#banner{
+h2#banner {
     margin-top: 0;
 }
 h3 {
@@ -92,6 +92,13 @@ h3 {
 }
 h4 {
     font-size: 30px;
+}
+h4.cyto {
+    text-align: left;
+    text-decoration: underline;
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 25px;
+    margin-left: 20%;
 }
 code {
     color: #58A378;
@@ -126,14 +133,14 @@ pre {
 #githubimg {
     width: 50px;
 }
-.lemma-flex{
+.lemma-flex {
     display: flex;
 }
-.lemma-bar{
+.lemma-bar {
     margin: 2%;
     flex-grow: .75;
 }
-.lemma-text{
-flex: 1;
-overflow-y: auto;
+.lemma-text {
+    flex: 1;
+    overflow-y: auto;
 }

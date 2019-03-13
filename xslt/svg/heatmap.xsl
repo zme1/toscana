@@ -20,7 +20,9 @@
     <!-- These variables will be used to create the graph's proportions and scale the rectangles' width and height. -->
     <xsl:template match="/">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 650">
-                <g transform="translate(200,{$yLength + 10})">
+                <g transform="translate(200,{$yLength + 40})">
+                    <text x="0" y="-{$yLength + 20}" text-anchor="start" fill="white"
+                        font-size="30px" text-decoration="underline">Figure 3</text>
                     <xsl:for-each select="$persons">
                         <xsl:variable name="currentPerson" as="xs:string" select="."/>
                         <xsl:variable name="idPerson" select="$root//act[@ref eq $currentPerson]/substring-after(@ref, '#')"/>

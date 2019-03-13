@@ -18,14 +18,13 @@
         max(/teiCorpus/teiCorpus/sum(descendant::seg[@subtype='sick']/num/@value/number()))
     -->
     <xsl:template match="/">
-        <h3>Sick Compensation to Lega Members</h3>
-        <hr class="min"/>
         <div class="sickCompContainer">
             <div class="sickCompSvg">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1450 500">
-                    <g transform="translate(150,470)">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1450 520">
+                    <g transform="translate(150,490)">
                         <xsl:apply-templates select="teiCorpus/teiCorpus"/>
-
+                        <text x="0" y="-{$yLength + 20}" text-anchor="start" fill="white"
+                            font-size="30px" text-decoration="underline">Figure 2</text>
                         <!-- Main axis lines -->
                         <line x1="0" y1="0" x2="{$xLength}" y2="0" stroke="white" stroke-width="1"/>
                         <line x1="0" y1="0" x2="0" y2="-{$yLength}" stroke="white" stroke-width="1"/>

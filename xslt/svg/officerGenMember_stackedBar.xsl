@@ -12,6 +12,8 @@
         <div class="activityStacked">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 730">
                 <g transform="translate(220,600)">
+                    <text x="0" y="-{$yLength + 20}" text-anchor="start" fill="white"
+                        font-size="30px" text-decoration="underline">Figure 4</text>
                     <xsl:apply-templates select="//year"/>
                     <line x1="0" y1="-{$yLength}" x2="{$xLength}" y2="-{$yLength}" stroke="white"
                         stroke-width="1"/>

@@ -11,12 +11,12 @@
         select="($xLength div 2) div (max(/teiCorpus/teiCorpus/count(descendant::list[@type = 'applicants']//item[not(persName[@role = 'rejected'])])) + 5)"/>
     <xsl:variable name="yrHeight" select="$barHeight + ($barInterval * 2)"/>
     <xsl:template match="/">
-        <h3>Cancellati and Accetati in the Lega Through the Years</h3>
-        <hr class="min"/>
         <div class="cancellatiContainer">
             <div class="cancellatiSvg">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 430">
-                    <g transform="translate(385,370)">
+                    <g transform="translate(385,400)">
+                        <text x="-{$xLength div 2}" y="-{$yHeight + 20}" text-anchor="start" fill="white"
+                            font-size="30px" text-decoration="underline">Figure 1</text>
                         <xsl:apply-templates select="/teiCorpus/teiCorpus" mode="svg"/>
                         <!-- Left vertical line -->
                         <line x1="-{$xLength div 2}" y1="-{$yHeight}" x2="-{$xLength div 2}" y2="0"
