@@ -21,17 +21,10 @@ hr.maj {
     background: #333;
     background-image: linear-gradient(to right, #5b463d, #faffff, #5b463d);
 }
-#menu {
+.menu {
     text-align: center;
     list-style-type: none;
     font-size: 130%;
-    overflow: hidden;
-}
-.sticky{
-    position: fixed;
-    top: 0;
-    width: 100%;
-    background-color: rgba(117, 117, 117, .9);
 }
 .dropdown {
     display: inline-block;
