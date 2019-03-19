@@ -69,6 +69,8 @@
                     <text x="-15" y="{$yScale * 24 + 5}" fill="white" text-anchor="middle">24</text>
                     <line x1="0" y1="{$yScale * 28}" x2="{$xLength}" y2="{$yScale * 28}"
                         stroke="white" stroke-dasharray="5,8" stroke-width="1"/>
+                    <line x1="0" y1="{$yScale * 32}" x2="{$xLength}" y2="{$yScale * 32}"
+                        stroke="white" stroke-dasharray="5,8" stroke-width="1"/>
                     <text x="-15" y="{$yScale * 32 + 5}" fill="white" text-anchor="middle">32</text>
                     
                     <!-- Top half of the graph -->
