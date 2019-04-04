@@ -119,15 +119,5 @@
             fill="#CE4B29" stroke="white"/>
         <text x="{($precedingCount * $angXValue) + (($totalCount * $angXValue) div 2)}"
             y="-{$yLength + 10}" text-anchor="middle" fill="white"><xsl:value-of select="$year"/></text>
-<!--        <xsl:choose>
-            <xsl:when test="preceding-sibling::teiCorpus">
-                <text x="{($precedingCount * $angXValue) + (($totalCount * $angXValue) div 2)}"
-                    y="-{$yLength + 10}" text-anchor="middle" fill="white"><xsl:value-of select="$year"/></text>
-            </xsl:when>
-            <xsl:otherwise>
-                <text x="{($precedingCount * $angXValue) + (($totalCount * $angXValue) div 2)}" y="-{$yLength + 10}" text-anchor="middle" fill="white">|</text>
-                <text x="{($precedingCount * $angXValue) + (($totalCount * $angXValue) div 2)}" y="-{$yLength + 20}" text-anchor="middle" fill="white"><xsl:value-of select="$year"/></text>
-            </xsl:otherwise>
-        </xsl:choose>-->
     </xsl:template>
 </xsl:stylesheet>
