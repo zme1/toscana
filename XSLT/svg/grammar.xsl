@@ -118,6 +118,8 @@
             height="{$ungrammaticalCount * $angYValue}" width="{$totalCount * $angXValue}"
             fill="#CE4B29" stroke="white"/>
         <text x="{($precedingCount * $angXValue) + (($totalCount * $angXValue) div 2)}"
-            y="-{$yLength + 10}" text-anchor="middle" fill="white"><xsl:value-of select="$year"/></text>
+            y="-{$yLength + 10}" text-anchor="middle" fill="white">
+            <xsl:value-of select="$year"/>
+        </text>
     </xsl:template>
 </xsl:stylesheet>
